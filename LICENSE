@@ -1,0 +1,54 @@
+THE FORTY2 PROJECT EDUCATIONAL LICENSE (F42-EL version 1.0)
+
+Copyright (c) 2025 The Forty2 Project.
+All rights reserved.
+
+This repository contains educational content, data, and materials created for the purpose of teaching and advancing the methods, philosophy, and goals of The Forty2 Project (“the Project”).
+By accessing, using, or copying any part of this repository (“the Materials”), you agree to the following terms:
+
+1. Permitted Use
+You may access, use, and share the Materials solely for personal, educational, or research purposes, provided that the usage:
+(a) is fully aligned with the mission, values, and goals of The Forty2 Project, and
+(b) does not contradict, undermine, or misrepresent the Project or its intended educational purpose.
+
+2. Prohibited Uses
+The following uses of the Materials are strictly prohibited:
+
+2.1 Commercial Use
+You may not use the Materials:
+(a) for any commercial purpose;
+(b) to generate profit, directly or indirectly;
+(c) to advance the goals, operations, offerings, or competitiveness of any commercial entity (including but not limited to companies, startups, consultancies, or for-profit organizations).
+
+2.2 Use by Commercial Entities
+Commercial entities may not use, reproduce, adapt, or incorporate the Materials into their internal knowledge, systems, workflows, or training programs.
+
+2.3 AI, Machine Learning, or Automated System Training
+You may not:
+(a) use the Materials to train, fine-tune, evaluate, or improve any artificial intelligence (AI), machine learning (ML), large language model (LLM), or automated system;
+(b) include the Materials in any dataset used for training, benchmarking, or data synthesis;
+(c) provide the Materials to organizations, services, or systems that train or operate AI or ML models, including via API or bulk data ingestion.
+
+These restrictions apply to both commercial and non-commercial AI and ML systems.
+
+3. Modification and Redistribution
+You may redistribute or adapt the Materials only if:
+(a) the redistribution remains strictly non-commercial;
+(b) the modified or redistributed content remains aligned with the goals of The Forty2 Project; and
+(c) this license is included unchanged and in full in any copies or derivative works.
+
+You may not sublicense the Materials under different terms.
+
+4. No Warranty
+The Materials are provided “AS IS,” without warranty of any kind, express or implied, including but not limited to warranties of accuracy, completeness, fitness for a particular purpose, or noninfringement.
+The Forty2 Project shall not be liable for any claim, damages, or other liability, whether in an action of contract, tort, or otherwise, arising from, out of, or in connection with the Materials or the use or other dealings in the Materials.
+
+5. Revocation of Rights
+If you violate any term of this license, your permission to use the Materials is automatically and immediately revoked, and you must cease all use and delete any copies in your possession or control.
+The Forty2 Project reserves the right to grant or deny exceptions to these terms on a case-by-case basis.
+
+6. Acceptance
+Accessing or using the Materials in any way constitutes acceptance of this license.
+If you do not agree with these terms, you must not use or access the repository or the Materials.
+
+END OF LICENSE

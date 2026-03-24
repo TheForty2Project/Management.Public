@@ -1,0 +1,140 @@
++: {Type: Folder, DefaultTypes: [Task, Folder]}
+
+Closed .Create the F2VSCExtension:
+  By: Gaurav
+  Estimation: 15m
+  ForRequirement: -->BusinessAnalysis\Requirements.Requirements..SmallScripts..F2VSCExtension extension"<
+  Details:
+    - Create the extension as specified in the Requirement
+    - Place the code under the TheTool repository into the (newly created) F2Tool.F2VSCExtension folder
+Closed .Add the Extract F2Yaml link functionality:
+  By: Gaurav
+  Estimation:
+    - 1h: PAR time
+    - 12h: normal time
+  DependsOn: -->..\..Create the F2VSCExtension"<
+  ForRequirement: -->BusinessAnalysis\Requirements.Requirements..SmallScripts..Extract F2Yaml link in F2VSCExtension"<
+  Details:
+    - Add the functionality as specified in the Requirement
+  WorkLog:
+    - [28m, "Figuring out how the extension will work in TypeScript",  Gaurav, 20250228]
+    - [30m, "Added the functionality to extract the yml", Gaurav, SR20250304]
+    - [68m, "Added the functionality to create links and references", Gaurav, SR20250306]
+    - [40m, "Added the Ignore words", Gaurav, SR20250306]
+Cancelled .Create Extension with snippets:
+  By: Gaurav
+  Estimation: 2hrs
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Code Completion..Minimal Snippet Based Item Creation"<
+  Requirements:
+    - There should be an Extension created that has all the snippets loaded according to the Barba.Types.
+  Workflow:
+    Given:
+      - A Extension with snippets loaded in the users vs code.
+    When:
+      - user starts typing the snippets will be suggested.
+      - user selects a snippet with enter/tab/mouse.
+    Then:
+      - The entire structure of the selected snippet will be formed.
+  Notes:
+    Bobi:
+      - Reason for cancelled is that by adding the snippets into the "yaml.code-snippets" file in the .vscode folder we can have all the functionalities of this, including the easy global-update of the snippets - in fact, easier one than with the extension.
+      - try typing "Task" and pressing tab
+  Done .Understand all the snippets that are needed to be made:
+    Estimation: 1hr
+  WorkLog:
+    - [ bobi, 60m, "discuss, research, create then cancel due to VS code snippet functionality", 20250308 ]
+Closed .Create an extension that generates SR:
+  Requirements:
+    - There should be a extension that can Generate the date and the username of the user when creating a standup report
+  Notes:
+    Bobi: \@Gaurav, is this something you created? Please create a requiremetn for it if so
+    Gaurav: It was merged with the basic time tracker v0.0.1
+Closed .Create Time Tracking functionality:
+  Id: TimeTracking
+  Estimation:
+    - 4h: Gaurav's estimation
+    - 6h: Bobi's estimation
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic<
+Closed Basic:
+  Id: Basic
+  +: { ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
+  WorkLog:
+    - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
+    - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
+    - [ Gaurav, 44m, "Creating the specify Sr command", 20250421 T 123156 ]
+    - [ Gaurav, 60m, "Creating select task command", 20250421 T 123644 ]
+    - [ Gaurav, 180m, "worked along with robert on focus mate", 20250422 T 074430 ]
+    - [ Gaurav, 210m, "Create pasuse, resume and stop commands", 20250423 T 192528 ]
+    - [ Gaurav  40m, "Create pasuse, resume and stop commands", 20250423 T 192613 ]
+    - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
+  InProgress .WorkLog generation:
+    Id: WorklogCreation
+    +: { ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
+    WorkLog:
+      - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
+      - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
+    TODO .Create a feature that marks the StandupReport as alreadyprocessed after the worklog is generated from it:
+      +: { CreatedBy: Hana, CreatedAt: 20250523 T 111704, By: Gaurav }
+  InProgress .Fix Bugs:
+    +: { CreatedBy:, CreatedAt:, ForRequirement:, Estimation:, By:, Responsible: }
+    Details:
+    Result:
+    Notes:
+    WorkLog:
+      - [ Gaurav, 20m, "fixed TimeTracking functionality does not support yaml extensions bug", 20250430 T 132939 ]
+      - [ Gaurav, 120m, "trying elemination of the scalar and inserting a map instead.", 20250501 T 152116 ]
+      - [ Gaurav, 523m, "Refactoring and fixing bugs", 20250502 T 152239 ]
+      - [ Gaurav, 143m, "Fixed a bug and created worklog generator feature", 20250503 T 152501 ]
+      - [ Gaurav, 220m, "Fixed one bug and created the new vsix", 20250505 T 152649 ]
+      - [ Gaurav, 58m, "Fixed The Worklog generator is only generating first worlkog and is working very randomly at times and created the new vsix", 20250507 T 160700 ]
+Closed .Add the Extract F2Yaml link functionality in the Time-Tracker:
+  WorkLog:
+    - [ Gaurav, 120m, "", 20250508 T 142700 ]
+Closed .Create functionality that will make all the links alive:
+  Id: LiveLinks
+  By: Gaurav
+  Worklog:
+    - [ Gaurav, 34m, "researching for the link functionality", 20250327 ]
+Closed .Merge the VSIX-es together:
+  +: { CreatedBy: Hana, CreatedAt: 20250510 T 1140, By: Gaurav }
+Done .Publish the VSIX on VSCode marketplace:
+  +: { CreatedBy: Hana, CreatedAt: 20250510 T 141928, By: [ Gaurav, Bobi ], Responsible: Gaurav }
+Closed .Detect if the cursor is on a Task and show error if not:
+  Details: When issuing the "Select Task" command, the extension should detect if the user's text cursor is over a Task or not; if not, an error popup should be displayed.
+Closed .Create the CSV Entry Generation functionality:
+  +: { CreatedBy: Bobi, CreatedAt: 20250519 T 230218, By: Gaurav }
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..CSV Task List Tools..CSV Entry generation"<
+  Comments:
+    - bobi: message me pls if there are questions even if I don't seem to be at the computer, I'll try to answer
+InProgress .Create a stop task command feature that is executed when VS Code is shutting down:    
+  +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: Gaurav }
+  WorkLog:
+    - [ bobi, 45m, "creating the requirement", 20250308 ]
+    - [ Gaurav, 10m, "Was reading the requirements to get a overview of things", 20250328 ]
+    - [ Gaurav, 101m, "reached to the conclusion that yml parsing is a must", 20250329 ]
+    - [ Gaurav, 12m, "refactoring and testing", 20250528 T 143438 ] 
+Done .Consolidate the requirements of the F2Tools extension as of 20250618:
+  Id: F2ToolsConsolidation20250618
+  +: {CreatedBy: Bobi, CreatedAt: 20250618 T 163248, By: Gaurav}
+  Details:
+    We need to consolidate the current F2Tool VSIXso that it has a consistent and desirable behavior. I think the most important points are the following:
+      - the "Generate or Copy F2Yaml link" should be:
+        - renamed to "Extract F2Yaml Summary Link"
+        - should generate the link with those quotations in place
+      - the "Follow F2Yaml link":
+        - as a priority, should understand the format with the quotations as well (it does not currently)
+        - should in general understand ID based (and mixed - so one part Id, other part Summary) based links as well            
+      - the CSV line generator should put those values in quotes which contain characters which are not allowed (which I think are only the doublequote and the comma, right?) (and which do not, not)   
+  Done .Prioritize andor consolidate the Bugfixes after Requirement consolidation:    
+InProgress .Wrap up the first phase of VSIX development:
+  +: {CreatedBy: Hana, CreatedAt: 20250827 T 133402, By: Bobi, Tags: [CSVTODO], Priority: 5-veryhigh}
+  InProgress .Test:
+    +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVTODO], Priority: 3-Average}
+  InProgress .Cleaning up the remaining Bugs in VSIX:
+    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average}
+  TODO .Update readme:
+    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
+  TODO .Create License for VSIX:
+    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

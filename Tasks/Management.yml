@@ -1,0 +1,104 @@
++: {Type: Folder, DefaultTypes: [Task, Folder]}
+
+TODO .Collect the tasks for the live management:
+  Details:
+    - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
+    - Also, Hana needs to learn into it properly
+    - Goals are:
+      - We have KPIs set up and measured, such as:
+        - Velocity
+        - Hours spent/day
+        - Points (~value) achieved per hour (=efficiency)
+        - Scope creep
+        - Points achieved per period
+      - We have milestones estimated
+      - Points system set up:
+        - such as:
+          - Achieving a milestone by a certain date is x, before x+y, after x-y points
+          - Completing a task is x points
+        - points should reflect the value of the achievement (e.g. Task), not (necessarily) the effort needed to reach it
+      - Tracking, evaluating and (re)planning done:
+        - Through events such as:
+          - Standups
+          - Retrospectives
+          - Plannings
+        - Based on the KPIs, corrective actions are taken (=we improve how we do things)
+      - Ideally:
+        - There are nice graphs (burndown, scope kreep, velocity/period, etc.)          
+  Workspace:
+    Phase1 targets:
+      - There's a plan up until the Phase 2 website roll out:
+        - with estimations        
+        - with expected completion dates for Phase1 and Phase2 - continuously tracked as the days progress
+      - At least bi-daily:
+        - standups
+        - short (15 min) retro and re-plan:
+          - as a result:
+            - plan updated (along with the completion dates)
+            - rules updated according to the experience
+      - At least weekly:
+        - proper retrospective and planning
+      - Points system trial:
+        - Points are assigned to things - milestones, tasks, requirements, etc.
+        - For this we might need extra Items, such as Requirements
+        - PM to lead this effort - so to propose a baseline system/points value at least
+    Tasks:
+      -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase1".."Decide:_ What should be included in this phase"<
+      -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase2".."Decide:_ What should be included in this phase"<    
+
+OnGoing .Creation of daily schedules:
+  Details: 
+    - Creating next day schedule      
+OnGoing .Health Log related administration:
+OnGoing .Management Tasks OCWSPhase1:
+  Id: ManagementOCWSPhase1
+  +: {CreatedBy: Hana, CreatedAt: 20251205 T 215929, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  Details: 
+    - Estimated Time: 20 Hours
+    - Bobis Average hour per day = 2 hrs
+    - Total Days to complete OCWSPhase 1 = 10days
+  OnGoing .Create Schedules:
+    +: {CreatedBy: Hana, CreatedAt: 20251205 T 215937, By: Hana}
+    Done .Create a schedule [7.12.2025 to 14.12.2025]:
+      +: {CreatedBy: Hana, CreatedAt: 20251205 T 215942, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 60m} 
+      Done .StandUp Schedule:
+          Done .20251210
+      Cancelled .Planning Meeting Schedule:
+      Cancelled .RetroSpective Schedule:
+    TODO .Create a schedule [20.12.2025 to 27.12.2025]:
+      +: {CreatedBy: Hana, CreatedAt: 20251219 T 231612, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+      TODO .StandUp Schedule:
+      TODO .Planning meeting and Retrospective:
+        TODO .20251220
+  OnGoing .Review Tasks of the day and standup preparation:
+    Notes:
+      - Go through the Schedule of Both Bobi and Hana:
+      - Write down any comments
+      - Go through Standup Preparation of Robi
+  OnGoing .Task Administration:
+    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
+    Details:
+      A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
+  OnGoing .Migration of tasks to CSV:
+    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212442, By: Hana}
+    Done .Set the tags (csvtodo) properly:
+      +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161824, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 0m}
+    OnGoing .Periodic syncs of Tasks-CSV:
+      Done .20251209:
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161901, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
+
+  OnGoing .Analysis of Tasks in CSV:
+    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
+    Details:
+      - Totals of: Estimated; Remaining; Count
+      - So that you have data for:
+        - scope creep: total scope (=total Estimated) per day
+        - burndown chart: total RemTime per day
+        - estimated finish: 
+    TODO .20251208:
+      +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161918, By: Bobi, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
+
+OnGoing .Review the specification under F2yaml.yml and enter your notes:
+  +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
+  
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

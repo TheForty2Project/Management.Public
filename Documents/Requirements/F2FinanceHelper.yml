@@ -1,1 +1,41 @@
-The requirements of the F2FinanceHelper tool, which allows distributing the responsibility of executing a blockchain based financial transaction using cryptographical means.
++: {Type: Folder, DefaultTypes: [Task, Folder]}
+
+Drafting .F2FinanceHelper:
+  Summary:
+    A console app which enables the safe handling of financial transactions:
+  Details:       
+    - Server - client:
+    - server:
+      - stores login information (encrypted, so e.g. hash+salt + maybe the public key part of a key)
+      - stores history:
+        - log-in and related events
+        - transaction:
+          - the transaction descriptor yaml
+          - the user name of the approvers of the transaction
+          - the results of the transaction:
+            - success
+            - timestamp
+            - keys distributed successfully
+      - Functionalities:
+        - log-in and related
+        - does transactions:
+          - MinApprovers number of clients have to send an encrypted (with their private key) transaction descriptor yaml (they have like 5 min from the first package to send it all)
+          - ensures that the minimum number of clients/users have a consensus about what transaction should happen:
+              In other words:
+                checks:
+                  if:
+                    NoOfLoggedInClients > Math.Max(3, minApprovers)
+                  where:    
+                    minApprovers specifies minimum how many users should be agreeing to the transaction.
+          - if MinApprovers all sent the same description:
+            - crypto address creation:
+              - creates the crypto address
+              - encrypts the private part of the crypto address and splits it up into NoOfLoggedInClients pieces in a way that MinApprovers no of splits is enough to be able to reconstruct the private key, but not less.
+              - the split is included into the transaction response yaml, which the server sends back encrypted with the client's public key to each client.
+            - crypto transactions:
+              - 
+          - the server sends back a transaction respone.yaml
+          - the clients have to confirm it back that they received the response
+          - the server       
+          
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

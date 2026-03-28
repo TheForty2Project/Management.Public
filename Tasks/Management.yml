@@ -97,7 +97,20 @@ OnGoing .Management Tasks OCWSPhase1:
         - estimated finish: 
     TODO .20251208:
       +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161918, By: Bobi, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
-
+  OnGoing .Hold planning meetings periodically:
+    Details:
+      - Create an entry in the Meetings/Plannings.yml, in the format:
+          Date in yyyymmdd format; under it:
+            - Participants entry, listing the participants
+            - Start+End time entry:
+            - Result entry
+      - Process the tasks created in it and leave a link to them
+    InProgress .20260328:
+      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
+      Done .Hold the meeting:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
+      TODO .Process the results:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation:, RemTime:}
 OnGoing .Review the specification under F2yaml.yml and enter your notes:
   +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
   

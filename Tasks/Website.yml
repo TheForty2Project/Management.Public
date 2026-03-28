@@ -464,12 +464,12 @@ InProgress .Back to original:
     Milestone: BarbaPapa
     Done .Schedule a Website design meeting:
       Milestone: BarbaPapa
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 163138, By: Hana, Tags: [CSVDONE]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 163138, By: Hana, Tags: [CSVTODO]}
     Done .Agree on the baseline design guidelines:
       Id: AgreeOnGuidelines
       +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161205, By: all }
       Cancelled .Find the video(s) and parts where the design was showcased:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162539, By: all, Tags: [CSVDONE]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162539, By: all, Tags: [CSVTODO]}
         Milestone: BarbaPapa
         Details:
           Put it into the Result of this task (so a link to the video and the from-to timestamp)
@@ -480,7 +480,7 @@ InProgress .Back to original:
         Result:
           We go "on the fly" - i.e. we sit in front of a baseline-designed site and change until we are happy.
     Done .Agree on the parts and their priorities:      
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162744, By: Bobi, Tags: [CSVDONE]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162744, By: Bobi, Tags: [CSVTODO]}
       Milestone: BarbaPapa
       DependsOn: -->Backlog\Development\..Website..BackToOrigi..DecidePartsAndDesign.."Schedule a Website design meeting"<
       Details:
@@ -539,10 +539,10 @@ InProgress .Back to original:
     Blocked .Implement the parts:
       Id: Parts
       Blocked .Placeholder for further elements:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161933, By: Bobi, Tags: [CSVDONE]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161933, By: Bobi, Tags: [CSVTODO]}
         DependsOn: -->Backlog\Development\..Website..BackToOrigi..DecidePartsAndDesign<
       Blocked .Landing page + content:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVDONE]}          
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVTODO]}          
         Details:
           - Mostly the current one      
         Blocked .Top section:
@@ -550,13 +550,13 @@ InProgress .Back to original:
           Details:
             The headline should - maybe - be "Work optimally and share fairly through computed management".
           Blocked .Placeholder for implementation:
-            +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVDONE]}
+            +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVTODO]}
             DependsOn: -->Backlog\Development\..Website..BackToOrigi..DecidePartsAndDesign<
         Blocked .FAQ:
-          +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162011, By: Bobi, Tags: [CSVDONE]}
+          +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162011, By: Bobi, Tags: [CSVTODO]}
           DependsOn: -->Backlog\Development\..Website..BackToOrigi..DecidePartsAndDesign<
       Blocked .Articles section:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162024, By: Bobi, Tags: [CSVDONE]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162024, By: Bobi, Tags: [CSVTODO]}
         DependsOn: -->Backlog\Development\..Website..BackToOrigi..DecidePartsAndDesign<
         Details:
           The current articles on the current site
@@ -569,15 +569,6 @@ InProgress .Back to original:
     Details:
       - The Shadow website links to the OriginalConcept one
       - We're gradually moving all content from the Shadow one to the OriginalConcept
-    InProgress .Integrate Shadow's site with the Deepdive one:
-      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
-      Details:
-        - do DNS setup
-        - add CTAs to the originalConcept site
-      Done .DNS setup:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
-      TODO .Add CTAs leading to the OriginalConcept site:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: 30m, RemTime: 30m}
     InProgress .Create the OriginalConcept site:
       +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004837, By: Bobi, Tags: [CSVTODO]}
       Done .Have the concept:
@@ -671,21 +662,20 @@ InProgress .Back to original:
             Blocked .Make the yamls downloadable as a package:
               Done .Decide:_ Maybe we should just link to the new repo?:
               Blocked .Implement:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase1],Estimation: 20m, RemTime: 20m}
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20m, RemTime: 20m}
                 DependsOn: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
                 Details:
                   - Simply add a link (with some text) to the Overview section
                   - Ensure and test that git is set up in a way that it's "read-only" for the public
           TODO .Add Fold All and Unfold ALl buttons:
             TODO .Try with a codex prompt:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20m, RemTime: 20m}
-              
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m, RemTime: 20m}
               Details:
                 Make sure that any change can be rolled back easily - so test it properly before building on it.
             NEXT .If the previous didn't work bug-free, do it manually:
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
           InProgress .Ability to follow links:
-            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 120m, RemTime: 30m}
+            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120m, RemTime: 30m}
             Estimation:
               - Pages are generated so that there are anchors: 40m
               - Update the generator: 80m
@@ -744,101 +734,120 @@ InProgress .Back to original:
           Done .Review phase1 structure:
             +: {CreatedBy: Bobi, CreatedAt: 20251128 T 022154, By: [Bobi, Hana], Tags: [CSVTODO]}
           Done .Implement phase1 structure:
-        InProgress .Implement the Phase1 non-deepdive pages:
-          TODO .Create phase1 Watch page:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30m}              
-            TODO .Create baseline:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO]}
-              Details:
-                - stream and/or video links (youtube, twitch)
-                - we'll put some videos probably later
-            NEXT .Review:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO]}
-            NEXT .Finalize and publish:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO]}
-          InProgress .Create phase1 Contact page:
-            +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m, RemTime: 30m}
-            Done .Create baseline:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVTODO]}
-              Workspace:
-                - email addresses
-                - Twitch
-                - whatelse?
-            TODO .Review it:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVTODO]}
-              Workspace:                
-                - Basically the "what else"? Hana, I need your input here     
-                - LinkedIn Maybe?
-                - GitHub  
-                - For future: 
-                  - Office hours on Twitch?
-                             
-            NEXT .Finalize and publish:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVTODO]}
-          InProgress .Create phase1 Support page:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO]}
-            Estimation: 4h
-            InProgress .BuyUsACoffee:
-              +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [CSVTODO]}
-              Done .Research :
-                +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVDONE]}
-              InProgress .Set up the account:
-                +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags: [CSVTODO]}
-                TODO .Create a bio for the account:
-                  +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m}                    
-                  TODO .Create a baseline:
-                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVTODO]}
-                  TODO .Review it with the team:
-                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVTODO]}             
-                  TODO .Finalize and upload it:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVTODO]}
-                Done .Add the payment info:
-                  Done .Create a stripe account:
-                    By: Hana
-                  Done .Fight it through with fucking support and solve the issue:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVTODO, OCWSPhase1]}
-                    Estimation: 2h
-                    Details:
-                      "This stripe connection is already in use, please choose another one"
-                    Result:
-                      Solved through creating a new account
-                Done .Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags: [CSVTODO]}
-                  Done .Stripe:
-                  Done .BuyUsACoffee:
-                  Result:
-                    For both we use 1 credential
-              NEXT .Implement:
-                +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m}
-                
+        InProgress .Implement the non-deepdive pages:
+          InProgress .Phase1:
+            TODO .Create Watch page:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30m}              
+              TODO .Create baseline:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO]}
                 Details:
-                  Integrate their embeddable into the support page
-            InProgress .Create baseline:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m, RemTime: 30m}                
-              Workspace:
-                - Work: 
-                    - we're preparing the processes so that you can:
-                      - pick a Task
-                      - clarify it
-                      - do it
-                      - edit it (including setting it to "Done")
-                      - report your hours                          
-                    - at the moment, if you want to work, please contact us with your idea and/or which Task(s) do you think you could do
-                - Invest/Support:
-                  - we're planning this to be an investment, at the moment the assurances are just our promises though
-                  - we'll need proper:
-                    - accounting (including that it's trusted)
-                    - finance processes, including the F2FinanceHelper (see the requriments)
-                  - this is not "now"  
-            NEXT .Review:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE, OCWSPhase1], Estimation: 10m}
-              
-            NEXT .Finalize and publish:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE, OCWSPhase1],Estimation: 20m}
-              
+                  - stream and/or video links (youtube, twitch)
+                  - we'll put some videos probably later
+              NEXT .Review:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO]}
+              NEXT .Finalize and publish:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO]}
+            InProgress .Create Contact page:
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 60m, RemTime: 30m}
+              Done .Create baseline ideas:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVTODO]}
+                Workspace:
+                  - email addresses
+                  - Twitch
+                  - whatelse?
+              TODO .Review it:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVTODO]}
+                Workspace:                
+                  - Basically the "what else"? Hana, I need your input here     
+                  - LinkedIn Maybe?
+                  - GitHub  
+                  - For future: 
+                    - Office hours on Twitch?                             
+              NEXT .Implement, finalize and publish:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVTODO]}
+            TODO .Create SupportUs page:
+              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1], Estimation:, RemTime:}
+              Details:
+                Just some text explaining what will be here
+              TODO .Rename "Support" to something less confusing:
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi], Tags: [CSVTODO], Estimation:, RemTime:}
+                TODO .Try finding something better than "Support us":
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVTODO], Estimation:, RemTime:}
+                NEXT .Rename it:                
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVTODO], Estimation: 5, RemTime: 5}
+              InProgress .Create content about what will be here:
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+                InProgress .Create baseline:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: 60m, RemTime: 30m}                
+                  Workspace:
+                    - Work: 
+                        - we're preparing the processes so that you can:
+                          - pick a Task
+                          - clarify it
+                          - do it
+                          - edit it (including setting it to "Done")
+                          - report your hours                          
+                        - at the moment, if you want to work, please contact us with your idea and/or which Task(s) do you think you could do
+                    - Invest/Support:
+                      - we're planning this to be an investment, at the moment the assurances are just our promises though
+                      - we'll need proper:
+                        - accounting (including that it's trusted)
+                        - finance processes, including the F2FinanceHelper (see the requriments)
+                      - this is not "now"  
+                NEXT .Review:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 10m}                
+                NEXT .Finalize and publish:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20m}
+          InProgress .Phase2:
+            InProgress .SupportUs page:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+              Estimation: 4h
+              InProgress .BuyUsACoffee:
+                +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+                Done .Research :
+                  +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVTODO]}
+                InProgress .Set up the account:
+                  +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags: [CSVTODO]}
+                  TODO .Create a bio for the account:
+                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m}                    
+                    TODO .Create a baseline:
+                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVTODO]}
+                    TODO .Review it with the team:
+                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVTODO]}             
+                    TODO .Finalize and upload it:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVTODO]}
+                  Done .Add the payment info:
+                    Done .Create a stripe account:
+                      By: Hana
+                    Done .Fight it through with fucking support and solve the issue:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVTODO, OCWSPhase1]}
+                      Estimation: 2h
+                      Details:
+                        "This stripe connection is already in use, please choose another one"
+                      Result:
+                        Solved through creating a new account
+                  Done .Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo:
+                    +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags: [CSVTODO]}
+                    Done .Stripe:
+                    Done .BuyUsACoffee:
+                    Result:
+                      For both we use 1 credential
+                NEXT .Implement:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 30m}                
+                  Details:
+                    Integrate their embeddable into the support page
+              TODO .Crypto:
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation:, RemTime:}
+                TODO .Resurrect Monero:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                TODO .Decide:_ Do we need anything else?:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                  
+              TODO .Placeholder for further tasks:
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
           Done .Disable/remove the ones planned later/not planned:
       Done .Create a new repository for the new set of yamls:
-        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVDONE, OCWSPhase1,], Estimation: 15m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVTODO, OCWSPhase1,], Estimation: 15m}
         Result:
           Created the file structure
           Also added a license - extra 15 minutes.
@@ -868,14 +877,13 @@ InProgress .Back to original:
                         - no platform or software restrictions - the core of the system is mostly just the conventions and rules, you're free to use any editor, repository or way to edit the files. Even in the era when we'll be using The F2Tool for these the yamls will look the same and serve the same purpose so you can even choose to go off-grid and do everything manually or by using your own software running on your computer you made from sticks and stones.
                       aimed for total automation: The end goal of the project is to have everything fully automated, that is, the system perfects itself without the need of human involvement - apart from asking the wishes of the users (~=us). This is almost a "magical" state and therefore is in the very distant future, still, one of the main design considerations is the ability to increasingly easier automate the Tasks we perform.
               Done .Review:
-                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVDONE, OCWSPhase1], Estimation: 10m}                  
+                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10m}                  
               TODO .Finalize and release:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20m}
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m}
                 Details:
-                  Result should be in 
-                                  
+                  Result should be in                                   
             InProgress .Syntax:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 180m, RemTime: 60m}                
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180m, RemTime: 60m}                
               Importance: 5-VeryHigh
               Details:
                 - only the most important things
@@ -961,13 +969,13 @@ InProgress .Back to original:
             InProgress .Tasks:
               InProgress .Software Development:
                 Done .The F2Tool:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20m (timeboxed)} 
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m (timeboxed)} 
                   Importance: 5-VeryHigh
                   Details:
                     The F2ToolDevelopment.yaml.
                     Including tasks about Requirements and Bugs
                 Paused .Website:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5m}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5m}
                   Importance: 5-VeryHigh
                   Details:
                     Basically this section
@@ -995,7 +1003,7 @@ InProgress .Back to original:
                 Importance: 4-High
               InProgress .Specifications:
                 InProgress .F2Yaml:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 120m (timeboxed)}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120m (timeboxed)}
                   Importance: 5-VeryHigh
                   Done .Plan:
                     Result:
@@ -1031,7 +1039,7 @@ InProgress .Back to original:
                   
 
                 Done .Barba.Types:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed)}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
               InProgress .Requirements:
                 InProgress .The F2Tool:
@@ -1044,12 +1052,12 @@ InProgress .Back to original:
                   Importance: 3-Average
             TODO .Meetings:
               TODO .Standup Reports:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 10m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
               TODO .Plannings:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 TODO .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
@@ -1061,7 +1069,7 @@ InProgress .Back to original:
                 TODO .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
               TODO .Retrospectives:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1],Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 TODO .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
@@ -1073,7 +1081,7 @@ InProgress .Back to original:
                 TODO .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
         Done .Write content for the knots:
-          +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60, RemTime: 60}
+          +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 60}
           Done .Decide the format and process:
             Details:
               - So separate html files, right?
@@ -1090,44 +1098,54 @@ InProgress .Back to original:
             Details:
           Done .Write the actual content:
         Done .Upload the phase1 yamls:
-          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m}
+          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m}
       NEXT .Generate the yaml links automatically:
         +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 180m, RemTime: 180m}
-    TODO .Shadow site todos:
+    InProgress .Shadow site todos:
       Done .Revise the homepage:
       OnHold .Revise the other pages:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVTODO]}
         Comments:
           [Bobi, 20251202, "Onhold because we might just move everything to the OriginalConcept site"]
-      Done .Change the "Building fair systems through Collaboration" to the one we decided:
+      InProgress .Change the "Building fair systems through Collaboration" to the one we decided:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVTODO], Priority: 5-VeryHigh}
         Details:
           - To "Work optimally and share fairly through computed management".  
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
+        TODO .Change it in the title bar:
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      InProgress .Integrate Shadow's site with the Deepdive one:
+        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
+        Details:
+          - do DNS setup
+          - add CTAs to the originalConcept site
+        Done .DNS setup:
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
+        TODO .Add CTAs leading to the OriginalConcept site:
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVTODO,  OCWSPhase1],  Estimation: 30m, RemTime: 30m}
       TODO .Move the top menu items to the left:
         Importance: Could
         Estimation: 10m
       TODO .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 5m}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 5m}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 1h}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 1h}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 1h}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 1h}
         Importance: Could          
         Details:
           - Article bzzzzs:
           - Boxes should be "merged" in Articles:
           - No animation for boxes in Articles:
-    TODO .Blockchain thing (i.e. the previous approach):
-      +: {CreatedBy: Bobi, CreatedAt: 20250918 T 203441, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 40m}        
-      Details:
+      TODO .Placeholder for unforeseen things:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation:, RemTime:}
     Done .Update the script to generate a version which can be used here:
       Id: UpdateTheGeneratorScript
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVDONE]}                      
+      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVTODO]}                      
     Done .Sync color coding with Barba.Types:
-      +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVDONE], Priority: 3-Average}    
+      +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVTODO], Priority: 3-Average}    
     InProgress .Go live:
       Estimation: 120m
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi, Tags: [CSVTODO]}
@@ -1138,17 +1156,19 @@ InProgress .Back to original:
         Done .Decide:_ What should be included in this phase:            
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana], Tags: [CSVTODO]}              
           Done .Create baseline:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 40m}
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 40m}
           Done .Review:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152917, By: [Hana, Bobi], Tags: [CSVDONE]}
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152917, By: [Hana, Bobi], Tags: [CSVTODO]}
           Result:
             - tagged them with "OCWSPhase1"
             - Transferred the ones tagged to CSV: OCWSPhase1.csv
         NEXT .Go live:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m}
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60m}
           Details:
             - Supposedly just a commit to the repo + the deploy command(s) for the other
             - If bugs... then fuck.
+        NEXT .Unforeseen issues:
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161521, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
       NEXT .Go live Phase2:
         +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi], Tags: [CSVTODO, OCWSPhase2]}
         TODO .Decide:_ What should be included in this phase:
@@ -1165,7 +1185,7 @@ InProgress .Back to original:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
       New .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1, NewCSVTODO], Estimation: 30m, RemTime: 30m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m, RemTime: 30m}
         Details:
           So far discovered:            
           - Maturity

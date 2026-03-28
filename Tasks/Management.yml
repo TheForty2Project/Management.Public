@@ -107,6 +107,8 @@ OnGoing .Management Tasks OCWSPhase1:
       - Process the tasks created in it and leave a link to them
     InProgress .20260328:
       +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
+      Details:
+          See at -->Meetings\Plannings\.MeetingNotes..20260328<          
       Done .Hold the meeting:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
       TODO .Process the results:

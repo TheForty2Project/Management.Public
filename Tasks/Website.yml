@@ -1179,18 +1179,25 @@ InProgress .Back to original:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
-      New .Fix the live site inception bug:
+      Accepted .Fix the live site inception bug:
         +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m, RemTime: 30m}
         Details:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
-      New .Some colors are missing from colors.json:
+      Accepted .Some colors are missing from colors.json:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m, RemTime: 30m}
         Details:
           So far discovered:            
           - Maturity
           - 4-AlmostDone, etc.
+          - \"TODO" and "Done"                      
+          - PropertyType, Type
           Go through Barba.Types:
+      Accepted .Fix colorings:
+        Details:
+      Accepted .Fix scrolling bug:
+        Details:
+          When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom          
 OnHold .Improvements:
   Id: Improvements
   Comments: [Bobi, 20251202, ""]

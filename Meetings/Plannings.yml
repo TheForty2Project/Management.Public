@@ -1,18 +1,22 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
-20260328:
-  Participants: [Bobi, Hana]
-  Result:
-    Tasks to be created:
-      In management:
-        TODO .Create the CSV:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160443, By: Hana, Tags: , Estimation:, RemTime:}
-          Details:
-            - Any existing CSVDONE tags should be replaced to CSVTODO before starting
-            - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
-        TODO .Merge the Tasks (I was working on) with the original set:
-        TODO .Provide estimations:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
+MeetingNotes:
+  .20260328:
+    Participants: [Bobi, Hana]
+    StartTime: 20260328 T 15:05
+    EndTime: 20260328 T 16:30
+    Result:
+      Tasks to be created:
+        In management:
+          TODO .Create the CSV:
+            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160443, By: Hana, Tags: , Estimation:, RemTime:}
+            Details:
+              - Any existing CSVDONE tags should be replaced to CSVTODO before starting
+              - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
+          InProgress .Merge the Tasks (I was working on) with the original set:
+            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
+          TODO .Provide estimations:
+            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

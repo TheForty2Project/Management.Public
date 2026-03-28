@@ -393,7 +393,7 @@ Tasks20260112:
       +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: [CSVTODO], Estimation: 16, RemTime: 0}
     Done .Create the knots files and their content for it:
       +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
-  CurrentFocus .Move the files to the Management.Public repo and switch to it:
+  Paused .Move the files to the Management.Public repo and switch to it:
     +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203728, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}    
     Done .Click on each file on the site and note if it's missing:
       +: {CreatedBy: Bobi, CreatedAt: 20260131 T 000532, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
@@ -420,15 +420,15 @@ Tasks20260112:
         - System/Types/Yaml.Rendering
         - System/Types
         - System/BusinessClasses
-    CurrentFocus .Move the files:
+    Paused .Move the files:
       +: {CreatedBy: Bobi, CreatedAt: 20260131 T 000520, By: Bobi, Tags: [CSVTODO], Estimation: 50, RemTime: 30}
       Done .Split up and move System Types:
       Done .Split up and move Tasks:
       Done .Split up and move Requirements:
       Done .Move syntax:
-      TODO .Create the Standups.yml:
+      Done .Create the Standups.yml:
         +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105300, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
-      CurrentFocus .Move my PublicWorkspace:
+      Done .Move my PublicWorkspace:
         +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105300, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: }
         Details:
           - figure out how to handle this in the new repo:
@@ -466,37 +466,32 @@ Tasks20260112:
                   Lorem ipsum dolor sit:
                 SRYYYMMDD:
                   Was: /#continuously updated while working, i.e. using the time tracking feature of the extension#
-        CurrentFocus .Implement:
+        Done .Implement:
           +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114336, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-          TODO .Move the current PublicWorkspace and Tasks for both of us:
+          Done .Move the current PublicWorkspace and Tasks for both of us:
           Done .Modify app.js:
           Done .Modify the generator config:
           Done .Update the description:
-          TODO .Generate, check and fix:
-      TODO .Move the Bugs:
+          Done .Generate, check and fix:
+      Done .Move the Bugs:
         +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105354, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
         Details:
           Include them into their respective "Tasks" file
+      Done .Fix the file locations in converter setup:      
       TODO .Move anything else:
         +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
         Details:
           Go through the existing files and see what needs to be moved
-      Done .Fix the file locations in converter setup:      
+        TODO .Move the BarbaF2YamlHtmlConverter related tasks:
+          +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
   TODO .Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well:
     +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
     TODO .Move the yaml parser to a separate project in The F2Tools project:
     NEXT .See what can be done to support the empty lines; if easy, do it:  
+
   .Bugs: 
     +: {Type: Folder, DefaultTypes: [Bug]}
-    Accepted .Fix colorings:
-      Details:
-        - \"TODO" and "Done" for example
-        - And:            
-            PropertyType
-            Type
-    Accepted .Fix scrolling bug:
-      Details:
-        When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom
+
 
 HanaTasks20250109:
   Workspace:  

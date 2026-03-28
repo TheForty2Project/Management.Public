@@ -851,6 +851,19 @@ InProgress .Back to original:
         Result:
           Created the file structure
           Also added a license - extra 15 minutes.
+      Done .Revise the structure of the Deepdive section:
+        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203542, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime:}
+        Details:
+          Context: A new folder and file structure was created in Management.Public
+          Tasks: rewrite the everything to support the new structure    
+        Done .Rewrite the app.js to show the revised Management.Public structure:
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 222627, By: Bobi, Tags: [CSVTODO], Estimation: 45, RemTime: 0}
+        Done .Rewrite the generator settings:
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225625, By: Bobi, Tags:  [CSVTODO], Estimation: 20, RemTime: 0}
+        Cancelled .Rewrite the generator to support giving file names to the result:
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: [CSVTODO], Estimation: 16, RemTime: 0}
+        Done .Create the knots files and their content for it:
+          +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}        
       InProgress .Clean up and write the yamls:
         Details:
           According to the structure here: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the Deepdive site".."Implement".."Revise the ToC"<
@@ -964,42 +977,42 @@ InProgress .Back to original:
 
                   Preceding "." as child Item: TODO
                   Plus sign as property id: TODO
-                  F2Links: TODO
+                  F2Links: TODO        
           InProgress .The Abyss:
-            InProgress .Tasks:
-              InProgress .Software Development:
+            Done .Tasks:
+              Done .Software Development:
                 Done .The F2Tool:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m (timeboxed)} 
                   Importance: 5-VeryHigh
                   Details:
                     The F2ToolDevelopment.yaml.
                     Including tasks about Requirements and Bugs
-                Paused .Website:
+                Done .Website:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5m}
                   Importance: 5-VeryHigh
                   Details:
                     Basically this section
                   Comments:
                     [Bobi, 20251207T2346, "Created the structure and copied the current. We should start using it from there but before we do, re-copy everything."]
-                TODO .F2ToolsExtension:
+                Done .F2ToolsExtension:
                   Importance: 2-Low
-                TODO .F2FinanceHelper:
+                Done .F2FinanceHelper:
                   Importance: 2-Low
-                TODO .Processes:
+                Done .Processes:
                   Importance: 3-Average
-              TODO .PublicRelations:
+              Done .PublicRelations:
                 Importance: 4-High
-              TODO .Documents:
-                TODO .Articles:
+              Done .Documents:
+                Done .Articles:
                   Importance: 3-Average
-                TODO .Specifications:                      
+                Done .Specifications:                      
                   Importance: 3-Average
-              TODO .Management:
+              Done .Management:
                 Importance: 4-High
             InProgress .Documents:
-              TODO .Articles:
+              TODO .Articles:                
                 Importance: 4-High
-              TODO .Processes:
+              Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:
                 InProgress .F2Yaml:
@@ -1026,8 +1039,6 @@ InProgress .Back to original:
                         +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20, RemTime: 20}
                         Details:
                           - See: -->DocsAndArticles\Specifications\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
-
-
                   TODO .Specifics:
                     TODO .BelongsTo:
                     TODO .InternalId:
@@ -1035,51 +1046,109 @@ InProgress .Back to original:
                     TODO .The dot notation:
                   TODO .Review and organize the rest:
                   TODO .F2Link:
-                      
-                  
-
                 Done .Barba.Types:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
-              InProgress .Requirements:
-                InProgress .The F2Tool:
+              Done .Requirements:
+                Done .The F2Tool:
                   Importance: 4-High
-                TODO .F2ToolsExtension:
+                Done .F2ToolsExtension:
                   Importance: 3-Average
-                TODO .F2FinanceHelper:
+                Done .F2FinanceHelper:
                   Importance: 3-Average
-                TODO .Processes:    
+                Done .Processes:    
                   Importance: 3-Average
-            TODO .Meetings:
-              TODO .Standup Reports:
+            InProgress .Meetings:
+              InProgress .Standup Reports:
                 +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
-              TODO .Plannings:
+              Done .Plannings:
                 +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
-                TODO .Create baseline:
+                Done .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
                   Details:
                     - Find the previous planning-data (if any)
                     - Decide whether any should be in the new repo; if so, create the new file and tailor the content into it
-                TODO .Review:
+                  Result:
+                    - We're not including the previous.
+                Done .Review:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVTODO]}
-                TODO .Finalize and publish:
+                Done .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
-              TODO .Retrospectives:
+              Done .Retrospectives:
                 +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
-                TODO .Create baseline:
+                Done .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
                   Details:
                     - Find the previous retro-data (if any)
                     - Decide whether any should be in the new repo; if so, create the new file and tailor the content into it
-                TODO .Review:
+                  Result:
+                    We're not inlcuding the previous.
+                Done .Review:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVTODO]}
-                TODO .Finalize and publish:
+                Done .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
+            Done .Move my PublicWorkspace:
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105300, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: }
+              Details:
+                - figure out how to handle this in the new repo:
+                - implement
+              Done .Figure out how to handle this in the new repo:
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114312, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                Result:
+                  - PublicWorkspace renamed to CurrentWork
+                  - We have to separate our private tasks from our public/publishable ones:
+                      Because:
+                        Analysis:
+                          Pros:
+                          - It's noise: there are lots of things to understand so let's limit it to the core; also, if it's "only for us", they wouldn't really understand - or, we 
+                          - Extra stress on us: could drain us, risk of postponing
+                          - Extra work: we'd "beautify" things, spend too much time on it (see how I spend looots of time on articles, like 10 or 100* as much as I'd spend if I'm writing some notes only for myself)
+                          - Point of attack: \"bad" people could ridicule us
+                          - Risks: some things should not be public, like private businesses
+                          Cons:
+                          - Would show that the project can be applied to other types of work as well
+                          - This "big brother" thing, that we might get audience who's just interested in our private life (the part where we do chores)
+                        Result:
+                          Pros seem to be more (not just in numbers, but effect), the uncertainties are very high though as this is "how society would react" and it's very-very hard to model the behavior of it
+                  - At the moment only 2 files:
+                    - the Workspace one. This should be periodically cleaned.
+                    - the TasksToBeSorted one
+                  - Ideally, the file structure for the Workspace.yml:
+                      SRYYYYMM[D-1][D-1]:
+                        Was:
+                        Next:
+                        AOIB:
+                      YYYYMMDD:
+                        -->Link.To.Task<:
+                          Workspace:
+                          Result:
+                        Lorem ipsum dolor sit:
+                      SRYYYMMDD:
+                        Was: /#continuously updated while working, i.e. using the time tracking feature of the extension#
+              Done .Implement:
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114336, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+                Done .Move the current PublicWorkspace and Tasks for both of us:
+                Done .Modify app.js:
+                Done .Modify the generator config:
+                Done .Update the description:
+                Done .Generate, check and fix:
+            Done .Move the Bugs:
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105354, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+              Details:
+                Include them into their respective "Tasks" file
+            Done .Fix the file locations in converter setup:      
+            TODO .Move anything else:
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+              Details:
+                Go through the existing files and see what needs to be moved
+              TODO .Move the BarbaF2YamlHtmlConverter related tasks:
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
         Done .Write content for the knots:
           +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 60}
           Done .Decide the format and process:
@@ -1099,6 +1168,10 @@ InProgress .Back to original:
           Done .Write the actual content:
         Done .Upload the phase1 yamls:
           +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m}
+      NEXT .Manually create the yaml links:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 180m, RemTime: 180m}
+        Details:
+          Go through the f2yaml links and replace them with html ones.
       NEXT .Generate the yaml links automatically:
         +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 180m, RemTime: 180m}
     InProgress .Shadow site todos:
@@ -1141,11 +1214,16 @@ InProgress .Back to original:
           - No animation for boxes in Articles:
       TODO .Placeholder for unforeseen things:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation:, RemTime:}
-    Done .Update the script to generate a version which can be used here:
-      Id: UpdateTheGeneratorScript
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVTODO]}                      
-    Done .Sync color coding with Barba.Types:
-      +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVTODO], Priority: 3-Average}    
+    OnGoing .BarbaF2YamlToHtmlConverter updates:
+      Done .Update the script to generate a version which can be used here:
+        Id: UpdateTheGeneratorScript
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVTODO]}                      
+      Done .Sync color coding with Barba.Types:
+        +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVTODO], Priority: 3-Average}    
+      TODO .Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well:
+        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        TODO .Move the yaml parser to a separate project in The F2Tools project:
+        NEXT .See what can be done to support the empty lines; if easy, do it:  
     InProgress .Go live:
       Estimation: 120m
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi, Tags: [CSVTODO]}

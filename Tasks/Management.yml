@@ -108,7 +108,7 @@ OnGoing .Management Tasks OCWSPhase1:
     InProgress .20260328:
       +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
       Details:
-          See at -->Meetings\Plannings\.MeetingNotes..20260328<          
+          See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
       Done .Hold the meeting:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
       TODO .Process the results:

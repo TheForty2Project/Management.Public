@@ -1,7 +1,7 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
 MeetingNotes:
-  .20260328:
+  .Planning20260328:
     Participants: [Bobi, Hana]
     StartTime: 20260328 T 15:05
     EndTime: 20260328 T 16:30
@@ -13,7 +13,7 @@ MeetingNotes:
             Details:
               - Any existing CSVDONE tags should be replaced to CSVTODO before starting
               - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
-          InProgress .Merge the Tasks (I was working on) with the original set:
+          Done .Merge the Tasks (I was working on) with the original set:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
           TODO .Provide estimations:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          

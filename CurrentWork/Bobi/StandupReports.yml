@@ -2,5 +2,7 @@ SR_NEXT_Bobi:
   Was:
     - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Merge the Tasks (I was working on) with the original set"<: [ 25m, "", 20260328 T 224725 ]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [ 10m, "Hairs", 20260328 T 225958 ]
+    - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 10m, "", 20260330 T 000146 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean up and write the yamls".."Write content for the leafs".."The Abyss".."Move anything else".."Move the F2YamlToHtmlConverter related tasks"<: [ 45m, "Including updating the site + converter + cleanups", 20260330 T 003955 ]
   Next:
     - null

@@ -15,7 +15,7 @@ MeetingNotes:
               - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
           Done .Merge the Tasks (I was working on) with the original set:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
-          TODO .Provide estimations:
+          InProgress .Provide estimations:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
 
 

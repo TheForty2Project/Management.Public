@@ -350,86 +350,7 @@ Done .Phase1:
     Cancelled .Create requirements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134040, By: everyone }
       CancelReason: we're going the other way around, meaning some test ideas are implemented and then we review and upgrade them; a bit more "agile".
-    Done .Create a script which converts yamls to html:
-      +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134055, By: [Bobi, Gaurav] }
-      ForRequirement: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<
-      Done .Create Requirement:
-        +: {CreatedBy: Bobi, CreatedAt: 20250806 T 192923, By: Bobi}
-        Done .Create HTML format specification:
-          +: { CreatedBy: Hana, CreatedAt: 20250725 T 122732, By: [Gaurav, Bobi] }
-          Estimation: 3 hours
-          Notes:
-            - Gaurav will provide the key to Utkarsh
-          Result: -->DocsAndArticles\Specifications\YamlToHtmlConversion\<
-        Done .Finish the requirement:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 193254, By: Bobi}
-          Result: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<
-      Done .Implementation:
-        +: { CreatedBy: Hana, CreatedAt: 20250725 T 123314, By: Bobi }            
-        Done .Plan the implementation:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 181621, By: Bobi}
-          Result:
-            There are the following Tasks:
-              - creating the requirement
-            Tasks:
-              - Refactor the existing code
-              - Implement reading the config file
-              - Implement the yaml to html converter
-              - Implement saving the json
-              - Final refactoring
-        Done .Refactor the existing code:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194356, By: Bobi, Tags: [CSVDONE]}
-        Done .Implement reading the config file:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194403, By: Bobi, Tags: []}
-        Done .Implement the yaml to html converter:        
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194408, By: Bobi, Tags: []}
-        Done .Implement saving the json:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194412, By: Bobi, Tags: []}
-        Done .Missed parts:
-          +: {CreatedBy: Bobi, CreatedAt: 20250809 T 202043, By: Bobi, Tags: []}
-        Cancelled .Improvements:
-          +: {CreatedBy: Bobi, CreatedAt: 20250809 T 202853, By: Bobi, Tags: [], Priority: 2-Low}
-          Cancelled .Move the YamlParser into a project so that it can be referenced from multiple projects:
-          Cancelled .Recognize properties and subitems based on their appearance in the configured .yamls:
-            +: {CreatedBy: Bobi, CreatedAt: 20250809 T 202938, By: Bobi, Tags: []}              
-            Cancelled .Create and parse config for the paths of files containing class and enum descriptions:
-            Cancelled .Go through the files, parse the yamls in them, get the values the enum members and property description:
-            Cancelled .A map key is a SubItem if it either starts with a "." or the first word is one of the enum statuses, otherwise :            
-        Done .Fixes:
-          Done .Use the style in the yaml in the html for rendering:
-            +: {CreatedBy: Bobi, CreatedAt: 20250809 T 233559, By: Bobi, Tags: []}
-            Details:
-              - Quotations
-              - Horizontal line                
-          Done .Use nbsp for indending strings:
-          Done .Recognize subItems - if the 2nd word starts with a .:
-          Done .Fix the coloring of subitems vs properties:
-          Cancelled .Fix map in sequence case:
-            Details:
-              there's an extra newline before the sequence after the colon
-            Result: |
-              This could work - but too hacky, so leave it up to Shadow.
-              <ul>
-                <li>Sequence:
-                  <ul>
-                    <li style="position: relative">
-                      <ul>
-                        <li style="position: absolute; top: 0em; left: 1em">Key1: Value1</li>
-                        <li>Key2: Value2</li>
-                      </ul>
-                    </li>
-                    <li style="position: relative">
-                      <ul>
-                        <li style="position: absolute; top: 0em; left: 1em">Key3: Value1</li>
-                        <li>Key4: Value2</li>
-                      </ul>
-                    </li>                      
-                  </ul>
-                </li>
-              </ul>
-        Cancelled .Final refactoring:
-          +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194439, By: Bobi, Tags: [CSVDONE]}        
-          CancelReason: It can be done the next time we touch it.
+    Done -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development..FirstPhase<:
     Cancelled .Create the deepdive section on the website which works by using json as datasource:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134109, By: Shadow }
     Cancelled .Create ToC for Deepdive:
@@ -444,10 +365,7 @@ InProgress .Back to original:
         -->Backlog\Development\..Website..Websitephase1..Deepdive<:
         -->Backlog\Development\..Website.."Improvements"..ProperInvest.."BuyUsACoffee"<:
         -->Backlog\Development\..Website..Websitephase1..WebsiteVersion2<:
-        TODO .Change the "Building fair systems through Collaboration" to the one we decided:
-          +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVTODO], Priority: 5-VeryHigh}
-          Details:
-            To "Work optimally and share fairly through computed management".
+        -->Tasks\Website\.."Back to original"..Intermediate.."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided"<:
       Include:
         - old engine with new design
         - revised content
@@ -657,25 +575,25 @@ InProgress .Back to original:
           Done .Add some space in between the end of a key and the beginning of its value (like "Details: Number of members")
           Done .YamlToHtmlConverter:_ Fix color rendering:
           Done .Sticky navigation bar:
-          Blocked .Make the yaml downloadable:              
+          TODO .Make the yaml downloadable:              
             Cancelled .As a single file:
-            Blocked .Make the yamls downloadable as a package:
+            TODO .Make the yamls downloadable as a package:
               Done .Decide:_ Maybe we should just link to the new repo?:
-              Blocked .Implement:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20m, RemTime: 20m}
+              TODO .Implement:
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20, RemTime: 20}
                 DependsOn: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
                 Details:
                   - Simply add a link (with some text) to the Overview section
                   - Ensure and test that git is set up in a way that it's "read-only" for the public
           TODO .Add Fold All and Unfold ALl buttons:
             TODO .Try with a codex prompt:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m, RemTime: 20m}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20, RemTime: 20}
               Details:
                 Make sure that any change can be rolled back easily - so test it properly before building on it.
             NEXT .If the previous didn't work bug-free, do it manually:
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
           InProgress .Ability to follow links:
-            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120m, RemTime: 30m}
+            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120, RemTime: 30}
             Estimation:
               - Pages are generated so that there are anchors: 40m
               - Update the generator: 80m
@@ -700,7 +618,7 @@ InProgress .Back to original:
           Importance: Must
           Done .Do baseline - use the old colors:
           Done .Revise the design with Hana:
-            Estimation: 20m, timeboxed
+            Estimation: 20, timeboxed
             Details:
               sit together and change the colors, etc.
             Result:
@@ -737,7 +655,7 @@ InProgress .Back to original:
         InProgress .Implement the non-deepdive pages:
           InProgress .Phase1:
             TODO .Create Watch page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30m}              
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30}              
               TODO .Create baseline:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO]}
                 Details:
@@ -748,7 +666,7 @@ InProgress .Back to original:
               NEXT .Finalize and publish:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO]}
             InProgress .Create Contact page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 60m, RemTime: 30m}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 30}
               Done .Create baseline ideas:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVTODO]}
                 Workspace:
@@ -778,7 +696,7 @@ InProgress .Back to original:
               InProgress .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
                 InProgress .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: 60m, RemTime: 30m}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 30}                
                   Workspace:
                     - Work: 
                         - we're preparing the processes so that you can:
@@ -795,9 +713,9 @@ InProgress .Back to original:
                         - finance processes, including the F2FinanceHelper (see the requriments)
                       - this is not "now"  
                 NEXT .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 10m}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                
                 NEXT .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20m}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20}
           InProgress .Phase2:
             InProgress .SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
@@ -809,7 +727,7 @@ InProgress .Back to original:
                 InProgress .Set up the account:
                   +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags: [CSVTODO]}
                   TODO .Create a bio for the account:
-                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m}                    
+                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}                    
                     TODO .Create a baseline:
                       +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVTODO]}
                     TODO .Review it with the team:
@@ -833,7 +751,7 @@ InProgress .Back to original:
                     Result:
                       For both we use 1 credential
                 NEXT .Implement:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 30m}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 30}                
                   Details:
                     Integrate their embeddable into the support page
               TODO .Crypto:
@@ -847,7 +765,7 @@ InProgress .Back to original:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
           Done .Disable/remove the ones planned later/not planned:
       Done .Create a new repository for the new set of yamls:
-        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVTODO, OCWSPhase1,], Estimation: 15m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVTODO, OCWSPhase1,], Estimation: 15}
         Result:
           Created the file structure
           Also added a license - extra 15 minutes.
@@ -890,13 +808,13 @@ InProgress .Back to original:
                         - no platform or software restrictions - the core of the system is mostly just the conventions and rules, you're free to use any editor, repository or way to edit the files. Even in the era when we'll be using The F2Tool for these the yamls will look the same and serve the same purpose so you can even choose to go off-grid and do everything manually or by using your own software running on your computer you made from sticks and stones.
                       aimed for total automation: The end goal of the project is to have everything fully automated, that is, the system perfects itself without the need of human involvement - apart from asking the wishes of the users (~=us). This is almost a "magical" state and therefore is in the very distant future, still, one of the main design considerations is the ability to increasingly easier automate the Tasks we perform.
               Done .Review:
-                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10m}                  
+                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                  
               TODO .Finalize and release:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m}
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20}
                 Details:
                   Result should be in                                   
             InProgress .Syntax:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180m, RemTime: 60m}                
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 60}                
               Importance: 5-VeryHigh
               Details:
                 - only the most important things
@@ -988,7 +906,7 @@ InProgress .Back to original:
                     The F2ToolDevelopment.yaml.
                     Including tasks about Requirements and Bugs
                 Done .Website:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5m}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5}
                   Importance: 5-VeryHigh
                   Details:
                     Basically this section
@@ -1142,13 +1060,13 @@ InProgress .Back to original:
               Details:
                 Include them into their respective "Tasks" file
             Done .Fix the file locations in converter setup:      
-            TODO .Move anything else:
-              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+            Done .Move anything else:
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
               Details:
                 Go through the existing files and see what needs to be moved
-              TODO .Move the BarbaF2YamlHtmlConverter related tasks:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-
+              Done .Move .vscode folder:
+              Done .Move the F2YamlToHtmlConverter related tasks:
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}                                  
         Done .Write content for the knots:
           +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 60}
           Done .Decide the format and process:
@@ -1167,13 +1085,13 @@ InProgress .Back to original:
             Details:
           Done .Write the actual content:
         Done .Upload the phase1 yamls:
-          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m}
+          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}
       NEXT .Manually create the yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 180m, RemTime: 180m}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 180}
         Details:
           Go through the f2yaml links and replace them with html ones.
       NEXT .Generate the yaml links automatically:
-        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 180m, RemTime: 180m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 180, RemTime: 180}
     InProgress .Shadow site todos:
       Done .Revise the homepage:
       OnHold .Revise the other pages:
@@ -1183,7 +1101,7 @@ InProgress .Back to original:
       InProgress .Change the "Building fair systems through Collaboration" to the one we decided:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVTODO], Priority: 5-VeryHigh}
         Details:
-          - To "Work optimally and share fairly through computed management".  
+          - To "Work optimally and share fairly through computed management".
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
         TODO .Change it in the title bar:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
@@ -1195,18 +1113,18 @@ InProgress .Back to original:
         Done .DNS setup:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
         TODO .Add CTAs leading to the OriginalConcept site:
-          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVTODO,  OCWSPhase1],  Estimation: 30m, RemTime: 30m}
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVTODO,  OCWSPhase1],  Estimation: 30, RemTime: 30}
       TODO .Move the top menu items to the left:
         Importance: Could
         Estimation: 10m
       TODO .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 5m}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 5}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 1h}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 1h}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
         Importance: Could          
         Details:
           - Article bzzzzs:
@@ -1214,16 +1132,7 @@ InProgress .Back to original:
           - No animation for boxes in Articles:
       TODO .Placeholder for unforeseen things:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation:, RemTime:}
-    OnGoing .BarbaF2YamlToHtmlConverter updates:
-      Done .Update the script to generate a version which can be used here:
-        Id: UpdateTheGeneratorScript
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVTODO]}                      
-      Done .Sync color coding with Barba.Types:
-        +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVTODO], Priority: 3-Average}    
-      TODO .Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well:
-        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-        TODO .Move the yaml parser to a separate project in The F2Tools project:
-        NEXT .See what can be done to support the empty lines; if easy, do it:  
+    InProgress -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development.."SecondPhase"<:
     InProgress .Go live:
       Estimation: 120m
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi, Tags: [CSVTODO]}
@@ -1234,14 +1143,14 @@ InProgress .Back to original:
         Done .Decide:_ What should be included in this phase:            
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana], Tags: [CSVTODO]}              
           Done .Create baseline:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 40m}
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 40}
           Done .Review:
             +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152917, By: [Hana, Bobi], Tags: [CSVTODO]}
           Result:
             - tagged them with "OCWSPhase1"
             - Transferred the ones tagged to CSV: OCWSPhase1.csv
         NEXT .Go live:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60m}
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
           Details:
             - Supposedly just a commit to the repo + the deploy command(s) for the other
             - If bugs... then fuck.
@@ -1258,12 +1167,12 @@ InProgress .Back to original:
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
       Accepted .Fix the live site inception bug:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m, RemTime: 30m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30, RemTime: 30}
         Details:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
       Accepted .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m, RemTime: 30m}
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30, RemTime: 30}
         Details:
           So far discovered:            
           - Maturity

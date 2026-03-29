@@ -2,7 +2,7 @@ namespace Barba.Types:
   Summary:
     - The Items we use for "business" purposes - e.g. Task, Requirement, etc.
   Comments:
-    - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. 'Barba' is coming from to the children cartoon 'BarbaPapa' where things were called BarbaSomething"]
+    - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. The term 'Barba' is a homage to the children cartoon 'BarbaPapa'"]
 
   class Folder:
     Inherits: StandardItem

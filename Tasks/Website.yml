@@ -948,13 +948,15 @@ InProgress .Back to original:
                   This Task is about the ~10 "Article" Items in the old repo, NOT the already published ones
                 Done .Migrate them from the old repo:
                   +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175132, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
-                NEXT .Decide:_ which ones should be published:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "15"}
+                Done .Decide:_ which ones should be published:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "0"}
                   Details:
                     - Go through them and see which ones should be published.
                     - Idea: the ones on which I'll be working on + any which are "good enough"
-                NEXT .Publish the ones decided above:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}                  
+                  Result:
+                    None - or, rather, the ones already published on the Shadow site
+                Cancelled .Publish the ones decided above:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
               Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:
@@ -972,10 +974,11 @@ InProgress .Back to original:
                   Done .Create overview:
                     Done .Item:
                     Done .Yaml representation:
-                  TODO .Syntax, semantics and Barba.Types should not be mixed:
+                  Done .Syntax, semantics and Barba.Types should not be mixed:
+                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
-                      - See: -->DocsAndArticles\Specifications\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
+                      - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
                   TODO .Overview:
                     TODO .Summary:
                       TODO .Create a ToC like thing from this:

@@ -488,6 +488,7 @@ InProgress .Back to original:
       - The Shadow website links to the OriginalConcept one
       - We're gradually moving all content from the Shadow one to the OriginalConcept
     InProgress .Create the OriginalConcept site:
+      Id: CreateSite
       +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004837, By: Bobi, Tags: [CSVTODO]}
       Done .Have the concept:
       Done .Set-up and try Codex:
@@ -575,25 +576,32 @@ InProgress .Back to original:
           Done .Add some space in between the end of a key and the beginning of its value (like "Details: Number of members")
           Done .YamlToHtmlConverter:_ Fix color rendering:
           Done .Sticky navigation bar:
-          TODO .Make the yaml downloadable:              
+          TODO .Make the yaml downloadable:
+            Id: MakeYamlsDownloadable
             Cancelled .As a single file:
             TODO .Make the yamls downloadable as a package:
+              Id: AsAPackage
               Done .Decide:_ Maybe we should just link to the new repo?:
+                Result: yes
               TODO .Implement:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20, RemTime: 20}
+                Id: Impl
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
                 DependsOn: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
                 Details:
                   - Simply add a link (with some text) to the Overview section
                   - Ensure and test that git is set up in a way that it's "read-only" for the public
           TODO .Add Fold All and Unfold ALl buttons:
+            Id: FoldAll
             TODO .Try with a codex prompt:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20, RemTime: 20}
+              Id: Codex
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
               Details:
                 Make sure that any change can be rolled back easily - so test it properly before building on it.
-            NEXT .If the previous didn't work bug-free, do it manually:
+            NEXT .If the previous didn't work bug-free, do it manually:              
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
           InProgress .Ability to follow links:
-            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120, RemTime: 30}
+            Id: LinkFollowing
+            +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Estimation: 120, RemTime: 30}
             Estimation:
               - Pages are generated so that there are anchors: 40m
               - Update the generator: 80m
@@ -612,6 +620,7 @@ InProgress .Back to original:
               Details:
               - Create anchors
             TODO .Perform the site setup as per the recommendations of ChatGPT:
+              +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: todo, RemTime: ""}
               Details:
                 https://chatgpt.com/share/6935da5e-e66c-8005-ae72-40435447f846                  
         Done .Do design:
@@ -782,11 +791,14 @@ InProgress .Back to original:
           +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: [CSVTODO], Estimation: 16, RemTime: 0}
         Done .Create the knots files and their content for it:
           +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}        
-      InProgress .Clean up and write the yamls:
+      InProgress .Clean, create or migrate the yamls:
+        Id: CreateYamls
         Details:
           According to the structure here: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the Deepdive site".."Implement".."Revise the ToC"<
-        InProgress .Write content for the leafs:
+        InProgress .Write content for the leaves:
+          Id: Leaves
           InProgress .Learn to Dive:
+            Id: LearnToDive
             InProgress .Overview:
               Importance: 5-VeryHigh
               Done .Work out baseline:
@@ -810,11 +822,11 @@ InProgress .Back to original:
               Done .Review:
                 +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                  
               TODO .Finalize and release:
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20}
-                Details:
-                  Result should be in                                   
+                Id: Finalize
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "20", RemTime: "20"}
             InProgress .Syntax:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 60}                
+              Id: Syntax
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 60}
               Importance: 5-VeryHigh
               Details:
                 - only the most important things
@@ -928,8 +940,11 @@ InProgress .Back to original:
               Done .Management:
                 Importance: 4-High
             InProgress .Documents:
-              TODO .Articles:                
+              TODO .Articles:
+                +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation:, RemTime:}
                 Importance: 4-High
+                Details:
+                  This Task is about the ~10 "Article" Items in the old repo, NOT the already published ones
               Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:

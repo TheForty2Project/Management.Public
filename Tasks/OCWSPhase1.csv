@@ -7,6 +7,8 @@
 # 3.3: Open the query window: Press 'Query' (next to CSVLint button in the bottom), check 'Input table has header'
 # 3.4: Order: Put "SELECT * ORDER BY a3, a6" to the textbox, press run then copy the result back to this one
 # 3.5: Sum: Queries are "SELECT sum(a2)" for sum of Estimation and "SELECT sum(a5)" for sum of RemTime; Run each and put the results as a new line like the example below
-*, Estimation, Status    , By, RemTime, IdLink                                                                                                                                                        , DependsOn
- ,           , InProgress,   ,        , "-->Tasks\Website\..""Back to original""..Intermediate..""Create the OriginalConcept site""..""Implement""..""Implement the non-deepdive pages""..""Phase1""<", 
-
+*, Estimation, DEL, Status, By  , DEL, RemTime, DEL, IdLink                                                                                                                                        , DependsOn
+ ,         20,    , TODO  , Bobi,    ,      20,    , "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..MakeYamlsDownloadable..AsAPackage..Impl<", 
+ ,         20,    , TODO  , Bobi,    ,      20,    , "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..FoldAll..Codex<"                         , 
+ , 20, , TODO, Bobi, , 20, , "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..""Overview""..Finalize<", 
+ , 20, , TODO, Bobi, , 20, , "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..""Overview""..Finalize<", 

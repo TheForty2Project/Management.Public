@@ -86,7 +86,16 @@ OnGoing .Management Tasks OCWSPhase1:
     OnGoing .Periodic syncs of Tasks-CSV:
       Done .20251209:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161901, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
-
+      InProgress .Re-create OCWSPhase1 CSV:
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+        Details:
+          - Including clean ups - or at least creating Tasks for them
+          - Create IDs for the Tasks which do not have
+      InProgress .Create OCWSPhase2 CSV:
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+        Details:
+          - Including clean ups - or at least creating Tasks for them
+          - Create IDs for the Tasks which do not have
   OnGoing .Analysis of Tasks in CSV:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
     Details:
@@ -113,6 +122,8 @@ OnGoing .Management Tasks OCWSPhase1:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
       TODO .Process the results:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation:, RemTime:}
+      TODO .Create a CSV for the management tasks as well:
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112146, By: Hana, Tags: [CSVTODO], Estimation:, RemTime:}
 OnGoing .Review the specification under F2yaml.yml and enter your notes:
   +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
   

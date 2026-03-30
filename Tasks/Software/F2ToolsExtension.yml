@@ -507,18 +507,33 @@ Bugs:
     Area: General
     Severity: 3-Average    
 
-  New .During Id link generation if the Item is a top level one, the value of the "Summary" field is used instead of the "Id" field:
+  New .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
     +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVTODO]}
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration
     Severity: 4-High    
+    Details:
+      Probably in cases where:
+        - if the Item is a top level one
+        - the Summary contains just one word
   
-  New .During CSV Generation, the property Priority data is misplaced to the Depends on proprty:
+  New .During CSV Generation extra fields are added:
     QA: Hana
     Version: 2.0.24
     Area: Link Generation
-    Severity: 3-Average
+    Severity: 4-High
+  
+  New .During CSV Generation if the value of a property is not a string, it fails:
+    QA: Bobi
+    Version: 2.0.24
+    Area: Link Generation
+    Severity: 4-High
+    Details:
+      \"str.Trim is not a function" if the value is e.g.:
+        number
+        null
+  
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -794,7 +794,8 @@ InProgress .Back to original:
       InProgress .Clean, create or migrate the yamls:
         Id: CreateYamls
         Details:
-          According to the structure here: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the Deepdive site".."Implement".."Revise the ToC"<
+          - According to the structure here: -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the Deepdive site".."Implement".."Revise the ToC"<
+          - For each, decide if we want to publish them on the site/not
         InProgress .Write content for the leaves:
           Id: Leaves
           InProgress .Learn to Dive:
@@ -940,11 +941,20 @@ InProgress .Back to original:
               Done .Management:
                 Importance: 4-High
             InProgress .Documents:
-              TODO .Articles:
-                +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation:, RemTime:}
+              InProgress .Articles:
+                +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi}
                 Importance: 4-High
                 Details:
                   This Task is about the ~10 "Article" Items in the old repo, NOT the already published ones
+                Done .Migrate them from the old repo:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175132, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
+                NEXT .Decide:_ which ones should be published:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "15"}
+                  Details:
+                    - Go through them and see which ones should be published.
+                    - Idea: the ones on which I'll be working on + any which are "good enough"
+                NEXT .Publish the ones decided above:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}                  
               Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:

@@ -499,7 +499,7 @@ TasksToBeSorted:
       Details:
         Expected revenue:
         Expected costs:
-    InProgress .Finish chicken farm sheet:
+    Cancelled .Finish chicken farm sheet:
       +: {Remaining: 180}
     Done .Answer Tammy:
       Details:            

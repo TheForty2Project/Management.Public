@@ -666,14 +666,16 @@ InProgress .Back to original:
             TODO .Create Watch page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30}              
               TODO .Create baseline:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO]}
+                Id: Baseline
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE]}
                 Details:
                   - stream and/or video links (youtube, twitch)
                   - we'll put some videos probably later
               NEXT .Review:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO]}
+                Id: Review
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE]}
               NEXT .Finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE]}
             InProgress .Create Contact page:
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 30}
               Done .Create baseline ideas:
@@ -824,10 +826,10 @@ InProgress .Back to original:
                 +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                  
               TODO .Finalize and release:
                 Id: Finalize
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "20", RemTime: "20"}
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
             InProgress .Syntax:
               Id: Syntax
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 60}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "60"}
               Importance: 5-VeryHigh
               Details:
                 - only the most important things
@@ -982,7 +984,7 @@ InProgress .Back to original:
                   TODO .Overview:
                     TODO .Summary:
                       TODO .Create a ToC like thing from this:
-                        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20, RemTime: 20}
+                        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
                         Details:
                           - See: -->DocsAndArticles\Specifications\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
                   TODO .Specifics:
@@ -1006,7 +1008,7 @@ InProgress .Back to original:
                   Importance: 3-Average
             InProgress .Meetings:
               InProgress .Standup Reports:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
@@ -1115,11 +1117,11 @@ InProgress .Back to original:
         Done .Upload the phase1 yamls:
           +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}
       NEXT .Manually create the yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 180, RemTime: 180}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "180"}
         Details:
           Go through the f2yaml links and replace them with html ones.
       NEXT .Generate the yaml links automatically:
-        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 180, RemTime: 180}
+        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "180", RemTime: "180"}
     InProgress .Shadow site todos:
       Done .Revise the homepage:
       OnHold .Revise the other pages:
@@ -1127,12 +1129,12 @@ InProgress .Back to original:
         Comments:
           [Bobi, 20251202, "Onhold because we might just move everything to the OriginalConcept site"]
       InProgress .Change the "Building fair systems through Collaboration" to the one we decided:
-        +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVTODO], Priority: 5-VeryHigh}
+        +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVDONE], Priority: 5-VeryHigh}
         Details:
           - To "Work optimally and share fairly through computed management".
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
         TODO .Change it in the title bar:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
       InProgress .Integrate Shadow's site with the Deepdive one:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
         Details:
@@ -1141,25 +1143,25 @@ InProgress .Back to original:
         Done .DNS setup:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
         TODO .Add CTAs leading to the OriginalConcept site:
-          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVTODO,  OCWSPhase1],  Estimation: 30, RemTime: 30}
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "30"}
       TODO .Move the top menu items to the left:
         Importance: Could
         Estimation: 10m
       TODO .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 5}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5"}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
         Importance: Could          
         Details:
           - Article bzzzzs:
           - Boxes should be "merged" in Articles:
           - No animation for boxes in Articles:
       TODO .Placeholder for unforeseen things:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation:, RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation:"", RemTime:""}
     InProgress -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development.."SecondPhase"<:
     InProgress .Go live:
       Estimation: 120m
@@ -1178,7 +1180,7 @@ InProgress .Back to original:
             - tagged them with "OCWSPhase1"
             - Transferred the ones tagged to CSV: OCWSPhase1.csv
         NEXT .Go live:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60}
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
           Details:
             - Supposedly just a commit to the repo + the deploy command(s) for the other
             - If bugs... then fuck.

@@ -1,5 +1,6 @@
 SR_NEXT_Hana:
   Was:
-    -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [90m, "", 20260328 T 15:10]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [ 90m, "", 20260328 T 15:10 ]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<: [ 156m, "", 20260330 T 174652 ]
   Next:
-  AOIB:
+    - null

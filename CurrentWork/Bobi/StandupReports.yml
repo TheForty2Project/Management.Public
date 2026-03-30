@@ -5,5 +5,7 @@ SR_NEXT_Bobi:
     - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 10m, "", 20260330 T 000146 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean up and write the yamls".."Write content for the leafs".."The Abyss".."Move anything else".."Move the F2YamlToHtmlConverter related tasks"<: [ 45m, "Including updating the site + converter + cleanups", 20260330 T 003955 ]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<: [ 54m, "", 20260330 T 112749 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls"<: [ 15m, "", 20260330 T 173903 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Articles".."Migrate them from the old repo"<: [ 10m, "", 20260330 T 175413 ]
   Next:
     - null

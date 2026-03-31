@@ -950,13 +950,15 @@ InProgress .Back to original:
                   This Task is about the ~10 "Article" Items in the old repo, NOT the already published ones
                 Done .Migrate them from the old repo:
                   +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175132, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
-                NEXT .Decide:_ which ones should be published:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "15"}
+                Done .Decide:_ which ones should be published:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "0"}
                   Details:
                     - Go through them and see which ones should be published.
                     - Idea: the ones on which I'll be working on + any which are "good enough"
-                NEXT .Publish the ones decided above:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}                  
+                  Result:
+                    None - or, rather, the ones already published on the Shadow site
+                Cancelled .Publish the ones decided above:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
               Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:
@@ -974,10 +976,11 @@ InProgress .Back to original:
                   Done .Create overview:
                     Done .Item:
                     Done .Yaml representation:
-                  TODO .Syntax, semantics and Barba.Types should not be mixed:
+                  Done .Syntax, semantics and Barba.Types should not be mixed:
+                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
-                      - See: -->DocsAndArticles\Specifications\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
+                      - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
                   TODO .Overview:
                     TODO .Summary:
                       TODO .Create a ToC like thing from this:
@@ -1004,7 +1007,7 @@ InProgress .Back to original:
                 Done .Processes:    
                   Importance: 3-Average
             InProgress .Meetings:
-              InProgress .Standup Reports:
+              Done .Standup Reports:
                 +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
@@ -1131,7 +1134,7 @@ InProgress .Back to original:
           - To "Work optimally and share fairly through computed management".
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
         TODO .Change it in the title bar:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"30"}
       InProgress .Integrate Shadow's site with the Deepdive one:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
         Details:
@@ -1207,9 +1210,8 @@ InProgress .Back to original:
           - \"TODO" and "Done"                      
           - PropertyType, Type
           Go through Barba.Types:
-      Accepted .Fix colorings:
-        Details:
       Accepted .Fix scrolling bug:
+        +: {CreatedBy: Bobi, CreatedAt: 20260331 T 004208, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "60", RemTime: "60"}
         Details:
           When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom          
 OnHold .Improvements:

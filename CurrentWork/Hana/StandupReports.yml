@@ -9,8 +9,9 @@ SR_20260401_Hana:
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."SyncAt20260401"<: [ 30m ]
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 110m, "", 20260401 T 115454 ]
-    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Process the results"<: [ 0m, "", 20260401 T 202502 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 140m, "", 20260401 T 115454 ]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Process the results"<: [ 12m, "", 20260401 T 202502 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create Management task list reports"<: [ 11m, "", 20260401 T 210810 ]
 
   Next:
     - null

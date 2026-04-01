@@ -1,55 +1,5 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-TODO .Collect the tasks for the live management:
-  Details:
-    - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
-    - Also, Hana needs to learn into it properly
-    - Goals are:
-      - We have KPIs set up and measured, such as:
-        - Velocity
-        - Hours spent/day
-        - Points (~value) achieved per hour (=efficiency)
-        - Scope creep
-        - Points achieved per period
-      - We have milestones estimated
-      - Points system set up:
-        - such as:
-          - Achieving a milestone by a certain date is x, before x+y, after x-y points
-          - Completing a task is x points
-        - points should reflect the value of the achievement (e.g. Task), not (necessarily) the effort needed to reach it
-      - Tracking, evaluating and (re)planning done:
-        - Through events such as:
-          - Standups
-          - Retrospectives
-          - Plannings
-        - Based on the KPIs, corrective actions are taken (=we improve how we do things)
-      - Ideally:
-        - There are nice graphs (burndown, scope kreep, velocity/period, etc.)          
-  Workspace:
-    Phase1 targets:
-      - There's a plan up until the Phase 2 website roll out:
-        - with estimations        
-        - with expected completion dates for Phase1 and Phase2 - continuously tracked as the days progress
-      - At least bi-daily:
-        - standups
-        - short (15 min) retro and re-plan:
-          - as a result:
-            - plan updated (along with the completion dates)
-            - rules updated according to the experience
-      - At least weekly:
-        - proper retrospective and planning
-      - Points system trial:
-        - Points are assigned to things - milestones, tasks, requirements, etc.
-        - For this we might need extra Items, such as Requirements
-        - PM to lead this effort - so to propose a baseline system/points value at least
-    Tasks:
-      -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase1".."Decide:_ What should be included in this phase"<
-      -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase2".."Decide:_ What should be included in this phase"<    
-
-OnGoing .Creation of daily schedules:
-  Details: 
-    - Creating next day schedule      
-OnGoing .Health Log related administration:
 OnGoing .General management:
   OnGoing .Task Administration:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
@@ -96,7 +46,7 @@ OnGoing .General management:
             See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
         Done .Hold the meeting:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
-        TODO .Process the results:
+        Done .Process the results:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
           Details:
             - Move the Tasks to their correct locations AND leave links pointing
@@ -111,12 +61,18 @@ OnGoing .General management:
     OnGoing .Creation:
       +: {CreatedBy: Hana, CreatedAt: 20260401 T 132906, By: PM}
       Done .Create OCWSPhase1 task list reports:
-        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133027, By: Hana, Tags: [CSVTODO], Estimation: 30m, RemTime: 150m}
-      TODO .Create Management task list reports:   
-        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m} 
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 0}
+      CurrentFocus .Create Management task list reports:
+        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70"} 
+        Details:
+          Include this Task as well in it
+      TODO .Create OCWSPhase2 task list reports:
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}
     OnGoing .Maintenance:
+      +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 90}      
       Details:
-        For Syncs:
+        Note: These tasks should disappear as soon as there are automatic queries. Right now these are created manually, into CSVs
+        For CSV Syncs:
           - IDEALLY - but we often miss these, so don't rely on the below:
             - if a line is changed in the CSV, there should be a * in front of them to signal that the Task should be updated
             - if a Task is changed or added in the Tasks, it should have a CSVTODO tag
@@ -131,61 +87,77 @@ OnGoing .General management:
             - check the CSVDONE ones:
               - remove the tags if you don't want to track them`
               - add them to the CSV if you do
-  
-OnGoing .Management Tasks OCWSPhase1:
-  Id: ManagementOCWSPhase1
-  +: {CreatedBy: Hana, CreatedAt: 20251205 T 215929, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  Details: 
-    - Estimated Time: 20 Hours
-    - Bobis Average hour per day = 2 hrs
-    - Total Days to complete OCWSPhase 1 = 10days
-  
-  TODO .Create the CSV:
-            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160443, By: Hana, Tags: , Estimation:, RemTime:}
-            Details:
-              - Any existing CSVDONE tags should be replaced to CSVTODO before starting
-              - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
-  OnGoing .Migration of tasks to CSV:
-    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212442, By: Hana}
-    Done .Set the tags (csvtodo) properly:
-      +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161824, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 0m}
-
-
-    OnGoing .Periodic syncs of Tasks-CSV:
-     
-      Done .SyncAt20251209:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161901, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
-      TODO .SyncAt20260401:
-        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 105442, By: Hana, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      TODO .SyncAt20260402:
+        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"} 
         Details:
-          See the parent task description
-      InProgress .Re-create OCWSPhase1 CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+          All CSVs - OCWSPhase1, Management
+      Scheduled .SyncAt20260403:
+        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "10", RemTime: "10", ScheduledAt: 20260403} 
         Details:
-          - Including clean ups - or at least creating Tasks for them
-          - Create IDs for the Tasks which do not have      
-      TODO .Create Management CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 102738, By: Hana, Tags: [CSVTODO], Estimation: 70 , RemTime: 70}
-      InProgress .Create OCWSPhase2 CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
-        Details:
-          - Including clean ups - or at least creating Tasks for them
-          - Create IDs for the Tasks which do not have
+          All CSVs - OCWSPhase1, Management
+    OnGoing .Analysis of Tasks in CSV:
+      +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
+      Details:
+        - Totals of: Estimated; Remaining; Count
+        - So that you have data for:
+          - scope creep: total scope (=total Estimated) per day
+          - burndown chart: total RemTime per day
+          - estimated finish: 
+      Scheduled .AnalysisAt20260408:
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70", ScheduledAt: 20260408}
 
-  OnGoing .Analysis of Tasks in CSV:
-    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
+OnGoing .Health Log related administration:
+InProgress .OCWSPhase1:
+  TODO .Collect the tasks for the live management:
     Details:
-      - Totals of: Estimated; Remaining; Count
-      - So that you have data for:
-        - scope creep: total scope (=total Estimated) per day
-        - burndown chart: total RemTime per day
-        - estimated finish: 
-    TODO .20251208:
-      +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161918, By: Bobi, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
-  
-OnGoing .Review the specification under F2yaml.yml and enter your notes:
-  +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
-  
+      - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
+      - Also, Hana needs to learn into it properly
+      - Goals are:
+        - We have KPIs set up and measured, such as:
+          - Velocity
+          - Hours spent/day
+          - Points (~value) achieved per hour (=efficiency)
+          - Scope creep
+          - Points achieved per period
+        - We have milestones estimated
+        - Points system set up:
+          - such as:
+            - Achieving a milestone by a certain date is x, before x+y, after x-y points
+            - Completing a task is x points
+          - points should reflect the value of the achievement (e.g. Task), not (necessarily) the effort needed to reach it
+        - Tracking, evaluating and (re)planning done:
+          - Through events such as:
+            - Standups
+            - Retrospectives
+            - Plannings
+          - Based on the KPIs, corrective actions are taken (=we improve how we do things)
+        - Ideally:
+          - There are nice graphs (burndown, scope kreep, velocity/period, etc.)          
+    Workspace:
+      Phase1 targets:
+        - There's a plan up until the Phase 2 website roll out:
+          - with estimations        
+          - with expected completion dates for Phase1 and Phase2 - continuously tracked as the days progress
+        - At least bi-daily:
+          - standups
+          - short (15 min) retro and re-plan:
+            - as a result:
+              - plan updated (along with the completion dates)
+              - rules updated according to the experience
+        - At least weekly:
+          - proper retrospective and planning
+        - Points system trial:
+          - Points are assigned to things - milestones, tasks, requirements, etc.
+          - For this we might need extra Items, such as Requirements
+          - PM to lead this effort - so to propose a baseline system/points value at least
+      Tasks:
+        -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase1".."Decide:_ What should be included in this phase"<
+        -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase2".."Decide:_ What should be included in this phase"<    
+  Done .Merge the Tasks (I was working on) with the original set:
+    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
+  Done .Provide estimations:
+    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
 
 

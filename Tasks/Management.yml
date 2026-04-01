@@ -51,21 +51,87 @@ OnGoing .Creation of daily schedules:
     - Creating next day schedule      
 OnGoing .Health Log related administration:
 OnGoing .General management:
-  OnGoing .Standup related:
-    +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101628, By: All}
-    OnGoing .Preparation:
-      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
-    OnGoing .Standup:
-      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
-  OnGoing .Review Tasks of the day and standup preparation:
-    Notes:
-      - Go through the Schedule of Both Bobi and Hana:
-      - Write down any comments
-      - Go through Standup Preparation of Robi
   OnGoing .Task Administration:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
     Details:
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
+  OnGoing .Standup related:
+    +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101628, By: All}
+    OnGoing .Preparation for participants:
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
+      Details: 
+        This is about creating the SR entry for the upcoming period:
+          - The entry should be in StandupReports.yml of the workspace folder creating this
+          - Rename the SR entry to the current date (SRyyyymmddUsername)
+          - Clean up tasks of the previous period (everything was recorded, correctly, etc); this is the "Was" part
+          - Pick the tasks (ideally from the CSVs) one wants to work on; this is the "Next" part
+          - If there are any other important business - mention them; this is the "AOIB" part
+          - Create the SR_NEXT_Username
+          - Don't forget to start and stop timer on this task.
+    OnGoing .Standup:
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
+      Details:
+        Steps:
+        - Time tracking:
+          - Issue "Specify standup report" command on the SR_NEXT_USername entry
+          - Start the timer on it
+        - Each member:
+          - Explains the important parts about what he/she was doing during the previous period by going through their Tasks in the "Was" part 
+          - Same for the Next part
+          - In case changes are decided, they are recorded
+        - Stop the time tracking
+  OnGoing .Planning related:
+    +: {CreatedBy: Hana, CreatedAt: 20260401 T 131746, By: Hana}
+    OnGoing .Hold periodically:
+      Details:
+        - Create an entry in the Meetings/Plannings.yml, in the format:
+            Date in yyyymmdd format; under it:
+              - Participants entry, listing the participants
+              - Start+End time entry:
+              - Result entry
+        - Process the tasks created in it and leave a link to them
+      InProgress .Planning 20260328:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
+        Details:
+            See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
+        Done .Hold the meeting:
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
+        TODO .Process the results:
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
+          Details:
+            - Move the Tasks to their correct locations AND leave links pointing
+            - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
+        -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:  
+  OnGoing .Retrospective related:
+    +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
+    OnGoing .Hold periodically:
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 130158, By: PM}
+  OnGoing .Task list reports (CSV):
+    +: {CreatedBy: Hana, CreatedAt: 20260401 T 131829, By: PM}
+    OnGoing .Creation:
+      +: {CreatedBy: Hana, CreatedAt: 20260401 T 132906, By: PM}
+      Done .Create OCWSPhase1 task list reports:
+        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133027, By: Hana, Tags: [CSVTODO], Estimation: 30m, RemTime: 150m}
+      TODO .Create Management task list reports:   
+        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m} 
+    OnGoing .Maintenance:
+      Details:
+        For Syncs:
+          - IDEALLY - but we often miss these, so don't rely on the below:
+            - if a line is changed in the CSV, there should be a * in front of them to signal that the Task should be updated
+            - if a Task is changed or added in the Tasks, it should have a CSVTODO tag
+          - RATHER - until we get used to the above process:
+            - check the statuses of the ones already in the CSV and update the CSV
+            - check if there's any "CSVTODO":
+              - Sync it with the CSV:
+                - IF you decide to track them:
+                  - Update the CSV with the change or generate the line if it was not yet tracked
+                - ELSE
+                  - remove the tags            
+            - check the CSVDONE ones:
+              - remove the tags if you don't want to track them`
+              - add them to the CSV if you do
+  
 OnGoing .Management Tasks OCWSPhase1:
   Id: ManagementOCWSPhase1
   +: {CreatedBy: Hana, CreatedAt: 20251205 T 215929, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
@@ -73,29 +139,20 @@ OnGoing .Management Tasks OCWSPhase1:
     - Estimated Time: 20 Hours
     - Bobis Average hour per day = 2 hrs
     - Total Days to complete OCWSPhase 1 = 10days
-  OnGoing .Create Schedules:
-    +: {CreatedBy: Hana, CreatedAt: 20251205 T 215937, By: Hana}
-    Done .Create a schedule [7.12.2025 to 14.12.2025]:
-      +: {CreatedBy: Hana, CreatedAt: 20251205 T 215942, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 60m} 
-      Done .StandUp Schedule:
-          Done .20251210
-      Cancelled .Planning Meeting Schedule:
-      Cancelled .RetroSpective Schedule:
-    TODO .Create a schedule [20.12.2025 to 27.12.2025]:
-      +: {CreatedBy: Hana, CreatedAt: 20251219 T 231612, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-      TODO .StandUp Schedule:
-      TODO .Planning meeting and Retrospective:
-        TODO .20251220
+  
+  TODO .Create the CSV:
+            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160443, By: Hana, Tags: , Estimation:, RemTime:}
+            Details:
+              - Any existing CSVDONE tags should be replaced to CSVTODO before starting
+              - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
   OnGoing .Migration of tasks to CSV:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212442, By: Hana}
     Done .Set the tags (csvtodo) properly:
       +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161824, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 0m}
+
+
     OnGoing .Periodic syncs of Tasks-CSV:
-      Details:
-        For Syncs:
-          - check the statuses of the ones already in the CSV and update
-          - check if there's any "CSVTODO"
-          - if there are any lines marked with *, update the Task
+     
       Done .SyncAt20251209:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161901, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
       TODO .SyncAt20260401:
@@ -106,8 +163,7 @@ OnGoing .Management Tasks OCWSPhase1:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
         Details:
           - Including clean ups - or at least creating Tasks for them
-          - Create IDs for the Tasks which do not have
-      
+          - Create IDs for the Tasks which do not have      
       TODO .Create Management CSV:
         +: {CreatedBy: Bobi, CreatedAt: 20260401 T 102738, By: Hana, Tags: [CSVTODO], Estimation: 70 , RemTime: 70}
       InProgress .Create OCWSPhase2 CSV:
@@ -115,6 +171,7 @@ OnGoing .Management Tasks OCWSPhase1:
         Details:
           - Including clean ups - or at least creating Tasks for them
           - Create IDs for the Tasks which do not have
+
   OnGoing .Analysis of Tasks in CSV:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
     Details:
@@ -125,27 +182,10 @@ OnGoing .Management Tasks OCWSPhase1:
         - estimated finish: 
     TODO .20251208:
       +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161918, By: Bobi, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
-  OnGoing .Hold planning meetings periodically:
-    Details:
-      - Create an entry in the Meetings/Plannings.yml, in the format:
-          Date in yyyymmdd format; under it:
-            - Participants entry, listing the participants
-            - Start+End time entry:
-            - Result entry
-      - Process the tasks created in it and leave a link to them
-    InProgress .20260328:
-      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
-      Details:
-          See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
-      Done .Hold the meeting:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
-      TODO .Process the results:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
-        Details:
-          - Move the Tasks to their correct locations AND leave links pointing
-          - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
-      -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:
+  
 OnGoing .Review the specification under F2yaml.yml and enter your notes:
   +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
   
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
+
+

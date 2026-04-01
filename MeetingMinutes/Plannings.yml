@@ -8,11 +8,8 @@ MeetingNotes:
     Result:
       Tasks to be created:
         In management:
-          TODO .Create the CSV:
-            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160443, By: Hana, Tags: , Estimation:, RemTime:}
-            Details:
-              - Any existing CSVDONE tags should be replaced to CSVTODO before starting
-              - Try updating the parent "By" properties so that they include all the users mentioned in their leaf "By" properties
+          TODO .Create the CSV: 
+            Details:-->Tasks\Management\.."Management Tasks OCWSPhase1".."Create the CSV"<
           Done .Merge the Tasks (I was working on) with the original set:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
           InProgress .Provide estimations:

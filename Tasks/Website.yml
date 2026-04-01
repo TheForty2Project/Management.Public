@@ -664,20 +664,22 @@ InProgress .Back to original:
         InProgress .Implement the non-deepdive pages:
           InProgress .Phase1:
             TODO .Create Watch page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [CSVTDONE, OCWSPhase1], Estimation: 30}              
-              TODO .Create baseline:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
+              Done .Create baseline:
                 Id: Baseline
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE]}
                 Details:
                   - stream and/or video links (youtube, twitch)
                   - we'll put some videos probably later
-              NEXT .Review:
+              TODO .Review:
                 Id: Review
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "60"}
               NEXT .Finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30"}
+                Details:
+                  Including creating the menu structure
             InProgress .Create Contact page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 30}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Done .Create baseline ideas:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVTODO]}
                 Workspace:
@@ -685,7 +687,7 @@ InProgress .Back to original:
                   - Twitch
                   - whatelse?
               TODO .Review it:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVTODO]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVTODO], Estimation: "30"}
                 Workspace:                
                   - Basically the "what else"? Hana, I need your input here     
                   - LinkedIn Maybe?
@@ -693,21 +695,23 @@ InProgress .Back to original:
                   - For future: 
                     - Office hours on Twitch?                             
               NEXT .Implement, finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVTODO]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVTODO], Estimation: "30"}
+                Details:
+                  Including creating the menu structure
             TODO .Create SupportUs page:
-              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1], Estimation:, RemTime:}
+              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Details:
                 Just some text explaining what will be here
               TODO .Rename "Support" to something less confusing:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi], Tags: [CSVTODO], Estimation:, RemTime:}
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
                 TODO .Try finding something better than "Support us":
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVTODO], Estimation:, RemTime:}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
                 NEXT .Rename it:                
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVTODO], Estimation: 5, RemTime: 5}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVTODO], Estimation: "5", RemTime: "5"}
               InProgress .Create content about what will be here:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
                 InProgress .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 30}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "30"}
                   Workspace:
                     - Work: 
                         - we're preparing the processes so that you can:
@@ -724,9 +728,9 @@ InProgress .Back to original:
                         - finance processes, including the F2FinanceHelper (see the requriments)
                       - this is not "now"  
                 NEXT .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
                 NEXT .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 20}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO], Estimation: "20", RemTime: "20"}
           InProgress .Phase2:
             InProgress .SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
@@ -823,7 +827,7 @@ InProgress .Back to original:
                         - no platform or software restrictions - the core of the system is mostly just the conventions and rules, you're free to use any editor, repository or way to edit the files. Even in the era when we'll be using The F2Tool for these the yamls will look the same and serve the same purpose so you can even choose to go off-grid and do everything manually or by using your own software running on your computer you made from sticks and stones.
                       aimed for total automation: The end goal of the project is to have everything fully automated, that is, the system perfects itself without the need of human involvement - apart from asking the wishes of the users (~=us). This is almost a "magical" state and therefore is in the very distant future, still, one of the main design considerations is the ability to increasingly easier automate the Tasks we perform.
               Done .Review:
-                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: 10}                  
+                +: {CreatedBy: Bobi, CreatedAt: 20251201 T 213915, By: [Bobi, Hana], Tags: [CSVTODO, OCWSPhase1], Estimation: "10"}                  
               TODO .Finalize and release:
                 Id: Finalize
                 +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
@@ -943,7 +947,7 @@ InProgress .Back to original:
               Done .Management:
                 Importance: 4-High
             InProgress .Documents:
-              InProgress .Articles:
+              Done .Articles:
                 +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi}
                 Importance: 4-High
                 Details:
@@ -963,8 +967,7 @@ InProgress .Back to original:
                 Importance: 4-High
               InProgress .Specifications:
                 InProgress .F2Yaml:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 120m (timeboxed)}
-                  Importance: 5-VeryHigh
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
                   Done .Plan:
                     Result:
                       The task structure below
@@ -984,16 +987,22 @@ InProgress .Back to original:
                   TODO .Overview:
                     TODO .Summary:
                       TODO .Create a ToC like thing from this:
-                        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
+                        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
                         Details:
                           - See: -->DocsAndArticles\Specifications\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
                   TODO .Specifics:
                     TODO .BelongsTo:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                     TODO .InternalId:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                     TODO .Workspace and Command Line differences:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                     TODO .The dot notation:
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                   TODO .Review and organize the rest:
+                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                   TODO .F2Link:
+                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
                 Done .Barba.Types:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
@@ -1006,14 +1015,14 @@ InProgress .Back to original:
                   Importance: 3-Average
                 Done .Processes:    
                   Importance: 3-Average
-            InProgress .Meetings:
+            Done .Meetings:
               Done .Standup Reports:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
               Done .Plannings:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE], Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 Done .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
@@ -1027,7 +1036,7 @@ InProgress .Back to original:
                 Done .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
               Done .Retrospectives:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1],Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO],Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 Done .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
@@ -1144,24 +1153,24 @@ InProgress .Back to original:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
         TODO .Add CTAs leading to the OriginalConcept site:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "30"}
+      TODO .Relearn how to edit Shadow's site:
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
       TODO .Move the top menu items to the left:
         Importance: Could
         Estimation: 10m
       TODO .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5"}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "5"}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}
         Importance: Could          
         Details:
           - Article bzzzzs:
           - Boxes should be "merged" in Articles:
           - No animation for boxes in Articles:
-      TODO .Placeholder for unforeseen things:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161334, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation:"", RemTime:""}
     InProgress -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development.."SecondPhase"<:
     InProgress .Go live:
       Estimation: 120m

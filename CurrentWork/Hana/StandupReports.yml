@@ -1,6 +1,12 @@
-SR_NEXT_Hana:
+SR_20260401_Hana:
   Was:
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [ 90m, "", 20260328 T 15:10 ]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<: [ 156m, "", 20260330 T 174652 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 51m, "", 20260401 T 102129 ]
   Next:
-    - null
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Process the results"<: [70m]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Create Management CSV"< [90m]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."SyncAt20260401"<: [30m]
+
+SR_NEXT_Hana:
+  

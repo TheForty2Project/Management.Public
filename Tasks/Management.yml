@@ -50,6 +50,22 @@ OnGoing .Creation of daily schedules:
   Details: 
     - Creating next day schedule      
 OnGoing .Health Log related administration:
+OnGoing .General management:
+  OnGoing .Standup related:
+    +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101628, By: All}
+    OnGoing .Preparation:
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
+    OnGoing .Standup:
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101657, By: All}
+  OnGoing .Review Tasks of the day and standup preparation:
+    Notes:
+      - Go through the Schedule of Both Bobi and Hana:
+      - Write down any comments
+      - Go through Standup Preparation of Robi
+  OnGoing .Task Administration:
+    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
+    Details:
+      A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
 OnGoing .Management Tasks OCWSPhase1:
   Id: ManagementOCWSPhase1
   +: {CreatedBy: Hana, CreatedAt: 20251205 T 215929, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
@@ -70,27 +86,30 @@ OnGoing .Management Tasks OCWSPhase1:
       TODO .StandUp Schedule:
       TODO .Planning meeting and Retrospective:
         TODO .20251220
-  OnGoing .Review Tasks of the day and standup preparation:
-    Notes:
-      - Go through the Schedule of Both Bobi and Hana:
-      - Write down any comments
-      - Go through Standup Preparation of Robi
-  OnGoing .Task Administration:
-    +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
-    Details:
-      A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
   OnGoing .Migration of tasks to CSV:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212442, By: Hana}
     Done .Set the tags (csvtodo) properly:
       +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161824, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 0m}
     OnGoing .Periodic syncs of Tasks-CSV:
-      Done .20251209:
+      Details:
+        For Syncs:
+          - check the statuses of the ones already in the CSV and update
+          - check if there's any "CSVTODO"
+          - if there are any lines marked with *, update the Task
+      Done .SyncAt20251209:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161901, By: Hana, Tags: [CSVTODO], Estimation: 15m, RemTime: 15m}
+      TODO .SyncAt20260401:
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 105442, By: Hana, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+        Details:
+          See the parent task description
       InProgress .Re-create OCWSPhase1 CSV:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
         Details:
           - Including clean ups - or at least creating Tasks for them
           - Create IDs for the Tasks which do not have
+      
+      TODO .Create Management CSV:
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 102738, By: Hana, Tags: [CSVTODO], Estimation: 70 , RemTime: 70}
       InProgress .Create OCWSPhase2 CSV:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
         Details:
@@ -121,9 +140,11 @@ OnGoing .Management Tasks OCWSPhase1:
       Done .Hold the meeting:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
       TODO .Process the results:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation:, RemTime:}
-      TODO .Create a CSV for the management tasks as well:
-        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112146, By: Hana, Tags: [CSVTODO], Estimation:, RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
+        Details:
+          - Move the Tasks to their correct locations AND leave links pointing
+          - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
+      -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:
 OnGoing .Review the specification under F2yaml.yml and enter your notes:
   +: {CreatedBy: Hana, CreatedAt: 20260109 T 182412, By: Hana, Tags: [CSVTODO], Estimation: 60m, RemTime: 0m}
   

@@ -1008,12 +1008,12 @@ InProgress .Back to original:
                   Importance: 3-Average
             InProgress .Meetings:
               Done .Standup Reports:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 10m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
               Done .Plannings:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 Done .Create baseline:
                   +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}

@@ -1,4 +1,4 @@
-SR_NEXT_Bobi:
+SR_20260401_Bobi:
   Was:
     - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Merge the Tasks (I was working on) with the original set"<: [ 25m, "", 20260328 T 224725 ]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [ 10m, "Hairs", 20260328 T 225958 ]
@@ -8,5 +8,11 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls"<: [ 15m, "", 20260330 T 173903 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Articles".."Migrate them from the old repo"<: [ 12m, "", 20260330 T 175413 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Articles".."Decide:_ which ones should be published"<: [ 3m, "", 20260330 T 180702 ]
+    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Task Administration"<: [ 6m, "", 20260401 T 101536 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 51m, "", 20260401 T 102129 ]
   Next:
-    - null
+    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 30m (timeboxed) ]
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement".."Implement the non-deepdive pages".."Phase1"<: [ 30m ]
+    - Not decided yet...:
+
+SR_NEXT_Bobi:

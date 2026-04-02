@@ -85,19 +85,20 @@ Done .F2YamlToHtmlConverter:
               </li>
             </ul>
       Cancelled .Final refactoring:
-        +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194439, By: Bobi, Tags: [CSVDONE]}        
+        +: {CreatedBy: Bobi, CreatedAt: 20250806 T 194439, By: Bobi}
         CancelReason: It can be done the next time we touch it.
     InProgress .SecondPhase:
       Done .Update the script to generate a version which can be used for the OriginalConcept site:
         Id: UpdateTheGeneratorScript
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi, Tags: [CSVTODO]}                      
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162053, By: Bobi}                      
       Done .Sync color coding with Barba.Types:
-        +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Tags: [CSVTODO], Priority: 3-Average}    
+        +: {CreatedBy: Bobi, CreatedAt: 20250902 T 182700, By: [Hana, Giselle], Priority: 3-Average}    
       TODO .Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well:
-        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation:, RemTime:}
         TODO .Move the yaml parser to a separate project in The F2Tools project:
           +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-        NEXT .See what can be done to support the empty lines; if easy, do it:  
+        NEXT .See what can be done to support the empty lines; if easy, do it: 
+          +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
   OnGoing .Bugs:
 
 

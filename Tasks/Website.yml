@@ -673,21 +673,22 @@ InProgress .Back to original:
                   - we'll put some videos probably later
               TODO .Review:
                 Id: Review
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "60"}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
               NEXT .Finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30"}
+                Id: Publish
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
             InProgress .Create Contact page:
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Done .Create baseline ideas:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVTODO]}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVDONE]}
                 Workspace:
                   - email addresses
                   - Twitch
                   - whatelse?
               TODO .Review it:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVTODO], Estimation: "30"}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Workspace:                
                   - Basically the "what else"? Hana, I need your input here     
                   - LinkedIn Maybe?
@@ -695,7 +696,7 @@ InProgress .Back to original:
                   - For future: 
                     - Office hours on Twitch?                             
               NEXT .Implement, finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVTODO], Estimation: "30"}
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
             TODO .Create SupportUs page:
@@ -705,13 +706,13 @@ InProgress .Back to original:
               TODO .Rename "Support" to something less confusing:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
                 TODO .Try finding something better than "Support us":
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
                 NEXT .Rename it:                
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVTODO], Estimation: "5", RemTime: "5"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "5"}
               InProgress .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
                 InProgress .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "30"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "30"}
                   Workspace:
                     - Work: 
                         - we're preparing the processes so that you can:
@@ -728,9 +729,9 @@ InProgress .Back to original:
                         - finance processes, including the F2FinanceHelper (see the requriments)
                       - this is not "now"  
                 NEXT .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
                 NEXT .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVTODO], Estimation: "20", RemTime: "20"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
           InProgress .Phase2:
             InProgress .SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
@@ -1135,7 +1136,7 @@ InProgress .Back to original:
       +: {CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
       Done .Revise the homepage:
       OnHold .Revise the other pages:
-        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Comments:
           [Bobi, 20251202, "Onhold because we might just move everything to the OriginalConcept site"]
       Done .Change the "Building fair systems through Collaboration" to the one we decided:
@@ -1144,9 +1145,9 @@ InProgress .Back to original:
           - To "Work optimally and share fairly through computed management".
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
         Done .Change it in the title bar:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVTODO], Estimation:"30", RemTime:"0"}
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"0"}
       InProgress .Integrate Shadow's site with the Deepdive one:
-        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi}
         Details:
           - do DNS setup
           - add CTAs to the originalConcept site
@@ -1155,7 +1156,7 @@ InProgress .Back to original:
         TODO .Add CTAs leading to the OriginalConcept site:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "30"}
       Done .Relearn how to edit Shadow's site:
-        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Result:
           Repo is: https://github.com/TheForty2Project/TF2PWebsite.git
           IF install is needed then I think: npm install
@@ -1164,10 +1165,11 @@ InProgress .Back to original:
             Login: npx wrangler login
             Deploy: npx wrangler pages deploy out --project-name=tf2p-project-wrang
       TODO .Move the top menu items to the left:
+        +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163406, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
         Importance: Could
         Estimation: 10m
       Done .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "5", RemTime: "0"}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "0"}
         Importance: Must
       TODO .Redesign the main site to black:
         +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}
@@ -1182,44 +1184,42 @@ InProgress .Back to original:
     InProgress -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development.."SecondPhase"<:
     InProgress .Go live:
       Estimation: 120m
-      +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi}
       Details:          
         Including last touches
       InProgress .Go live Phase1:
-        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi], Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi]}
         Done .Decide:_ What should be included in this phase:            
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana], Tags: [CSVTODO]}              
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana]}
           Done .Create baseline:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 40}
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152858, By: [Bobi, Hana], Estimation: 40}
           Done .Review:
-            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152917, By: [Hana, Bobi], Tags: [CSVTODO]}
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152917, By: [Hana, Bobi]}
           Result:
             - tagged them with "OCWSPhase1"
             - Transferred the ones tagged to CSV: OCWSPhase1.csv
-        NEXT .Go live:
+        Blocked .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
           Details:
             - Supposedly just a commit to the repo + the deploy command(s) for the other
             - If bugs... then fuck.
-        NEXT .Unforeseen issues:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 161521, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      NEXT .Go live Phase2:
-        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi], Tags: [CSVTODO, OCWSPhase2]}
+      Blocked .Go live Phase2:
+        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi], Tags: [OCWSPhase2]}
         TODO .Decide:_ What should be included in this phase:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana], Tags: [CSVTODO]}
           Workspace:
-            - we tag them with "OCWSPhase1"
+            - we tag them with "OCWSPhase2"
         NEXT .Go live:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
       Accepted .Fix the live site inception bug:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30, RemTime: 30}
+        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "30", RemTime: "30"}
         Details:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
       Accepted .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30, RemTime: 30}
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "30", RemTime: "30"}
         Details:
           So far discovered:            
           - Maturity

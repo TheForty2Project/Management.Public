@@ -73,6 +73,7 @@ OnGoing .General management:
       Details:
         Note: These tasks should disappear as soon as there are automatic queries. Right now these are created manually, into CSVs
         For CSV Syncs:
+          Sync:
           - IDEALLY - but we often miss these, so don't rely on the below:
             - if a line is changed in the CSV, there should be a * in front of them to signal that the Task should be updated
             - if a Task is changed or added in the Tasks, it should have a CSVTODO tag
@@ -87,14 +88,17 @@ OnGoing .General management:
             - check the CSVDONE ones:
               - remove the tags if you don't want to track them`
               - add them to the CSV if you do
-      TODO .SyncAt20260402:
+          Generate sums:
+            - Estimation total
+            - Remaining total
+      CurrentFocus .SyncAt20260402:
         +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"} 
         Details:
-          All CSVs - OCWSPhase1, Management
+          All CSVs - OCWSPhase1, OCWSPhase2, Management      
       Scheduled .SyncAt20260403:
         +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "10", RemTime: "10", ScheduledAt: 20260403} 
         Details:
-          All CSVs - OCWSPhase1, Management
+          All CSVs - OCWSPhase1, OCWSPhase2, Management
     OnGoing .Analysis of Tasks in CSV:
       +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
       Details:
@@ -108,6 +112,12 @@ OnGoing .General management:
 
 OnGoing .Health Log related administration:
 InProgress .OCWSPhase1:
+  TODO .Clean up the CSVTODO tags:
+    +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+    Details:
+      - Both in the Website Tasks and here (Management)
+      - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
+      - Only those should keep the CSVDONE tags which are present in one of the CSVs
   TODO .Collect the tasks for the live management:
     Details:
       - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves

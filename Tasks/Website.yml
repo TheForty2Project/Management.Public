@@ -1132,34 +1132,42 @@ InProgress .Back to original:
       NEXT .Generate the yaml links automatically:
         +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "180", RemTime: "180"}
     InProgress .Shadow site todos:
+      +: {CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
       Done .Revise the homepage:
       OnHold .Revise the other pages:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVTODO]}
         Comments:
           [Bobi, 20251202, "Onhold because we might just move everything to the OriginalConcept site"]
-      InProgress .Change the "Building fair systems through Collaboration" to the one we decided:
+      Done .Change the "Building fair systems through Collaboration" to the one we decided:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVDONE], Priority: 5-VeryHigh}
         Details:
           - To "Work optimally and share fairly through computed management".
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
-        TODO .Change it in the title bar:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"30"}
+        Done .Change it in the title bar:
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVTODO], Estimation:"30", RemTime:"0"}
       InProgress .Integrate Shadow's site with the Deepdive one:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi, Tags: [CSVTODO]}
         Details:
           - do DNS setup
           - add CTAs to the originalConcept site
         Done .DNS setup:
-          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVTODO]}
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVDONE]}
         TODO .Add CTAs leading to the OriginalConcept site:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "30"}
-      TODO .Relearn how to edit Shadow's site:
-        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+      Done .Relearn how to edit Shadow's site:
+        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
+        Result:
+          Repo is: https://github.com/TheForty2Project/TF2PWebsite.git
+          IF install is needed then I think: npm install
+          Deploy steps:
+            Build: npm run build 
+            Login: npx wrangler login
+            Deploy: npx wrangler pages deploy out --project-name=tf2p-project-wrang
       TODO .Move the top menu items to the left:
         Importance: Could
         Estimation: 10m
-      TODO .Remove the "TF2P" text:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "5"}
+      Done .Remove the "TF2P" text:
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "5", RemTime: "0"}
         Importance: Must
       TODO .Redesign the main site to black:
         +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}

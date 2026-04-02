@@ -62,7 +62,7 @@ OnGoing .General management:
       +: {CreatedBy: Hana, CreatedAt: 20260401 T 132906, By: PM}
       Done .Create OCWSPhase1 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 0}
-      CurrentFocus .Create Management task list reports:
+      Done .Create Management task list reports:
         +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70"} 
         Details:
           Include this Task as well in it

@@ -8,9 +8,9 @@
 # 3.4: Order: Put "SELECT * ORDER BY a3, a6" to the textbox, press run then copy the result back to this one
 # 3.5: Sum: Queries are "SELECT sum(a2)" for sum of Estimation and "SELECT sum(a5)" for sum of RemTime; Run each and put the results as a new line like the example below
 # 665                                 350        2026-03-30 20:15
-*, Estimation, Status      , By  , RemTime, IdLink                                                                                                                             , DependsOn
- ,         90, TODO        , Hana,      90, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create OCWSPhase2 task list reports""<", 
- ,         30, TODO        , Hana,      30, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
- ,         10, Scheduled   , Hana,      10, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"                  , 
- ,         70, Scheduled   , Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
- ,         70, CurrentFocus, Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 
+*, Estimation, Status   , By  , RemTime, IdLink                                                                                                                             , DependsOn
+ ,         90, TODO     , Hana,      90, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create OCWSPhase2 task list reports""<", 
+ ,         30, TODO     , Hana,      30, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
+ ,         10, Scheduled, Hana,      10, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"                  , 
+ ,         70, Scheduled, Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
+ ,         70, Done     , Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 

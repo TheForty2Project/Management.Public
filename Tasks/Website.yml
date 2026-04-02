@@ -662,6 +662,7 @@ InProgress .Back to original:
             +: {CreatedBy: Bobi, CreatedAt: 20251128 T 022154, By: [Bobi, Hana], Tags: [CSVTODO]}
           Done .Implement phase1 structure:
         InProgress .Implement the non-deepdive pages:
+          Id: NonDD
           InProgress .Phase1:
             TODO .Create Watch page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
@@ -711,8 +712,8 @@ InProgress .Back to original:
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "5"}
               InProgress .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
-                InProgress .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "30"}
+                Done .Create baseline ideas:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
                   Workspace:
                     - Work: 
                         - we're preparing the processes so that you can:
@@ -728,8 +729,8 @@ InProgress .Back to original:
                         - accounting (including that it's trusted)
                         - finance processes, including the F2FinanceHelper (see the requriments)
                       - this is not "now"  
-                NEXT .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+                TODO .Work it out:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "40", RemTime: "40"}
                 NEXT .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
           InProgress .Phase2:

@@ -167,7 +167,20 @@ InProgress .OCWSPhase1:
     +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
   Done .Provide estimations:
     +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
-
+  TODO .Cleanup workspace:
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 130948, Tags: [OCWSPhase1]}
+    Details:
+      - Move to archive or even delete the Items we don't want to be there (not public, garbage, old, etc.).
+      - Note that as everything is in the repo history, we don't need to be too careful with deletion
+    TODO .Bobi:
+      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+    TODO .Hana:
+      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}    
+  TODO .Update F2yaml links:
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    Details:
+      - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
+      - If not, put some comment behind it, like #MISSINGLINK and_some_note_if_necessary
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
 
 

@@ -672,9 +672,16 @@ InProgress .Back to original:
                 Details:
                   - stream and/or video links (youtube, twitch)
                   - we'll put some videos probably later
-              TODO .Review:
+              InProgress .Review:
                 Id: Review
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+                Details:
+                  - Stream on Twitch 
+                  - Edited Videos on Youtube (2 to 3 x a week)
+                  - Insights on X and Reddit
+                  - LinkedIn later phases
+                Summary:
+                  - Twitch,Youtube, X and Reddit links maybe?
               NEXT .Finalize and publish:
                 Id: Publish
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
@@ -706,9 +713,20 @@ InProgress .Back to original:
                 Just some text explaining what will be here
               TODO .Rename "Support" to something less confusing:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
-                TODO .Try finding something better than "Support us":
+                Done .Try finding something better than "Support us":
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
-                NEXT .Rename it:                
+                  WorkSpace:
+                    Other names:
+                      - Help us Build
+                      - Make it possible
+                      - Fuel the work
+                      - Build with us/contribute 
+                      - Join the mission
+                      - COntribute
+                      - Participate
+                      - Engage
+                      - Collaborate
+                TODO .Rename it:                
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "5"}
               InProgress .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}

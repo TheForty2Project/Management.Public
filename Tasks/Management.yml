@@ -91,7 +91,7 @@ OnGoing .General management:
           Generate sums:
             - Estimation total
             - Remaining total
-      CurrentFocus .SyncAt20260402:
+      Done .SyncAt20260402:
         +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"} 
         Details:
           All CSVs - OCWSPhase1, OCWSPhase2, Management      

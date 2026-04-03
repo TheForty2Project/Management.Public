@@ -10,7 +10,7 @@
 *, Estimation, Status    , By  , RemTime, IdLink                                                                                                                             , DependsOn
  ,         30, TODO      , Hana,      30, "-->Tasks\Management\..""OCWSPhase1""..""Clean up the CSVTODO tags""<"                                                             , 
  ,         90, TODO      , Hana,      90, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create OCWSPhase2 task list reports""<", 
- ,         30, InProgress, Hana,      30, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
+ ,         30, Done, Hana,      30, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
  ,         10, Scheduled , Hana,      10, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"                  , 
  ,         70, Scheduled , Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
  ,         70, Done      , Hana,      70, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 

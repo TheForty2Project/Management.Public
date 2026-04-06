@@ -197,7 +197,7 @@
               - The starter is responsible for initializing the referenced project(s) - e.g. calling their DependencyInjection.Initialize() methods in the correct order - and typically starting the IMainGovernor, for which they should typically register their own implementation.
               - The starter should initialize the referenced project(s) before starting the IMainGovernor - and hence it should allow the IMainGovernor to be replaced.
           Implemented .Basic Starters w/o dynamic loading:
-            .-->Requirements..F2Tool..F2Console..Starter functionalities<:
+            .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Console".."Technical architecture".."Starter functionalities"<:
           Estimated .Dynamic loading of projects:
             Category: Nice
             Estimation: 
@@ -215,7 +215,7 @@
                 - "void Stop()": The governor stops its services
               - Each governor should be registered into the IOC container as a named registration for IGovernor, with their class name as name
               - IMainGovernor is an "empty" IGovernor descendant interface; Governors capable of being the "main" governor - which can start others and perform general initialization, etc. - should implement this instead of IGovernor
-            .-->Requirements..F2Tool..F2Console..Governor..Basic<:
+            .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Technical Architecture".."Basic Starter and Governor based architecture".."Governor".."Basic Governor"<:
             .-->Requirements..F2Tool..F2Server..Governor..Basic<:
         <-Task-:
           Done Clean up the previous loaders and things:
@@ -1188,7 +1188,7 @@
             - It is an IMainGovernor
             - Should initialize, load modules and start listening to commands
             - Should have a command for starting (and listing) other governors
-          .-->Requirements..F2Tool..F2Console..Console based command processing..Basic commands..StartGovernor<:
+          .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Console".."Console based command processing".."Basic commands"..Governor.."StartGovernor"<:
           <-Task-:
             Done Implement Basic Governor:
               Estimation: 30m

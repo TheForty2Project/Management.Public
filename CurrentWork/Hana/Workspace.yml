@@ -1,8 +1,195 @@
 +: { Type: Folder, AllowedTypes: [ Task, Folder ] }
 
 
+TODO 20260406:
+
+-->Tasks\Management\.."OCWSPhase1".."Update F2yaml links"<:
+  Time: 10:46 - 11:30
+  Public Relation:
+  Details:
+Public Relations:
+    - Line 124: 
+      - Search 8
+      - Status: Done
+      - -->Tasks\PublicRelations\..WrittenMarketing.."Write thoughts on X".."Definition of Fair".."Write the definition of Fair"<
+    - Line 165:
+      - Search: 9
+      - Status: Done
+    - Line173:
+      - Search: 10 
+      - Status: #MISSINGLINK 
+    - Line183:
+      - Search: 11
+      - Status: Done
+      - -->Tasks\PublicRelations\..WrittenMarketing.."Approaching the general public - Switching Earth On".."Create a summary about "Switching Earth On" side of the project".."Article".."Review, give feedback"<
+    - Line201:
+      - Search:12
+      - Status: Dpne
+      - -->Tasks\PublicRelations\..WrittenMarketing.."Approaching the general public - Switching Earth On".."Create a summary about "Switching Earth On" side of the project".."Video content about it".."Create strategy about what to do with it"<
+    - Line213:
+      - Search: 13 
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Work on Topic 3 and 2 of the Mind Model"<
+    - Line227:
+      - Search: 14
+      - Status: #MISSINGLINK
+    - Line294:
+      - Search: 15 
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Release the kick-off video".."Categorize the kick-off video into topics".."Create further explanations for certain parts"<
+    - Line16:
+      - Search:16
+      - Status: Done
+      -  -->Tasks\Website\.."Back to original".."Do intermediate solution"<
+    - Line347:
+      - Search:17
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Work on Topic 3 and 2 of the Mind Model"<
+    - Line368:
+      - Search: 18
+      - Status: NOt changed
+    - Line498:
+      - Search:19
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Do coding streaming".."Create a summary about what we would be doing"<
+    - Line504:
+      - Search: 20
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Do StandUp streaming".."Create a summary about what we would be doing"<
+    - Line603:
+      - Search: 21 
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Do coding streaming".."Plan and advertise the first streaming".."Plan the first streaming"<
+    - Line630:
+      - Search: 25 and 26
+      - Status: #MISSINGLINK
+      - Couldn't find the link in the original repository ( Management)
+    - Line699:
+      - Search:27
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Do thoughts and Tasks of the members".."Stream on Friday about Successes and Failures"<
+    - Line708:
+      - Search: 28 
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Prepare"<
+    - Line739:
+      - Search: 29
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Current Stage".."Do streamings".."Stream".."Prepare"<
+    - Line755:
+      - Search: 31
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Next stage".."Go through the existing material and share it with the current team".."Organize the folders and files"<
+    - Line763:
+      - Search: 32
+      - Status: Done
+      - -->Tasks\PublicRelations\..WrittenMarketing.."Go through the existing material (articles, etc.) and share it with the current team"<
+    - Line780:
+      - Search: 33
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Next stage".."Advertise the clips to different platform; linkedIn, X, Youtube".."Publish the 20250818 video about motivation".."Watch and analyze the video"<
+    - Line787:
+      - Search: 34 
+      - Status: #MISSING LINK
+    - Line796:
+      - Search: 36 
+      - Status: Done
+      - -->Tasks\PublicRelations\..VisualMarketing.."Next stage".."Advertise the clips to different platform; linkedIn, X, Youtube".."Publish Summary of switching earth on".."Watch and analyze the video"<
+    - Line31:
+      - Search 
+      - Status:
+    - Line886:
+      - Search: 44
+      - Status: Done
+      - -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Create baseline"<
+    - Line892:
+      - Search: 45
+      - Status: Done
+      - -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Review"<
+    - Line895:
+      - Search: 46 
+      - Status: Done
+      - -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Taskify and prioritize"<
+    - Line898:
+      - Search: 47
+      - Status: Done
+      - -->Tasks\PublicRelations\.."Marketing plan as of 20250819"<     
+    - Line904:
+      - Search: 48
+      - Status: #MISSING LINK
+Website:
+
+    - Line37:
+      - Search 
+      - Status:
+    - Line38:
+      - Search 
+      - Status:
+    - Line39:
+      - Search 
+      - Status:
+    - Line40:
+      - Search:40 
+      - Status:
+    - Line41:
+      - Search:41 
+      - Status:
+    - Line42:
+      - Search:42 
+      - Status:
+    - Line43:
+      - Search:43 
+      - Status:
+    - Line44:
+      - Search:44 
+      - Status:
+    - Line45:
+      - Search:45 
+      - Status:
+    - Line46:
+      - Search: 46 
+      - Status:
+    - Line47:
+      - Search: 47 
+      - Status:
+    - Line48:
+      - Search:48 
+      - Status:
+    - Line49:
+      - Search:49 
+      - Status:
+    - Line50:
+      - Search: 
+      - Status: 50
+    - Line51:
+      - Search:51 
+      - Status:
+    - Line52:
+      - Search:52 
+      - Status:
+    - Line53:
+      - Search:53 
+      - Status:
+    - Line54:
+      - Search:54 
+      - Status:
+    - Line:
+      - Search: 55 
+      - Status:
 
 
+Movement Break:
+  - Time: 11:30- 12:00
+  - Core exercise 
+  - Preparing food
+
+Activity planning for gym:
+
+Food: 
+
+Gym:
+  - activity
+  - printing
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

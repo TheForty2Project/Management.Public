@@ -618,7 +618,7 @@ InProgress .Back to original:
               Details:
               - Create anchors
             TODO .Perform the site setup as per the recommendations of ChatGPT:
-              +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: todo, RemTime: ""}
+              +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "60", RemTime: "60"}
               Details:
                 https://chatgpt.com/share/6935da5e-e66c-8005-ae72-40435447f846                  
         Done .Do design:
@@ -705,11 +705,11 @@ InProgress .Back to original:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
-            TODO .Create SupportUs page:
+            InProgress .Create SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Details:
                 Just some text explaining what will be here
-              TODO .Rename "Support" to something less confusing:
+              InProgress .Rename "Support" to something less confusing:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
                 Done .Try finding something better than "Support us":
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
@@ -724,7 +724,9 @@ InProgress .Back to original:
                       - Participate
                       - Engage
                       - Collaborate
-                TODO .Rename it:                
+                  Result:
+                    \"Join the mission" is the one chosen
+                Done .Rename it:                
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "5"}
               InProgress .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
@@ -823,7 +825,7 @@ InProgress .Back to original:
           Id: Leaves
           InProgress .Learn to Dive:
             Id: LearnToDive
-            InProgress .Overview:
+            Done .Overview:
               Importance: 5-VeryHigh
               Done .Work out baseline:
                 Result:
@@ -1229,11 +1231,12 @@ InProgress .Back to original:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
-      Accepted .Fix the live site inception bug:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "30", RemTime: "30"}
+      Cancelled .Fix the live site inception bug:
+        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "30", RemTime: "0"}
         Details:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
+        CancelReason: it's unnecessary as it only happens if a file is missing
       Accepted .Some colors are missing from colors.json:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "30", RemTime: "30"}
         Details:

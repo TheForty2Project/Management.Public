@@ -15,6 +15,6 @@
  , 70        , Scheduled, Hana, 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
  , 70        , Done     , Hana, 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 
  ,           , TODO     ,     ,        , "-->Tasks\Management\..""OCWSPhase1""..""Collect the tasks for the live management""<"                                             , 
- , 0m        , TODO     , Hana, 0m     , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
- , 0m        , TODO     , Hana, 0m     , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
+ , 30        , Done     , Bobi, 30     , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Bobi""<"                                                           ,          , 
+ , 0m        , Done     , Hana, 0      , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
  , 0m        , TODO     , Hana, 0m     , "-->Tasks\Management\..""OCWSPhase1""..""Update F2yaml links""<"                                                                   , 

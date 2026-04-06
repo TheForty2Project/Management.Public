@@ -122,7 +122,7 @@
       TODO .Write the definition of Fair:
         +: {CreatedBy: Bobi, CreatedAt: 20250811 T 135100, By: Bobi, Tags: [CSVTODO], Priority: 4-High}
       Blocked .Publish the definition of Fair:
-        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..WrittenMarketing.."Write thoughts on X"..FairDefinitionX.."Write the definition of Fair"<
+        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..WrittenMarketing.."Write thoughts on X"..FairDefinitionX.."Write the definition of Fair"<   #MISSINGLINK
   TODO .Do regular updates on SM:
     +: {CreatedBy: Bobi, CreatedAt: 20250908 T 120529, By: marketing, Tags: [CSVTODO]}
     Id: RegularUpdates
@@ -162,7 +162,7 @@
       +: { CreatedBy: Bobi, CreatedAt: 20250730 T 140917, By: Bobi }
     Blocked .Format it to the website:
       +: { CreatedBy: Bobi, CreatedAt: 20250730 T 140921, By: Bobi }
-      DependsOn: -->Backlog\Backlog\..PublicRelations.Marketing.CollectMarketingIdeas..WrittenMarketing.ProjectUpdate20250730.."Create the content"<
+      DependsOn: -->Backlog\Backlog\..PublicRelations.Marketing.CollectMarketingIdeas..WrittenMarketing.ProjectUpdate20250730.."Create the content"< #MISSINGLINK
   InProgress .Approaching the general public - Switching Earth On:    
     Id: SwitchingEarthOn
     InProgress .Create a summary about "Switching Earth On" side of the project:      
@@ -180,7 +180,7 @@
             - any questions?
         Blocked .Finalize the article:
           +: {CreatedBy: Bobi, CreatedAt: 20250804 T 185921, By: Bobi, Tags: [CSVDONE]}          
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1.SwitchingEarthOn.SummaryAboutIt.."Article".."Review, give feedback"<
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1.SwitchingEarthOn.SummaryAboutIt.."Article".."Review, give feedback"< #MISSINGLINK
         Blocked .Publish:
           +: {CreatedBy: Bobi, CreatedAt: 20250804 T 185930, By: Bobi, Tags: [CSVDONE]}
           DependsOn:
@@ -198,7 +198,7 @@
             Put it to youtube? Reshoot? How good it is, how good it should be?
         Blocked .Market the content:
           +: {CreatedBy: Bobi, CreatedAt: 20250804 T 191748, By: Bobi, Tags: [CSVTODO]}
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1.SwitchingEarthOn.SummaryAboutIt.Video.."Create strategy about what to do with it"<  
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1.SwitchingEarthOn.SummaryAboutIt.Video.."Create strategy about what to do with it"<   #MISSINGLINK
 .VisualMarketing:
   Id: VisualMarketing
   +: { Type: Folder, AllowedTypes: [ Folder, Task ] }
@@ -210,7 +210,7 @@
       Done .Review this task format:
         +: {CreatedBy: Hana, CreatedAt: 20251002 T 235634, By: Bobi, Tags: [CSVDONE], Priority: 6-ASAP}
         Estimation: 30 min
-        Done .Edit task format of the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"<:
+        Done .Edit task format of the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"<: #MISSINGLINK
           +: {CreatedBy: Hana, CreatedAt: 20251003 T 000731, By: Hana, Tags: [CSVDONE], Priority: 6-ASAP}
         Done .Discuss with the PM the changes in the StandUp:
           +: {CreatedBy: Hana, CreatedAt: 20251002 T 235813, By: Bobi, Tags: [CSVDONE], Priority: 6-ASAP}
@@ -224,7 +224,7 @@
           +: {CreatedBy: Hana, CreatedAt: 20251003 T 001411, By: Bobi, Tags: [CSVDONE], Priority: 6-ASAP}
         Done .To be reviewed by PM:
           +: {CreatedBy: Hana, CreatedAt: 20251002 T 233907, By: Hana, Tags: [CSVDONE], Priority: 5-VeryHigh}
-          Done .Discuss the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic3KickoffSummary.."Read topic 3 and summarize the content"< StandUpReport follow up on:
+          Done .Discuss the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic3KickoffSummary.."Read topic 3 and summarize the content"<   StandUpReport follow up on: #MISSINGLINK
             +: {CreatedBy: Hana, CreatedAt: 20251003 T 001817, By: [Hana, Bobi], Tags: [CSVDONE], Priority: 5-VeryHigh}
           Done .Edit Topic 3 summary:
             +: {CreatedBy: Hana, CreatedAt: 20251003 T 000553, By: [Hana, Bobi], Tags: [CSVDONE], Priority: 5-VeryHigh}
@@ -291,7 +291,7 @@
             Paused .Add thought bubble on the side:
               Paused .Add meaning of the term Vanilla @ 10>06:
               Paused .Add ones mentioned here:
-                Details: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Work on Topic 3 and 2 of the Mind Model".."Release the kick-off video".."Categorize the kick-off video into topics".."Create further explanations for certain parts"<            
+                Details: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Work on Topic 3 and 2 of the Mind Model".."Release the kick-off video".."Categorize the kick-off video into topics".."Create further explanations for certain parts"<   #MISSINGLINK          
         TODO .Create strategy:
           Details:
             - What to publish on what platforms
@@ -340,12 +340,12 @@
           
 
         Blocked .Embed the videos to our website:
-          BlockedBy: -->Backlog\Development\..Website..BackToOrigi.."Implement"..Parts..Intermediate<
+          BlockedBy: -->Tasks\Website\.."Back to original".."Do intermediate solution"<
       Blocked .Website Technicalities:
         +: {CreatedBy: Hana, CreatedAt: 20251003 T 002135, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
         DependsOn: 
-          - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic3KickoffSummary<
-          - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic2KickoffSummary<
+          - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic3KickoffSummary< #MISSINGLINK
+          - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic2KickoffSummary< #MISSINGLINK
         TODO .Create a task to add Summary 2 and 3 to TF2P website:
           +: {CreatedBy: Hana, CreatedAt: 20251003 T 002742, By: Bobi, Tags: [CSVTODO], Priority: 3-Average}       
         TODO .Create a page in the website that should serve as source of clip:
@@ -498,11 +498,11 @@
 
           Blocked .For coding:
             +: {CreatedBy: Bobi, CreatedAt: 20250908 T 112944, By: marketing, Tags: [CSVTODO], Priority: 3-Average}
-            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Coding".."Create a summary about what we would be doing"<
+            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Coding".."Create a summary about what we would be doing"< #MISSINGLINK
           TODO .For planning meetings:
           Blocked .For standups:
             +: {CreatedBy: Bobi, CreatedAt: 20250908 T 115032, By: marketing, Tags: [CSVTODO]}
-            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do StandUp streaming".."Create a summary about what we would be doing"<
+            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do StandUp streaming".."Create a summary about what we would be doing"< #MISSINGLINK
       OnGoing .Preparation:
         InProgress .Prepare Twitch Accounts:
           .TF2P:
@@ -607,11 +607,11 @@
             +: {CreatedBy: Bobi, CreatedAt: 20250919 T 131313, By: Bobi, Tags: [CSVTODO]}
             DependsOn: 
               - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do coding streaming".."Plan and advertise the first streaming"<
-              - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do coding streaming".."Create a summary about what we would be doing"<
+              - -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do coding streaming".."Create a summary about what we would be doing"< #MISSINGLINK
           Blocked .Placeholder for streamings continued:
             Id: Placeholder
             +: {CreatedBy: Bobi, CreatedAt: 20250919 T 131325, By: Bobi, Tags: [CSVTODO]}
-            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do coding streaming".."Do first streaming"<
+            DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do coding streaming".."Do first streaming"< #MISSINGLINK
         InProgress .Do Meetings streaming:
           Id: Meetings
           Done .Create a summary about what we would be doing:
@@ -628,7 +628,7 @@
 
                 If you're interested in being a team member or have questions, ideas - let us know!
           Done .Do the first trial streamings:
-          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<:
+          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<: #MISSINGLINK
         TODO .Do StandUp streaming:
           Id: Standups
           TODO .Create a summary about what we would be doing:
@@ -639,7 +639,7 @@
               Since this is a Pre-Website activity, a proper description should be provided which summarizes the project.:
                 Include:
                   - The site is coming-soon        
-          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<:          
+          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<:       #MISSINGLINK    
         InProgress .Do thoughts and Tasks of the members:
           Id: ThoughtsOfMembers        
           Details:
@@ -697,7 +697,7 @@
               +: {CreatedBy: Hana, CreatedAt: 20250915 T 090053, By: Gigi, Tags: [CSVTODO], Priority: 3-Average}
               Done .Let Hana know if you are fine with the chosen topics above:
                 Note: The rest we can make it as topics for the next streams. 
-              Done .Read the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."Stream on Friday about Successes and Failures"< Task:
+              Done .Read the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."Stream on Friday about Successes and Failures"<  Task: #MISSINGLINK
                 Done .Give your insights on how the process of streaming is
               Done .Contact the 2nd party of the stream and agree on the next action plans.:
         InProgress .MindModel stream:          
@@ -707,7 +707,7 @@
         InProgress .Initial recording:
           Id: DoFirst
           +: {CreatedBy: Bobi, CreatedAt: 20250919 T 130050, By: Bobi, Tags: [CSVTODO]}
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."MindModel stream".."Prepare"<
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."MindModel stream".."Prepare"< #MISSINGLINK
           Done .DoInitial:
             +: {CreatedBy: Bobi, CreatedAt: 20250924 T 214954, By: Bobi, Tags: [CSVTODO]}
           InProgress .Process the recorded video:            
@@ -738,10 +738,10 @@
             +: {CreatedBy: Hana, CreatedAt: 20250922 T 013919, By: [Hana,Bobi], Tags: [CSVTODO], Priority: 3-Average}
         InProgress .Placeholder for further tasks:
           +: {CreatedBy: Bobi, CreatedAt: 20250919 T 130050, By: Bobi, Tags: [CSVDONE]}
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."MindModel stream".."Prepare"<      
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Do streamings".."Do thoughts and Tasks of the members".."MindModel stream".."Prepare"<  #MISSINGLINK    
     Blocked .Advertise the videos and streams:
       Id: Advertise
-      DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..GoThroughMaterial<
+      DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..GoThroughMaterial< #MISSINGLINK
       +: { CreatedBy: Hana, CreatedAt: 20250727 T 162400, By: Hana }
       Details:
         Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb
@@ -756,13 +756,13 @@
           Check each file - maybe take a quick look - and rename them accordingly
       Blocked .Organize the video and voice recordings in one file in GoogleDrive:
         +: {CreatedBy: Hana, By: Hana, Tags: [CSVDone], Priority: 3-Average}
-        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..WrittenMarketing..GoThroughMaterial.."Organize the folders and files"<
+        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..WrittenMarketing..GoThroughMaterial.."Organize the folders and files"< #MISSINGLINK
         Id: OrganizeRecordings
         Details:
           Analyze each file deeper, check for valuable content and put the result int some yaml
     TODO .Advertise the clips to different platform; linkedIn, X, Youtube:
       Id: AdvertiseOnXEtc
-      DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..GoThroughMaterial<
+      DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..GoThroughMaterial< #MISSINGLINK
       +: { CreatedBy: Hana, CreatedAt: 20250727 T 162102, By: All }
       TODO .Research where videos with the same sort can be published:
         +: {CreatedBy: Hana, CreatedAt: , By: marketing, Tags: [CSVTODO]}
@@ -779,14 +779,14 @@
             - decide which part should be included and how and where
         Blocked .Any next steps based on the analysis:
           +: {CreatedBy: Bobi, CreatedAt: 20250908 T 115914, By: marketing, Tags: [CSVTODO]}
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..AdvertiseOnXEtc..VideoPublish.."Watch and analyze the video"<
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..AdvertiseOnXEtc..VideoPublish.."Watch and analyze the video"< #MISSINGLINK
       TODO .Publish Summary of switching earth on:
         +: {CreatedBy: Hana, CreatedAt: null, By: Hana, Tags: [CSVTODO]}
         Details:
           - watch the video
           - see if it can be used and how
         WorkSpace:
-          - -->Backlog\Meeting\.."Topics"..Summarizeprojectmeeting<:
+          - -->Backlog\Meeting\.."Topics"..Summarizeprojectmeeting<: #MISSINGLINK
           - Location -->https://drive.google.com/drive/folders/1HYveJSNAnk6frLw5WGprDqCeD8hDiyoI?usp=sharing<:      
         TODO .Watch and analyze the video:
           +: {CreatedBy: Bobi, CreatedAt: 20250908 T 115907, By: marketing, Tags: [CSVTODO]}
@@ -795,7 +795,7 @@
             - decide which part should be included and how and where
         Blocked .Any next steps based on the analysis:
           +: {CreatedBy: Bobi, CreatedAt: 20250908 T 115914, By: marketing, Tags: [CSVTODO]}
-          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..AdvertiseOnXEtc.."Publish Summary of switching earth on".."Watch and analyze the video"<
+          DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing..AdvertiseOnXEtc.."Publish Summary of switching earth on".."Watch and analyze the video"< #MISSINGLINK
     TODO .Create posts:
           Id: CreatePosts
           InProgress .Search the potential platform for posts:
@@ -831,7 +831,7 @@
       Blocked .Contact Anket for StoryBoard:
         +: {CreatedBy: Hana, CreatedAt: 20250811 T 142858, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
         Id: ContactAnket
-        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Create animations".."Create the story Board / Idea of the animation"<
+        DependsOn: -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Create animations".."Create the story Board / Idea of the animation"< #MISSINGLINK
       Blocked .Search for animators/animation producers:
         Id: SearchForAnimators
         +: {CreatedBy: Bobi, CreatedAt: 20250811 T 142726, By: Bobi, Tags: [CSVDone], Priority: 3-Average}

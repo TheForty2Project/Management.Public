@@ -17,9 +17,9 @@ InProgress .MVPLeftAsOf20250730:
         - he's playing all the roles - Business, Business Analyst, Arhictect, Developer, QA, devops, etc.
   OnGoing .Create and maintain specifications for the MVP version:
     Id: SpecsForMVP
-    BelongsTo: -->Backlog\Documentation\..F2YamlSpecification..F2YamlSpecificationMVP<
+    BelongsTo: -->Backlog\Documentation\..F2YamlSpecification..F2YamlSpecificationMVP< #MISSINGLINK
     Done .Create behavior specs for editing - so what action does what:
-      Result: -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"..Semantics<
+      Result: -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"..Semantics< #MISSINGLINK
     Done .Create initial specification for F2Yaml.MVP:
       Id: CreateInitialSpec
       Details:
@@ -90,7 +90,7 @@ InProgress .MVPLeftAsOf20250730:
                   =TODO MyBlah:
                     Summary: blah blah
       Done .Go through the requirements and check the little features I was planning to include:
-      Result: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax"<
+      Result: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"<
     OnGoing .Update specification for F2Yaml.MVP:
       Id: UpdateSpecs
       Details:
@@ -129,7 +129,7 @@ InProgress .MVPLeftAsOf20250730:
               - Static function to go through the list and trigger the Referencing Items to resolve their BelongsTo references - then remove the ref from the list.              
           Done .Collect the Items to be triggered to resolve their references:
             Details:
-              - Revert most of the $@-->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Miscellaneous".."Make the app run again".."Fix BelongsTo problems".."New Itemreferences to be collected and resolved together if requested"<@$
+              - Revert most of the $@-->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Miscellaneous".."Make the app run again".."Fix BelongsTo problems".."New Itemreferences to be collected and resolved together if requested"<@$   #MISSINGLINK
               - Items, when receiving an ItemReference as BelongsTo, register into a static list
               - A public static function on the Item triggers the resolvation of the references and removes the Items from the list
         Done .RootItem to create its default Folders during static construction time instead of lazy-loading them:
@@ -206,7 +206,7 @@ InProgress .MVPLeftAsOf20250730:
       TODO .Move all the checks and shit from the Starter to some better place:
       TODO .Move the initialization of IoC to some static constructor maybe?:      
       Blocked .Refactor the passing around of "values":
-        DependsOn: -->Backlog\F2ToolDevelopment\.Plan.."Internal type handling refactoring".."Taskify and estimate"<
+        DependsOn: -->Backlog\F2ToolDevelopment\.Plan.."Internal type handling refactoring".."Taskify and estimate"<  #MISSINGLINK
         Details:
           - So what do we get after expression evaluation (the return value of IExpressionEvaluator.TryEvaluatingExpression())
     Done .Merge ItemWithID into StandardItem:
@@ -274,7 +274,7 @@ InProgress .MVPLeftAsOf20250730:
     TODO .F2Link upgrades:
       TODO .Make F2Link support pointing to an Item in the default list property of the preceding Item:
         Details:
-          See @ $@-->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Item references or Links"..F2Link.Workspace.Todos.."Distinguish between linking to an element in the default list property and an element belonging to."<@$
+          See @ $@-->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Item references or Links"..F2Link.Workspace.Todos.."Distinguish between linking to an element in the default list property and an element belonging to."<@$  #MISSINGLINK
     TODO .FunctionGenerator.GetFunctionFromStaticMethodInfo(MethodInfo? method) should ask for BelongsTo:
     TODO .The parser should expect that in later stages there will be meta info coming along the yaml:
       Details: |
@@ -329,12 +329,12 @@ InProgress .MVPLeftAsOf20250730:
               - We should return ItemData:
           Done .Implement:
             Done .Type as header:
-              Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..TypeAsHeader<
+              Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..TypeAsHeader<  #MISSINGLINK
             Done .Id as header:
-              Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..IdAsHeader<
+              Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..IdAsHeader<  #MISSINGLINK
             Done .No header:
               Details:
-                -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax.."Without header"<
+                -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax.."Without header"<  #MISSINGLINK
         Done .EvaluatePartiallyParsedItemExpressionAs fixes:
           Id: EvalPPIEFixes
           Done .Check what's with ItemReference and fix things:
@@ -413,7 +413,7 @@ InProgress .MVPLeftAsOf20250730:
       Id: CreateItem
       Done .FunctionGenerator to support ItemData and SpecificItemTypeAttribute:
         Details: 
-          - due to the decision in -->Backlog\F2ToolDevelopment\.Plan.."Decide:_ Function and their parameters in the MVP, especially ItemData vs IItem vs ItemBase"<
+          - due to the decision in -->Backlog\F2ToolDevelopment\.Plan.."Decide:_ Function and their parameters in the MVP, especially ItemData vs IItem vs ItemBase"<  #MISSINGLINK 
           - create the attribute and make FunctionGenerator use it
       Done .Fix SpecificItemTypeAttribute so that it accepts a Type:
       Done .Create and apply the SpecificItemTypeAttribute on static methods used by the FunctionGenerator:
@@ -582,12 +582,12 @@ InProgress .MVPLeftAsOf20250730:
         - Figure out a strategy - so a "decide" task
         - DateTime and Duration are the questions
   EstTODO .Workspace support:
-    DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Test consolidate and Bugfix Console-based UI"<
+    DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Test consolidate and Bugfix Console-based UI"<  #MISSINGLINK 
     Id: Workspaces
     Estimation: 
       29h: 1    + 1   + 5.5  + 11  + 10.5
       9h:  0.25 + 0.5 + 1.25 + 4.5 + 2.5; PAR time
-    Requirement: -->BusinessAnalysis\Requirements\."Requirements".."F2Tool".."F2Console".."Workspaces"<
+    Requirement: -->BusinessAnalysis\Requirements\."Requirements".."F2Tool".."F2Console".."Workspaces"<   #MISSINGLINK
     EstTODO .Item Versioning support:
       Id: Versioning
       Estimation: 
@@ -1013,7 +1013,7 @@ InProgress .MVPLeftAsOf20250730:
             - passing nicely typed things feels less ugly, but it's probably loots of refactoring + there's some computational overhead there (which should not be a problem as we ONLY OPTIMISE IF NEEDED)
             - soo, we do it in an ugly way first, then we refactor
       Blocked .Taskify and estimate:
-        DependsOn: -->Backlog\F2ToolDevelopment\.Plan.."Internal type handling refactoring".."Decide:_ Should we and how"<
+        DependsOn: -->Backlog\F2ToolDevelopment\.Plan.."Internal type handling refactoring".."Decide:_ Should we and how"<  #MISSINGLINK
         Details:
           - Collect the places we need to rewrite. Include:
             - Expression evaluation          
@@ -1102,7 +1102,7 @@ DraftTODO BasicOrMVPPlus:
                 in that case it's an Id. If you want it to be a Summary, but still one word - then put that quotation mark around it.
         TODO .Custom header support for expression evaluation:
           Details: 
-            - -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..CustomHeader<
+            - -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining New Items"..Syntax..WithHeader..CustomHeader< #MISSINGLINK
             - This will be supported in later phases.
       TODO .Defining classes with the "class" keyword:
         Details:
@@ -1133,21 +1133,21 @@ DraftTODO BasicOrMVPPlus:
       ComputerExecutionMethodPath should contain the path to the method in a way that the BodyForComputerExecution can be loaded from it.
   TODO .Add support for Expression as a value:
     Details:
-      - see at -->BusinessAnalysis\Requirements\..Requirements..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"<
+      - see at -->BusinessAnalysis\Requirements\..Requirements..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"< #MISSINGLINK 
   Blocked .Services:
     Id: Services
     Estimation: 
       Normal: {Value: 3h}
     Blocked .Check whether we need Change Item at all:
       Id: DecideIfWeNeedChangeItem
-      DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113"..BugFixConsoleUI<
+      DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113"..BugFixConsoleUI< #MISSINGLINK
       Estimation: 1h
       PreviousStatuses: [EstTODO]
       Details:
         probably implement (and use a little) the first Console services:
     Blocked .Change Item baseline:
       Id: ChangeItem
-      DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Services".."Check whether we need Change Item at all"<                 
+      DependsOn: -->Backlog\F2ToolDevelopment\.."MVPLeftAsOf20241113".."Services".."Check whether we need Change Item at all"<   #MISSINGLINK              
       PreviousStatuses: [EstTODO]          
       Estimation: 2h
       Summary:

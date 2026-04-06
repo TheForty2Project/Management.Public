@@ -2,10 +2,10 @@
 
 InProgress .Collect and choose article ideas:
   Id: CollectIdeas
-  Details: Work into -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published"."Work out some of these topics if necessary"<
+  Details: Work into -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published"."Work out some of these topics if necessary"< #MISSINGLINK
 InProgress .Decision Formalization:
   +: { CreatedBy: Bobi, CreatedAt: 20250419, By: Bobi }
-  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..Decision Formalization"<
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..Decision Formalization"< #MISSINGLINK
   Id: DecisionFormalization
   <-Workspace-:
     Structure of the "Computed Decision-making":
@@ -50,7 +50,7 @@ InProgress .Decision Formalization:
     Done .Verifying the transcription:
       +: { CreatedBy: Hana, CreatedAt: 20250614 T 145227, By: Giselle }
     TODO .Write the article:
-      Details: -->Backlog\ToBeSorted..Articles..Create the next article stubs..Work out the article stubs..Work out the "The current project management system" article on high level<
+      Details: -->Backlog\ToBeSorted..Articles..Create the next article stubs..Work out the article stubs..Work out the "The current project management system" article on high level<   #MISSINGLINK
       Note: a relatively big work, but needed for ramp-up AND also helps in showcasing what we do
 TODO .SW dev articles:
   TODO .Requirements/description of the F2FinanceHelper:
@@ -62,15 +62,15 @@ TODO .SW dev articles:
 TODO .Make over Take:
   Id: MakeOverTake
   +: { CreatedBy: Bobi, CreatedAt: 20250421 T 194113, By: Bobi }
-  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published"."Make over Take"<
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published"."Make over Take"<   #MISSINGLINK
 TODO .Processes Overview:
   Id: ProcessesOverview
   +: { CreatedBy: Bobi, CreatedAt: 20250421 T 194434, By: Bobi }
-  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..Processes Overview"<
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..Processes Overview"<   #MISSINGLINK
 TODO .The Tool in Detail:
   Id: TheToolInDetail
   +: { CreatedBy: Bobi, CreatedAt: 20250421 T 194459, By: Bobi }
-  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..The Tool in Detail"<
+  ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Articles and material to be published..The Tool in Detail"<   #MISSINGLINK
 Done .Summary of everything:
   Id: Summary
   Done .Baseline:

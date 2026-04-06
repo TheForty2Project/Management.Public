@@ -85,7 +85,7 @@ Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20250918 T 200326, By: Bobi, Tags: [CSVDONE]}
     Milestone: BarbaPapa
     Details:
-      -->Processes\ProcessDescriptions\.."Point and Achievement System"<
+      -->Processes\ProcessDescriptions\.."Point and Achievement System"< #MISSINGLINK
 .Project Management:
   Id: PM
   TODO .Task prioritization:
@@ -115,8 +115,8 @@ Summary:
     Milestone: BarbaPapa,
     Details:
       Include for the preparation:
-        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Create a report about the hours spent on work per period per person"<
-        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Clean up the StandupReports"<
+        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Create a report about the hours spent on work per period per person"< #MISSINGLINK
+        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Clean up the StandupReports"< #MISSINGLINK
         - Task about preparing the agenda for the Retro
       Include for the meeting:
         - Template, based on the previous
@@ -140,7 +140,7 @@ Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20250908 T 170322, By: [Hana, Bobi], Tags: [CSDONE]}
     Milestone: BarbaPapa
     Details:
-      Here: -->Processes\ProcessDescriptions\..WorkProcesses.."General Management Duties".."Holding Standup"<
+      Here: -->Processes\ProcessDescriptions\..WorkProcesses.."General Management Duties".."Holding Standup"< #MISSINGLINK
 .Requirements:
   TODO .Creation:
     TODO .Baseline:
@@ -209,7 +209,7 @@ Summary:
     Id: PwdManagement
     By: Bobi
     Details:
-      - Related to this task: -->Backlog\\Backlog..Administration..Create a safe storage to save the passwords<
+      - Related to this task: -->Backlog\\Backlog..Administration..Create a safe storage to save the passwords< #MISSINGLINK
       - How to handle passwords
       - Including how to handle the password for the initial storage
   Done .Transcription with Whisper:
@@ -219,7 +219,7 @@ Summary:
   TODO .Updating things on the tf2porg website:
     Id: Tf2porgUpdate
     +: { CreatedBy: Bobi, CreatedAt: 20250329T1838, By: [ Bobi, Shadow ], Responsible: Bobi }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic<
+    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic< #MISSINGLINK
     Details: Create a process about it.
 .Marketing:
   TODO .Create a process about streaming the meetings:

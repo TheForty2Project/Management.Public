@@ -99,8 +99,8 @@
               Tasks:
                 <--= TODO Connect the tasks:
                   Details:
-                    -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."First section".."Summary of the project with one sentence"<
-                    -->Backlog\ToBeSorted.."Website development".."Website content".."Write the one sentence description of the project to the landing page"<
+                    -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page".."First section".."Summary of the project with one sentence"<
+                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create the one sentence description of the project to the landing page"<
               Details:
                 With a "Learn More" CTA leading to the $@~->"Summary page"@$
             Reviewed .Summary Video:
@@ -128,7 +128,7 @@
               Tasks: 
                 = TODO Connect the tasks:
                   Details:
-                    -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the Contribute section"<
+                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"<
               Details:
                 - Few points about how to contribute
                 - CTA leading to the part where we explain:
@@ -140,8 +140,8 @@
                 = TODO Connect the tasks:
                   ReturnType: Link
                   Details: 
-                    - -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."Invest section"<
-                    - -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the Invest section"<
+                    - -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."Invest section"< #MISSINGLINK 
+                    - -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the Invest section"< #MISSINGLINK 
               Details:
                 - Few points about how to invest
                 - CTA leading to the part where we explain:
@@ -153,8 +153,8 @@
               = TODO Connect the tasks:
                 ReturnType: Link
                 Details: 
-                  - -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."FAQ section"<
-                  - -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the FAQ section"<
+                  - -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page"."Done.FAQ section"<
+                  - -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the FAQ section"<
             Details:
               - Only the most important questions; more or less the ones I explained in the "summary" video call
               - CTA to the $@~->."Summary page"..FAQ@$ from here for more
@@ -164,14 +164,14 @@
                 ReturnType: Link
                 Details: 
                   -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."Footer section"< 
-                  -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the footer"< 
+                  -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the footer"<  #MISSINGLINK 
             Importance: 2-Low                              
         Reviewed .Summary page:
           Tasks:
             = TODO Connect the tasks:              
           Importance: 5-VeryHigh
           Reviewed .Main summary:
-            ReqReq: -->BusinessAnalysis\Requirements..Requirements.."Articles and material to be published".."Description of the project"<
+            ReqReq: -->BusinessAnalysis\Requirements..Requirements.."Articles and material to be published".."Description of the project"< #MISSINGLINK 
             Tasks:
               = TODO Connect the tasks:              
             Importance: 5-VeryHigh
@@ -207,7 +207,7 @@
           Importance: 5-VeryHigh
           Tasks:
             = TODO Connect the tasks:
-              -->Backlog\ToBeSorted.."Website development".."Website content"."Create the Contact page"<
+              -->Tasks\Website\.."Initial Website".."Create Website content".."Create the Contact page content"<
           Details:
             - Maybe some media about "us"
             - Include:
@@ -257,7 +257,7 @@
             - We might need to put it on GitHub?:
                 This is done basically due to the recent KeyBase events.
         Drafting .Podcasts:
-          Tasks: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Upload the podcast materials to the site"<
+          Tasks: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Upload the podcast materials to the site"<  #MISSINGLINK
           Details:
             .Podcast package; might include:
               .Video:
@@ -273,7 +273,7 @@
           Tasks: 
             <-- TODO Connect and clean-up Tasks : 
               Details:
-                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Milestones on the website"<
+                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Milestones on the website"<  #MISSINGLINK
         Drafting .Requirements:
           Details:
           - A simply formatted version of the current Requirements of the F2Tool
@@ -282,7 +282,7 @@
           Tasks: 
             <-- TODO Connect and clean-up Tasks : 
               Details:
-                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Requirements on the website"<
+                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Requirements on the website"<  #MISSINGLINK
         Drafting .Articles:
           Details:
             - Q&A

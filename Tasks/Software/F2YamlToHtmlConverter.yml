@@ -2,7 +2,7 @@
 
 Done .F2YamlToHtmlConverter:
   +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134055, By: [Bobi, Gaurav] }
-  ForRequirement: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<
+  ForRequirement: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<   #MISSINGLINK
   Done .Create Requirement:
     +: {CreatedBy: Bobi, CreatedAt: 20250806 T 192923, By: Bobi}
     Done .Create HTML format specification:
@@ -10,10 +10,10 @@ Done .F2YamlToHtmlConverter:
       Estimation: 3 hours
       Notes:
         - Gaurav will provide the key to Utkarsh
-      Result: -->DocsAndArticles\Specifications\YamlToHtmlConversion\<
+      Result: -->DocsAndArticles\Specifications\YamlToHtmlConversion\<  #MISSINGLINK
     Done .Finish the requirement:
       +: {CreatedBy: Bobi, CreatedAt: 20250806 T 193254, By: Bobi}
-      Result: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<  
+      Result: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<    #MISSINGLINK
     Comments:
       - [Bobi, 20260330, "The requirements cover only the first phase"]
   InProgress .Development:

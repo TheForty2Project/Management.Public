@@ -35,7 +35,7 @@
       Content:
         At first we give an overview about Items - the abstract structures in which information is stored throughout the project - we'll then summarize the most important things about the F2Yaml language - used to describe these in a human readable form - plus the F2Yaml structures and conventions we currently use in this stage of the project.
       Tasks:
-        -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Create the OriginalConcept site".."Clean up and write the yamls".."Write content for the leafs".."The Abyss".."Documents".."Specifications".."F2Yaml".."Overview".."Summary".."Create a ToC like thing from this"<
+        -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Specifications".."F2Yaml".."Overview".."Summary".."Create a ToC like thing from this"<
     5-Done Must .Items:
       Title: Items
       5-Done Must .General:

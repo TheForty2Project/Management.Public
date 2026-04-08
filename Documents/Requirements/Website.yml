@@ -24,8 +24,8 @@
         Tasks: 
           TODO Connect tasks after sorting them:
             Details:
-              - -->Backlog\ToBeSorted..Website.."Transfer and/or create access for Shadow for the tf2porg website infrastructure"<       
-              - -->Backlog\ToBeSorted..Website.."Set up Cloudflare and upload the basic website"<                         
+              - -->Backlog\ToBeSorted..Website.."Transfer and/or create access for Shadow for the tf2porg website infrastructure"<   #MISSINGLINK     
+              - -->Backlog\ToBeSorted..Website.."Set up Cloudflare and upload the basic website"<       #MISSINGLINK                   
         Details:
           Summary:
             The website is set-up and operational on Cloudflare.
@@ -34,7 +34,7 @@
         Tasks:
           = TODO Connect tasks after sorting them:
             Details:
-              -->Backlog\ToBeSorted..Website.."Create website architecture"<
+              -->Backlog\ToBeSorted..Website.."Create website architecture"< #MISSINGLINK
         Details:
           Summary:
             TechnologyStack: "Next.js (React-based), TypeScript (type safety), Tailwind CSS (styling)"  
@@ -62,8 +62,8 @@
         Tasks:
           - TODO Sort these, remove and connect:
               Details:
-                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Review and plan".."Create design and structure ideas"<
-                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Develop the website so that it can accomodate the content"<
+                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Review and plan".."Create design and structure ideas"< #MISSINGLINK
+                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Develop the website so that it can accomodate the content"< #MISSINGLINK
     .Site Elements:
       Implemented .Minimal site struture:
         Details:
@@ -72,7 +72,7 @@
         Tasks:
           <--=TODO Connect tasks after sorting them:
             Details:
-              -->Backlog\ToBeSorted..Website.."Develop the site elements for the Basic site"<
+              -->Backlog\ToBeSorted..Website.."Develop the site elements for the Basic site"< #MISSINGLINK
         Reviewed .Landing page:
           Importance: 5-VeryHigh
           Details:
@@ -89,7 +89,7 @@
               Tasks:
                 <--= TODO Connect the tasks:
                   Details:                                    
-                    -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."First section"..Top<
+                    -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."First section"..Top< #MISSINGLINK
               Details:
                 - Top, title, big letters: "The Forty2 Project"
                 - Small letters: "With cooperation, we're laying the grounds to:"
@@ -99,15 +99,15 @@
               Tasks:
                 <--= TODO Connect the tasks:
                   Details:
-                    -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page".."First section".."Summary of the project with one sentence"<
-                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create the one sentence description of the project to the landing page"<
+                    -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page".."First section".."Summary of the project with one sentence"< 
+                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create the one sentence description of the project to the landing page"< #MISSINGLINK
               Details:
                 With a "Learn More" CTA leading to the $@~->"Summary page"@$
             Reviewed .Summary Video:
               Tasks: 
                 = TODO Connect the existing tasks about this:
                   Details:
-                    -->Backlog\ToBeSorted.."Website development".."Website content".."Finalize the video content"<
+                    -->Backlog\ToBeSorted.."Website development".."Website content".."Finalize the video content"< #MISSINGLINK
               Importance: 4-High
               Details:
                 First Ideas:
@@ -128,7 +128,7 @@
               Tasks: 
                 = TODO Connect the tasks:
                   Details:
-                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"<
+                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"< #MISSINGLINK
               Details:
                 - Few points about how to contribute
                 - CTA leading to the part where we explain:

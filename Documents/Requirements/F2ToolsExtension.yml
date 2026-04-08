@@ -10,7 +10,7 @@
   InQA .Publishing the extension:
     Details: The F2VSCExtension should be published in the Visual Studio Marketplace under the publisher name tf2p.org
   InQA .Extract F2Yaml Link in F2VSCExtension:
-    ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<
+    ReqReq: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
       There should be a functionality in the extension with which one can extract the yaml path to a yaml key and paste it in one of the "link" formats. $@TODO rewrite this sentence@$
     InQA .Basic:
@@ -41,8 +41,8 @@
               - The user can change the content of the texbox and when closing, the settings is saved to the above key in settings.json              
       QAPassed .Extract by shortcut:
         ReqReq: 
-          - -->BusinessAnalysis\Requirements.Requirements..SmallScripts.."Extract F2Yaml link in F2VSCExtension"..Basic.."Registers shortcut"<
-          - -->BusinessAnalysis\Requirements.Requirements..SmallScripts.."Extract F2Yaml link in F2VSCExtension"..Basic.."Can be configured"<
+          - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Basic".."Registers commands"<
+          - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Basic".."Can be configured"<
         Details: 
           - It should be able to extract yamlLink and yamlReferance via shortcut
         Stories:
@@ -99,7 +99,7 @@
             ExtractIdLink: Extract F2Yaml Id Link
       InQA .Works:
         ReqReq: 
-          - -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Extract F2Yaml Link in F2VSCExtension..Yaml parsing based..Registers commands<
+          - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Yaml parsing based".."Registers commands"<
         Details: 
           - When the command of extracting the link is fired the Extension should be able to first parse the relevant yaml-doc then it should be able to extract the yaml-keys as per requirements and then create a link in the given format then provide it into the clipboard.
           - The link is generated in the following way described as a pseudocode and should comply to the bnf described in the f2links.bnf:
@@ -259,7 +259,7 @@
                 //- it decides whether the Item is represented like above or not based on whether the first word is part of the [NameOfTheIgnoreList]
               }
   Closed .Time Tracking and Administration:
-    ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<
+    ReqReq: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
       Summary:
         The user has the abilities:
@@ -290,7 +290,7 @@
         Details:
           The extension has the basic Specify SR, Start/Stop and Pause/Resume functionalities
         Notes:
-          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Processes\ProcessDescriptions.StandupProcess..StandupPreparation.Steps.0.CreateSRItem.Steps.2."Fill in its properties".Details<
+          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Processes\ProcessDescriptions.StandupProcess..StandupPreparation.Steps.0.CreateSRItem.Steps.2."Fill in its properties".Details< #MISSINGLINK
         Stories:
           Specify SR:
             Given:
@@ -380,7 +380,7 @@
                   workLogProperty.AddNewEntry(wasPartEntry)
   Closed .Code Completion:
     Cancelled .Minimal Snippet Based Item Creation:
-      ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<
+      ReqReq: --->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
       Details:
         Summary: The extension integrates into IntelliSense, providing code completion for 
       Stories:
@@ -396,7 +396,7 @@
         Bobi:
           Reason for cancelled is that by adding the snippets into the "yaml.code-snippets" file in the .vscode folder we can have all the functionalities of this, including the easy global-update of the snippets - in fact, easier one than with the extension.
   ReadyForQA .CSV Task List Tools:
-    ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<
+    ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<  #MISSINGLINK
     Details:
       Summary:
         Various CSV Task list helper functionalities.
@@ -430,8 +430,8 @@
               - The user can change the content of the texbox and when closing, the settings is saved to the above key in settings.json
       ReadyForQA .Works:
         ReqReq: 
-          - -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension Extension".."CSV Task List Tools".."CSV Entry generation".."Registers shortcuts"<
-          - -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension Extension".."CSV Task List Tools".."CSV Entry generation".."Can be configured"<
+          - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation".."Registers commands"<
+          - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation".."Can be configured"<
         Stories:
           Copy CSV:
             Given:
@@ -613,6 +613,5 @@
         - all the added and removed features should be mentioned.
   Drafting .behaviour of the extension when the vscode shuts down:
     Details:
-      - StopTask command should be issued (-->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic..Registers shortcuts/command.Details.The extension registers shortcuts/commands.StopTask<)
-
+      - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

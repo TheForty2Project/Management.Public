@@ -675,13 +675,51 @@ InProgress .Back to original:
               InProgress .Review:
                 Id: Review
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
-                Details:
-                  - Stream on Twitch 
-                  - Edited Videos on Youtube (2 to 3 x a week)
-                  - Insights on X and Reddit
-                  - LinkedIn later phases
-                Summary:
-                  - Twitch,Youtube, X and Reddit links maybe?
+                Done .Figure out the content - without the links:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "40", RemTime: "0"}
+                  Id: Content
+                  Workspace:
+                    Things to include:
+                      Stream on Twitch:                    
+                        TF2P:
+                          Link: 
+                            Description:
+                            - Meetings - standup, planning, retrospective
+                            - Talks and discussions about project related topics, even if just losely
+                            - The "interesting" topics will be streamed from here
+                        Bobi:
+                          Link:
+                          Description:
+                            Watch me work and ask questions:
+                            - Development: The F2Tool and everything else
+                            - Management
+                            - Core concepts and decisions
+                        Hana:
+                          Link:
+                          Description:
+                            Watch me work:
+                            - Management and Administration
+                            - Health (helping members function physically and mentally)                    
+                      Youtube:
+                        - Link: coming soon
+                        - Description:
+                          - Podcast-style talks about more "interesting" topics. 
+                      Reddit:
+                        - Link: coming soon
+                        - Description: 
+                          - Articles, discussions - basically the podcast topics, just in a text form.
+                      X:
+                        - Link: coming soon
+                    Menu structure:
+                      - no menu.                  
+                  Result:
+                    See in -->Documents\WebsiteContent\Watch\Watch\.Overview<
+                TODO .Get the links:
+                  Id: Links
+                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVTODO], Estimation: "20", RemTime: "20"}
+                  Details:
+                    Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
+                  TODO .Twitch:
               NEXT .Finalize and publish:
                 Id: Publish
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
@@ -694,19 +732,42 @@ InProgress .Back to original:
                 Workspace:
                   - email addresses
                   - Twitch
-                  - whatelse?
-              TODO .Review it:
+                  - Discord
+              Done .Review it:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
-                Workspace:                
-                  - Basically the "what else"? Hana, I need your input here     
-                  - LinkedIn Maybe?
-                  - GitHub  
-                  - For future: 
-                    - Office hours on Twitch?                             
-              NEXT .Implement, finalize and publish:
+                Workspace:
+                  Things to include:
+                    Overview:
+                      - Reiteration that:
+                        - purpose of this stage is to show how we do things and answer questions of those who want to understand deeper                        
+                      - Feel free to ask questions in our Discord channel or during watching our streams
+                      - Emails are for "more serious" 
+                    Contacts:
+                      Discord: 
+                        Invite link: LoremIpsum.LinkToBeGenerated
+                        Description:
+                          Please use this as the primary method of contacting us
+                      Twitch:
+                        todoInviteLink
+                      Emails:
+                        Description:
+                          For more serious questions, contributions, etc.
+                        Addresses:
+                          General questions: questions@tf2p.org
+                          Members:
+                            Bobi: bobi@tf2p.org
+                            Hana: hana@tf2p.org
+                Result:
+                  See in -->Documents\WebsiteContent\Watch\Contact\.Overview<                  
+              TODO .Implement, finalize and publish:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
+                TODO .Provide the links into the document:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+                  Details: -->Documents\WebsiteContent\Watch\Contact\.Overview<
+                TODO .Final touches and generation:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
             InProgress .Create SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Details:
@@ -1167,15 +1228,15 @@ InProgress .Back to original:
           - -->Backlog\PublicRelations\..MarketingPhase1..MarketingPlan20250819.."Change the "Building fair systems through Collaboration" to the one we decided"<
         Done .Change it in the title bar:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"0"}
-      InProgress .Integrate Shadow's site with the Deepdive one:
+      Done .Integrate Shadow's site with the Deepdive one:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi}
         Details:
           - do DNS setup
           - add CTAs to the originalConcept site
         Done .DNS setup:
           +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183424, By: Bobi, Tags: [CSVDONE]}
-        TODO .Add CTAs leading to the OriginalConcept site:
-          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "30"}
+        Done .Add CTAs leading to the OriginalConcept site:
+          +: {CreatedBy: Bobi, CreatedAt: 20251205 T 183349, By: Bobi, Tags: [CSVDONE,  OCWSPhase1],  Estimation: "30", RemTime: "0"}
       Done .Relearn how to edit Shadow's site:
         +: {CreatedBy: Bobi, CreatedAt: 20260401 T 185241, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Result:
@@ -1193,10 +1254,10 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "0"}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "60", RemTime: "60"}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "60", RemTime: "60"}
         Importance: Could          
         Details:
           - Article bzzzzs:
@@ -1232,6 +1293,12 @@ InProgress .Back to original:
             - we tag them with "OCWSPhase2"
         NEXT .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
+    TODO .Setup Discord permissions and channels:
+      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      Details:
+        - Basically a clean up
+        - New joiners should be able to see only the "General" and maybe some "Q&A" channels.
+        - Decide whether we should clean everything from those channels or the previous messages should be kept (Bobi thinks cleaning is better maybe, or creation or brand new channels)
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
       Cancelled .Fix the live site inception bug:

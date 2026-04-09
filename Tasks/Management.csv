@@ -7,14 +7,14 @@
 # 3.3: Open the query window: Press 'Query' (next to CSVLint button in the bottom), check 'Input table has header'
 # 3.4: Order: Put "SELECT * ORDER BY a3, a6" to the textbox, press run then copy the result back to this one
 # 3.5: Sum: Queries are "SELECT sum(a2)" for sum of Estimation and "SELECT sum(a5)" for sum of RemTime; Run each and put the results as a new line like the example below
-*, Estimation, Status   , By  , RemTime, IdLink                                                                                                                             , DependsOn
- , 30        , TODO     , Hana, 30     , "-->Tasks\Management\..""OCWSPhase1""..""Clean up the CSVTODO tags""<"                                                             , 
- , 90        , TODO     , Hana, 90     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create OCWSPhase2 task list reports""<", 
- , 30        , Done     , Hana, 30     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
- , 10        , Scheduled, Hana, 10     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"                  , 
- , 70        , Scheduled, Hana, 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
- , 70        , Done     , Hana, 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 
- ,           , TODO     ,     ,        , "-->Tasks\Management\..""OCWSPhase1""..""Collect the tasks for the live management""<"                                             , 
- , 30        , Done     , Bobi, 30     , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Bobi""<"                                                           ,          , 
- , 0m        , Done     , Hana, 0      , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
- , 0m        , TODO     , Hana, 0m     , "-->Tasks\Management\..""OCWSPhase1""..""Update F2yaml links""<"                                                                   , 
+*, Estimation, Status   , By          , RemTime, IdLink                                                                                                                             , DependsOn
+ , 30        , TODO     , Hana        , 30     , "-->Tasks\Management\..""OCWSPhase1""..""Clean up the CSVTODO tags""<"                                                             , 
+ , 90        , TODO     , Hana        , 90     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create OCWSPhase2 task list reports""<", 
+ , 30        , Done     , Hana        , 30     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                  , 
+ , 10        , Scheduled, Hana        , 10     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"                  , 
+ , 70        , Scheduled, Hana        , 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Analysis of Tasks in CSV""..""AnalysisAt20260408""<" , 
+ , 70        , Done     , Hana        , 70     , "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 
+ ,           , TODO     ,             ,        , "-->Tasks\Management\..""OCWSPhase1""..""Collect the tasks for the live management""<"                                             , 
+ , 30        , Done     , Bobi        , 30     , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Bobi""<"                                                           , 
+ , 0         , Done     , Hana        , 0      , "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
+ , 30        , TODO     , "Bobi, Hana", 30     , "-->Tasks\Processes\..Miscellaneous..PwdManagement<"                                                                               , 

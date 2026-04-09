@@ -176,11 +176,18 @@ InProgress .OCWSPhase1:
       +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
     Done .Hana:
       +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}    
-  TODO .Update F2yaml links:
-    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  InProgress .Update F2yaml links:
+    Id: UpdateF2Links
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 180m, RemTime: 38m}
     Details:
       - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
       - If not, put some comment behind it, like #MISSINGLINK and_some_note_if_necessary
+    Done .Fix the ones which are possible without Bobi's involvement:
+      Id: Fix1stRound
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVTODO], Estimation: "142", RemTime: "0"}
+    TODO .Bobi to go through the ones which are tagges:
+      Id: Fix2ndRound
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
 
 

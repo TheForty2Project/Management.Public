@@ -206,12 +206,23 @@ Summary:
       - A lots of small and big problems happens with the project and the participants.
       - Logging should be done to make sure we can prevent the problem from happening again and in case it happens again we would already have a solution.
   TODO .Password Management:
+    +: {CreatedBy: Bobi, CreatedAt: 20260409 T 135136, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Id: PwdManagement
     By: Bobi
     Details:
       - Related to this task: -->Backlog\\Backlog..Administration..Create a safe storage to save the passwords< #MISSINGLINK
       - How to handle passwords
-      - Including how to handle the password for the initial storage
+      - Including how to handle the password for the initial storage      
+    Workspace:
+      - Start truecrypt      
+      - Mount to a drive; find the file - it's in Technical.dat of the respective repo
+      - Password:
+        - for this management.public the hint is the line in the Hitchiker's guide
+        - for the private repo: no hint
+      - Access is through the files in that drive
+      - Make sure that before dismounting any changes to those files are saved
+      - Make sure you dismount properly, not just close Truecrypt
+      - Commit and sync if there were changes
   Done .Transcription with Whisper:
     Result: $@Processes\ProcessDescriptions.Technical..WhisperCpp@$
     WorkLog:

@@ -800,7 +800,7 @@ InProgress .Back to original:
                           - clarify it
                           - do it
                           - edit it (including setting it to "Done")
-                          - report your hours                          
+                          - report your hours
                         - at the moment, if you want to work, please contact us with your idea and/or which Task(s) do you think you could do
                     - Invest/Support:
                       - we're planning this to be an investment, at the moment the assurances are just our promises though
@@ -808,9 +808,26 @@ InProgress .Back to original:
                         - accounting (including that it's trusted)
                         - finance processes, including the F2FinanceHelper (see the requriments)
                       - this is not "now"  
-                TODO .Work it out:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "40", RemTime: "40"}
-                NEXT .Finalize and publish:
+                Done .Work it out:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
+                  Workspace:
+                    Content points:
+                    - Explain that this is mostly "coming soon"
+                    - What is planned here, what are the goals
+                    - If you insist, these are the ways
+                    Content:
+                      Overview:
+                        This section is about providing the information needed for anyone interested in eiter being part of the system or investing into it.                         
+
+                      At this initial stage being able to join is still "coming soon": 
+                        The Tasks about developing the necessary processes - the steps one needs to perform - are still pending; the resulting processes should enable new members to be able to work effectively and give some guarantees that one would receive the fair share (proportional to the value of their contribution/investment) of the value generated (~profit).
+
+                      If you're very interested though: please write us an email, explaining your understanding of the project and how you would like to help or contribute.
+                      
+                      A reminder, our aim is to create the largest possible community where: We work together, compute our decisions and share fairly.
+                    Result:
+                      See in -->Documents\WebsiteContent\Support\Support\.Overview<
+                TODO .Finalize and publish:
                   +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
           InProgress .Phase2:
             InProgress .SupportUs page:
@@ -1291,7 +1308,7 @@ InProgress .Back to original:
         NEXT .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
     TODO .Setup Discord permissions and channels:
-      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
       Details:
         - Basically a clean up
         - New joiners should be able to see only the "General" and maybe some "Q&A" channels.

@@ -16,7 +16,7 @@ SR_20260401_Bobi:
     - Not decided yet...:
 
 
-SR_NEXT_Bobi:
+SR_20260409_Bobi:
   Was:
     - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 44m, "", 20260401 T 111533 ]
     - That reorganizing the meetings task:
@@ -31,13 +31,16 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 16m, "", 20260409 T 151122 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 30m, "", 20260409 T 151122 ]
   Next:
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
     - -->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
-    - 
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items"<
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<
+    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Fix scrolling bug"<
+    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<    
 
-SR__Bobi:
+SR_NEXT_Bobi:
   Was:
 
   Next:

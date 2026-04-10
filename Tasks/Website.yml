@@ -719,12 +719,12 @@ InProgress .Back to original:
                       - no menu.                  
                   Result:
                     See in -->Documents\WebsiteContent\Watch\Watch\.Overview<
-                TODO .Get the links:
+                Done .Get the links:
                   Id: Links
                   +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVTODO], Estimation: "20", RemTime: "20"}
                   Details:
                     Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
-                  TODO .Twitch:
+                  Done .Twitch:
               NEXT .Finalize and publish:
                 Id: Publish
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
@@ -763,14 +763,14 @@ InProgress .Back to original:
                             Bobi: bobi@tf2p.org
                             Hana: hana@tf2p.org
                 Result:
-                  See in -->Documents\WebsiteContent\Watch\Contact\.Overview<                  
+                  See in -->Documents\WebsiteContent\Contact\Contact\.Contacts<                
               TODO .Implement, finalize and publish:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
                 TODO .Provide the links into the document:
                   +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
-                  Details: -->Documents\WebsiteContent\Watch\Contact\.Overview<
+                  Details: -->Documents\WebsiteContent\Contact\Contact\.Contacts<
                 TODO .Final touches and generation:
                   +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
             InProgress .Create SupportUs page:

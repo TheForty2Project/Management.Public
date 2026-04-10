@@ -23,7 +23,10 @@ SR_20260409_Hana:
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1".."Create Contact page".."Implement, finalize and publish".."Provide the links into the document"<
     - -->Tasks\Processes\..Miscellaneous..PwdManagement<
     - -->Tasks\Website\.."Back to original"..Intermediate.."Setup Discord permissions and channels"<
-    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Manually create the yaml links"<: ["Bobi is needed for the first part - i.e. to show what needs to be done"]
-
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Manually create the yaml links"<: [ "Bobi is needed for the first part - i.e. to show what needs to be done" ]
 SR_NEXT_Hana:
   Was:
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Get the links"<: [ 12, "", 20260410 T 180212 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Implement, finalize and publish".."Provide the links into the document"<: [ 0m, "", 20260410 T 182544 ]
+  Next:
+    - null

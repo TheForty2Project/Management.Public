@@ -1315,12 +1315,16 @@ InProgress .Back to original:
             - we tag them with "OCWSPhase2"
         NEXT .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
-    TODO .Setup Discord permissions and channels:
+    Done .Setup Discord permissions and channels:
       +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
       Details:
         - Basically a clean up
         - New joiners should be able to see only the "General" and maybe some "Q&A" channels.
         - Decide whether we should clean everything from those channels or the previous messages should be kept (Bobi thinks cleaning is better maybe, or creation or brand new channels)
+      Done .Create none expiry invite for TF2P:
+        Details: 
+          - Invite Code: XqzbpVyKXr
+
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
       Cancelled .Fix the live site inception bug:

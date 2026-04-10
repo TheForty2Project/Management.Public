@@ -31,6 +31,14 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 16m, "", 20260409 T 151122 ]
+  Next:
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
+    - -->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
+    - 
+
+SR__Bobi:
+  Was:
 
   Next:
     - null

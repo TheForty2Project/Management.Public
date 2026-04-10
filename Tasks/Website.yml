@@ -662,7 +662,14 @@ InProgress .Back to original:
         InProgress .Implement the non-deepdive pages:
           Id: NonDD
           InProgress .Phase1:
-            TODO .Create Watch page:
+            TODO .Create the Big Summary page AND remove unnecessary menu items:
+              +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151628, By: Bobi, Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
+              Details:
+                - Try making it short.
+                - Include:
+                  - the who we are looking part - so you need to be cooperative, helping any bugs you encounter
+                  - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"            
+            InProgress .Create Watch page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
               Done .Create baseline:
                 Id: Baseline
@@ -1223,9 +1230,10 @@ InProgress .Back to original:
         Done .Upload the phase1 yamls:
           +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}
       NEXT .Manually create the yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Hana, Bobi], Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "180"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "180"}
         Details:
           Go through the f2yaml links and replace them with html ones.
+          Bobi should show it first
       NEXT .Generate the yaml links automatically:
         +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "180", RemTime: "180"}
     InProgress .Shadow site todos:

@@ -66,7 +66,7 @@ OnGoing .General management:
         +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70"} 
         Details:
           Include this Task as well in it
-      TODO .Create OCWSPhase2 task list reports:
+      InProgress .Create OCWSPhase2 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}
     OnGoing .Maintenance:
       +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 90}      
@@ -107,18 +107,17 @@ OnGoing .General management:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
           - estimated finish: 
-      Scheduled .AnalysisAt20260408:
-        +: {CreatedBy: Bobi, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70", ScheduledAt: 20260408}
 
 OnGoing .Health Log related administration:
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
-    +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - Both in the Website Tasks and here (Management)
       - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
       - Only those should keep the CSVDONE tags which are present in one of the CSVs
-  TODO .Collect the tasks for the live management:
+  OnHold .Collect the tasks for the live management:
+    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: Bobi, Tags: [CSVDONE]}
     Details:
       - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
       - Also, Hana needs to learn into it properly
@@ -173,21 +172,21 @@ InProgress .OCWSPhase1:
       - Move to archive or even delete the Items we don't want to be there (not public, garbage, old, etc.).
       - Note that as everything is in the repo history, we don't need to be too careful with deletion
     Done .Bobi:
-      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
+      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
     Done .Hana:
       +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}    
   InProgress .Update F2yaml links:
     Id: UpdateF2Links
-    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 180m, RemTime: 38m}
-    Details:
-      - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
-      - If not, put some comment behind it, like #MISSINGLINK and_some_note_if_necessary
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: [Hana, Bobi]}
     Done .Fix the ones which are possible without Bobi's involvement:
       Id: Fix1stRound
-      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVTODO], Estimation: "142", RemTime: "0"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVDONE], Estimation: "142", RemTime: "0"}
+      Details:
+        - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
+        - If not, put some comment behind it, like #MISSINGLINK and_some_note_if_necessary
     TODO .Bobi to go through the ones which are tagges:
       Id: Fix2ndRound
-      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
 
 

@@ -38,10 +38,14 @@ SR_20260409_Bobi:
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items"<
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Fix scrolling bug"<
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<    
+    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<
 
 SR_NEXT_Bobi:
   Was:
-
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 10m, "Fixing CSV", 20260410 T 194346 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 16m, "", 20260410 T 194421 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<: [ 60m, "", 20260410 T 194515 ]
+    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Fix scrolling bug"<: [ 34m, "", 20260411 T 121911 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 5m, "", 20260411 T 122352 ]
   Next:
     - null

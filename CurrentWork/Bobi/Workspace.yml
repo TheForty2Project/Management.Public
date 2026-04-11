@@ -2,15 +2,12 @@
 
 TestYaml:
   - 
-    - Alma:
+    Alma:
       Blma:
       Clma:
-    - Alma2:
-      Blma2:
-  - Apple:
-    Banana:
-  - Alabama:
-  - Balabama:
+    Blma:
+      Clma:
+      Dlma:
     
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -101,8 +101,8 @@ Done .F2YamlToHtmlConverter:
           +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: "60"}
           Details:
             - It can be done seemingly, relatively easy (2h)
-      CurrentFocus .Fix the non-scalar as a sequence entry folding issue:
-        +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151338, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: "120"}
+      Done .Fix the non-scalar as a sequence entry folding issue:
+        +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151338, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: 0}
   OnGoing .Bugs:    
 
 

@@ -184,7 +184,7 @@ InProgress .OCWSPhase1:
       Details:
         - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
         - If not, put some comment behind it, like #MISSINGLINK and_some_note_if_necessary
-    TODO .Bobi to go through the ones which are tagges:
+    InProgress .Bobi to go through the ones which are tagges:
       Id: Fix2ndRound
       +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

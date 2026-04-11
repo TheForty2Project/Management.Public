@@ -725,7 +725,7 @@ InProgress .Back to original:
                   Details:
                     Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
                   Done .Twitch:
-              NEXT .Finalize and publish:
+              TODO .Finalize and publish:
                 Id: Publish
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:

@@ -115,9 +115,7 @@ Summary:
     Milestone: BarbaPapa,
     Details:
       Include for the preparation:
-        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Create a report about the hours spent on work per period per person"< #MISSINGLINK
-        - -->Backlog\Management\..ManagemenPhase1.."General Management".."Clean up the StandupReports"< #MISSINGLINK
-        - Task about preparing the agenda for the Retro
+        - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"< #this has been modified (042026) in management.yml
       Include for the meeting:
         - Template, based on the previous
         - The "went well - went wrong" part
@@ -140,7 +138,7 @@ Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20250908 T 170322, By: [Hana, Bobi], Tags: [CSDONE]}
     Milestone: BarbaPapa
     Details:
-      Here: -->Processes\ProcessDescriptions\..WorkProcesses.."General Management Duties".."Holding Standup"< #MISSINGLINK
+      Here: -->Documents\ProcessDescriptions\..WorkProcesses.."General Management Duties".."Holding Standup"<
 .Requirements:
   TODO .Creation:
     TODO .Baseline:
@@ -230,7 +228,7 @@ Summary:
   TODO .Updating things on the tf2porg website:
     Id: Tf2porgUpdate
     +: { CreatedBy: Bobi, CreatedAt: 20250329T1838, By: [ Bobi, Shadow ], Responsible: Bobi }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Infrastructure.."Basic"<
     Details: Create a process about it.
 .Marketing:
   TODO .Create a process about streaming the meetings:

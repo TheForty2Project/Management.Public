@@ -26,7 +26,9 @@ SR_20260409_Hana:
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Manually create the yaml links"<: [ "Bobi is needed for the first part - i.e. to show what needs to be done" ]
 SR_NEXT_Hana:
   Was:
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Setup Discord permissions and channels"<: [ 10m, "", 20260410 T 200129 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Get the links"<: [ 12, "", 20260410 T 180212 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Implement, finalize and publish".."Provide the links into the document"<: [ 10m, "", 20260410 T 182544 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 37m, "", 20260410 T 200359 ]
   Next:
     - null

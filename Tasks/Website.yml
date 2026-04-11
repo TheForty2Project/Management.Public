@@ -17,13 +17,13 @@ Done .Initial Website:
   Done .Set up Cloudflare and upload the basic website:
     +: { CreatedBy: Bobi, CreatedAt: 20250329T1841, By: [ Bobi, Shadow ], Responsible: Shadow }
     Id: SetUpOnCloudflare
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic<   #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Infrastructure.."Basic"<
   Done .Create basic website architecture:
     +: { CreatedBy: Bobi, CreatedAt: 20250330T1425, By: Shadow }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Architecture< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Architecture<
   Done .Create basic website design:
     +: { CreatedBy: Bobi, CreatedAt: 20250331T1514, By: Shadow }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Design concepts..Basic< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Design concepts".."Basic"<
     Done .website final design - basic:
       By: Utkarsh
       Details:
@@ -33,7 +33,7 @@ Done .Initial Website:
         - [ Utkarsh, 120m, "landing page and other pages except roadmap and dynamic one", 20250313 ]
   Done .Decide how exactly we should be handling the "deepdive" section:
     +: { CreatedBy: Bobi, CreatedAt: 20250331 T 223037, Responsible: Bobi, By: Hana, Gaurav, Shadow, Bobi }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements"."Reviewed ".Basic."Reviewed "."DeepDive pages"< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."DeepDive pages"<
     Details:
       - so there's the idea that we just lead them to a github page with the yamls
       - but, I think it would be better if we at least showed the yamls - so you don't need to go to GitHub because people don't like doing extra clicks
@@ -48,62 +48,62 @@ Done .Initial Website:
   Done .Develop the site elements for the Basic site:
     Id: Site
     +: { CreatedBy: Bobi, CreatedAt: 20250331T1900, By: Shadow }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Architecture.."Basic"<
     Done .Develop the landing page:
       +: { CreatedBy: Bobi, CreatedAt: 20250331T1905, By: Shadow }
-      ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements.. #MISSINGLINKBasic..Landing page"< #MISSINGLINK
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page"<
       Done .First section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331T1908, By: Shadow }
         Done .Top:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 212427, By: Shadow }
-          ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..First section".Top<  #MISSINGLINK
+          ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Top"<
         Done .Summary of the project with one sentence:
           +: { CreatedBy: Bobi, CreatedAt: 20250331T1915, By: Shadow }
-          ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page"."First Section"."Summary of Project in a sentence roughly"< #MISSINGLINK
+          ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary of Project in a sentence roughly"<
           Done .Create the section with Lorem Ipsum:
             +: { CreatedBy: Bobi, CreatedAt: 20250331T194133, By: Shadow } 
           Done .Incorporate the content:
-            DependsOn: -->Backlog\ToBeSorted..Website development..Website content..Write the one sentence description of the project to the landing page"< #MISSINGLINK
+            DependsOn: -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create the one sentence description of the project to the landing page"<
         Cancelled Summary Video:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 213315, By: Shadow }
-          ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..First section..Summary Video"< #MISSINGLINK
+          ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary Video"<
           Cancelled .Create the means to display the video:
             +: { CreatedBy: Bobi, CreatedAt: 20250331 T 213329, By: Shadow }
           OnHold .Upload the video:
-            DependsOn: -->Backlog\ToBeSorted..Website development..Website content..Finalize the video content"<  #MISSINGLINK
+            DependsOn: -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Finalize the video content"<
       Done .Contribute section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 220546, By: Shadow }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..Invest/Contrib section"."Contribute section"<  #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Invest/Contrib section".."Contribute section"<
         Done .Create the section with lorem ipsum:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 220619, By: Shadow }
         Done .Incorporate the content:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 220738, By: Shadow }
-          DependsOn: -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"< #MISSINGLINK
+          DependsOn: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."Main summary"<
       Done.FAQ section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221109, By: Shadow }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..FAQ< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."FAQ"<
     Done .Develop the Summary page:
       +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222130, By: Shadow }
-      ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page"< #MISSINGLINK
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page"<
       Done .Create the main summary section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222219, By: Shadow }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page..Main summary"< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."Main summary"<
         Done .Create the page with Lorem Ipsum:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222225, By: Shadow }
         Done .Incorporate the content:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222252, By: Shadow }
-          DependsOn: -->Backlog\ToBeSorted..Website development..Website content..Create the main summary content"< #MISSINGLINK
+          DependsOn: -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"<
       Done .Create the FAQ section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222726, By: Shadow }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page..FAQ< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."FAQ"<
       Done .Create the Discussion section:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222734, By: Shadow }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page..Discussion< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."Discussion"<
     Cancelled .Create Bubble feature that shows some explanations when the mouse hover on a word (Like wikipedia):
       +: { CreatedBy: Hana, CreatedAt: 20250510, By: Shadow }
     Done .Develop the article page:
       +: { CreatedBy: Hana, CreatedAt: 20250515 T 112323, By: Shadow }
-      ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Articles< #MISSINGLINK
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Articles"<
     Done  .Create a report comparing third-party services that offer article commenting features:
       Details:
         - first check what 3rd party services are available (Disqus?)
@@ -125,7 +125,7 @@ Done .Initial Website:
     Done .LandingPage:
       Done .Create the one sentence description of the project to the landing page:
         +: { CreatedBy: Bobi, CreatedAt: 20250331T1921, By: Bobi }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..First section..Summary of Project in a sentence roughly"< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary of Project in a sentence roughly"<
         Done .Provide baseline:
           Result:
             Basically: $@-->PublicRelations/MarketingMaterial..OneSentenceDescription<@$
@@ -136,14 +136,14 @@ Done .Initial Website:
           +: { CreatedBy: Bobi, CreatedAt: 20250405 T 184629, Responsible: Bobi, By: All }
       Done .Finalize the video content:
         +: { CreatedBy: Bobi, CreatedAt: 20250331T1928, By: Bobi }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..First section..Summary Video"< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary Video"<
         Details: If needed, convert it to a smaller, lower resolution version
         Result:
           - As per the discussion on the standup, we'll use the 15 mins one uploaded to Youtube
       Done .Create content for the Contribute section:
         Id: Contribute
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 215747, By: Bobi }
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..Invest/Contrib section"."Contribute section"< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Invest/Contrib section".."Contribute section"<
         Details:
         Done .DoFeedback:
           +: { CreatedBy: Hana, CreatedAt: 20250426 T 140334, By: Bobi }
@@ -158,25 +158,25 @@ Done .Initial Website:
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221215, By: Bobi }
         Done .Create the Landing page FAQ:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221612, By: Bobi }
-          ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..FAQ< #MISSINGLINK
+          ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."FAQ"<
           Result: see at $@DocsAndArticles\PublishableArticles\LandingPageFAQ@$
         Done .Create all the FAQs:
           +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221626, By: Bobi }
           Id: AllFAQ
-          ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page..FAQ< #MISSINGLINK
+          ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."FAQ"<
       OnHold .Create (and decide) content for the footer:
         Id: Footer
         +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222047, By: Bobi }
         Details: Update the requirement as well.
-        ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..Footer< #MISSINGLINK
+        ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
     Done .Create the main summary content:
       +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221758, By: Bobi }
-      ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Summary page..Main summary"< #MISSINGLINK
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."Main summary"<
       Details:
         Article is here: -->DocsAndArticles\PublishableArticles\SummaryArticle<
     Done .Create the Contact page content:
       +: { CreatedBy: Bobi, CreatedAt: 20250401 T 182036, By: Shadow }
-      ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Contact< #MISSINGLINK
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Contact"< 
     Cancelled .Finding picture icon  to the assigned articles:
       +: { CreatedBy: Hana, CreatedAt: 20250530 T 112021, By: Hana, Giselle }
   Done .Update website content:
@@ -768,7 +768,7 @@ InProgress .Back to original:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
-                TODO .Provide the links into the document:
+                Done .Provide the links into the document:
                   +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
                   Details: -->Documents\WebsiteContent\Contact\Contact\.Contacts<
                 TODO .Final touches and generation:
@@ -1315,12 +1315,16 @@ InProgress .Back to original:
             - we tag them with "OCWSPhase2"
         NEXT .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
-    TODO .Setup Discord permissions and channels:
+    Done .Setup Discord permissions and channels:
       +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
       Details:
         - Basically a clean up
         - New joiners should be able to see only the "General" and maybe some "Q&A" channels.
         - Decide whether we should clean everything from those channels or the previous messages should be kept (Bobi thinks cleaning is better maybe, or creation or brand new channels)
+      Done .Create none expiry invite for TF2P:
+        Details: 
+          - Invite Code: XqzbpVyKXr
+
     OnGoing .Bugs: 
       +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
       Cancelled .Fix the live site inception bug:
@@ -1371,7 +1375,7 @@ OnHold .Improvements:
   OnHold .Footer section:        
     +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222026, By: Shadow }
     DependsOn: -->Backlog\ToBeSorted..Website development..Website content..Create content for the footer"< #MISSINGLINK
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Site Elements..Basic..Landing page..Footer< #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
   TODO .Create Roadmap section:
     +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
     Dependend on .Response, quantity and quality of the applicants:

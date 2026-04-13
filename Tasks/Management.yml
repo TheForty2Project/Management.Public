@@ -52,10 +52,24 @@ OnGoing .General management:
             - Move the Tasks to their correct locations AND leave links pointing
             - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
         -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:  
+  OnGoing .Reports:
+    InProgress .Create report about total spent time per task and per day per worker up until 20260413:
+      +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}
+      InProgress .Create CSV:
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "90", RemTime: "75"}
+        Details:
+          Optional or if you have time: generate the worklogs as well using the "Generate Worklog from SR" crtl-shift-p command
+        Comments:
+          - [Bobi, "Hana: Example in Tasks/WorkHours.csv; don't forget to replace the single double-quotes to double double-quotes and surround the whole with double quotes for IdLinks", 20260413]
+      NEXT .Create Reports:
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        Details:
+          Bobi to try it first with the Query engine of Rainbow csv
   OnGoing .Retrospective related:
+    Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
     OnGoing .Hold periodically:
-      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 130158, By: PM}
+      +: {CreatedBy: Bobi, CreatedAt: 20260401 T 130158, By: PM}    
   OnGoing .Task list reports (CSV):
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131829, By: PM}
     OnGoing .Creation:
@@ -67,7 +81,7 @@ OnGoing .General management:
         Details:
           Include this Task as well in it
       InProgress .Create OCWSPhase2 task list reports:
-        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}    
     OnGoing .Maintenance:
       +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 90}      
       Details:
@@ -106,8 +120,7 @@ OnGoing .General management:
         - So that you have data for:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
-          - estimated finish: 
-
+          - estimated finish:     
 OnGoing .Health Log related administration:
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:

@@ -515,7 +515,14 @@ TasksToBeSorted:
       - Try to find tasks for Hana:
     Done .Record task about file location changes:    
 
-
+Tasks20260413:
+  Done .CSV update:
+  TODO .Collect things for retro:
+  TODO .Revise the CSV strategy:
+    Details:
+      - \"Phases" might not make sense - so merge OCWSPhase1 and 2
+      - Maybe merge the management ones into it as well; have a "Category" property maybe?
+  TODO .Transcript the recording we did while smoking:
 
 
 

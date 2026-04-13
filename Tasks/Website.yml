@@ -661,15 +661,27 @@ InProgress .Back to original:
           Done .Implement phase1 structure:
         InProgress .Implement the non-deepdive pages:
           Id: NonDD
-          InProgress .Phase1:
-            TODO .Create the Big Summary page AND remove unnecessary menu items:
-              +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151628, By: Bobi, Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
+          Done .Phase1:
+            Done .Create the Big Summary page AND remove unnecessary menu items:
+              +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151628, By: Bobi}
               Details:
                 - Try making it short.
                 - Include:
                   - the who we are looking part - so you need to be cooperative, helping any bugs you encounter
-                  - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"            
-            InProgress .Create Watch page:
+                  - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"
+              Done .Remove the "Updates" and "Articles" menu items (we can add them back later):
+                +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194723, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+                Result:
+                  Disabled them.
+              Done .Write the baseline:
+                +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194739, By: Bobi, Tags: [CSVDONE], Estimation: "80", RemTime: "0"}
+                Workspace:
+                  History:
+                    - we're developing the system, we started 
+                  Plan:
+
+                  
+            Done .Create Watch page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
               Done .Create baseline:
                 Id: Baseline
@@ -677,7 +689,7 @@ InProgress .Back to original:
                 Details:
                   - stream and/or video links (youtube, twitch)
                   - we'll put some videos probably later
-              InProgress .Review:
+              Done .Review:
                 Id: Review
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
                 Done .Figure out the content - without the links:
@@ -725,12 +737,12 @@ InProgress .Back to original:
                   Details:
                     Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
                   Done .Twitch:
-              TODO .Finalize and publish:
+              Done .Finalize and publish:
                 Id: Publish
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Details:
                   Including creating the menu structure
-            InProgress .Create Contact page:
+            Done .Create Contact page:
               +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Done .Create baseline ideas:
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVDONE]}
@@ -764,23 +776,23 @@ InProgress .Back to original:
                             Hana: hana@tf2p.org
                 Result:
                   See in -->Documents\WebsiteContent\Contact\Contact\.Contacts<                
-              TODO .Implement, finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+              Done .Implement, finalize and publish:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
                 Details:
                   Including creating the menu structure
                 Done .Provide the links into the document:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
                   Details: -->Documents\WebsiteContent\Contact\Contact\.Contacts<
-                TODO .Final touches and generation:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
-            InProgress .Create SupportUs page:
+                Done .Final touches and generation:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
+            Done .Create SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
               Details:
                 Just some text explaining what will be here
-              InProgress .Rename "Support" to something less confusing:
+              Done .Rename "Support" to something less confusing:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
                 Done .Try finding something better than "Support us":
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
                   WorkSpace:
                     Other names:
                       - Help us Build
@@ -794,9 +806,9 @@ InProgress .Back to original:
                       - Collaborate
                   Result:
                     \"Join the mission" is the one chosen
-                Done .Rename it:                
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "5"}
-              InProgress .Create content about what will be here:
+                Done .Rename it:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "0"}
+              Done .Create content about what will be here:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
                 Done .Create baseline ideas:
                   +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
@@ -834,8 +846,8 @@ InProgress .Back to original:
                       A reminder, our aim is to create the largest possible community where: We work together, compute our decisions and share fairly.
                     Result:
                       See in -->Documents\WebsiteContent\Support\Support\.Overview<
-                TODO .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
+                Done .Finalize and publish:
+                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
           InProgress .Phase2:
             InProgress .SupportUs page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
@@ -890,7 +902,7 @@ InProgress .Back to original:
           Created the file structure
           Also added a license - extra 15 minutes.
       Done .Revise the structure of the Deepdive section:
-        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203542, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203542, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: 0}
         Details:
           Context: A new folder and file structure was created in Management.Public
           Tasks: rewrite the everything to support the new structure    
@@ -1291,7 +1303,7 @@ InProgress .Back to original:
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi}
       Details:          
         Including last touches
-      InProgress .Go live Phase1:
+      Done .Go live Phase1:
         +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi]}
         Done .Decide:_ What should be included in this phase:            
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana]}
@@ -1302,21 +1314,23 @@ InProgress .Back to original:
           Result:
             - tagged them with "OCWSPhase1"
             - Transferred the ones tagged to CSV: OCWSPhase1.csv
-        Blocked .Go live:
+        Done .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60"}
           Details:
             - Supposedly just a commit to the repo + the deploy command(s) for the other
             - If bugs... then fuck.
-      Blocked .Go live Phase2:
-        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi], Tags: [OCWSPhase2]}
-        TODO .Decide:_ What should be included in this phase:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana], Tags: [CSVTODO]}
-          Workspace:
+      Cancelled .Go live Phase2:
+        +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152742, By: [Bobi]}
+        Done .Decide:_ What should be included in this phase:
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152822, By: [Bobi, Hana]}
+          Result:
             - we tag them with "OCWSPhase2"
-        NEXT .Go live:
+            - Approach - after finishing go live phase1 - is that we'll be doing incremental updates, not a one time push.
+        Cancelled .Go live:
           +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
+          CancelReason: we'll be doing incremental roll outs, not a one time big push.
     Done .Setup Discord permissions and channels:
-      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
       Details:
         - Basically a clean up
         - New joiners should be able to see only the "General" and maybe some "Q&A" channels.
@@ -1345,7 +1359,11 @@ InProgress .Back to original:
       Fixed .Fix scrolling bug:
         +: {CreatedBy: Bobi, CreatedAt: 20260331 T 004208, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
         Details:
-          When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom          
+          When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom
+      Accepted .NonDD pages inception-like behavior:
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "60", RemTime: "60"}
+        Details:
+          The Watch, Contact, Support pages are loading the main site itself instead of the proper content
 OnHold .Improvements:
   Id: Improvements  
   Done .ToC:

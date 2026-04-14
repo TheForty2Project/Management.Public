@@ -1347,8 +1347,8 @@ InProgress .Back to original:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
         CancelReason: it's unnecessary as it only happens if a file is missing
-      Accepted .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "30"}
+      Done .Some colors are missing from colors.json:
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "0"}
         Details:
           So far discovered:            
           - Maturity
@@ -1364,7 +1364,7 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "60", RemTime: "60"}
         Details:
           The Watch, Contact, Support pages are loading the main site itself instead of the proper content
-OnHold .Improvements:
+TODO .Improvements:
   Id: Improvements  
   Done .ToC:
     Done .Make a decision - should we do it and how?:
@@ -1372,6 +1372,8 @@ OnHold .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131658, By: everyone }
       Result:
         We're doing a ToC per "topic"
+  TODO .Add the part we recorded during our smoking session to the Summary:
+    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
   TODO .Coming soon section on the website:
     Details: A section listing what our next "Big Potatoes" are
     TODO .Create the content:

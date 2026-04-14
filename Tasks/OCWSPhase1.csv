@@ -34,6 +34,7 @@
 #Finalization
  ,         30, OnHold    , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Revise the other pages""<"                                                                                                                                                   , 
 #Done
+ ,         10, Done      , Bobi        ,       0, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Add the config files to the project""<", 
  ,          0, Cancelled , Bobi        ,       0, "-->Tasks\Management\..""OCWSPhase1""..UpdateF2Links..Fix2ndRound<"                                                                                                                                                                                           , 
  ,         90, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create the Big Summary page AND remove unnecessary menu items""<"                                                                                     , 
  ,         20, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Create content about what will be here""..""Finalize and publish""<"                                                       , 

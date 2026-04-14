@@ -1347,8 +1347,8 @@ InProgress .Back to original:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
         CancelReason: it's unnecessary as it only happens if a file is missing
-      Accepted .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "30"}
+      Done .Some colors are missing from colors.json:
+        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "0"}
         Details:
           So far discovered:            
           - Maturity

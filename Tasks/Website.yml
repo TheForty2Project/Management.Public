@@ -596,7 +596,7 @@ InProgress .Back to original:
               Details:
                 Make sure that any change can be rolled back easily - so test it properly before building on it.
             NEXT .If the previous didn't work bug-free, do it manually:              
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2]}
           InProgress .Ability to follow links:
             Id: LinkFollowing
             +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Estimation: 120, RemTime: 30}
@@ -859,13 +859,13 @@ InProgress .Back to original:
                 InProgress .Set up the account:
                   +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags: [CSVTODO]}
                   TODO .Create a bio for the account:
-                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}                    
+                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [ OCWSPhase2], Estimation: 30}                    
                     TODO .Create a baseline:
-                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVTODO]}
+                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVDONE]}
                     TODO .Review it with the team:
-                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVTODO]}             
+                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVDONE]}             
                     TODO .Finalize and upload it:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVTODO]}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVDONE]}
                   Done .Add the payment info:
                     Done .Create a stripe account:
                       By: Hana
@@ -883,15 +883,15 @@ InProgress .Back to original:
                     Result:
                       For both we use 1 credential
                 NEXT .Implement:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: 30}                
+                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "30"}                
                   Details:
                     Integrate their embeddable into the support page
               TODO .Crypto:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation:, RemTime:}
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Estimation:, RemTime:}
                 TODO .Resurrect Monero:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-                TODO .Decide:_ Do we need anything else?:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
+                TODO .Decide do we need anything else:
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                   
               TODO .Placeholder for further tasks:
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
@@ -1108,17 +1108,17 @@ InProgress .Back to original:
                           - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
                   TODO .Specifics:
                     TODO .BelongsTo:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                     TODO .InternalId:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                     TODO .Workspace and Command Line differences:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                     TODO .The dot notation:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                   TODO .Review and organize the rest:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                   TODO .F2Link:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                 Done .Barba.Types:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
@@ -1288,10 +1288,10 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "0"}
         Importance: Must
       TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
         Importance: Should          
       TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
         Importance: Could          
         Details:
           - Article bzzzzs:

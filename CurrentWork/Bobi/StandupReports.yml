@@ -1,15 +1,15 @@
 SR_20260401_Bobi:
   Was:
     - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Merge the Tasks (I was working on) with the original set"<: [ 25m, "", 20260328 T 224725 ]
-    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Hold the meeting"<: [ 10m, "Hairs", 20260328 T 225958 ]
-    - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 10m, "", 20260330 T 000146 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean up and write the yamls".."Write content for the leafs".."The Abyss".."Move anything else".."Move the F2YamlToHtmlConverter related tasks"<: [ 45m, "Including updating the site + converter + cleanups", 20260330 T 003955 ]
-    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<: [ 54m, "", 20260330 T 112749 ]
+    - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Hold the meeting"<: [ 10m, "Hairs", 20260328 T 225958 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Provide estimations"<: [ 10m, "", 20260330 T 000146 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Move anything else".."Move the F2YamlToHtmlConverter related tasks"<: [ 45m, "Including updating the site + converter + cleanups", 20260330 T 003955 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase1 task list reports"<: [ 54m, "", 20260330 T 112749 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls"<: [ 15m, "", 20260330 T 173903 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Articles".."Migrate them from the old repo"<: [ 12m, "", 20260330 T 175413 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Articles".."Decide:_ which ones should be published"<: [ 3m, "", 20260330 T 180702 ]
-    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Task Administration"<: [ 6m, "", 20260401 T 101536 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 51m, "", 20260401 T 102129 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 6m, "", 20260401 T 101536 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 51m, "", 20260401 T 102129 ]
   Next:
     - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 30m (timeboxed) ]
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement".."Implement the non-deepdive pages".."Phase1"<: [ 30m ]
@@ -18,7 +18,7 @@ SR_20260401_Bobi:
 
 SR_20260409_Bobi:
   Was:
-    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 44m, "", 20260401 T 111533 ]
+    - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 44m, "", 20260401 T 111533 ] 
     - That reorganizing the meetings task:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Relearn how to edit Shadow's site"<: [ 20m, "", 20260401 T 233017 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Remove the "TF2P" text"<: [ 10m, "", 20260401 T 235921 ]
@@ -26,12 +26,12 @@ SR_20260409_Bobi:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 65m, "", 20260402 T 160118 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."Learn to Dive".."Overview".."Finalize and release"<: [ 12m, "", 20260402 T 204841 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
-    - -->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<: [ 80m, "", 20260403 T 234912 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"< [ 80m, "", 20260403 T 234912 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 90m, "", 20260406 T 114946 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 30m, "", 20260409 T 151122 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 30m, "", 20260409 T 151122 ]
   Next:
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
     - -->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
@@ -53,9 +53,9 @@ SR_20260414_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Remove the "Updates" and "Articles" menu items (we can add them back later)"<: [ 5m, "", 20260411 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Write the baseline"<: [ 60m, "", 20260411 ]
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413"<: [ 11m, "", 20260414 T 120901 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 12m, "", 20260414 T 132352 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 12m, "", 20260414 T 132352 ]
   Next:
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 20m, "Report my time during the go-live activities" ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 20m, "Report my time during the go-live activities" ]
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."NonDD pages inception-like behavior"<
     - -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<

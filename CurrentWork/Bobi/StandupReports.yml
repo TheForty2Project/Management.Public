@@ -18,7 +18,7 @@ SR_20260401_Bobi:
 
 SR_20260409_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 44m, "", 20260401 T 111533 ] 
+    - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 44m, "", 20260401 T 111533 ]
     - That reorganizing the meetings task:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Relearn how to edit Shadow's site"<: [ 20m, "", 20260401 T 233017 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Remove the "TF2P" text"<: [ 10m, "", 20260401 T 235921 ]
@@ -62,12 +62,17 @@ SR_20260414_Bobi:
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"<
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<
 
-SR_NEXT_Bobi:
+SR_20260415_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 9m, "", 20260414 T 132930 ]
+    - -->Tasks\Miscellaneous\.."Environments".."Environment setup"<: [ 5m, "", 20260415 T 125649 ]
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<: [ 21m, "", 20260414 T 134046 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Add the config files to the project"<: [ 8m, "", 20260414 T 194528 ]
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."NonDD pages inception-like behavior"<: [ 42m, "", 20260415 T 002742 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the Phase1 Deepdive (Read) page engine".."Ability to follow links".."Perform the site setup as per the recommendations of ChatGPT"<: [ 42m, "", 20260415 T 002700 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 24m, "", 20260414 T 132930 ]
   Next:
-    - null
+    - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<
+    - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<
+    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<
+    - -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<

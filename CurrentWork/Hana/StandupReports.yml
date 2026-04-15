@@ -24,7 +24,8 @@ SR_20260409_Hana:
     - -->Tasks\Processes\..Miscellaneous..PwdManagement<
     - -->Tasks\Website\.."Back to original"..Intermediate.."Setup Discord permissions and channels"<
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Manually create the yaml links"<: [ "Bobi is needed for the first part - i.e. to show what needs to be done" ]
-SR_20260413_Hana:
+
+SR_20260414_Hana:
   Was:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Setup Discord permissions and channels"<: [ 10m, "", 20260410 T 200129 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Get the links"<: [ 12m, "", 20260410 T 180212 ]
@@ -35,15 +36,18 @@ SR_20260413_Hana:
 
   Next:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<:
-    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<:
-    - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 37m, "", 20260410 T 200359 ]
-   
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: 
 
-SR_20260414_Hana:
+SR_20260415_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 80m, "", 20260414 T 120832 ]
+    - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 80m, "", 20260414 T 120832 ]    
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: TODO
   Next:
+    - Create a task for this "PlanningPlusStandup" activity, report your time to it and fix Bobi's standup report as well (so his time is also reported to this and not to the standup preparation):
+    - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<:
+    - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<
+    - -->Tasks\Website\.."Improvements".."Manually convert the urls in the NonDD pages to html links"<
 
 SR_NEXT_Hana:
   Was:

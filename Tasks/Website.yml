@@ -592,7 +592,7 @@ InProgress .Back to original:
             Id: FoldAll
             TODO .Try with a codex prompt:
               Id: Codex
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
+              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
               Details:
                 Make sure that any change can be rolled back easily - so test it properly before building on it.
             NEXT .If the previous didn't work bug-free, do it manually:              
@@ -1347,7 +1347,7 @@ InProgress .Back to original:
           - in the "content" section the site itself is repeated again.
           - might be unecessary as it only happens if a file is missing
         CancelReason: it's unnecessary as it only happens if a file is missing
-      Done .Some colors are missing from colors.json:
+      Fixed .Some colors are missing from colors.json:
         +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "0"}
         Details:
           So far discovered:            
@@ -1360,10 +1360,12 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, CreatedAt: 20260331 T 004208, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
         Details:
           When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom
-      Done .NonDD pages inception-like behavior:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "60", RemTime: "60"}
+      Fixed .NonDD pages inception-like behavior:
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
         Details:
           The Watch, Contact, Support pages are loading the main site itself instead of the proper content
+      Accepted .Cloudflare hides emails due to some email protection feature; disable this:
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130134, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
 TODO .Improvements:
   Id: Improvements  
   Done .ToC:
@@ -1373,7 +1375,35 @@ TODO .Improvements:
       Result:
         We're doing a ToC per "topic"
   TODO .Add the part we recorded during our smoking session to the Summary:
-    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+    Details:
+      - transcript the recording
+      - chatgpt it
+      - add it to the summary - or ask Bobi if you're not sure where/how
+  TODO .Manually convert the urls in the NonDD pages to html links:
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+    Details:
+      - Repo is theforty2project.org, files are under content\Contact\, content\Watch, etc.
+      - Remove the conversion of the file from the htmlconverter setting as well 
+  TODO .Publish the Reports (currently in CSVs) on the site:
+    Id: PublishCSVs
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131636, By: Bobi}
+    TODO .Decide:_ how should we do this:
+      Id: Decide
+      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131709, By: Bobi}
+      Details:
+        Options so far:
+          - google spreadsheet
+          - csvtohtml converter
+          - image    
+      TODO .Make a PoC about the csvtohtml converter:
+        Id: CsvToHtmlPoC
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+      NEXT .Make the actual decision:
+        Id: ActualDecision
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+    NEXT .Implement the decision:
+      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132145, By: Bobi, Tags: [CSVTODO], Estimation: "90", RemTime: "90"}
   TODO .Coming soon section on the website:
     Details: A section listing what our next "Big Potatoes" are
     TODO .Create the content:

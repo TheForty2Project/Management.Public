@@ -104,9 +104,13 @@ Done .F2YamlToHtmlConverter:
       Done .Fix the non-scalar as a sequence entry folding issue:
         +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151338, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: 0}
       Done .Add the config files to the project:
-        +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194514, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194514, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
       TODO .Merge the project into the F2Tool solution:
-        +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194910, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194910, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+      TODO .Detect and convert urls:
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+      TODO .Update the colors to the current VS Code theme:
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
   OnGoing .Bugs:    
 
 

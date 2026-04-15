@@ -122,6 +122,10 @@ OnGoing .General management:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
           - estimated finish:     
+    TODO .Update our approach of handling the CSVs as of 20260415 mehh:
+      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      Details:
+        Basically we should have a general task list unless we want to track certain very special task types in a separate one
 OnGoing .Health Log related administration:
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
@@ -208,6 +212,6 @@ InProgress .OCWSPhase1:
     Details:
       - Remove unnecessary content
       - Fix the links (the \#MISSINGLINKS ones)
+  TODO .Plan and prepare Twitch streaming first phase:
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
-
-

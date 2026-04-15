@@ -23,7 +23,6 @@
 *,        180, InProgress, Bobi        ,      60, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<"                                                                                                                                                , 
 *,         90, TODO      , "Bobi, Hana",      90, "-->Tasks\Management\..""OCWSPhase1""..CleanUpFiles<",  
 *,         30, TODO      , "Hana, Bobi",      30, "-->Tasks\Website\..""Improvements""..""Add the part we recorded during our smoking session to the Summary""<", 
- ,         30, Accepted  , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Cloudflare hides emails due to some email protection feature; disable this""<",  
 *,         30, TODO      , "Hana, Bobi",      30, "-->Tasks\Website\..""Improvements""..""Manually convert the urls in the NonDD pages to html links""<", 
 *,         15, TODO      , Bobi        ,      15, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Update the colors to the current VS Code theme""<", 
 *,         60, TODO      , Bobi        ,      60, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Detect and convert urls""<", 
@@ -37,6 +36,7 @@
 #Finalization
 *,         30, OnHold    , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Revise the other pages""<"                                                                                                                                                   , 
 #Done
+ ,         30, Fixed     , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Cloudflare hides emails due to some email protection feature; disable this""<",  
  ,         60, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..LinkFollowing..""Perform the site setup as per the recommendations of ChatGPT""<"                                                                        , 
  ,         60, Fixed     , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""NonDD pages inception-like behavior""<", 
  ,         30, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Some colors are missing from colors.json""<"                                                                                                                                              , 

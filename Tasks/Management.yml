@@ -53,16 +53,16 @@ OnGoing .General management:
             - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
         -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:  
   OnGoing .Reports:
-    InProgress .Create report about total spent time per task and per day per worker up until 20260413 meh:
+    Done .Create report about total spent time per task and per day per worker up until 20260413 meh:
       +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}
       Done .Create CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "90", RemTime: "75"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "90", RemTime: "0"}
         Details:
           - Optional or if you have time: generate the worklogs as well using the "Generate Worklog from SR" crtl-shift-p command
           - Check the validity of the links in the SR
         Comments:
           - [Bobi, "Hana: Example in Tasks/WorkHours.csv; don't forget to replace the single double-quotes to double double-quotes and surround the whole with double quotes for IdLinks", 20260413]
-      NEXT .Create Reports:
+      Done .Create Reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
         Details:
           Bobi to try it first with the Query engine of Rainbow csv

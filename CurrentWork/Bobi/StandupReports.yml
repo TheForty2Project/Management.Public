@@ -76,3 +76,9 @@ SR_20260415_Bobi:
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<
     - -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 20m, "", 20260415 T 180507 ]
+  Next:
+    - null

@@ -39,6 +39,11 @@ SR_20260413_Hana:
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 37m, "", 20260410 T 200359 ]
    
 
-SR_NEXT_Hana:
+SR_20260414_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 80m, "", 20260414 T 120832 ]
+  Next:
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<:
+
+SR_NEXT_Hana:
+  Was:

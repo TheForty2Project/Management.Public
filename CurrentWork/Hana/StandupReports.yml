@@ -52,5 +52,6 @@ SR_20260415_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 38m, "", 20260415 T 181450 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<: [ 58m, "", 20260417 T 111754 ]
   Next:
     - null

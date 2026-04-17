@@ -7,11 +7,28 @@ TODO 20260416:
   Details: 
     - There should be a schedule time for different topics daily, weekly and monthly:
       - Topics to be streamed for Hana:
-        - TF2P-Health (Can be scheduled early morning)
-        - TF2P-Work (late morning and afernoon)
-        - TF2P-Preparation (late night)
+        - TF2P-Health (Can be scheduled early morning):
+          - Timing: 5-6 am
+          - Topics:
+            - Sleep Quality data analysis (Hana)
+            - Preparation and confirmation of Cardio and strength of the day based on the sleep quality (Hana)
+            - preparation of meals of the day(Hana and Roberts meals)
+        - TF2P-Work (late morning and afernoon):
+          - Timing: 11:00-14:00
+          - Topics:
+            - StandUp Report
+            - Planning Meeting
+            - Retrospective
+            - Tasks
+        - TF2P-Preparation (late night):
+          - Timing: 17:00-18:00  19:00-20:00
+          - Topics:
+            - TF2P- Health: 
+              - Include the data of the day (Garmin analysis)
+              - Prepare for tomorrows possible meals
+              - Mood Analysis
 
-        
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

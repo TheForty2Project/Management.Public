@@ -19,8 +19,8 @@
 # 1772                                630        2026-04-14 12:46 //Cancelled 90m; Added 2 Tasks (110m); Fixed the RemTime of empty lines Task (30->60); 
 # 1842                                540        2026-04-15 13:06 //Added 10m + 30m + 30m Tasks; Done 4 Tasks (60+60+30+10);
 *, Estimation, Status    , By          , RemTime, IdLink                                                                                                                                                                                                                                                        , DependsOn
- ,         30, Accepted  , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Cloudflare hides emails due to some email protection feature; disable this""<",  
 #Done
+ ,         30, Fixed     , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Cloudflare hides emails due to some email protection feature; disable this""<",  
  ,         60, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..LinkFollowing..""Perform the site setup as per the recommendations of ChatGPT""<"                                                                        , 
  ,         60, Fixed     , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""NonDD pages inception-like behavior""<", 
  ,         30, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Some colors are missing from colors.json""<"                                                                                                                                              , 

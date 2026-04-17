@@ -19,23 +19,7 @@
 # 1772                                630        2026-04-14 12:46 //Cancelled 90m; Added 2 Tasks (110m); Fixed the RemTime of empty lines Task (30->60); 
 # 1842                                540        2026-04-15 13:06 //Added 10m + 30m + 30m Tasks; Done 4 Tasks (60+60+30+10);
 *, Estimation, Status    , By          , RemTime, IdLink                                                                                                                                                                                                                                                        , DependsOn
-*,        120, InProgress, Bobi        ,      60, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<"  , 
-*,        180, InProgress, Bobi        ,      60, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<"                                                                                                                                                , 
-*,         90, TODO      , "Bobi, Hana",      90, "-->Tasks\Management\..""OCWSPhase1""..CleanUpFiles<",  
-*,         30, TODO      , "Hana, Bobi",      30, "-->Tasks\Website\..""Improvements""..""Add the part we recorded during our smoking session to the Summary""<", 
  ,         30, Accepted  , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Cloudflare hides emails due to some email protection feature; disable this""<",  
-*,         30, TODO      , "Hana, Bobi",      30, "-->Tasks\Website\..""Improvements""..""Manually convert the urls in the NonDD pages to html links""<", 
-*,         15, TODO      , Bobi        ,      15, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Update the colors to the current VS Code theme""<", 
-*,         60, TODO      , Bobi        ,      60, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Detect and convert urls""<", 
-*,         30, TODO      , Bobi        ,      30, "-->Tasks\Software\F2YamlToHtmlConverter\..""F2YamlToHtmlConverter""..""Development""..""SecondPhase""..""Merge the project into the F2Tool solution""<", 
-#Link following
-*,        180, NEXT      , "Hana, Bobi",     180, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Manually create the yaml links""<"                                                                                                                                                      , 
-#FoldAll 
-*,         20, TODO      , Bobi        ,      20, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..FoldAll..Codex<"                                                                                                                                         , 
-#YamlsDownloadable
-*,         20, TODO      , Bobi        ,      20, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..MakeYamlsDownloadable..AsAPackage..Impl<"                                                                                                                , 
-#Finalization
-*,         30, OnHold    , Bobi        ,      30, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Revise the other pages""<"                                                                                                                                                   , 
 #Done
  ,         60, Done      , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..Phase1ReadEngine..LinkFollowing..""Perform the site setup as per the recommendations of ChatGPT""<"                                                                        , 
  ,         60, Fixed     , Bobi        ,       0, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""NonDD pages inception-like behavior""<", 

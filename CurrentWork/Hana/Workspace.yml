@@ -4,29 +4,8 @@
 TODO 20260416:
 
 - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
-  Details: 
-    - There should be a schedule time for different topics daily, weekly and monthly:
-      - Topics to be streamed for Hana:
-        - TF2P-Health (Can be scheduled early morning):
-          - Timing: 5-6 am
-          - Topics:
-            - Sleep Quality data analysis (Hana)
-            - Preparation and confirmation of Cardio and strength of the day based on the sleep quality (Hana)
-            - preparation of meals of the day(Hana and Roberts meals)
-        - TF2P-Work (late morning and afernoon):
-          - Timing: 11:00-14:00
-          - Topics:
-            - StandUp Report
-            - Planning Meeting
-            - Retrospective
-            - Tasks
-        - TF2P-Preparation (late night):
-          - Timing: 17:00-18:00  19:00-20:00
-          - Topics:
-            - TF2P- Health: 
-              - Include the data of the day (Garmin analysis)
-              - Prepare for tomorrows possible meals
-              - Mood Analysis
+  Workspace: 
+
 
 
 Health Template:
@@ -71,7 +50,7 @@ Health Template:
       - Time: 17:00
       - Food: popcorn
       - Mood: tired, dimotovated
-  .Defication:
+  .Poop:
     - Time:  12:00
     - Quality: Healthy
   .Activity:

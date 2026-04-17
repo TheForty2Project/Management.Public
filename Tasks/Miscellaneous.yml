@@ -5,4 +5,30 @@ OnGoing .Environments:
     Details:
       SW Installations, configuration, etc.
       
+OnGoing .Health:
+  TODO .Create an an analysis about the effects of consuming various sugars:
+    +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+    Details:
+      Include:
+        Sucrose vs dextrose:
+        Sugar crash/spike:
+          - what are the symptoms of spike/crash
+          - how to avoid it
+          - adverse effects short long term:
+            - how to "heal" them          
+          - how to combine macronutrients to avoid spike (e.g. fats)
+        Difference in between females and males:
+        How much of dextrose and sucroze should we include in our diets:
+          - Taking into account that we have sensitive digestion
+        What happens after the sugars (dextrose + fructose) enter the bloodstream:
+          - liver (glycogen) storage
+          - fructose processing
+          - insulin and fat storage
+          - muscle storage
+        Eating various of amounts:
+        Activities before/after eating:
+          - Walk after - how much it helps
+          - Eating on "starved" state:
+            - sugar spike?
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

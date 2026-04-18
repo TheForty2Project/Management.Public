@@ -1366,6 +1366,14 @@ InProgress .Back to original:
           The Watch, Contact, Support pages are loading the main site itself instead of the proper content
       Fixed .Cloudflare hides emails due to some email protection feature; disable this:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130134, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+      Fixed .Sidebar shrinks if the content is too wide:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
+        Result:
+          \"overflow: auto" was the solution.
+      TODO .Some more colors are missing from colors.json:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+        Details:
+          - EstTODO
 TODO .Improvements:
   Id: Improvements  
   Done .ToC:
@@ -1496,7 +1504,7 @@ TODO .Improvements:
     Details:
       - Repo is theforty2project.org, files are under content\Contact\, content\Watch, etc.
       - Remove the conversion of the file from the htmlconverter setting as well 
-  TODO .Publish the Reports (currently in CSVs) on the site:
+  InProgress .Publish the Reports (currently in CSVs) on the site:
     Id: PublishCSVs
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131636, By: Bobi}
     Done .Decide:_ how should we do this:
@@ -1510,11 +1518,15 @@ TODO .Improvements:
       Done .Make a PoC about the csvtohtml converter:
         Id: CsvToHtmlPoC
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
-      NEXT .Make the actual decision:
+      Done .Make the actual decision:
         Id: ActualDecision
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
-    NEXT .Implement the decision:
-      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132145, By: Bobi, Tags: [CSVTODO], Estimation: "90", RemTime: "90"}
+        Result:
+          Integrate it into F2Yaml2HtmlConverter
+      -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<:
+      Blocked .Convert the CSVs:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        DependsOn: -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
   TODO .Coming soon section on the website:
     Details: A section listing what our next "Big Potatoes" are
     TODO .Create the content:

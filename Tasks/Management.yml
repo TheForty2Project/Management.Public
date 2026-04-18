@@ -122,16 +122,20 @@ OnGoing .General management:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
           - estimated finish:     
-    TODO .Update our approach of handling the CSVs as of 20260415 mehh:
+    InProgress .Update our approach of handling the CSVs as of 20260415 mehh:
       +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
       Details:
         Basically we should have a general task list unless we want to track certain very special task types in a separate one
+      Workspace:
+        - General CSV; one for everything. 
+        - The OCWSPhase1 should stay though.
+        - We need to find a location for them
 OnGoing .Health Log related administration:
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
     +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
-      - Both in the Website Tasks and here (Management)
+      - Everywhere (so do a find in all files (ctrl+shift+f) for CSVTODO))
       - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
       - Only those should keep the CSVDONE tags which are present in one of the CSVs
   OnHold .Collect the tasks for the live management:

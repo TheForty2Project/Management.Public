@@ -82,9 +82,10 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh".."Create Reports"<: [ 38m, "", 20260415 T 175507 ]
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<: [ 30m, "", 20260415 T 184201 ]
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<: [ 15m, "", 20260416 T 135214 ]
-    - -->Tasks\Website\.."Improvements".."Publish the Reports (currently in CSVs) on the site".."Decide:_ how should we do this"<: [ 29m, "", 20260418 T 131130 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260418 T 134121 ]
+    - -->Tasks\Website\.."Improvements".."Publish the Reports (currently in CSVs) on the site"<: [ 29m, "", 20260418 T 131130 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Bugs".."Sidebar shrinks if the content is too wide"<: [ 10m, "", 20260418 T 185950 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Cleanups"<: [ 45m, "", 20260417 T 230103 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Baseline"<: [ 132m, "", 20260418 T 000110 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 25m, "", 20260418 T 191302 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
   Next:
-    - Report my time to the tasks (mostly: CSV converter shit)
-    - Record the things (bugs, issues) I've discovered, update/create the Tasks
-    - Fix this standup report and prepare for the PlanningPlusStandup

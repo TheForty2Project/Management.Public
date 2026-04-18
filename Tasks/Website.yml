@@ -1374,12 +1374,122 @@ TODO .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131658, By: everyone }
       Result:
         We're doing a ToC per "topic"
-  TODO .Add the part we recorded during our smoking session to the Summary:
+  Done .Add the part we recorded during our smoking session to the Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - transcript the recording
       - chatgpt it
       - add it to the summary - or ask Bobi if you're not sure where/how
+    Location:  https://drive.google.com/drive/folders/1kBjpBQyFXLlqaGZWS2bfV9pU5Qu0Uo5I?usp=drive_link
+    Cancelled .figuring out how to install Audicity:
+    Done .Transcribe the recording:
+      Workspace:
+        
+        Transcription (Hana):
+          History:
+            The fisrst stage: we thought that people had the same idea 
+            The second stage: 
+              - Article development ( we realized we have more knowledge about it than others ) 
+              - Little marketing Team
+              - Site was focused on these people who can just understand it from an article
+              - Who hardly want to read and understand how the system will work
+            Summary:
+              It seems that its hard to find these people who can do it from an explanation
+            The third stage:
+              - Third website, will be able to show how the system works, so not just explaining
+            How to help:
+              - Send us a review and send it to others and ask questions
+              - Advance help is sending us yamls and create a bug reports
+              - in contribution section askes us first how to do the things 
+          Strategy:
+            - in this current stage (3rd stage): trying to fine tune our things, gather enough audience, performing marketing activities.
+            - Marketing learn:  
+              - we improve the site up until we have contributers (people who are interested)
+              - After the above, we will be developing the processes about how 
+              - Summary: contributers will wait a bit -> developining the processes -> more contributers -> high priority in process development ( obviously will prioritise hese people who helps us more and provide them one to one process )
+    Done .Fine-tune the transcription:
+      Workspace:
+      Chatgpt (Fine-tuning):
+      Public:
+        progress:
+          stage_1:
+            title: "Assumption"
+            description: 
+              We started with the belief that many people already shared this idea.
+
+          stage_2:
+            title: "Explanation"
+            description: 
+              We focused on explaining the system through articles and built a small
+              marketing effort around it.
+            insights:
+              - "Even strong explanations are not enough"
+              - "Understanding requires more than reading"
+              - "People need to see the system in action"
+
+          stage_3:
+            title: "Demonstration (Current)"
+            description: 
+              We are building a new version of the platform that demonstrates how the system works.
+              Instead of explaining concepts, we aim to make them observable and testable.
+        how_to_help:
+          basic:
+            - "Share feedback and ask questions"
+            - "Introduce the project to others"
+            - "Contribute ideas or test cases"
+          advanced:
+            - "Submit YAML configurations"
+            - "Report issues and inconsistencies"
+          note: 
+            If you want to contribute more deeply, reach out and we will guide you.
+        current_focus:
+          - "Refining the system"
+          - "Improving clarity through demonstration"
+          - "Growing a community of engaged contributors"
+        contributors:
+          note: >
+            Early contributors receive more direct support and involvement as the system evolves.
+
+      Internal:
+      history:
+        stage_1:
+          summary: 
+            We overestimated how many people already think this way.
+        stage_2:
+          summary: 
+            We tried to solve the problem with explanations (articles).
+            This failed as a primary strategy.
+          observations:
+            - "We understand the system better than the audience"
+            - "Most people will not invest effort to understand abstract explanations"
+            - "If it is not immediately clear, it is ignored"
+          conclusion: "Explanation-first is not scalable"
+        stage_3:
+          summary: 
+            Shift from explaining the system to demonstrating it.
+          note: "This is a strategic shift, not just a UX improvement"
+      execution:
+        priorities:
+          - "Build a demonstrable system, not just content"
+          - "Use the product as the main communication tool"
+          - "Attract contributors through interaction"
+      marketing:
+        reality:
+          - "Contributors do not come from theory"
+          - "They come from clarity, proof, and interaction"
+        approach:
+          steps:
+            - "Make the system self-evident"
+            - "Attract contributors"
+            - "Develop processes around contributors"
+      contributors:
+        strategy:
+          - "Early contributors are high value"
+          - "Prioritize them with faster onboarding"
+          - "Provide direct communication"
+          - "Offer tailored processes"
+        note: "Selective prioritization is intentional"
+
   TODO .Manually convert the urls in the NonDD pages to html links:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:

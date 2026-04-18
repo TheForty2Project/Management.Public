@@ -1383,6 +1383,7 @@ TODO .Improvements:
     Location:  https://drive.google.com/drive/folders/1kBjpBQyFXLlqaGZWS2bfV9pU5Qu0Uo5I?usp=drive_link
     Cancelled .figuring out how to install Audicity:
     Done .Transcribe the recording:
+      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVTODO], Estimation: "?", RemTime: "0"}
       Workspace:
         
         Transcription (Hana):
@@ -1408,88 +1409,88 @@ TODO .Improvements:
               - After the above, we will be developing the processes about how 
               - Summary: contributers will wait a bit -> developining the processes -> more contributers -> high priority in process development ( obviously will prioritise hese people who helps us more and provide them one to one process )
     Done .Fine-tune the transcription:
+      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVTODO], Estimation: "?", RemTime: "0"}
       Workspace:
-      Chatgpt (Fine-tuning):
-      Public:
-        progress:
-          stage_1:
-            title: "Assumption"
-            description: 
-              We started with the belief that many people already shared this idea.
+        Chatgpt (Fine-tuning):
+        Public:
+          progress:
+            stage_1:
+              title: "Assumption"
+              description: 
+                We started with the belief that many people already shared this idea.
 
-          stage_2:
-            title: "Explanation"
-            description: 
-              We focused on explaining the system through articles and built a small
-              marketing effort around it.
-            insights:
-              - "Even strong explanations are not enough"
-              - "Understanding requires more than reading"
-              - "People need to see the system in action"
+            stage_2:
+              title: "Explanation"
+              description: 
+                We focused on explaining the system through articles and built a small
+                marketing effort around it.
+              insights:
+                - "Even strong explanations are not enough"
+                - "Understanding requires more than reading"
+                - "People need to see the system in action"
 
-          stage_3:
-            title: "Demonstration (Current)"
-            description: 
-              We are building a new version of the platform that demonstrates how the system works.
-              Instead of explaining concepts, we aim to make them observable and testable.
-        how_to_help:
-          basic:
-            - "Share feedback and ask questions"
-            - "Introduce the project to others"
-            - "Contribute ideas or test cases"
-          advanced:
-            - "Submit YAML configurations"
-            - "Report issues and inconsistencies"
-          note: 
-            If you want to contribute more deeply, reach out and we will guide you.
-        current_focus:
-          - "Refining the system"
-          - "Improving clarity through demonstration"
-          - "Growing a community of engaged contributors"
-        contributors:
-          note: >
-            Early contributors receive more direct support and involvement as the system evolves.
+            stage_3:
+              title: "Demonstration (Current)"
+              description: 
+                We are building a new version of the platform that demonstrates how the system works.
+                Instead of explaining concepts, we aim to make them observable and testable.
+          how_to_help:
+            basic:
+              - "Share feedback and ask questions"
+              - "Introduce the project to others"
+              - "Contribute ideas or test cases"
+            advanced:
+              - "Submit YAML configurations"
+              - "Report issues and inconsistencies"
+            note: 
+              If you want to contribute more deeply, reach out and we will guide you.
+          current_focus:
+            - "Refining the system"
+            - "Improving clarity through demonstration"
+            - "Growing a community of engaged contributors"
+          contributors:
+            note: >
+              Early contributors receive more direct support and involvement as the system evolves.
 
-      Internal:
-      history:
-        stage_1:
-          summary: 
-            We overestimated how many people already think this way.
-        stage_2:
-          summary: 
-            We tried to solve the problem with explanations (articles).
-            This failed as a primary strategy.
-          observations:
-            - "We understand the system better than the audience"
-            - "Most people will not invest effort to understand abstract explanations"
-            - "If it is not immediately clear, it is ignored"
-          conclusion: "Explanation-first is not scalable"
-        stage_3:
-          summary: 
-            Shift from explaining the system to demonstrating it.
-          note: "This is a strategic shift, not just a UX improvement"
-      execution:
-        priorities:
-          - "Build a demonstrable system, not just content"
-          - "Use the product as the main communication tool"
-          - "Attract contributors through interaction"
-      marketing:
-        reality:
-          - "Contributors do not come from theory"
-          - "They come from clarity, proof, and interaction"
-        approach:
-          steps:
-            - "Make the system self-evident"
-            - "Attract contributors"
-            - "Develop processes around contributors"
-      contributors:
-        strategy:
-          - "Early contributors are high value"
-          - "Prioritize them with faster onboarding"
-          - "Provide direct communication"
-          - "Offer tailored processes"
-        note: "Selective prioritization is intentional"
-
+        Internal:
+          history:
+            stage_1:
+              summary: 
+                We overestimated how many people already think this way.
+            stage_2:
+              summary: 
+                We tried to solve the problem with explanations (articles).
+                This failed as a primary strategy.
+              observations:
+                - "We understand the system better than the audience"
+                - "Most people will not invest effort to understand abstract explanations"
+                - "If it is not immediately clear, it is ignored"
+              conclusion: "Explanation-first is not scalable"
+            stage_3:
+              summary: 
+                Shift from explaining the system to demonstrating it.
+              note: "This is a strategic shift, not just a UX improvement"
+          execution:
+            priorities:
+              - "Build a demonstrable system, not just content"
+              - "Use the product as the main communication tool"
+              - "Attract contributors through interaction"
+          marketing:
+            reality:
+              - "Contributors do not come from theory"
+              - "They come from clarity, proof, and interaction"
+            approach:
+              steps:
+                - "Make the system self-evident"
+                - "Attract contributors"
+                - "Develop processes around contributors"
+          contributors:
+            strategy:
+              - "Early contributors are high value"
+              - "Prioritize them with faster onboarding"
+              - "Provide direct communication"
+              - "Offer tailored processes"
+            note: "Selective prioritization is intentional"
   TODO .Manually convert the urls in the NonDD pages to html links:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
@@ -1498,7 +1499,7 @@ TODO .Improvements:
   TODO .Publish the Reports (currently in CSVs) on the site:
     Id: PublishCSVs
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131636, By: Bobi}
-    TODO .Decide:_ how should we do this:
+    Done .Decide:_ how should we do this:
       Id: Decide
       +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131709, By: Bobi}
       Details:
@@ -1506,9 +1507,9 @@ TODO .Improvements:
           - google spreadsheet
           - csvtohtml converter
           - image    
-      TODO .Make a PoC about the csvtohtml converter:
+      Done .Make a PoC about the csvtohtml converter:
         Id: CsvToHtmlPoC
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
       NEXT .Make the actual decision:
         Id: ActualDecision
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}

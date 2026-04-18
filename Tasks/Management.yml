@@ -123,14 +123,18 @@ OnGoing .General management:
           - burndown chart: total RemTime per day
           - estimated finish:     
     InProgress .Update our approach of handling the CSVs as of 20260415 mehh:
-      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana]}
       Details:
         Basically we should have a general task list unless we want to track certain very special task types in a separate one
-      Workspace:
-        - General CSV; one for everything. 
-        - The OCWSPhase1 should stay though.
-        - We need to find a location for them
-OnGoing .Health Log related administration:
+      InProgress .Decide:_ approach:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235819, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
+        Result:
+          - General CSV; one for everything. 
+          - The OCWSPhase1 should stay though.
+          - Locations:
+            - 
+      TODO .Implement:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
     +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}

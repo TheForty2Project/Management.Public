@@ -86,6 +86,10 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Bugs".."Sidebar shrinks if the content is too wide"<: [ 10m, "", 20260418 T 185950 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Cleanups"<: [ 45m, "", 20260417 T 230103 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Baseline"<: [ 132m, "", 20260418 T 000110 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 25m, "", 20260418 T 191302 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 26m, "", 20260418 T 191302 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<: [ 35m, "", 20260418 T 191925 ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Include coloring"<: [ 20m, "", 20260418 T 231907 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<: [ 1m, "", 20260418 T 235745 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh".."Decide:_ approach"<: [ 4m, "", 20260418 T 235836 ]
   Next:

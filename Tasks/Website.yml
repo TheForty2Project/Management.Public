@@ -1527,6 +1527,9 @@ TODO .Improvements:
       Blocked .Convert the CSVs:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
         DependsOn: -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
+        Details:
+          Include:
+            - F2FileToHtmlConfig edit            
   TODO .Coming soon section on the website:
     Details: A section listing what our next "Big Potatoes" are
     TODO .Create the content:

@@ -115,12 +115,14 @@ Done .F2YamlToHtmlConverter:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVTODO], Estimation: "180", RemTime: "180"}
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVTODO], Estimation: "45", RemTime: "45"}
-      InProgress .Implement CSV converting feature:
+      Done .Implement CSV converting feature:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 184909, By: Bobi}
         Done .Baseline:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 184927, By: Bobi, Tags: [CSVTODO], Estimation: "120", RemTime: "0"}
-        TODO .Ability to specify which columns to be converted in config:
-          +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+        Done .Ability to specify which columns to be converted in config:
+          +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
+        Done .Include coloring:
+          +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "0"}        
           
 
   OnGoing .Bugs:    

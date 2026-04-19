@@ -294,7 +294,7 @@ Done .Phase1:
       +: { CreatedBy: Hana, CreatedAt: 20250630 T 113923, By: Shadow }
   Cancelled .Redesign the website Version 2:
     Id: WebsiteVersion2
-    +: {CreatedBy: Hana, CreatedAt: 20250812 T 085657, By: Shadow, Tags: [CSVTODO], Priority: 4-High}
+    +: {CreatedBy: Hana, CreatedAt: 20250812 T 085657, By: Shadow, Tags: , Priority: 4-High}
     Cancelled .Update the Contribute form:
       Id: ContributePhase1
       +: { CreatedBy: Hana, CreatedAt: 20250727 T 145140, By: All, Tags: [CSVDone] }
@@ -310,7 +310,7 @@ Done .Phase1:
       Done .Discuss and review contribute page elements:
         +: {CreatedBy: Hana, CreatedAt: 20250807 T 204005, By: All, Tags: [CSVDONE]}
       Cancelled .Implementation of the agreed points:
-        +: {CreatedBy: Hana, CreatedAt: 20250810 T 202248, By: [Shadow, Hana], Tags: [CSVTODO]}
+        +: {CreatedBy: Hana, CreatedAt: 20250810 T 202248, By: [Shadow, Hana], Tags: }
         Details:
           UpdateContributeForm:
             - CTA to read the summary and post questions:
@@ -381,12 +381,12 @@ InProgress .Back to original:
     Milestone: BarbaPapa
     Done .Schedule a Website design meeting:
       Milestone: BarbaPapa
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 163138, By: Hana, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 163138, By: Hana, Tags: }
     Done .Agree on the baseline design guidelines:
       Id: AgreeOnGuidelines
       +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161205, By: all }
       Cancelled .Find the video(s) and parts where the design was showcased:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162539, By: all, Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162539, By: all, Tags: }
         Milestone: BarbaPapa
         Details:
           Put it into the Result of this task (so a link to the video and the from-to timestamp)
@@ -396,7 +396,7 @@ InProgress .Back to original:
         DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting".."Agree on the baseline design guidelines".."Find the video(s) and parts where the design was showcased"<
           We go "on the fly" - i.e. we sit in front of a baseline-designed site and change until we are happy.
     Done .Agree on the parts and their priorities:      
-      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162744, By: Bobi, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162744, By: Bobi, Tags: }
       Milestone: BarbaPapa
       DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting".."Schedule a Website design meeting"<
       Details:
@@ -430,7 +430,7 @@ InProgress .Back to original:
     Id: ResearchWebDevs
     CancelReason: We're doing it ourselves with Codex.
     OnHold .Initial research:
-      +: {CreatedBy: Bobi, CreatedAt: 20250918 T 204950, By: everyone, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250918 T 204950, By: everyone, Tags: }
       Details:
         Roughly:
         - Goal is to have have a ballpark estimation
@@ -455,10 +455,10 @@ InProgress .Back to original:
     Blocked .Implement the parts:
       Id: Parts
       Blocked .Placeholder for further elements:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161933, By: Bobi, Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161933, By: Bobi, Tags: }
         DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting"<
       Blocked .Landing page + content:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVTODO]}          
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: }          
         Details:
           - Mostly the current one      
         Blocked .Top section:
@@ -466,13 +466,13 @@ InProgress .Back to original:
           Details:
             The headline should - maybe - be "Work optimally and share fairly through computed management".
           Blocked .Placeholder for implementation:
-            +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: [CSVTODO]}
+            +: {CreatedBy: Bobi, CreatedAt: 20250908 T 161943, By: Bobi, Tags: }
             DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting"<
         Blocked .FAQ:
-          +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162011, By: Bobi, Tags: [CSVTODO]}
+          +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162011, By: Bobi, Tags: }
           DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting"<
       Blocked .Articles section:
-        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162024, By: Bobi, Tags: [CSVTODO]}
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162024, By: Bobi, Tags: }
         DependsOn: -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting"<
         Details:
           The current articles on the current site
@@ -487,7 +487,7 @@ InProgress .Back to original:
       - We're gradually moving all content from the Shadow one to the OriginalConcept
     InProgress .Create the OriginalConcept site:
       Id: CreateSite
-      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004837, By: Bobi, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004837, By: Bobi, Tags: }
       Done .Have the concept:
       Done .Set-up and try Codex:
         Done .Get some Reddit answers about how good it is:
@@ -554,10 +554,10 @@ InProgress .Back to original:
                 The Yamls:
                   See in the task $@-->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls"<<@$
             Done .Review baseline with Hana:
-              +: {CreatedBy: Bobi, CreatedAt: 20251125 T 161549, By: [Bobi, Hana], Tags: [CSVTODO]}
+              +: {CreatedBy: Bobi, CreatedAt: 20251125 T 161549, By: [Bobi, Hana], Tags: }
               Estimation: 30m
           Done .Create the structure:
-            +: {CreatedBy: Bobi, CreatedAt: 20251125 T 161750, By: Bobi, Tags: [CSVTODO]}
+            +: {CreatedBy: Bobi, CreatedAt: 20251125 T 161750, By: Bobi, Tags: }
             Estimation: 20m
           Done .Upgrade the ToC engine so that some items can be disabled:
           Done .Upgrade the ToC engine so that non-leaf elements can also point to a file:
@@ -583,7 +583,7 @@ InProgress .Back to original:
                 Result: yes
               TODO .Implement:
                 Id: Impl
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
+                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
                 DependsOn: -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
                 Details:
                   - Simply add a link (with some text) to the Overview section
@@ -634,7 +634,7 @@ InProgress .Back to original:
         Done .Revise the top menu:
           Done .Generate engine:
           Done .Create phase1 structure:
-            +: {CreatedBy: Bobi, CreatedAt: 20251126 T 012635, By: Bobi, Tags: [CSVTODO]}
+            +: {CreatedBy: Bobi, CreatedAt: 20251126 T 012635, By: Bobi, Tags: }
             Workspace:
               Include:
                 - \"Documents" - so the yamls
@@ -657,7 +657,7 @@ InProgress .Back to original:
                   - With work
                   - With monies
           Done .Review phase1 structure:
-            +: {CreatedBy: Bobi, CreatedAt: 20251128 T 022154, By: [Bobi, Hana], Tags: [CSVTODO]}
+            +: {CreatedBy: Bobi, CreatedAt: 20251128 T 022154, By: [Bobi, Hana], Tags: }
           Done .Implement phase1 structure:
         InProgress .Implement the non-deepdive pages:
           Id: NonDD
@@ -693,7 +693,7 @@ InProgress .Back to original:
                 Id: Review
                 +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
                 Done .Figure out the content - without the links:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "40", RemTime: "0"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
                   Id: Content
                   Workspace:
                     Things to include:
@@ -733,7 +733,7 @@ InProgress .Back to original:
                     See in -->Documents\WebsiteContent\Watch\Watch\.Overview<
                 Done .Get the links:
                   Id: Links
-                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVTODO], Estimation: "20", RemTime: "0"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
                   Details:
                     Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
                   Done .Twitch:
@@ -850,14 +850,14 @@ InProgress .Back to original:
                   +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
           InProgress .Phase2:
             InProgress .SupportUs page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [OCWSPhase2]}
               Estimation: 4h
               InProgress .BuyUsACoffee:
-                +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+                +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [OCWSPhase2]}
                 Done .Research :
-                  +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVDONE]}
                 InProgress .Set up the account:
-                  +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags: [CSVTODO]}
+                  +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags:}
                   TODO .Create a bio for the account:
                     +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [ OCWSPhase2], Estimation: 30}                    
                     TODO .Create a baseline:
@@ -870,14 +870,14 @@ InProgress .Back to original:
                     Done .Create a stripe account:
                       By: Hana
                     Done .Fight it through with fucking support and solve the issue:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVTODO, OCWSPhase1]}
+                      +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVDONE, OCWSPhase1]}
                       Estimation: 2h
                       Details:
                         "This stripe connection is already in use, please choose another one"
                       Result:
                         Solved through creating a new account
                   Done .Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags: [CSVTODO]}
+                    +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags:}
                     Done .Stripe:
                     Done .BuyUsACoffee:
                     Result:
@@ -891,29 +891,28 @@ InProgress .Back to original:
                 TODO .Resurrect Monero:
                   +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
                 TODO .Decide do we need anything else:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                  
+                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                  
               TODO .Placeholder for further tasks:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
           Done .Disable/remove the ones planned later/not planned:
       Done .Create a new repository for the new set of yamls:
-        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVTODO, OCWSPhase1,], Estimation: 15}
+        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVDONE, OCWSPhase1,], Estimation: "15"}
         Result:
           Created the file structure
           Also added a license - extra 15 minutes.
       Done .Revise the structure of the Deepdive section:
-        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203542, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203542, By: Bobi, Tags:, Estimation: , RemTime: 0}
         Details:
           Context: A new folder and file structure was created in Management.Public
           Tasks: rewrite the everything to support the new structure    
         Done .Rewrite the app.js to show the revised Management.Public structure:
-          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 222627, By: Bobi, Tags: [CSVTODO], Estimation: 45, RemTime: 0}
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 222627, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "0"}
         Done .Rewrite the generator settings:
-          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225625, By: Bobi, Tags:  [CSVTODO], Estimation: 20, RemTime: 0}
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225625, By: Bobi, Tags:  [CSVDONE], Estimation: "20", RemTime: "0"}
         Cancelled .Rewrite the generator to support giving file names to the result:
-          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: [CSVTODO], Estimation: 16, RemTime: 0}
+          +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: , Estimation: "16", RemTime: "0"}
         Done .Create the knots files and their content for it:
-          +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}        
+          +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
       InProgress .Clean, create or migrate the yamls:
         Id: CreateYamls
         Details:
@@ -1035,13 +1034,13 @@ InProgress .Back to original:
             Done .Tasks:
               Done .Software Development:
                 Done .The F2Tool:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20m (timeboxed)} 
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20m (timeboxed)} 
                   Importance: 5-VeryHigh
                   Details:
                     The F2ToolDevelopment.yaml.
                     Including tasks about Requirements and Bugs
                 Done .Website:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: 5}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed), RemTime: "5"}
                   Importance: 5-VeryHigh
                   Details:
                     Basically this section
@@ -1069,21 +1068,21 @@ InProgress .Back to original:
                 Details:
                   This Task is about the ~10 "Article" Items in the old repo, NOT the already published ones
                 Done .Migrate them from the old repo:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175132, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175132, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "10", RemTime: "0"}
                 Done .Decide:_ which ones should be published:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "15", RemTime: "0"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175211, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "15", RemTime: "0"}
                   Details:
                     - Go through them and see which ones should be published.
                     - Idea: the ones on which I'll be working on + any which are "good enough"
                   Result:
                     None - or, rather, the ones already published on the Shadow site
                 Cancelled .Publish the ones decided above:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "0"}
+                  +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [OCWSPhase1], Estimation: "10", RemTime: "0"}
               Done .Processes:
                 Importance: 4-High
               InProgress .Specifications:
                 InProgress .F2Yaml:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase2]}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [OCWSPhase2]}
                   Done .Plan:
                     Result:
                       The task structure below
@@ -1096,7 +1095,7 @@ InProgress .Back to original:
                     Done .Item:
                     Done .Yaml representation:
                   Done .Syntax, semantics and Barba.Types should not be mixed:
-                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
                       - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
@@ -1120,7 +1119,7 @@ InProgress .Back to original:
                   TODO .F2Link:
                     +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                 Done .Barba.Types:
-                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30m (timeboxed)}
+                  +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
               Done .Requirements:
                 Done .The F2Tool:
@@ -1133,45 +1132,45 @@ InProgress .Back to original:
                   Importance: 3-Average
             Done .Meetings:
               Done .Standup Reports:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO], Estimation: 10m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE], Estimation: 10m (timeboxed)}
                 Importance: 5-VeryHigh
                 Details:
                   A plain file, with some description on top, gradually including the standups we have every day (we need to keep it clean therefore)
               Done .Plannings:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE], Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags:, Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 Done .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVDONE]}
                   Details:
                     - Find the previous planning-data (if any)
                     - Decide whether any should be in the new repo; if so, create the new file and tailor the content into it
                   Result:
                     - We're not including the previous.
                 Done .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVDONE]}
                 Done .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVDONE]}
               Done .Retrospectives:
-                +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO],Estimation: 60m (timeboxed)}
+                +: {CreatedBy: Bobi, By: Bobi, Tags: ,Estimation: 60m (timeboxed)}
                 Importance: 5-VeryHigh
                 Done .Create baseline:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220536, By: Hana, Tags: [CSVDONE]}
                   Details:
                     - Find the previous retro-data (if any)
                     - Decide whether any should be in the new repo; if so, create the new file and tailor the content into it
                   Result:
                     We're not inlcuding the previous.
                 Done .Review:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220557, By: [Bobi, Hana], Tags: [CSVDONE]}
                 Done .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVTODO]}
+                  +: {CreatedBy: Bobi, CreatedAt: 20251201 T 220610, By: Bobi, Tags: [CSVDONE]}
             Done .Move my PublicWorkspace:
-              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105300, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: }
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105300, By: Bobi, Tags: , Estimation: , RemTime: }
               Details:
                 - figure out how to handle this in the new repo:
                 - implement
               Done .Figure out how to handle this in the new repo:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114312, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114312, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                 Result:
                   - PublicWorkspace renamed to CurrentWork
                   - We have to separate our private tasks from our public/publishable ones:
@@ -1204,26 +1203,26 @@ InProgress .Back to original:
                       SRYYYMMDD:
                         Was: /#continuously updated while working, i.e. using the time tracking feature of the extension#
               Done .Implement:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114336, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114336, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
                 Done .Move the current PublicWorkspace and Tasks for both of us:
                 Done .Modify app.js:
                 Done .Modify the generator config:
                 Done .Update the description:
                 Done .Generate, check and fix:
             Done .Move the Bugs:
-              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105354, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105354, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
               Details:
                 Include them into their respective "Tasks" file
             Done .Fix the file locations in converter setup:      
             Done .Move anything else:
-              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+              +: {CreatedBy: Bobi, CreatedAt: 20260325 T 105402, By: Bobi, Tags: , Estimation: "30", RemTime: "0"}
               Details:
                 Go through the existing files and see what needs to be moved
               Done .Move .vscode folder:
               Done .Move the F2YamlToHtmlConverter related tasks:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}                                  
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                                  
         Done .Write content for the knots:
-          +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 60, RemTime: 60}
+          +: {CreatedBy: Bobi, By: Bobi, Tags: [OCWSPhase1], Estimation: 60, RemTime: 60}
           Done .Decide the format and process:
             Details:
               - So separate html files, right?
@@ -1234,20 +1233,19 @@ InProgress .Back to original:
               - Yes, Yamls
               - Yes, Generate
               - Q:_ Where should I put them:
-                - A: Into the same repo as the site
-                
+                - A: Into the same repo as the site                
           Done .Create the html files with lorem ipsum:
             Details:
           Done .Write the actual content:
         Done .Upload the phase1 yamls:
-          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 30}
+          +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30"}
       NEXT .Manually create the yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "180"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}
         Details:
           Go through the f2yaml links and replace them with html ones.
           Bobi should show it first
       NEXT .Generate the yaml links automatically:
-        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVTODO, OCWSPhase2], Estimation: "180", RemTime: "180"}
+        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}
     InProgress .Shadow site todos:
       +: {CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
       Done .Revise the homepage:
@@ -1327,10 +1325,10 @@ InProgress .Back to original:
             - we tag them with "OCWSPhase2"
             - Approach - after finishing go live phase1 - is that we'll be doing incremental updates, not a one time push.
         Cancelled .Go live:
-          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: [CSVTODO]}
+          +: {CreatedBy: Bobi, CreatedAt: 20251202 T 152938, By: Bobi, Tags: }
           CancelReason: we'll be doing incremental roll outs, not a one time big push.
     Done .Setup Discord permissions and channels:
-      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133135, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Details:
         - Basically a clean up
         - New joiners should be able to see only the "General" and maybe some "Q&A" channels.
@@ -1367,11 +1365,11 @@ InProgress .Back to original:
       Fixed .Cloudflare hides emails due to some email protection feature; disable this:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130134, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Fixed .Sidebar shrinks if the content is too wide:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
         Result:
           \"overflow: auto" was the solution.
       TODO .Some more colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
         Details:
           - EstTODO
 TODO .Improvements:
@@ -1391,7 +1389,7 @@ TODO .Improvements:
     Location:  https://drive.google.com/drive/folders/1kBjpBQyFXLlqaGZWS2bfV9pU5Qu0Uo5I?usp=drive_link
     Cancelled .figuring out how to install Audicity:
     Done .Transcribe the recording:
-      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVTODO], Estimation: "?", RemTime: "0"}
+      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
       Workspace:
         
         Transcription (Hana):
@@ -1417,7 +1415,7 @@ TODO .Improvements:
               - After the above, we will be developing the processes about how 
               - Summary: contributers will wait a bit -> developining the processes -> more contributers -> high priority in process development ( obviously will prioritise hese people who helps us more and provide them one to one process )
     Done .Fine-tune the transcription:
-      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVTODO], Estimation: "?", RemTime: "0"}
+      +: {CreatedBy: Hana, CreatedAt: 20260418 T 070000, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Workspace:
         Chatgpt (Fine-tuning):
         Public:
@@ -1517,15 +1515,15 @@ TODO .Improvements:
           - image    
       Done .Make a PoC about the csvtohtml converter:
         Id: CsvToHtmlPoC
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVTODO], Estimation: "60", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131910, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
       Done .Make the actual decision:
         Id: ActualDecision
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Result:
           Integrate it into F2Yaml2HtmlConverter
       -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<:
       Done .Convert the CSVs:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         DependsOn: -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
         Details:
           Include:

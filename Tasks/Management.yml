@@ -122,19 +122,21 @@ OnGoing .General management:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
           - estimated finish:     
-    InProgress .Update our approach of handling the CSVs as of 20260415 mehh:
+    Done .Update our approach of handling the CSVs as of 20260415 mehh:
       +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana]}
       Details:
         Basically we should have a general task list unless we want to track certain very special task types in a separate one
-      InProgress .Decide:_ approach:
+      Done .Decide:_ approach:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235819, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
         Result:
           - General CSV; one for everything. 
           - The OCWSPhase1 should stay though.
           - Locations:
-            - 
-      TODO .Implement:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+            - In Reports
+            - CurrentTasks.csv is the main task list
+            - Analysis
+      Done .Implement:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
     +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}

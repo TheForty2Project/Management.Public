@@ -1524,7 +1524,7 @@ TODO .Improvements:
         Result:
           Integrate it into F2Yaml2HtmlConverter
       -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<:
-      Blocked .Convert the CSVs:
+      Done .Convert the CSVs:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
         DependsOn: -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
         Details:

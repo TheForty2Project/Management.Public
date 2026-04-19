@@ -91,4 +91,6 @@ SR_NEXT_Bobi:
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<: [ 35m, "", 20260418 T 191925 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Include coloring"<: [ 20m, "", 20260418 T 231907 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh".."Decide:_ approach"<: [ 4m, "", 20260418 T 235836 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh".."Implement"<: [ 14m, "", 20260419 T 020137 ]
+    - -->Tasks\Website\.."Improvements".."Publish the Reports (currently in CSVs) on the site".."Decide:_ how should we do this".."Convert the CSVs"<: [ 10m, "", 20260419 T 021546 ]
   Next:

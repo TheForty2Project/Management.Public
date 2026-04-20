@@ -1368,8 +1368,8 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
         Result:
           \"overflow: auto" was the solution.
-      TODO .Some more colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+      Fixed .Some more colors are missing from colors.json:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
         Details:
           - EstTODO
 TODO .Improvements:

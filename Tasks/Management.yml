@@ -216,7 +216,7 @@ InProgress .OCWSPhase1:
       Id: Fix2ndRound
       +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
       CancelReason: This is now included in -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
-  TODO .Clean up the files we are publishing:
+  InProgress .Clean up the files we are publishing:
     Id: CleanUpFiles
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
     Details:

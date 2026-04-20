@@ -10,12 +10,12 @@ OnGoing .IT:
   OnGoing .Git setups:
     Id: Git
     Blocked .Create a new repository after the cleanups:
-      +: {CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       DependsOn: -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<
       
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:
-    +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
     Details:
       Include:
         Sucrose vs dextrose:

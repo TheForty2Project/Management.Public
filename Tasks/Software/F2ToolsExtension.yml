@@ -128,15 +128,15 @@ Tasks:
         - the CSV line generator should put those values in quotes which contain characters which are not allowed (which I think are only the doublequote and the comma, right?) (and which do not, not)   
     Done .Prioritize andor consolidate the Bugfixes after Requirement consolidation:    
   InProgress .Wrap up the first phase of VSIX development:
-    +: {CreatedBy: Hana, CreatedAt: 20250827 T 133402, By: Bobi, Tags: [CSVTODO], Priority: 5-veryhigh}
+    +: {CreatedBy: Hana, CreatedAt: 20250827 T 133402, By: Bobi, Priority: 5-veryhigh}
     InProgress .Test:
-      +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVTODO], Priority: 3-Average}
+      +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     InProgress .Cleaning up the remaining Bugs in VSIX:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
     TODO .Update readme:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
     TODO .Create License for VSIX:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVTODO], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
 
 Bugs:
 
@@ -383,7 +383,7 @@ Bugs:
       Details: same.
 
   Fixed .Follow link does not work, giving the error "Unable to find the Item":
-    +: { CreatedBy: Bobi, CreatedAt: 20250806 T 191825, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250806 T 191825, By: Gaurav, Tags: [  ] }
     QA: Bobi
     Version: 2.0.14
     Severity: 4-High
@@ -395,7 +395,7 @@ Bugs:
         Details: same link
 
   Fixed .Follow link does not work, giving the error "Cannot read properties of undefined (reading 'items')":
-    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235245, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235245, By: Gaurav, Tags: [ ] }
     QA: Bobi
     Version: 2.0.17
     Severity: 4-High
@@ -405,7 +405,7 @@ Bugs:
       - (neither with correctly placed dot: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<) #MISSINGLINK
 
   Fixed .Follow link leads to the wrong place:
-    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235257, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235257, By: Gaurav, Tags: [  ] }
     QA: Bobi
     Version: 2.0.17
     Severity: 4-High
@@ -417,7 +417,7 @@ Bugs:
       - Bobi: As agreed, this is hard to fix without proper parsing, so I put it on hold. Let's see my progress with the parser and get back to it when things change.
 
   Rejected .Follow link does not work if no workspace despite Root Path is set:
-    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235818, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235818, By: Gaurav, Tags: [ ] }
     QA: Bobi
     Version: 2.0.17
     Severity: 3-Average
@@ -428,7 +428,7 @@ Bugs:
         - Unable to reproduce
 
   Fixed .Generate ID link clears the Root Path, generates wrong link and then the next time it does not work:
-    +: { CreatedBy: Bobi, CreatedAt: 20250820 T 132152, By: Gaurav, Tags: [ CSVTODO ], Priority: 4-High }
+    +: { CreatedBy: Bobi, CreatedAt: 20250820 T 132152, By: Gaurav, Tags: [  ], Priority: 4-High }
     QA: Bobi
     Version: 2.0.19
     Severity: 3-Average
@@ -448,7 +448,7 @@ Bugs:
           - The root path in settings becomes empty
 
   Fixed .CSV generation giving the usual "Cannot read properties of undefined (reading 'items')" error:
-    +: { CreatedBy: Bobi, CreatedAt: 20250821 T 121117, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250821 T 121117, By: Gaurav, Tags: [  ] }
     QA: Bobi
     Version: 2.0.20
     Area: CSV
@@ -456,7 +456,7 @@ Bugs:
     Details: Basically on all.
 
   Fixed .CSV generation giving "Cannot read properties of null (reading 'items')" error:
-    +: { CreatedBy: Bobi, CreatedAt: 20250821 T 121117, By: Gaurav, Tags: [ CSVTODO ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20250821 T 121117, By: Gaurav, Tags: [  ] }
     QA: Bobi
     Version: 2.0.20
     Area: CSV
@@ -464,26 +464,26 @@ Bugs:
     Steps:
       - Place this into an empty file: |
           OnGoing .Website:
-            +: {CreatedBy: Hana, CreatedAt: 20250804 T 231015, By: [Hana, Mama], Tags: [CSVTODO]}
+            +: {CreatedBy: Hana, CreatedAt: 20250804 T 231015, By: [Hana, Mama]}
             TODO .SomeTask:    
       - Try generating a csv line from the "SomeTask" task
 
   New .Follow link is not working when the target item does not have any properties:
-    +: { CreatedBy: Hana, CreatedAt: 20250829 T 181438, By: Hana, Tags: [ CSVTODO ], Priority: 3-Average }
+    +: { CreatedBy: Hana, CreatedAt: 20250829 T 181438, By: Hana, Tags: [ CSVDONE ], Priority: 3-Average }
     QA: Hana
     Version: 2.0.23
     Area: Follow Link
     Severity: 3-Average
 
   New .Can't use the features of VSIX on Mac depite installing the TF2Tool latest version:
-    +: { CreatedBy: Hana, CreatedAt: 20250831 T 154720, By: Bobi, Tags: [ CSVTODO ], Priority: 3-Average }
+    +: { CreatedBy: Hana, CreatedAt: 20250831 T 154720, By: Bobi, Tags: [ CSVDONE ], Priority: 3-Average }
     QA: Hana
     Version: 2.0.23
     Area: General
     Severity: 3-Average
 
   New ."Bug:_ Unknown structure" error message:
-    +: {CreatedBy: Bobi, CreatedAt: 20250902 T 124657, By: Bobi, Tags: [CSVTODO], Priority: 4-High}
+    +: {CreatedBy: Bobi, CreatedAt: 20250902 T 124657, By: Bobi, Tags: [CSVDONE], Priority: 4-High}
     QA: Hana
     Version: 2.0.23
     Area: General
@@ -492,7 +492,7 @@ Bugs:
       On this link: -->!PublicWorkspaces\Hana\PlanningMeeting20250830\.."Planning and Retrospective".."PlanningMeeting20250830".Workspace.."Review milestones"<   #MISSINGLINK
 
   Fixed .Worklog generation is not working:
-    +: {CreatedBy: Hana, CreatedAt: 20250903 T 102933, By: Hana, Tags: [CSVTODO], Priority: 4-High}
+    +: {CreatedBy: Hana, CreatedAt: 20250903 T 102933, By: Hana, Priority: 4-High}
     QA: Hana
     Version: 2.0.23
     Area: Work
@@ -501,14 +501,14 @@ Bugs:
       - specify SR, select task and stop task were implemented. Cursor was on SR worklog generation didn't work
 
   New .Task minutes does not get saved whem VSC is closed:
-    +: {CreatedBy: Hana, CreatedAt: 20250903 T 170338, By: Hana, Tags: [CSVTODO], Priority: 3-Average}
+    +: {CreatedBy: Hana, CreatedAt: 20250903 T 170338, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     QA: Hana
     Version: 2.0.23
     Area: General
     Severity: 3-Average    
 
   New .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
-    +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVTODO]}
+    +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration

@@ -56,14 +56,14 @@ OnGoing .General management:
     Done .Create report about total spent time per task and per day per worker up until 20260413 meh:
       +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}
       Done .Create CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "90", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags:[CSVDONE], Estimation: "90", RemTime: "0"}
         Details:
           - Optional or if you have time: generate the worklogs as well using the "Generate Worklog from SR" crtl-shift-p command
           - Check the validity of the links in the SR
         Comments:
           - [Bobi, "Hana: Example in Tasks/WorkHours.csv; don't forget to replace the single double-quotes to double double-quotes and surround the whole with double quotes for IdLinks", 20260413]
       Done .Create Reports:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "30", RemTime: "30"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Details:
           Bobi to try it first with the Query engine of Rainbow csv
   OnGoing .Retrospective related:
@@ -78,7 +78,7 @@ OnGoing .General management:
       Done .Create OCWSPhase1 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 0}
       Done .Create Management task list reports:
-        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVTODO], Estimation: "70", RemTime: "70"} 
+        +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVDONE], Estimation: "70", RemTime: "70"} 
         Details:
           Include this Task as well in it
       InProgress .Create OCWSPhase2 task list reports:
@@ -107,11 +107,11 @@ OnGoing .General management:
             - Estimation total
             - Remaining total
       Done .SyncAt20260402:
-        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "30", RemTime: "30"} 
+        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"} 
         Details:
           All CSVs - OCWSPhase1, OCWSPhase2, Management      
       Done .SyncAt20260403:
-        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVTODO], Estimation: "10", RemTime: "10", ScheduledAt: 20260403} 
+        +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10", ScheduledAt: 20260403} 
         Details:
           All CSVs - OCWSPhase1, OCWSPhase2, Management
     OnGoing .Analysis of Tasks in CSV:
@@ -127,7 +127,7 @@ OnGoing .General management:
       Details:
         Basically we should have a general task list unless we want to track certain very special task types in a separate one
       Done .Decide:_ approach:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235819, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235819, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
         Result:
           - General CSV; one for everything. 
           - The OCWSPhase1 should stay though.
@@ -136,7 +136,7 @@ OnGoing .General management:
             - CurrentTasks.csv is the main task list
             - Analysis
       Done .Implement:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
 InProgress .OCWSPhase1:
   TODO .Clean up the CSVTODO tags:
     +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
@@ -223,7 +223,8 @@ InProgress .OCWSPhase1:
       - Remove unnecessary content
       - Fix the links (the \#MISSINGLINKS ones)
   InProgress .Plan and prepare Twitch streaming first phase:
-    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: "60", RemTime: "60"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+    Note: Added to CurrentTask.csv
     Workspace:
       First stream:
 

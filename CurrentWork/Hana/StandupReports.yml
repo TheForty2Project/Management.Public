@@ -52,13 +52,13 @@ SR_20260415_Hana:
 
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 38m, "", 20260415 T 181450 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 106m, "", 20260415 T 181450 ]
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<: [ 58m, "", 20260417 T 111754 ]
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<: [ 65m, "", 20260418 T 065619 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260418 T 134121 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
   Next:
     - Clean standup reports of Hana (so this.):
-      - Report your time to the standup preparation (check Bobi's time)
-    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [30m, "Add all the missed tasks from Website"]
+        - Report your time to the standup preparation (check Bobi's time)
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 30m, "Add all the missed tasks from Website" ]
     - PlanningPlusStandup
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:

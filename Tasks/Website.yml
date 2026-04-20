@@ -1369,7 +1369,7 @@ InProgress .Back to original:
         Result:
           \"overflow: auto" was the solution.
       Fixed .Some more colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
         Details:
           - EstTODO
 TODO .Improvements:

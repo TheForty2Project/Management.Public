@@ -105,7 +105,7 @@
         Title: Data types basics 
         Tasks:
           Done .Finish this; last hairs.:
-            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 124654, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 0}
+            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 124654, By: Bobi, Tags: [OCWSPhase1], Estimation: 10, RemTime: 0}
         Content: 
           Overview:
             A data type defines what kind of values a variable (=a container holding data; the properties of the Items are some kind of it) can hold and as a consequence, which operations are valid on those values, such as you can say that a certain variable is for numbers, the other one should contain string (text) and therefore the operator "division" is valid on the former and "concatenation" is valid on the latter.
@@ -239,9 +239,9 @@
         Title: Headers
         Tasks:
           Done .F2Yaml language rules finish - finish explaining that it's only defining the basics:
-            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015603, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 0}
+            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015603, By: Bobi, Tags: [OCWSPhase1], Estimation: 10, RemTime: 0}
           Done .CurrentBusinessRules finish:
-            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015639, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 10}
+            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015639, By: Bobi, Tags: [OCWSPhase1], Estimation: 10, RemTime: 10}
             Details:
              - describe what you can meet throughout the document; some of these might be included in the language itself as well
              - Also merge the MostWidelyUsedHeaderFormats into the 2 above it
@@ -326,7 +326,7 @@
         0-New Must .Overview:
           Title: Overview
           InProgress .Create content:
-            +: {CreatedBy: Bobi, CreatedAt: 20251224 T 160414, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+            +: {CreatedBy: Bobi, CreatedAt: 20251224 T 160414, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
           Content:
             The F2Yaml specification includes a number of special Items, -->Barba.Types\..NonClassTypes.Content<
 
@@ -334,7 +334,7 @@
           Title: The Item and StandardItem classes
           Tasks:
             InProgress .Create content:
-              +: {CreatedBy: Bobi, CreatedAt: 20251220 T 184017, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+              +: {CreatedBy: Bobi, CreatedAt: 20251220 T 184017, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
               Details: 
                 - You can create your own Items, but they 
           Content:
@@ -347,7 +347,7 @@
       
       0-New Must .SubItems:
         Tags: [Syntax, Semantics]
-        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 20, RemTime: 20}
+        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20, RemTime: 20}
         Tasks:
           InProgress .Create content:
             Details:
@@ -530,11 +530,11 @@
     3-Detailing Must .Explicitly vs non-explicitly marked values:
       Tasks:      
         TODO .Explain that this is semantic, not syntax; so the rules are dependent on how we interpret certain values, not just the syntax:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020449, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 5, RemTime: 5}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020449, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "5"}
         TODO .Create a nice structure out of it:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020704, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 10}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020704, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "10", RemTime: "10"}
         TODO .Review the rules and examples below based on the F2Tool implementation:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020502, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 15, RemTime: 15}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020502, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "15", RemTime: "15"}
       Content:
       - The F2Yaml expressions can be provided without marking whether they are strings, references, new Item definitions, etc. explicitly.:
         - In cases where the context provides the information the parser will try to parse the expression as if the expression was one of those types, e.g. when assigning a value to a property with type "Item", it is allowed to omit the "=" or "->" prefixes and provide the value as a plain scalar
@@ -677,7 +677,7 @@
     4-AlmostDone Must .strings:
       Tasks:
         TODO .Restructure it:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020749, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 15, RemTime: 15}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020749, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "15", RemTime: "15"}
       Details:
         Explicitly marked strings are:
           - all scalar node types except plain (i.e. single and double quoted, literal and folded)
@@ -701,8 +701,8 @@
           NonStringProp6: Lorem ipsum dolor sit amet #this would result in an error
     4-AlmostDone Must .Item reference:
       Tasks:
-        TODO Write it along these lines:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 10}
+        TODO Write it along these lines: #Can't CSV it
+          +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}
           Details:
             Summary:
               An ItemReference inside the pre-postfix. See the -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or Links"..ItemReference< for item reference syntax.

@@ -771,7 +771,7 @@
         Prop10: :-Result>new OnGoing MyOngoingTask
     0-New Must .Inline references (inside texts):
       TODO .Write it:
-        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020956, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: 10, RemTime: 10}
+        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020956, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 10, RemTime: 10}
         Details:
           Just a few words + example. Use the below:
             Prefix: \"->" or "$@"

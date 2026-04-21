@@ -13,6 +13,11 @@ OnGoing .IT:
       +: {CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       DependsOn: -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<
       
+OnGoing .BusinessAnalysis:
+  Id: BA
+  Details:
+    Business analysis related - e.g. requirement writing, discussions, etc.
+
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}

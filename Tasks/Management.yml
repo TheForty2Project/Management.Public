@@ -56,7 +56,7 @@ OnGoing .General management:
     Done .Create report about total spent time per task and per day per worker up until 20260413 meh:
       +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}
       Done .Create CSV:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags:[CSVDONE], Estimation: "90", RemTime: "0"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233030, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "0"}
         Details:
           - Optional or if you have time: generate the worklogs as well using the "Generate Worklog from SR" crtl-shift-p command
           - Check the validity of the links in the SR
@@ -222,6 +222,10 @@ InProgress .OCWSPhase1:
     Details:
       - Remove unnecessary content
       - Fix the links (the \#MISSINGLINKS ones)
+    Done .Bobi per TasksToBeSorted:
+    Done .F2Yaml:
+    
+
   InProgress .Plan and prepare Twitch streaming first phase:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
     Note: Added to CurrentTask.csv

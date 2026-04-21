@@ -497,7 +497,7 @@ Technical:
   Type: ProcessDescription
   Summary: Description of the standup process along with preparation for it
   Actors:
-    - you: you, the expected participant of the standup
+    you: you, the expected participant of the standup
   .ManualStandupPreparation:
     Situation:
       .GitBasedF2Workspace: you're working as per the $@WorkProcesses.GitBasedF2Workspace@$ work process
@@ -508,65 +508,61 @@ Technical:
       .YamlPathExtractor: if using VS Code, we recommend having the Yaml Path Extractor plugin to be installed so that you can easily extract paths to a property
       .BarbaCRLF: again, if using VS Code, you should have the little tool called "BarbaCRLF" running, which will allow you to convert the path extracted by the Yaml Path Extractor to a proper IdPath by the press of ctrl+shift+4
     Details: Follow the steps and make sure to finish everything at least 10 mins before the standup.
-    Steps:
-      - CreateSRItem:
-          Summary: Creating the -->StandupReport< Item 
-          Actors: you
-          Steps:
-            - Create a new -->StandupReport< Item in your StandupReport.yml file under your workspace file:
-                Details:
-                  At the moment you can copy-paste this template: |
-                    [yyyymmdd][username]:
-                      Was:
-                        - 
-                      Next:
-                        -
-                      AOIB:
-                        -
-            - name it SR[yyyymmdd][username], such as SR20250114Bobi:
-                Details:
-                  - In the (hopefully rare) case there are multiple standups during the day, add the number of the standup preceded by an underscore, such as SP20250114Bobi_1 and SP20250114Bobi_2. (No, we should not start the numbering with "0", we are humans, first = 1st).
-            - Fill in its properties:
-                Details:
-                  ? Fill the Item according to this template - or follow the steps
-                  : |
-                    Was:  
-                      - OPTIONAL_STATUS YAML_PATH:[TIME_SPENT, OPTIONAL_DESCRIPTION, STARTDATETIME_IN_ISOFORMAT]
-                      ... 
-                    Next:
-                      - OPTIONAL_STATUS YAML_PATH:[OPTIONAL_DESCRIPTION, TIME_ESTIMATED]
-                      ... 
-                    AOIB:
-                      - textual description of Any Other Important Business
-                  Notes:
-                    The properties:
-                      - The "Next" field should contain a similar list but instead of spent time, the estimated time.
-                      - The "AIOB" field should contain a list of the textual descriptions of what you did
-                    ? The recommended way for retrieving the IdPath of an Item, if using VS Code with YamlPathExtractor and BarbaCRLF
-                    : - navigate to the Item in VS Code
-                      - right click on its Id and select "Extract Key" from the context menu; this should copy its yaml path to the clipboard
-                      - press ctrl+shift+4 to format the clipboard content to a link
-                Steps:
-                  - Fill the "Was" field as:
-                    Details:
-                      Report what Tasks you worked on by adding a line for each:
-                        in the following format:
-                          - "[yaml path]:{[optional description], [time spent]}"
-                        where:
-                          - yaml path: IdPath (or yaml path) pointing to the Item you worked on
-                          - optional description: what did you do, in a few words; optional.
-                          - time spent: how much time you spent on it
-                  - Fill the "Next" field as:
-                    Details:
-                      ? Report what Tasks you are planning to work on by adding a line for each
-                      : in the following format:
-                          - "[yaml path]:{[optional description], [time estimated]}"
-                        where:
-                          - yaml path: IdPath (or yaml path) pointing to the Item you worked on
-                          - optional description: what are you planning to do, in a few words; optional.
-                          - time spent: how much time you are planning to spend on it
-      - LogTime: Find the Standup preparation Task (as in ) $@StandupProcess..StandupPreparation.Prerequisites..StandupPrepTask@$ and log the time taken to prepare
-      - CommitAndPush:
+    .CreateSRItem:
+      Summary: Creating the -->StandupReport< Item 
+      Actors: you
+      .Create a new -->StandupReport< Item in your StandupReport.yml file under your workspace file:
+        Details:
+          At the moment you can copy-paste this template: |
+            [yyyymmdd][username]:
+              Was:
+                - 
+              Next:
+                -
+              AOIB:
+                -
+      .name it SR[yyyymmdd][username], such as SR20250114Bobi:
+        Details:
+          - In the (hopefully rare) case there are multiple standups during the day, add the number of the standup preceded by an underscore, such as SP20250114Bobi_1 and SP20250114Bobi_2. (No, we should not start the numbering with "0", we are humans, first = 1st).
+      .Fill in its properties:
+        Details:
+          Fill the Item according to this template - or follow the steps: |                  
+            Was:  
+              - OPTIONAL_STATUS YAML_PATH:[TIME_SPENT, OPTIONAL_DESCRIPTION, STARTDATETIME_IN_ISOFORMAT]
+              ... 
+            Next:
+              - OPTIONAL_STATUS YAML_PATH:[OPTIONAL_DESCRIPTION, TIME_ESTIMATED]
+              ... 
+            AOIB:
+              - textual description of Any Other Important Business
+          Notes:
+            The properties:
+              - The "Next" field should contain a similar list but instead of spent time, the estimated time.
+              - The "AIOB" field should contain a list of the textual descriptions of what you did
+            The recommended way for retrieving the IdPath of an Item, if using VS Code with YamlPathExtractor and BarbaCRLF:
+              - navigate to the Item in VS Code
+              - right click on its Id and select "Extract Key" from the context menu; this should copy its yaml path to the clipboard
+              - press ctrl+shift+4 to format the clipboard content to a link
+        .Fill the "Was" field as:
+          Details:
+            Report what Tasks you worked on by adding a line for each:
+              in the following format:
+                - "[yaml path]:{[optional description], [time spent]}"
+              where:
+                - yaml path: IdPath (or yaml path) pointing to the Item you worked on
+                - optional description: what did you do, in a few words; optional.
+                - time spent: how much time you spent on it
+        .Fill the "Next" field as:
+          Details:
+            Report what Tasks you are planning to work on by adding a line for each:
+              in the following format:
+                - "[yaml path]:{[optional description], [time estimated]}"
+              where:
+                - yaml path: IdPath (or yaml path) pointing to the Item you worked on
+                - optional description: what are you planning to do, in a few words; optional.
+                - time spent: how much time you are planning to spend on it
+    .LogTime: Find the Standup preparation Task (as in ) $@StandupProcess..StandupPreparation.Prerequisites..StandupPrepTask@$ and log the time taken to prepare
+    .CommitAndPush:
   .StandupPreparationUsingF2Tool:
     Summary: Tracking your time spent on Tasks and creating your standup report
     Situation:

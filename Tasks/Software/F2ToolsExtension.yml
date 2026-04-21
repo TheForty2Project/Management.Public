@@ -519,20 +519,39 @@ Bugs:
         - the Summary contains just one word
   
   New .During CSV Generation extra fields are added:
+    +: {CreatedBy: Hana, CreatedAt: 20260327 T 104642, By: Bobi, Tags: [CSVTODO]}
     QA: Hana
     Version: 2.0.24
-    Area: Link Generation
+    Area: LinkGeneration
     Severity: 4-High
   
   New .During CSV Generation if the value of a property is not a string, it fails:
+    +: {CreatedBy: Bobi, CreatedAt: 2026030 T 122326, By: Bobi, Tags: [CSVTODO]}
     QA: Bobi
     Version: 2.0.24
-    Area: Link Generation
+    Area: LinkGeneration
     Severity: 4-High
     Details:
       \"str.Trim is not a function" if the value is e.g.:
         number
         null
+
+  New .Can't link to sequences:
+    +: {CreatedBy: Bobi, CreatedAt: 20260421 T 125103, By: Bobi, Tags: [CSVTODO]}
+    QA: Bobi
+    Version: 2.0.24
+    Area: LinkGeneration
+    Severity: 4-High
+    Details:
+      Description:
+        Trying to generate a link to a sequence element results in "Cannot read properties of underfined (reading 'value')" error message instead of generating the link
+      Example:
+        Prop1:
+          - You can't generate link to this line:
+        Prop2:
+          But you can to this:
+      
+            
   
 
 

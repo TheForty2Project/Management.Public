@@ -78,7 +78,7 @@ SR_20260415_Bobi:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<:
 
 
-SR_NEXT_Bobi:
+SR_20260421_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh".."Create Reports"<: [ 38m, "", 20260415 T 175507 ]
     - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<: [ 30m, "", 20260415 T 184201 ]
@@ -87,12 +87,22 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Bugs".."Sidebar shrinks if the content is too wide"<: [ 10m, "", 20260418 T 185950 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Cleanups"<: [ 45m, "", 20260417 T 230103 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Baseline"<: [ 132m, "", 20260418 T 000110 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 26m, "", 20260418 T 191302 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 30m, "", 20260418 T 191302 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<: [ 35m, "", 20260418 T 191925 ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Include coloring"<: [ 20m, "", 20260418 T 231907 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh".."Decide:_ approach"<: [ 4m, "", 20260418 T 235836 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh".."Implement"<: [ 14m, "", 20260419 T 020137 ]
     - -->Tasks\Website\.."Improvements".."Publish the Reports (currently in CSVs) on the site".."Decide:_ how should we do this".."Convert the CSVs"<: [ 10m, "", 20260419 T 021546 ]
-    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 9m, "", 20260420 T 131858 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 113m, "Including lots of task creation, etc.", 20260420 T 131858 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"<: [ 12m, "Updating which F2Yaml doc files to be displayed in the left menu" ]
+    - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Display line and col number when unable to parse yaml"<: [ 12m, "", 20260420 T 204356 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "", 20260421 T 120000 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: [20m, "Fixing various requirements I encountered during cleanups", 20260420 T 120000]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260421 T 134500 ]
   Next:
+    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<:
+    - -->Tasks\Management\.."General management".."Task Administration"<: ["Anything emerging during cleanups"]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: ["Anything emerging during cleanups"]
+    - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
+    - -->Tasks\Software\F2ToolsExtension\.Bugs<: ["Fixing a bunch of 'easy' ones"]

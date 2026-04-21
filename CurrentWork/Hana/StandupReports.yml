@@ -43,6 +43,7 @@ SR_20260415_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 80m, "", 20260414 T 120832 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: TODO
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
   Next:
     - Create a task for this "PlanningPlusStandup" activity, report your time to it and fix Bobi's standup report as well (so his time is also reported to this and not to the standup preparation):
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<
@@ -50,13 +51,14 @@ SR_20260415_Hana:
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<
     - -->Tasks\Website\.."Improvements".."Manually convert the urls in the NonDD pages to html links"<
 
-SR_NEXT_Hana:
+SR_20260421_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 148m, "", 20260415 T 181450 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 178m, "", 20260415 T 181450 ]
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<: [ 58m, "", 20260417 T 111754 ]
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<: [ 65m, "", 20260418 T 065619 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260418 T 134121 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 4m, "", 20260418 T 134121 ]
+    
   Next:
-    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase2 task list reports"<: [ 30m, "Add all the missed tasks from Website" ]
-    - PlanningPlusStandup
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
+
+SR_NEXT_Hana:

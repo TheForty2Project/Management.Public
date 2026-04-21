@@ -74,7 +74,7 @@ Health Template:
       - base the workout according to the goals
 Done 20260419:
   Done .Add the part we recorded during our smoking session to the Summary:
-InProgress 20260420:
+Done 20260420:
   InProgress .Create OCWSPhase2 task list reports: 
     Done .Clean up the CSVTODO in Website file:
       Notes: 
@@ -89,6 +89,13 @@ InProgress 20260420:
     Done .Cleanup the CSVTODO in management file:
   InProgress .Write your thoughts:
     - Management of your life (yourself, your partner, both of your project of life) - it'll be published our life
+TODO .20260421:
+  TODO .Prepare twitch to be live this week:
+    TODO .Edit the channel:
+      Remove:
+        Reddit-HanaK42 https://www.reddit.com/user/No_Leopard1874/
+        LinkedIn-HanaK42 https://www.linkedin.com/in/hanak42/
+        Twitch-HanaK42 https://www.twitch.tv/hanak42
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

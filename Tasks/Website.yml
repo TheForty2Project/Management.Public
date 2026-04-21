@@ -1372,6 +1372,12 @@ InProgress .Back to original:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
         Details:
           - EstTODO
+      TODO .Colors missing and incorrect - again:
+        +: {CreatedBy: Bobi, CreatedAt: 20260421 T 130738, By: Bobi, Tags: [CSVTODO], Estimation: "10", RemTime: "10"}
+        Details:
+          - Actors:, Situation:, Prerequisites:
+          - Check the spaces in front of properties - they should have.
+          - Closed and 0-Dont should be "92,92,92" (decimal)
 TODO .Improvements:
   Id: Improvements  
   Done .ToC:

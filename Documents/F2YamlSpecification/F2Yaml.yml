@@ -1,4 +1,14 @@
 +: {Type: Folder, DefaultTypes: [Folder, Article]}
+
+Done .Notes:
+  Content:
+    - Although this is work in progress, it already contains useful information for those who'd seriously like to participate in the project:
+      - it's a good source for information to understand the most important notations - i.e. it's worth checking this document before you ask a question, high chance that you can figure things out from this    
+    - Plan is to gradually finish the below over the next couple of weeks - but highly depending on the need
+
+
+
+
 3-Detailing Must .F2Yaml.MVP Rules Sketch:
   Type: Article  
   Title: F2Yaml.MVP Rules - First sketch
@@ -396,7 +406,7 @@
     #         By: Bobi
     #         Details: Write examples for this section
 
-  1-SomeProgress Could.Terminology:
+  1-SomeProgress Could .Terminology:
     Title: Terminology
     .Item:
     # \"Property":

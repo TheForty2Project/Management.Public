@@ -3,25 +3,25 @@
 .F2ToolsExtension:
   Details:
     There is a Visual Studio Code extension (=can be registered into Visual Studio Code as an extension), providing various services helping to perform day-to-day tasks around handling the Items.
-  InQA .Minimal Base:
+  Closed .Minimal Base:
     Details:
       - Its name should be: F2Tools
       - Published by: tf2p.org
-  InQA .Publishing the extension:
+  Closed .Publishing the extension:
     Details: The F2VSCExtension should be published in the Visual Studio Marketplace under the publisher name tf2p.org
   InQA .Extract F2Yaml Link in F2VSCExtension:
     ReqReq: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
-      There should be a functionality in the extension with which one can extract the yaml path to a yaml key and paste it in one of the "link" formats. $@TODO rewrite this sentence@$
-    InQA .Basic:
+      There should be a functionality in the extension with which one can extract the yaml path to a yaml key and paste it in one of the "link" formats.
+    Obsolete .Basic:
       Details:
         A basic version, with simple, configurable string replace (and manipulations)
-      InQA .Registers commands:
+      Obsolete .Registers commands:
         Details:
           The extension registers 2 commands:
             CopyAsF2YamlLink: Generate or Copy F2Yaml Link
             CopyAsF2YamlReference: Generate or Copy F2Yaml Reference
-      QAPassed .Can be configured:
+      Closed .Can be configured:
         Details:                
           - It can be configured what words should be removed from the extracted key - such as status words like "TODO", "Done".              
         Stories:
@@ -39,7 +39,7 @@
               - The TextBox contains the value of the "f2ToolInterface.removeWords" setting (in settings.json), or, if not found, the default, which is:
                   "EstTODO, DraftTODO, TODO, Estimated ,OnGoing, OnHold, Cancelled, Paused, InProgress,Done, CurrentFocus, Blocked, Drafting, Draft , Reviewed, InDev, Developing, InQA, BugFixing, QAPassed"
               - The user can change the content of the texbox and when closing, the settings is saved to the above key in settings.json              
-      QAPassed .Extract by shortcut:
+      Obsolete .Extract by shortcut:
         ReqReq: 
           - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Basic".."Registers commands"<
           - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Basic".."Can be configured"<
@@ -86,6 +86,10 @@
                           -->MyItem."My Key 1".MyKey2<
               - the result is placed to the clipboard:
                   so that the user can paste it.        
+      Comments:
+        - - Bobi
+          - The F2Yaml link format is obsolete and this functionality is superseded by the $@-->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2VSCExtension".."Yaml parsing based"<@$ functionality
+          - 20260421
     InQA .Yaml parsing based:
       Details: |
         A yaml parsing based version, where the Items are parsed and the links are created using the contents of their properties.
@@ -258,7 +262,7 @@
                 //    - the value is the value of the property
                 //- it decides whether the Item is represented like above or not based on whether the first word is part of the [NameOfTheIgnoreList]
               }
-  Closed .Time Tracking and Administration:
+  InQA .Time Tracking and Administration:
     ReqReq: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
       Summary:
@@ -268,10 +272,11 @@
           - what is the activity; 
           - to update the StandupReport 
           - and to generate the WorkLog entries into the Tasks.
-    Closed .Basic:
+    InQA .Basic:
       Details:
         The basic version.
-      Closed .Registers shortcuts/command:
+        0-Dont
+      QAPassed .Registers shortcuts/command:
         Details:                
           The extension registers shortcuts/commands:
             SpecifyStandupReport: 
@@ -286,11 +291,11 @@
             ResumePreviousTask:
               Command: Pause/Resume Task
               Description: if there was a task selected previously and the times was stopped with the "StopTask" command, instructs the app to resume counting the time on the Task
-      Closed .Works:
+      InQA .Works:
         Details:
           The extension has the basic Specify SR, Start/Stop and Pause/Resume functionalities
         Notes:
-          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Processes\ProcessDescriptions.StandupProcess..StandupPreparation.Steps.0.CreateSRItem.Steps.2."Fill in its properties".Details< #MISSINGLINK
+          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Documents\ProcessDescriptions\..StandupProcess..ManualStandupPreparation..CreateSRItem.."Fill in its properties"<
         Stories:
           Specify SR:
             Given:
@@ -349,8 +354,8 @@
             Then:
               The $@Start the counter on a Task@$ action is performed in a way that the Task in question is the previous task
 
-    ReadyForQA .WorkLogGeneration:
-      Closed .Registers shortcuts:
+    InQA .WorkLogGeneration:
+      QAPassed .Registers shortcuts:
         Details:                
           The extension registers shortcuts:
             GenerateWorkLogsFromSR:
@@ -358,7 +363,7 @@
               Description: generates (or updates) the WorkLog entries of the Tasks based on this SR
           Done .specify the shortcuts (or just a ctrl+shift+p command?):
             Result: ctrl+shift+p was selected
-      ReadyForQA .Generates WorkLog Entries:
+      InQA .Generates WorkLog Entries:
         Details:
           Given:
             The cursor is on the Id of a StandupReport Item
@@ -378,11 +383,11 @@
                   existingEntry.UpdateFrom(wasPartEntry)
                 else:
                   workLogProperty.AddNewEntry(wasPartEntry)
-  Closed .Code Completion:
+  Cancelled .Code Completion:
     Cancelled .Minimal Snippet Based Item Creation:
       ReqReq: --->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
       Details:
-        Summary: The extension integrates into IntelliSense, providing code completion for 
+        Summary: The extension integrates into IntelliSense, providing code completion
       Stories:
         Code completion:
           Given:
@@ -392,22 +397,20 @@
             - user selects a snippet with enter/tab/mouse.
           Then:
             - The entire structure of the selected snippet will be formed.
-      Notes:
-        Bobi:
-          Reason for cancelled is that by adding the snippets into the "yaml.code-snippets" file in the .vscode folder we can have all the functionalities of this, including the easy global-update of the snippets - in fact, easier one than with the extension.
-  ReadyForQA .CSV Task List Tools:
-    ReqReq: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension extension".."Minimal Base"<  #MISSINGLINK
+      CancelReason: by adding the snippets into the "yaml.code-snippets" file in the .vscode folder we can have all the functionalities of this, including the easy global-update of the snippets - in fact, easier one than with the extension.
+  InQA .CSV Task List Tools:
+    ReqReq: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
       Summary:
         Various CSV Task list helper functionalities.
-    ReadyForQA .CSV Entry generation:
-      ReadyForQA .Registers commands:
+    InQA .CSV Entry generation:
+      QAPassed .Registers commands:
         Details:
           The extension registers shortcuts/commands so that they appear in the command palette (ctrl+shift+p) :
             GenerateCSVLine: 
               Command: Generate CSV Line from Task
               Description: if the cursor is on a Task, signals that the extension should generate a CSV Line from the properties specified in the settings of the extension and put it on the clipboard.
-      ReadyForQA .Can be configured:
+      InQA .Can be configured:
         Details:                
           It can be configured what property values in what order should be used for the CSV line generation.
         Stories:
@@ -428,7 +431,7 @@
               - The ListBox contains the value of the "f2Tool.CSVTaskListProperties" setting (in settings.json), or, if not found, the default, which is:
                   Empty, Status, Milestone, IdLink, By, Priority, RemainingHrs, SummaryLink, BlockedBy    
               - The user can change the content of the texbox and when closing, the settings is saved to the above key in settings.json
-      ReadyForQA .Works:
+      InQA .Works:
         ReqReq: 
           - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation".."Registers commands"<
           - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation".."Can be configured"<
@@ -486,45 +489,15 @@
                     return csvLine;
                     }
 
-                - english: #note that the below is not really consistent or updated and actually should be removed
-                  - starting with an empty string
-                  - for each string (representing a property name) in the CSVTaskListProperties setting, it adds:
-                    - an element:
-                      - if the string equals with a case insensitive comparison to:
-                        - "idlink": 
-                          - a link pointing to the Task, containing the Ids of the items:
-                            - if there's no Id property specified for any parent items, the summary is used:
-                                - in case the summary is one word, containing only the A-Za-z0-9_ characters, then without double quotates (we use it as an id)
-                                - otherwise in double quotes
-                        - "SummaryLink":
-                          - a link pointing to the Task, containing the Summaries of the Items (e.g. from the "Done This is a task" the "This is a task" part)
-                          - if there's no Summary property for the Task, then its Id
-                        - "Empty":
-                          - a space
-                      - otherwise:
-                        - if the string equals (with case insensitive comparison) with a name of a property in the Task:
-                          - if the value is a scalar:
-                            - the value of this property
-                            - replacing line endings with "\n"
-                          - if the value is a sequence containing scalars: 
-                            - serializing the sequence values into a comma separated list, putting the whole inside double quotes:
-                          - otherwise the string "<NotSupported>" #so this is for complex types, like maps containing sequences, sequences containing sequences, etc.
-                        - otherwise the string " ":
-                    - if the element contains double quotes, then each double quote should be replaced to double double quotes AND the whole element should be surrounded with double quotes, e.g.:
-                      - original element: |
-                          there is "doublquotes" in this
-                      - resulting element: |
-                          "there is ""doublquotes"" in this"
-                    - plus a comma after each element, except the last one
               - The CSV line is placed to the clipboard:  
                   so that the user can paste it.
               - A notification popup is presented, containing: |
                   The following line was placed to the clipboard:
                   [the CSV line]"
-  Closed .following links basic:
+  InQA .Following links basic:
+    BA: Gaurav
     Details: 
       There should be a functionality that can make the link live i.e. make the link work like a url link
-
     Stories:
       Given:
         - The F2Tools extension is installed and enabled in VSCode
@@ -532,7 +505,7 @@
       When:
         - The follow link command is fired.
       Then:
-        - IF(CurrentDoc == DocOfTheItemPointedByLink):
+        - IF (CurrentDoc == DocOfTheItemPointedByLink):
             - Move the cursor to the position of the task's summary 
             - Highlight the task summary
         - Else:
@@ -551,15 +524,15 @@
 
                   openAndHighlightPosition(itemPosition, itemDocUri);
                 }
-  ReadyForDev .Follow F2Links:
+  InQA .Follow F2Links:
     Details: |
       There should be a functionality that can make the link live i.e. make the link work like a url link.
       This Requirement is the "advanced" behavior, being able to follow all valid F2Yaml links as specified in DocsAndArticles\Specifications\F2Links.bnf, both when they are in a yaml and in a CSV.
-    ReadyForDev .Registers commands:
+    InQA .Registers commands:
       Details:
         The extension registers a command:
           FollowLink: Follow F2Yaml Link                
-    ReadyForDev .Works:
+    InQA .Works:
       Details: 
         - The link following functionality works both inside yaml and csv files, supporting:
           - Id based parts
@@ -612,6 +585,8 @@
         - all the fixed bugs should be mentioned
         - all the added and removed features should be mentioned.
   Drafting .behaviour of the extension when the vscode shuts down:
+    BA: Gaurav
     Details:
-      - -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<
+      
+      - The $@-->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -1161,6 +1161,210 @@ Done .Marketing plan as of 20250819:
       - Post the whole video on e.g. youtube?
       - Create clips out of it and post it on various platforms (X? Maybe the funny parts on Instagram? Maybe to Linkedin as well)
 
+.AfterOCWSPhase1:
+  Details:
+    Revised marketing and "reaching to the public" strategies and tasks after the initial release of the 3rd version of the site - the OCWSPhase1
+  InProgress .Initial brainstorming and analysis of marketing ideas:
+    +: {CreatedBy: Bobi, CreatedAt: 20251227 T 163547, By: [Bobi, Hana]}
+    Details:
+      - List of marketing channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
+      - For each:
+        - What would be the steps we'd need to do; if there are different cases - then for each case.:
+            Example:
+            - Step1:
+                Details:                    
+                  So we do X, then by making sure that y, we blah
+                  optional because lorem ipsum
+                  Good if the article X in the site is blah
+            - Step2
+            - IF condition:
+              - Step1
+              - Step2
+            - ELSE: #if needed
+              - Step1
+              - Step2
+        - What do we need for it, especially:
+          - content on the website
+          - any other preconditions ("good health", drugs, software ready, etc.)
+        - Expected reach: #what type of audience and why, how - so if Facebook organic spread then from the initial reach and conversion we can have growing number of followers/viewers reaching 1000-100000? in 1-5? months
+        - Expected conversion: #to what - supporter (who at least shares), non-working member, working member (in what role), money, big money
+    Done .Create first draft:
+      +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170414, By: Hana, Estimation: "0", RemTime: "0"}
+      Result:  
+        Marketing Ideas:
+          5-VeryHigh Coding Streaming:
+            Details: 
+              Robert should be streaming 2 hours per day on F2Tool Development
+            Steps:
+              - Set up the platforms:
+                - Twitch (Science & Technology / Programming) — Live coding  streams + chat:
+                  - Account Created:
+                    - Bobii42
+                    - TheForty2Project
+                - YouTube Live — Longer-form coding streams or workshops:
+                  - Account Created:
+                    - Theforty2project@gmail.com
+                - Discord Servers — Study rooms, coding voice channels, community projects:
+              - advertise about the stream to the respective channels:
+                - X
+                - Reddit
+                - 9Gag (maybe programmers section)
+                - Midnight network
+            Requirements:
+              - Website
+              - Done Account Creation
+              - Done Testing the platform
+            Target Audience: 
+              - Programmers
+              - Coders
+            Goals:
+              - To market the main stream of marketing which is coding TF2P Tool
+            Done .Go through our past data about coding streaming task and check what are the new updates from Reddit and chat gpt:
+          5-VeryHigh Management Streaming:
+            Details: Hana should stream management daily at a certain time if possible
+            Steps: 
+              - Management and Coding can be streamed together
+              - Set a schedule on Twitch 
+              - Advertise on Reddit 
+            Requirements:
+              - Management Time should be early morning when the brain is at its most thinking capabilities
+              - Peer pressure required Set schedule on Twitch
+            Target Audience:
+              - Programmers
+              - Softwares Managers
+              - Managers
+            Goals:
+              - To show how TF2P project is managed 
+              - To attract programmers and managers
+          5-VeryHigh Reddit:
+            Details: Can be an important source for articles and discussions
+            Steps: 
+              - Collect the topics/ questions that we need to share 
+              - Find communities that we can ask or share articles with 
+            Requirements:
+              - DeepDive section should be published
+            Target Audience:
+            Goals:
+          5-VeryHigh Midnight Network:
+            Details: putting some intro about us here and there
+            Target Audience: programmers/blockchain enthusiasts
+          5-VeryHigh Talks about Logic (what we started):
+              Details:
+              Steps:
+                - Collect the articles in regards Logic
+                - Search for Videos 
+              Requirements: 
+                - Videos that are saved in Robert's Computer should be saved in Drive ( for me to edit and upload it online)
+              Target Audience: All
+              Goals: Show the world how computed decisions are made (in TF2P)
+          4-High Contact certain people:
+            Details: Contact people who are in the field of Logic, Programming, Coding
+            Steps:
+              - Find the list of people to be contacted in VSC
+              - Collect the names and the organization of people that need to be contacted
+            Requirements:             
+            Goals: Searching for members       
+          4-High 9gag:
+            Details: There are some decent communities in 9Gag based on the comments sections that can be beneficial for the project 
+            Steps:
+              - Choose the topic
+              - Plan the ad
+              - Select the interest/group
+            Requirements:
+              - Website (DeepDive) should be published 
+            Target Audience:
+              - Programmers, Coders, Logicians, Community builders
+            Goals: 
+              - To find members
+              - To familiarize the world with the project concept         
+          4-High Music listener of the same taste of music:
+            Details: 
+              - People with similar music taste can be target audiences
+              - Through comments on Youtube, maybe soundcloud
+            Steps:
+              - Need to research more about it
+            Requirements:
+            Target Audience:
+              - Same music listener
+            Goals:
+          3-Average Talks about Drugs:
+            Details: mention how drugs affect our daily life in work, personal and health
+            Steps:
+            Requirements:
+            Target Audience: Scientist, Enthiusaist, people who use it for certain purposes
+          3-Average Talks(about what topics):             
+          1-VeryLow Sex:
+            Details: 
+              - Doing actual things
+              - Talks about experiences, how important it is
+            Steps:
+              - Collect the videos about it
+              - Collect pictures 
+              - Collect voice notes 
+              - Have some talk shows in certain platforms:
+                - OnlyFans
+            Requirements:
+              - Ds
+            Target Audience: 
+              - Onlyfans
+              - Males in general + females who are interested
+            Goals: 
+              - This can give us income as the project consist of work and entertainment
+              - Show people how much we love each other and how we are using logic to manage our life. 
+              - Have income
+            1-VeryLow Involving Jessica and boyfriend:
+              Details: Have some marketing ideas from Jessica, share the party and convert it to income
+              Steps:
+                - Have a discusion with Robi about it
+                - Prepare the marketing plans
+                - Contact Jessica and share the plans with her
+              Requirements:
+              Goals:          
+          X:
+            Details: Need to search more about it
+            Steps: 
+            Requirements:
+            Target Audience:
+            Goals:
+          Videos and Audio marketing:
+            Details: Collect the Audios and Videos for publishing
+            Steps:
+              .Audio:
+                - Audios are saved in the Drive already
+                - Need to give titles to the Audios
+                - Categorize it based on the topics
+                - Save the videos and Audios to the TF2P Drive
+              .Video:
+                - Locate the videos
+                - Save all the videos on Drive
+                - Categorize it based on the topics
+            Requirements:
+              - Videos should be in the Drive before 20260103
+            Target Audience: Depend on the video content
+            Goals: Publish who we are            
+          5-VeryHigh KurzGesagt:
+            Details:
+              - We can contact them to make an episode about how the project would work
+              - Including:
+                - Animation about hierarchical vs. computed decision-making (what we planned originally)
+            Target Audience: \"smarter", more logical people - so opposite of Tiktok
+          4-High Job portals:
+            Details:
+              - There are way better options than 9gag and wellfound. We can try this again once the site is out.
+              - https://9gag.com/gag/agg5B6v
+    Done .Involve Robi:
+      +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170433, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 45, RemTime: 45}
+      Details:
+        Work out the most important/likely/urgent parts of the plan ideas, taskify them, etc.
+      Result:
+        - We prioritized them
+        - Main target audience is programmers
+    TODO .Collect people for the Contact Certain People topic:
+      +: {CreatedBy: Bobi, CreatedAt: 20251229 T 221959, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:                  
+        - Shamanth (the one who was interested in our podcast about logic)
+        - The rest of the people we started collecting - where is it  
+
 -->Backlog\Archive..PublicRelations..Archive<:   #MISSINGLINK
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

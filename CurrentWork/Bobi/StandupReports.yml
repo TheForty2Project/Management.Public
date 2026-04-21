@@ -98,11 +98,17 @@ SR_20260421_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution"<: [ 12m, "Updating which F2Yaml doc files to be displayed in the left menu" ]
     - -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Display line and col number when unable to parse yaml"<: [ 12m, "", 20260420 T 204356 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "", 20260421 T 120000 ]
-    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: [20m, "Fixing various requirements I encountered during cleanups", 20260420 T 120000]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: [ 20m, "Fixing various requirements I encountered during cleanups", 20260420 T 120000 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260421 T 134500 ]
   Next:
     - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<:
-    - -->Tasks\Management\.."General management".."Task Administration"<: ["Anything emerging during cleanups"]
-    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: ["Anything emerging during cleanups"]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ "Anything emerging during cleanups" ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: [ "Anything emerging during cleanups" ]
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
-    - -->Tasks\Software\F2ToolsExtension\.Bugs<: ["Fixing a bunch of 'easy' ones"]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs<: [ "Fixing a bunch of 'easy' ones" ]
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260421 T 134833 ]
+  Next:
+    - null

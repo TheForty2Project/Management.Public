@@ -110,8 +110,8 @@ SR_20260421_Bobi:
 SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260421 T 134833 ]
-    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 60m, "", 20260421 T 170513 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 79m, "", 20260421 T 170513 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 41m, "", 20260422 T 120445 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 5m, "", 20260422 T 120532 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 30m, "", 20260422 T 120532 ]
   Next:
     - null

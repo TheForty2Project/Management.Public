@@ -97,21 +97,24 @@ namespace System.Types:
 
   class Comment:
     #Inherits: Item //Commented out as this is by default
-    Properties:
-      User By:
+    Properties:      
       string Content:
     Notes:
-      - Use the following formats:
+      - Use the following formats (these are planned to be implemented as custom formats as soon as the system supports it):
           key-value pair, if the timestamp is not important: 
             That is: 
               - username: content
             Example: 
               - bobi: lorem ipsum
-          flow-sequence, if the timestamp is important:
+          flow-sequence:
             That is:
               - [username, date, "content"]
             Example:
               - [bobi, 20251208 T 000842, "lorem ipsum"]
+          full:
+            - CreatedBy: Bobi
+              CreatedAt: 20260422 T 1233
+              Content: lorem ipsum
 
   class ClassDescription:
     Inherits: StandardItem

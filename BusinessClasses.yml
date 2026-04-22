@@ -359,8 +359,45 @@ namespace Barba.Types:
     Inherits: StandardItem
     Properties:
       StandupWasEntry[] Was:
+        Details: what happened since the last standup
       StandupNextEntry[] Next:      
+        Details: what is the plan until the next standup
       string[] AOIB:
+        Details: any other important business worth mentioning - like "I won't be available in the afternoon", "I need a discussion about something"
+
+  class StandupWasEntry:
+    Inherits: Item
+    Properties:
+      F2Link Link:
+        Details: a link to the Task worked on
+      string Note:
+        Details: any notes about what happened with the task - e.g. "took longer time because encountered a time consuming issue"
+      Duration Spent:
+        Details: how much time was spent on it
+      TimeStamp StartedAt: 
+        Details: when was the task started
+    Notes:
+      - The following format is the recommended one:
+          Format:
+            Link: [Spent, Note, StartedAt]
+          Example:
+            -->Tasks\Management\..Administration<: [42m, "Cleanups", 20260422 T 1304]
+  
+  class StandupNextEntry:
+    Inherits: Item
+    Properties:
+      F2Link Link:
+        Details: a link to the Task worked on
+      string Note:
+        Details: any notes about what is expected to be done on the task - e.g. "plan and start it"
+      Duration ExpectedDuration:
+        Details: how much time is expected to be spent on it
+    Notes:
+      - The following format is the recommended one:
+          Format:
+            Link: [Spent, Note]
+          Example:
+            -->Tasks\Management\..Administration<: [30m, "plan and start it"]
 
   class StandupMeetingMinutes:    
     Inherits: StandardItem
@@ -392,5 +429,23 @@ namespace Barba.Types:
     - 6-Reviewed
     - 7-Mature
     - 8-Gandalf
+
+  class ProcessDescription:
+    Inherits: StandardItem
+    Properties:
+      string[] Actors:
+      string[] PreRequisites:
+      ProcessStep[] Steps:
+        IsDefault: true
+
+  class ProcessStep:
+    Inherits: StandardItem
+    Properties:
+      string Actor:
+        Summary: one of the actors
+      string Details:
+        Summary: the detailed description of what needs to be don
+      ProcessStep[] SubSteps:
+        IsDefault: true
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

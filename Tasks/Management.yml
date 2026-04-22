@@ -69,8 +69,7 @@ OnGoing .General management:
       Done .Create Reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Details:
-          Bobi to try it first with the Query engine of Rainbow csv
-    
+          Bobi to try it first with the Query engine of Rainbow csv    
   OnGoing .Retrospective related:
     Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}

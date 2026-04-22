@@ -57,8 +57,13 @@ SR_20260421_Hana:
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<: [ 58m, "", 20260417 T 111754 ]
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<: [ 65m, "", 20260418 T 065619 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 4m, "", 20260418 T 134121 ]
-    
+
   Next:
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
 
+
 SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 0m, "", 20260421 T 173647 ]
+  Next:
+    - null

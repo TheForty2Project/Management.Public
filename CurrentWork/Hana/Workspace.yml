@@ -96,6 +96,9 @@ TODO .20260421:
         Reddit-HanaK42 https://www.reddit.com/user/No_Leopard1874/
         LinkedIn-HanaK42 https://www.linkedin.com/in/hanak42/
         Twitch-HanaK42 https://www.twitch.tv/hanak42
+      Extensions:
+        Schedule with Google Calendar:
+          unlike other scheduling extensions, this one lets you define your schedule with the powerful tools of a real calendar application. Repeating events of a certain flavor can be color coded, and then renamed so the viewers will know what to expect that day.
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

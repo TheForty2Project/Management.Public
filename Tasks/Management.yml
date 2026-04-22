@@ -138,7 +138,7 @@ OnGoing .General management:
       Done .Implement:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
 InProgress .OCWSPhase1:
-  TODO .Clean up the CSVTODO tags:
+  Done .Clean up the CSVTODO tags:
     +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - Everywhere (so do a find in all files (ctrl+shift+f) for CSVTODO))

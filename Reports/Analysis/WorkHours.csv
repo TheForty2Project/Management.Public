@@ -2,6 +2,7 @@
 #Minutes worked per user per date: SELECT a1, a2, SUM(a3) as TotalMins GROUP BY a1, a2
 #Total minutes spent per Task:     SELECT a4, sum(a3) AS TotalMins GROUP BY a4
 User, Date    , Minutes, IdLink                                                                                                                                                                                                                                                                          , 
+#Bobi
 Bobi, 20260328,      25, "-->Meetings\Plannings\.MeetingNotes..Planning20260328.Result.""Tasks to be created"".""In management""..""Merge the Tasks (I was working on) with the original set""<"                                                                                                         , 
 Bobi, 20260401,      51, "-->Tasks\Management\..""General management""..""Standup related""..""Preparation""<"                                                                                                                                                                                           , 
 Bobi, 20260409,      30, "-->Tasks\Management\..""General management""..""Standup related""..""Preparation""<"                                                                                                                                                                                           , 
@@ -34,6 +35,29 @@ Bobi, 20260410,      60, "-->Tasks\Software\F2FileToHtmlConverter\..""F2FileToHt
 Bobi, 20260411,      34, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs""..""Fix scrolling bug""<"                                                                                                                                                                                       , 
 Bobi, 20260411,      15, "-->Tasks\Management\..""General management""..""Standup related""..""Preparation for participants""<"                                                                                                                                                                          , 
 Bobi, 20260413,      10, "-->Tasks\Management\..""General management""..""Reports""..""Create report about total spent time per task and per day per worker up until 20260413 meh""<"                                                                                                                    , 
+Bobi, 20260415,      38, "-->Tasks\Website\..""Back to original""..Intermediate..""Bugs"..""Cloudflare hides emails due to some email protection feature; disable this""<                                                                                                                                 ,
+Bobi, 20260416,      15, "-->Tasks\Management\..""OCWSPhase1""..""Plan and prepare Twitch streaming first phase""<"
+Bobi, 20260418,      29,"-->Tasks\Website\..""Improvements""..""Publish the Reports (currently in CSVs) on the site""<"
+Bobi, 20260418,      10,"-->Tasks\Website\..""Back to original""..""Do intermediate solution""..""Bugs""..""Sidebar shrinks if the content is too wide""<"
+Bobi, 20260417,      45, "-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Cleanups""<"
+Bobi, 20260418,      132, "-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Implement CSV converting feature""..""Baseline""<"
+Bobi, 20260418,      30, "-->Tasks\Management\..""General management""..""Task Administration""<"
+Bobi, 20260418,      10,"-->Tasks\Management\..""General management""..""Standup related""..""Preparation for participants""<"
+Bobi, 20260418,      35,"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Implement CSV converting feature""..""Ability to specify which columns to be converted in config""<"
+Bobi, 20260418,      20,"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Implement CSV converting feature""..""Include coloring""<"
+Bobi, 20260418,      4,"-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Update our approach of handling the CSVs as of 20260415 mehh""..""Decide:_ approach""<"
+Bobi, 20260419,      14,"-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Update our approach of handling the CSVs as of 20260415 mehh""..""Implement""<"
+Bobi, 20260419,      10,"-->Tasks\Website\..""Improvements""..""Publish the Reports (currently in CSVs) on the site""..""Decide:_ how should we do this""..""Convert the CSVs""<"
+Bobi, 20260420,      113,"-->Tasks\Management\..""OCWSPhase1""..""Clean up the files we are publishing""<"
+Bobi, 20260420,      12,"-->Tasks\Website\..""Back to original""..""Do intermediate solution""<"
+Bobi, 20260420,      12,"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Display line and col number when unable to parse yaml""<"
+Bobi, 20260421,      20, "-->Tasks\Management\..""General management""..""Task Administration""<"
+Bobi, 20260420,      20, "-->Tasks\Miscellaneous\..""BusinessAnalysis""<"
+Bobi, 20260421,      11, "-->Tasks\Management\..""General management""..""Standup related""..""Standup""<"
+Bobi, 20260421,      60, "-->Tasks\Management\..""OCWSPhase1""..""Clean up the files we are publishing""<"
+Bobi, 20260422,      41, "-->Tasks\Management\..""OCWSPhase1""..""Update F2yaml links""..""Bobi to go through the ones which are tagges""<"
+Bobi, 20260422,      5, "-->Tasks\Management\..""General management""..""Task Administration""<"
+#Hana
 Hana, 20260414,      10, "-->Tasks\Management\..""General management""..""Reports""..""Create report about total spent time per task and per day per worker up until 20260413 meh""<"                                                                                                                    , 
 Hana, 20260410,      12, "-->Tasks\Website\..""Back to original""..""Do intermediate solution""..""Create the OriginalConcept site""..""Implement""..""Implement the non-deepdive pages""..""Phase1""..""Create Watch page""..""Review""..""Get the links""<"                                            , 
 Hana, 20260410,      10, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Contact page""..""Implement, finalize and publish""..""Provide the links into the document""<"                                                                   , 

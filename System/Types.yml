@@ -1,63 +1,5 @@
 +: {Type: Folder}
 
-.NonClassTypes:
-  Summary: 
-    - This article contains the non-class types included in the system, on top of the simple ones (integer, char, string, float, bool, etc.)
-  Type: Article      
-  Content:      
-    Simple types:
-      # - char:
-      #     Summary: a single character; 16 bit.
-      #     SupportedFrom:
-      #       MVP++
-      - string:
-          Summary: a string of chars (like this text)
-      - $@TODO rest of the simple types @$
-    Complex types:
-    - IdString: 
-        Summary:
-          - a string, but can contain only numbers, English alphabet characters, the dash and the underscore character
-          - it can't be equal to the "reserved words", which are at the moment:
-            - new
-            - class
-            - enum
-            - namespace
-            - string
-            - integer            
-            - float
-            - bool
-            - boolean
-            - duration
-            - datetime
-            - using            
-    # - Map<,>: 
-    #     Summary: 
-    #       Details:
-    #         - a Mapping of the first type into the second type. 
-    #         - BNF: |
-    #             "Map<" <TypeId1> "," <TypeId2> ">"
-    #       Example: |
-    #         class MyClass:
-    #           Map<IdString, string> Dictionary:
-            
-    #         ...
-
-    #         <MyClass>:
-    #           Dictionary:
-    #             myId: description for it
-    #             mySecondId: lorem ipsum dolor sit
-    - F2Link:
-        Summary: 
-          See the F2Links specification in the specifications
-    - Duration: a length of time, written as a number and a time unit suffix, such as "10m" is 10 minutes, "1h" is 1 hour, etc. Time suffixes can be s, m, h, d, w, M, y/Y (so case matters.)
-    - DateTime: 
-        Summary:
-          - a point in time
-          - accepted format currently is the ISO + some we use commonly 
-          - in first versions, until automatic conversions are place, any non ISO format we support must follow the Year, Month, Day, hour, minute, seconds order
-    - InternalId:
-        Summary: a unique identifier identifying the Items; at the time of writing it's a GUID
-
 namespace System.Types:
   class Item:
     Summary:
@@ -147,11 +89,29 @@ namespace System.Types:
       Comment[] Comments:
         Summary:
           - a "chat" thread - up until we have some chat functionality.
-          - about the format: the notes on the Comment type
+          - about the format: see the notes on the Comment type
       IdString[] Tags:
         Summary: a set of one-word tags - e.g. we use "CSVTODO" currently, signaling it should be added to the CSV file.      
     Notes: 
       The content of the Id field will be automatically generated from the content of the Summary field by removing spaces and capitalizing the letter after (Pascal case), removing non-allowed chars, and using the first 12 + last 12 chars IF left empty; if not unique, adding numbers to the end (and using less characters from the last part). E.g. the summary "Add the Extract F2Yaml link functionality" would be "AddTheExtrac_unctionality"
+
+  class Comment:
+    #Inherits: Item //Commented out as this is by default
+    Properties:
+      User By:
+      string Content:
+    Notes:
+      - Use the following formats:
+          key-value pair, if the timestamp is not important: 
+            That is: 
+              - username: content
+            Example: 
+              - bobi: lorem ipsum
+          flow-sequence, if the timestamp is important:
+            That is:
+              - [username, date, "content"]
+            Example:
+              - [bobi, 20251208 T 000842, "lorem ipsum"]
 
   class ClassDescription:
     Inherits: StandardItem

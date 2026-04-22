@@ -1,6 +1,6 @@
 namespace Barba.Types:
   Summary:
-    - The Items we use for "business" purposes - e.g. Task, Requirement, etc.
+    The Items we use for "business" purposes - e.g. Task, Requirement, etc. - on top of the "Standard" items you can find in --><
   Comments:
     - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. The term 'Barba' is a homage to the children cartoon 'BarbaPapa'"]
 
@@ -185,24 +185,6 @@ namespace Barba.Types:
       string Preconditions:
       string TestSteps:
       string ExpectedResult:
-
-  class Comment:
-    #Inherits: Item //Commented out as this is by default
-    Properties:
-      User By:
-      string Content:
-    Notes:
-      - Use the following formats:        
-          key-value pair, if the timestamp is not important: 
-            That is: 
-              - username: content
-            Example: 
-              - bobi: lorem ipsum
-          flow-list, if the timestamp is important:
-            That is:
-              - [username, date, "content"]
-            Example:
-              - [bobi, 20251208T0008, "lorem ipsum"]
 
   class Requirement:
     Inherits: StandardItem

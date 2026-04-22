@@ -1,21 +1,18 @@
 +: {Type: Folder, DefaultTypes: [Task, Bug, Folder]}
 
-Done .F2YamlToHtmlConverter:
-  +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134055, By: [Bobi, Gaurav] }
-  ForRequirement: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<   #MISSINGLINK
+.F2FileToHtmlConverter:
+  +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134055, By: [Bobi, Gaurav] }  
   Done .Create Requirement:
     +: {CreatedBy: Bobi, CreatedAt: 20250806 T 192923, By: Bobi}
     Done .Create HTML format specification:
       +: { CreatedBy: Hana, CreatedAt: 20250725 T 122732, By: [Gaurav, Bobi] }
       Estimation: 3 hours
       Notes:
-        - Gaurav will provide the key to Utkarsh
-      Result: -->DocsAndArticles\Specifications\YamlToHtmlConversion\<  #MISSINGLINK
+        - Gaurav will provide the key to Utkarsh      
     Done .Finish the requirement:
-      +: {CreatedBy: Bobi, CreatedAt: 20250806 T 193254, By: Bobi}
-      Result: -->BusinessAnalysis\Requirements\..Requirements..SmallScripts.."F2YamlToHtmlConverter"<    #MISSINGLINK
+      +: {CreatedBy: Bobi, CreatedAt: 20250806 T 193254, By: Bobi}      
     Comments:
-      - [Bobi, 20260330, "The requirements cover only the first phase"]
+      - [Bobi, 20260330, "The requirements covered only the first phase and were obsolete, so they are not included in the current repo"]
   InProgress .Development:
     Done .ZerothPhase:
       Closed .Create initial version:

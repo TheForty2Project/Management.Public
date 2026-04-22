@@ -169,8 +169,7 @@
       Id: SummaryAboutIt
       InProgress .Article:
         Done .Write baseline:
-          Result:
-            see $@-->DocsAndArticles\PublishableArticles\SwitchingEarthOnSession<@$ #MISSINGLINK 
+            see $@-->Documents\PublishableArticles\SwitchingEarthOnSession.Content<@$
         InProgress .Review, give feedback:          
           +: {CreatedBy: Bobi, CreatedAt: 20250804 T 185906, By: everyone, Tags: [CSVDONE]}
           Details:
@@ -224,7 +223,7 @@
           +: {CreatedBy: Hana, CreatedAt: 20251003 T 001411, By: Bobi, Tags: [CSVDONE], Priority: 6-ASAP}
         Done .To be reviewed by PM:
           +: {CreatedBy: Hana, CreatedAt: 20251002 T 233907, By: Hana, Tags: [CSVDONE], Priority: 5-VeryHigh}
-          Done .Discuss the -->Backlog\PublicRelations\..MarketingPhase1..VisualMarketing.."Publish Topic 3 and 2 of the Mind Model"..Topic3KickoffSummary.."Read topic 3 and summarize the content"<   StandUpReport follow up on: #MISSINGLINK
+          Done .Discuss the amd follow up: 
             +: {CreatedBy: Hana, CreatedAt: 20251003 T 001817, By: [Hana, Bobi], Tags: [CSVDONE], Priority: 5-VeryHigh}
           Done .Edit Topic 3 summary:
             +: {CreatedBy: Hana, CreatedAt: 20251003 T 000553, By: [Hana, Bobi], Tags: [CSVDONE], Priority: 5-VeryHigh}
@@ -627,7 +626,7 @@
 
                 If you're interested in being a team member or have questions, ideas - let us know!
           Done .Do the first trial streamings:
-          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<: #MISSINGLINK Couldn't find the link in the original repository ( Management)
+          -->Tasks\Processes\..Marketing.."Create a process about streaming the meetings"<:
         TODO .Do StandUp streaming:
           Id: Standups
           TODO .Create a summary about what we would be doing:
@@ -638,7 +637,7 @@
               Since this is a Pre-Website activity, a proper description should be provided which summarizes the project.:
                 Include:
                   - The site is coming-soon        
-          -->Backlog\Development\..Processes..Marketing.."Create a process about streaming the meetings"<:       #MISSINGLINK #MISSINGLINK Couldn't find the link in the original repository ( Management)   
+            -->Tasks\Processes\..Marketing.."Create a process about streaming the meetings"<:
         InProgress .Do thoughts and Tasks of the members:
           Id: ThoughtsOfMembers        
           Details:
@@ -784,7 +783,6 @@
           - watch the video
           - see if it can be used and how
         WorkSpace:
-          - -->Backlog\Meeting\.."Topics"..Summarizeprojectmeeting<: #MISSINGLINK
           - Location -->https://drive.google.com/drive/folders/1HYveJSNAnk6frLw5WGprDqCeD8hDiyoI?usp=sharing<:      
         TODO .Watch and analyze the video:
           +: {CreatedBy: Bobi, CreatedAt: 20250908 T 115907, By: marketing, Tags: [CSVTODO]}
@@ -898,10 +896,7 @@
     Result: -->Tasks\PublicRelations\.."Marketing plan as of 20250819"<       
   Done .Giselle Marketing Ideas:
     Id: GMarketingIdeas
-    +: {CreatedBy: Hana, CreatedAt: 20250804 T 234750, By: Gigi, Tags: [CSVDone]}
-    Estimation: 4 days till Friday 8th of Aug
-    Details:
-      - -->!PublicWorkspaces\Giselle\GMarketing\.."Marketing plan"< #MISSINGLINK
+    +: {CreatedBy: Hana, CreatedAt: 20250804 T 234750, By: Gigi, Tags: [CSVDone]}              
   OnHold .Material for the 2nd reviewers:
     Id: 2ndReviewers
     ForRequirement: ~->MstEnoughResourcesForPMToolOnlineMVP..MstReadyFor2ndWaveOfPeople..MstBaselineOfGoingPublicPackage<
@@ -918,9 +913,6 @@
           - The main thing is: we enforce logical decisions in groups.
           - Do the "marketing" up until we have enough people + money
     InProgress .Podcasts:
-      -->Backlog\Archive..PublicRelations..Podcasts.FirstTrials<:  #MISSINGLINK      
-      -->Backlog\Archive..PublicRelations..Podcasts..Recording setup"<: #MISSINGLINK
-      -->Backlog\Archive..PublicRelations..Podcasts..Properly Prepare for the Podcasts"<: #MISSINGLINK
       OnGoing .Iteratively work out, shoot, review, do q&a recording:
         Summary:
           - There should be a Task created under the subtasks of this for each topic
@@ -1087,8 +1079,6 @@
           Done Review baseline:
       Done .Create plan about publishing Daily Standup:
         Id: PlanDailyStandupPublish
-        DependsOn:
-          - -->Backlog\\Backlog..PublicRelations..Iterative marketing..Material for the 2nd reviewers..Website..Develop the Lorem Ipsum version of the website so that it can accomodate the content"< #MISSINGLINK
         Done .Create a method with which we can regularly do it:
           Result: we'll use the deepdive sections
     InProgress .SocialMedia:
@@ -1364,7 +1354,5 @@ Done .Marketing plan as of 20250819:
       Details:                  
         - Shamanth (the one who was interested in our podcast about logic)
         - The rest of the people we started collecting - where is it  
-
--->Backlog\Archive..PublicRelations..Archive<:   #MISSINGLINK
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

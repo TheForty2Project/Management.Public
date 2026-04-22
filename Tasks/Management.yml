@@ -30,6 +30,10 @@ OnGoing .General management:
           - Same for the Next part
           - In case changes are decided, they are recorded
         - Stop the time tracking
+    OnGoing .Process the Workhours.csv:
+        +: {CreatedBy: Hana, CreatedAt: 20260422 T 130758, By: Hana, Tags:, Estimation: 0m, RemTime: 0m}
+        InProgress .SyncAt20260422:
+          +: {CreatedBy: Hana, CreatedAt: 20260422 T 130946, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   OnGoing .Planning related:
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131746, By: Hana}
     OnGoing .Hold periodically:
@@ -40,14 +44,14 @@ OnGoing .General management:
               - Start+End time entry:
               - Result entry
         - Process the tasks created in it and leave a link to them
-      Done .Planning 20260328:
+      InProgress .Planning 20260328:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
         Details:
             See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
         Done .Hold the meeting:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
         Done .Process the results:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: "30", RemTime: "0"}
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
           Details:
             - Move the Tasks to their correct locations AND leave links pointing
             - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
@@ -66,7 +70,7 @@ OnGoing .General management:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Details:
           Bobi to try it first with the Query engine of Rainbow csv
-    TODO
+    
   OnGoing .Retrospective related:
     Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
@@ -74,7 +78,7 @@ OnGoing .General management:
       +: {CreatedBy: Bobi, CreatedAt: 20260401 T 130158, By: PM}    
   OnGoing .Task list reports (CSV):
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131829, By: PM}
-    OnGoing .Creation:
+    Done .Creation:
       +: {CreatedBy: Hana, CreatedAt: 20260401 T 132906, By: PM}
       Done .Create OCWSPhase1 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 0}
@@ -82,7 +86,7 @@ OnGoing .General management:
         +: {CreatedBy: Hana, CreatedAt: 20260401 T 133146, By: Hana, Tags: [CSVDONE], Estimation: "70", RemTime: "70"} 
         Details:
           Include this Task as well in it
-      InProgress .Create OCWSPhase2 task list reports:
+      Done .Create OCWSPhase2 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}    
     OnGoing .Maintenance:
       +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 90}      
@@ -115,6 +119,8 @@ OnGoing .General management:
         +: {CreatedBy: Hana, CreatedAt: 20260401, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "10", ScheduledAt: 20260403} 
         Details:
           All CSVs - OCWSPhase1, OCWSPhase2, Management
+      Done .SyncAt20260422:
+        +: {CreatedBy: Hana, CreatedAt: 20260422 T 122521, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
     OnGoing .Analysis of Tasks in CSV:
       +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
       Details:
@@ -122,7 +128,8 @@ OnGoing .General management:
         - So that you have data for:
           - scope creep: total scope (=total Estimated) per day
           - burndown chart: total RemTime per day
-          - estimated finish:     
+          - estimated finish:    
+
     Done .Update our approach of handling the CSVs as of 20260415 mehh:
       +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133902, By: [Bobi, Hana]}
       Details:
@@ -212,16 +219,17 @@ InProgress .OCWSPhase1:
       +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVDONE], Estimation: "142", RemTime: "0"}
       Details:
         - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
-        - If not, put some comment behind it, like \# MISSINGLINK and_some_note_if_necessary
-    Done .Bobi to go through the ones which are tagges:
+        - If not, put some comment behind it, like \#MISSINGLINK and_some_note_if_necessary
+    Cancelled .Bobi to go through the ones which are tagges:
       Id: Fix2ndRound
-      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
+      CancelReason: This is now included in -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
   InProgress .Clean up the files we are publishing:
     Id: CleanUpFiles
-    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "60"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
     Details:
       - Remove unnecessary content
-      - Fix the links (the \# MISSINGLINKS ones)
+      - Fix the links (the \#MISSINGLINKS ones)
     Done .Bobi per TasksToBeSorted:
     Done .F2Yaml:
     

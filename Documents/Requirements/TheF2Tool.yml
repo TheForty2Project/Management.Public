@@ -1,74 +1,14 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-Notes:
-  - By: Bobi
-  - 
+Comments:
+  - Content: 
+    - At the time of writing the development is a "one man army" approach, therefore Task centered, i.e. changes in scope are reflected in the Tasks and the Requirements (the below) are only updated occassionally.
+    - The current version is closer to the initial version and is missing many updates and concept changes.
+    - This approach will change as soon as there's a significant increase in number of participants.
+  - CreatedBy: Bobi
+  - CreatedAt: 20260422 T 124200
 
 .F2Tool:
-  Estimation:
-    - Id: SumAll
-      Value: 710h
-      Notes: Sum of all:_ 145 + 309 + 101 + 60 + 99 = 715h / 6h/d = 118d / 20d/M = 5.9 Months      
-    - Id: CoreBasic
-      Value: 151h
-      Notes:                  
-        - Minimal functionalities with F2Console as the interface. Only minimal programmability and hardcoded queries (so creating new queries need compilation)
-        - Removed Requirements and hours:
-          #implemented in the QueryPackage:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"<: 72
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"<: 6
-          #implemented in the ProgrammabilityPackage:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level"<: 31
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Global events"<: 18
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Algorithm handling"<: 100 #13 hours left for it though
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Console based command processing"<: 22 #12 left, so some minimal command support only
-          #implemented in the WorkspacesAndIDEPackage:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Editor interfaces"<: 99
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional<: 2
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console..Workspaces<: 26
-          #implemented as necessary:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Meaningful exceptions"<: 1 #half removed
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Engine Event Log"<: 2 #half removed
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Basic Starter and Governor based architecture".."Basic Starter".."Dynamic loading of projects"<: 6        
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Visibilities - private, public, etc"." - for both classes and their members"<: 6
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".""Everything is an Item" concept"<: 18
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model"."Constraining the number of references pointing to an Item"<: 3
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."Placeholder for missing items"<: 9
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."F2Yaml rendering and parsing configuration"..Nice<: 18
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"..Advanced<: 30
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Event Log"<: 14
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Permission handling"<: 14
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Transaction handling"<: 12
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Initialization, Profiles and interface".."Profile handling"<: 6
-          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Mobile interface"<: 60
-          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Minimal Web interface"<: 60
-        - Sum removed: 6 + 31 + 18 + 3 + 9 + 18 + 2 + 18 + 100 + 30 + 6 + 14 + 14 + 12 + 6 + 22 + 26 + 60 + 60 + 99    + 6 + 1 + 2 = 554
-        - Total: 715-554 = 161h = 26.8d
-    - Id: QueryPackage
-      Value: 78h
-      Notes:          
-        - Queries. On top of CoreBasic, the following functionalities are implemented:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"<: 72
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"<: 6
-    - Id: ProgrammabilityPackage
-      Value: 161h
-      Notes: 
-        - Programmability - Algorithms and their triggers
-        - On top of CoreBasic:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data"."Item Programmability - Basic level"<: 31
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Algorithm handling"<: 100 #the remaining
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Global events"<: 18
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Console based command processing"<: 22 #the remaining
-        - Sum added: 31 + 100 + 18 + 6 + 22 = 159
-        - Total: 156 + 159 = 315h = 52.5d = 2.625 Months
-    - Id: WorkspaceIDEPackage
-      Value: 127h
-      Notes:
-        - Workspaces and IDE support
-        - On top of -->~CoreBasic<:
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console..Workspaces<: 26
-          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Editor interfaces"<: 99
-          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional<: 2
   Details:
     Background: 
       Background: |

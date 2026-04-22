@@ -4,10 +4,7 @@ Done .Notes:
   Content:
     - Although this is work in progress, it already contains useful information for those who'd seriously like to participate in the project:
       - it's a good source for information to understand the most important notations - i.e. it's worth checking this document before you ask a question, high chance that you can figure things out from this    
-    - Plan is to gradually finish the below over the next couple of weeks - but highly depending on the need
-
-
-
+    - Plan is to gradually finish the below over the next couple of weeks - but when exactly highly depends on the need and feedbacks
 
 3-Detailing Must .F2Yaml.MVP Rules Sketch:
   Type: Article  
@@ -1181,8 +1178,8 @@ Done .Notes:
                 //- it decides whether the Item is represented like above or not based on whether the first word is part of the [NameOfTheIgnoreList]
               }
 
-  1-SomeProgress .Semantics:
-    .No "update Items when assigning them as value":
+  1-SomeProgress Must .Semantics:
+    5-Done .No "update Items when assigning them as value":
       Content:
         Notes: this is more like a reminder that this is forbidden, despite the syntax could allow it
         Summary: Items can't be updated while assigning them as a value to a property
@@ -1213,7 +1210,7 @@ Done .Notes:
                     -->Root.SomeItem<:
                       SomeProp: newValue #and we'd update the value here - which is not allowed
                 ..(1):
-    .InternalId is not "writeable":
+    5-Done .InternalId is not "writeable":
       Content:
         Details:        
           The value of InternalId is handled by the system, therefore assigning/changing the value to it is not allowed. In places where it's not clear from the context, if an Item-yaml contains the InternalId property with a non-null value, it is treated as an Item describing an existing Item.
@@ -1228,8 +1225,7 @@ Done .Notes:
               ->Root<:
                 MyItem:
                   MyProp: My new value
-    .Omitting the type specification:
-      Status: 4-AlmostDone
+    4-AlmostDone .Omitting the type specification:
       Content:
         Details:
           In most cases where the Type of an Item yaml can be determined from its context, it can be omitted.
@@ -1260,8 +1256,7 @@ Done .Notes:
                   - SomeId4: {SomeProp: "lorem ipsum"}
           Type restrictions imposed by the "Folder.DefaultTypes" setting:
             TODO 
-    .InlineItemBelongsTo:
-      Status: 5-Done
+    5-Done .InlineItemBelongsTo:
       Content:
         Details:
           Items declared inline (i.e. as a Property value) will - by default, i.e. if not explicitly stated otherwise - BelongTo to the Item to which the Property belongs
@@ -1272,5 +1267,63 @@ Done .Notes:
               SubTasks:
                 - <Task>: {Id: MySubTask}
                 - <Task>: {Id: MyOtherSubTask, BelongsTo: -->Root.MyProject.OtherTask<}                        
+    3-Detailing .NonClassTypes:
+      Summary: 
+        - This article contains the non-class types included in the system, on top of the simple ones (integer, char, string, float, bool, etc.)
+      Type: Article      
+      Content:      
+        Simple types:
+          # - char:
+          #     Summary: a single character; 16 bit.
+          #     SupportedFrom:
+          #       MVP++
+          - string:
+              Summary: a string of chars (like this text)
+          - $@TODO rest of the simple types @$
+        Complex types:
+        - IdString: 
+            Summary:
+              - a string, but can contain only numbers, English alphabet characters, the dash and the underscore character
+              - it can't be equal to the "reserved words", which are at the moment:
+                - new
+                - class
+                - enum
+                - namespace
+                - string
+                - integer            
+                - float
+                - bool
+                - boolean
+                - duration
+                - datetime
+                - using            
+        # - Map<,>: 
+        #     Summary: 
+        #       Details:
+        #         - a Mapping of the first type into the second type. 
+        #         - BNF: |
+        #             "Map<" <TypeId1> "," <TypeId2> ">"
+        #       Example: |
+        #         class MyClass:
+        #           Map<IdString, string> Dictionary:
+                
+        #         ...
+
+        #         <MyClass>:
+        #           Dictionary:
+        #             myId: description for it
+        #             mySecondId: lorem ipsum dolor sit
+        - F2Link:
+            Summary: 
+              See the F2Links specification in the specifications
+        - Duration: a length of time, written as a number and a time unit suffix, such as "10m" is 10 minutes, "1h" is 1 hour, etc. Time suffixes can be s, m, h, d, w, M, y/Y (so case matters.)
+        - DateTime: 
+            Summary:
+              - a point in time
+              - accepted format currently is the ISO + some we use commonly 
+              - in first versions, until automatic conversions are place, any non ISO format we support must follow the Year, Month, Day, hour, minute, seconds order
+        - InternalId:
+            Summary: a unique identifier identifying the Items; at the time of writing it's a GUID
+
             
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

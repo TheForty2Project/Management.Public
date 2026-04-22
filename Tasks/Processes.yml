@@ -208,7 +208,6 @@ Summary:
     Id: PwdManagement
     By: Bobi
     Details:
-      - Related to this task: -->Backlog\\Backlog..Administration..Create a safe storage to save the passwords< #MISSINGLINK
       - How to handle passwords
       - Including how to handle the password for the initial storage      
     Workspace:

@@ -173,7 +173,7 @@ Done .Initial Website:
       +: { CreatedBy: Bobi, CreatedAt: 20250331 T 221758, By: Bobi }
       ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Summary page".."Main summary"<
       Details:
-        Article is here: -->DocsAndArticles\PublishableArticles\SummaryArticle<
+        Article is here: -->Documents\PublishableArticles\SummaryArticle<
     Done .Create the Contact page content:
       +: { CreatedBy: Bobi, CreatedAt: 20250401 T 182036, By: Shadow }
       ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Contact"< 
@@ -349,7 +349,7 @@ Done .Phase1:
     Cancelled .Create requirements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134040, By: everyone }
       CancelReason: we're going the other way around, meaning some test ideas are implemented and then we review and upgrade them; a bit more "agile".
-    Done -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development..FirstPhase<:
+    Done -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter"..Development..FirstPhase<:
     Cancelled .Create the deepdive section on the website which works by using json as datasource:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134109, By: Shadow }
     Cancelled .Create ToC for Deepdive:
@@ -1219,7 +1219,7 @@ InProgress .Back to original:
               Details:
                 Go through the existing files and see what needs to be moved
               Done .Move .vscode folder:
-              Done .Move the F2YamlToHtmlConverter related tasks:
+              Done .Move the F2FileToHtmlConverter related tasks:
                 +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                                  
         Done .Write content for the knots:
           +: {CreatedBy: Bobi, By: Bobi, Tags: [OCWSPhase1], Estimation: 60, RemTime: 60}
@@ -1295,7 +1295,7 @@ InProgress .Back to original:
           - Article bzzzzs:
           - Boxes should be "merged" in Articles:
           - No animation for boxes in Articles:
-    InProgress -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter"..Development.."SecondPhase"<:
+    InProgress -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter"..Development.."SecondPhase"<:
     InProgress .Go live:
       Estimation: 120m
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi}
@@ -1527,7 +1527,7 @@ TODO .Improvements:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 132002, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Result:
           Integrate it into F2Yaml2HtmlConverter
-      -->Tasks\Software\F2YamlToHtmlConverter\.."F2YamlToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<:
+      -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Implement CSV converting feature".."Ability to specify which columns to be converted in config"<:
       Done .Convert the CSVs:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 191447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         DependsOn: -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<
@@ -1554,7 +1554,6 @@ TODO .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131754, By: everyone }
   OnHold .Footer section:        
     +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222026, By: Shadow }
-    DependsOn: -->Backlog\ToBeSorted..Website development..Website content..Create content for the footer"< #MISSINGLINK
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
   TODO .Create Roadmap section:
     +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }

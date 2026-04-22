@@ -1,20 +1,20 @@
 +: {Type: Folder, DefaultTypes: [Task, Bug, Folder]}
 
 Tasks:
-  Closed .Create the F2VSCExtension:
+  Closed .Create the F2ToolsExtension:
     By: Gaurav
-    Estimation: 15m
-    ForRequirement: -->BusinessAnalysis\Requirements.Requirements..SmallScripts..F2VSCExtension extension"<  #MISSINGLINK
+    Estimation: 15m                    
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
     Details:
       - Create the extension as specified in the Requirement
-      - Place the code under the TheTool repository into the (newly created) F2Tool.F2VSCExtension folder
+      - Place the code under the TheTool repository into the (newly created) F2Tool.F2ToolsExtension folder
   Closed .Add the Extract F2Yaml link functionality:
     By: Gaurav
     Estimation:
       - 1h: PAR time
       - 12h: normal time
-    DependsOn: -->..\..Create the F2VSCExtension"<  #MISSINGLINK
-    ForRequirement: -->BusinessAnalysis\Requirements.Requirements..SmallScripts..Extract F2Yaml link in F2VSCExtension"<  #MISSINGLINK
+    DependsOn: -->Tasks\Software\F2ToolsExtension\.Tasks.."Create the F2ToolsExtension"<
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2ToolsExtension"<
     Details:
       - Add the functionality as specified in the Requirement
     WorkLog:
@@ -25,7 +25,7 @@ Tasks:
   Cancelled .Create Extension with snippets:
     By: Gaurav
     Estimation: 2hrs
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Code Completion..Minimal Snippet Based Item Creation"<  #MISSINGLINK
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Code Completion".."Minimal Snippet Based Item Creation"<
     Requirements:
       - There should be an Extension created that has all the snippets loaded according to the Barba.Types.
     Workflow:
@@ -55,10 +55,11 @@ Tasks:
     Estimation:
       - 4h: Gaurav's estimation
       - 6h: Bobi's estimation
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic<  #MISSINGLINK
+    ForRequirement: 
+      -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic<
   Closed Basic:
     Id: Basic
-    +: { ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic< , Estimation:, By: Gaurav, Responsible: Gaurav }  #MISSINGLINK 
+    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav, Responsible: Gaurav } 
     WorkLog:
       - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
       - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
@@ -70,7 +71,7 @@ Tasks:
       - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
     InProgress .WorkLog generation:
       Id: WorklogCreation
-      +: { ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..Time Tracking and Administration..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }  #MISSINGLINK 
+      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
       WorkLog:
         - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
         - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
@@ -104,8 +105,8 @@ Tasks:
     Details: When issuing the "Select Task" command, the extension should detect if the user's text cursor is over a Task or not; if not, an error popup should be displayed.
   Closed .Create the CSV Entry Generation functionality:
     +: { CreatedBy: Bobi, CreatedAt: 20250519 T 230218, By: Gaurav }
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts..F2VSCExtension Extension..CSV Task List Tools..CSV Entry generation"<
-    Comments:  #MISSINGLINK 
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation"<
+    Comments:
       - bobi: message me pls if there are questions even if I don't seem to be at the computer, I'll try to answer
   InProgress .Create a stop task command feature that is executed when VS Code is shutting down:    
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: Gaurav }
@@ -137,6 +138,11 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
     TODO .Create License for VSIX:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
+  OnGoing .Enhancements:
+    TODO .Time tracking should generate Id based F2Links, not Summary ones.:
+      +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      Comments:
+        - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
 
 Bugs:
 
@@ -152,17 +158,17 @@ Bugs:
     QA: Hana
     Version: 1.5.0
     Preconditions:
-      - The F2VSCExtension is installed and enabled with version 1.5.0
+      - The F2ToolsExtension is installed and enabled with version 1.5.0
     Steps to reproduce:
       - Check the extensions tab of VSCode
-      - Find the F2VSCExtension
-      - Check the name of F2VSCExtension (Top Line)
+      - Find the F2ToolsExtension
+      - Check the name of F2ToolsExtension (Top Line)
     ActualResult:
       - name of the extension tf2p
     ExpectedResult:
       - The name is "tf2p.org"
     Notes:
-      - Requirement: -->BusinessAnalysis\Requirements..Requirements..SmallScripts.."F2VSCExtension Extension".."Minimal Base"<  #MISSINGLINK 
+      - Requirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"< 
       - (.) can be added only for registered publisher:
           - Create an account (for review)
     WorkLog:
@@ -207,7 +213,7 @@ Bugs:
     Severity: 4-High
     Area: LinkGeneration
     Details:
-      It extracted the link in the following format - the dot inside the quotations: -->Recruitment\JobDescriptions\.".Seniority classification for CSharp".Content<  #MISSINGLINK 
+      It extracted the link in the following format - the dot inside the quotations: -->Recruitment\JobDescriptions\.".Seniority classification for CSharp".Content< 
     Comments:
       Gaurav:
         WorkAround:
@@ -216,7 +222,7 @@ Bugs:
       - QA: Bobi
         Version: 2.0.17
         Severity: 4-High
-        Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<  #MISSINGLINK 
+        Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
 
   Fixed .Misleading error message when Stopping Timer on Task without Starting one:
     QA: Bobi
@@ -274,7 +280,7 @@ Bugs:
     Severity: 4-High
     Area: LinkGeneration
     Details:
-      So this was just generated: -->Backlog\Backlog\..PublicRelations.Recruitment.RecruitmentPhase1.."Advertise the job description in different platform"<  #MISSINGLINK 
+      So this was just generated: -->Backlog\Backlog\..PublicRelations.Recruitment.RecruitmentPhase1.."Advertise the job description in different platform"< 
  
   Fixed .When trying to follow a link in the CSV, it gives "Cannot read properties of undefined (reading 'items')"j:
     QA: Bobi
@@ -283,7 +289,7 @@ Bugs:
     Area: CSV
     Details:
       The link I tried: |
-        "-->Backlog\Backlog\..PublicRelations..Marketing..""Collect Marketing Ideas""."".Written Marketing""..""Write thoughts on X""..""Definition of Fair""<"  #MISSINGLINK 
+        "-->Backlog\Backlog\..PublicRelations..Marketing..""Collect Marketing Ideas""."".Written Marketing""..""Write thoughts on X""..""Definition of Fair""<"
 
   Fixed .CSV link following works with the "wrong" IDLink format only:
     QA: Bobi
@@ -291,8 +297,8 @@ Bugs:
     Severity: 3-Average
     Area: LinkFollowing
     Details:
-      So it works with this link: -->Backlog\Backlog\..PublicRelations.Recruitment.RecruitmentPhase1.."Advertise the job description in different platform"<  #MISSINGLINK 
-      It doesn't with the fixed version: -->Backlog\Backlog\..PublicRelations..Recruitment..RecruitmentPhase1.."Advertise the job description in different platform"<  #MISSINGLINK 
+      So it works with this link: -->Backlog\Backlog\..PublicRelations.Recruitment.RecruitmentPhase1.."Advertise the job description in different platform"< 
+      It doesn't with the fixed version: -->Backlog\Backlog\..PublicRelations..Recruitment..RecruitmentPhase1.."Advertise the job description in different platform"< 
  
   Fixed .Non-Bug:_ CSV line generator does not take properties in the "+:" section into account:
     QA: Bobi
@@ -346,8 +352,8 @@ Bugs:
       Severity: 3-Average
       Version: 2.0.14
       Details:
-        - Tested with -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link"  #MISSINGLINK 
-        - It works with the summary link: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<  #MISSINGLINK 
+        - Tested with -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
+        - It works with the summary link: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work, giving the error "Cannot read properties of undefined (reading 'length')":
     QA: [ Hana, Bobi ]
@@ -355,8 +361,8 @@ Bugs:
     Severity: 4-High
     Area: CSV
     Details:
-      - Extracted: -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP   #MISSINGLINK rules"< follow link does not work on this one.
-      - And neither on this one: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<  #MISSINGLINK 
+      - Extracted: -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"< follow link does not work on this one.
+      - And neither on this one: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work (on a link which might not be supported), giving the error "Cannot read properties of undefined (reading 'length')":
     QA: Bobi
@@ -388,7 +394,7 @@ Bugs:
     Version: 2.0.14
     Severity: 4-High
     Area: LinkFollowing
-    Details: -->DocsAndArticles\Specifications\YamlToHtmlConversion\.Content<  #MISSINGLINK 
+    Details: -->DocsAndArticles\Specifications\YamlToHtmlConversion\.Content< 
     Retest:
       - QA: Bobi
         Version: 2.0.17
@@ -401,17 +407,17 @@ Bugs:
     Severity: 4-High
     Area: LinkFollowing
     Details:
-      - -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< #MISSINGLINK
-      - (neither with correctly placed dot: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<) #MISSINGLINK
+      - -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+      - (neither with correctly placed dot: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<)
 
-  Fixed .Follow link leads to the wrong place:
+  OnHold .Follow link leads to the wrong place:
     +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235257, By: Gaurav, Tags: [  ] }
     QA: Bobi
     Version: 2.0.17
     Severity: 4-High
     Area: LinkFollowing
     Details:
-      This link: -->Backlog\Development\..Processes..PM.VerifyAndImprove.Baseline<    #MISSINGLINK
+      This link: -->Backlog\Development\..Processes..PM.VerifyAndImprove.Baseline<
       Leads here: -->Tasks\Processes\..Members.."Initial Interview".."Baseline"<
     Comments:
       - Bobi: As agreed, this is hard to fix without proper parsing, so I put it on hold. Let's see my progress with the parser and get back to it when things change.
@@ -436,7 +442,7 @@ Bugs:
     Steps:
       - Open F2Yaml.yml in a VS Code without workspace
       - Ensure that the Root Path is set (for me it's "d:\_TF2P\Management\")
-      - Issue the Extract ID Link command on -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<   #MISSINGLINK
+      - Issue the Extract ID Link command on -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
       - Errors:
           - The link generated is -->ocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf< - so no "D" 
           - Displays the error: "No workspace found"
@@ -489,7 +495,7 @@ Bugs:
     Area: General
     Severity: 3-Average    
     Details:
-      On this link: -->!PublicWorkspaces\Hana\PlanningMeeting20250830\.."Planning and Retrospective".."PlanningMeeting20250830".Workspace.."Review milestones"<   #MISSINGLINK
+      On this link: -->!PublicWorkspaces\Hana\PlanningMeeting20250830\.."Planning and Retrospective".."PlanningMeeting20250830".Workspace.."Review milestones"<
 
   Fixed .Worklog generation is not working:
     +: {CreatedBy: Hana, CreatedAt: 20250903 T 102933, By: Hana, Priority: 4-High}
@@ -504,7 +510,7 @@ Bugs:
     +: {CreatedBy: Hana, CreatedAt: 20250903 T 170338, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     QA: Hana
     Version: 2.0.23
-    Area: General
+    Area: TimeTracking
     Severity: 3-Average    
 
   New .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
@@ -551,6 +557,20 @@ Bugs:
         Prop2:
           But you can to this:
       
+  New .Can't start timer on an F2Link containing Ids:
+    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 120717, By: Bobi, Tags: [CSVTODO]}
+    QA: Bobi
+    Version: 2.0.24
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      While this is a valid F2Link, the timer can't be started on it: 
+        -->Tasks\Management\.."OCWSPhase1"..UpdateF2Links..Fix2ndRound<
+      It can be started if it's a summary one:
+        -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<
+    Comments:
+      Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\.Tasks.."Enhancements".."Time tracking should generate Id based F2Links, not Summary ones."<
+
             
   
 

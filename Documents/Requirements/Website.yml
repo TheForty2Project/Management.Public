@@ -21,20 +21,11 @@
         - Funny stuff can stay - we're a ~"friends group", not BlackRock
     .Infrastructure:
       Reviewed .Basic:
-        Tasks: 
-          TODO Connect tasks after sorting them:
-            Details:
-              - -->Backlog\ToBeSorted..Website.."Transfer and/or create access for Shadow for the tf2porg website infrastructure"<   #MISSINGLINK     
-              - -->Backlog\ToBeSorted..Website.."Set up Cloudflare and upload the basic website"<       #MISSINGLINK                   
         Details:
           Summary:
             The website is set-up and operational on Cloudflare.
     .Architecture:
       Reviewed .Basic:
-        Tasks:
-          = TODO Connect tasks after sorting them:
-            Details:
-              -->Backlog\ToBeSorted..Website.."Create website architecture"< #MISSINGLINK
         Details:
           Summary:
             TechnologyStack: "Next.js (React-based), TypeScript (type safety), Tailwind CSS (styling)"  
@@ -59,20 +50,11 @@
               Scripts: "JavaScript is required (Next.js-based), but avoid unnecessary client-side scripts for better performance"  
               Navigation: "Straightforward, intuitive, and accessible, avoiding unnecessary complexity"  
               Inspiration: "Can take inspiration from other minimalistic sites but should remain simple and easy to navigate"
-        Tasks:
-          - TODO Sort these, remove and connect:
-              Details:
-                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Review and plan".."Create design and structure ideas"< #MISSINGLINK
-                - -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Develop the website so that it can accomodate the content"< #MISSINGLINK
     .Site Elements:
       Implemented .Minimal site struture:
         Details:
           As per the current site as of 20240512
       Reviewed .Basic:
-        Tasks:
-          <--=TODO Connect tasks after sorting them:
-            Details:
-              -->Backlog\ToBeSorted..Website.."Develop the site elements for the Basic site"< #MISSINGLINK
         Reviewed .Landing page:
           Importance: 5-VeryHigh
           Details:
@@ -86,28 +68,15 @@
             - Each "section" is roughly a page            
           Reviewed .First section: 
             Reviewed .Top:
-              Tasks:
-                <--= TODO Connect the tasks:
-                  Details:                                    
-                    -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."First section"..Top< #MISSINGLINK
               Details:
                 - Top, title, big letters: "The Forty2 Project"
                 - Small letters: "With cooperation, we're laying the grounds to:"
                 - With big letters - maybe another style: "Switch Earth On"
             Reviewed .Summary of Project in a sentence roughly:
               Importance: 5-VeryHigh
-              Tasks:
-                <--= TODO Connect the tasks:
-                  Details:
-                    -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page".."First section".."Summary of the project with one sentence"< 
-                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create the one sentence description of the project to the landing page"< #MISSINGLINK
               Details:
                 With a "Learn More" CTA leading to the $@~->"Summary page"@$
             Reviewed .Summary Video:
-              Tasks: 
-                = TODO Connect the existing tasks about this:
-                  Details:
-                    -->Backlog\ToBeSorted.."Website development".."Website content".."Finalize the video content"< #MISSINGLINK
               Importance: 4-High
               Details:
                 First Ideas:
@@ -125,10 +94,6 @@
           Reviewed .Invest/Contrib section:
             Reviewed .Contribute section:            
               Importance: 5-VeryHigh
-              Tasks: 
-                = TODO Connect the tasks:
-                  Details:
-                    -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the Contribute section"< 
               Details:
                 - Few points about how to contribute
                 - CTA leading to the part where we explain:
@@ -136,12 +101,6 @@
                   - What you'll get in return AND therefore why it's important that you keep the rules
             Reviewed .Invest section:                
               Importance: 5-VeryHigh
-              Tasks: 
-                = TODO Connect the tasks:
-                  ReturnType: Link
-                  Details: 
-                    - -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."Invest section"< #MISSINGLINK 
-                    - -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the Invest section"< #MISSINGLINK 
               Details:
                 - Few points about how to invest
                 - CTA leading to the part where we explain:
@@ -149,50 +108,27 @@
                   - What you'll get in return AND therefore why it's important that you keep the rules         
           Reviewed .FAQ:
             Importance: 5-VeryHigh
-            Tasks:
-              = TODO Connect the tasks:
-                ReturnType: Link
-                Details: 
-                  - -->Tasks\Website\.."Initial Website".."Develop the site elements for the Basic site".."Develop the landing page"."Done.FAQ section"<
-                  - -->Tasks\Website\.."Initial Website".."Create Website content".."LandingPage".."Create content for the FAQ section"<
             Details:
               - Only the most important questions; more or less the ones I explained in the "summary" video call
               - CTA to the $@~->."Summary page"..FAQ@$ from here for more
           Reviewed .Footer:
-            Tasks:
-              = TODO Connect the tasks:
-                ReturnType: Link
-                Details: 
-                  -->Backlog\ToBeSorted.."Website development".."Develop the site elements for the Basic site".."Develop the landing page".."Footer section"< 
-                  -->Backlog\ToBeSorted.."Website development".."Website content".."Create content for the footer"<  #MISSINGLINK 
             Importance: 2-Low                              
         Reviewed .Summary page:
-          Tasks:
-            = TODO Connect the tasks:              
           Importance: 5-VeryHigh
           Reviewed .Main summary:
-            ReqReq: -->BusinessAnalysis\Requirements..Requirements.."Articles and material to be published".."Description of the project"< #MISSINGLINK 
-            Tasks:
-              = TODO Connect the tasks:              
             Importance: 5-VeryHigh
             Details:
               - use the article this Requirement is dependent on                
           Reviewed .FAQ:
-            Tasks:
-              = TODO Connect the tasks:              
             Importance: 5-VeryHigh
             Details:
               All the questions emerged, detailed
           Reviewed .Discussion:
-            Tasks:
-              = TODO Connect the tasks:              
             Importance: 4-High
             Details:
               - A "comment" section in which you can ask questions/give comments
               - Heavily moderated - meaning that _at_least_ we should have the option to remove comments, ideally pre-approve comments before appearing
         Reviewed .DeepDive pages:
-          Tasks:
-            = TODO Connect the tasks:
           Importance: 4-High
           Details:
             - Basically our yamls mirrored there, updated daily
@@ -205,9 +141,6 @@
             - Ideally dynamic - so follows where you are
         Reviewed .Contact:
           Importance: 5-VeryHigh
-          Tasks:
-            = TODO Connect the tasks:
-              -->Tasks\Website\.."Initial Website".."Create Website content".."Create the Contact page content"<
           Details:
             - Maybe some media about "us"
             - Include:
@@ -257,7 +190,6 @@
             - We might need to put it on GitHub?:
                 This is done basically due to the recent KeyBase events.
         Drafting .Podcasts:
-          Tasks: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Upload the podcast materials to the site"<  #MISSINGLINK
           Details:
             .Podcast package; might include:
               .Video:
@@ -270,19 +202,11 @@
               .Past voice notes:
                 - Selected voice notes in which we explain things
         Drafting .Milestones:
-          Tasks: 
-            <-- TODO Connect and clean-up Tasks : 
-              Details:
-                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Milestones on the website"<  #MISSINGLINK
         Drafting .Requirements:
           Details:
           - A simply formatted version of the current Requirements of the F2Tool
           - Probably the Milestones separately
           - Yaml format.
-          Tasks: 
-            <-- TODO Connect and clean-up Tasks : 
-              Details:
-                Existing: -->Backlog\\Backlog..PublicRelations.."Iterative marketing".."Material for the 2nd reviewers"..Website.."Put the Requirements on the website"<  #MISSINGLINK
         Drafting .Articles:
           Details:
             - Q&A

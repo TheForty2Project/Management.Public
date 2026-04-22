@@ -1,5 +1,9 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
+Notes:
+  - By: Bobi
+  - 
+
 .F2Tool:
   Estimation:
     - Id: SumAll
@@ -11,75 +15,75 @@
         - Minimal functionalities with F2Console as the interface. Only minimal programmability and hardcoded queries (so creating new queries need compilation)
         - Removed Requirements and hours:
           #implemented in the QueryPackage:
-          - $@Requirements..F2Tool..F2Server.."Query execution, report generation and bulk edit"@$: 72
-          - $@Requirements..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"@$: 6
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"<: 72
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"<: 6
           #implemented in the ProgrammabilityPackage:
-          - $@Requirements..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level"@$: 31
-          - $@Requirements..F2Tool..F2Server.."Global events"@$: 18
-          - $@Requirements..F2Tool..F2Server.."Algorithm handling"@$: 100 #13 hours left for it though
-          - $@Requirements..F2Tool..F2Console.."Console based command processing"@$: 22 #12 left, so some minimal command support only
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level"<: 31
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Global events"<: 18
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Algorithm handling"<: 100 #13 hours left for it though
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Console based command processing"<: 22 #12 left, so some minimal command support only
           #implemented in the WorkspacesAndIDEPackage:
-          - $@Requirements..F2Tool.."Basic Editor interfaces"@$: 99
-          - $@Requirements..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional@$: 2
-          - $@Requirements..F2Tool..F2Console..Workspaces@$: 26
+          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Editor interfaces"<: 99
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional<: 2
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console..Workspaces<: 26
           #implemented as necessary:
-          - $@Requirements..F2Tool..F2Core.."Technical Architecture".."Meaningful exceptions"@$: 1 #half removed
-          - $@Requirements..F2Tool..F2Core.."Technical Architecture".."Engine Event Log"@$: 2 #half removed
-          - $@Requirements..F2Tool..F2Core.."Technical Architecture".."Basic Starter and Governor based architecture".."Basic Starter".."Dynamic loading of projects"@$: 6        
-          - $@Requirements..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Visibilities - private, public, etc"." - for both classes and their members"@$: 6
-          - $@Requirements..F2Tool..F2Core.."Object model".""Everything is an Item" concept"@$: 18
-          - $@Requirements..F2Tool..F2Core.."Object model"."Constraining the number of references pointing to an Item"@$: 3
-          - $@Requirements..F2Tool..F2Core.."Object model".."Placeholder for missing items"@$: 9
-          - $@Requirements..F2Tool..F2Core.."F2Yaml rendering and parsing configuration"..Nice@$: 18
-          - $@Requirements..F2Tool..F2Server.."Query execution, report generation and bulk edit"..Advanced@$: 30
-          - $@Requirements..F2Tool..F2Server.."Event Log"@$: 14
-          - $@Requirements..F2Tool..F2Server.."Permission handling"@$: 14
-          - $@Requirements..F2Tool..F2Server.."Transaction handling"@$: 12
-          - $@Requirements..F2Tool..F2Console.."Initialization, Profiles and interface".."Profile handling"@$: 6
-          - $@Requirements..F2Tool.."Basic Mobile interface"@$: 60
-          - $@Requirements..F2Tool.."Minimal Web interface"@$: 60
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Meaningful exceptions"<: 1 #half removed
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Engine Event Log"<: 2 #half removed
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Technical Architecture".."Basic Starter and Governor based architecture".."Basic Starter".."Dynamic loading of projects"<: 6        
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data".."Visibilities - private, public, etc"." - for both classes and their members"<: 6
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".""Everything is an Item" concept"<: 18
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model"."Constraining the number of references pointing to an Item"<: 3
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."Placeholder for missing items"<: 9
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."F2Yaml rendering and parsing configuration"..Nice<: 18
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"..Advanced<: 30
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Event Log"<: 14
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Permission handling"<: 14
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Transaction handling"<: 12
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Initialization, Profiles and interface".."Profile handling"<: 6
+          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Mobile interface"<: 60
+          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Minimal Web interface"<: 60
         - Sum removed: 6 + 31 + 18 + 3 + 9 + 18 + 2 + 18 + 100 + 30 + 6 + 14 + 14 + 12 + 6 + 22 + 26 + 60 + 60 + 99    + 6 + 1 + 2 = 554
-        - Total: 715-554 = 161h = 26d
+        - Total: 715-554 = 161h = 26.8d
     - Id: QueryPackage
       Value: 78h
       Notes:          
-        - Queries. On top of $@~CoreBasic@$, the following functionalities are implemented:
-          - $@Requirements..F2Tool..F2Server.."Query execution, report generation and bulk edit"@$: 72
-          - $@Requirements..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"@$: 6
+        - Queries. On top of CoreBasic, the following functionalities are implemented:
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit"<: 72
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Query execution, report generation and bulk edit".."Bulk edit support"<: 6
     - Id: ProgrammabilityPackage
       Value: 161h
       Notes: 
         - Programmability - Algorithms and their triggers
-        - On top of $@~CoreBasic@$:
-          - $@Requirements..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data"."Item Programmability - Basic level"@$: 31
-          - $@Requirements..F2Tool..F2Server.."Algorithm handling"@$: 100 #the remaining
-          - $@Requirements..F2Tool..F2Server.."Global events"@$: 18
-          - $@Requirements..F2Tool..F2Console.."Console based command processing"@$: 22 #the remaining
+        - On top of CoreBasic:
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Core.."Object model".."OOP - Basic level, including algorithmical data"."Item Programmability - Basic level"<: 31
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Algorithm handling"<: 100 #the remaining
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Global events"<: 18
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console.."Console based command processing"<: 22 #the remaining
         - Sum added: 31 + 100 + 18 + 6 + 22 = 159
         - Total: 156 + 159 = 315h = 52.5d = 2.625 Months
     - Id: WorkspaceIDEPackage
       Value: 127h
       Notes:
         - Workspaces and IDE support
-        - On top of $@~CoreBasic@$:
-          - $@Requirements..F2Tool..F2Console..Workspaces@$: 26
-          - $@Requirements..F2Tool.."Basic Editor interfaces"@$: 99
-          - $@Requirements..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional@$: 2
+        - On top of -->~CoreBasic<:
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Console..Workspaces<: 26
+          - -->Documents\Requirements\TheF2Tool\..F2Tool.."Basic Editor interfaces"<: 99
+          - -->Documents\Requirements\TheF2Tool\..F2Tool..F2Server.."Webservices interface - maybe REST"..Additional<: 2
   Details:
     Background: 
       Background: |
-        We're using computed management to make community decisions, that is, instead of letting key people organized in hierarchies make decisions "as they please" we compute them from the data the group possesses.
+        We're using computed management to make decisions for the group, that is, instead of letting key people organized in hierarchies make decisions "as they please" we compute them from the data the group possesses.
         For this we need:            
-          - the information to be stored in a central store
+          - information to be stored in a central store
           - a computer which computes the decision (i.e. what action we should perform) in a way that according to this data, performing the decided action would yield the highest expected utility (=value, e.g. highest likely profit). In layman's terms: the decisions are logical.
 
-        Practical considerations are that:
-          - although a "computer" can be a human, we obviously want to use the electronic ones as they are insanely better in computations
+        Notes:
+          - although a "computer" can be a human, we obviously want to use the electronic ones as they are insanely better in computations (i.e. executing IF (conditions) THEN (consequence) computations, not feeling based ones like current AIs)
           - but, for using computers we need all the information (both static and algorithmic) to be transferred from the minds to the storage of our computer systems
 
-        We therefore use a gradual approach, where at first people compute all decisions in a way that they are distributed amongst the members to increase quality and speed,and we gradually formalize each to reach full automation (and incredible precision, complexity, speed, reliability, etc.).
+        We therefore use a gradual approach, where at first people compute all decisions in a way that these are distributed amongst the members to increase quality and speed, and we gradually formalize each to reach full automation (and max out precision, complexity, speed, reliability, etc.).
 
-        As a summary, we are building a self-improving and automating, human-electronic hybrid distributed decision computing system; the 
+        As a summary, we are building a self-improving and automating, human-electronic hybrid distributed decision computing system.
       Summary:
         The whole thing:   
           Environment:
@@ -97,7 +101,8 @@
                   - CRUDE of the OO data the F2Server stores
                   - controlling the behavior of the F2Server or other connected components - like start/stop/config, etc.            
                 - services for the F2IDEServices
-              F2IDEServices and F2LanguageServer: For supporting the main interface, an IDE such as VS Code with a special Language Server Implementation for providing language services - code completion, verification, code actions, etc. - and command execution.
+              F2IDEServices and F2LanguageServer: 
+                - For supporting the main interface, an IDE such as VS Code with a special Language Server Implementation for providing language services - code completion, verification, code actions, etc. - and command execution.
 
         Local F2Tool environment:
           It's like a locally running program, memory is the local F2Tool storage in memory. We, as human processes - acting like a process, doing memory manipulation and function execution - modify and query these memory objects through e.g. the following ways:
@@ -107,14 +112,6 @@
             Query:
               Console interface: by issuing query commands and receiving the result to the console/into a file
               Workspace files: by issuing query commands and receiving the result into the files                  
-          Notes:
-            Each F2Tool can serve only 1 "project" - so if you want to manage 2 projects, like "MyNiceBusiness" and "Joeshoes", you need to launch 2
-          Comments:
-            Gaurav: 
-              - "Each F2Tool can serve only 1 project":
-                - why is that
-            Bobi:
-              - Similar reason as why the browsers run each tab as a separate process: to avoid any interference.
   Drafting .Infrastructure:
     Drafting .Minimal Local:
       Details: F2Server run locally, accessed through some port forwarding
@@ -124,7 +121,7 @@
         - the tree structure the Items form through their BelongsTo properties. See @$@Mandatory hierarchy of Items - the Item Directory@$
     Reviewed .BelongsTo: an Item belongs to another if the other item is its parent.
     Reviewed .Owns: the opposite of BelongsTo
-    Drafting .FullId: 
+    Drafting .FullId:
       Details:
         Summary:
           A unique identifier of an Item, constructed as walking through the Item Directory from the Root to the Item and noting the Id-s of the Items we encountered. In a format [RootItem.Id][...].[ItemBelongintTo.Id].[Item.Id].[ItemWithoutId.InternalId]; like a yaml path. 
@@ -180,7 +177,6 @@
                 Status: Done
                 Estimation: 30m
                 Spent: {30m, Bobi}
-        Replaced .Loader system:
       Estimated .Basic Starter and Governor based architecture:
         Estimation: 
           - CoreBasic: 0h    
@@ -189,7 +185,7 @@
           Overall:
             Starter: $@~.\.Starter.Summary@$
             Governor: $@~.\.Governor.Summary@$
-        Estimated .Basic Starter:
+        InProgress .Basic Starter:
           Details: 
             Overall:
               A project is a "Starter" project if it can be run by the operating system (as an application or a service) and through which the functionalities of the app can be started. A starter should start the functionalities by calling their respective IGovernor.
@@ -198,8 +194,7 @@
               - The starter should initialize the referenced project(s) before starting the IMainGovernor - and hence it should allow the IMainGovernor to be replaced.
           Implemented .Basic Starters w/o dynamic loading:
             .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Console".."Technical architecture".."Starter functionalities"<:
-          Estimated .Dynamic loading of projects:
-            Category: Nice
+          Estimated .Dynamic loading of projects:            
             Estimation: 
               1d:
                 <-Note-: timebox
@@ -216,7 +211,7 @@
               - Each governor should be registered into the IOC container as a named registration for IGovernor, with their class name as name
               - IMainGovernor is an "empty" IGovernor descendant interface; Governors capable of being the "main" governor - which can start others and perform general initialization, etc. - should implement this instead of IGovernor
             .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Technical Architecture".."Basic Starter and Governor based architecture".."Governor".."Basic Governor"<:
-            .-->Requirements..F2Tool..F2Server..Governor..Basic<:
+            .-->Documents\Requirements\TheF2Tool\..F2Tool..F2Server..Governor..Basic<:
         <-Task-:
           Done Clean up the previous loaders and things:
             WorkLog:
@@ -373,7 +368,7 @@
               For property referencing:
                 One way is if for Custom Properties we create a new Item - called maybe "Property" - for each property and these can of course be referenced. This should be quite easy.
               For boxing:
-                We need the facilities for boxing/unboxing - a little bit of thinking but I think that's it.              
+                We need the facilities for boxing/unboxing - a little bit of thinking but I think that's it.
         Details:            
           For full flexibility, even the properties and values (including primitive ones like a number) should be an Item - and hence another Item can reference it or it can reference another item. So, like:
             There's an Item with a property, having a value:
@@ -405,9 +400,6 @@
         Details:
           - This is to be re-estimated each time there's a review 
           - 2024.04.08: 20% might be left; nothing seems to be missing though (on top of Requirements marked as todos)
-      Comments:
-        Gaurav: 
-          - Wasnot able to understand most of the things
     Estimated .F2Yaml rendering and parsing configuration:        
       Estimation:
         - {1d, Basic (timeboxed)}
@@ -822,7 +814,7 @@
           - Like in FrstPpl:
             - ItemStub and similar features 
             - ItemReference
-      Estimated .F2Lang parser:        
+      Estimated .F2Lang parser:
         Estimation: 
           38h:
             <-Note-: 4+8+8+3*6
@@ -842,7 +834,7 @@
               - numbers are numbers
               - no parenthesis: 
                   - it's an identifier
-                  - ends with brackets: it's a function
+                  - ends with brackets: it's a function            
         Estimated .Basic function implementation:
           Estimation:
             =: 8h
@@ -854,7 +846,7 @@
             - -->~\.Basic functions<
           Estimation: 
             3d:
-              <-Note-: Use the implementation in FrstPpl              
+              <-Note-: Use the implementation in FrstPpl
           Details: 
             - Support of F2Lang syntax for "for", "if"
             - Expressions:
@@ -1396,10 +1388,10 @@
             ReqReq: -->~\.Multiline Console Text Editor<
             Estimation:
               1h:
-                <--Note-: I think we get it with the ReqReq.                
+                <--Note-: I think we get it with the ReqReq.      
             Details:
               - Ctrl+Enter inserts a new line. 
-          Drafting .Command with parameters:              
+          Drafting .Command with parameters:
             Details: 
               - The command contains the parameters
               - Options:
@@ -1463,18 +1455,18 @@
         
         .Governor:
           Implemented .StartGovernor:
-          Details:
-            Command: \"StartGovernor", the name of the IGovernor - i.e. with which it is registered in the IoC container - is the parameter. Engine change is a separate Req
-            Behavior: 
-              If the name is empty, lists all the available governors.
-              Gets the IGovernor from IoC with the provided name and calls its "Govern" function.
-          <-Task-:
-            Implement StartGovernor:
-              Estimation:
-                =: 30m
-                <-Note-:
-                  PAR time: 10m
-              WorkLog: {Bobi, 10m}
+            Details:
+              Command: \"StartGovernor", the name of the IGovernor - i.e. with which it is registered in the IoC container - is the parameter. Engine change is a separate Req
+              Behavior: 
+                If the name is empty, lists all the available governors.
+                Gets the IGovernor from IoC with the provided name and calls its "Govern" function.
+            <-Task-:
+              Implement StartGovernor:
+                Estimation:
+                  =: 30m
+                  <-Note-:
+                    PAR time: 10m
+                WorkLog: {Bobi, 10m}
 
         .Workspace:          
           Estimated .LoadWorkspace:          
@@ -1859,7 +1851,7 @@
   Drafting .Ideas:
     Drafting .Losely defined types for abstract members:
       Details:
-        - One can define an abstract member in a way that its flagged as with a loosely defined type:
+        - One can define an abstract member in a way that its flagged with a loosely defined type:
           - In descendant classes the type of it can be a type inheriting from the one declared in the base
           - For example, if the base type is ItemWithId, in the descendants it can be ItemWithIdAndSummary
         - For enumerations, the "base" type must be "Enumeration", from which all enums are considered to be inherited

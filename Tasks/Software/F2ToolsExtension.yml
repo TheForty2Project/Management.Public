@@ -140,7 +140,7 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
   OnGoing .Enhancements:
     TODO .Time tracking should generate Id based F2Links, not Summary ones.:
-      +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
       Comments:
         - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
 
@@ -525,14 +525,14 @@ Bugs:
         - the Summary contains just one word
   
   New .During CSV Generation extra fields are added:
-    +: {CreatedBy: Hana, CreatedAt: 20260327 T 104642, By: Bobi, Tags: [CSVTODO]}
+    +: {CreatedBy: Hana, CreatedAt: 20260327 T 104642, By: Bobi, Tags: [CSVDONE]}
     QA: Hana
     Version: 2.0.24
     Area: LinkGeneration
     Severity: 4-High
   
   New .During CSV Generation if the value of a property is not a string, it fails:
-    +: {CreatedBy: Bobi, CreatedAt: 2026030 T 122326, By: Bobi, Tags: [CSVTODO]}
+    +: {CreatedBy: Bobi, CreatedAt: 2026030 T 122326, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration
@@ -543,7 +543,7 @@ Bugs:
         null
 
   New .Can't link to sequences:
-    +: {CreatedBy: Bobi, CreatedAt: 20260421 T 125103, By: Bobi, Tags: [CSVTODO]}
+    +: {CreatedBy: Bobi, CreatedAt: 20260421 T 125103, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration
@@ -558,7 +558,7 @@ Bugs:
           But you can to this:
       
   New .Can't start timer on an F2Link containing Ids:
-    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 120717, By: Bobi, Tags: [CSVTODO]}
+    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 120717, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
     Area: TimeTracking

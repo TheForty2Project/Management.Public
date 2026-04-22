@@ -1,12 +1,19 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
+Comments:
+  - Content: 
+      - These requirements are not maintained currently due to lack of manpower, instead, we're using a Task based approach - i.e. the "requirements" are written into the Details of the Tasks about implementing them. 
+      - This approach is expected to change with increase of manpower
+    CreatedBy: Bobi
+    CreatedAt: 20260422 T 125400
+
 .Website:
   Details:
      - tf2p.org - infrastructure + content requirements
-  .FirsPhase:
+  Obsolete .FirsPhase:
     Details:
       This Item is here only to signal that there was a first phase; very vague content, mostly targeting people who are doing the same things as us. Result was that we didn't find any - and probably they don't really exist after trying it with more marketing+more content (in the second phase).
-  .SecondPhase:
+  Obsolete .SecondPhase:
     Details:
       Summary:
       - The site should reflect that we're not service providers but a community, working together as "friends" to produce value we share fairly in between ourselves - just using 21st century methodologies and software to be able to work in a logical (=correct) way even on a large scale, welcoming everyone who would like to do the same.
@@ -148,7 +155,7 @@
               - Reddit subreddit
               - Twitter
               - Discord maybe?
-        InDev .Articles:
+        Cancelled .Articles:
           Details:
             - Design the article page:
               - Categorize the articles into  2 parts: 
@@ -156,8 +163,7 @@
                 - Recently uploaded
               - Some additional features:
                 - Like Button
-                - Vote
-                - 
+                - Vote                 
 
       Drafting .Enhancements:
         Reviewed .Nicely designed milestones/roadmap:

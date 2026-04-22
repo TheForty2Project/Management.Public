@@ -294,7 +294,7 @@
         Details:
           The extension has the basic Specify SR, Start/Stop and Pause/Resume functionalities
         Notes:
-          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Documents\ProcessDescriptions\..StandupProcess..ManualStandupPreparation..CreateSRItem.."Fill in its properties"<
+          The fields - e.g. SPENT_TIME - are referring to the standup format defined here: -->Documents\ProcessDescriptions\.."Process Descriptions"..StandupProcess..ManualStandupPreparation..CreateSRItem.."Fill in its properties"<
         Stories:
           Specify SR:
             Given:

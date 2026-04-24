@@ -110,8 +110,17 @@ SR_20260421_Bobi:
 SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260421 T 134833 ]
-    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 79m, "", 20260421 T 170513 ]
+    - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 100m, "", 20260421 T 170513 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 41m, "", 20260422 T 120445 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 30m, "", 20260422 T 120532 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 33m, "", 20260422 T 120532 ]
+    - -->Tasks\Miscellaneous\.."IT".."Environment configuration"<: [ 16m, "Fixing repository issues", 20260423 T 223949 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During CSV Generation if the value of a property is not a string, it fails"<: [ 43m, "", 20260423 T 215405 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During CSV Generation extra fields are added"<: [ 30m, "", 20260423 T 234916 ]
+    - -->Tasks\Processes\..Technical.."Publishing the F2Tool extension to VS Code MarketPlace"<: [ 111m, "", 20260424 T 121927 ]
+    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial changelog"<: [ 25m, "", 20260424 T 191512 ]
+    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial readme.md"<: [ 65m, "", 20260424 T 232411 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 10m, "", 20260424 T 115600 ]
+    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.25"<: [ 30m, "", 20260424 T 233251 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 0m, "", 20260425 T 010751 ]
   Next:
     - null

@@ -143,6 +143,15 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
       Comments:
         - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
+  OnGoing .Publication to marketplace:
+    Details:
+      Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
+    Done .Write initial changelog.md:
+      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 191500, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+    Done .Write initial readme.md:
+      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+    InProgress .V2.0.25:
+      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
 
 Bugs:
 
@@ -506,12 +515,14 @@ Bugs:
     Details:
       - specify SR, select task and stop task were implemented. Cursor was on SR worklog generation didn't work
 
-  New .Task minutes does not get saved whem VSC is closed:
+  Rejected .Task minutes does not get saved whem VSC is closed:
     +: {CreatedBy: Hana, CreatedAt: 20250903 T 170338, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     QA: Hana
     Version: 2.0.23
     Area: TimeTracking
-    Severity: 3-Average    
+    Severity: 3-Average
+    Comments:
+      - [Bobi, 20260423 T 2153, "This feature is not implemented yet."]
 
   New .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
     +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVDONE]}
@@ -524,14 +535,14 @@ Bugs:
         - if the Item is a top level one
         - the Summary contains just one word
   
-  New .During CSV Generation extra fields are added:
+  Fixed .During CSV Generation extra fields are added:
     +: {CreatedBy: Hana, CreatedAt: 20260327 T 104642, By: Bobi, Tags: [CSVTODO]}
     QA: Hana
     Version: 2.0.24
     Area: LinkGeneration
     Severity: 4-High
   
-  New .During CSV Generation if the value of a property is not a string, it fails:
+  Fixed .During CSV Generation if the value of a property is not a string, it fails:
     +: {CreatedBy: Bobi, CreatedAt: 2026030 T 122326, By: Bobi, Tags: [CSVTODO]}
     QA: Bobi
     Version: 2.0.24

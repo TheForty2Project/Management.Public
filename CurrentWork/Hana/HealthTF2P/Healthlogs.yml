@@ -1,59 +1,75 @@
 +: { Type: Folder, AllowedTypes: [ Task, Folder ] }
 
-HealthLog20260421Hana:
+HealthLog20260423Hana:
   .Important Notes:
-    - Sleep was comprimised due early wake up
-    - Need to sleep earlier than 21:00 to meet the sleep duration
-  .Cycle Day:  Cycle 16 (Fertile- phase)
+    Bobi:
+    Hana:
+    - Food before 21:00:
+      - Chicken slightly fried (half spoon polive oil) with onion and koriander leaves
+    - Food after 21:00- 01:00
+      - Mcdonalds ice cream
+      - Smoke night
+      - 2 pieces of sponge cake
+      - Smoke night
+      - Pumpkin seed
+      - Vomited 2x
+      - Milk and syrup before going to bed
+    - Body Condition:
+      - Tired and a bt of energy
+      - Pooped   Type 4
+      - Headache by 12:40
+   
+  .Cycle Day:  Cycle 20 (Fertile window)
   .Wake up:
     - Time: 8:06
-    - Duration: 8h 48m
+    - Duration: 8h 14m
     - Sleep Score: 
-    - Deep Sleep: 41m
-    - Light Sleep: 6h 7m
-    - REM: 2h 1m
-    - Awake time: 5m
-    - Stress: 13 avg
-    - Body Battery: +57
-    - Mood: Tired but forcing myself to do my chores and work (for example this)
-  .Diet+Mood:
+    - Deep Sleep: 1h 44m
+    - Light Sleep: 5h 4m
+    - REM: 1h 44m
+    - Awake time: 1h 30m
+    - Stress: 14 avg
+    - Body Battery: +61
+    - Mood: Tired, was able to do the morning chores with energy and collapsed by noon
+  .Diet+Hydration+Mood:
     - AfterWakeUp:
-      - Time: 08:30
-      - Macro Nutrient: Warm water+lemon
-      - Mood: anxious
-    - Breakfast:
       - Time: 09:30
+      - Macro Nutrient: Coffee
+      - Hydration: 
+      - Mood: Drowsy
+    - Breakfast:
+      - Time: 09:50
       - Food: 
-        - some small snacks pancake + pickle fish
-      - Mood: Anxious and started a fight  - cried
+        - Half pancake + Coffee
+      - Mood: ok 
     - Snacks:
       - Time: 
       - Food: 
-      - Mood: SAd, cried ( mama)
+      - Mood: 
     - Lunch: 
-      - Time: 14:30
+      - Time: 15:00
       - Food: 
-        - Side dish:  Rice
-        - Main Course: Chiken thigh
-        - Dessert: 2 pieces of sponge cake + tea = coffee
-      - Mood: Sad, tired
+        - Side dish: Rice Noodles  
+        - Main Course: Fish Soup and cooked veggies
+        - Dessert: 2 big pieces of Robis cake and some vanilla and choco sauce
+      - Mood: ok
     - Dinner:
-      - Time: 17:00
-      - Food: popcorn
-      - Mood: tired, dimotovated
+      - Time: 19:00
+      - Food: Pizza and tiramisu
+      - Mood: ok
   .Stool Quality:
-    - Time:  12:00
-    - Quality: Healthy
+    - Time:  10:00
+    - Quality: Type 4
   .Activity:
     - After wake up: 
     - Morning: 
-      - Time: 11:00
-      - Activity: Running
-      - Mood: ok 
+      - Time: 10:00-11:40
+      - Activity: Cleaning the house
+      - Mood: ok and tired 
     - Afternoon:
-      - Time: 12:00
-      - Activity: Hike
-      - Mood: chaotic
+      - Time: 16:30-17:00
+      - Activity: Walk
+      - Mood: ok
   .Night Sleep:
     - Time: 11:13
     - Sleep Hygiene:  S

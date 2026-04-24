@@ -14,7 +14,7 @@ SR_20260409_Hana:
     - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 12m, "", 20260401 T 202502 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create Management task list reports"<: [ 11m, "", 20260401 T 210810 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 90m, "", 20260402 T 093736 ]
-    - -->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<: [ 4m, "", 20260403 T 075801 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260403"<: [ 4m, "", 20260403 T 075801 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<: [ 10m, "", 20260403 T 081218 ]
     - -->Tasks\Management\.."OCWSPhase1".."Cleanup workspace".."Hana"<: [ 22m, "", 20260403 T 132212 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links"<: [ 142m, "", 20260403 T 215949 ]
@@ -64,7 +64,9 @@ SR_20260421_Hana:
 
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "", 20260421 T 173647 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 38m, "", 20260421 T 173647 ]
+    - -->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260422""<: [ 18m, "", 20260422 T 122905 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260422"<: [ 103m, "", 20260422 T 131030 ]
+
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
-    

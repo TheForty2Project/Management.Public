@@ -1,11 +1,8 @@
 +: { Type: Folder, AllowedTypes: [ Task, Folder ] }
 
-
+#Task Created:
 Done 20260416:
-
-- -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
-  Workspace: 
-
+  - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
 Health Template:
   .Important Notes:
     - Take it step by step
@@ -75,7 +72,7 @@ Health Template:
 Done 20260419:
   Done .Add the part we recorded during our smoking session to the Summary:
 Done 20260420:
-  InProgress .Create OCWSPhase2 task list reports: 
+  Done .Create OCWSPhase2 task list reports: 
     Done .Clean up the CSVTODO in Website file:
       Notes: 
         - change the color of delete  property
@@ -85,7 +82,7 @@ Done 20260420:
         - Change the CSV TODO to DONE from tasks that are already DONE
         - Add the rest of CSVTODO to CurrentTask.csv
         - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the Phase1 Deepdive (Read) page engine".."Make the yaml downloadable".."Make the yamls downloadable as a package".."Implement"< changed to ocwsphase2
-    TODO .Have it reviewed by Bobi:
+    Done .Have it reviewed by Bobi:
     Done .Cleanup the CSVTODO in management file:
   InProgress .Write your thoughts:
     - Management of your life (yourself, your partner, both of your project of life) - it'll be published our life
@@ -99,6 +96,61 @@ TODO .20260421:
       Extensions:
         Schedule with Google Calendar:
           unlike other scheduling extensions, this one lets you define your schedule with the powerful tools of a real calendar application. Repeating events of a certain flavor can be color coded, and then renamed so the viewers will know what to expect that day.
+      Add:
+        lunch schedule
+
+#Task to be created:
+TODO .20260422:
+  TODO .Cleanup CurrentTask.csv:
+    TODO .Categorize the CSV tasks into it's category:
+    TODO .Describe the process of standup:
+      - Standup -> Process workhours
+#Personal:
+InProgress .Prepare for the Goal meeting on Friday:
+    +: {CreatedBy: Hana, CreatedAt: 20260422 T 125743, By: Hana, Tags: [CSVTODO], Estimation: 80m, RemTime: 0m}
+    TODO .Explain the failures that has been encountered with Giselle:
+      Details:
+        - for the purpose of not getting away from the goal
+        - To prevent scenarios of misunderstanding ( to accurately understand each others goals )
+        - To to have a clear path of what the goals are
+    TODO .Write down short term goals (6 month):
+      - Have a balanced life with mobility activities  ( )
+      - Have a concrete plan with Joanne and  help her reach them
+      - Ask Joanne to supervise my activities and my goal settings
+      - Reach to a workable process in case Joanne wants to live in EU
+      
+    TODO .Discuss long term goals:
+      - Make her understand what is the project about by giving her an example of my goal setting and how the future system will use it
+    TODO .Have a goal process:
+      Details:
+        - To ensure the goal attaintment
+        - create a file for the goals 
+TODO .Explain to tomtom about the no red eye strains:
+  TODO .Create a group chat on Signal:
+TODO .Schedule Workouts and events that has to be done:   
+  TODO .Schedule the bubbles:
+  
+  TODO .Schedule Agi Gift and letter:
+  #Workouts:
+  TODO .Schedule Bikram:
+  TODO .Schedule Running:
+  TODO .Schedule VO2 max Analysis:
+    Details:
+      - Goals to increase VO2 max therefore increase thinking processes
+      - https://chatgpt.com/share/69ea7e9d-ae0c-83eb-b3ca-a66012ffb9b7
+  TODO .Schedule strength:
+  TODO .Schedule Plyo:
+  TODO .Schedule HIIT:
+  TODO .Analysis of schedules based on cycle:
+TODO .Schedule walks:
+  TODO .Schedule the walk to the chocolate place:
+  TODO .Schedule the walk to the tailor:
+
+TODO .20260424:
+  - -->CurrentWork\Hana\Workspace\.."20260421".."Prepare twitch to be live this week"<
+  - -->CurrentWork\Hana\Workspace\.."Prepare for the Goal meeting on Friday"<
+  - -->CurrentWork\Hana\Workspace\.."Schedule Workouts and events that has to be done"<
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

@@ -524,7 +524,7 @@ Bugs:
     Comments:
       - [Bobi, 20260423 T 2153, "This feature is not implemented yet."]
 
-  New .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
+  InProgress .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
     +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
@@ -582,6 +582,14 @@ Bugs:
     Comments:
       Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\.Tasks.."Enhancements".."Time tracking should generate Id based F2Links, not Summary ones."<
 
+  New .Start/Resume task does not resume the Task:
+    +: {CreatedBy: Bobi, CreatedAt: 20260425 T 011714, By: Bobi, Tags: [CSVTODO]}
+    QA: Bobi
+    Version: 2.0.25
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      After pausing an active timer by the the "Start/Resume task" command, resuming it by doing it again does not resume the task but gives a "There's no active task" error message
             
   
 

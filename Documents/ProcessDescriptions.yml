@@ -442,7 +442,123 @@
               ./ffmpeg -i "FILENAME.mkv" -ar 16000 -ac 1 -c:a pcm_s16le FILENAME.wav
           - in the WHISPERCPPROOT folder : |
               ./build/bin/whisper-cli -f "VIDEOFILEPATH/FILENAME.wav" >"VIDEOFILEPATH/whisper-cpp_base-en_FILENAME.txt"
+  .Passwords:
+    Type: Folder
+    Summary:
+      Accessing the passwords storage
+    .HanaBobi:
+      Summary:
+        The "most private" passwords
+      Prerequisites:
+        - TrueCrypt 7.1a is installed
+        - Management.HanaBobi repository is cloned into a local folder
+      .Mount:
+        Details:
+          - start the TrueCrypt app
+          - select a drive letter
+          - press the "Select File" button
+          - select the file in: (Management.HanaBobi folder)\Technical.dat\PasswordsAndAccesses.dat
+          - press the Mount button
+          - type in the password:
+              hint: favorite poem + time
+      .Open file:
+        Details:
+          - for most passwords, open the Passwords2.txt found on the drive letter selected in the previous step
+    .Mangament:
+      Summary:
+        The "for members" passwords
+      Prerequisites:
+        - TrueCrypt 7.1a is installed
+        - Management repository is cloned into a local folder
+      .Mount:
+        Details:
+          - start the TrueCrypt app
+          - select a drive letter
+          - press the "Select File" button
+          - select the file in: (Management folder)\Technical.dat\PasswordsAndAccesses.dat
+          - press the Mount button
+          - type in the password:
+              hint: favorite quote + n
+      .Open file:
+        Details:
+          - for most passwords, open the Passwords.txt found on the drive letter selected in the previous step
 
+
+  .F2Tools extension:
+    Type: Folder
+    .PublishToMarketPlace:
+      Summary:
+        Publishing the F2Tools extension
+      Variables:
+        - string F2ToolsFolder: the folder where the F2Tools repository containing the source code is cloned into        
+        - string MSPAT: the Microsoft Personal Access Token used for VS Code marketplace publishing
+      Prerequisites:
+        - The $@F2ToolsFolder@$ is open in VS Code  
+        - vsce is installed
+        - the user has or can generate an $@MSPAT@$
+      .UpdateFiles:
+        .SetVersion:
+          Details: 
+            - Increment (or set) the version under $@F2ToolsFolder@$\package.json/version:
+                Make sure to keep the rules: Major version - groundbreaking changes; Minor - new features; Patch - new bugfixes
+        .UpdateChangeLog:
+          Details: 
+            - Update change log under $@F2ToolsFolder@$\CHANGELOG.md:
+                Make sure to keep the rules! (keepachangelog.com)
+      .Publish:
+        .LoginAndGetToken:
+          Summary: log-in with vsce
+          .GetToken:
+            Summary:
+              Get the token for the kovrob@gmail.com Microsoft account
+            Details:
+            - Execute the steps in -->Documents\ProcessDescriptions\.."Process Descriptions"..Passwords..HanaBobi< process 
+            - Retrieve the $@MSPAT@$ stored in Passwords2.txt under:
+                "TheForty2Project@gmail (through kovrob@gmail.com) Microsoft Personal Access Token for VSIX signing:
+                    VS Code Personal Access Token:"
+          .Login:
+            Details:
+              - Issue the command in the Terminal of the VS Code instance in which $@F2ToolsFolder@$ is open: 
+                  vsce login tf2p
+              - Paste the $@MSPAT@$ retrieved in the previous step
+          .IF(the $@MSPAT@$ is expired):
+            .Generate:
+              Details:
+                - Login to Azure Devops portal (https://dev.azure.com/TheForty2Project/)
+                - Select the TheForty2Project on the left side (this might be unnecessary though)
+                - Click on "User settings" (second to the left from the top right)
+                - Select "Personal Access Token"
+                - Press "New Token"
+                - Name it e.g. "Visual Studio Marketplace management"
+                - Set expiration date e.g. until end of each calendar year
+                - "Show all scopes"
+                - Check the "Manage" checkbox under "Marketplace"
+                - Press "Create"
+                - Copy the $@MSPAT@$
+            .Store:
+              Details:
+                - Replace the $@MSPAT@$ in the password storage (the one under: 
+                    "TheForty2Project@gmail (through kovrob@gmail.com) Microsoft Personal Access Token for VSIX signing:
+                      VS Code Personal Access Token:"
+                - Save the file
+                - Dismount
+                - Commit and sync PasswordsAndAccesses.dat
+            .Login again:
+              Details: execute -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace..LoginAndGetToken..Login<
+        .Publish:
+          .PackageAndTest:
+            Details:
+              - Issue the following commands in the Terminal of the VS Code instance in which $@F2ToolsFolder@$ is open:
+                - vsce package:
+                  - string packagedFile: the name of the file generated, found in the last line
+                - code --install-extension $@packagedFile@$:
+          .Publish:
+            Details:
+              - Issue the following commands in the Terminal of the VS Code instance in which $@F2ToolsFolder@$ is open:
+                - vsce publish
+         
+
+      
   .StandupProcess:
     Type: ProcessDescription
     Summary: Description of the standup process along with preparation for it

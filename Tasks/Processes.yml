@@ -236,5 +236,5 @@ Summary:
       
 .Technical:
   InProgress .Publishing the F2Tool extension to VS Code MarketPlace:
-    +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121849, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+    +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121849, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

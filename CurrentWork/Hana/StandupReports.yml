@@ -67,6 +67,8 @@ SR_NEXT_Hana:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 38m, "", 20260421 T 173647 ]
     - -->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260422""<: [ 18m, "", 20260422 T 122905 ]
     - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260422"<: [ 103m, "", 20260422 T 131030 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 0m, "", 20260425 T 071331 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260425"<: [ 0m, "", 20260425 T 071437 ]
 
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<

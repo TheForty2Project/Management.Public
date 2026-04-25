@@ -33,7 +33,7 @@ OnGoing .General management:
     OnGoing .Process the Workhours.csv:
         +: {CreatedBy: Hana, CreatedAt: 20260422 T 130758, By: Hana, Tags:, Estimation: 0m, RemTime: 0m}
         InProgress .SyncAt20260422:
-          +: {CreatedBy: Hana, CreatedAt: 20260422 T 130946, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+          +: {CreatedBy: Hana, CreatedAt: 20260422 T 130946, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
   OnGoing .Planning related:
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131746, By: Hana}
     OnGoing .Hold periodically:
@@ -120,6 +120,9 @@ OnGoing .General management:
           All CSVs - OCWSPhase1, OCWSPhase2, Management
       Done .SyncAt20260422:
         +: {CreatedBy: Hana, CreatedAt: 20260422 T 122521, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+      InProgress .SyncAt20260425:
+        +: {CreatedBy: Hana, CreatedAt: 20260425 T 071405, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
+
     OnGoing .Analysis of Tasks in CSV:
       +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
       Details:

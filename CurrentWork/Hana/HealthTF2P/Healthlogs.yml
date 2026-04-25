@@ -70,10 +70,14 @@ HealthLog20260423Hana:
       - Time: 16:30-17:00
       - Activity: Walk
       - Mood: ok
+    - Evening:
+      - Time: 22:45
+      - Activity: Short Run
+      - Mood: ok
   .Night Sleep:
     - Time: 11:13
-    - Sleep Hygiene:  S
-    - Mood: Very tired  crashed
+    - Sleep Hygiene:  run, warmshower, sleep
+    - Mood: ok
   .Notes for tomorrow:
     - Prioritize movements and sun exposure
     - Proioritize Robis breakfast 

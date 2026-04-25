@@ -106,7 +106,7 @@ TODO .20260422:
     TODO .Describe the process of standup:
       - Standup -> Process workhours
 #Personal:
-InProgress .Prepare for the Goal meeting on Friday:
+Cancelled .Prepare for the Goal meeting on Friday:
     +: {CreatedBy: Hana, CreatedAt: 20260422 T 125743, By: Hana, Tags: [CSVTODO], Estimation: 80m, RemTime: 0m}
     TODO .Explain the failures that has been encountered with Giselle:
       Details:
@@ -128,9 +128,18 @@ InProgress .Prepare for the Goal meeting on Friday:
 TODO .Explain to tomtom about the no red eye strains:
   TODO .Create a group chat on Signal:
 TODO .Schedule Workouts and events that has to be done:   
-  TODO .Schedule the bubbles:
+  Done .Schedule the bubbles:
   
   TODO .Schedule Agi Gift and letter:
+    TODO .Cover Mamas book:
+    TODO .Create a letter for Agi:
+    TODO .Buy the socks for Agi:
+    TODO .Buy the stickers for Agi:
+    TODO .Buy the liquid chalks:
+    TODO .Add beauty mask:
+    TODO .Add a joint for Tibi and Agi:
+    
+
   #Workouts:
   TODO .Schedule Bikram:
   TODO .Schedule Running:
@@ -150,6 +159,10 @@ TODO .20260424:
   - -->CurrentWork\Hana\Workspace\.."20260421".."Prepare twitch to be live this week"<
   - -->CurrentWork\Hana\Workspace\.."Prepare for the Goal meeting on Friday"<
   - -->CurrentWork\Hana\Workspace\.."Schedule Workouts and events that has to be done"<
+  
+  - Download music on Jdownloader
+Ideas for marketing: 
+  - Posting on 9gag and reddit every few days to draw attentions to us from different perspectives
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 

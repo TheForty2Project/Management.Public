@@ -121,6 +121,7 @@ SR_NEXT_Bobi:
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial readme.md"<: [ 65m, "", 20260424 T 232411 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 10m, "", 20260424 T 115600 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.25"<: [ 30m, "", 20260424 T 233251 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 0m, "", 20260425 T 010751 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 6m, "", 20260425 T 010751 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 1m, "", 20260425 T 012000 ]
   Next:
     - null

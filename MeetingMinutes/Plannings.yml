@@ -3,13 +3,23 @@
 MeetingNotes:
   .Planning20260328:
     Participants: [Bobi, Hana]
-    StartTime: 20260328 T 15:05
-    EndTime: 20260328 T 16:30
+    StartTime: 20260328 T 1505
+    EndTime: 20260328 T 1630
     Result:
       Tasks to be created:
         In management:
           -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase1 task list reports"<:  
           -->Tasks\Management\.."OCWSPhase1".."Merge the Tasks (I was working on) with the original set"<:
           -->Tasks\Management\.."OCWSPhase1".."Provide estimations"<:
+
+  .Planning20260428:
+    Participants: [Bobi, Hana]    
+    StartTime: 20260428 T 1240
+    EndTime:
+    Details:
+      Task is $@-->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<@$
+    Workspace:
+      Daily, recurring tasks:
+        Hana:
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

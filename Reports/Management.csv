@@ -16,4 +16,4 @@
  ,         70, Done      , Hana        ,       0, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<", 
  ,         30, Done      , Bobi        ,      30, "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Bobi""<"                                                           , 
  ,          0, Done      , Hana        ,       0, "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"                                                           , 
- ,           , OnHold    ,             ,        , "-->Tasks\Management\..""OCWSPhase1""..""Collect the tasks for the live management""<"                                             , 
+ ,           , OnHold    ,             ,        , "-->Tasks\Management\..""OCWSPhase1""..""Big replanning after OCWSPhase1""<"                                             , 

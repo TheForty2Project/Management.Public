@@ -3,7 +3,7 @@ Done .MVPDoneAsOf20241113:
                       
 InProgress .MVPLeftAsOf20250730:
   Id: MVPLeft250730
-  +: {CreatedBy: Bobi, CreatedAt: 20251030 T 222050, By: [Bobi], Tags: [CSVDONE]}
+  +: {CreatedBy: Bobi, CreatedAt: 20250730 T 222050, By: [Bobi], Tags: [CSVDONE]}
   Details:
     - The remaining tasks left to reach an MVP-level product.
     - MVP meaning that The F2Tool:

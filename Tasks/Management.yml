@@ -35,7 +35,7 @@ OnGoing .General management:
         Done .SyncAt20260422:
           +: {CreatedBy: Hana, CreatedAt: 20260422 T 130946, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
         InProgress .SyncAt20260428:
-          +: {CreatedBy: Hana, CreatedAt: 20260428 T 120533, By: Hana, Tags: [CSVTODO], Estimation: 10m, RemTime: 0m}
+          +: {CreatedBy: Hana, CreatedAt: 20260428 T 120533, By: Hana, Tags: [CSVDONE], Estimation: 10m, RemTime: 0m}
   OnGoing .Planning related:
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131746, By: Hana}
     OnGoing .Hold periodically:
@@ -124,7 +124,7 @@ OnGoing .General management:
         +: {CreatedBy: Hana, CreatedAt: 20260422 T 122521, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
       Done .SyncAt20260425:
         +: {CreatedBy: Hana, CreatedAt: 20260425 T 071405, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
-      InProgress .SyncAt20260428:
+      Done .SyncAt20260428:
         +: {CreatedBy: Hana, CreatedAt: 20260428 T 120124, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
     OnGoing .Analysis of Tasks in CSV:
       +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
@@ -176,7 +176,7 @@ InProgress .OCWSPhase1:
         - Ideally:
           - There are nice graphs (burndown, scope kreep, velocity/period, etc.)
     TODO .Clean up and move the Tasks in the Workspace of this Task:
-      +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
       Details:
         - Move them AND leave a link (like above)
         - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!

@@ -125,6 +125,21 @@ TODO .20260424:
 Ideas for marketing: 
   - Posting on 9gag and reddit every few days to draw attentions to us from different perspectives
 
+
+TODO .20260429:
+  - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<:
+    Details:
+      - follow up with Bobi
+  - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:
+    Details:
+      - Go through planning file   
+  - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:
+    Details:
+      - Can't find the file location
+  - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:
+    Details:
+      - different date between Bobi and Hana - follow up
+  
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

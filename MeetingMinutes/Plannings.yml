@@ -23,7 +23,7 @@ MeetingNotes:
         -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase1".."Decide:_ What should be included in this phase"<:
         -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase2".."Decide:_ What should be included in this phase"<:   
         InProgress .Plan the next Milestones:
-          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
           Details:
             - Candidates:
               - Complete F2BarbaManagement.MVP:
@@ -33,13 +33,13 @@ MeetingNotes:
                     Basically the things we wanted to finish originally (e.g. syntax, descriptions, support us, etc.)
               - Streaming:
           Done .Have a rough idea about the next milestones:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 132135, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 132135, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 15, RemTime: 15}
             Workspace:
               - F2BarbaManagement.MVP + OCWSPhase2
               - We plan both (collect tasks, estimate them)
               - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
           TODO .Work out the F2BarbaManagement.MVP milestone:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
             Details:
               - Collect features
               - Write Requirements
@@ -47,18 +47,18 @@ MeetingNotes:
               - Estimate them
               - Choose the bugs (and estimate them)
           TODO .Work out the OCWSPhase2 milestone:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: , RemTime: }
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
             Details:
               - Collect features
               - We are Task based - so no requirements              
               - Estimate them              
           Blocked .Make final decision about the milestones we pursue:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}
             DependsOn:
               - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
               - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
         InProgress .Create schedules:
-          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
           Done .Create baseline:
             +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124746, By: [Bobi,Hana], Tags: [CSVDONE]}
             Result:            
@@ -153,21 +153,21 @@ MeetingNotes:
                     - sleep prep
                   01:00: sleep
           OnGoing .Fine tune daily schedule during the trial week:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124851, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 20}
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124851, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 20}
             Workspace:
               - 20260428: Hana missed the morning, Bobi woke up a bit late but we'll still try to go with the original
           Blocked .Create streaming schedule:
-            +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133106, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+            +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133106, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
             BlockedBy: we need some data about what we can _actually_ do - like a few days of keeping our schedules
         Scheduled .Create marketing plan:
-          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
           ScheduledAt: 20260505
           Details:
             - what streams we should be pursuing first
             - when do we start communicating with the public in which streams; requirements for each
             - see ideas at -->Tasks\PublicRelations\..AfterOCWSPhase1<          
         Done .Create "daily administration" schedule for Hana:
-          +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
+          +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
           Result:
             Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
             

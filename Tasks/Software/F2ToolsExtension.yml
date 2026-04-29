@@ -150,8 +150,10 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 191500, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
     Done .Write initial readme.md:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
-    InProgress .V2.0.25:
-      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
+    Done .V2.0.25:
+      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVTODO], Estimation: "15", RemTime: "0"}
+    Done .V2.0.26:
+      +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVTODO], Estimation: "15", RemTime: "0"}
 
 Bugs:
 
@@ -382,7 +384,7 @@ Bugs:
     Notes:
       Bobi: this might not be a bug but a missing feature; nevertheless, it would be good if it worked
 
-  RetestFail .CSV Line generation not working - when the "by" property has a sequence (more than one name):
+  Fixed .CSV Line generation not working - when the "by" property has a sequence (more than one name):
     QA: Hana
     Version: 2.0.14
     Severity: 3-Average
@@ -524,11 +526,12 @@ Bugs:
     Comments:
       - [Bobi, 20260423 T 2153, "This feature is not implemented yet."]
 
-  InProgress .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
+  Fixed .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
     +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration
+    FixVersion: 2.0.26
     Severity: 4-High    
     Details:
       Probably in cases where:
@@ -539,6 +542,7 @@ Bugs:
     +: {CreatedBy: Hana, CreatedAt: 20260327 T 104642, By: Bobi, Tags: [CSVDONE]}
     QA: Hana
     Version: 2.0.24
+    FixVersion: 2.0.25
     Area: LinkGeneration
     Severity: 4-High
   
@@ -547,6 +551,7 @@ Bugs:
     QA: Bobi
     Version: 2.0.24
     Area: LinkGeneration
+    FixVersion: 2.0.25
     Severity: 4-High
     Details:
       \"str.Trim is not a function" if the value is e.g.:
@@ -564,7 +569,7 @@ Bugs:
         Trying to generate a link to a sequence element results in "Cannot read properties of underfined (reading 'value')" error message instead of generating the link
       Example:
         Prop1:
-          - You can't generate link to this line:
+          - You can't generate link to this line:            
         Prop2:
           But you can to this:
       
@@ -591,7 +596,16 @@ Bugs:
     Details:
       After pausing an active timer by the the "Start/Resume task" command, resuming it by doing it again does not resume the task but gives a "There's no active task" error message
             
-  
-
+  Fixed .The value of Id field is not taken into account if it's inside the additional properties part:
+    +: {CreatedBy: Bobi, CreatedAt: 20260429 T 012514, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 0}
+    QA: Bobi
+    Version: 2.0.25
+    FixVersion: 
+    Area: LinkGeneration
+    Severity: 2-Low
+    Details:
+      So like this:
+        SomeTask:
+          +: {Id: blah}
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

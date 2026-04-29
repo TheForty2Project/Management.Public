@@ -525,8 +525,9 @@
           .Login:
             Details:
               - Issue the command in the Terminal of the VS Code instance in which $@F2ToolsFolder@$ is open: 
-                  vsce login tf2p
-              - Paste the $@MSPAT@$ retrieved in the previous step
+                    vsce login tf2p
+              - IF (not already logged in):
+                - Paste the $@MSPAT@$ retrieved in the previous step
           .IF(the $@MSPAT@$ is expired):
             .Generate:
               Details:

@@ -125,5 +125,8 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 2m, "", 20260425 T 012000 ]
     - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<: [ 116m, "", 20260425 T 123634 ]
     - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<: [ 22m, "", 20260425 T 183628 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 13m, "", 20260428 T 235042 ]
+    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Some fiddling with the code + process update", 20260429 T 000259 ]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [20m, "", 20260429 T 003000]
   Next:
     - null

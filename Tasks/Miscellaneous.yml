@@ -43,8 +43,10 @@ OnGoing .Health:
           - Walk after - how much it helps
           - Eating on "starved" state:
             - sugar spike?
-  TODO .Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.:
-  +: {CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [CSVDONE], Estimation: 60m, RemTime: 0m}
+  Done .Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.:
+    +: {CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [CSVDONE], Estimation: 60, RemTime: 0}
+  OnGoing .Do health logging ~daily:
+    +: {CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [CSVTODO]}
   
 
 

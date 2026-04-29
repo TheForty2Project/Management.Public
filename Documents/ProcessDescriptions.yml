@@ -410,6 +410,12 @@
         .HasComputerSetUp:
       Prerequisites:
       Steps:
+    .DoDailyAdmin:
+      .Perform the following tasks:
+        Details:
+          - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<
+          - -->Tasks\Miscellaneous\.."Health".."Do health logging ~daily"<
+          - After each standup: update WorkHours.csv
 
   .Technical:
     Type: Folder

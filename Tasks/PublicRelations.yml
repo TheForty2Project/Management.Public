@@ -205,5 +205,12 @@
       Details:                  
         - Shamanth (the one who was interested in our podcast about logic)
         - The rest of the people we started collecting - where is it  
-
+  Scheduled .Create marketing plan:
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+          ScheduledAt: 20260505
+          Details:
+            - what streams we should be pursuing first
+            - when do we start communicating with the public in which streams; requirements for each
+            - see ideas at -->Tasks\PublicRelations\..AfterOCWSPhase1<    
+   
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

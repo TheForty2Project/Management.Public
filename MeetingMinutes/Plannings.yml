@@ -22,6 +22,9 @@ MeetingNotes:
       Tasks:
         -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase1".."Decide:_ What should be included in this phase"<:
         -->Backlog\Development\..Website..BackToOrigi..Intermediate.."Go live".."Go live Phase2".."Decide:_ What should be included in this phase"<:   
-      
+      Links:
+        - -->Tasks\PublicRelations\..AfterOCWSPhase1.."Create marketing plan"<
+        - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".."Clean up and move the Tasks in the Workspace of this Task".Result.."Plan the next Milestones"<
+        
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

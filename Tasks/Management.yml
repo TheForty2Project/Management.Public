@@ -402,13 +402,6 @@ InProgress .OCWSPhase1:
           Blocked .Create streaming schedule:
             +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133106, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
             BlockedBy: we need some data about what we can _actually_ do - like a few days of keeping our schedules
-        Scheduled .Create marketing plan:
-          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
-          ScheduledAt: 20260505
-          Details:
-            - what streams we should be pursuing first
-            - when do we start communicating with the public in which streams; requirements for each
-            - see ideas at -->Tasks\PublicRelations\..AfterOCWSPhase1<          
         Done .Create "daily administration" schedule for Hana:
           +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
           Result:

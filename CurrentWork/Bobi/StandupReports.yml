@@ -107,7 +107,7 @@ SR_20260421_Bobi:
     - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<:
     - -->Tasks\Software\F2ToolsExtension\.Bugs<: [ "Fixing a bunch of 'easy' ones" ]
 
-SR_NEXT_Bobi:
+SR_20260429_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260421 T 134833 ]
     - -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<: [ 100m, "", 20260421 T 170513 ]
@@ -127,6 +127,13 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<: [ 22m, "", 20260425 T 183628 ]
     - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 13m, "", 20260428 T 235042 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Some fiddling with the code + process update", 20260429 T 000259 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [20m, "", 20260429 T 003000]
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [ 20m, "", 20260429 T 003000 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 3m, "", 20260429 T 144147 ]
+    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Investigating deployment issues", 20260430 T 115000 ]
   Next:
-    - null
+    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
+    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
+
+SR_NEXT_Bobi:
+
+

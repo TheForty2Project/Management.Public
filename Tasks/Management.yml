@@ -108,7 +108,7 @@ OnGoing .General management:
                 - ELSE
                   - remove the tags            
             - check the CSVDONE ones:
-              - remove the tags if you don't want to track them`
+              - remove the tags if you don't want to track them
               - add them to the CSV if you do
           Generate sums:
             - Estimation total
@@ -182,6 +182,7 @@ InProgress .OCWSPhase1:
       Details:
         - Move them AND leave a link (like above)
         - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!
+        - Fix any links already pointing to them (like the ones in my standup report)
     Result:
       See at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$
               

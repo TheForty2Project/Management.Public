@@ -45,9 +45,9 @@ MeetingNotes:
               - Write Requirements
               - Taskify them
               - Estimate them
-              - Choose the bugs (and estimate them)
+              - Choose the bugs (and estimate them)            
           TODO .Work out the OCWSPhase2 milestone:
-            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 120, RemTime: 120}
             Details:
               - Collect features
               - We are Task based - so no requirements              

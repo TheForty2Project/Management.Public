@@ -158,34 +158,6 @@ InProgress .OCWSPhase1:
       - Everywhere (so do a find in all files (ctrl+shift+f) for CSVTODO))
       - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
       - Only those should keep the CSVDONE tags which are present in one of the CSVs
-  InProgress .Big replanning after OCWSPhase1:
-    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
-    Details:
-      - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
-      - Also, Hana needs to learn into it properly
-      - Goals are:
-        - We have KPIs set up and measured, such as:
-          - Velocity
-          - Hours spent/day
-          - Scope creep
-        - We have milestones estimated
-        - Tracking, evaluating and (re)planning done:
-          - Through events such as:
-            - Standups
-            - Retrospectives
-            - Plannings
-          - Based on the KPIs, corrective actions are taken (=we improve how we do things)
-        - Ideally:
-          - There are nice graphs (burndown, scope kreep, velocity/period, etc.)
-    TODO .Clean up and move the Tasks in the Workspace of this Task:
-      +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
-      Details:
-        - Move them AND leave a link (like above)
-        - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!
-    Result:
-      See at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$
-              
-
   Done .Merge the Tasks (I was working on) with the original set:
     +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
   Done .Provide estimations:
@@ -212,7 +184,7 @@ InProgress .OCWSPhase1:
       Id: Fix2ndRound
       +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
       CancelReason: This is now included in -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
-  InProgress .Clean up the files we are publishing:
+  Done .Clean up the files we are publishing:
     Id: CleanUpFiles
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
     Details:
@@ -220,8 +192,6 @@ InProgress .OCWSPhase1:
       - Fix the links (the \#MISSINGLINKS ones)
     Done .Bobi per TasksToBeSorted:
     Done .F2Yaml:
-    
-
   InProgress .Plan and prepare Twitch streaming first phase:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
     Note: Added to CurrentTask.csv
@@ -269,5 +239,180 @@ InProgress .OCWSPhase1:
               - Prepare for tomorrows possible meals
               - Mood Analysis            
         Bobi:
- 
+  InProgress .Big replanning after OCWSPhase1:
+    +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
+    Details:
+      - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
+      - Also, Hana needs to learn into it properly
+      - Goals are:
+        - We have KPIs set up and measured, such as:
+          - Velocity
+          - Hours spent/day
+          - Scope creep
+        - We have milestones estimated
+        - Tracking, evaluating and (re)planning done:
+          - Through events such as:
+            - Standups
+            - Retrospectives
+            - Plannings
+          - Based on the KPIs, corrective actions are taken (=we improve how we do things)
+        - Ideally:
+          - There are nice graphs (burndown, scope kreep, velocity/period, etc.)
+    TODO .Clean up and move the Tasks in the Workspace of this Task:
+      +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
+      Details:
+        - Move them AND leave a link (like above)
+        - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!
+      Result:
+        See at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$:
+        InProgress .Plan the next Milestones:
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+          Details:
+            - Candidates:
+              - Complete F2BarbaManagement.MVP:
+              - Complete The F2Tool.MVP:
+              - Complete OCWSPhase2:
+                  Details:
+                    Basically the things we wanted to finish originally (e.g. syntax, descriptions, support us, etc.)
+              - Streaming:
+          Done .Have a rough idea about the next milestones:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 132135, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 15, RemTime: 15}
+            Workspace:
+              - F2BarbaManagement.MVP + OCWSPhase2
+              - We plan both (collect tasks, estimate them)
+              - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
+          TODO .Work out the F2BarbaManagement.MVP milestone:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
+            Details:
+              - Collect features
+              - Write Requirements
+              - Taskify them
+              - Estimate them
+              - Choose the bugs (and estimate them)
+          TODO .Work out the OCWSPhase2 milestone:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
+            Details:
+              - Collect features
+              - We are Task based - so no requirements              
+              - Estimate them              
+          Blocked .Make final decision about the milestones we pursue:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}
+            DependsOn:
+              - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
+              - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
+        InProgress .Create schedules:
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+          Done .Create baseline:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124746, By: [Bobi,Hana], Tags: [CSVDONE]}
+            Result:            
+              daily routine:              
+                non project:
+                  - wake up; train; eat; cook; poop; taking of substances - coffee, etc.
+                health:
+                  - logs; analysis; research;
+                project:
+                  Include:
+                  - CSV update; report generation; analysis
+                  - streaming schedule
+                  - planning and standup
+                  - retro and preparation
+                  - non-recurring tasks
+              At least every day:
+              - Standup (and re-plan)
+              At least weekly:
+              - retro:
+                - as a result:
+                  - plan updated (along with the completion dates)
+                  - rules updated according to the experience
+              Candidates:
+                Hana:
+                  5:42:
+                    - wake up;
+                    - take L-Glutamine, L-citruline, Jasmine green tea
+                    - prepare for run
+                  6:00: run
+                  6:20: shower
+                  6:42: 
+                    - stream and perform tasks in: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
+                  8:00: 
+                    - breakfast prep
+                    - breakfast + coffee
+                    - self-care
+                    - AOIB (like Airbnb, etc.)                
+                  11:00:
+                    - finish daily admin OR any other project work
+                    - stream either together or separately
+                  12:00:
+                    - stream standup
+                  12:30:
+                    - food prep
+                  13:30:
+                    - lunch and cleaning
+                  14:30:
+                    - gym
+                  16:00:
+                    - free time OR project work
+                  17:30:
+                    - dinner
+                  18:30:
+                    - evening BRISK walk with Bobi
+                  19:00:
+                    - free time OR project work
+                  20:30:
+                    - run (1-2 km)
+                    - shower
+                    - evening Instagram/reading
+                  22:00:
+                    - sleep
+                Bobi:
+                  8:30: 
+                    - wake up; 
+                    - breakfast + coffee + p
+                    - shopping walk
+                    - AOIB (like Airbnb)
+                  11:00:
+                    - project work
+                  12:00:
+                    - standup
+                  12:30:
+                    - food prep
+                    - OR project work
+                  13:30:
+                    - lunch and cleaning
+                  14:30:
+                    - gym
+                  16:00:
+                    - free time OR project work
+                  17:30:
+                    - dinner
+                  18:30:
+                    - evening BRISK walk with Hana
+                  19:00:
+                    - free time OR project work
+                  22:00:
+                    - stream my project work
+                  00:00:
+                    - FREE time (I'll be gaming.)
+                    - sleep prep
+                  01:00: sleep
+          OnGoing .Fine tune daily schedule during the trial week:
+            +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124851, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 20}
+            Workspace:
+              - 20260428: Hana missed the morning, Bobi woke up a bit late but we'll still try to go with the original
+          Blocked .Create streaming schedule:
+            +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133106, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+            BlockedBy: we need some data about what we can _actually_ do - like a few days of keeping our schedules
+        Scheduled .Create marketing plan:
+          +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+          ScheduledAt: 20260505
+          Details:
+            - what streams we should be pursuing first
+            - when do we start communicating with the public in which streams; requirements for each
+            - see ideas at -->Tasks\PublicRelations\..AfterOCWSPhase1<          
+        Done .Create "daily administration" schedule for Hana:
+          +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
+          Result:
+            Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
+            
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

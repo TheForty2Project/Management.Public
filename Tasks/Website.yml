@@ -1504,7 +1504,7 @@ TODO .Improvements:
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
   TODO .Manually convert the urls in the NonDD pages to html links:
-    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - Repo is theforty2project.org, files are under content\Contact\, content\Watch, etc.
       - Remove the conversion of the file from the htmlconverter setting as well 

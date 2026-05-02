@@ -1,3 +1,66 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
-                      
+
+.Algorithm of discussions:  
+  +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}      
+  TODO .Decide:_ approach and details:    
+    +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+    Details:      
+      - Should it be just a flowchart?
+      - Include:
+          - what app could be created from it at this stage:
+            - Console, hot-seat?
+            - Console, networked?
+            - Web script in Typescript - no backend?
+            - Web script - with backend?
+            - What Items should be created from it?
+          - how detailed the flowchart should be, how many "advanced" steps
+          - test it on a few scenarios
+          - explanations about the steps - why it's this
+  NEXT .9Gag post:
+    +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144121, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+    Details:
+      Work into: -->Documents\PublicRelations\..9GagPostIdeas..AlgOfDiscussions<
+
+OnGoing .Collect ideas about 9gag posts:
+  Id: Collect9GagIdeas
+  +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144919, By: [Bobi, Hana], Tags: [CSVTODO]}
+  Details:
+    Put them into -->Documents\PublicRelations\..9GagPostIdeas<
+
+OnGoing .Posts about programming buddies:  
+  Id: ProgrammingBuddies
+  TODO .Decide:_ how should Hana start doing some programming?:    
+    +: {Id: DecideHanaProgramming, CreatedBy: Bobi, CreatedAt: 20260502 T 144553, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+    Details:
+      Pick topics, apps, etc. Do some brainstorming first - so what are the candidates, what language, how should she approach it (maybe sitting with me for a while?)
+  NEXT .Write the first post somewhere:    
+    +: {Id: FirstPost, CreatedBy: Bobi, CreatedAt: 20260502 T 144722, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+    Details:
+      Keep in mind that this is just first try:
+      Pick a place.:
+        - Reddit?
+        - Whereelse?
+      Consider:
+        - Primary goal is pair for Hana
+        - Secondary is to have pairs who can work on their own
+        - If there are more experienced programmers then they can be part of a pair who helps student-programmers or something
+  NEXT .Placeholder:_ Do further posts:
+    Id: Furtherposts
+
+OnGoing .Promote our F2BarbaManagement PM environment:
+  Id: PromoteBarbaMgmt
+  +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144829, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+  Details:
+    - We can already start posting about it somewhere (free, ligthweight but no-limits and full control method (unlike e.g. JIRA) for programmer (-minded) people)
+  TODO .Make first post:
+    +: {CreatedBy: Bobi, CreatedAt: 20260502 T 152452, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+    Id: FirstPost
+    
+
+TODO .Contact Jessica:
+  +: {CreatedBy: Bobi, CreatedAt: 20260502 T 134157, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+  Details:
+    - She's just an interesting person
+    - We're interested in the topic we originally did - of course
+          
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

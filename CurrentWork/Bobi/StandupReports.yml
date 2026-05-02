@@ -131,8 +131,8 @@ SR_20260429_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 3m, "", 20260429 T 144147 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Investigating deployment issues", 20260430 T 115000 ]
   Next:
-    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
     - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
+    
 
 SR_NEXT_Bobi:
 

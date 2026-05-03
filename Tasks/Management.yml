@@ -406,6 +406,19 @@ InProgress .OCWSPhase1:
           +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
           Result:
             Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
-            
-
+.Health:
+  .Schedules:
+    Done .Schedule exercises and include baba in the morning after waking up and evening before sleeping:
+      Details: 
+        - We can start preschedule for a week period
+        - Include goals what we want to acheive in a month, 3 month, 6 month
+    Done .Schedule body measurement:
+    TODO .Schedule Health Analysis (Live):
+      Details: 
+      - Better bidaily (morning before waking up and evening (sleep hygiene period)
+      - To be done for Hana, Robi ad Baba
+  .Tasks:
+    OnGoing .Analyse Health through Garmin data:
+    OnGoing .Specify exercises for each day and have it reviewed:
+    
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

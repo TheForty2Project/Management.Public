@@ -73,7 +73,7 @@ SR_20260428_Hana:
 
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
-SR_NEXT_Hana:
+SR_20260430_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260428 T 120038 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260428 T 120834 ]
@@ -88,3 +88,10 @@ SR_NEXT_Hana:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260428"<
     - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260428"<
     - -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
+SR_20260502_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 41m, "", 20260502 T 133911 ]
+    - -->Tasks\Management\..Health.."Schedule exercises and include baba in the morning after waking up and evening before sleeping"<: [ 0m, "", 20260502 T 141955 ]
+  Next:
+    
+    - -->Tasks\Management\.."OCWSPhase1".."Plan and prepare Twitch streaming first phase"<

@@ -414,8 +414,14 @@
       .Perform the following tasks:
         Details:
           - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<
-          - -->Tasks\Miscellaneous\.."Health".."Do health logging ~daily"<
-          - After each standup: update WorkHours.csv
+          - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
+    .DoWeeklyAdmin:
+      Details:
+        To be executed after each standup
+      .Perform the following tasks:
+        -->Tasks\Management\..General.."Standup related".."Process the Workhours.csv"<
+
+        
 
   .Technical:
     Type: Folder
@@ -709,3 +715,5 @@
           - each participant goes through the items they recorded, the team discusses it shortly if necessary, sm updates if necessary
           - sm updates the tasks, sets the status to done and records the time
           - sm: in case the tasks the team is planning to work on are not prepared properly - e.g. no estimation, wrong summary - then sm makes sure that this happens before actual work on them starts by executing the necessary steps (there should be a process for this as well).
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

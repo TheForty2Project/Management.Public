@@ -31,7 +31,7 @@ TODO .Schedule Agi Gift and letter:
   TODO .Buy the stickers for Agi:
   TODO .Buy the liquid chalks:
   TODO .Add beauty mask:
-  TODO .Add a joint for Tibi and Agi:
+  
   
 
 
@@ -47,13 +47,13 @@ TODO .20260429:
       Details:
         - follow up with Bobi
   #Management
-    - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1"<:
       Details:
         
-    - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:
       Details:
         - Can't find the file location
-    - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1"<:
       Details:
         - Go through planning file   
         - different date between Bobi and Hana - follow up
@@ -76,7 +76,7 @@ TODO .20260430:
         - Diagram of knowledge transfer
 
 TODO .20260502:
-  - -->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<
+  - -->Tasks\Management\.."Big replanning after OCWSPhase1"<
   - 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 

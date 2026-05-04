@@ -67,8 +67,8 @@ Bobi, 20260424,      10,"-->Tasks\Management\.."General management".."Task Admin
 Bobi, 20260424,      30, "-->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.25"<"
 Bobi, 20260425,      126, "-->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<"
 Bobi, 20260425,      2, "-->Tasks\Management\.."General management".."Task Administration"<"
-Bobi, 20260425,      116, "-->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:"
-Bobi, 20260425,      22, "-->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:"
+Bobi, 20260425,      116, "-->Tasks\Management\.."Big replanning after OCWSPhase1"<:"
+Bobi, 20260425,      22, "-->Tasks\Management\.."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:"
 
 
 
@@ -121,6 +121,6 @@ Hana, 20260422,      103,  "-->Tasks\Management\..""General management""..""Stan
 Hana, 20260425,       11,"-->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260425"<"
 Hana, 20260425,       17,"-->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv"<"
 Hana, 20260428,       8,"-->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<:"
-Hana, 20260428,       116,"-->Tasks\Management\.."OCWSPhase1".."Big replanning after OCWSPhase1"<:"
+Hana, 20260428,       116,"-->Tasks\Management\.."Big replanning after OCWSPhase1"<:"
 Hana, 20260429,       38,"-->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<:"
 Hana, 20260429,       18,"-->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260428"<:"

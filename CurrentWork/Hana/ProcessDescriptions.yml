@@ -1,0 +1,52 @@
++: {Type: Folder, DefaultTypes: [ProcessDescription, Folder]}
+
+DailyRoutine:
+  Steps:
+    .WakeUp:
+      At: 0700
+    .Supplements:
+      At: 0700
+      Duration: 5
+      Details:
+      - citruline
+      - bcaa
+      - creatine
+    .Dress + Bathroom:
+      At: 0705
+      Duration: 10
+    .Walk + Run + Shower + iron:
+      At: 0715
+      Duration: 40
+      Details: 
+        - by defalt:_ bridge circle
+        - take iron bisglycinate (+b complex + folate)
+    .PrepareBreakfast:
+      At: 0755
+      Duration: 30
+      Details:
+      - sweet: pancake
+      - salty: rice + egg + cooked veggies
+    .BreakfastAndClean:
+      At: 0825
+      Duration: 20
+      Details:
+        Take supplements as well:
+          - l-glutamine
+          - omega3
+    .LightChores:
+      At: 0845
+      Duration: 30
+      Details:
+        - Airbnb cleaning
+        - general cleaning stuff
+        - picking up parcels
+        - returning bottles
+        - Bubbles (going; pick-up can be Robi)
+    .StartWork:
+      At: 0915
+      Duration: 180
+      Details:
+        - with at least 1 break:
+          - light moving, stretching, etc.
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

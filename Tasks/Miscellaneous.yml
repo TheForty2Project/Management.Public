@@ -17,6 +17,7 @@ OnGoing .BusinessAnalysis:
   Id: BA
   Details:
     Business analysis related - e.g. requirement writing, discussions, etc.
+  
 
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:
@@ -45,10 +46,29 @@ OnGoing .Health:
             - sugar spike?
   Done .Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.:
     +: {CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [CSVDONE], Estimation: 60, RemTime: 0}
-  OnGoing .Do health logging ~daily:
+  OnGoing .Do health log and daily reviews:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [CSVDONE]}
-  
+    Details:
+      - analyse Health through Garmin data
+      - review exercise schedule
+      - stream it      
+  OnGoing .Do weekly health related planning:
+    +: {CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Details:
+      Perform the followings:
+        OnGoing .Schedule Health Analysis sessions(Live):
+          Details:
+            Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< 
+        TODO .Schedule exercises and include baba in the morning after waking up and evening before sleeping:
+          Details: 
+            - We can start preschedule for a week period
+            - Include goals what we want to acheive in a month, 3 month, 6 month
+        TODO .Schedule body measurement:
 
-
+  .Schedules:
+    TODO .Schedule Health Analysis (Live):
+      Details: 
+      - Better bidaily (morning before waking up and evening (sleep hygiene period)
+      - To be done for Hana, Robi ad Baba
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

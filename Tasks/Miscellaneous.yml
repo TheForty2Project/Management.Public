@@ -53,7 +53,7 @@ OnGoing .Health:
       - review exercise schedule
       - stream it      
   OnGoing .Do weekly health related planning:
-    +: {CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
     Details:
       Perform the followings:
         OnGoing .Schedule Health Analysis sessions(Live):

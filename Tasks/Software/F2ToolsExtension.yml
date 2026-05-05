@@ -151,9 +151,9 @@ Tasks:
     Done .Write initial readme.md:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
     Done .V2.0.25:
-      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVTODO], Estimation: "15", RemTime: "0"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V2.0.26:
-      +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVTODO], Estimation: "15", RemTime: "0"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
 
 Bugs:
 
@@ -597,7 +597,7 @@ Bugs:
       After pausing an active timer by the the "Start/Resume task" command, resuming it by doing it again does not resume the task but gives a "There's no active task" error message
             
   Fixed .The value of Id field is not taken into account if it's inside the additional properties part:
-    +: {CreatedBy: Bobi, CreatedAt: 20260429 T 012514, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 0}
+    +: {CreatedBy: Bobi, CreatedAt: 20260429 T 012514, By: Bobi, Tags: [CSVDONE], Estimation: 20, RemTime: 0}
     QA: Bobi
     Version: 2.0.25
     FixVersion: 

@@ -1,5 +1,21 @@
 +: {Type: Folder, DefaultTypes: [Article, Folder]}
 
+.Algorithm of discussions:  
+  +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Estimation: 180, RemTime: 180}      
+  TODO .Decide:_ approach and details:    
+    +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: [CSVDONE], Estimation: 120, RemTime: 120}
+    Details:      
+      - Should it be just a flowchart?
+      - Include:
+          - what app could be created from it at this stage:
+            - Console, hot-seat?
+            - Console, networked?
+            - Web script in Typescript - no backend?
+            - Web script - with backend?
+            - What Items should be created from it?
+          - how detailed the flowchart should be, how many "advanced" steps
+          - test it on a few scenarios
+          - explanations about the steps - why it's this
 .9GagPostIdeas:
   .Algorithm of discussions:
     Id: AlgOfDiscussions

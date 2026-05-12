@@ -2,7 +2,7 @@
 
 .Algorithm of discussions:  
   +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}      
-  TODO .Decide:_ approach and details:    
+  InProgress .Decide:_ approach and details:    
     +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
     Details:      
       - Should it be just a flowchart?

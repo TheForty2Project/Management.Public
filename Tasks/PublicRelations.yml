@@ -2,10 +2,10 @@
 
 -->Tasks\Archive\PublicRelations\<:
 
-InProgress .Initial brainstorming and analysis of marketing ideas:
+InProgress .Initial brainstorming and analysis of outreach ideas:
   +: {CreatedBy: Bobi, CreatedAt: 20251227 T 163547, By: [Bobi, Hana]}
   Details:
-    - List of marketing channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
+    - List of outreach channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
     - For each:
       - What would be the steps we'd need to do; if there are different cases - then for each case.:
           Example:
@@ -29,7 +29,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
   Done .Create first draft:
     +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170414, By: Hana, Estimation: "0", RemTime: "0"}
     Result:  
-      Marketing Ideas:
+      Outreach Ideas:
         5-VeryHigh Coding Streaming:
           Details: 
             Robert should be streaming 2 hours per day on F2Tool Development
@@ -56,7 +56,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - Programmers
             - Coders
           Goals:
-            - To market the main stream of marketing which is coding TF2P Tool
+            - To market the main stream of outreach which is coding TF2P Tool
           Done .Go through our past data about coding streaming task and check what are the new updates from Reddit and chat gpt:
         5-VeryHigh Management Streaming:
           Details: Hana should stream management daily at a certain time if possible
@@ -151,10 +151,10 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - Show people how much we love each other and how we are using logic to manage our life. 
             - Have income
           1-VeryLow Involving Jessica and boyfriend:
-            Details: Have some marketing ideas from Jessica, share the party and convert it to income
+            Details: Have some outreach ideas from Jessica, share the party and convert it to income
             Steps:
               - Have a discusion with Robi about it
-              - Prepare the marketing plans
+              - Prepare the outreach plans
               - Contact Jessica and share the plans with her
             Requirements:
             Goals:          
@@ -164,7 +164,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
           Requirements:
           Target Audience:
           Goals:
-        Videos and Audio marketing:
+        Videos and Audio outreach:
           Details: Collect the Audios and Videos for publishing
           Steps:
             .Audio:
@@ -202,14 +202,14 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
     Details:                  
       - Shamanth (the one who was interested in our podcast about logic)
       - The rest of the people we started collecting - where is it  
-Scheduled .Create marketing plan:
+Scheduled .Create outreach plan:
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   ScheduledAt: 20260505
   Details:
     - what streams we should be pursuing first:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of marketing ideas".."Create first draft".Result."Marketing Ideas"<
+        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
     - when do we start communicating with the public in which streams; requirements for each:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of marketing ideas".."Create first draft".Result."Marketing Ideas"<
+        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
     - End of OCSWSPhase 1:
         Requirements:
           - Website MVP DD
@@ -219,6 +219,8 @@ Scheduled .Create marketing plan:
       - creating a schedule for each stream in their respective platforms
       - start streaming at least 2x a week from each member
     - see ideas at -->Tasks\PublicRelations\<    
+  Workspace:
+
 
 .9Gag:
   OnGoing .Collect ideas about 9gag posts:
@@ -237,7 +239,10 @@ Scheduled .Create marketing plan:
         - Text
     NEXT .Review and finalize:
       +: {CreatedBy: Bobi, CreatedAt: 20260504 T 185735, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-
+  InProgress .Create at least three 9Gag post baselines:
+    +: {CreatedBy: Bobi, CreatedAt: 20260511 T 203700, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+    Workspace:
+      Ideas
 OnGoing .Posts about programming buddies:  
   Id: ProgrammingBuddies
   TODO .Decide:_ how should Hana start doing some programming?:    

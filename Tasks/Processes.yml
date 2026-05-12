@@ -229,7 +229,7 @@ Summary:
     +: { CreatedBy: Bobi, CreatedAt: 20250329T1838, By: [ Bobi, Shadow ], Responsible: Bobi }
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Infrastructure.."Basic"<
     Details: Create a process about it.
-.Marketing:
+.Outreach:
   TODO .Create a process about streaming the meetings:
     +: {CreatedBy: Bobi, CreatedAt: 20250908 T 114252, By: pms, Tags: [CSVDONE]}
     Milestone: BarbaPapa

@@ -5,11 +5,28 @@
     Id: AlgOfDiscussions
     Details:
 
-  .Poll about :
+  .Poll about Sacrifice:
     Id: PollAboutSacrifice
     Details:
-      If someone (out of 7 billion people) does x, it's heaven. If no one, it's hell. Doing x needs huge sacrifices and you don't get recognition, people will just say afterwards that "Doing x was not necessary, we'd have gotten heaven anyways - you think you're Jesus or what..." - would you do it if apparently no one is?
+      My (after ChatGPT hints) version:
 
-  
+        If one person (out of 7 billion) does x until an unknown deadline, it's heaven for all. 
+        If no one - hell.
+        
+        Doing x needs huge sacrifice and you might not even get recognition, people might just say afterwards that "we would've reached heaven anyway - you think you're Jesus or what...".
+        
+        Would you do it if apparently no one is?
+      Tags:
+        Future, Logic, Human Nature        
+      Title:
+        Would you?
+      Poll options:        
+        Would. (I'd also get heaven and who cares about the opinion of people...)
+        I'd first try to persuade everyone - but then do it in the end, hoping that others get at least less heaven.
+        1 out of 7 billion... some idiot would surely do it.
+        Heaven is a myth. The world is a toilet bowl.
+      Comment:
+
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

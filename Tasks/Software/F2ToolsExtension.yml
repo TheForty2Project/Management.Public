@@ -300,7 +300,7 @@ Bugs:
     Area: CSV
     Details:
       The link I tried: |
-        "-->Backlog\Backlog\..PublicRelations..Marketing..""Collect Marketing Ideas""."".Written Marketing""..""Write thoughts on X""..""Definition of Fair""<"
+        "-->Backlog\Backlog\..PublicRelations..Outreach..""Collect Outreach ideas""."".Written Outreach""..""Write thoughts on X""..""Definition of Fair""<"
 
   Fixed .CSV link following works with the "wrong" IDLink format only:
     QA: Bobi

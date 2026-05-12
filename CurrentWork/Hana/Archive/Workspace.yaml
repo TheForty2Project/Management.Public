@@ -157,7 +157,7 @@ Health:
 
 
 
-  Draft -->-->Backlog\\Backlog..PublicRelations..""Collect Marketing Ideas"".Details<<:
+  Draft -->-->Backlog\\Backlog..PublicRelations..""Collect Outreach ideas"".Details<<:
     Draft  Inclusion of Live and recorded meetings:
       Summary:
         Reasons:
@@ -521,7 +521,7 @@ TODO . Migrate tasks:
   - -->Backlog\Backlog\..Management.."Migration of  Next Tasks to Backlog"<:
     - Create tasks from Bobi public workspace:
       Done .Articles/tweet content:
-        - -->Backlog\Backlog\..PublicRelations.."Collect Marketing Ideas".."Marketing strategy".."Write thoughts on X".."Definition of Fair"<  
+        - -->Backlog\Backlog\..PublicRelations.."Collect Outreach ideas".."Marketing strategy".."Write thoughts on X".."Definition of Fair"<  
       Reqruitment:
         InProgress .Create Recruitment group under Public workspace:
           Details: -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations.."Recruitment Phase 1"<
@@ -540,18 +540,18 @@ TODO . Migrate tasks:
         Done .Go through the existing material (articles, etc.) and share it with the current team:
           By: Bobi
         Done .Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people:
-          - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".InPerson Marketing".."Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people"<
+          - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".InPerson Marketing".."Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people"<
         Done .Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube:
           By: Marketing
           Details: People might have the understanding that the project is not a regular work place, grasping the idea of the project workplace
             - StandUp reports
             - Article discussion
             - Focusmate
-            - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Visual Marketing".."Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube"<
+            - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Visual Marketing".."Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube"<
         Done .Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb:
-          - -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Visual Marketing".."Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb"<
+          - -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Visual Marketing".."Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb"<
         Done .At least weekly updates - what happened with the project:
-          -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Written Marketing".." Write on LinkedIn the project updates"<
+          -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Written Marketing".." Write on LinkedIn the project updates"<
         TODO .search for other potential platforms:
           Id: Csharpplatforms
           +: {CreatedBy: Hana, CreatedAt: 20250730 T 202702, By: Hana}
@@ -2237,7 +2237,7 @@ InProgress Phase 1 Marketing:
     - -->Backlog\Backlog\..Management.."Migration of  Next Tasks to Backlog"<:
       - Create tasks from Bobi public workspace:
         Done .Articles/tweet content:
-          - -->Backlog\Backlog\..PublicRelations.."Collect Marketing Ideas".."Marketing strategy".."Write thoughts on X".."Definition of Fair"<  
+          - -->Backlog\Backlog\..PublicRelations.."Collect Outreach ideas".."Marketing strategy".."Write thoughts on X".."Definition of Fair"<  
         Reqruitment:
           InProgress .Create Recruitment group under Public workspace:
             Details: -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations.."Recruitment Phase 1"<
@@ -2256,18 +2256,18 @@ InProgress Phase 1 Marketing:
           Done .Go through the existing material (articles, etc.) and share it with the current team:
             By: Bobi
           Done .Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people:
-            - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".InPerson Marketing".."Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people"<
+            - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".InPerson Marketing".."Attend MeetUp or events in Budapest and nearby; we can join meetups and talk to people"<
           Done .Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube:
             By: Marketing
             Details: People might have the understanding that the project is not a regular work place, grasping the idea of the project workplace
               - StandUp reports
               - Article discussion
               - Focusmate
-              - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Visual Marketing".."Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube"<
+              - -->c:\!TF2P\Management\Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Visual Marketing".."Take videos of meetings; advertise the clips to different platform; linkedIn, X, Youtube"<
           Done .Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb:
-            - -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Visual Marketing".."Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb"<
+            - -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Visual Marketing".."Clips of us for people to grasp who we are in Reels and stories in different platform; insta, threads, fb"<
           Done .At least weekly updates - what happened with the project:
-            -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Marketing Ideas".".Written Marketing".." Write on LinkedIn the project updates"<
+            -->Backlog\Backlog\..PublicRelations..Marketing.."Collect Outreach ideas".".Written Marketing".." Write on LinkedIn the project updates"<
           TODO .search for other potential platforms:
             Id: Csharpplatforms
             +: {CreatedBy: Hana, CreatedAt: 20250730 T 202702, By: Hana}
@@ -3244,7 +3244,7 @@ Hana TODOs Projemxt Management:
           - Add the Love and Sex video to Onlyfans
       - Patreon: 
         - Could be both The work and Entertainment Videos
-Draft -->-->Backlog\\Backlog..PublicRelations..""Collect Marketing Ideas"".Details<<:
+Draft -->-->Backlog\\Backlog..PublicRelations..""Collect Outreach ideas"".Details<<:
     Draft  Inclusion of Live and recorded meetings:
       Summary:
         Reasons:

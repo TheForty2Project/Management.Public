@@ -132,8 +132,12 @@ SR_20260429_Bobi:
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Investigating deployment issues", 20260430 T 115000 ]
   Next:
     - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
-    
 
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration"<: [120m, "Big cleanups, task and process creation", 20260504 T 133000]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 120m, "Big cleanups, task and process creation", 20260504 T 133000 ]
+    - -->Tasks\PublicRelations\..9Gag.."Post the Poll about Sacrifice"<: [ 120m, "", 20260511 T 204242 ]
+    - -->Tasks\PublicRelations\.."Create outreach plan"<: [ 83m, "", 20260512 T 145446 ]
+    - -->Tasks\PublicRelations\.."Create outreach plan".."Analyize Twitch viewer count"<: [ 31m, "", 20260512 T 211229 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."Automatic generation of CSV reports"<: [ 84m, "", 20260513 T 010042 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 18m, "", 20260513 T 004242 ]

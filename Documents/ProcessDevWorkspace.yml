@@ -67,4 +67,4 @@ Process development meeting at 2025-08-19 notes:
           - ELSE IF any is Blocked, some are TODO: TODO
           - ELSE IF all are Done, Cancelled, Closed: Done
           - ELSE IF all are Cancelled or Closed: Cancelled or Closed, depending on whether the Cancelled or the Closed tasks were more significant
-  - Marketing process:
+  - Outreach process:

@@ -128,7 +128,7 @@ Done .Initial Website:
         ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary of Project in a sentence roughly"<
         Done .Provide baseline:
           Result:
-            Basically: $@-->PublicRelations/MarketingMaterial..OneSentenceDescription<@$
+            Basically: $@-->PublicRelations/OutreachMaterial..OneSentenceDescription<@$
             Which is at the time of writing (20250405T1844): "We're a community welcoming everyone in the end, aimed to cooperate in the most optimal, 21st century way: using computers for increasing the decision-making performance (quality and speed) by distributing the decision-computation tasks in between members and computers, with the goal of full automation, finally getting away from the (ancient) hierarchical managements where human minds are computing them.
 
               We're starting small, iteratively optimising our cooperation abilities, aiming to switch Earth on."
@@ -331,7 +331,7 @@ Done .Phase1:
             - Which areas would you like to contribute to? (select all that apply):
               - List should be:
                 - SW dev
-                - Marketing/Content creation
+                - Outreach/Content creation
                 - Project management
                 - Documentation            
                 - QA
@@ -533,9 +533,9 @@ InProgress .Back to original:
                     - Stream: 
                         Details:
                           Support streaming - so we reference the content there                                                
-                    - Marketing:
+                    - Outreach:
                         Details:
-                          Support marketing - so we can reference content on the site
+                          Support outreach - so we can reference content on the site
                     - EasyPublish:
                         Details:                            
                     - Showcase: Showcase what we do and that we're doing it
@@ -1403,7 +1403,7 @@ TODO .Improvements:
             The fisrst stage: we thought that people had the same idea 
             The second stage: 
               - Article development ( we realized we have more knowledge about it than others ) 
-              - Little marketing Team
+              - Little outreach Team
               - Site was focused on these people who can just understand it from an article
               - Who hardly want to read and understand how the system will work
             Summary:
@@ -1415,8 +1415,8 @@ TODO .Improvements:
               - Advance help is sending us yamls and create a bug reports
               - in contribution section askes us first how to do the things 
           Strategy:
-            - in this current stage (3rd stage): trying to fine tune our things, gather enough audience, performing marketing activities.
-            - Marketing learn:  
+            - in this current stage (3rd stage): trying to fine tune our things, gather enough audience, performing outreach activities.
+            - Outreach learn:  
               - we improve the site up until we have contributers (people who are interested)
               - After the above, we will be developing the processes about how 
               - Summary: contributers will wait a bit -> developining the processes -> more contributers -> high priority in process development ( obviously will prioritise hese people who helps us more and provide them one to one process )
@@ -1435,7 +1435,7 @@ TODO .Improvements:
               title: "Explanation"
               description: 
                 We focused on explaining the system through articles and built a small
-                marketing effort around it.
+                outreach effort around it.
               insights:
                 - "Even strong explanations are not enough"
                 - "Understanding requires more than reading"
@@ -1487,7 +1487,7 @@ TODO .Improvements:
               - "Build a demonstrable system, not just content"
               - "Use the product as the main communication tool"
               - "Attract contributors through interaction"
-          marketing:
+          outreach:
             reality:
               - "Contributors do not come from theory"
               - "They come from clarity, proof, and interaction"

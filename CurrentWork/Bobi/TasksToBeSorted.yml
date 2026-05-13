@@ -1,6 +1,107 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
--->Documents\PublicRelations\.."Algorithm of discussions"<:
+.Algorithm of discussions:  
+  +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}      
+  InProgress .Decide:_ approach and details:    
+    +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+    Details:      
+      - Should it be just a flowchart?
+      - Include:
+          - what app could be created from it at this stage:
+            - Console, hot-seat?
+            - Console, networked?
+            - Web script in Typescript - no backend?
+            - Web script - with backend?
+            - What Items should be created from it?
+          - how detailed the flowchart should be, how many "advanced" steps
+          - test it on a few scenarios
+          - explanations about the steps - why it's this
+    Workspace:
+      Define "logical": 
+        short definition:
+          correctly computed
+        longer definition:
+          a statement
+        definition2:
+          IF:
+            - There's a system which changes its states according to its rules (e.g. our universe, a Turing machine, an):
+                i.e.: 
+                  there's a:
+                  - Turing machine
+                  - universe
+                  - electronic computer, vending machine, 
+          THEN:
+            - 
+
+            - 
+          #       e.g.:
+          #         IF:
+          #           - there's a thing we call "computer" which keeps executing 
+          #           - its current state is: 
+          #             - A = 0
+          #             - B = true 
+          #           - rules are:
+          #             - IF: B == true 
+          #               THEN: A = A + 1
+          #             - IF: A == 42
+          #               THEN: B = false
+          #           - it keeps executing the rules, one by one, forever, in a way that if the condition in the "IF" part is true, it does the changes to its states in a way how it's specified in the "THEN" part
+          #         THEN:
+          #           this system would keep incrementing "A" until it reaches 42 and - while it's still "running", i.e. executing its rules - it'd stop changing its states.
+          #   - 
+          # THEN:
+
+        Notes: 
+          - I.e. you represent the world as states ("the stove is hot") and rules (IF "the stove is hot" THEN "it would hurt to touch the stove")
+          - a statement being logical does not - necessarily - mean that it's true (on the current universe), only that IF the starting states and rules are true (on the current universe) then the statement is true.
+          - in practice we always work with probabilities
+      Algorithm of discussion:
+        - Definition: What rules should 2 people keep when there's a disagreement in whether a statement one of them proposed is true or false (according to the information they both have).
+        - Notes: 
+          - This is NOT the probabilistic case - i.e. the statement can be either true or false, not just e.g. "most likely":
+              - likelihood can be introduced to the proof
+        - class Statement:
+            IdString Id:
+            string Text:
+            User MadeBy:
+            StatementValidity Validity:
+              Summary:
+                Its value is computed according to:
+                - IF (AgreedByPlayers.All(IsTrue)): StatementValidity.True
+                - ELSE IF (Proofs.Any(IsValid)): StatementValidity.True
+                - ELSE IF (CounterProofs.Any(IsValid)): StatementValidity.False
+                - ELSE: StatementValidity.NotKnown
+            Map<User, bool> AgreedByPlayers:
+            Proof[] Proofs:
+            Proof[] CounterProofs:
+          class Proof:
+            string Text:
+            User MadeBy:
+            Map<User, bool> AgreedByPlayers:
+            Rule RuleUsed:
+            Statement[] RuleParts:
+          class Rule:
+            string Text:
+          enum StatementValidity:
+            True:
+            False:
+            NotKnown:
+        - Rules:
+            Provided:
+              User P1:
+              User P2:
+              Statement statement: P1.
+            Rules:
+              - WHEN:
+                  statement.StatementValidity == StatementValidity.NotKnown && statement.MadeBy == user1
+                ACTION OPTIONS:
+                  - user2.AskForClarification(statement);
+                  - user2.Accept(statement);
+                  - user2.AskForProof(statement);
+                  - user2.ProvideCounterProof(statement);
+              - WHEN:
+                    
+
 
 
 

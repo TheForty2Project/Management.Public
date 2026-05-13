@@ -1,6 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
-.Marketing ideas:
+.Outreach ideas:
   Id: Marketingideas
   +: { CreatedBy: Hana, CreatedAt: 20250803 T 125325, By: All }
   Workspace:
@@ -845,7 +845,7 @@
   Done .Organize Girls night:
     +: { CreatedBy: Hana, CreatedAt: 20250728 T 083701, By: [ Giselle, Hana ] }
     Details: getting to know how young women think
-.Collect Marketing Ideas:
+.Collect Outreach ideas:
   Id: CollectMarketingIdeas
   ForRequirement:
   Details: Write it to $@-->Backlog\PublicRelations\..MarketingPhase1..Marketingideas<@$
@@ -881,20 +881,20 @@
           - roughly how much effort they'd need
           - do they need Bobi's contribution
     Blocked .Review:
-      DependsOn: -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Create baseline"<
+      DependsOn: -->Tasks\PublicRelations\.."Collect Outreach ideas".."Work out and execute marketing strategy".."Create baseline"<
       +: {CreatedBy: Bobi, CreatedAt: 20250905 T 161853, By: all, Tags: [CSVTODO], Priority: 4-High}
       Details:
         - involving the whole team
     Blocked .Taskify and prioritize:
       +: {CreatedBy: Bobi, CreatedAt: 20250905 T 161926, By: pms, Tags: [CSVTODO], Priority: 4-High}
-      DependsOn: -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Review"<
+      DependsOn: -->Tasks\PublicRelations\.."Collect Outreach ideas".."Work out and execute marketing strategy".."Review"<
     Blocked .Execute:
       +: {CreatedBy: Bobi, CreatedAt: 20250908 T 154756, By: marketing, Tags: [CSVTODO]}
-      DependsOn: -->Tasks\PublicRelations\.."Collect Marketing Ideas".."Work out and execute marketing strategy".."Taskify and prioritize"<
+      DependsOn: -->Tasks\PublicRelations\.."Collect Outreach ideas".."Work out and execute marketing strategy".."Taskify and prioritize"<
   Done .Create marketing execution plan as of 20250819:
     +: {CreatedBy: Bobi, CreatedAt: 20250819 T 174151, By: marketing, Tags: [CSVTODO], Priority: 3-Average}    
     Result: -->Tasks\PublicRelations\.."Marketing plan as of 20250819"<       
-  Done .Giselle Marketing Ideas:
+  Done .Giselle Outreach ideas:
     Id: GMarketingIdeas
     +: {CreatedBy: Hana, CreatedAt: 20250804 T 234750, By: Gigi, Tags: [CSVDone]}              
   OnHold .Material for the 2nd reviewers:

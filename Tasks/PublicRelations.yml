@@ -2,10 +2,10 @@
 
 -->Tasks\Archive\PublicRelations\<:
 
-InProgress .Initial brainstorming and analysis of marketing ideas:
+InProgress .Initial brainstorming and analysis of outreach ideas:
   +: {CreatedBy: Bobi, CreatedAt: 20251227 T 163547, By: [Bobi, Hana]}
   Details:
-    - List of marketing channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
+    - List of outreach channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
     - For each:
       - What would be the steps we'd need to do; if there are different cases - then for each case.:
           Example:
@@ -29,7 +29,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
   Done .Create first draft:
     +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170414, By: Hana, Estimation: "0", RemTime: "0"}
     Result:  
-      Marketing Ideas:
+      Outreach Ideas:
         5-VeryHigh Coding Streaming:
           Details: 
             Robert should be streaming 2 hours per day on F2Tool Development
@@ -56,7 +56,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - Programmers
             - Coders
           Goals:
-            - To market the main stream of marketing which is coding TF2P Tool
+            - To market the main stream of outreach which is coding TF2P Tool
           Done .Go through our past data about coding streaming task and check what are the new updates from Reddit and chat gpt:
         5-VeryHigh Management Streaming:
           Details: Hana should stream management daily at a certain time if possible
@@ -75,7 +75,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - To show how TF2P project is managed 
             - To attract programmers and managers
         5-VeryHigh Reddit:
-          Details: Can be an important source for articles and discussions
+          Details: Can be an important source of feedback to the articles and discussions
           Steps: 
             - Collect the topics/ questions that we need to share 
             - Find communities that we can ask or share articles with 
@@ -120,11 +120,22 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - People with similar music taste can be target audiences
             - Through comments on Youtube, maybe soundcloud
           Steps:
-            - Need to research more about it
+            Soundcloud:
+              Share the music I'm listening to on my "wall" so that:
+                - we get more followers
+                - we can engage with them
           Requirements:
           Target Audience:
-            - Same music listener
+            - Similar minded people 
           Goals:
+            - Find similar minded people
+        4-High Promote the F2Tools extension as a management tool:
+          Details:
+            - maybe on Reddit subreddits
+          Steps:
+            - find avenues we can promote this
+            - post about it
+        4-High Comment on 9gag interesting topics:        
         3-Average Talks about Drugs:
           Details: mention how drugs affect our daily life in work, personal and health
           Steps:
@@ -151,10 +162,10 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
             - Show people how much we love each other and how we are using logic to manage our life. 
             - Have income
           1-VeryLow Involving Jessica and boyfriend:
-            Details: Have some marketing ideas from Jessica, share the party and convert it to income
+            Details: Have some outreach ideas from Jessica, share the party and convert it to income
             Steps:
               - Have a discusion with Robi about it
-              - Prepare the marketing plans
+              - Prepare the outreach plans
               - Contact Jessica and share the plans with her
             Requirements:
             Goals:          
@@ -164,7 +175,7 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
           Requirements:
           Target Audience:
           Goals:
-        Videos and Audio marketing:
+        Videos and Audio outreach:
           Details: Collect the Audios and Videos for publishing
           Steps:
             .Audio:
@@ -199,17 +210,17 @@ InProgress .Initial brainstorming and analysis of marketing ideas:
       - Main target audience is programmers
   TODO .Collect people for the Contact Certain People topic:
     +: {CreatedBy: Bobi, CreatedAt: 20251229 T 221959, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-    Details:                  
+    Workspace:
       - Shamanth (the one who was interested in our podcast about logic)
       - The rest of the people we started collecting - where is it  
-Scheduled .Create marketing plan:
-  +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
-  ScheduledAt: 20260505
+      - The guy with the "no management layer in my company"
+Done .Create outreach plan:
+  +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVTODO]}  
   Details:
     - what streams we should be pursuing first:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of marketing ideas".."Create first draft".Result."Marketing Ideas"<
+        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
     - when do we start communicating with the public in which streams; requirements for each:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of marketing ideas".."Create first draft".Result."Marketing Ideas"<
+        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
     - End of OCSWSPhase 1:
         Requirements:
           - Website MVP DD
@@ -219,6 +230,70 @@ Scheduled .Create marketing plan:
       - creating a schedule for each stream in their respective platforms
       - start streaming at least 2x a week from each member
     - see ideas at -->Tasks\PublicRelations\<    
+  Done .Analyize Twitch viewer count:
+    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145508, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+    Result:
+      Analysis:
+      - 5 streaming in total
+      - most viewers were during the lunch stream:
+          Topic: lunch
+          Time: 2pm
+          Length: 57m
+          Unique: 16
+          Notes:
+            few ppl stayed
+            70% were from US
+      - second most was during the night - we were working:
+          Topic: work
+          Time: 7pm
+          Length: 90m
+          Unique: 7
+          Notes:
+            some ppl stayed
+      Therefore:
+        - we should stream during the afternoon/night
+        - Bobi should fucking start streaming:
+          - so that we have data:
+            - what topics are interesting
+            - do boobs matter - and how much?
+        - we should have a schedule!!!!!!!!!!  
+  Result:
+    - streaming seems worth pursuing:
+        topics:
+          administration/management:
+          development:
+            coding:
+              The F2Tool
+              F2Tools extension          
+            website dev:
+          exploration of marketing ideas:
+          health:
+          leisure:
+            - cooking + eating
+            - hiking (need gimbal)
+    - we should be exploring the outreach ideas one by one:
+          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."5-VeryHigh Reddit"<:
+            - find subreddits into which we can paste articles/questions
+            - pick articles we want to post there
+            - one of them can be that question we posted on 9gag
+          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Contact certain people"<:
+            - collect and have ideas about how to contact them with what message, goals, etc.
+          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
+            - plan the next steps
+            - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
+          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Music listener of the same taste of music"<:
+            - whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
+          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
+            - find avenues where we can
+            - collect the requirements - so when exactly we should be doing it?
+          -->Tasks\PublicRelations\..ProgrammingBuddies<:
+            - IF Hana runs out of work - i.e. has time for programming
+            - we need the tasks to be worked out properly (mostly by Bobi):
+                Hana can shadow me though
+            - takes time to ramp this up        
+    - at the moment this is a "trial" stage:
+      - outreach: we try things - which one works more, which one less - and then do an analysis
+      - site + products we have: we stabilize them and make them ready for people to see
 
 .9Gag:
   OnGoing .Collect ideas about 9gag posts:
@@ -237,6 +312,21 @@ Scheduled .Create marketing plan:
         - Text
     NEXT .Review and finalize:
       +: {CreatedBy: Bobi, CreatedAt: 20260504 T 185735, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+  Done .Post the Poll about Sacrifice:
+    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 144958, By: Bobi}
+    Done .Create and post:
+      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145026, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 0}
+      Result:
+        https://9gag.com/gag/a6Z0MdL
+    Done .Analyse:
+      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145050, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+      Result:
+        - The post got removed; no clear reason - fuckthem.
+        - Interesting comments and likes
+        - 4 upvotes total
+        - one username is interesting (upvoted): fortytwofuture
+  TODO .Create at least three 9Gag post baselines:
+    +: {CreatedBy: Bobi, CreatedAt: 20260511 T 203700, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
 
 OnGoing .Posts about programming buddies:  
   Id: ProgrammingBuddies

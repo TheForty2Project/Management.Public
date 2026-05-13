@@ -89,7 +89,7 @@ namespace System.Types:
       Comment[] Comments:
         Summary:
           - a "chat" thread - up until we have some chat functionality.
-          - about the format: see the notes on the Comment type
+          - about the format: see the notes on the Comment class 
       IdString[] Tags:
         Summary: a set of one-word tags - e.g. we use "CSVTODO" currently, signaling it should be added to the CSV file.      
     Notes: 

@@ -4,7 +4,7 @@ Tasks:
   Closed .Create the F2ToolsExtension:
     By: Gaurav
     Estimation: 15m                    
-    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"<
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Minimal Base"<
     Details:
       - Create the extension as specified in the Requirement
       - Place the code under the TheTool repository into the (newly created) F2Tool.F2ToolsExtension folder
@@ -14,7 +14,7 @@ Tasks:
       - 1h: PAR time
       - 12h: normal time
     DependsOn: -->Tasks\Software\F2ToolsExtension\.Tasks.."Create the F2ToolsExtension"<
-    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Extract F2Yaml Link in F2ToolsExtension"<
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Extract F2Yaml Link in F2ToolsExtension"<
     Details:
       - Add the functionality as specified in the Requirement
     WorkLog:
@@ -25,7 +25,7 @@ Tasks:
   Cancelled .Create Extension with snippets:
     By: Gaurav
     Estimation: 2hrs
-    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Code Completion".."Minimal Snippet Based Item Creation"<
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Code Completion".."Minimal Snippet Based Item Creation"<
     Requirements:
       - There should be an Extension created that has all the snippets loaded according to the Barba.Types.
     Workflow:
@@ -56,10 +56,10 @@ Tasks:
       - 4h: Gaurav's estimation
       - 6h: Bobi's estimation
     ForRequirement: 
-      -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic<
+      -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<
   Closed Basic:
     Id: Basic
-    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav, Responsible: Gaurav } 
+    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav, Responsible: Gaurav } 
     WorkLog:
       - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
       - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
@@ -71,7 +71,7 @@ Tasks:
       - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
     InProgress .WorkLog generation:
       Id: WorklogCreation
-      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
+      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
       WorkLog:
         - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
         - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
@@ -105,7 +105,7 @@ Tasks:
     Details: When issuing the "Select Task" command, the extension should detect if the user's text cursor is over a Task or not; if not, an error popup should be displayed.
   Closed .Create the CSV Entry Generation functionality:
     +: { CreatedBy: Bobi, CreatedAt: 20250519 T 230218, By: Gaurav }
-    ForRequirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."CSV Task List Tools".."CSV Entry generation"<
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."CSV Task List Tools".."CSV Entry generation"<
     Comments:
       - bobi: message me pls if there are questions even if I don't seem to be at the computer, I'll try to answer
   InProgress .Create a stop task command feature that is executed when VS Code is shutting down:    
@@ -128,13 +128,13 @@ Tasks:
           - should in general understand ID based (and mixed - so one part Id, other part Summary) based links as well            
         - the CSV line generator should put those values in quotes which contain characters which are not allowed (which I think are only the doublequote and the comma, right?) (and which do not, not)   
     Done .Prioritize andor consolidate the Bugfixes after Requirement consolidation:    
-  InProgress .Wrap up the first phase of VSIX development:
+  Done .Wrap up the first phase of VSIX development:
     +: {CreatedBy: Hana, CreatedAt: 20250827 T 133402, By: Bobi, Priority: 5-veryhigh}
-    InProgress .Test:
+    Done .Test:
       +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
-    InProgress .Cleaning up the remaining Bugs in VSIX:
+    Done .Cleaning up the remaining Bugs in VSIX:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
-    TODO .Update readme:
+    Done .Update readme:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
     TODO .Create License for VSIX:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
@@ -143,6 +143,13 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
       Comments:
         - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
+    TODO .Automatic generation of CSV reports:
+      +: {Id: AutoCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..AutoCSV<
+      Notes:
+        - 
+
+        
   OnGoing .Publication to marketplace:
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
@@ -179,7 +186,7 @@ Bugs:
     ExpectedResult:
       - The name is "tf2p.org"
     Notes:
-      - Requirement: -->Documents\Requirements\F2ToolsExtension\..F2ToolsExtension.."Minimal Base"< 
+      - Requirement: -->Documents\Requirements\F2ToolsExtension\.."Minimal Base"< 
       - (.) can be added only for registered publisher:
           - Create an account (for review)
     WorkLog:
@@ -258,9 +265,9 @@ Bugs:
     Area: CSV
     Details:
       error message \"Cannot read the properties of undefined (reading:_ 'items')" is thrown for:
-        TODO .Go through the existing material (articles, etc.) and share it with the current team:
+        InProgress .Go through the existing material (articles, etc.) and share it with the current team:
           +: { CreatedBy: Hana, CreatedAt: 20250727 T 160745, By: [ Bobi, Hana ] }
-          TODO .Organize the video recordings in one file in GoogleDrive:
+          InProgress .Organize the video recordings in one file in GoogleDrive:
 
 
   Fixed .CSV Line generation not working - "unable to find the Item"h:
@@ -270,7 +277,7 @@ Bugs:
     Area: CSV
     Details:
       we get \"Unable to find the Item" errror if this is the outmost element for example:
-        EstTODO .MVPLeftAsOf20241113:
+        InProgress .MVPLeftAsOf20241113:
       Notes: I cant generate CSV for this
 
   Fixed .CSV Line generation not working - "taskObj.value.items is not iterable":
@@ -282,7 +289,7 @@ Bugs:
       - Example:
           - If the file content is this, it happens:
               .Yeeah:
-                TODO .Dilitme:
+                InProgress .Dilitme:
           - Notes: I cant generate CSN for this
 
   Fixed .Generate ID Link creates link with one dot where there should be 2:
@@ -333,7 +340,7 @@ Bugs:
             - Example:
               - If the file content is this, it happens: |
                   .Yeeah:
-                    TODO .Dilitme:
+                    InProgress .Dilitme:
 
   Fixed .CSV Line generation not working - when there is no character after last double qoutes:
     QA: Hana
@@ -352,7 +359,7 @@ Bugs:
     Details:
       - put the following into an empty file (First row first column):
           OnGoing .Website:
-            TODO .SomeTask:
+            InProgress .SomeTask:
       - Generating CSV from .SomeTask gives "Cannot read properties of undefined (reading 'items')"
       - Generating CSV from .Website gives the "cannot find Item" error
 
@@ -391,7 +398,7 @@ Bugs:
     Area: CSV
     Details:
       Example Item:
-        TODO .Alma:
+        InProgress .Alma:
           +: { CreatedBy: Bobi, CreatedAt: 20250805 T 111801, By: [ Bobi, FireWood ] }
       Error message: Cannot read properties of undefined (reading 'trim')
       #- I can't generate CSV with the above

@@ -17,7 +17,87 @@ OnGoing .BusinessAnalysis:
   Id: BA
   Details:
     Business analysis related - e.g. requirement writing, discussions, etc.
-  
+  .F2ToolsExtension:
+    Id: F2Tools
+    InProgress .Automatic generation of CSV reports:
+      Id: AutoCSV
+      +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+      Details:
+        Work into: -->Documents\Requirements\F2ToolsExtension\..Phase2..AutoCSV<
+        Concept:
+          A Query Item describes the report:
+            class QueryDescription:
+              Inherits: StandardItem            
+              Properties:
+                string[] Select:
+                  Summary: 
+                    - the properties to include in the report and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
+                    - same as the "SELECT" part of an SQL query
+                    - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+                    - Special properties:
+                        EMPTY: an empty value
+                        IDLINK: the Id based F2Link pointing to the Item
+                        SUMMARYLINK: the Summary based F2Link pointing to the Item
+                WherePartOfQuery Where:
+                string OutputFile:
+                  Summary: 
+                    - the output file path (partial file system path, from the root of the workspace)
+                    - both the characters "\" and "/" are accepted as separators
+                    - such as: Reports\CurrentTasks.csv
+                char CommentChar:
+                  Summary: 
+                    - the character prefix to use in front of comments
+                    - set to "#" by default (i.e. if this property is not present)
+                bool IncludeHeader:
+                  Summary:
+                    - if set to true, the first line of the CSV will be a comment:
+                      - containing the link pointing to the Query description
+                      - and the generation time
+                    - set to true by default (i.e. if this property is not present)
+            class WherePartOfQuery:
+              BelongsTo: QueryDescription
+              Inherits: Item
+              Properties:
+                string[] TaggedBy:
+                  Summary: 
+                    - include only those Items which are tagged by one of the tags
+                    - such as: [CSV]
+                string[] ItemType: 
+                  Summary: 
+                    - include only those Items which are one of the specified types
+                    - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be included)
+                    - such as: [Task, Bug]
+                string[] OnlyUnder:
+                  Summary:
+                    - include only those Items which are under the specified path (file or Item); recursive.
+                    - such as: [-->Tasks\<, -->Tasks\Software\F2ToolsExtension\..Phase2< ]
+                string[] SkipUnder:
+                  Summary:
+                    - skip those Items which are under the specified path (file or Item); recursive.
+                    - note that this takes precedence over OnlyUnder, i.e. the Items under these paths will be skipped even if their path is included in OnlyUnder
+                    - such as: [-->Tasks\Archive\<]
+            such as:
+              CurrentTasks:
+                Type: QueryDescription
+                Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+                Where:
+                  TaggedBy: [CSV]
+                  ItemType: [Task, Bug]
+                  OnlyUnder: [-->Tasks\<]
+                  SkipUnder: [-->Tasks\Archive\<]
+                OutputFile: Reports\CurrentTasks.csv
+                CommentChar: "#"
+          Actions:            
+            Generate: 
+              Summary: if the cursor is on a Query, generates the CSV report according to it
+              Details:
+                - if the file exists, overwrites the content
+            Refresh:
+              Summary: if the cursor is on a Query, updates the CSV report according to it
+              Details:
+                - keeps any data already present in "EMPTY" columns 
+            WriteBack:
+              Summary: if the cursor is on a Query, writes the changes FROM the csv to the Items IF the lines contain F2Links pointing back to the Items
 
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:

@@ -24,13 +24,17 @@ TODO .20260422:
     TODO .Describe the process of standup:
       - Standup -> Process workhours
 #Personal:
-TODO .Schedule Agi Gift and letter:
-  TODO .Cover Mamas book:
+InProgress .Schedule Agi Gift and letter:
+  Done .Cover Mamas book:
   TODO .Create a letter for Agi:
-  TODO .Buy the socks for Agi:
-  TODO .Buy the stickers for Agi:
-  TODO .Buy the liquid chalks:
-  TODO .Add beauty mask:
+    Workspace:
+      - Ask about the sickness she got and if she took any antibiotic for it - relation to low energy
+      - 
+      - 
+  Done .Buy the socks for Agi:
+  Done .Buy the stickers for Agi:
+  Done .Buy the liquid chalks:
+  Done .Add beauty mask:
   
   
 
@@ -75,9 +79,15 @@ TODO .20260430:
       - Posting on 9gag and reddit every few days to draw attentions to us from different perspectives:
         - Diagram of knowledge transfer
 
-TODO .20260502:
+TODO .20260505:
   - -->Tasks\Management\.."Big replanning after OCWSPhase1"<
-  - 
+  - -->Documents\PublicRelations\.."Algorithm of discussions"<:
+    Details: 
+      - Parent Task Estimation is 180m. Child Task 120m. Confirm with owner about the timing!
+
+Reply to Agi:
+
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
 

@@ -91,7 +91,13 @@ SR_20260430_Hana:
 SR_20260502_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 41m, "", 20260502 T 133911 ]
-    - -->Tasks\Management\..Health.."Schedule exercises and include baba in the morning after waking up and evening before sleeping"<: [ 0m, "", 20260502 T 141955 ]
+    - -->Tasks\Management\..Health.."Schedule exercises and include baba in the morning after waking up and evening before sleeping"<: [ m, "", 20260502 T 141955 ]
   Next:
-    
+
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 34m, "", 20260505 T 093758 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAT20260505"<: [ 8m, "", 20260505 T 101339 ]
+  Next:
+    - 

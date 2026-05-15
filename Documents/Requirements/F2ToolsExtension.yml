@@ -589,8 +589,17 @@ Drafting .behaviour of the extension when the vscode shuts down:
     - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
 .SecondPhase:
   Id: Phase2
-  Drafting .Automatic generation of CSV reports:
-    Id: AutoCSV
+  Drafting .QueryDescription based CSV report generation:
+    Id: QueryBasedCSV
+    Details:
+      There are   
+
+    Draft .Registers commands:
+      Details:
+        The extension registers a command:
+          ExecuteQuery: Execute F2Yaml Query
+    Drafting .Execute query:
+
     Notes:
-      Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..AutoCSV<@$
+      Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -241,6 +241,12 @@ InProgress .Plan and prepare Twitch streaming first phase:
             - Prepare for tomorrows possible meals
             - Mood Analysis            
       Bobi:
+
+InProgress .Plan the cleanups for proper planning:
+  +: {CreatedBy: Bobi, CreatedAt: 20260513 T 134233, By: [Bobi, Hana]}
+  Details:
+    - use the results of $@-->Tasks\PublicRelations\.."Create outreach plan"<@$
+
 InProgress .Big replanning after OCWSPhase1:
   +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
   Details:
@@ -259,7 +265,7 @@ InProgress .Big replanning after OCWSPhase1:
           - Plannings
         - Based on the KPIs, corrective actions are taken (=we improve how we do things)
       - Ideally:
-        - There are nice graphs (burndown, scope kreep, velocity/period, etc.)
+        - There are nice graphs (burndown, scope creep, velocity/period, etc.)
   TODO .Clean up and move the Tasks in the Workspace of this Task:
     +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
     Details:

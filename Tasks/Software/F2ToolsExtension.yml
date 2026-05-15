@@ -143,9 +143,9 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
       Comments:
         - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
-    TODO .Automatic generation of CSV reports:
-      +: {Id: AutoCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..AutoCSV<
+    TODO .QueryDescription based CSV report generation:
+      +: {Id: QueryBasedCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
       Notes:
         - 
 
@@ -607,7 +607,7 @@ Bugs:
     +: {CreatedBy: Bobi, CreatedAt: 20260429 T 012514, By: Bobi, Tags: [CSVDONE], Estimation: 20, RemTime: 0}
     QA: Bobi
     Version: 2.0.25
-    FixVersion: 
+    FixVersion: 2.0.26
     Area: LinkGeneration
     Severity: 2-Low
     Details:

@@ -19,13 +19,13 @@ OnGoing .BusinessAnalysis:
     Business analysis related - e.g. requirement writing, discussions, etc.
   .F2ToolsExtension:
     Id: F2Tools
-    InProgress .Automatic generation of CSV reports:
-      Id: AutoCSV
+    InProgress .QueryDescription based CSV report generation:      
+      Id: QueryBasedCSV
       +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
       Details:
-        Work into: -->Documents\Requirements\F2ToolsExtension\..Phase2..AutoCSV<
+        Work into: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
         Concept:
-          A Query Item describes the report:
+          A QueryDescription Item describes the report:
             class QueryDescription:
               Inherits: StandardItem            
               Properties:
@@ -98,6 +98,7 @@ OnGoing .BusinessAnalysis:
                 - keeps any data already present in "EMPTY" columns 
             WriteBack:
               Summary: if the cursor is on a Query, writes the changes FROM the csv to the Items IF the lines contain F2Links pointing back to the Items
+          
 
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:

@@ -614,5 +614,18 @@ Bugs:
       So like this:
         SomeTask:
           +: {Id: blah}
+  
+  New .Stop timer fails with the usual "item" related error message when the SR entry is incomplete:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 144459, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    QA: Bobi
+    Version: 2.0.25
+    FixVersion:
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      So starting and then stopping the timer on an entry like this:
+        Was:
+          - -->Tasks\Management\.."General management".."Task Administration"<:
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

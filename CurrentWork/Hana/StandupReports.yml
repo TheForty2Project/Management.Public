@@ -15,7 +15,7 @@ SR_20260409_Hana:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create Management task list reports"<: [ 11m, "", 20260401 T 210810 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 90m, "", 20260402 T 093736 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260403"<: [ 4m, "", 20260403 T 075801 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<: [ 10m, "", 20260403 T 081218 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<: [ 10m, "", 20260403 T 081218 ]
     - -->Tasks\Management\.."OCWSPhase1".."Cleanup workspace".."Hana"<: [ 22m, "", 20260403 T 132212 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links"<: [ 142m, "", 20260403 T 215949 ]
   Next:
@@ -28,8 +28,8 @@ SR_20260409_Hana:
 SR_20260414_Hana:
   Was:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Setup Discord permissions and channels"<: [ 10m, "", 20260410 T 200129 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Get the links"<: [ 12m, "", 20260410 T 180212 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Implement, finalize and publish".."Provide the links into the document"<: [ 10m, "", 20260410 T 182544 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Watch page".."Review".."Get the links"<: [ 12m, "", 20260410 T 180212 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Contact page".."Implement, finalize and publish".."Provide the links into the document"<: [ 10m, "", 20260410 T 182544 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 37m, "", 20260410 T 200359 ]
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh"<: [ 10m, "", 20260414 T 120832 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260414 T 122807 ]

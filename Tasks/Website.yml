@@ -362,7 +362,7 @@ InProgress .Back to original:
         - $@-->!PublicWorkspaces\Hana\Websiterephase1\.."Reorganize the -->Backlog\Development\..Website<"<@$:
       Make sure that these are also included:
         -->Tasks\Website\.."Phase1".."Deepdive section development"<:
-        -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase2".."SupportUs page".."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo".."BuyUsACoffee"<:
+        -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase2".."SupportUs page".."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo".."BuyUsACoffee"<:
         -->Tasks\Website\.."Phase1".."Redesign the website Version 2"<:
         -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided"<:
       Include:
@@ -561,7 +561,7 @@ InProgress .Back to original:
             Estimation: 20m
           Done .Upgrade the ToC engine so that some items can be disabled:
           Done .Upgrade the ToC engine so that non-leaf elements can also point to a file:
-        InProgress .Implement the Phase1 Deepdive (Read) page engine:
+        Done .Implement the Phase1 Deepdive (Read) page engine:
           Id: Phase1ReadEngine
           Done .Upgrade the YamlToHtmlConverter with the new header:
           Done .Make it wide:
@@ -655,9 +655,7 @@ InProgress .Back to original:
                 Workspace:
                   History:
                     - we're developing the system, we started 
-                  Plan:
-
-                  
+                  Plan:                 
             Done .Create Watch page:
               +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
               Done .Create baseline:
@@ -1314,48 +1312,7 @@ InProgress .Back to original:
         Details: 
           - Invite Code: XqzbpVyKXr
 
-    OnGoing .Bugs: 
-      +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
-      Cancelled .Fix the live site inception bug:
-        +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [OCWSPhase1], Estimation: "30", RemTime: "0"}
-        Details:
-          - in the "content" section the site itself is repeated again.
-          - might be unecessary as it only happens if a file is missing
-        CancelReason: it's unnecessary as it only happens if a file is missing
-      Fixed .Some colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "0"}
-        Details:
-          So far discovered:            
-          - Maturity
-          - 4-AlmostDone, etc.
-          - \"TODO" and "Done"                      
-          - PropertyType, Type
-          Go through Barba.Types:
-      Fixed .Fix scrolling bug:
-        +: {CreatedBy: Bobi, CreatedAt: 20260331 T 004208, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
-        Details:
-          When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom
-      Fixed .NonDD pages inception-like behavior:
-        +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
-        Details:
-          The Watch, Contact, Support pages are loading the main site itself instead of the proper content
-      Fixed .Cloudflare hides emails due to some email protection feature; disable this:
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130134, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
-      Fixed .Sidebar shrinks if the content is too wide:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
-        Result:
-          \"overflow: auto" was the solution.
-      Fixed .Some more colors are missing from colors.json:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-        Details:
-          - EstTODO
-      TODO .Colors missing and incorrect - again:
-        +: {CreatedBy: Bobi, CreatedAt: 20260421 T 130738, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
-        Details:
-          - Actors:, Situation:, Prerequisites:
-          - Check the spaces in front of properties - they should have.
-          - Closed and 0-Dont should be "92,92,92" (decimal)
-TODO .Improvements:
+TODO .Improvements:  
   Id: Improvements  
   Done .ToC:
     Done .Make a decision - should we do it and how?:
@@ -1484,8 +1441,7 @@ TODO .Improvements:
       +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
         - find a place
-        - put it there
-  
+        - put it there  
   TODO .Make the yaml downloadable:
     Id: MakeYamlsDownloadable
     Cancelled .As a single file:
@@ -1540,29 +1496,79 @@ TODO .Improvements:
         Details:
           Include:
             - F2FileToHtmlConfig edit            
-  TODO .Coming soon section on the website:
-    Details: A section listing what our next "Big Potatoes" are
-    TODO .Create the content:
-      TODO .Collect the bigpotatoes and create baseline content:
+  TODO .Create Updates section containing the commit-message-like updates:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Details:
+      These updates are the commmit-message-like updates we write whenever we sync our yaml files to the site (using the F2FileToHtmlConverter tool)
+  
+  OnHold .Later:
+    Details:
+      Tasks we planned at one point but not sure if or when we want to pursue them
+    OnHold .Social media bar:
+      Details: the social media buttons would be visible on each page, maybe on the - fixed - header
+    OnHold .Footer section:        
+      +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222026, By: Shadow }
+      ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
+  Cancelled .Trash:
+    Details:
+      Tasks we planned at one point but do not want to pursue any more 
+    Cancelled .Create Roadmap section:
+      +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
+      DependsOn: .Response, quantity and quality of the applicants  
+    Cancelled .Coming soon section on the website:
+      Details: A section listing what our next "Big Potatoes" are
+      Cancelled .Create the content:
+        Cancelled .Collect the bigpotatoes and create baseline content:
+          +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134553, By: Hana }
+        Cancelled .Review:
+          +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134553, By: everyone }
+      Cancelled .Figure out how to put it on the site:
         +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134553, By: Hana }
-      TODO .Review:
-        +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134553, By: everyone }
-    TODO .Figure out how to put it on the site:
-      +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134553, By: Hana }
-      Details:
-        - Hold a meeting about it and reach a reasoning based decision - so not voting
-        - Note: It should relatively be prominent, so not just a footer element (especially if there's no footer yet)
-    TODO .Implement:
-  TODO .Social media bar:
-    Priority: 2-Low
-    Details: the social media buttons would be visible on each page, maybe on the - fixed - header
-    TODO .Make a decision about what to include and when:
-      +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131754, By: everyone }
-  OnHold .Footer section:        
-    +: { CreatedBy: Bobi, CreatedAt: 20250331 T 222026, By: Shadow }
-    ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
-  TODO .Create Roadmap section:
-    +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
-    DependsOn: .Response, quantity and quality of the applicants
+        Details:
+          - Hold a meeting about it and reach a reasoning based decision - so not voting
+          - Note: It should relatively be prominent, so not just a footer element (especially if there's no footer yet)
+      Cancelled .Implement:
+  
+OnGoing .Bugs: 
+  +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182129, By: Bobi}
+  Cancelled .Fix the live site inception bug:
+    +: {CreatedBy: Bobi, CreatedAt: 20251205 T 182354, By: Bobi, Tags: [OCWSPhase1], Estimation: "30", RemTime: "0"}
+    Details:
+      - in the "content" section the site itself is repeated again.
+      - might be unecessary as it only happens if a file is missing
+    CancelReason: it's unnecessary as it only happens if a file is missing
+  Fixed .Some colors are missing from colors.json:
+    +: {CreatedBy: Bobi, CreatedAt: 20251209 T 161315, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30", RemTime: "0"}
+    Details:
+      So far discovered:            
+      - Maturity
+      - 4-AlmostDone, etc.
+      - \"TODO" and "Done"                      
+      - PropertyType, Type
+      Go through Barba.Types:
+  Fixed .Fix scrolling bug:
+    +: {CreatedBy: Bobi, CreatedAt: 20260331 T 004208, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
+    Details:
+      When both the left and the right side contains more content than one page (e.g. on the left most of the categories are open), then the bottom of the left side is visible only if the right side is fully scrolled to the bottom
+  Fixed .NonDD pages inception-like behavior:
+    +: {CreatedBy: Bobi, CreatedAt: 20260413 T 205859, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "60", RemTime: "0"}
+    Details:
+      The Watch, Contact, Support pages are loading the main site itself instead of the proper content
+  Fixed .Cloudflare hides emails due to some email protection feature; disable this:
+    +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130134, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+  Fixed .Sidebar shrinks if the content is too wide:
+    +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185853, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+    Result:
+      \"overflow: auto" was the solution.
+  Fixed .Some more colors are missing from colors.json:
+    +: {CreatedBy: Bobi, CreatedAt: 20260418 T 190318, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+    Details:
+      - EstTODO
+  TODO .Colors missing and incorrect - again:
+    +: {CreatedBy: Bobi, CreatedAt: 20260421 T 130738, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
+    Details:
+      - Actors:, Situation:, Prerequisites:
+      - Check the spaces in front of properties - they should have.
+      - Closed and 0-Dont should be "92,92,92" (decimal)
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -12,7 +12,7 @@ SR_20260401_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 51m, "", 20260401 T 102129 ]
   Next:
     - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 30m (timeboxed) ]
-    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement".."Implement the non-deepdive pages".."Phase1"<: [ 30m ]
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1"<: [ 30m ]
     - Not decided yet...:
 
 
@@ -25,39 +25,39 @@ SR_20260409_Bobi:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided".."Change it in the title bar"<: [ 10m, "", 20260401 T 235952 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 65m, "", 20260402 T 160118 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."Learn to Dive".."Overview".."Finalize and release"<: [ 12m, "", 20260402 T 204841 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"< [ 80m, "", 20260403 T 234912 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 90m, "", 20260406 T 114946 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 30m, "", 20260409 T 151122 ]
   Next:
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
     - -->Tasks\Software\F2FileToHtmlConverter\..""F2FileToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items"<
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Fix scrolling bug"<
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<
+    - -->Tasks\Website\.."Bugs".."Fix scrolling bug"<
+    - -->Tasks\Website\.."Bugs".."Some colors are missing from colors.json"<
 
 SR_20260414_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 60m, "", 20260410 T 194346 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 16m, "", 20260410 T 194421 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<: [ 60m, "", 20260410 T 194515 ]
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Fix scrolling bug"<: [ 34m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Watch page".."Finalize and publish"<: [ 10m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create Contact page".."Implement, finalize and publish"<: [ 10m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create SupportUs page".."Create content about what will be here".."Finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Bugs".."Fix scrolling bug"<: [ 34m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Watch page".."Finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Contact page".."Implement, finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Create content about what will be here".."Finalize and publish"<: [ 10m, "", 20260411 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Go live".."Go live Phase1".."Go live"<: [ 15m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Remove the "Updates" and "Articles" menu items (we can add them back later)"<: [ 5m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the non-deepdive pages".."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Write the baseline"<: [ 60m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Remove the "Updates" and "Articles" menu items (we can add them back later)"<: [ 5m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Write the baseline"<: [ 60m, "", 20260411 ]
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413"<: [ 11m, "", 20260414 T 120901 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 12m, "", 20260414 T 132352 ]
   Next:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 20m, "Report my time during the go-live activities" ]
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."NonDD pages inception-like behavior"<
+    - -->Tasks\Website\.."Bugs".."Some colors are missing from colors.json"<
+    - -->Tasks\Website\.."Bugs".."NonDD pages inception-like behavior"<
     - -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"<
     - -->Tasks\Website\.."Improvements".."Add the part we recorded during our smoking session to the Summary"<
@@ -65,15 +65,15 @@ SR_20260414_Bobi:
 SR_20260415_Bobi:
   Was:
     - -->Tasks\Miscellaneous\..IT..EnvConfig<: [ 5m, "", 20260415 T 125649 ]
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Some colors are missing from colors.json"<: [ 21m, "", 20260414 T 134046 ]
+    - -->Tasks\Website\.."Bugs".."Some colors are missing from colors.json"<: [ 21m, "", 20260414 T 134046 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Add the config files to the project"<: [ 8m, "", 20260414 T 194528 ]
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."NonDD pages inception-like behavior"<: [ 42m, "", 20260415 T 002742 ]
+    - -->Tasks\Website\.."Bugs".."NonDD pages inception-like behavior"<: [ 42m, "", 20260415 T 002742 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Implement the Phase1 Deepdive (Read) page engine".."Ability to follow links".."Perform the site setup as per the recommendations of ChatGPT"<: [ 42m, "", 20260415 T 002700 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 24m, "", 20260414 T 132930 ]
   Next:
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh".."Create Reports"<:
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<:
+    - -->Tasks\Website\.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<:
     - -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Update our approach of handling the CSVs as of 20260415 mehh"<:
 
@@ -81,7 +81,7 @@ SR_20260415_Bobi:
 SR_20260421_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413 meh".."Create Reports"<: [ 38m, "", 20260415 T 175507 ]
-    - -->Tasks\Website\.."Back to original"..Intermediate.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<: [ 30m, "", 20260415 T 184201 ]
+    - -->Tasks\Website\.."Bugs".."Cloudflare hides emails due to some email protection feature; disable this"<: [ 30m, "", 20260415 T 184201 ]
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<: [ 15m, "", 20260416 T 135214 ]
     - -->Tasks\Website\.."Improvements".."Publish the Reports (currently in CSVs) on the site"<: [ 29m, "", 20260418 T 131130 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Bugs".."Sidebar shrinks if the content is too wide"<: [ 10m, "", 20260418 T 185950 ]
@@ -153,5 +153,7 @@ SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 30m, "", 20260515 T 164451 ]
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 180m, "", 20260516 T 000042 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 13m, "", 20260517 T 143218 ]
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 0m, "", 20260517 T 144342 ]
   Next:
     - null

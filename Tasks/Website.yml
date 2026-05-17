@@ -574,30 +574,7 @@ InProgress .Back to original:
           Done .Add some space in between the end of a key and the beginning of its value (like "Details: Number of members")
           Done .YamlToHtmlConverter:_ Fix color rendering:
           Done .Sticky navigation bar:
-          TODO .Make the yaml downloadable:
-            Id: MakeYamlsDownloadable
-            Cancelled .As a single file:
-            TODO .Make the yamls downloadable as a package:
-              Id: AsAPackage
-              Done .Decide:_ Maybe we should just link to the new repo?:
-                Result: yes
-              TODO .Implement:
-                Id: Impl
-                +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
-                DependsOn: -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
-                Details:
-                  - Simply add a link (with some text) to the Overview section
-                  - Ensure and test that git is set up in a way that it's "read-only" for the public
-          TODO .Add Fold All and Unfold ALl buttons:
-            Id: FoldAll
-            TODO .Try with a codex prompt:
-              Id: Codex
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
-              Details:
-                Make sure that any change can be rolled back easily - so test it properly before building on it.
-            NEXT .If the previous didn't work bug-free, do it manually:              
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2]}
-          InProgress .Ability to follow links:
+          Done .Ability to follow links:
             Id: LinkFollowing
             +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144049, By: Bobi, Estimation: 120, RemTime: 30}
             Estimation:
@@ -1386,7 +1363,7 @@ TODO .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131658, By: everyone }
       Result:
         We're doing a ToC per "topic"
-  Done .Add the part we recorded during our smoking session to the Summary:
+  InProgress .Add the part we recorded during our smoking session to the Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - transcript the recording
@@ -1503,6 +1480,35 @@ TODO .Improvements:
               - "Provide direct communication"
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
+    TODO .Add it to the website:
+      +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      Details:
+        - find a place
+        - put it there
+  
+  TODO .Make the yaml downloadable:
+    Id: MakeYamlsDownloadable
+    Cancelled .As a single file:
+    TODO .Make the yamls downloadable as a package:
+      Id: AsAPackage
+      Done .Decide:_ Maybe we should just link to the new repo?:
+        Result: yes
+      TODO .Implement:
+        Id: Impl
+        +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
+        DependsOn: -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
+        Details:
+          - Simply add a link (with some text) to the Overview section
+          - Ensure and test that git is set up in a way that it's "read-only" for the public
+  TODO .Add Fold All and Unfold ALl buttons:
+    Id: FoldAll
+    TODO .Try with a codex prompt:
+      Id: Codex
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
+      Details:
+        Make sure that any change can be rolled back easily - so test it properly before building on it.
+    NEXT .If the previous didn't work bug-free, do it manually:              
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2]}
   TODO .Manually convert the urls in the NonDD pages to html links:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
@@ -1557,6 +1563,6 @@ TODO .Improvements:
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."Footer"<
   TODO .Create Roadmap section:
     +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
-    Dependend on .Response, quantity and quality of the applicants:
+    DependsOn: .Response, quantity and quality of the applicants
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

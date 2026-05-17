@@ -131,9 +131,9 @@ SR_20260429_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 3m, "", 20260429 T 144147 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Investigating deployment issues", 20260430 T 115000 ]
   Next:
-    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
 
-SR_NEXT_Bobi:
+
+SR_20260515_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 120m, "Big cleanups, task and process creation", 20260504 T 133000 ]
     - -->Tasks\PublicRelations\..9Gag.."Post the Poll about Sacrifice"<: [ 120m, "", 20260511 T 204242 ]
@@ -142,6 +142,16 @@ SR_NEXT_Bobi:
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 84m, "", 20260513 T 010042 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 18m, "", 20260513 T 004242 ]
     - -->Tasks\Miscellaneous\.."IT".."Environment configuration"<: [ 37m, "Stream + Discord setups", 20260513 T 130042 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260515 T 155859 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 0m, "cleanups - especially the previous ", 20260515 T 161642 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "cleanups - especially the previous ", 20260515 T 161642 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 4m, "", 20260515 T 155859 ]
   Next:
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Create schedules".."Fine tune daily schedule during the trial week"<
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 30m, "", 20260515 T 164451 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 180m, "", 20260516 T 000042 ]
+  Next:
+    - null

@@ -242,7 +242,7 @@ InProgress .Plan and prepare Twitch streaming first phase:
             - Mood Analysis            
       Bobi:
 
-InProgress .Big replanning after OCWSPhase1:
+Done .Big replanning after OCWSPhase1:
   +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
   Details:
     - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
@@ -269,8 +269,8 @@ InProgress .Big replanning after OCWSPhase1:
       - Move them AND leave a link (like above)
       - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!          
 
-InProgress .Create schedules:
-  +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+OnGoing .Create and fine tune schedules:
+  +: {Id: CreateSchedules, CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   Done .Create baseline:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 124746, By: [Bobi,Hana], Tags: [CSVDONE]}
     Result:            
@@ -392,6 +392,7 @@ InProgress .Plan the next Milestones:
       - F2BarbaManagement.MVP + OCWSPhase2
       - We plan both (collect tasks, estimate them)
       - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
+
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
     Details:
@@ -400,7 +401,9 @@ InProgress .Plan the next Milestones:
       - Taskify them
       - Estimate them
       - Choose the bugs (and estimate them)
-  TODO .Work out the OCWSPhase2 milestone:
+    Workspace:
+
+  InProgress .Work out the OCWSPhase2 milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
     Details:
       - Collect features

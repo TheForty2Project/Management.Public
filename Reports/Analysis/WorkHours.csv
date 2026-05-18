@@ -17,9 +17,9 @@ Bobi, 20260330,       3, "-->Tasks\Website\..""Back to original""..""Do intermed
 Bobi, 20260401,       6, "-->Tasks\Management\..""General management""..""Task Administration""<"                                                                                                                                                                                                        , 
 Bobi, 20260401,      51, "-->Tasks\Management\..""General management""..""Standup related""..""Preparation for participants""<"                                                                                                                                                                          , 
 Bobi, 20260401,      44, "-->Tasks\Management\..""General management""..""Planning related""..""Hold periodically""..""Planning 20260328""..""Process the results""<"                                                                                                                                    , 
-Bobi, 20260401,      20, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Relearn how to edit Shadow's site""<"                                                                                                                                                          , 
-Bobi, 20260401,      10, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Remove the ""TF2P"" text""<"                                                                                                                                                                   , 
-Bobi, 20260401,      10, "-->Tasks\Website\..""Back to original""..Intermediate..""Shadow site todos""..""Change the ""Building fair systems through Collaboration"" to the one we decided""..""Change it in the title bar""<"                                                                           , 
+Bobi, 20260401,      20, "-->Tasks\Website\..""Back to original""..Intermediate.."ShadowsSite"..""Relearn how to edit Shadow's site""<"                                                                                                                                                          , 
+Bobi, 20260401,      10, "-->Tasks\Website\..""Back to original""..Intermediate.."ShadowsSite"..""Remove the ""TF2P"" text""<"                                                                                                                                                                   , 
+Bobi, 20260401,      10, "-->Tasks\Website\..""Back to original""..Intermediate.."ShadowsSite"..""Change the ""Building fair systems through Collaboration"" to the one we decided""..""Change it in the title bar""<"                                                                           , 
 Bobi, 20260402,      65, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"                                                                                                                                                               , 
 Bobi, 20260402,      12, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..""Overview""..Finalize<"                                                                                                                                                  , 
 Bobi, 20260403,      10, "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Rename ""Support"" to something less confusing""..""Rename it""<"                                                                            , 
@@ -68,7 +68,7 @@ Bobi, 20260424,      30, "-->Tasks\Software\F2ToolsExtension\.Tasks.."Publicatio
 Bobi, 20260425,      126, "-->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<"
 Bobi, 20260425,      2, "-->Tasks\Management\.."General management".."Task Administration"<"
 Bobi, 20260425,      116, "-->Tasks\Management\.."Big replanning after OCWSPhase1"<:"
-Bobi, 20260425,      22, "-->Tasks\Management\.."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<:"
+Bobi, 20260425,      22, "-->Tasks\Management\.."Create schedules"<:"
 
 
 
@@ -100,7 +100,7 @@ Hana, 20260401,      12, "-->Tasks\Management\..""General management""..""Planni
 Hana, 20260401,      11, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Creation""..""Create Management task list reports""<"
 Hana, 20260402,      90, "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260402""<"
 Hana, 20260403,      4,  "-->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260403""<"
-Hana, 20260403,      10, "-->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<"
+Hana, 20260403,      10, "-->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<"
 Hana, 20260403,      22, "-->Tasks\Management\..""OCWSPhase1""..""Cleanup workspace""..""Hana""<"
 Hana, 20260403,      142, "-->Tasks\Management\..""OCWSPhase1""..""Update F2yaml links""<"
 Hana, 20260410,      10,  "-->Tasks\Website\..""Back to original""..""Do intermediate solution""..""Setup Discord permissions and channels""<"

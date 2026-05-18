@@ -627,5 +627,29 @@ Bugs:
         Was:
           - -->Tasks\Management\.."General management".."Task Administration"<:
 
+  New .getYamlMapIfPairOrYamlMap throws error if clicking on the f2links provided in the details:
+    +: {CreatedBy: Bobi, CreatedAt: 20260518 T 150217, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    QA: Bobi
+    Version: 2.0.25
+    FixVersion:
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      On these links:
+        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Create schedules".."Fine tune daily schedule during the trial week"<
+        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Create schedules".."Create streaming schedule"<
+      The Planning20260428 meeting note currently:
+        .Planning20260428:
+          Participants: [Bobi, Hana]    
+          StartTime: 20260428 T 1240
+          EndTime: 20260428 T 1344
+          Details:
+            Task is $@-->Tasks\Management\.."Big replanning after OCWSPhase1"<@$
+          Result:
+            Tasks created:
+              - -->Tasks\Management\.."Plan the next Milestones"<
+              - -->Tasks\Management\.."Create schedules"<        
+              - -->Tasks\Management\.."Create "daily administration" schedule for Hana"<                
+              - -->Tasks\PublicRelations\.."Create outreach plan"<      
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

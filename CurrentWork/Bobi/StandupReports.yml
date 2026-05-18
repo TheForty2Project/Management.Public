@@ -20,23 +20,23 @@ SR_20260409_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 44m, "", 20260401 T 111533 ]
     - That reorganizing the meetings task:
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Relearn how to edit Shadow's site"<: [ 20m, "", 20260401 T 233017 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Remove the "TF2P" text"<: [ 10m, "", 20260401 T 235921 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided".."Change it in the title bar"<: [ 10m, "", 20260401 T 235952 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Relearn how to edit Shadow's site"<: [ 20m, "", 20260401 T 233017 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Remove the "TF2P" text"<: [ 10m, "", 20260401 T 235921 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided".."Change it in the title bar"<: [ 10m, "", 20260401 T 235952 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 65m, "", 20260402 T 160118 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."Learn to Dive".."Overview".."Finalize and release"<: [ 12m, "", 20260402 T 204841 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site"..CreateYamls..Leaves..LearnToDive.."Overview".."Finalize and release"<: [ 12m, "", 20260402 T 204841 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"< [ 80m, "", 20260403 T 234912 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 90m, "", 20260406 T 114946 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create Contact page".."Review it"<: [ 40m, "", 20260408 T 124257 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Create content about what will be here".."Work it out"<: [ 40m, "", 20260408 T 195522 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 30m, "", 20260409 T 151122 ]
   Next:
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
     - -->Tasks\Software\F2FileToHtmlConverter\..""F2FileToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
-    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items"<
-    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite..CreateYamls..Leaves..LearnToDive..Syntax<
+    - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Create the Big Summary page AND remove unnecessary menu items"<
+    - -->Tasks\Website\..Improvements..CreateYamls..LearnToDiveSyntax<
     - -->Tasks\Website\.."Bugs".."Fix scrolling bug"<
     - -->Tasks\Website\.."Bugs".."Some colors are missing from colors.json"<
 
@@ -46,12 +46,12 @@ SR_20260414_Bobi:
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 16m, "", 20260410 T 194421 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<: [ 60m, "", 20260410 T 194515 ]
     - -->Tasks\Website\.."Bugs".."Fix scrolling bug"<: [ 34m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Watch page".."Finalize and publish"<: [ 10m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create Contact page".."Implement, finalize and publish"<: [ 10m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create SupportUs page".."Create content about what will be here".."Finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create Watch page".."Finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create Contact page".."Implement, finalize and publish"<: [ 10m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Create content about what will be here".."Finalize and publish"<: [ 10m, "", 20260411 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Go live".."Go live Phase1".."Go live"<: [ 15m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Remove the "Updates" and "Articles" menu items (we can add them back later)"<: [ 5m, "", 20260411 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase1".."Create the Big Summary page AND remove unnecessary menu items".."Write the baseline"<: [ 60m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create the Big Summary page AND remove unnecessary menu items".."Remove the "Updates" and "Articles" menu items (we can add them back later)"<: [ 5m, "", 20260411 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create the Big Summary page AND remove unnecessary menu items".."Write the baseline"<: [ 60m, "", 20260411 ]
     - -->Tasks\Management\.."General management".."Reports".."Create report about total spent time per task and per day per worker up until 20260413"<: [ 11m, "", 20260414 T 120901 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 12m, "", 20260414 T 132352 ]
   Next:
@@ -124,7 +124,7 @@ SR_20260429_Bobi:
     - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 126m, "", 20260425 T 010751 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 2m, "", 20260425 T 012000 ]
     - -->Tasks\Management\.."Big replanning after OCWSPhase1"<: [ 116m, "", 20260425 T 123634 ]
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".Workspace.Tasks.."Create schedules"<: [ 22m, "", 20260425 T 183628 ]
+    - -->Tasks\Management\.."Create schedules"<: [ 22m, "", 20260425 T 183628 ]
     - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 13m, "", 20260428 T 235042 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Some fiddling with the code + process update", 20260429 T 000259 ]
     - -->Tasks\Software\F2ToolsExtension\.Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [ 20m, "", 20260429 T 003000 ]
@@ -145,15 +145,16 @@ SR_20260515_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "cleanups - especially the previous ", 20260515 T 161642 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 4m, "", 20260515 T 155859 ]
   Next:
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Create schedules".."Fine tune daily schedule during the trial week"<
+    - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
+    - -->Tasks\Management\.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
+    - -->Tasks\Management\.."Create schedules".."Fine tune daily schedule during the trial week"<
 
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 30m, "", 20260515 T 164451 ]
+    - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 30m, "", 20260515 T 164451 ]
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 180m, "", 20260516 T 000042 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 13m, "", 20260517 T 143218 ]
-    - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 0m, "", 20260517 T 144342 ]
+    - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 138m, "", 20260517 T 144342 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 23m, "", 20260518 T 1501 ]
   Next:
     - null

@@ -547,4 +547,253 @@ HealthLog20260513Hana:
       - Body Measurement 
       - What are your goals
       - base the workout according to the goals
+HealthLog20260517Hana:
+  .Cycle Day:  Cycle 15 (Fertile phase)
+  .Wake up:
+    - Time: 12:00
+    - Duration: n/a (didnt wear the watch)
+    - Sleep Score:
+    - Deep Sleep: 
+    - Light Sleep: 
+    - REM:
+    - Awake time:
+    - Stress:
+    - Body Battery: 
+    - Mood:
+    - Face:
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
+      - Time: 12:00
+      - Macro Nutrient: water (citrolline + creatine), Coffee with milk
+      - Hydration: 400 ml 
+      - Mood: Tired
+    - Breakfast:
+      - Time: 09:00
+      - Food: Pancake
+      - Mood: ok 
+    - Snacks:
+      - Time: 13:30
+      - Food: Green Tea
+      - Mood: Tired
+    - Lunch: 
+      - Time: 15:50
+      - Food: 
+        - Side dish: Steam rice, Salad, one spoon lentil, half spoon Chickpea
+        - Main Course: Fish
+        - Dessert: Steamed apple 
+      - Mood: ok
+    - Dinner:
+      - Time: 20:00
+      - Food: Protein shake
+      - Mood: Tired
+  .Stool Quality:
+    - Time:   n/a
+    - Quality: 
+  .Activity:
+    - After wake up:
+      - 
+    - Morning: 
+      - Time: 
+      - Activity: 
+      - Mood:  
+    - Afternoon:
+      - Time: 
+      - Activity: 
+      - Mood: 
+    - Evening:
+      - Time: 18:00
+      - Activity: Gym - Plyometrics, Glutes and core
+      - Mood: 
+  .Night Sleep:
+    - Time: 01:13
+    - Sleep Hygiene:  
+    - Mood: Tired
+  .Notes for tomorrow:
+HealthLog20260517Bobi:
+  .Cycle Day:  
+  .Wake up:
+    - Time: 10:52
+    - Duration: 7h 4m
+    - Sleep Score: 69
+    - Deep Sleep: 47m
+    - Light Sleep: 5h 2m
+    - REM: 1h 16m
+    - Awake time: 48m
+    - Stress: 25 avg
+    - Body Battery: +57
+    - Mood: Tired Burpy
+    - Face: Tired, puffy
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
+      - Time: 11:02
+      - Macro Nutrient: Coffee
+      - Hydration: 0.3 ml
+      - Mood: ok
+    - Breakfast:
+      - Time: 11:20
+      - Food: Pancakes + Pudding + Blueberries
+      - Mood: Burpy 
+    - Snacks:
+      - Time: 15:01
+      - Food: Kratom
+      - Mood: Optimistic, Tired
+    - Lunch: 
+      - Time: 
+      - Food: 
+        - Side dish: 
+        - Main Course: 
+        - Dessert: 
+      - Mood: 
+    - Dinner:
+      - Time: 
+      - Food: 
+      - Mood: 
+  .Stool Quality:
+    - Time:   11:00
+    - Quality: Type 4
+  .Activity:
+    - After wake up:
+      - 
+    - Morning: 
+      - Time: 11:50
+      - Activity: Walking 
+      - Mood: ok 
+    - Afternoon:
+      - Time: 
+      - Activity: 
+      - Mood: 
+    - Evening:
+      - Time: 
+      - Activity: 
+      - Mood: 
+  .Night Sleep:
+    - Time: 
+    - Sleep Hygiene:  
+    - Mood: 
+  .Notes for tomorrow:
+HealthLog20260518Hana:
+  .Cycle Day:  Cycle 16 (Fertile phase)
+  .Wake up:
+    - Time: 05:00
+    - Duration: n/a (didnt wear the watch)
+    - Sleep Score: 71 
+    - Deep Sleep: 1h 7m 
+    - Light Sleep: 2h 55m
+    - REM: 1h 36m
+    - Awake time: 32m • 36 Restless Moments
+    - Stress: 14 avg
+    - Body Battery: +60
+    - Mood: Physically ok. Started with difficult memories
+    - Face: Puffy, not clear sclera, pimples fading stage
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
+      - Time: 07 20
+      - Macro Nutrient: water (citrolline + creatine), Coffee with milk
+      - Hydration: 400 ml 
+      - Mood: ok
+    - Breakfast:
+      - Time: 09:00
+      - Food: Steram rice+pork with mustard+ Peas+Lentils
+      - Mood: ok 
+    - Snacks:
+      - Time: 
+      - Food: 
+      - Mood: 
+    - Lunch: 
+      - Time: 
+      - Food: 
+        - Side dish: 
+        - Main Course: 
+        - Dessert: 
+      - Mood: 
+    - Dinner:
+      - Time: 
+      - Food: 
+      - Mood: 
+  .Stool Quality:
+    - Time:   11:00
+    - Quality: Type 2
+  .Activity:
+    - After wake up:
+      - 
+    - Morning: 
+      - Time: 08:20
+      - Activity: Walking
+      - Mood:  ok
+    - Afternoon:
+      - Time: 
+      - Activity: 
+      - Mood: 
+    - Evening:
+      - Time: 
+      - Activity: 
+      - Mood: 
+  .Night Sleep:
+    - Time: 
+    - Sleep Hygiene:  
+    - Mood: 
+  .Notes for tomorrow:
+HealthLog20260518Bobi:
+  .Cycle Day:  
+  .Wake up:
+    - Time: 10:52
+    - Duration: 7h 4m
+    - Sleep Score: 69
+    - Deep Sleep: 47m
+    - Light Sleep: 5h 2m
+    - REM: 1h 16m
+    - Awake time: 48m
+    - Stress: 25 avg
+    - Body Battery: +57
+    - Mood: Tired Burpy
+    - Face: Tired, puffy
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
+      - Time: 11:02
+      - Macro Nutrient: Coffee
+      - Hydration: 0.3 ml
+      - Mood: ok
+    - Breakfast:
+      - Time: 11:20
+      - Food: Pancakes + Pudding + Blueberries
+      - Mood: Burpy 
+    - Snacks:
+      - Time: 15:01
+      - Food: Kratom
+      - Mood: Optimistic, Tired
+    - Lunch: 
+      - Time: 
+      - Food: 
+        - Side dish: 
+        - Main Course: 
+        - Dessert: 
+      - Mood: 
+    - Dinner:
+      - Time: 
+      - Food: 
+      - Mood: 
+  .Stool Quality:
+    - Time:   11:00
+    - Quality: Type 4
+  .Activity:
+    - After wake up:
+      - 
+    - Morning: 
+      - Time: 11:50
+      - Activity: Walking 1.43 km
+      - Mood: ok 
+    - Afternoon:
+      - Time: 
+      - Activity: 
+      - Mood: 
+    - Evening:
+      - Time: 
+      - Activity: 
+      - Mood: 
+  .Night Sleep:
+    - Time: 
+    - Sleep Hygiene:  
+    - Mood: 
+  .Notes for tomorrow:
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

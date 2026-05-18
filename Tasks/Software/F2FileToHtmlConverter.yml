@@ -126,7 +126,22 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
-          
+      TODO .Add "Commit message"-like feature:
+        Details:
+          - At each website update a description must be provided
+          - The app also tracks the changes
+        TODO .Decide:_ where should the commit message provided and how?:
+          Details:
+            - as a command-line parameter?
+            - as an entry in some config file?
+        TODO .Decide:_ how should we handle the whole thing:
+          Details:
+            - we should preserve the previous updates, which should be stored somewhere - maybe a yaml in our workspace?
+            - so the app would edit this file maybe?
+            - maybe when it starts, it emits the changes to the yaml file - add it to its beginning - then asks the user to edit the file and say "done", then it converts them
+            - tracking the changes:
+              - it can just compare the generated htmls
+              - it can take a snapshot of all the yamls, save them, and then compare the new ones
 
   OnGoing .Bugs:    
 

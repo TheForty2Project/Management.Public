@@ -230,33 +230,6 @@ Done .Create outreach plan:
       - creating a schedule for each stream in their respective platforms
       - start streaming at least 2x a week from each member
     - see ideas at -->Tasks\PublicRelations\<    
-  Done .Analyize Twitch viewer count:
-    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145508, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
-    Result:
-      Analysis:
-      - 5 streaming in total
-      - most viewers were during the lunch stream:
-          Topic: lunch
-          Time: 2pm
-          Length: 57m
-          Unique: 16
-          Notes:
-            few ppl stayed
-            70% were from US
-      - second most was during the night - we were working:
-          Topic: work
-          Time: 7pm
-          Length: 90m
-          Unique: 7
-          Notes:
-            some ppl stayed
-      Therefore:
-        - we should stream during the afternoon/night
-        - Bobi should fucking start streaming:
-          - so that we have data:
-            - what topics are interesting
-            - do boobs matter - and how much?
-        - we should have a schedule!!!!!!!!!!  
   Result:
     - streaming seems worth pursuing:
         topics:
@@ -294,6 +267,33 @@ Done .Create outreach plan:
     - at the moment this is a "trial" stage:
       - outreach: we try things - which one works more, which one less - and then do an analysis
       - site + products we have: we stabilize them and make them ready for people to see
+  Done .Analyize Twitch viewer count:
+    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145508, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
+    Result:
+      Analysis:
+      - 5 streaming in total
+      - most viewers were during the lunch stream:
+          Topic: lunch
+          Time: 2pm
+          Length: 57m
+          Unique: 16
+          Notes:
+            few ppl stayed
+            70% were from US
+      - second most was during the night - we were working:
+          Topic: work
+          Time: 7pm
+          Length: 90m
+          Unique: 7
+          Notes:
+            some ppl stayed
+      Therefore:
+        - we should stream during the afternoon/night
+        - Bobi should fucking start streaming:
+          - so that we have data:
+            - what topics are interesting
+            - do boobs matter - and how much?
+        - we should have a schedule!!!!!!!!!!  
 
 .9Gag:
   OnGoing .Collect ideas about 9gag posts:

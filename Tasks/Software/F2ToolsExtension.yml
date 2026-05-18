@@ -143,9 +143,9 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
       Comments:
         - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
-    TODO .Automatic generation of CSV reports:
-      +: {Id: AutoCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..AutoCSV<
+    TODO .QueryDescription based CSV report generation:
+      +: {Id: QueryBasedCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
       Notes:
         - 
 
@@ -607,12 +607,25 @@ Bugs:
     +: {CreatedBy: Bobi, CreatedAt: 20260429 T 012514, By: Bobi, Tags: [CSVDONE], Estimation: 20, RemTime: 0}
     QA: Bobi
     Version: 2.0.25
-    FixVersion: 
+    FixVersion: 2.0.26
     Area: LinkGeneration
     Severity: 2-Low
     Details:
       So like this:
         SomeTask:
           +: {Id: blah}
+  
+  New .Stop timer fails with the usual "item" related error message when the SR entry is incomplete:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 144459, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    QA: Bobi
+    Version: 2.0.25
+    FixVersion:
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      So starting and then stopping the timer on an entry like this:
+        Was:
+          - -->Tasks\Management\.."General management".."Task Administration"<:
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

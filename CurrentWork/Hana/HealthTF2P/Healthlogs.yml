@@ -479,12 +479,72 @@ HealthLog20260505Hana:
       - Body Measurement 
       - What are your goals
       - base the workout according to the goals
-
-
-
-HealthLog20260426:
-  Robi:
-    - took 15 m during the day
-    - took 7 m evening
-
+HealthLog20260513Hana:
+  .Cycle Day:  Cycle 11 (follicular phase)
+  .Wake up:
+    - Time: 07:00
+    - Duration: n/a (didnt wear the watch)
+    - Sleep Score:  
+    - Deep Sleep: 
+    - Light Sleep: 
+    - REM: 
+    - Awake time: 
+    - Stress: 
+    - Body Battery: 
+    - Mood: Tired
+    - Face: Very Puffy, eyes yellowish
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
+      - Time: 07 01
+      - Macro Nutrient: water (citrolline), salt, Vitamin C
+      - Hydration: 400 ml 
+      - Mood: waking up gradually
+    - Breakfast:
+      - Time: 09:00
+      - Food: boiled egg and steamed rice + rica cake
+      - Mood: ok but tired
+    - Snacks:
+      - Time: 13:00
+      - Food: Kratom
+      - Mood: better, ok
+    - Lunch: 
+      - Time: 14:00
+      - Food: 
+        - Side dish: Steamed rice
+        - Main Course: Chicken Breast and Boiled egg
+        - Dessert: Coffee with condesed milk
+      - Mood: ok
+    - Dinner:
+      - Time: 
+      - Food: 
+      - Mood: 
+  .Stool Quality:
+    - Time:    12:57
+    - Quality: Type 4
+  .Activity:
+    - After wake up:
+      - Breathing, stretching 
+    - Morning: 
+      - Time: 
+      - Activity: Running
+      - Mood:  ok
+    - Afternoon:
+      - Time: 
+      - Activity: 
+      - Mood: 
+    - Evening:
+      - Time: 
+      - Activity: 
+      - Mood: 
+  .Night Sleep:
+    - Time: 
+    - Sleep Hygiene:  
+    - Mood: 
+  .Notes for tomorrow:
+    - Prioritize movements and sun exposure first thing in the morning
+    - If your bosy is tired from the activities today, you don't need to go to Hot Yoga, Run instead
+    - create a process for your workout goals:
+      - Body Measurement 
+      - What are your goals
+      - base the workout according to the goals
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

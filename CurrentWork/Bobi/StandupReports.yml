@@ -157,6 +157,9 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 138m, "", 20260517 T 144342 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 23m, "", 20260518 T 1501 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<: [ 84m, "", 20260518 T 151939 ]
-    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 20m, "", 20260519 T 014242]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 120m, "", 20260519 T 014242 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."F2Link related upgrades"<: [ 100m, "", 20260520 T 162025 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."Text Output support"<: [ 10m, "", 20260520 T 162028 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 14m, "", 20260520 T 161042 ]
   Next:
     - null

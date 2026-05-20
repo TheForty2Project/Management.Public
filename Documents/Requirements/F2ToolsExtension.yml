@@ -589,101 +589,136 @@ Drafting .behaviour of the extension when the vscode shuts down:
     - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
 .SecondPhase:
   Id: Phase2
-  Drafting .QueryDescription based CSV report generation:
-    +: {Id: QueryBasedCSV, CreatedBy: Bobi, CreatedAt: 20260516 T 004242, By: Bobi}
+  Draft .QueryDescription based CSV report generation:
+    Id: QueryBasedCSV
+    +: {CreatedBy: Bobi, CreatedAt: 20260516 T 004242, By: Bobi}
     Details:
-      There are   
+      One can issue commands about creating and synching to/from reports based on a query description stored in a QueryDescription Item
     Artifacts:
-      SelectPropertySpecialValues:
+      .SyncResultValues:
+        .NewRow: N
+        .UpdatedRow: U
+        .SameRow: S 
+        .DeletedRow: Del
+      .SelectPropertySpecialValues:
         .EMPTY: an empty value
+        .SYNCRESULT: one of the values from SyncResultValues representing whether the row was created, updated, etc.
         .IDLINK: the Id based F2Link pointing to the Item
         .SUMMARYLINK: the Summary based F2Link pointing to the Item
-      QueryDescription:
-        class .QueryDescription:
-          Inherits: StandardItem            
-          Properties:
-            string[] Select:
-              Mandatory: true
-              Details: 
-                - the Id-s of the properties to include in the report or keywords (instructing the generator to insert special values), and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
-                - special keywords: SelectPropertySpecialValues
-                - same as the "SELECT" part of an SQL query
-                - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn, EMPTY as Notes]
-                - Special keywords
-            string[] From:
-              Mandatory: true
-              Details:
-                - Use the files under the specified path (file or Item); recursive.                
-                - such as: [-->Tasks\<, -->Tasks\Software\F2ToolsExtension\..Phase2< ]
-            WherePartOfQuery Where:
-            string OutputFile:
-              Details: 
-                - the output file path (partial file system path, from the root of the workspace)
-                - both the characters "\" and "/" are accepted as separators
-                - such as: Reports\CurrentTasks.csv
-                - if not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
-            # char CommentPrefix:
-            #   Details: 
-            #     - the prefix to use in front of comments
-            #     - set to "#" by default (i.e. if this property is not present)
-            # bool IncludeHeader:
-            #   Details:
-            #     - if set to true, the first line of the CSV will be a comment:
-            #       - containing the link pointing to the Query description
-            #       - and the generation time
-            #     - set to true by default (i.e. if this property is not present)
-        class .WherePartOfQuery:
-          BelongsTo: QueryDescription
-          Inherits: Item
-          Properties:
-            string[] TaggedBy:
-              Details: 
-                - include only those Items which are tagged by one of the tags
-                - such as: [CSV]
-                - if empty, all Items
-            string[] ItemType: 
-              Details: 
-                - include only those Items which are one of the specified types
-                - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be included)
-                - such as: [Task, Bug]
-                - if empty, all Items
-            string[] SkipUnder:
-              Details:
-                - skip those Items which are under the specified path (file or Item); recursive.
-                - note that this takes precedence over From, i.e. the Items under these paths will be skipped even if their path is included in From
-                - such as: [-->Tasks\Archive\<]
-                - if empty, no Items skipped
-        .such as:
-          CurrentTasks:
-            Type: QueryDescription
-            Id: CurrentTasks
-            Summary: Current Tasks
-            Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-            Where:
-              TaggedBy: [CSV]
-              ItemType: [Task, Bug]
-              From: [-->Tasks\<]
-              SkipUnder: [-->Tasks\Archive\<]
-            OutputFile: Reports\CurrentTasks.csv
-      .CommentPrefix: "#"
+      class .QueryDescription:
+        Inherits: StandardItem
+        Details:
+          such as:
+            CurrentTasks:
+              Type: QueryDescription
+              Id: CurrentTasks
+              Summary: Current Tasks
+              Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+              Where:
+                TaggedBy: [CSV]
+                ItemType: [Task, Bug]
+                From: [-->Tasks\<]
+                SkipUnder: [-->Tasks\Archive\<]
+              OutputFile: Reports\CurrentTasks.csv
+              BehaviorWhenDeletingRows: CommentOut
+              AddSyncResultColumn: true
+        Properties:
+          string[] Select:
+            Mandatory: true
+            Details: 
+              - the Id-s of the properties to include in the report or keywords (instructing the generator to insert special values), and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
+              - special keywords: SelectPropertySpecialValues
+              - same as the "SELECT" part of an SQL query
+              - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn, EMPTY as Notes]
+              - Special keywords
+          string[] From:
+            Mandatory: true
+            Details:
+              - Use the files under the specified path (file or Item); recursive.                
+              - such as: [-->Tasks\<, -->Tasks\Software\F2ToolsExtension\..Phase2< ]
+          WherePartOfQuery Where:
+          RowDeletingBehavior BehaviorWhenDeletingRows:
+            DefaultValue: RowDeletingBehavior..CommentOut
+            Summary: what to do if a row is deleted during a sync operation (i.e. when the query is re-run to sync the changes)
+          bool AddSyncResultColumn:
+            DefaultValue: true
+            Summary: adds a -->~..SelectPropertySpecialValues..SYNCRESULT< column when syncing (if it's not already present in the Select part)
+          string OutputFile:
+            Details: 
+              - the output file path (partial file system path, from the root of the workspace)
+              - both the characters "\" and "/" are accepted as separators
+              - such as: Reports\CurrentTasks.csv
+              - if not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
+          # char CommentPrefix:
+          #   Details: 
+          #     - the prefix to use in front of comments
+          #     - set to "#" by default (i.e. if this property is not present)
+          # bool IncludeHeader:
+          #   Details:
+          #     - if set to true, the first line of the CSV will be a comment:
+          #       - containing the link pointing to the Query description
+          #       - and the generation time
+          #     - set to true by default (i.e. if this property is not present)
+      class .WherePartOfQuery:
+        BelongsTo: QueryDescription
+        Inherits: Item
+        Properties:
+          string[] TaggedBy:
+            Details: 
+              - include only those Items which are tagged by one of the tags
+              - such as: [CSV]
+              - if empty, all Items
+          string[] ItemType: 
+            Details: 
+              - include only those Items which are one of the specified types
+              - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be included)
+              - such as: [Task, Bug]
+              - if empty, all Items
+          string[] SkipUnder:
+            Details:
+              - skip those Items which are under the specified path (file or Item); recursive.
+              - note that this takes precedence over From, i.e. the Items under these paths will be skipped even if their path is included in From
+              - such as: [-->Tasks\Archive\<]
+              - if empty, no Items skipped        
+      enum .RowDeletingBehavior:
+        Remove:
+          Summary: the row is removed
+        CommentOut:
+          Summary: the row is commented out
+        DoNothing:
+          Summary: the row is kept as-is but marked as -->~..SyncResultValues..DeletedRow< if the column is present
+      class .ReportHeader:
+        Inherits: Item
+        Properties:
+          F2Link QueryDescriptionLink:
+          QueryDescription QueryDescription:
+          string[] Log:
+        Details:
+          Template: |
+            <ReportHeader>:
+              +: {CreatedBy: USERNAME, CreatedAt: TIMESTAMP}
+              QueryDescriptionLink: QUERYDESCRIPTION_LINK
+              QueryDescription:
+                QUERYDESCRIPTON
+              Log:
+                - [Created/Updated] at TIMESTAMP; Added/Updated/Deleted: NOOF_ADDED/NOOF_UPDATED/NOOF_DELETED
+      .CommentPrefix: "#"      
       .NullValue: "" #so empty
       .EmptyValue: \"" #so two double quote characters
       .CSVHeader: >
-        <Report>:
-          +: {CreatedBy: USERNAME, CreatedAt: TIMESTAMP}
-          QueryDescriptionLink: QUERYDESCRIPTION_LINK
-          QueryDescription:
-            QUERYDESCRIPTON
+      
     Draft .Registers commands:
       Draft .ExecuteQuery: 
-        Command: "F2Tools.Reports: Execute query"
+        Command: "F2Tools.Reports.Execute: Execute query"
         Summary: if the cursor is on a Query, generates the CSV report according to it
         Details:
           if the file exists, overwrites the content BUT:
             - keeps any data already present in "EMPTY" columns 
-            - IF (there are  keeps the order of the rows 
+            - IF (queryDescription.Select.Any(isF2Link)):
+              - keeps the order of the rows            
+              - comments out the rows for which there are no Items present (any more)            
       Draft .WriteBack:
-        Command: "F2Tools.Reports: Write back from output file"
+        Command: "F2Tools.Reports.WriteBack: Write back from output file"
         Summary: 
           if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select part, writes the changes FROM the csv to the Items
         Details:
@@ -693,40 +728,43 @@ Drafting .behaviour of the extension when the vscode shuts down:
       Summary:
         Executes the query in the QueryDescription item under the cursor
       Details:
-        Verifies and executes the query, then displays summary when the user issues the ExecuteQuery command.    
+        When the user issues the $@-->...ExecuteQuery<@$ command, verifies and executes the query, then displays summary.
       Draft .Verifies query:  
         - var itemYamlUnderTheCursor = GetItemYamlUnderTheCursor()        
-        - IF (NOT(IsQueryDescription(itemYamlUnderTheCursor))):
+        - IF (NOT IsQueryDescription(itemYamlUnderTheCursor)):
           - Displays error message: "The cursor must be on an Item with type QueryDescription"
           - Stops.
-        - ELSE IF (TryParse<QueryDescription>(itemYamlUnderTheCursor, out var queryDescription)):
-          - Displays error message detailing the problem, pointing to the property which is problematic and describing the problem
-          - Verifies the followings:
-            - Mandatory properties exist (Select, From)
-            - The value of the Select property can be parsed
-            - The value of the From property can be parsed and each link points to a valid location
-          - Stops.
-        - ELSE return: queryDescription
-      Draft .Executes basic query:
+        - ELSE IF (:
+          - NOT TryParseQueryDescription(itemYamlUnderTheCursor, out var queryDescription))
+          - OR NOT VerifyQueryDescription(queryDescription)
+          ):
+            - where VerifyQueryDescription verifies the followings:
+              - Mandatory properties exist (Select, From)
+              - The value of the Select property can be parsed
+              - The value of the From property can be parsed and each link points to a valid location
+            - Displays error message detailing the problem, pointing to the property which is problematic and describing the problem
+            - Stops.
+        - ELSE RETURN: queryDescription
+      Draft .Basic query execution:
         ReqReq: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.."Executes query".."Verifies query"<
         Details:
-          - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.."Executes query".."Verifies query"<@$
+          - var queryDescription: result of $@-->.."Executes query".."Verifies query"<@$
           - var items: getItemsUnderTheLinksIn(queryDescription.From)
           - generates the CSV from the items:
             - creates file header:
               - uses the prefix set in CommentPrefix in front of each header line
-              - writes the header generated by filling in the -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts..CSVHeader< template
+              - writes/updates the header generated by creating or updating a -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts.."ReportHeader"< Item complying with the template in its details
             - creates column headers:
               - uses the Ids or the string after the "as" keyword from the Select property; comma separated
             - creates lines from each Item:
-              - gets the values of the properties specified in the queryDescription.Select property by:
+              - gets the values of the  properties specified in the queryDescription.Select property by:
                 - IF (NOT (the property is present)):
                   - return a null value ($@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts..NullValue<@$)
                 - ELSE IF (the property is empty):
                   - return an empty value ($@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts..EmptyValue<@$)              
                 - ELSE return the property value
               - escapes them
-              - creates a string by concatenating them by using a comma (,) as separator
+              - creates a string by concatenating them by using a comma (,) as separator              
           - writes the CSV into the output file:
             - either to the one specified in the queryDescription.OutputFile or if it's empty or not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
       Draft .Filters by the Where property:
@@ -753,19 +791,19 @@ Drafting .behaviour of the extension when the vscode shuts down:
         Details:
           Displays the message: "Csv generated into OUTPUTFILE"
 
-    Drafting .Writes back from output:
+    Draft .Writes back from output:
       Summary:
         writes the changes FROM the csv to the Items if the cursor is on a Query in the CSV file as comment, which query contains F2Links in its Select part
       Details:
         Executes the parts of this Requirement in the given order when the user issues the WriteBack command.        
-      Drafting .Writes back from output:
+      Draft .Writes back from output:
         ReqReq: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.."Executes query".."Verifies query"<
         Details:
           - IF (NOT (the cursor is in a csv file)):
               displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
-          - gets the query by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts.CSVHeader<@$
-          - verifies the query using: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.."Executes query".."Verifies query"<
-          - IF (NOT (the query contains F2Link in its Select property)):
+          - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.Artifacts.CSVHeader<@$
+          - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV.."Executes query".."Verifies query"<@$
+          - IF (NOT (queryDescription.Select.Any(isF2Link)):
               displays error message: "The Select property must contain F2Links (IDLINK or SUMMARYLINK)"
           - parses the csv into a headerId[columnNo] and csvCellsInLines[rowNo][columnNo] arrays
           - FOREACH (csvLine in csvCellsInLines):
@@ -778,36 +816,63 @@ Drafting .behaviour of the extension when the vscode shuts down:
                 ):
                   - IF (the property with the id headerId[columnNo] does not exist):
                     - create it
-                  - set its value to csvLine[columnNo]                
+                  - set its value to csvLine[columnNo]
+          - displays message "x out of total y Items updated"
     Notes:
       Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
-  Drafting .Replacing F2Links:
-    +: {Id: ReplaceLinks, CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
-    Details:
-      Commands:
-      - MarkF2LinksForReplace:
-        - Command is: "F2Tools.F2Links.MarkToRepl: Mark f2links pointing to this key to be replaced"
-        - Finds all the f2links pointing to it and then displays a message: "x f2links found; issue the CMD_REPLACEMARKEDF2LINKS command when done"
-      - ReplaceMarkedTo:
-        - Command is: "F2Tools.F2Links.ReplaceMarked: Replace marked f2links to point to this key"
-        - for each old link:
-          - Generates a new link:
-            - keeping the structure of the original (in place of Summary, summary; Id-id):
-              - in case of a new parent, keeps it up until it can, starting from the root up until the two paths walk through the same Items, then IdLink.
-            - keeping the escaping (csv/yaml)
-          - replaces the old link with the new one            
-      - ReplaceMarkedToIdLink:
-        - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
-        - Same as ReplaceMarkedTo but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)
-        - Note: with this functionality one can replace all links to IdLinks              
-  Drafting .Various cleanups:
-    +: {Id: Cleanups, CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
-    Drafting .Make F2Links handle 2 or more property values preceding summary in headers:
+  
+  Draft .Various F2Link related upgrades:
+    Id: F2LinkUpgrades
+    +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
+    Draft .Replacing F2Links:
+      +: {Id: ReplaceLinks, CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
       Details:
-        Such as:
+        Draft .MarkF2LinksForReplace:
+          Details:
+          - Command is: "F2Tools.F2Links.MarkToRepl: Mark f2links pointing to this key to be replaced"
+          - Finds all the f2links pointing to it and then displays a message: "x f2links found; issue one of the F2Tools.F2Links.Replace* commands when done"
+        Draft .ReplaceMarkedTo:
+          Details:
+          - Command is: "F2Tools.F2Links.ReplaceMarked: Replace marked f2links to point to this key"
+          - for each old link:
+            - Generates a new link:
+              - keeping the structure of the original (in place of Summary, summary; Id-id):
+                - in case of a new parent, keeps it up until it can, starting from the root up until the two paths walk through the same Items, then IdLink.
+              - keeping the escaping (csv/yaml)
+            - replaces the old link with the new one            
+        Draft .ReplaceMarkedToIdLink:
+          Details:
+          - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
+          - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
+    Draft .Make F2Links handle 2 or more property values preceding summary in headers:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 015637, By: Bobi}
+      Details:
+        - Such as a link to the below key should not contain the "3-Average Must Done " part:
           3-Average Must Done .My Item summary:
-            Details:
-              lorem ipsum
-    
+        - Do it by checking whether there's a word starting with a "."(dot) in the key, if there is, remove all words in front of it while generating the link        
+    Draft .Support for local f2links:
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
+      Summary:
+        Support for links which only contain the last part of the full path (F2LocalLink in the F2Links.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
+      Details:        
+        Update -->...ReplaceLinks< to support this as well
+    Draft .Support for filepath-only F2Links:
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014710, By: Bobi}
+      Summary:
+        Support for links which only contain the filepath part; both generation and following. For example: -->Documents\Requirements\F2ToolsExtension\<
+  ReadyForDev .Proper Text output support:
+    Id: TextOutput
+    +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014700, By: Bobi}
+    Summary:
+      - to some VS Code Output for both debugging and messaging purposes
+      - setting for output verbosity
+      - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display
+    Details:
+      Output verbosity setting:
+        name: Output Verbosity
+        options: [None, Information, Verbose, Debug]
+        
+        
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

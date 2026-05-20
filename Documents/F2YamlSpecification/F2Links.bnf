@@ -1,12 +1,14 @@
-Link ::= "-->" <FilePath> <YamlPath> "<"
-FilePath ::= (<FilePathPart> "\\")*
-FilePathPart ::= +<AllowedFileCharacters>+
-YamlPath ::= <YamlPathPart>*
-YamlPathPart ::= "." (<PropertyIdentifier> | ("." <ItemIdentifier>))
-PropertyIdentifier ::= <IdentifierChar>+
-ItemIdentifier ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary>
-ItemIdentifierWithId ::= <IdentifierChar>+
-ItemIdentifierWithGUID ::= "{" <GUID> "}"
+F2Link                    ::= F2LocalLink | F2FullLink
+F2LocalLink               ::= "-->." <YamlPath> "<" 
+F2FullLink                ::= "-->" <FilePath> <YamlPath> "<"
+FilePath                  ::= *(<FilePathPart> "\\")*
+FilePathPart              ::= +<AllowedFileCharacters>+
+YamlPath                  ::= <YamlPathPart>*
+YamlPathPart              ::= "." (<PropertyIdentifier> | ("." <ItemIdentifier>))
+PropertyIdentifier        ::= +<IdentifierChar>+
+ItemIdentifier            ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary>
+ItemIdentifierWithId      ::= +<IdentifierChar>+
+ItemIdentifierWithGUID    ::= "{" <GUID> "}"
 ItemIdentifierWithSummary ::= '"' <Text> '"'
 
 IdentifierChar ::= // so the characters: A-Za-z0-9_-

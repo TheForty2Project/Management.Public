@@ -37,7 +37,7 @@ InProgress .Decision Formalization:
   InProgress .Decision formalization article:
     Note: this is the first prio from the articles
     Done .Formalization basics:
-      +: { CreatedBy: Bobi, CreatedAt: 20250620 T 111642, By: everyone, Responsible: Bobi }
+      +: { CreatedBy: Bobi, CreatedAt: 20250620 T 111642, By: [Bobi, everyone]}
       Comments:
         Bobi: Hana is saying that this might exist in backlog - so Hana to check
     TODO .Decision-making deepdive:

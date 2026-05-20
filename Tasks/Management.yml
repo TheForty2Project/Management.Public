@@ -398,7 +398,9 @@ InProgress .Plan the next Milestones:
     Details:
       - Collect features
       - Write Requirements:
-          
+        - -->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<
+        - -->Tasks\Miscellaneous\..BA..F2Tools..F2LinkUpgrades<
+        - -->Tasks\Miscellaneous\..BA..F2Tools..TextOutput<
       - Taskify them
       - Estimate them
       - Choose the bugs (and estimate them)      

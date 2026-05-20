@@ -23,7 +23,7 @@ OnGoing .BusinessAnalysis:
       Id: QueryBasedCSV
       +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: [Bobi, Hana]}
       Details:
-        - Work into: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
+        - Work into: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
         - Reach the ReadyForDev status (including a review with Hana)
       Done .Create Draft:
         +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
@@ -33,7 +33,7 @@ OnGoing .BusinessAnalysis:
       Id: F2LinkUpgrades
       +: {CreatedBy: Bobi, CreatedAt: 20260520 T 153759, By: [Bobi,Hana], Estimation: 120, RemTime: 20}
       Details:
-        - work into -->Documents\Requirements\F2ToolsExtension\..Phase2..F2LinkUpgrades<
+        - work into -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades<
         - Reach the ReadyForDev status (including a review with Hana)
       Done .Create Draft:
         +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
@@ -43,7 +43,7 @@ OnGoing .BusinessAnalysis:
       Id: TextOutput
       +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161853, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
       Details:
-        Work into -->Documents\Requirements\F2ToolsExtension\..Phase2..TextOutput<
+        Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:

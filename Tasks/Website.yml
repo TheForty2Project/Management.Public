@@ -5,7 +5,7 @@ Closed .Minimal:
 Done .Initial Website:
   Id: WebsiteBasic
   Done .Transfer and/or create access for Shadow for the tf2p.org website infrastructure:
-    +: { CreatedBy: Bobi, CreatedAt: 20250329T1836, By: Bobi, Responsible: Bobi }
+    +: { CreatedBy: Bobi, CreatedAt: 20250329T1836, By: Bobi}
     Id: AccessToCloudflare
     Estimation: 2h
     ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic< 
@@ -15,7 +15,7 @@ Done .Initial Website:
       - [ Bobi, 30m, "retrieved pwd + logged in", 20250425 T 1530 ]
       - [ Hana, 30m, "retrieved pwd + logged in", 20250425 T 1530 ]        
   Done .Set up Cloudflare and upload the basic website:
-    +: { CreatedBy: Bobi, CreatedAt: 20250329T1841, By: [ Bobi, Shadow ], Responsible: Shadow }
+    +: { CreatedBy: Bobi, CreatedAt: 20250329T1841, By: [ Shadow, Bobi ]}
     Id: SetUpOnCloudflare
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Infrastructure.."Basic"<
   Done .Create basic website architecture:
@@ -32,7 +32,7 @@ Done .Initial Website:
       WorkLog:
         - [ Utkarsh, 120m, "landing page and other pages except roadmap and dynamic one", 20250313 ]
   Done .Decide how exactly we should be handling the "deepdive" section:
-    +: { CreatedBy: Bobi, CreatedAt: 20250331 T 223037, Responsible: Bobi, By: Hana, Gaurav, Shadow, Bobi }
+    +: { CreatedBy: Bobi, CreatedAt: 20250331 T 223037, By: [Bobi, Hana, Gaurav, Shadow]}
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."DeepDive pages"<
     Details:
       - so there's the idea that we just lead them to a github page with the yamls
@@ -42,7 +42,7 @@ Done .Initial Website:
       - what we decided was - on the call - that we should be uploading the yamls to the site with the converter stuff
   Paused .Upload the video to Youtube:
     Id: UploadVideoToYoutube
-    +: { CreatedBy: Bobi, CreatedAt: 20250405 T 185050, Responsible: Bobi, By: All }
+    +: { CreatedBy: Bobi, CreatedAt: 20250405 T 185050, By: [Bobi, everyone] }
     Details:
       Drive link: https://drive.google.com/file/d/1zuFrLnRloiXQXtyMDBGF2rmoz2Kzf3Se/view?usp=drive_link
   Done .Develop the site elements for the Basic site:
@@ -133,7 +133,7 @@ Done .Initial Website:
 
               We're starting small, iteratively optimising our cooperation abilities, aiming to switch Earth on."
         Done Discuss it with the team:
-          +: { CreatedBy: Bobi, CreatedAt: 20250405 T 184629, Responsible: Bobi, By: All }
+          +: { CreatedBy: Bobi, CreatedAt: 20250405 T 184629, By: [Bobi, everyone] }
       Done .Finalize the video content:
         +: { CreatedBy: Bobi, CreatedAt: 20250331T1928, By: Bobi }
         ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary Video"<

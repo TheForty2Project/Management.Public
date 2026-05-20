@@ -1,6 +1,11 @@
 +: {Type: Folder, DefaultTypes: [Task, Bug, Folder]}
 
-Tasks:
+OnGoing .Taskify the requirements:
+  Id: TaskifyReqs
+  +: {CreatedBy: Bobi, CreatedAt: 20260520 T 165338}
+  Details:
+    - create a subtask for each requirement taskification and log your time on it
+Tasks:  
   Closed .Create the F2ToolsExtension:
     By: Gaurav
     Estimation: 15m                    
@@ -59,7 +64,7 @@ Tasks:
       -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<
   Closed Basic:
     Id: Basic
-    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav, Responsible: Gaurav } 
+    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav } 
     WorkLog:
       - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
       - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
@@ -71,14 +76,14 @@ Tasks:
       - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
     InProgress .WorkLog generation:
       Id: WorklogCreation
-      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav, Responsible: Gaurav }
+      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav }
       WorkLog:
         - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
         - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
       TODO .Create a feature that marks the StandupReport as alreadyprocessed after the worklog is generated from it:
         +: { CreatedBy: Hana, CreatedAt: 20250523 T 111704, By: Gaurav }
     InProgress .Fix Bugs:
-      +: { CreatedBy:, CreatedAt:, ForRequirement:, Estimation:, By:, Responsible: }
+      +: { CreatedBy:, CreatedAt:, ForRequirement:, Estimation:, By:}
       Details:
       Result:
       Notes:
@@ -99,8 +104,8 @@ Tasks:
       - [ Gaurav, 34m, "researching for the link functionality", 20250327 ]
   Closed .Merge the VSIX-es together:
     +: { CreatedBy: Hana, CreatedAt: 20250510 T 1140, By: Gaurav }
-  Done .Publish the VSIX on VSCode marketplace:
-    +: { CreatedBy: Hana, CreatedAt: 20250510 T 141928, By: [ Gaurav, Bobi ], Responsible: Gaurav }
+  Closed .Publish the VSIX on VSCode marketplace:
+    +: { CreatedBy: Hana, CreatedAt: 20250510 T 141928, By: [ Gaurav, Bobi ]}
   Closed .Detect if the cursor is on a Task and show error if not:
     Details: When issuing the "Select Task" command, the extension should detect if the user's text cursor is over a Task or not; if not, an error popup should be displayed.
   Closed .Create the CSV Entry Generation functionality:
@@ -108,13 +113,6 @@ Tasks:
     ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."CSV Task List Tools".."CSV Entry generation"<
     Comments:
       - bobi: message me pls if there are questions even if I don't seem to be at the computer, I'll try to answer
-  InProgress .Create a stop task command feature that is executed when VS Code is shutting down:    
-    +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: Gaurav }
-    WorkLog:
-      - [ bobi, 45m, "creating the requirement", 20250308 ]
-      - [ Gaurav, 10m, "Was reading the requirements to get a overview of things", 20250328 ]
-      - [ Gaurav, 101m, "reached to the conclusion that yml parsing is a must", 20250329 ]
-      - [ Gaurav, 12m, "refactoring and testing", 20250528 T 143438 ] 
   Done .Consolidate the requirements of the F2Tools extension as of 20250618:
     Id: F2ToolsConsolidation20250618
     +: {CreatedBy: Bobi, CreatedAt: 20250618 T 163248, By: Gaurav}
@@ -134,22 +132,25 @@ Tasks:
       +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     Done .Cleaning up the remaining Bugs in VSIX:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
-    Done .Update readme:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
-    TODO .Create License for VSIX:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: [60m, "timeboxed"]}
-  OnGoing .Enhancements:
-    TODO .Time tracking should generate Id based F2Links, not Summary ones.:
-      +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
-      Comments:
-        - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
-    TODO .QueryDescription based CSV report generation:
-      +: {Id: QueryBasedCSV, CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
-      Notes:
-        - 
-
-        
+    Done .Update readme:      
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
+  TODO .Create a stop task command feature that is executed when VS Code is shutting down:
+    Requirement: -->Documents\Requirements\F2ToolsExtension\.."Time tracking should stop when VS Code shuts down"<
+    +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: Gaurav }
+    WorkLog:
+      - [ bobi, 45m, "creating the requirement", 20250308 ]
+      - [ Gaurav, 10m, "Was reading the requirements to get a overview of things", 20250328 ]
+      - [ Gaurav, 101m, "reached to the conclusion that yml parsing is a must", 20250329 ]
+      - [ Gaurav, 12m, "refactoring and testing", 20250528 T 143438 ] 
+  TODO .Time tracking should generate Id based F2Links, not Summary ones.:
+    Requirement: -->Documents\Requirements\F2ToolsExtension\.."Time tracking should generate Id based F2Links, not Summary ones."<
+    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
+    Comments:
+      - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
+  TODO .QueryDescription based CSV report generation:
+    Id: QueryBasedCSV
+    +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
   OnGoing .Publication to marketplace:
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
@@ -157,6 +158,13 @@ Tasks:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 191500, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
     Done .Write initial readme.md:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
+    TODO .Create proper readme:
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
+    TODO .Create License:
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: 60, RemTime: 60}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."License"<
     Done .V2.0.25:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V2.0.26:

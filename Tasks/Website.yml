@@ -354,17 +354,17 @@ Done .Phase1:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 134109, By: Shadow }
     Cancelled .Create ToC for Deepdive:
       +: { CreatedBy: Hana, CreatedAt: 20250721 T 184222, By: Shadow }
-InProgress .Back to original:
+Done .Back to original:
   Id: BackToOrigi
   Done .Work this Task out:
     Details:
       Base it on:
         - $@-->!PublicWorkspaces\Hana\Websiterephase1\.."Reorganize the -->Backlog\Development\..Website<"<@$:
       Make sure that these are also included:
-        -->Tasks\Website\.."Phase1".."Deepdive section development"<:
-        -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Phase2".."SupportUs page".."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo".."BuyUsACoffee"<:
-        -->Tasks\Website\.."Phase1".."Redesign the website Version 2"<:
-        -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided"<:
+        -->Tasks\Website\.."Deepdive section development"<:
+        -->Tasks\Website\..Improvements..JoinMission.."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo"<:
+        -->Tasks\Website\.."Redesign the website Version 2"<:
+        -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided"<:
       Include:
         - old engine with new design
         - revised content
@@ -480,12 +480,12 @@ InProgress .Back to original:
       Blocked .Product descriptions section:
       Blocked .Videos (or link to youtube) section:
     Blocked .Apply design:
-  InProgress .Do intermediate solution:
+  Done .Do intermediate solution:
     Id: Intermediate
     Details:
       - The Shadow website links to the OriginalConcept one
       - We're gradually moving all content from the Shadow one to the OriginalConcept
-    InProgress .Create the OriginalConcept site:
+    Done .Create the OriginalConcept site:
       Id: CreateSite
       +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004837, By: Bobi, Tags: }
       Done .Have the concept:
@@ -496,7 +496,7 @@ InProgress .Back to original:
         Done .Try it out in VS Code:
       Done .Decide what we want on the site:
         Details: basically the result of -->Tasks\Website\.."Back to original".."Agree on the parts and the design with the team on a meeting"<
-      InProgress .Implement:
+      Done .Implement:
         Done .Generate site structure:
           Details:
             - top menu
@@ -636,239 +636,192 @@ InProgress .Back to original:
           Done .Review phase1 structure:
             +: {CreatedBy: Bobi, CreatedAt: 20251128 T 022154, By: [Bobi, Hana], Tags: }
           Done .Implement phase1 structure:
-        InProgress .Implement the non-deepdive pages:
-          Id: NonDD
-          Done .Phase1:
-            Done .Create the Big Summary page AND remove unnecessary menu items:
-              +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151628, By: Bobi}
+        Done .Implement the Phase1 non-deepdive pages:
+          Id: NonDD          
+          Done .Create the Big Summary page AND remove unnecessary menu items:
+            +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151628, By: Bobi}
+            Details:
+              - Try making it short.
+              - Include:
+                - the who we are looking part - so you need to be cooperative, helping any bugs you encounter
+                - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"
+            Done .Remove the "Updates" and "Articles" menu items (we can add them back later):
+              +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194723, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+              Result:
+                Disabled them.
+            Done .Write the baseline:
+              +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194739, By: Bobi, Tags: [CSVDONE], Estimation: "80", RemTime: "0"}
+              Workspace:
+                History:
+                  - we're developing the system, we started 
+                Plan:                 
+          Done .Create Watch page:
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
+            Done .Create baseline:
+              Id: Baseline
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE]}
               Details:
-                - Try making it short.
-                - Include:
-                  - the who we are looking part - so you need to be cooperative, helping any bugs you encounter
-                  - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"
-              Done .Remove the "Updates" and "Articles" menu items (we can add them back later):
-                +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194723, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-                Result:
-                  Disabled them.
-              Done .Write the baseline:
-                +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194739, By: Bobi, Tags: [CSVDONE], Estimation: "80", RemTime: "0"}
-                Workspace:
-                  History:
-                    - we're developing the system, we started 
-                  Plan:                 
-            Done .Create Watch page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143440, By: Bobi, Tags: [OCWSPhase1]}              
-              Done .Create baseline:
-                Id: Baseline
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE]}
-                Details:
-                  - stream and/or video links (youtube, twitch)
-                  - we'll put some videos probably later
-              Done .Review:
-                Id: Review
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
-                Done .Figure out the content - without the links:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
-                  Id: Content
-                  Workspace:
-                    Things to include:
-                      Stream on Twitch:                    
-                        TF2P:
-                          Link: 
-                            Description:
-                            - Meetings - standup, planning, retrospective
-                            - Talks and discussions about project related topics, even if just losely
-                            - The "interesting" topics will be streamed from here
-                        Bobi:
-                          Link:
-                          Description:
-                            Watch me work and ask questions:
-                            - Development: The F2Tool and everything else
-                            - Management
-                            - Core concepts and decisions
-                        Hana:
-                          Link:
-                          Description:
-                            Watch me work:
-                            - Management and Administration
-                            - Health (helping members function physically and mentally)                    
-                      Youtube:
-                        - Link: coming soon
-                        - Description:
-                          - Podcast-style talks about more "interesting" topics. 
-                      Reddit:
-                        - Link: coming soon
-                        - Description: 
-                          - Articles, discussions - basically the podcast topics, just in a text form.
-                      X:
-                        - Link: coming soon
-                    Menu structure:
-                      - no menu.                  
-                  Result:
-                    See in -->Documents\WebsiteContent\Watch\Watch\.Overview<
-                Done .Get the links:
-                  Id: Links
-                  +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
-                  Details:
-                    Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
-                  Done .Twitch:
-              Done .Finalize and publish:
-                Id: Publish
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
-                Details:
-                  Including creating the menu structure
-            Done .Create Contact page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [OCWSPhase1]}
-              Done .Create baseline ideas:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVDONE]}
-                Workspace:
-                  - email addresses
-                  - Twitch
-                  - Discord
-              Done .Review it:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+                - stream and/or video links (youtube, twitch)
+                - we'll put some videos probably later
+            Done .Review:
+              Id: Review
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+              Done .Figure out the content - without the links:
+                +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
+                Id: Content
                 Workspace:
                   Things to include:
-                    Overview:
-                      - Reiteration that:
-                        - purpose of this stage is to show how we do things and answer questions of those who want to understand deeper                        
-                      - Feel free to ask questions in our Discord channel or during watching our streams
-                      - Emails are for "more serious" 
-                    Contacts:
-                      Discord: 
-                        Invite link: LoremIpsum.LinkToBeGenerated
+                    Stream on Twitch:                    
+                      TF2P:
+                        Link: 
+                          Description:
+                          - Meetings - standup, planning, retrospective
+                          - Talks and discussions about project related topics, even if just losely
+                          - The "interesting" topics will be streamed from here
+                      Bobi:
+                        Link:
                         Description:
-                          Please use this as the primary method of contacting us
-                      Twitch:
-                        todoInviteLink
-                      Emails:
+                          Watch me work and ask questions:
+                          - Development: The F2Tool and everything else
+                          - Management
+                          - Core concepts and decisions
+                      Hana:
+                        Link:
                         Description:
-                          For more serious questions, contributions, etc.
-                        Addresses:
-                          General questions: questions@tf2p.org
-                          Members:
-                            Bobi: bobi@tf2p.org
-                            Hana: hana@tf2p.org
+                          Watch me work:
+                          - Management and Administration
+                          - Health (helping members function physically and mentally)                    
+                    Youtube:
+                      - Link: coming soon
+                      - Description:
+                        - Podcast-style talks about more "interesting" topics. 
+                    Reddit:
+                      - Link: coming soon
+                      - Description: 
+                        - Articles, discussions - basically the podcast topics, just in a text form.
+                    X:
+                      - Link: coming soon
+                  Menu structure:
+                    - no menu.                  
                 Result:
-                  See in -->Documents\WebsiteContent\Contact\Contact\.Contacts<                
-              Done .Implement, finalize and publish:
-                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+                  See in -->Documents\WebsiteContent\Watch\Watch\.Overview<
+              Done .Get the links:
+                Id: Links
+                +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
                 Details:
-                  Including creating the menu structure
-                Done .Provide the links into the document:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-                  Details: -->Documents\WebsiteContent\Contact\Contact\.Contacts<
-                Done .Final touches and generation:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
-            Done .Create SupportUs page:
-              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
+                  Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
+                Done .Twitch:
+            Done .Finalize and publish:
+              Id: Publish
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
               Details:
-                Just some text explaining what will be here
-              Done .Rename "Support" to something less confusing:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
-                Done .Try finding something better than "Support us":
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-                  WorkSpace:
-                    Other names:
-                      - Help us Build
-                      - Make it possible
-                      - Fuel the work
-                      - Build with us/contribute 
-                      - Join the mission
-                      - COntribute
-                      - Participate
-                      - Engage
-                      - Collaborate
+                Including creating the menu structure
+          Done .Create Contact page:
+            +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161548, By: [Bobi, Hana], Tags: [OCWSPhase1]}
+            Done .Create baseline ideas:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143326, By: Bobi, Tags: [CSVDONE]}
+              Workspace:
+                - email addresses
+                - Twitch
+                - Discord
+            Done .Review it:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143339, By: [Hana,Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+              Workspace:
+                Things to include:
+                  Overview:
+                    - Reiteration that:
+                      - purpose of this stage is to show how we do things and answer questions of those who want to understand deeper                        
+                    - Feel free to ask questions in our Discord channel or during watching our streams
+                    - Emails are for "more serious" 
+                  Contacts:
+                    Discord: 
+                      Invite link: LoremIpsum.LinkToBeGenerated
+                      Description:
+                        Please use this as the primary method of contacting us
+                    Twitch:
+                      todoInviteLink
+                    Emails:
+                      Description:
+                        For more serious questions, contributions, etc.
+                      Addresses:
+                        General questions: questions@tf2p.org
+                        Members:
+                          Bobi: bobi@tf2p.org
+                          Hana: hana@tf2p.org
+              Result:
+                See in -->Documents\WebsiteContent\Contact\Contact\.Contacts<                
+            Done .Implement, finalize and publish:
+              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143447, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+              Details:
+                Including creating the menu structure
+              Done .Provide the links into the document:
+                +: {CreatedBy: Bobi, CreatedAt: 20260408 T 132939, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+                Details: -->Documents\WebsiteContent\Contact\Contact\.Contacts<
+              Done .Final touches and generation:
+                +: {CreatedBy: Bobi, CreatedAt: 20260408 T 133535, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
+          Done .Create SupportUs page:
+            +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
+            Details:
+              Just some text explaining what will be here
+            Done .Rename "Support" to something less confusing:
+              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
+              Done .Try finding something better than "Support us":
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+                WorkSpace:
+                  Other names:
+                    - Help us Build
+                    - Make it possible
+                    - Fuel the work
+                    - Build with us/contribute 
+                    - Join the mission
+                    - COntribute
+                    - Participate
+                    - Engage
+                    - Collaborate
+                Result:
+                  \"Join the mission" is the one chosen
+              Done .Rename it:
+                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "0"}
+            Done .Create content about what will be here:
+              +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
+              Done .Create baseline ideas:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
+                Workspace:
+                  - Work: 
+                      - we're preparing the processes so that you can:
+                        - pick a Task
+                        - clarify it
+                        - do it
+                        - edit it (including setting it to "Done")
+                        - report your hours
+                      - at the moment, if you want to work, please contact us with your idea and/or which Task(s) do you think you could do
+                  - Invest/Support:
+                    - we're planning this to be an investment, at the moment the assurances are just our promises though
+                    - we'll need proper:
+                      - accounting (including that it's trusted)
+                      - finance processes, including the F2FinanceHelper (see the requriments)
+                    - this is not "now"  
+              Done .Work it out:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
+                Workspace:
+                  Content points:
+                  - Explain that this is mostly "coming soon"
+                  - What is planned here, what are the goals
+                  - If you insist, these are the ways
+                  Content:
+                    Overview:
+                      This section is about providing the information needed for anyone interested in eiter being part of the system or investing into it.                         
+
+                    At this initial stage being able to join is still "coming soon": 
+                      The Tasks about developing the necessary processes - the steps one needs to perform - are still pending; the resulting processes should enable new members to be able to work effectively and give some guarantees that one would receive the fair share (proportional to the value of their contribution/investment) of the value generated (~profit).
+
+                    If you're very interested though: please write us an email, explaining your understanding of the project and how you would like to help or contribute.
+                    
+                    A reminder, our aim is to create the largest possible community where: We work together, compute our decisions and share fairly.
                   Result:
-                    \"Join the mission" is the one chosen
-                Done .Rename it:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154448, By: Bobi, Tags: [CSVDONE], Estimation: "5", RemTime: "0"}
-              Done .Create content about what will be here:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155652, By: [Bobi, Hana]}
-                Done .Create baseline ideas:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143550, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
-                  Workspace:
-                    - Work: 
-                        - we're preparing the processes so that you can:
-                          - pick a Task
-                          - clarify it
-                          - do it
-                          - edit it (including setting it to "Done")
-                          - report your hours
-                        - at the moment, if you want to work, please contact us with your idea and/or which Task(s) do you think you could do
-                    - Invest/Support:
-                      - we're planning this to be an investment, at the moment the assurances are just our promises though
-                      - we'll need proper:
-                        - accounting (including that it's trusted)
-                        - finance processes, including the F2FinanceHelper (see the requriments)
-                      - this is not "now"  
-                Done .Work it out:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143553, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "40", RemTime: "0"}
-                  Workspace:
-                    Content points:
-                    - Explain that this is mostly "coming soon"
-                    - What is planned here, what are the goals
-                    - If you insist, these are the ways
-                    Content:
-                      Overview:
-                        This section is about providing the information needed for anyone interested in eiter being part of the system or investing into it.                         
-
-                      At this initial stage being able to join is still "coming soon": 
-                        The Tasks about developing the necessary processes - the steps one needs to perform - are still pending; the resulting processes should enable new members to be able to work effectively and give some guarantees that one would receive the fair share (proportional to the value of their contribution/investment) of the value generated (~profit).
-
-                      If you're very interested though: please write us an email, explaining your understanding of the project and how you would like to help or contribute.
-                      
-                      A reminder, our aim is to create the largest possible community where: We work together, compute our decisions and share fairly.
-                    Result:
-                      See in -->Documents\WebsiteContent\Support\Support\.Overview<
-                Done .Finalize and publish:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
-          InProgress .Phase2:
-            InProgress .SupportUs page:
-              +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [OCWSPhase2]}
-              Estimation: 4h
-              InProgress .BuyUsACoffee:
-                +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [OCWSPhase2]}
-                Done .Research :
-                  +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVDONE]}
-                InProgress .Set up the account:
-                  +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags:}
-                  TODO .Create a bio for the account:
-                    +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [ OCWSPhase2], Estimation: 30}                    
-                    TODO .Create a baseline:
-                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVDONE]}
-                    TODO .Review it with the team:
-                      +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVDONE]}             
-                    TODO .Finalize and upload it:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVDONE]}
-                  Done .Add the payment info:
-                    Done .Create a stripe account:
-                      By: Hana
-                    Done .Fight it through with fucking support and solve the issue:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVDONE, OCWSPhase1]}
-                      Estimation: 2h
-                      Details:
-                        "This stripe connection is already in use, please choose another one"
-                      Result:
-                        Solved through creating a new account
-                  Done .Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags:}
-                    Done .Stripe:
-                    Done .BuyUsACoffee:
-                    Result:
-                      For both we use 1 credential
-                NEXT .Implement:
-                  +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "30"}                
-                  Details:
-                    Integrate their embeddable into the support page
-              TODO .Crypto:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Estimation:, RemTime:}
-                TODO .Resurrect Monero:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
-                TODO .Decide do we need anything else:
-                  +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                  
-              TODO .Placeholder for further tasks:
-                +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+                    See in -->Documents\WebsiteContent\Support\Support\.Overview<
+              Done .Finalize and publish:
+                +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143606, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}          
           Done .Disable/remove the ones planned later/not planned:
       Done .Create a new repository for the new set of yamls:
         +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162459, By: Bobi, Tags: [CSVDONE, OCWSPhase1,], Estimation: "15"}
@@ -888,13 +841,13 @@ InProgress .Back to original:
           +: {CreatedBy: Bobi, CreatedAt: 20260112 T 225700, By: Bobi, Tags: , Estimation: "16", RemTime: "0"}
         Done .Create the knots files and their content for it:
           +: {CreatedBy: Bobi, CreatedAt: 20260130 T 223353, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
-      InProgress .Clean, create or migrate the yamls:
+      Done .Clean, create or migrate the yamls:
         Id: CreateYamls
         Details:
           - According to the structure here: -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement".."Revise the ToC"<
-        InProgress .Write content for the leaves:
+        Done .Write content for the leaves:
           Id: Leaves
-          InProgress .Learn to Dive:
+          Done .Learn to Dive Phase1:
             Id: LearnToDive
             Done .Overview:
               Importance: 5-VeryHigh
@@ -921,91 +874,7 @@ InProgress .Back to original:
               Done .Finalize and release:
                 Id: Finalize
                 +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162537, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "20", RemTime: "20"}
-            InProgress .Syntax:
-              Id: Syntax
-              +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "180", RemTime: "60"}
-              Importance: 5-VeryHigh
-              Details:
-                - only the most important things
-                - ideally in a short summary
-                - refer to -->.."The Abyss".."Documents".."Specifications".."Barba.Types"<
-              Workspace: 
-                Intro: |
-                  It was a key consideration during the design of the language to make it as easy to read and handle for humans as possible, also, to be able to use widely available software for handling/displaying the f2yaml documents, still, making it relatively easy to process by computer algorithms. F2yaml therefore is based on yaml - i.e. f2yaml documents are also yaml documents - and the syntax is quite loose, allowing the user to express the same thing in multiple ways.
-
-                  Information is stored in entities we call "Items" of various kinds, such as Tasks, Requirements, Articles. Each Item is basically a dictionary - as in a collection of key+value pairs - with some "syntax sugars" to make things easier to read/write.
-                  If you have basic object oriented programming knowledge, you can think of Items as instances of objects and we use similar concepts and terminology here - such as the "key"-s are called properties, there's inheritance, we refer to the definition of Items as classes (we call them ClassDescriptions).
-
-                  For example a Task stores information about something which needs to be performed, such as one about cooking a meal could look like:
-                    InProgress Cook a succulent chinese meal:
-                      Type: Task
-                      CreatedBy: Hana
-                      By: Bobi
-                      Details: Make it spicy and dishwashing included! Love, Hana
-                      CreatedAt: 2025-12-03                                           
-                  Here the "CreatedBy" (and the rest in light blue) are properties written in a standard way, the "TODO" and "Cook a succulent chinese meal" parts are values of special properties - the "Status" and "Summary" ones in particular; the syntax sugars.
-
-                  Item kinds and their structure can be freely defined by the user - so for example we could create a "Recipe" type of Item containing the instructions about how to make "Bobi's sludge":
-                    Bobi's sludge:
-                      Type: Recipe
-                      Details: A very easy to digest, gut healing, SIBO friendly but still tasty strawberry-vanilla meal-replacement ice-cream
-                      Ingredients:
-                        - 700g frozen!!! strawberries
-                        - 200g dextrose
-                        - 350ml yogurt
-                        - 60g coconut fat
-                        - 60g hydrolized whey powder
-                        - 20g l-glutamine powder
-                        - 15g partially hydrolized guar gum
-                        - 350ml water
-                        - optional: vanilla for flavor if the whey powder is unflavored
-                      Instructions: |
-                        1: add everything in a large bowl
-                        2: mix it with a hand blender for ~3 minutes until it becomes a bit whipped
-                        3: store it in the freezer - but best before it fully freezes (otherwise microwave it a little)          
-                      Notes:
-                        - high protein content supporting an active lifestyle; hydrolized = pre-digested
-                        - dextrose instead of table sugar for digestibility and inflammation reduction
-                        - l-glutamine for restoring gut lining
-                        - phgg for feeding the beneficial bacteria in the right place
-                        - yogurt for supplying some beneficial bacteria
-                        - coconut fat: one of the easiest to digest fats; for energy and lowering glycemic load
-                        - strawberries: low sugar; provides texture and taste + antioxidants
-
-                  The Item definition (we call it Class Description) for the above would look like the following - which is also an Item:
-                  
-                    Recipe:
-                      Inherits: Item
-                      Details: this defines the Item type "Recipe"
-                      Type: ClassDescription
-                      Properties:
-                        - PropertyId: Ingredients
-                          PropertyType: string 
-                          IsList: true
-                        - PropertyId: Instructions
-                          PropertyType: string
-                          IsList: false
-
-                  Explanation:
-                    - "Inherits: Item": on top of the properties defined in this ClassDescription it include the properties defined in Item - such as "Type" and "Details"; quite handy if we do not want to always re-define commonly used properties
-                    - "Details:...": the details (this property is actually defined in Item)
-                    - "Type: ClassDescription": this Item is a ClassDescription, used to define other items (also defined in Item)
-                    - "Properties: ...": each list entry defines one of the properties of the Recipe Item
-                    - "PropertyId: ...": the name (id) of the property
-                    - "PropertyType: string": the type of the property is "string"; for non-programmers: this means that it can hold some text (Number would mean it should be a number, Boolean would mean its either "true" or "false", etc.)
-                    - "IsList: true": the property is a list
-
-                Now some commonly used notations:
-                  Note: 
-                    - For the (hopefully or at least soon) complete syntax please check the -->F2YamlSpecification<.
-                    - For the definition of the Items used throughout The Abyss see the -->System.Types< and --><
-
-                  <Status> <Summary> as header:
-
-                  Preceding "." as child Item: TODO
-                  Plus sign as property id: TODO
-                  F2Links: TODO        
-          InProgress .The Abyss:
+          Done .The Abyss:
             Done .Tasks:
               Done .Software Development:
                 Done .The F2Tool:
@@ -1036,7 +905,7 @@ InProgress .Back to original:
                   Importance: 3-Average
               Done .Management:
                 Importance: 4-High
-            InProgress .Documents:
+            Done .Documents:
               Done .Articles:
                 +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi}
                 Importance: 4-High
@@ -1055,8 +924,8 @@ InProgress .Back to original:
                   +: {CreatedBy: Bobi, CreatedAt: 20260330 T 175332, By: Bobi, Tags: [OCWSPhase1], Estimation: "10", RemTime: "0"}
               Done .Processes:
                 Importance: 4-High
-              InProgress .Specifications:
-                InProgress .F2Yaml:
+              Done .Specifications:
+                Done .F2Yaml:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [OCWSPhase2]}
                   Done .Plan:
                     Result:
@@ -1074,25 +943,6 @@ InProgress .Back to original:
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
                       - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
-                  TODO .Overview:
-                    TODO .Summary:
-                      TODO .Create a ToC like thing from this:
-                        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
-                        Details:
-                          - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
-                  TODO .Specifics:
-                    TODO .BelongsTo:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                    TODO .InternalId:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                    TODO .Workspace and Command Line differences:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                    TODO .The dot notation:
-                      +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                  TODO .Review and organize the rest:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-                  TODO .F2Link:
-                    +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
                 Done .Barba.Types:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
@@ -1214,25 +1064,14 @@ InProgress .Back to original:
           Done .Write the actual content:
         Done .Upload the phase1 yamls:
           +: {CreatedBy: Bobi, CreatedAt: 20251203 T 163444, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "30"}
-      NEXT .Manually create the yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}
-        Details:
-          Go through the f2yaml links and replace them with html ones.
-          Bobi should show it first
-      NEXT .Generate the yaml links automatically:
-        +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}
-    InProgress .Shadow site todos:
-      +: {CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
+    Done .Shadow site todos:
+      +: {Id: ShadowsSite, CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
       Done .Revise the homepage:
-      OnHold .Revise the other pages:
-        +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
-        Comments:
-          [Bobi, 20251202, "Onhold because we might just move everything to the OriginalConcept site"]
       Done .Change the "Building fair systems through Collaboration" to the one we decided:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVDONE], Priority: 5-VeryHigh}
         Details:
           - To "Work optimally and share fairly through computed management".
-          - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Shadow site todos".."Change the "Building fair systems through Collaboration" to the one we decided"<
+          - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided"<
         Done .Change it in the title bar:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"0"}
       Done .Integrate Shadow's site with the Deepdive one:
@@ -1253,25 +1092,14 @@ InProgress .Back to original:
             Build: npm run build 
             Login: npx wrangler login
             Deploy: npx wrangler pages deploy out --project-name=tf2p-project-wrang
-      TODO .Move the top menu items to the left:
+      Done .Move the top menu items to the left:
         +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163406, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
         Importance: Could
         Estimation: 10m
       Done .Remove the "TF2P" text:
         +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "0"}
-        Importance: Must
-      TODO .Redesign the main site to black:
-        +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
-        Importance: Should          
-      TODO .Remove the annoying animations:
-        +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
-        Importance: Could          
-        Details:
-          - Article bzzzzs:
-          - Boxes should be "merged" in Articles:
-          - No animation for boxes in Articles:
-    InProgress -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter"..Development.."SecondPhase"<:
-    InProgress .Go live:
+        Importance: Must    
+    Done .Go live:
       Estimation: 120m
       +: {CreatedBy: Bobi, CreatedAt: 20251125 T 171107, By: Bobi}
       Details:          
@@ -1320,6 +1148,16 @@ TODO .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131658, By: everyone }
       Result:
         We're doing a ToC per "topic"
+  TODO .Convert the F2Links on the site to html ones:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 215922, By: Bobi}
+    TODO .Manually create the yaml links:
+      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Estimation: "180", RemTime: "180"}
+      Details:
+        - Go through the f2yaml links and replace them with html ones.
+        - Use a method which can be re-done easily after an update
+        - Bobi should try it first, then Hana
+    TODO .Generate the yaml links automatically:
+      +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}      
   InProgress .Add the part we recorded during our smoking session to the Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
@@ -1442,6 +1280,116 @@ TODO .Improvements:
       Details:
         - find a place
         - put it there  
+  InProgress .Create content yamls:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 214416, By: Bobi}
+    Id: CreateYamls
+    InProgress .Learn To Dive:_ Syntax:
+      Id: LearnToDiveSyntax
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Estimation: "180", RemTime: "60"}
+      Details:
+        - only the most important things
+        - ideally in a short summary
+        - refer to -->.."The Abyss".."Documents".."Specifications".."Barba.Types"<
+      Workspace: 
+        Intro: |
+          It was a key consideration during the design of the language to make it as easy to read and handle for humans as possible, also, to be able to use widely available software for handling/displaying the f2yaml documents, still, making it relatively easy to process by computer algorithms. F2yaml therefore is based on yaml - i.e. f2yaml documents are also yaml documents - and the syntax is quite loose, allowing the user to express the same thing in multiple ways.
+
+          Information is stored in entities we call "Items" of various kinds, such as Tasks, Requirements, Articles. Each Item is basically a dictionary - as in a collection of key+value pairs - with some "syntax sugars" to make things easier to read/write.
+          If you have basic object oriented programming knowledge, you can think of Items as instances of objects and we use similar concepts and terminology here - such as the "key"-s are called properties, there's inheritance, we refer to the definition of Items as classes (we call them ClassDescriptions).
+
+          For example a Task stores information about something which needs to be performed, such as one about cooking a meal could look like:
+            InProgress Cook a succulent chinese meal:
+              Type: Task
+              CreatedBy: Hana
+              By: Bobi
+              Details: Make it spicy and dishwashing included! Love, Hana
+              CreatedAt: 2025-12-03                                           
+          Here the "CreatedBy" (and the rest in light blue) are properties written in a standard way, the "TODO" and "Cook a succulent chinese meal" parts are values of special properties - the "Status" and "Summary" ones in particular; the syntax sugars.
+
+          Item kinds and their structure can be freely defined by the user - so for example we could create a "Recipe" type of Item containing the instructions about how to make "Bobi's sludge":
+            Bobi's sludge:
+              Type: Recipe
+              Details: A very easy to digest, gut healing, SIBO friendly but still tasty strawberry-vanilla meal-replacement ice-cream
+              Ingredients:
+                - 700g frozen!!! strawberries
+                - 200g dextrose
+                - 350ml yogurt
+                - 60g coconut fat
+                - 60g hydrolized whey powder
+                - 20g l-glutamine powder
+                - 15g partially hydrolized guar gum
+                - 350ml water
+                - optional: vanilla for flavor if the whey powder is unflavored
+              Instructions: |
+                1: add everything in a large bowl
+                2: mix it with a hand blender for ~3 minutes until it becomes a bit whipped
+                3: store it in the freezer - but best before it fully freezes (otherwise microwave it a little)          
+              Notes:
+                - high protein content supporting an active lifestyle; hydrolized = pre-digested
+                - dextrose instead of table sugar for digestibility and inflammation reduction
+                - l-glutamine for restoring gut lining
+                - phgg for feeding the beneficial bacteria in the right place
+                - yogurt for supplying some beneficial bacteria
+                - coconut fat: one of the easiest to digest fats; for energy and lowering glycemic load
+                - strawberries: low sugar; provides texture and taste + antioxidants
+
+          The Item definition (we call it Class Description) for the above would look like the following - which is also an Item:
+          
+            Recipe:
+              Inherits: Item
+              Details: this defines the Item type "Recipe"
+              Type: ClassDescription
+              Properties:
+                - PropertyId: Ingredients
+                  PropertyType: string 
+                  IsList: true
+                - PropertyId: Instructions
+                  PropertyType: string
+                  IsList: false
+
+          Explanation:
+            - "Inherits: Item": on top of the properties defined in this ClassDescription it include the properties defined in Item - such as "Type" and "Details"; quite handy if we do not want to always re-define commonly used properties
+            - "Details:...": the details (this property is actually defined in Item)
+            - "Type: ClassDescription": this Item is a ClassDescription, used to define other items (also defined in Item)
+            - "Properties: ...": each list entry defines one of the properties of the Recipe Item
+            - "PropertyId: ...": the name (id) of the property
+            - "PropertyType: string": the type of the property is "string"; for non-programmers: this means that it can hold some text (Number would mean it should be a number, Boolean would mean its either "true" or "false", etc.)
+            - "IsList: true": the property is a list
+
+        Now some commonly used notations:
+          Note: 
+            - For the (hopefully or at least soon) complete syntax please check the -->F2YamlSpecification<.
+            - For the definition of the Items used throughout The Abyss see the -->System.Types< and --><
+
+          <Status> <Summary> as header:
+
+          Preceding "." as child Item: TODO
+          Plus sign as property id: TODO
+          F2Links: TODO        
+    InProgress .The Abyss:_ Finish F2Yaml specification:
+      Id: TheAbyss
+      +: {CreatedBy: Bobi, CreatedAt: 20260517 T 214527, By: Bobi}
+      Notes:
+        Bobi: Phase1 Tasks are in $@-->Tasks\Website\..BackToOrigi..Intermediate..CreateSite..CreateYamls..Leaves.."The Abyss".."Documents".."Specifications".."F2Yaml"<@$
+      TODO .Overview:
+        TODO .Summary:
+          TODO .Create a ToC like thing from this:
+            +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
+            Details:
+              - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
+      TODO .Specifics:
+        TODO .BelongsTo:
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+        TODO .InternalId:
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+        TODO .Workspace and Command Line differences:
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+        TODO .The dot notation:
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+      TODO .Review and organize the rest:
+        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+      TODO .F2Link:
+        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
   TODO .Make the yaml downloadable:
     Id: MakeYamlsDownloadable
     Cancelled .As a single file:
@@ -1470,7 +1418,7 @@ TODO .Improvements:
     Details:
       - Repo is theforty2project.org, files are under content\Contact\, content\Watch, etc.
       - Remove the conversion of the file from the htmlconverter setting as well 
-  InProgress .Publish the Reports (currently in CSVs) on the site:
+  Done .Publish the Reports (currently in CSVs) on the site:
     Id: PublishCSVs
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 131636, By: Bobi}
     Done .Decide:_ how should we do this:
@@ -1500,7 +1448,70 @@ TODO .Improvements:
     +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
     Details:
       These updates are the commmit-message-like updates we write whenever we sync our yaml files to the site (using the F2FileToHtmlConverter tool)
-  
+  InProgress .Join The Mission (former Support):
+    Id: JoinMission
+    +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [OCWSPhase2]}
+    Estimation: 4h
+    InProgress .BuyUsACoffee:
+      +: {CreatedBy: Bobi, CreatedAt: 20250811 T 144137, By: Bobi, Tags: [OCWSPhase2]}
+      Done .Research :
+        +: {CreatedBy: Bobi, CreatedAt: 20250908 T 162202, By: Hana, Tags: [CSVDONE]}
+      InProgress .Set up the account:
+        +: {CreatedBy: Hana, CreatedAt: 20251125 T 232703, By: [Hana, Bobi], Tags:}
+        TODO .Create a bio for the account:
+          +: {CreatedBy: Hana, CreatedAt: 20251125 T 233524, By: Bobi, Tags: [ OCWSPhase2], Estimation: 30}                    
+          TODO .Create a baseline:
+            +: {CreatedBy: Hana, CreatedAt: 20251125 T 233618, By: Bobi, Tags: [CSVDONE]}
+          TODO .Review it with the team:
+            +: {CreatedBy: Hana, CreatedAt: 20251125 T 233703, By: [Hana, Bobi], Tags: [CSVDONE]}             
+          TODO .Finalize and upload it:
+            +: {CreatedBy: Bobi, CreatedAt: 20251203 T 161951, By: Bobi, Tags: [CSVDONE]}
+        Done .Add the payment info:
+          Done .Create a stripe account:
+            By: Hana
+          Done .Fight it through with fucking support and solve the issue:
+            +: {CreatedBy: Bobi, CreatedAt: 20251202 T 145201, By: Hana, Tags: [CSVDONE, OCWSPhase1]}
+            Estimation: 2h
+            Details:
+              "This stripe connection is already in use, please choose another one"
+            Result:
+              Solved through creating a new account
+        Done .Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo:
+          +: {CreatedBy: Bobi, CreatedAt: 20251127 T 142905, By: [Bobi, Hana], Tags:}
+          Done .Stripe:
+          Done .BuyUsACoffee:
+          Result:
+            For both we use 1 credential
+      NEXT .Implement:
+        +: {CreatedBy: Bobi, CreatedAt: 20251125 T 164959, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "30"}                
+        Details:
+          Integrate their embeddable into the support page
+    TODO .Crypto:
+      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Estimation:, RemTime:}
+      TODO .Resurrect Monero:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
+      TODO .Decide do we need anything else:
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                  
+    TODO .Placeholder for further tasks:
+      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+  TODO .Roadmap:
+  TODO .Shadows site todos:
+    +: {Id: ShadowsSite, CreatedBy: Bobi, CreatedAt: 20260518 T 013645}
+    TODO .Revise the other pages:
+      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+      Comments:
+        - [Bobi, 20251202, "OnHold because we might just move everything to the OriginalConcept site"]
+        - [Bobi, 20260518, "Back to life"]
+    TODO .Redesign the main site to black:
+      +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
+      Importance: Should          
+    TODO .Remove the annoying animations:
+      +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
+      Importance: Could          
+      Details:
+        - Article bzzzzs:
+        - Boxes should be "merged" in Articles:
+        - No animation for boxes in Articles:    
   OnHold .Later:
     Details:
       Tasks we planned at one point but not sure if or when we want to pursue them

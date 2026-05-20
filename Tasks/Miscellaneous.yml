@@ -19,7 +19,7 @@ OnGoing .BusinessAnalysis:
     Business analysis related - e.g. requirement writing, discussions, etc.
   .F2ToolsExtension:
     Id: F2Tools
-    InProgress .QueryDescription based CSV report generation:      
+    InProgress .QueryDescription based CSV report generation:
       Id: QueryBasedCSV
       +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
       Details:

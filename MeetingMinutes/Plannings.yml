@@ -20,9 +20,9 @@ MeetingNotes:
       Task is $@-->Tasks\Management\.."Big replanning after OCWSPhase1"<@$
     Result:
       Tasks created:
-        - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Plan the next Milestones"<
-        - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Create schedules"<        
-        - -->Tasks\Management\.."Big replanning after OCWSPhase1".."Create "daily administration" schedule for Hana"<                
+        - -->Tasks\Management\.."Plan the next Milestones"<
+        - -->Tasks\Management\.."Create schedules"<        
+        - -->Tasks\Management\.."Create "daily administration" schedule for Hana"<                
         - -->Tasks\PublicRelations\.."Create outreach plan"<      
         
 

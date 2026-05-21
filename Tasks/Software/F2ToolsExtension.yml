@@ -5,7 +5,8 @@ OnGoing .Taskify the requirements:
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 165338}
   Details:
     - create a subtask for each requirement taskification and log your time on it
-Tasks:  
+  
+.Tasks:  
   Closed .Create the F2ToolsExtension:
     By: Gaurav
     Estimation: 15m                    
@@ -62,31 +63,28 @@ Tasks:
       - 6h: Bobi's estimation
     ForRequirement: 
       -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<
-  Closed Basic:
-    Id: Basic
-    +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav } 
-    WorkLog:
-      - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
-      - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
-      - [ Gaurav, 44m, "Creating the specify Sr command", 20250421 T 123156 ]
-      - [ Gaurav, 60m, "Creating select task command", 20250421 T 123644 ]
-      - [ Gaurav, 180m, "worked along with robert on focus mate", 20250422 T 074430 ]
-      - [ Gaurav, 210m, "Create pasuse, resume and stop commands", 20250423 T 192528 ]
-      - [ Gaurav  40m, "Create pasuse, resume and stop commands", 20250423 T 192613 ]
-      - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
-    InProgress .WorkLog generation:
-      Id: WorklogCreation
-      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<, Estimation:, By: Gaurav }
+    Closed Basic:
+      Id: Basic
+      +: { ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic< , Estimation:, By: Gaurav } 
       WorkLog:
-        - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
-        - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
-      TODO .Create a feature that marks the StandupReport as alreadyprocessed after the worklog is generated from it:
-        +: { CreatedBy: Hana, CreatedAt: 20250523 T 111704, By: Gaurav }
+        - [ Gaurav, 77m, "Created a bare minimum time tracker", 20250323 ]
+        - [ Gaurav, 20m, "added visx for files of the time tracker", 20250327 ]
+        - [ Gaurav, 44m, "Creating the specify Sr command", 20250421 T 123156 ]
+        - [ Gaurav, 60m, "Creating select task command", 20250421 T 123644 ]
+        - [ Gaurav, 180m, "worked along with robert on focus mate", 20250422 T 074430 ]
+        - [ Gaurav, 210m, "Create pasuse, resume and stop commands", 20250423 T 192528 ]
+        - [ Gaurav  40m, "Create pasuse, resume and stop commands", 20250423 T 192613 ]
+        - [ Gaurav, 160m, "Create pasuse, resume and stop commands", 20250424 T 154407 ]
+  InProgress .WorkLog generation:
+    Id: WorklogCreation
+    ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration"..Basic<, Estimation
+    By: Gaurav 
+    WorkLog:
+      - [ Gaurav, 518m, "Creation of the worklog generation feature", 20250426 T 161302 ]
+      - [ Gaurav, 175m, "Fixed bugs and submitted the visx", 20250428 T 201124 ]
+    TODO .Create a feature that marks the StandupReport as alreadyprocessed after the worklog is generated from it:
+      +: { CreatedBy: Hana, CreatedAt: 20250523 T 111704, By: Gaurav }
     InProgress .Fix Bugs:
-      +: { CreatedBy:, CreatedAt:, ForRequirement:, Estimation:, By:}
-      Details:
-      Result:
-      Notes:
       WorkLog:
         - [ Gaurav, 20m, "fixed TimeTracking functionality does not support yaml extensions bug", 20250430 T 132939 ]
         - [ Gaurav, 120m, "trying elemination of the scalar and inserting a map instead.", 20250501 T 152116 ]
@@ -100,7 +98,7 @@ Tasks:
   Closed .Create functionality that will make all the links alive:
     Id: LiveLinks
     By: Gaurav
-    Worklog:
+    WorkLog:
       - [ Gaurav, 34m, "researching for the link functionality", 20250327 ]
   Closed .Merge the VSIX-es together:
     +: { CreatedBy: Hana, CreatedAt: 20250510 T 1140, By: Gaurav }
@@ -111,8 +109,6 @@ Tasks:
   Closed .Create the CSV Entry Generation functionality:
     +: { CreatedBy: Bobi, CreatedAt: 20250519 T 230218, By: Gaurav }
     ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."CSV Task List Tools".."CSV Entry generation"<
-    Comments:
-      - bobi: message me pls if there are questions even if I don't seem to be at the computer, I'll try to answer
   Done .Consolidate the requirements of the F2Tools extension as of 20250618:
     Id: F2ToolsConsolidation20250618
     +: {CreatedBy: Bobi, CreatedAt: 20250618 T 163248, By: Gaurav}
@@ -131,7 +127,7 @@ Tasks:
     Done .Test:
       +: {CreatedBy: Hana, CreatedAt: 20250829 T 181308, By: Hana, Tags: [CSVDONE], Priority: 3-Average}
     Done .Cleaning up the remaining Bugs in VSIX:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average} 
     Done .Update readme:      
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
   TODO .Create a stop task command feature that is executed when VS Code is shutting down:
@@ -149,8 +145,42 @@ Tasks:
       - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
   TODO .QueryDescription based CSV report generation:
     Id: QueryBasedCSV
-    +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+    +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}    
     Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+  TODO .Replacing F2Links:
+    Id: ReplaceLinks
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022624, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+  TODO .Make F2Links handle 2 or more property values preceding summary in headers:
+    Id: MorePrefix
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023150, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+  TODO .Support for local f2links:
+    Id: LocalLinks
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+  TODO .Support for filepath-only F2Links:
+    Id: FilePathLink
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023512, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..FilePathLink<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+  TODO .Proper Text output support:
+    Id: TextOutput
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023648, By: Bobi}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..TextOutput<
+    TODO .Taskify and estimate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+
+  
   OnGoing .Publication to marketplace:
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<

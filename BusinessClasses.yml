@@ -234,23 +234,34 @@ namespace Barba.Types:
   enum RequirementStatusEnum:
     Members:
       New: 
-          Summary: Initial Status          
+          Summary: Initial Status
       Drafting:
           Summary: In process of creating first draft
       Draft:
-          Summary: First Draft
+          Summary: First Draft, subjected to review/polishing
       Reviewed:
-          Summary: After a review
+          Summary: 
+            - After a review and fixes, ready for taskification, no more - major - changes expected
+            - A task is created for taskification
       ReadyForDev:
-          Summary: Value estimated
+          Details: 
+            - Cost/Value calculations done so that it can be prioritized and scheduled: 
+              - Taskified and tasks estimated
+              - value estimated (how much work it would save per avg user or what other value it has)
       InDev:
-          Summary: When development starts and in progress
-      ReadyForQA:
-          Summary: When development is done
+          Details:
+            - Development started            
+      Implemented:
+          Details: 
+            - Feature development finished
       InQA:
-          Summary: Under testing
+          Details: 
+            - Under testing
+            - no feature development any more
       BugFixing:
-          Summary: There are bugs AND they are being fixed
+          Details: 
+            - Bugs are being fixed
+            - Should not go back to INQA if testing is still on going but all bugs got fixed momentarily
       QAPassed:
           Summary: QA passed
       Done:

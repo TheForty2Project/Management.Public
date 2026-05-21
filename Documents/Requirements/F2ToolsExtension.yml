@@ -8,7 +8,7 @@ Closed .Minimal Base:
     - Published by: tf2p.org
 Closed .Publishing the extension:
   Details: The F2ToolsExtension should be published in the Visual Studio Marketplace under the publisher name tf2p.org
-InQA .Extract F2Yaml Link in F2ToolsExtension:
+BugFixing .Extract F2Yaml Link in F2ToolsExtension:
   ReqReq: -->Documents\Requirements\F2ToolsExtension\.."Minimal Base"<
   Details:
     There should be a functionality in the extension with which one can extract the yaml path to a yaml key and paste it in one of the "link" formats.
@@ -89,7 +89,7 @@ InQA .Extract F2Yaml Link in F2ToolsExtension:
       - - Bobi
         - The F2Yaml link format is obsolete and this functionality is superseded by the $@-->Documents\Requirements\F2ToolsExtension\.."Extract F2Yaml Link in F2ToolsExtension".."Yaml parsing based"<@$ functionality
         - 20260421
-  InQA .Yaml parsing based:
+  BugFixing .Yaml parsing based:
     Details: |
       A yaml parsing based version, where the Items are parsed and the links are created using the contents of their properties.
       Also, there are 2 link types supported: 
@@ -261,7 +261,7 @@ InQA .Extract F2Yaml Link in F2ToolsExtension:
               //    - the value is the value of the property
               //- it decides whether the Item is represented like above or not based on whether the first word is part of the [NameOfTheIgnoreList]
             }
-InQA .Time Tracking and Administration:
+BugFixing .Time Tracking and Administration:
   ReqReq: -->Documents\Requirements\F2ToolsExtension\.."Minimal Base"<
   Details:
     Summary:
@@ -271,7 +271,7 @@ InQA .Time Tracking and Administration:
         - what is the activity; 
         - to update the StandupReport 
         - and to generate the WorkLog entries into the Tasks.
-  InQA .Basic:
+  BugFixing .Basic:
     Details:
       The basic version.        
     QAPassed .Registers shortcuts/command:
@@ -289,7 +289,7 @@ InQA .Time Tracking and Administration:
           ResumePreviousTask:
             Command: Pause/Resume Task
             Description: if there was a task selected previously and the times was stopped with the "StopTask" command, instructs the app to resume counting the time on the Task
-    InQA .Works:
+    BugFixing .Works:
       Details:
         The extension has the basic Specify SR, Start/Stop and Pause/Resume functionalities
       Notes:
@@ -396,19 +396,19 @@ Cancelled .Code Completion:
         Then:
           - The entire structure of the selected snippet will be formed.
     CancelReason: by adding the snippets into the "yaml.code-snippets" file in the .vscode folder we can have all the functionalities of this, including the easy global-update of the snippets - in fact, easier one than with the extension.
-InQA .CSV Task List Tools:
+BugFixing .CSV Task List Tools:
   ReqReq: -->Documents\Requirements\F2ToolsExtension\.."Minimal Base"<
   Details:
     Summary:
       Various CSV Task list helper functionalities.
-  InQA .CSV Entry generation:
+  BugFixing .CSV Entry generation:
     QAPassed .Registers commands:
       Details:
         The extension registers shortcuts/commands so that they appear in the command palette (ctrl+shift+p) :
           GenerateCSVLine: 
             Command: Generate CSV Line from Task
             Description: if the cursor is on a Task, signals that the extension should generate a CSV Line from the properties specified in the settings of the extension and put it on the clipboard.
-    InQA .Can be configured:
+    BugFixing .Can be configured:
       Details:                
         It can be configured what property values in what order should be used for the CSV line generation.
       Stories:
@@ -429,7 +429,7 @@ InQA .CSV Task List Tools:
             - The ListBox contains the value of the "f2Tool.CSVTaskListProperties" setting (in settings.json), or, if not found, the default, which is:
                 Empty, Status, Milestone, IdLink, By, Priority, RemainingHrs, SummaryLink, BlockedBy    
             - The user can change the content of the texbox and when closing, the settings is saved to the above key in settings.json
-    InQA .Works:
+    BugFixing .Works:
       ReqReq: 
         - -->Documents\Requirements\F2ToolsExtension\.."CSV Task List Tools".."CSV Entry generation".."Registers commands"<
         - -->Documents\Requirements\F2ToolsExtension\.."CSV Task List Tools".."CSV Entry generation".."Can be configured"<
@@ -492,7 +492,7 @@ InQA .CSV Task List Tools:
             - A notification popup is presented, containing: |
                 The following line was placed to the clipboard:
                 [the CSV line]"
-InQA .Following links basic:
+BugFixing .Following links basic:
   By: Gaurav
   Details: 
     There should be a functionality that can make the link live i.e. make the link work like a url link
@@ -522,15 +522,15 @@ InQA .Following links basic:
 
                 openAndHighlightPosition(itemPosition, itemDocUri);
               }
-InQA .Follow F2Links:
+BugFixing .Follow F2Links:
   Details: |
     There should be a functionality that can make the link live i.e. make the link work like a url link.
     This Requirement is the "advanced" behavior, being able to follow all valid F2Yaml links as specified in DocsAndArticles\Specifications\F2Links.bnf, both when they are in a yaml and in a CSV.
-  InQA .Registers commands:
+  BugFixing .Registers commands:
     Details:
       The extension registers a command:
         FollowLink: Follow F2Yaml Link                
-  InQA .Works:
+  BugFixing .Works:
     Details: 
       - The link following functionality works both inside yaml and csv files, supporting:
         - Id based parts
@@ -579,45 +579,42 @@ InDev .Docs for the extension:
       - all the features should have a explanation.
       - if there is known issues or common error there should be a warning.
     Tasks:
-      - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial readme.md"<
-      - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Create proper readme"<      
+      - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Write initial readme.md"<
+      - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Create proper readme"<      
   ReadyForDev .Initial license:
     Details:
       - There should be a license, roughly containing the same as the license in this repository $@-->LICENSE<@$
     Tasks:
-      -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Create License"<
+      -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Create License"<
   Done .Initial changeLog:
     Details:
       - all the updates should be documented.
       - all the fixed bugs should be mentioned
       - all the added and removed features should be mentioned.
     Tasks:
-      -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial changelog.md"<
-
+      -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Write initial changelog.md"<
 OnGoing .Keep the docs of the extension updated at each release:
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 165959, By: Bobi}
   Details:
     - as per the requirements in -->Documents\Requirements\F2ToolsExtension\..Docs<
   ReadyForDev .Docs are updated when releasing the F2BarbaMgmt.MVP version:
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 170431, By: Bobi}  
-
 ReadyForDev .Time tracking should stop when VS Code shuts down:
   By: Gaurav
   Details:    
     - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
-
+  Task: -->Tasks\Software\F2ToolsExtension\..Tasks.."Create a stop task command feature that is executed when VS Code is shutting down"<
 ReadyForDev .Time tracking should generate Id based F2Links, not Summary ones.:
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 172314, By: Bobi}
   Tasks:
-    - -->Tasks\Software\F2ToolsExtension\.Tasks.."Time tracking should generate Id based F2Links, not Summary ones."<
-
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Time tracking should generate Id based F2Links, not Summary ones."<
 Draft .QueryDescription based CSV report generation:
   Id: QueryBasedCSV
   +: {CreatedBy: Bobi, CreatedAt: 20260516 T 004242, By: Bobi}
   Details:
     One can issue commands about creating and synching to/from reports based on a query description stored in a QueryDescription Item
   Tasks:
-    - -->Tasks\Software\F2ToolsExtension\.Tasks..QueryBasedCSV<  
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV<  
   Artifacts:
     .SyncResultValues:
       .NewRow: N
@@ -844,12 +841,12 @@ Draft .QueryDescription based CSV report generation:
         - displays message "x out of total y Items updated"
   Notes:
     Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
-
 Draft .Various F2Link related upgrades:
   Id: F2LinkUpgrades
   +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
   Draft .Replacing F2Links:
     +: {Id: ReplaceLinks, CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
+    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<
     Details:
       Draft .MarkF2LinksForReplace:
         Details:
@@ -869,24 +866,31 @@ Draft .Various F2Link related upgrades:
         - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
         - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
   Draft .Make F2Links handle 2 or more property values preceding summary in headers:      
+    Id: MorePrefix
+    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..MorePrefix<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 015637, By: Bobi}
     Details:
       - Such as a link to the below key should not contain the "3-Average Must Done " part:
         3-Average Must Done .My Item summary:
       - Do it by checking whether there's a word starting with a "."(dot) in the key, if there is, remove all words in front of it while generating the link        
   Draft .Support for local f2links:
+    Id: LocalLink
+    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
     Summary:
       Support for links which only contain the last part of the full path (F2LocalLink in the F2Links.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
     Details:        
       Update -->...ReplaceLinks< to support this as well
   Draft .Support for filepath-only F2Links:
+    Id: FilePathLink
+    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..FilePathLink<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014710, By: Bobi}
     Summary:
       Support for links which only contain the filepath part; both generation and following. For example: -->Documents\Requirements\F2ToolsExtension\<
-ReadyForDev .Proper Text output support:
+Reviewed .Proper Text output support:
   Id: TextOutput
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014700, By: Bobi}
+  Task: -->Tasks\Software\F2ToolsExtension\..Tasks..TextOutput<
   Summary:
     - to some VS Code Output for both debugging and messaging purposes
     - setting for output verbosity

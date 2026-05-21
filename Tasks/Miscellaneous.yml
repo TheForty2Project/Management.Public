@@ -21,11 +21,29 @@ OnGoing .BusinessAnalysis:
     Id: F2Tools
     InProgress .QueryDescription based CSV report generation:
       Id: QueryBasedCSV
-      +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}
+      +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: [Bobi, Hana]}
       Details:
-        Work into: -->Documents\Requirements\F2ToolsExtension\..Phase2..QueryBasedCSV<
-        Concept:
-          Actions:                      
+        - Work into: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
+        - Reach the ReadyForDev status (including a review with Hana)
+      Done .Create Draft:
+        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
+      TODO .Review with Hana:
+        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+    InProgress .F2Link related upgrades:
+      Id: F2LinkUpgrades
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 153759, By: [Bobi,Hana], Estimation: 120, RemTime: 20}
+      Details:
+        - work into -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades<
+        - Reach the ReadyForDev status (including a review with Hana)
+      Done .Create Draft:
+        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
+      TODO .Review with Hana:
+        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+    Done .Text Output support:
+      Id: TextOutput
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161853, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 OnGoing .Health:
   TODO .Create an an analysis about the effects of consuming various sugars:

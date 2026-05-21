@@ -397,10 +397,13 @@ InProgress .Plan the next Milestones:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
     Details:
       - Collect features
-      - Write Requirements
+      - Write Requirements:
+        - -->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<
+        - -->Tasks\Miscellaneous\..BA..F2Tools..F2LinkUpgrades<
+        - -->Tasks\Miscellaneous\..BA..F2Tools..TextOutput<
       - Taskify them
       - Estimate them
-      - Choose the bugs (and estimate them)
+      - Choose the bugs (and estimate them)      
     Workspace:
 
   InProgress .Work out the OCWSPhase2 milestone:
@@ -410,6 +413,7 @@ InProgress .Plan the next Milestones:
       - We are Task based - so no requirements              
       - Estimate them
     Workspace:
+      - include the F2FileToHtmlConverter upgrades as well
       
   Blocked .Make final decision about the milestones we pursue:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}

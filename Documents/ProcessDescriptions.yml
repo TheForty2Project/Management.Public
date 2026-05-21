@@ -517,6 +517,9 @@
           Details: 
             - Update change log under $@F2ToolsFolder@$\CHANGELOG.md:
                 Make sure to keep the rules! (keepachangelog.com)
+        .UpdateReadme:
+          Details:
+            - Update readme under $@F2ToolsFolder@$\Readme.md in case there are new features
       .Publish:
         .LoginAndGetToken:
           Summary: log-in with vsce

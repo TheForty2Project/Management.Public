@@ -61,38 +61,44 @@
 			"[${1:DURATION}, \"$0\", $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND]",
 		]
 	},
-	"Todo": {
-		"prefix": "Todo",
-		"body": [
-			"TODO .${1:TaskId or Summary}:",
-			"  Details: $0",
-		],
-		"description": "A simple todo Item (of type \"Task\")"
-	},
 	"BobiTask":{
-		"prefix": "brtask",
-		"body": [
-			"TODO .${1:Summary}:",
-			"  Id: ${2:Id}",
-			"  +: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${3:Bobi}}",
-			"  ForRequirement: $0",
-		],
-		"description": "Task for a requirement by Bobi"
-		},
+		"prefix": "btask",
+    "body": [
+      "${2:TODO} .${1:Summary}:",
+      "  Id: ${3:Id}",
+      "  +: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: [${4:Bobi}], ForRequirement: , Estimation: $5, RemTime: $5 }",
+      "  Details: $0",
+      "  Notes: ",
+      "  Workspace: ",
+    ],
+    "description": "An Item of type \"Task\""
+  },
+  "HanaTask": {
+    "prefix": "htask",
+    "body": [
+      "${2:TODO} .${1:Summary}:",
+      "  Id: ${3:Id}",
+      "  +: {CreatedBy: Hana, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: [${4:Hana}], ForRequirement: , Estimation: $5, RemTime: $5 }",
+      "  Details: $0",
+      "  Notes: ",
+      "  Workspace: ",
+    ],
+    "description": "An Item of type \"Task\""
+  },
 
 	"Task": {
 		"prefix": "Task",
 		"body": [
-			"${2:TODO} .${1:TaskId or Summary}:",
-			"  +: {CreatedBy:, CreatedAt:, ForRequirement: ,Estimation: ,By: ,Responsible: ,}",
+			"${2:TODO} .${1:Summary}:",
+      "  Id: ${3:Id}",      
+			"  +: {CreatedBy: $4, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: [$4], ForRequirement: , Estimation: $5, RemTime: $5 }",
 			"  Details: $0",
-			"  Result: ",
-			"  Notes: ",
-			"  WorkLog: ",
-			"  #- [userName, timeSpent, description, yyyyMMddThhmm]"
+      "  Notes: ",
+      "  Workspace: ",
 		],
 		"description": "An Item of type \"Task\""
 	},
+
 	"StandupReport": {
 		"prefix": "SR",
 		"body": [

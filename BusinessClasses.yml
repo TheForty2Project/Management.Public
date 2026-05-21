@@ -61,12 +61,9 @@ namespace Barba.Types:
         #  .Apple:
         #
         #because the system would treat "Apple" as an element of the default array (SubTasks)      
-      User Responsible:
-        Summary:
-          the user who is responsible for performing the task
       User[] By:
         Summary:
-          a list of users who can perform/contribute to the task
+          a list of users who (can) perform/contribute to the task. The first user is the responsible one.
       TaskStatusEnum[] PreviousStatuses:
         Summary:
           a list of Statuses, containing the Status history of this Task.
@@ -196,6 +193,9 @@ namespace Barba.Types:
       RequirementStatusEnum Status:
       integer CurrentValue:
       Area ForArea:
+      User[] By:
+        Summary:
+          a list of users who (can) perform/contribute to the task. The first user is the responsible one.
     ##Methods:
     ##- void DoSomething(): =>SomeFunction()
     Notes:
@@ -235,27 +235,39 @@ namespace Barba.Types:
     Members:
       New: 
           Summary: Initial Status
-          IsDefault: true
       Drafting:
           Summary: In process of creating first draft
       Draft:
-          Summary: First Draft
+          Summary: First Draft, subjected to review/polishing
       Reviewed:
-          Summary: After a review
+          Summary: 
+            - After a review and fixes, ready for taskification, no more - major - changes expected
+            - A task is created for taskification
       ReadyForDev:
-          Summary: Value estimated
-      Developing:
-          Summary: When development starts
-      ReadyForQA:
-          Summary: When development is done
+          Details: 
+            - Cost/Value calculations done so that it can be prioritized and scheduled: 
+              - Taskified and tasks estimated
+              - value estimated (how much work it would save per avg user or what other value it has)
+      InDev:
+          Details:
+            - Development started            
+      Implemented:
+          Details: 
+            - Feature development finished
       InQA:
-          Summary: Under testing
+          Details: 
+            - Under testing
+            - no feature development any more
       BugFixing:
-          Summary: There are bugs AND they are being fixed
+          Details: 
+            - Bugs are being fixed
+            - Should not go back to INQA if testing is still on going but all bugs got fixed momentarily
       QAPassed:
           Summary: QA passed
+      Done:
+          Summary: All activites are - supposedly - done
       Closed:
-          Summary: Everything is done around the feature.
+          Summary: All activities are surely done; the Requirement can be archived.
     Comments:
       Bobi: >
         Equivalent to (at least at the time of writing):
@@ -264,8 +276,7 @@ namespace Barba.Types:
             Members:
             - new: 
                 Id: New
-                Summary: Initial Status
-                IsDefault: true
+                Summary: Initial Status                
             - new:
                 Id: Drafting
                 Summary: In process of creating first draft

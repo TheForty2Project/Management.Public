@@ -99,7 +99,8 @@ SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 34m, "", 20260505 T 093758 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAT20260505"<: [ 8m, "", 20260505 T 101339 ]
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 344m, "", 20260518 T 101232 ]
-
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 10m, "", 20260518 T 101232 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 15m, "", 20260520  ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 15m, "", 20260521  ]
   Next:
     - 

@@ -160,7 +160,16 @@ SR_NEXT_Bobi:
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 120m, "", 20260519 T 014242 ]
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."F2Link related upgrades"<: [ 100m, "", 20260520 T 162025 ]
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."Text Output support"<: [ 10m, "", 20260520 T 162028 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 106m, "", 20260520 T 161042 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 165m, "", 20260520 T 161042 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<: [ 21m, "Tasks for Req taskification", 20260521 T 021900 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..StopTTAtShutdown.MaintenanceTasks..Estimate<: [ 10m, "", 20260521 T 144901 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Time tracking should generate Id based F2Links, not Summary ones".MaintenanceTasks.."Provide initial estimate"<: [ 3m, "", 20260521 T 145531 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Proper escaping in Summary part of F2Links".MaintenanceTasks.."Taskify and estimate"<: [ 2m, "", 20260521 T 151706 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Proper Text output support".MaintenanceTasks.."Taskify and estimate"<: [ 5m, "", 20260521 T 151906 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Support for filepath-only F2Links".MaintenanceTasks.."Taskify and estimate"<: [ 5m, "", 20260521 T 152426 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Support for local f2links".MaintenanceTasks.."Taskify and estimate"<: [ 2m, "", 20260521 T 152827 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Make F2Links handle 2 or more property values preceding summary in headers".MaintenanceTasks.."Taskify and estimate"<: [ 5m, "", 20260521 T 153225 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Replacing F2Links".MaintenanceTasks.."Taskify and estimate"<: [ 34m, "", 20260521 T 153304 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Taskify and estimate"<: [ 28m, "", 20260522 T 013410 ]
   Next:
     - null

@@ -7,6 +7,14 @@ OnGoing .Taskify the requirements:
     - create a subtask for each requirement taskification and log your time on it
   
 .Tasks:  
+  OnGoing .Task maintenance (estimation, taskification, ):
+    Id: EstimateTaskify
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 140359}
+    Details:      
+      - Create a separate Task for each!
+      - Each Task should have the estimation details in its Result when Done
+    
+
   Closed .Create the F2ToolsExtension:
     By: Gaurav
     Estimation: 15m                    
@@ -130,55 +138,192 @@ OnGoing .Taskify the requirements:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average} 
     Done .Update readme:      
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
-  TODO .Create a stop task command feature that is executed when VS Code is shutting down:
-    Requirement: -->Documents\Requirements\F2ToolsExtension\.."Time tracking should stop when VS Code shuts down"<
-    +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: Gaurav }
-    WorkLog:
-      - [ bobi, 45m, "creating the requirement", 20250308 ]
-      - [ Gaurav, 10m, "Was reading the requirements to get a overview of things", 20250328 ]
-      - [ Gaurav, 101m, "reached to the conclusion that yml parsing is a must", 20250329 ]
-      - [ Gaurav, 12m, "refactoring and testing", 20250528 T 143438 ] 
-  TODO .Time tracking should generate Id based F2Links, not Summary ones.:
+  EstTODO .Create a stop task command feature that is executed when VS Code is shutting down:
+    Id: StopTTAtShutdown
+    +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: [Bobi, Gaurav], Estimation: 30}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..StopTTAtShutdown<
+    MaintenanceTasks: 
+      Done .Provide initial estimate3:
+        Id: Estimate
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 141235, By: Bobi}
+        Result:
+          PAR: 5m
+          Normal: 30m
+          Explanation:  
+            - supposedly one call, one trigger point; few mins if the code around is "nice"
+            - expecting trouble though
+  EstTODO .Time tracking should generate Id based F2Links, not Summary ones:
+    Id: TTIdLinks
+    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\.."Time tracking should generate Id based F2Links, not Summary ones."<
-    +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
     Comments:
       - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
-  TODO .QueryDescription based CSV report generation:
+    MaintenanceTasks:
+      Done .Provide initial estimate:
+        Id: Estimate
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 141235, By: Bobi}
+        Result:
+          PAR: 5m
+          Normal: 30m
+          Explanation:  
+            - supposedly one change
+            - expecting trouble though
+  EstTODO .QueryDescription based CSV report generation:
     Id: QueryBasedCSV
     +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}    
     Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-  TODO .Replacing F2Links:
+    MaintenanceTasks:
+      InProgress .Taskify and estimate:        
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+        Result:
+          Execute.Verify:
+            PAR: 30
+            Normal: 90
+            Explanation:
+              probably having to write half of the functionality.
+          Execute.BasicExecute:
+            PAR: 60
+            Normal: 180
+    EstTODO .Registers commands:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
+    EstTODO .Executes query:
+      Id: Execute
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [CSVTODO]}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
+      EstTODO .Verifies query:
+        Id: Verify
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+      EstTODO .Basic query execution:
+        Id: BasicExecute
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+        Requirement: 
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..BasicExecute<
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..ShowSummary<
+      NEXT .Filter by the Where property:
+        Id: Filter
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+        DependsOn: -->...BasicExecute<
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..Filter<
+    EstTODO .Writes Back From Output:
+      Id: WriteBack
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
+  EstTODO .Replacing F2Links:
     Id: ReplaceLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022624, By: Bobi}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-  TODO .Make F2Links handle 2 or more property values preceding summary in headers:
+    MaintenanceTasks:
+      InProgress .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+        Result:                
+          MarkF2LinksForReplace:
+            PAR: 30m
+            Normal: 60m
+            Explanation: 3 new "functions" OR I can reuse existing ones for 2
+          ReplaceMarkedToIdLink:
+            PAR: 20m
+            Normal: 45m
+          ReplaceMarkedTo:
+            PAR: 
+            Normal:
+            Explanation: 
+    EstTODO .Register commands:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000302, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+      Details: 3 at the moment
+    EstTODO .MarkF2LinksForReplace:
+      Id: MarkF2LinksForReplace
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000421, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..MarkF2LinksForReplace<
+      Details:
+        - finds all files,
+        - parses them for f2links
+        - and checks whether any points to the Item by analyzing the link    
+    EstTODO .ReplaceMarkedToIdLink:
+      Id: ReplaceMarkedToIdLink
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002832, By: Bobi, Tags: [CSVTODO], Estimation: 45, RemTime: 45}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedToIdLink<
+      Details:
+        - simple id link generation + then replacing the old
+        - keeping the escaping (csv/yaml)
+    EstTODO .ReplaceMarkedTo:
+      Id: ReplaceMarkedTo
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 15}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
+      Details:
+        On top of $@-->...ReplaceMarkedToLink<@$:
+        - to generate a new link for each link:
+          - keep the part up until the 2 links (newly generated, old) match
+          - the rest is the part from the generated (Id based)                  
+  EstTODO .Make F2Links handle 2 or more property values preceding summary in headers:
     Id: MorePrefix
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023150, By: Bobi}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023150, By: Bobi, Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
-  TODO .Support for local f2links:
+    MaintenanceTasks:
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        Result:
+          PAR: 10m
+          Normal: 30m
+          Explanation:
+            - the function - if there's one, but then there should be one - which removes one prefix should be updated
+            - expecting trouble.
+  EstTODO .Support for local f2links:
     Id: LocalLinks
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi, Estimation: 90, RemTime: 90}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
-  TODO .Support for filepath-only F2Links:
+    MaintenanceTasks:
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        Result:
+          PAR: 30m
+          Normal: 90m
+          Explanation:
+            - this is new logic, having to plug it into the existing mess
+            - yes, expecting trouble
+  EstTODO .Support for filepath-only F2Links:
     Id: FilePathLink
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023512, By: Bobi}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023512, By: Bobi, Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..FilePathLink<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
-  TODO .Proper Text output support:
+    MaintenanceTasks:
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Estimation: 10, RemTime: 0}
+        Result:
+          PAR: 10m
+          Normal: 30m
+          Explanation: 
+            - supposedly just modifying a few lines
+            - but expecting trouble.
+  EstTODO .Proper Text output support:
     Id: TextOutput
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023648, By: Bobi}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023648, By: Bobi, Estimation: 60, RemTime: 60}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..TextOutput<
-    TODO .Taskify and estimate:
-      +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+    MaintenanceTasks:
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Estimation: 10, RemTime: 0}
+        Result:
+          PAR: 30
+          Normal: 60
+          Explanation:
+            - creating some class (maybe static... mehh...) through which we write to Output:
+              - it checks the verbosity level
+            - settings creation
+            - one example implementation
+            - requirements for the other functionalities
+            - no trouble expected as this is not really changing or using any existing functionality
+  EstTODO .Proper escaping in Summary part of F2Links:
+    Id: F2LinkEscaping
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}
+    Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<
+    MaintenanceTasks:
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 151637, By: Bobi, Estimation: 10, RemTime: 0}
+        Result:
+          PAR: 20m
+          Normal: 40m
+          Explanation: expecting trouble, otherwise easy-peasy (simple string replace back and forth)
+
 
   
   OnGoing .Publication to marketplace:
@@ -189,10 +334,10 @@ OnGoing .Taskify the requirements:
     Done .Write initial readme.md:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
-    TODO .Create proper readme:
+    EstTODO .Create proper readme:
       +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
-    TODO .Create License:
+    EstTODO .Create License:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: 60, RemTime: 60}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."License"<
     Done .V2.0.25:
@@ -527,7 +672,7 @@ Bugs:
       - Place this into an empty file: |
           OnGoing .Website:
             +: {CreatedBy: Hana, CreatedAt: 20250804 T 231015, By: [Hana, Mama]}
-            TODO .SomeTask:    
+            Done .SomeTask:    
       - Try generating a csv line from the "SomeTask" task
 
   New .Follow link is not working when the target item does not have any properties:
@@ -689,5 +834,13 @@ Bugs:
               - -->Tasks\Management\.."Create schedules"<        
               - -->Tasks\Management\.."Create "daily administration" schedule for Hana"<                
               - -->Tasks\PublicRelations\.."Create outreach plan"<      
+
+  New .Unable to follow links where a summary part ends with dot:
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 145730, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Details:
+      Example:      
+        MyItem.:
+          -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to follow links where a summary part ends with dot".Details.Example.MyItem.<  
+        
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

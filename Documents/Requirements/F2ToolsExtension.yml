@@ -600,21 +600,20 @@ OnGoing .Keep the docs of the extension updated at each release:
   ReadyForDev .Docs are updated when releasing the F2BarbaMgmt.MVP version:
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 170431, By: Bobi}  
 ReadyForDev .Time tracking should stop when VS Code shuts down:
+  Id: StopTTAtShutdown
   By: Gaurav
   Details:    
     - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
-  Task: -->Tasks\Software\F2ToolsExtension\..Tasks.."Create a stop task command feature that is executed when VS Code is shutting down"<
+  Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..StopTTAtShutdown<
 ReadyForDev .Time tracking should generate Id based F2Links, not Summary ones.:
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 172314, By: Bobi}
-  Tasks:
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Time tracking should generate Id based F2Links, not Summary ones."<
-Draft .QueryDescription based CSV report generation:
+  Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..TTIdLinks<
+ReadyForDev .QueryDescription based CSV report generation:
   Id: QueryBasedCSV
   +: {CreatedBy: Bobi, CreatedAt: 20260516 T 004242, By: Bobi}
   Details:
     One can issue commands about creating and synching to/from reports based on a query description stored in a QueryDescription Item
-  Tasks:
-    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV<  
+  Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV<  
   Artifacts:
     .SyncResultValues:
       .NewRow: N
@@ -728,8 +727,10 @@ Draft .QueryDescription based CSV report generation:
     .EmptyValue: \"" #so two double quote characters
     .CSVHeader: >
     
-  Draft .Registers commands:
-    Draft .ExecuteQuery: 
+  ReadyForDev .Registers commands:
+    Id: RegistersCommands
+    Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Registers commands"<
+    ReadyForDev .ExecuteQuery: 
       Command: "F2Tools.Reports.Execute: Execute query"
       Summary: if the cursor is on a Query, generates the CSV report according to it
       Details:
@@ -738,19 +739,23 @@ Draft .QueryDescription based CSV report generation:
           - IF (queryDescription.Select.Any(isF2Link)):
             - keeps the order of the rows            
             - comments out the rows for which there are no Items present (any more)            
-    Draft .WriteBack:
+    ReadyForDev .WriteBack:
       Command: "F2Tools.Reports.WriteBack: Write back from output file"
       Summary: 
         if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select part, writes the changes FROM the csv to the Items
       Details:
         if the property does not exist but there's data for it in the CSV cell, creates the property
   
-  Draft .Executes query:
+  ReadyForDev .Executes query:
+    Id: ExecuteQuery
+    Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<
     Summary:
       Executes the query in the QueryDescription item under the cursor
     Details:
       When the user issues the $@-->...ExecuteQuery<@$ command, verifies and executes the query, then displays summary.
-    Draft .Verifies query:  
+    ReadyForDev .Verifies query:  
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..Verify<
+      Details:
       - var itemYamlUnderTheCursor = GetItemYamlUnderTheCursor()        
       - IF (NOT IsQueryDescription(itemYamlUnderTheCursor)):
         - Displays error message: "The cursor must be on an Item with type QueryDescription"
@@ -766,8 +771,10 @@ Draft .QueryDescription based CSV report generation:
           - Displays error message detailing the problem, pointing to the property which is problematic and describing the problem
           - Stops.
       - ELSE RETURN: queryDescription
-    Draft .Basic query execution:
+    ReadyForDev .Basic query execution:
+      Id: BasicExecute
       ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
       Details:
         - var queryDescription: result of $@-->.."Executes query".."Verifies query"<@$
         - var items: getItemsUnderTheLinksIn(queryDescription.From)
@@ -788,84 +795,94 @@ Draft .QueryDescription based CSV report generation:
             - creates a string by concatenating them by using a comma (,) as separator              
         - writes the CSV into the output file:
           - either to the one specified in the queryDescription.OutputFile or if it's empty or not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
-    Draft .Filters by the Where property:
-      Details:
-
-      Draft .TaggedBy:
+    ReadyForDev .Filters by the Where property:
+      Id: Filter
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..Filter<
+      ReadyForDev .TaggedBy:
         Details:
           - IF (values are present in the TaggedBy property):
               excludes the Items which are not tagged by any of the value                       
           - ELSE: do not exclude any
-      Draft .ItemType:
+      ReadyForDev .ItemType:
         Details:
           - IF (values are present in the ItemType property):
             - include only those Items which are of these types
             - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be present as value)              
           - ELSE: do not exclude any
-      Draft SkipUnder:
+      ReadyForDev SkipUnder:
         Details:
           - IF (values are present in the SkipUnder property):
             - skip those Items which are under the specified path (file or Item); recursive.
             - note that this takes precedence over From, i.e. the Items under these paths will be skipped even if their path is included in From
           - ELSE: do not exclude any
-    Draft .Displays summary after finished generating the CSV:
+    ReadyForDev .Displays summary after finished generating the CSV:      
+      Id: ShowSummary
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
       Details:
         Displays the message: "Csv generated into OUTPUTFILE"
 
-  Draft .Writes back from output:
+  ReadyForDev .Writes back from output:
+    Id: WriteBack
+    Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<
+    ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
     Summary:
       writes the changes FROM the csv to the Items if the cursor is on a Query in the CSV file as comment, which query contains F2Links in its Select part
     Details:
-      Executes the parts of this Requirement in the given order when the user issues the WriteBack command.        
-    Draft .Writes back from output:
-      ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
-      Details:
-        - IF (NOT (the cursor is in a csv file)):
-            displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
-        - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.CSVHeader<@$
-        - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<@$
-        - IF (NOT (queryDescription.Select.Any(isF2Link)):
-            displays error message: "The Select property must contain F2Links (IDLINK or SUMMARYLINK)"
-        - parses the csv into a headerId[columnNo] and csvCellsInLines[rowNo][columnNo] arrays
-        - FOREACH (csvLine in csvCellsInLines):
-          - finds the item using the f2link in the line
-          - FOR (var columnNo=0; i<headerId.Length):
-            - var cellValue = csvLine[columnNo]
-            - IF (: 
-              - cellValue != NullValue
-              - AND cellvalue != one of the special field values ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.SelectPropertySpecialValues<@$)
-              ):
-                - IF (the property with the id headerId[columnNo] does not exist):
-                  - create it
-                - set its value to csvLine[columnNo]
-        - displays message "x out of total y Items updated"
+      - Triggered by the -->...RegistersCommands..WriteBack< command.   
+      - IF (NOT (the cursor is in a csv file)):
+          displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
+      - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.CSVHeader<@$
+      - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<@$
+      - IF (NOT (queryDescription.Select.Any(isF2Link)):
+          displays error message: "The Select property must contain F2Links (IDLINK or SUMMARYLINK)"
+      - parses the csv into a headerId[columnNo] and csvCellsInLines[rowNo][columnNo] arrays
+      - FOREACH (csvLine in csvCellsInLines):
+        - finds the item using the f2link in the line
+        - FOR (var columnNo=0; i<headerId.Length):
+          - var cellValue = csvLine[columnNo]
+          - IF (: 
+            - cellValue != NullValue
+            - AND cellvalue != one of the special field values ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.SelectPropertySpecialValues<@$)
+            ):
+              - IF (the property with the id headerId[columnNo] does not exist):
+                - create it
+              - set its value to csvLine[columnNo]
+      - displays message "x out of total y Items updated"
   Notes:
     Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
-Draft .Various F2Link related upgrades:
+ReadyForDev .Various F2Link related upgrades:
   Id: F2LinkUpgrades
   +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
-  Draft .Replacing F2Links:
-    +: {Id: ReplaceLinks, CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
-    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<
-    Details:
-      Draft .MarkF2LinksForReplace:
-        Details:
-        - Command is: "F2Tools.F2Links.MarkToRepl: Mark f2links pointing to this key to be replaced"
-        - Finds all the f2links pointing to it and then displays a message: "x f2links found; issue one of the F2Tools.F2Links.Replace* commands when done"
-      Draft .ReplaceMarkedTo:
-        Details:
-        - Command is: "F2Tools.F2Links.ReplaceMarked: Replace marked f2links to point to this key"
-        - for each old link:
-          - Generates a new link:
-            - keeping the structure of the original (in place of Summary, summary; Id-id):
-              - in case of a new parent, keeps it up until it can, starting from the root up until the two paths walk through the same Items, then IdLink.
-            - keeping the escaping (csv/yaml)
-          - replaces the old link with the new one            
-      Draft .ReplaceMarkedToIdLink:
-        Details:
-        - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
-        - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
-  Draft .Make F2Links handle 2 or more property values preceding summary in headers:      
+  ReadyForDev .Replacing F2Links:
+    Id: ReplaceLinks
+    +: {CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
+    Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<    
+    ReadyForDev .MarkF2LinksForReplace:
+      Id: MarkF2LinksForReplace
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks..MarkF2LinksForReplace<
+      Details:
+      - Command is: "F2Tools.F2Links.MarkToRepl: Mark f2links pointing to this key to be replaced"
+      - Finds all the f2links pointing to it and then displays a message: "x f2links found; issue one of the F2Tools.F2Links.Replace* commands when done"
+    ReadyForDev .ReplaceMarkedTo:
+      Id: ReplaceMarkedTo
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks..ReplaceMarkedTo<
+      Details:
+      - Command is: "F2Tools.F2Links.ReplaceMarked: Replace marked f2links to point to this key"
+      - for each old link:
+        - Generates a new link:
+          - keeping the structure of the original (in place of Summary, summary; Id-id):
+            - to generate a new link for each link:
+              - keep the part up until the 2 links (newly generated, old) match
+              - the rest is the part from the generated (Id based)
+          - keeping the escaping (csv/yaml)
+        - replaces the old link with the new one            
+    ReadyForDev .ReplaceMarkedToIdLink:
+      Id: ReplaceMarkedToIdLink
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks..ReplaceMarkedToIdLink<
+      Details:
+      - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
+      - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
+  ReadyForDev .Make F2Links handle 2 or more property values preceding summary in headers:      
     Id: MorePrefix
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..MorePrefix<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 015637, By: Bobi}
@@ -873,7 +890,7 @@ Draft .Various F2Link related upgrades:
       - Such as a link to the below key should not contain the "3-Average Must Done " part:
         3-Average Must Done .My Item summary:
       - Do it by checking whether there's a word starting with a "."(dot) in the key, if there is, remove all words in front of it while generating the link        
-  Draft .Support for local f2links:
+  ReadyForDev .Support for local f2links:
     Id: LocalLink
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
@@ -881,24 +898,30 @@ Draft .Various F2Link related upgrades:
       Support for links which only contain the last part of the full path (F2LocalLink in the F2Links.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
     Details:        
       Update -->...ReplaceLinks< to support this as well
-  Draft .Support for filepath-only F2Links:
+  ReadyForDev .Support for filepath-only F2Links:
     Id: FilePathLink
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..FilePathLink<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014710, By: Bobi}
     Summary:
       Support for links which only contain the filepath part; both generation and following. For example: -->Documents\Requirements\F2ToolsExtension\<
-Reviewed .Proper Text output support:
+ReadyForDev .Proper Text output support:
   Id: TextOutput
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014700, By: Bobi}
   Task: -->Tasks\Software\F2ToolsExtension\..Tasks..TextOutput<
-  Summary:
-    - to some VS Code Output for both debugging and messaging purposes
-    - setting for output verbosity
-    - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display
   Details:
-    Output verbosity setting:
-      name: Output Verbosity
-      options: [None, Information, Verbose, Debug]
+    - to some VS Code Output for both debugging and messaging purposes
+    - setting for output verbosity:
+        name: Output Verbosity
+        options: [None, Information, Verbose, Debug]
+    - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display  
+ReadyForDev .Proper escaping in Summary part of F2Links:
+  Id: F2LinkEscaping
+  +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+  Task: -->Tasks\Software\F2ToolsExtension\..Tasks..F2LinkEscaping<
+  Details:
+    - double quote chars in Summaries should be escaped to [see the specification, but if there's nothing there, then double-double quote]
+    - both link generation and following
+
         
         
 

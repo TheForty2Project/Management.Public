@@ -37,16 +37,19 @@ namespace Barba.Types:
                 - [bobi, 1m, "writing this line"]
       Task[] DependsOn:
         Summary: This task depends on another task, meaning this can't be finished (or even started) until the other is done
-      Task[] DependendOnThis:
+      Task[] Dependents:
         Summary: The other tasks which depend on this task, meaning those can't be finished (or even started) until this is done
-      Task[] Milestone:
-        Summary: The milestone(s) it belongs to
+      # Requirement[] Milestone:
+      #   Summary: The milestone(s) it belongs to
       DateTime ScheduledAt:
         Summary: If a task is scheduled to be done at a certain date/time, the datetime.
         Notes: 
           - The task should be in the "Scheduled" state.
       Requirement ForRequirement:
         Summary: The Requirement for which this Task is needed      
+      Task MaintenanceTasks:
+        Summary: The Task which is about maintaining this Task-tree - estimating, creating/organizing subtasks, etc.
+        Details: This can either contain the Task directly or link (f2link) to it
       Task[] SubTasks:
         Flags: [IsDefault]
         #"IsDefault" flag means that this is the default list the system would populate with Items specified with the "." notation, e.g. if there is a Task: 
@@ -92,41 +95,41 @@ namespace Barba.Types:
   enum TaskStatusEnum:
     Members:
       DraftTODO:
-          Summary: the initial status.
+          Details: the initial status.
       TODO:
-          Summary: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
+          Details: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
       EstTODO:
-          Summary: 
+          Details: 
             - it's estimated how long it would take to finish the task
             - in larger tasks you should only start working on a task (ideally...) after it reached this status
       InProgress:
-          Summary: the task is 
+          Details: the task is 
       Done:
       CurrentFocus:
-        Summary:
+        Details:
           There should be only 1 CurrentFocus "tree"; it's highlighted (if using CustomColoring) on the right hand side bar          
       Blocked:
-        Summary:
+        Details:
           The Task is blocked by another Task
         Notes: If a Task is set to this status then there should be a "DependsOn:" property added as well, signaling what other task or circumstance is blocking the one in this status.
       NEXT:
-        Summary:
+        Details:
           The Task should be performed only after all the previous Tasks are done (in the parent Task)
       Scheduled:
-        Summary: the Task is scheduled to be performed at a certain time
+        Details: the Task is scheduled to be performed at a certain time
         Notes: If a Task is set to this status, then there should be a "ScheduledAt:" property set for the task
       OnGoing:
-        Summary: 
+        Details: 
           - The task is going on for a long time, on-off. 
           - Example: a Task for preparing for the standup, which happens every day, with the same steps, so instead of creating a new Task for each, you create one in this status and log the hours to it every day.
       OnHold:
-          Summary: No work should be done on the task until further notice.
+          Details: No work should be done on the task until further notice.
       Cancelled:
-          Summary: The task should not be done at all.
+          Details: The task should not be done at all.
       Paused:
-          Summary: The task is paused due to needing to concentrate on other Tasks
+          Details: The task is paused due to needing to concentrate on other Tasks
       Closed:
-          Summary: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
+          Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
 
   class Bug:
     Inherits: Task
@@ -195,7 +198,10 @@ namespace Barba.Types:
       Area ForArea:
       User[] By:
         Summary:
-          a list of users who (can) perform/contribute to the task. The first user is the responsible one.
+          a listof users who (can) perform/contribute to the task. The first user is the responsible one.
+      Task[] Tasks:
+        Summary:
+          the task(s) implementing this requirement (i.e. when they are done, the requirement should be fulfilled (~done))
     ##Methods:
     ##- void DoSomething(): =>SomeFunction()
     Notes:

@@ -73,6 +73,15 @@ OnGoing .General management:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Details:
           Bobi to try it first with the Query engine of Rainbow csv    
+    TODO .Create further reports:
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 210511, By: [Hana, Bobi], Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        Create charts in e.g. google spreadsheet (import the data and make it draw a chart):
+        - daily spent hours
+        - burndown
+        - scope creep
+    OnGoing .Update reports periodically:
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 211231, By: [Hana, Bobi], Tags: [CSVTODO]}      
   OnGoing .Retrospective related:
     Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
@@ -411,9 +420,13 @@ InProgress .Plan the next Milestones:
     Details:
       - Collect features
       - We are Task based - so no requirements              
-      - Estimate them
+      - Estimate them (- include the F2FileToHtmlConverter upgrades as well)
+      - Create a Milestone (an Item with the Type:_ Milestone) and select the features (Tasks)
     Workspace:
-      - include the F2FileToHtmlConverter upgrades as well
+      NextMilestone:
+        Type: Milestone
+        
+      
       
   Blocked .Make final decision about the milestones we pursue:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}

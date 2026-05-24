@@ -177,5 +177,8 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 10m, "", 20260523 T 001100 ]
     - -->Tasks\Website\..Improvements.."Work out user journeys on the site".."Create baseline"<: [ 50m, "", 20260523 T 002248 ]
     - -->Tasks\Website\..Improvements.."Create content yamls".."The Abyss:_ Finish F2Yaml specification".MaintenanceTasks.."Estimate"<: [ 27m, "", 20260523 T 223743 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 22m, "", 20260524 T 205542 ]
+    - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 28m, "", 20260524 T 211742 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add "Commit message"-like feature".MaintenanceTasks.."Have an implementation plan and provide estimation"<: [ 6m, "", 20260524 T 212037 ]
   Next:
     - null

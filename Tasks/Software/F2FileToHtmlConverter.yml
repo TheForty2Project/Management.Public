@@ -147,17 +147,16 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
-      TODO .Add "Commit message"-like feature:
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      EstTODO .Add "Commit message"-like feature:
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [CSVTODO], Estimation: 70, RemTime: 70}
         MaintenanceTasks:
-          InProgress .Have an implementation plan and provide estimation:
+          Done .Have an implementation plan and provide estimation:
             Id: ImprEstimation
             +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: [Bobi]}
             Result:
               Estimation:
                 PAR: 30
-                Normal: 90                        
-
+                Normal: 70
         Details:
           - At each website update a description must be provided
           - The app also tracks the changes

@@ -385,8 +385,17 @@ Done .Create "daily administration" schedule for Hana:
   Result:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
 
-InProgress .Plan the next Milestones:
+TODO .Create an outreach plan:
+  +: {CreatedBy: Bobi, CreatedAt: 20260525 T 001815, By: [Bobi, Hana]}
+  Details:
+    - there's something already... look it up
+    - complete it to answer the following questions:
+      - what steps we should make
+      - what do we need to develop/make and how to categorize them into milestones
+
+Blocked .Plan the next Milestones:
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
+  DependsOn: -->Tasks\Management\.."Create a marketing plan"<
   Details:
     - Candidates:
       - Complete F2BarbaManagement.MVP:
@@ -417,6 +426,7 @@ InProgress .Plan the next Milestones:
 
   InProgress .Work out the OCWSPhase2 milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
+    DependsOn: -->Tasks\Management\.."Create a marketing plan"<
     Details:
       - Collect features
       - We are Task based - so no requirements              
@@ -425,7 +435,9 @@ InProgress .Plan the next Milestones:
     Workspace:
       NextMilestone:
         Type: Milestone
-        
+        Tasks:
+
+
       
       
   Blocked .Make final decision about the milestones we pursue:

@@ -102,9 +102,9 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260409 T 151338, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: 0}
       Done .Add the config files to the project:
         +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194514, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-      TODO .Merge the project into the F2Tool solution:
+      EstTODO .Merge the project into the F2Tool solution:
         +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194910, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
-      TODO .Detect and convert urls:
+      EstTODO .Detect and convert urls:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
         Details:
           - check first - 
@@ -112,10 +112,31 @@
           - html links
       Done .Display line and col number when unable to parse yaml:
         +: {CreatedBy: Bobi, CreatedAt: 20260420 T 203155, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
-      TODO .Update the colors to the current VS Code theme:
+      EstTODO .Update the colors to the current VS Code theme:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
-      TODO .Detect and convert f2yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVDONE], Estimation: "180", RemTime: "180"}
+      EstTODO .Detect and convert f2yaml links:
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
+        MaintenanceTasks:
+          Done .Have an implementation plan and improve estimation:
+            Id: ImprEstimation
+            +: {CreatedBy: Bobi, CreatedAt: 20260522 T 202022, By: [Bobi]}
+            Result:
+              Estimation:
+                PAR: 30
+                Normal: 90                
+              Implementation plan:
+                Basic:
+                  - collects the f2links - probably during the yaml processing stage
+                  - converts them into html links, for which it needs:
+                    - file location - but this is the same as in the f2link
+                    - anchor Id:
+                      - generates the html with the anchor ids OR generates it and provides it to the generator - depends on the current implementation. 
+                  - provides these strings for the generator to replace any matching f2links; whether its pre-process or during generation is up to current implementation.                  
+                Extra feature: 
+                  - verifies them - do they point to somewhere:
+                    - if not, displays report about the ones not pointing; each link and all the file locations where this "broken" link can be found with col+row 
+        Details:
+
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "45"}
       Done .Implement CSV converting feature:
@@ -126,7 +147,16 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
-      TODO .Add "Commit message"-like feature:
+      EstTODO .Add "Commit message"-like feature:
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [CSVTODO], Estimation: 70, RemTime: 70}
+        MaintenanceTasks:
+          Done .Have an implementation plan and provide estimation:
+            Id: ImprEstimation
+            +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: [Bobi]}
+            Result:
+              Estimation:
+                PAR: 30
+                Normal: 70
         Details:
           - At each website update a description must be provided
           - The app also tracks the changes
@@ -134,16 +164,23 @@
           Details:
             - as a command-line parameter?
             - as an entry in some config file?
-        TODO .Decide:_ how should we handle the whole thing:
+        InProgress .Decide:_ how should we handle the whole thing:
           Details:
             - we should preserve the previous updates, which should be stored somewhere - maybe a yaml in our workspace?
             - so the app would edit this file maybe?
             - maybe when it starts, it emits the changes to the yaml file - add it to its beginning - then asks the user to edit the file and say "done", then it converts them
+            - or, checks whether there's a new entry in it with placeholders for the file list and the current date
             - tracking the changes:
               - it can just compare the generated htmls
               - it can take a snapshot of all the yamls, save them, and then compare the new ones
-
-  OnGoing .Bugs:    
+          Workspace:
+            - What to display in the website:
+              - History of TF2P and current status (growth included):
+                 - The previous 2 websites and the backgrownd growth ( team, requiremnt development, the extenrsion ..etc) - The previous 2 websites and the backgrownd growth ( team, requiremnt development, the extenrsion ..etc)
+              - Milestones section
+              - schedule of streaming on twitch with the tasks (optionally:-to be updated everday)
+              - 
+  OnGoing .Bugs:   
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

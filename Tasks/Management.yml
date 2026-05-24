@@ -73,6 +73,15 @@ OnGoing .General management:
         +: {CreatedBy: Bobi, CreatedAt: 20260413 T 233004, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
         Details:
           Bobi to try it first with the Query engine of Rainbow csv    
+    TODO .Create further reports:
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 210511, By: [Hana, Bobi], Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        Create charts in e.g. google spreadsheet (import the data and make it draw a chart):
+        - daily spent hours
+        - burndown
+        - scope creep
+    OnGoing .Update reports periodically:
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 211231, By: [Hana, Bobi], Tags: [CSVTODO]}      
   OnGoing .Retrospective related:
     Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
@@ -411,9 +420,13 @@ InProgress .Plan the next Milestones:
     Details:
       - Collect features
       - We are Task based - so no requirements              
-      - Estimate them
+      - Estimate them (- include the F2FileToHtmlConverter upgrades as well)
+      - Create a Milestone (an Item with the Type:_ Milestone) and select the features (Tasks)
     Workspace:
-      - include the F2FileToHtmlConverter upgrades as well
+      NextMilestone:
+        Type: Milestone
+        
+      
       
   Blocked .Make final decision about the milestones we pursue:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}
@@ -421,5 +434,10 @@ InProgress .Plan the next Milestones:
       - -->Tasks\Management\.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
       - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
 
-    
+  EstTODO .Decide:_ Milestones and areas baseline:
+    +: {CreatedBy: Bobi, CreatedAt: 20260522 T 211836, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+    Details:      
+      - What Areas we should be "tracking" - and on the website
+      - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

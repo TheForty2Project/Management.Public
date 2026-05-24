@@ -229,8 +229,11 @@ namespace Barba.Types:
               Type: integer  
 
   class Milestone:
-    Inherits: Requirement    
-
+    Inherits: Requirement
+    Properties:
+      Task[] Tasks:
+        Summary: Tasks need to be completed to complete a Milestone
+        
   enum RequirementType:
     Members:
       Requirement:
@@ -434,6 +437,9 @@ namespace Barba.Types:
       Article[] Parts:
         IsDefault: true
       ArticleMaturity Maturity:
+
+  class Notes:
+    Inherits: Article
   
   enum ArticleMaturity:
     Members:

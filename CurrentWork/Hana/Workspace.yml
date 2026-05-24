@@ -85,35 +85,59 @@ TODO .20260430:
       - Posting on 9gag and reddit every few days to draw attentions to us from different perspectives:
         - Diagram of knowledge transfer
 
-TODO .20260505:
+TODO .a20260505a:
   - -->Tasks\Management\.."Big replanning after OCWSPhase1"<
   - -->Documents\PublicRelations\.."Algorithm of discussions"<:
     Details: 
+      - as: -->CurrentWork\Hana\Workspace\.."a20260505a"<    
       - Parent Task Estimation is 180m. Child Task 120m. Confirm with owner about the timing!
 
-Notes on streaming:
-  Stream: Twitch 20260513 - delayed from 11 to 13:26 
-  Reason: Robert woke up late, had a shower and did his beard
-  Stream2: Twitch 20260513 - Cancelled
-  Reason2: 
-    - Robert had his burps, forgot what we are suppose to stream ( planning meeting)
-    - Burp was for drinking cocacola in the morning (Sugar)
-    - Environment set up for 40 mins
-Things to do:
-  - What are the next steps for phase 2
-  - Milestones, what are the milestones of phase 2
-  - Health Log, What to acheive in this phase:
-    - Body wise
-    - Mental wise
-    - Productivity wise
-  - Website:
-    - What are the milestones that we need to reach:
-    - Source to show Our schedule of work in different platforms (twitch)
-    -  
+.Notes on streaming:
+  Type: Article
+  Content:
+    Stream: Twitch 20260513 - delayed from 11 to 13:26 
+    Reason: Robert woke up late, had a shower and did his beard
+    Stream2: Twitch 20260513 - Cancelled
+    Reason2: 
+      - Robert had his burps, forgot what we are suppose to stream ( planning meeting)
+      - Burp was for drinking cocacola in the morning (Sugar)
+      - Environment set up for 40 mins
 
+.OOP andor Items basics:
+  Type: Article
+  Content:
+    Example Robi used:
+      class Milestone:
+      Inherits: Requirement
+      Properties:
+        Task[] Tasks:
+          Summary: Tasks need to be completed to complete a Milestone
+      class Apple:
+        Properties:
+          Sizes Size:
+          Colors Color:
+          bool IsRotten:
 
+      enum Sizes:
+        - S
+        - M
+        - L
+        - XL
 
+      enum Colors:
+        - Red
+        - Yellow
+        - Green
 
+      AppleIJustBought:
+        Size: S
+        Color: Green
+
+      NextMilestone:
+        Type: Milestone
+        Tasks:
+          - TODO .MyTask:
+          - --><
 
 
   

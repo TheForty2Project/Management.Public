@@ -218,9 +218,9 @@ Done .Create outreach plan:
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVTODO]}  
   Details:
     - what streams we should be pursuing first:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
+        Base it on: -->..."Outreach Ideas"<
     - when do we start communicating with the public in which streams; requirements for each:
-        Base it on: -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"<
+        Base it on: -->..."Outreach Ideas"<
     - End of OCSWSPhase 1:
         Requirements:
           - Website MVP DD
@@ -245,18 +245,18 @@ Done .Create outreach plan:
             - cooking + eating
             - hiking (need gimbal)
     - we should be exploring the outreach ideas one by one:
-          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."5-VeryHigh Reddit"<:
+          -->..."Outreach Ideas"."5-VeryHigh Reddit"<:
             - find subreddits into which we can paste articles/questions
             - pick articles we want to post there
             - one of them can be that question we posted on 9gag
-          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Contact certain people"<:
+          -->..."Outreach Ideas"."4-High Contact certain people"<:
             - collect and have ideas about how to contact them with what message, goals, etc.
-          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
+          -->..."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
             - plan the next steps
             - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
-          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Music listener of the same taste of music"<:
+          -->..."Outreach Ideas"."4-High Music listener of the same taste of music"<:
             - whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
-          -->Tasks\PublicRelations\.."Initial brainstorming and analysis of outreach ideas".."Create first draft".Result."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
+          -->..."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
             - find avenues where we can
             - collect the requirements - so when exactly we should be doing it?
           -->Tasks\PublicRelations\..ProgrammingBuddies<:

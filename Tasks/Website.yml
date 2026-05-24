@@ -1140,7 +1140,7 @@ Done .Back to original:
         Details: 
           - Invite Code: XqzbpVyKXr
 
-TODO .Improvements:  
+.Improvements:  
   Id: Improvements  
   Done .ToC:
     Done .Make a decision - should we do it and how?:
@@ -1148,16 +1148,16 @@ TODO .Improvements:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131658, By: everyone }
       Result:
         We're doing a ToC per "topic"
-  TODO .Convert the F2Links on the site to html ones:
+  EstTODO .Convert the F2Links on the site to html ones:
     +: {CreatedBy: Bobi, CreatedAt: 20260517 T 215922, By: Bobi}
-    TODO .Manually create the yaml links:
+    Cancelled .Manually create the yaml links:
       +: {CreatedBy: Bobi, CreatedAt: 20260328 T 231100, By: [Bobi, Hana], Estimation: "180", RemTime: "180"}
       Details:
         - Go through the f2yaml links and replace them with html ones.
         - Use a method which can be re-done easily after an update
         - Bobi should try it first, then Hana
-    TODO .Generate the yaml links automatically:
-      +: {CreatedBy: Bobi, CreatedAt: 20251206 T 013317, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "180", RemTime: "180"}      
+      CancelReason: it seems by the time we create this manual method, we can do it as an F2FileToHtmlConverter functionality.
+    .-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<:      
   InProgress .Add the part we recorded during our smoking session to the Summary:
     +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
@@ -1275,17 +1275,17 @@ TODO .Improvements:
               - "Provide direct communication"
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
-    TODO .Add it to the website:
+    EstTODO .Add it to the website:
       +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
         - find a place
         - put it there  
-  InProgress .Create content yamls:
+  EstTODO .Create content yamls:
     +: {CreatedBy: Bobi, CreatedAt: 20260517 T 214416, By: Bobi}
     Id: CreateYamls
-    InProgress .Learn To Dive:_ Syntax:
+    EstTODO .Learn To Dive:_ Finish Syntax:
       Id: LearnToDiveSyntax
-      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 162557, By: Bobi, Estimation: "180", RemTime: "60"}
+      +: {CreatedBy: Bobi, CreatedAt: 20260523 T 230146, By: Bobi, Estimation: 120, RemTime: 120}
       Details:
         - only the most important things
         - ideally in a short summary
@@ -1366,9 +1366,12 @@ TODO .Improvements:
           Preceding "." as child Item: TODO
           Plus sign as property id: TODO
           F2Links: TODO        
-    InProgress .The Abyss:_ Finish F2Yaml specification:
+    EstTODO .The Abyss:_ Finish F2Yaml specification:
       Id: TheAbyss
-      +: {CreatedBy: Bobi, CreatedAt: 20260517 T 214527, By: Bobi}
+      +: {CreatedBy: Bobi, CreatedAt: 20260517 T 214527, By: Bobi, Estimation: 420, RemTime: 420}
+      MaintenanceTasks:
+        Done .Estimate:
+          +: {CreatedBy: Bobi, CreatedAt: 20260523 T 223733, By: Bobi}
       Notes:
         Bobi: Phase1 Tasks are in $@-->Tasks\Website\..BackToOrigi..Intermediate..CreateSite..CreateYamls..Leaves.."The Abyss".."Documents".."Specifications".."F2Yaml"<@$
       TODO .Overview:
@@ -1390,30 +1393,34 @@ TODO .Improvements:
         +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
       TODO .F2Link:
         +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-  TODO .Make the yaml downloadable:
+  EstTODO .Make the yaml downloadable:
     Id: MakeYamlsDownloadable
     Cancelled .As a single file:
-    TODO .Make the yamls downloadable as a package:
+    Cancelled .Make the yamls downloadable as a package:
       Id: AsAPackage
       Done .Decide:_ Maybe we should just link to the new repo?:
         Result: yes
-      TODO .Implement:
+      Cancelled .Implement:
         Id: Impl
         +: {CreatedBy: Bobi, CreatedAt: 20251203 T 152205, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
         DependsOn: -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Create a new repository for the new set of yamls"<
         Details:
           - Simply add a link (with some text) to the Overview section
           - Ensure and test that git is set up in a way that it's "read-only" for the public
-  TODO .Add Fold All and Unfold ALl buttons:
+    EstTODO .As a Github repo:
+      +: {CreatedBy: Bobi, CreatedAt: 20260523 T 001712, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+      Details:
+        - basically some "header" for each yaml/page. Need to decide how it would be the best.
+  EstTODO .Add Fold All and Unfold ALl buttons:
     Id: FoldAll
-    TODO .Try with a codex prompt:
+    EstTODO .Try with a codex prompt:
       Id: Codex
       +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
       Details:
         Make sure that any change can be rolled back easily - so test it properly before building on it.
-    NEXT .If the previous didn't work bug-free, do it manually:              
-      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2]}
-  TODO .Manually convert the urls in the NonDD pages to html links:
+    NEXT .If the previous didn't work bug-free, do it manually:
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "120", RemTime: "120"}
+  EstTODO .Manually convert the urls in the NonDD pages to html links:
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
     Details:
       - Repo is theforty2project.org, files are under content\Contact\, content\Watch, etc.
@@ -1444,10 +1451,15 @@ TODO .Improvements:
         Details:
           Include:
             - F2FileToHtmlConfig edit            
-  TODO .Create Updates section containing the commit-message-like updates:
-    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+  EstTODO .Create Updates section containing the commit-message-like updates:
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}    
     Details:
-      These updates are the commmit-message-like updates we write whenever we sync our yaml files to the site (using the F2FileToHtmlConverter tool)
+      - These updates are the commmit-message-like updates we write whenever we sync our yaml files to the site (using the F2FileToHtmlConverter tool).
+      - yaml mirrored to the site
+      - task is basically about:
+        - decision about the format
+        - setting up the converter; the yaml file will be generated by the F2FileToHtmlConverter
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add "Commit message"-like feature"<:
   InProgress .Join The Mission (former Support):
     Id: JoinMission
     +: {CreatedBy: Bobi, CreatedAt: 20251202 T 143450, By: Bobi, Tags: [OCWSPhase2]}
@@ -1492,26 +1504,110 @@ TODO .Improvements:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
       TODO .Decide do we need anything else:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                  
-    TODO .Placeholder for further tasks:
-      +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155739, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
-  TODO .Roadmap:
-  TODO .Shadows site todos:
+  EstTODO .Create Roadmap section:
+    +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
+    MaintenanceTasks:
+      InProgress .Provide rough estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 212721, By: Bobi}
+        Result:
+          PAR: 
+            - Basic: 30
+            - Designed: 90
+          Normal: 
+            - Basic: 60
+            - Designed: 150
+          Explanation:
+          - Estimation is highly dependent on the outcome of the dependent task.
+          - It is also not decided:
+            - how many "views" and what kind we want. Assumption is "the basics + a little", 1-2 views and very maybe some graphics which graphics is not taking longer, than 1 hour to create
+            - is it a page generated from yaml or we put together something manually:
+              - It would fit the concept better if it was yaml... that decides the picture: no picture
+          - So: we split up the task; first is a yaml based, just the content, second is a designed, special element, bigger deal one.
+    DependsOn: -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<
+    Details:
+      - Decide whether and how to include the history here
+    EstTODO .Decide:_ how should we handle history?:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 215034, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+    EstTODO .Basic yaml based, generated:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213151, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+      Details:
+        See the Result of -->...Provide rough estimate"<
+    EstTODO .Designed, non-generated:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213236, By: Bobi, Tags: [CSVTODO], Estimation: 150, RemTime: 150}
+      Details:
+        See the Result of -->...Provide rough estimate"<            
+  EstTODO .Shadows site todos:
     +: {Id: ShadowsSite, CreatedBy: Bobi, CreatedAt: 20260518 T 013645}
-    TODO .Revise the other pages:
+    EstTODO .Revise the other pages:
       +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       Comments:
         - [Bobi, 20251202, "OnHold because we might just move everything to the OriginalConcept site"]
         - [Bobi, 20260518, "Back to life"]
-    TODO .Redesign the main site to black:
-      +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
+    EstTODO .Redesign the main site to black:
+      +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: 60, RemTime: 60}
       Importance: Should          
-    TODO .Remove the annoying animations:
-      +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "60", RemTime: "60"}
+    EstTODO .Remove the annoying animations + feedback + garbage we don't want any more:
+      Id: Cleanup
+      +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: 60, RemTime: 60}
       Importance: Could          
       Details:
         - Article bzzzzs:
         - Boxes should be "merged" in Articles:
-        - No animation for boxes in Articles:    
+        - No animation for boxes in Articles:  
+        - Feedback - maybe                
+  OnGoing .Work out user journeys on the site:
+    +: {CreatedBy: Bobi, CreatedAt: 20260523 T 002049, By: Bobi, Tags: [CSVTODO]}
+    Details:
+      - What would the user want to see (after what)
+      - What would we want the user do, for different use cases (e.g. developer should have a different journey than a journalist)
+    Done .Create baseline:
+      +: {CreatedBy: Bobi, CreatedAt: 20260523 T 002222, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      Result:
+        Audience we want as of 20260523:
+          Dev: 
+            - jr developers through the "programmingbuddies" student-channel 
+            - sr developers
+          PMTool: 
+            - mostly developers who are interested in the F2BarbaMgmt; maybe project managers with coding background
+          Enthusiasts: enthusiasts who just want to cheer but are not programmers; can only help with spreading the info and/or investing
+        Journeys:
+          Dev:
+            Notes:
+              - Bobi: first target maybe
+            Steps:
+            - Overview (tf2p.org)
+            - Summary article (maybe)
+            - Some section which explains that we're at the moment looking for what kind of ppl and if you're dev, then follow these steps
+            - Current tasks report, highlighting the Tasks anyone could do, with difficulty, with "implementation plan"
+            - Process about doing those tasks
+          PMTool:
+            Notes:
+              - Bobi: once the F2Tools.MVP is near completion
+            Steps:
+            - Overview (tf2p.org)
+            - Summary article (maybe)
+            - Some section which explains that we're at the moment looking for what kind of ppl and if you're interested in the pm tool, what to do
+            - Description about the F2BarbaMgmt:
+              - feature highlights
+              - dev process:
+                - simple TODO based - suitable for 1 man army
+                - Requirement + Task + Management + Reports - 2-6 ppl
+              - comparison to other tools (maybe)
+            - How to set up your own F2BarbaMgmt environment            
+            - Bugs
+            - Features (upcoming/etc)
+            - How to request feature and/or develop something
+          Enthusiasts:
+            Details:
+              - least important target, but most ppl belong to this category
+            Steps:
+            - Overview (tf2p.org)
+            - Summary article (maybe)
+            - Some section which explains that we're at the moment looking for what kind of ppl but if you're not a programmer, at the moment you can just cheer or invest
+            - Roadmap
+            - Progress towards various milestones
+            - Articles about core topics
+
   OnHold .Later:
     Details:
       Tasks we planned at one point but not sure if or when we want to pursue them
@@ -1523,9 +1619,6 @@ TODO .Improvements:
   Cancelled .Trash:
     Details:
       Tasks we planned at one point but do not want to pursue any more 
-    Cancelled .Create Roadmap section:
-      +: { CreatedBy: Hana, CreatedAt: 20250701 T 124532, By: [Shadow, Hana] }
-      DependsOn: .Response, quantity and quality of the applicants  
     Cancelled .Coming soon section on the website:
       Details: A section listing what our next "Big Potatoes" are
       Cancelled .Create the content:

@@ -135,8 +135,6 @@
                 Extra feature: 
                   - verifies them - do they point to somewhere:
                     - if not, displays report about the ones not pointing; each link and all the file locations where this "broken" link can be found with col+row 
-        Details:
-
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "45"}
       Done .Implement CSV converting feature:

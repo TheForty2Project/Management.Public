@@ -1555,6 +1555,12 @@ Done .Back to original:
         - Boxes should be "merged" in Articles:
         - No animation for boxes in Articles:  
         - Feedback - maybe                
+  EstTODO .Update the colors to the current VS Code color scheme:
+    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 150539, By: Bobi}
+    Details:
+    EstTODO .Update the colors of the non-generated pages:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 151321, By: Bobi, Estimation: 20, RemTime: 20}
+    .-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Update the colors to the current VS Code theme"<:
   OnGoing .Work out user journeys on the site:
     +: {CreatedBy: Bobi, CreatedAt: 20260523 T 002049, By: Bobi, Tags: [CSVTODO]}
     Details:

@@ -214,24 +214,26 @@ InProgress .Initial brainstorming and analysis of outreach ideas:
       - Shamanth (the one who was interested in our podcast about logic)
       - The rest of the people we started collecting - where is it  
       - The guy with the "no management layer in my company"
-Done .Create outreach plan:
+
+InProgress .Create outreach plan:
+  Id: CreateOutreachPlan
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVTODO]}  
-  Details:
-    - what streams we should be pursuing first:
-        Base it on: -->..."Outreach Ideas"<
-    - when do we start communicating with the public in which streams; requirements for each:
-        Base it on: -->..."Outreach Ideas"<
-    - End of OCSWSPhase 1:
-        Requirements:
-          - Website MVP DD
-          - finishing most tasks of OCWSPhase1
-        Details:
-    - OCWSPhase2:
-      - creating a schedule for each stream in their respective platforms
-      - start streaming at least 2x a week from each member
-    - see ideas at -->Tasks\PublicRelations\<    
-  Result:
-    - streaming seems worth pursuing:
+  Done .Create first draft:
+    Details:
+      - what streams we should be pursuing first:
+          Base it on: -->..."Outreach Ideas"<
+      - when do we start communicating with the public in which streams; requirements for each:
+          Base it on: -->..."Outreach Ideas"<
+      - End of OCSWSPhase 1:
+          Requirements:
+            - Website MVP DD
+            - finishing most tasks of OCWSPhase1          
+      - OCWSPhase2:
+        - creating a schedule for each stream in their respective platforms
+        - start streaming at least 2x a week from each member
+      - see ideas at -->Tasks\PublicRelations\<
+    Result:
+      streaming seems worth pursuing:
         topics:
           administration/management:
           development:
@@ -244,29 +246,29 @@ Done .Create outreach plan:
           leisure:
             - cooking + eating
             - hiking (need gimbal)
-    - we should be exploring the outreach ideas one by one:
-          -->..."Outreach Ideas"."5-VeryHigh Reddit"<:
-            - find subreddits into which we can paste articles/questions
-            - pick articles we want to post there
+      we should be exploring the outreach ideas one by one:
+        -->..."Outreach Ideas"."5-VeryHigh Reddit"<:
+          - TODO find subreddits into which we can paste articles/questions
+          - TODO pick articles we want to post there:
             - one of them can be that question we posted on 9gag
-          -->..."Outreach Ideas"."4-High Contact certain people"<:
-            - collect and have ideas about how to contact them with what message, goals, etc.
-          -->..."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
-            - plan the next steps
-            - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
-          -->..."Outreach Ideas"."4-High Music listener of the same taste of music"<:
-            - whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
-          -->..."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
-            - find avenues where we can
-            - collect the requirements - so when exactly we should be doing it?
-          -->Tasks\PublicRelations\..ProgrammingBuddies<:
-            - IF Hana runs out of work - i.e. has time for programming
-            - we need the tasks to be worked out properly (mostly by Bobi):
-                Hana can shadow me though
-            - takes time to ramp this up        
-    - at the moment this is a "trial" stage:
-      - outreach: we try things - which one works more, which one less - and then do an analysis
-      - site + products we have: we stabilize them and make them ready for people to see
+        -->..."Outreach Ideas"."4-High Contact certain people"<:
+          - TODO collect and have ideas about how to contact them with what message, goals, etc.
+        -->..."Outreach Ideas"."4-High Music listener of the same taste of music"<:
+          - TODO whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
+        -->..."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
+          - TODO find avenues where we can
+          - TODO collect the requirements - so when exactly we should be doing it?
+        -->Tasks\PublicRelations\..ProgrammingBuddies<:
+          - IF Hana runs out of work - i.e. has time for programming
+          - we need the tasks to be worked out properly (mostly by Bobi):
+              Hana can shadow me though
+          - takes time to ramp this up        
+        -->..."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
+          - plan the next steps
+          - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
+      at the moment this is a "trial" stage:
+        - outreach: we try things - which one works more, which one less - and then do an analysis
+        - site + products we have: we stabilize them and make them ready for people to see
   Done .Analyize Twitch viewer count:
     +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145508, By: [Bobi, Hana], Tags: [CSVTODO], Estimation:, RemTime:}
     Result:
@@ -294,6 +296,125 @@ Done .Create outreach plan:
             - what topics are interesting
             - do boobs matter - and how much?
         - we should have a schedule!!!!!!!!!!  
+  
+  InProgress .Improve plan:
+    Id: Improve
+    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 001815, By: [Bobi, Hana]}
+    Details:
+      - complete it to answer the following questions:
+        - what steps should we take
+        #- what do we need to develop/make and how to categorize them into milestones
+    Done .Create rough plan for taskification purposes:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163036, By: [Bobi, Hana]}
+      Result:
+        What steps we should make:
+          Establish regular and proper streaming:
+            Goal:
+              - Regular:_ we stream multiple days per week, multiple times a day, from multple channels (i.e. 2):
+                - 5/week
+                - 2/day on average
+                - roughly 1 hour/session
+                - 3 streamings per day (e.g. 2 by Hana, 1 by me )
+              - Proper:_ we have content on Twitch - e.g. clips and panels with links to the site:
+            Create Tasks for this:
+              Include:
+                Areas and panels:
+                  - Categorize our work into areas (like Website, F2Tools dev, Management and admin, etc.):
+                    - consider including non-work topics as well (like our evening talks)
+                    - ideas: -->...CreateOutreachPlan.."Create first draft".Result."streaming seems worth pursuing".topics<
+                  - Create Panels
+                  - Reference these Areas/panels in the stream description
+                Create clips:
+                  - Regularly create clips about interesting parts of the recorded/streamed videos:
+                    - interesting parts: important - like summary; entertaining - funny, etc.; deep
+                    - have some process about identifying and creating clips:
+                      - current way of identifying kind of works as a baseline (i.e. Hana just thinks that something is interesting)
+                      - + Hana asks Bobi to review it
+                    - frequency: 
+                      - we should establish some baseline about the frequency:
+                        - spending a few hours on re-watching the streams and trying to find good part-candidates
+                        - then evaluating the clips
+                    - include a summary at the beginning and at the end of each stream - like a standup report:
+                        Details:
+                          - beginning: what did we do before, what we're planning to do
+                          - end: what did we do and what we're planning to do next streams
+                          - duration: less, than 5 min; ideally less, than 2 mins each
+                develop schedules:
+                    - DO:
+                      - create/update the schedule taking the current set of information into account
+                      - try to keep the schedule the next day(s)
+                      - measure how successful we were                      
+                    - WHILE ( NOT (StreamingTargetIsReached()))
+                    - StreamingTargetIsReached():
+                        Roughly:
+                        - IF (:
+                            - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                            - AND we have at least 4 scheduled ones per week
+                            - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
+                        - ): 
+                            return: true
+                        - ELSE: 
+                            return: false
+                create process description about streaming:
+                    Details:
+                      Include:
+                        Accounts:
+                          - tf2p should be about planning when we work together (like working on this task should be)
+                          - personal (bobi, hana) should be used for when we do NOT work together (like Bobi dev, Hana healt/admin/etc)
+                        HowTos:
+                          - where should we click basically in which application in what order for what type of streaming                
+          Explore further outreach ideas:
+            Mainly these - the ones marked with "TODO":
+              -->Tasks\PublicRelations\..CreateOutreachPlan.."Create first draft".Result."we should be exploring the outreach ideas one by one"<
+    CurrentFocus .Taskify/Itemize the results of the previous Task:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163156, By: [Bobi, Hana], Estimation: 90, RemTime: 90}
+      Details: So this -->...CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result<
+      Workspace:
+        To be still processed:
+          -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result."What steps we should make"."Explore further outreach ideas"<:
+          -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result."What steps we should make"."Establish regular and proper streaming"."Create Tasks for this".Include."Areas and panels"<:
+        Tasks to sort/put in place:
+          -->Tasks\PublicRelations\..Streaming..ScheduleNextPeriod.."Incrementally develop initial schedule"<:
+          OnGoing .Create clips from the Twitch streams:
+            BelongsTo: -->Tasks\PublicRelations\..Streaming<
+            +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214336, By: [Hana, Bobi]}
+            Details:
+              Create clips about interesting parts: important - like summary; entertaining - funny, etc.; deep, etc.
+            TODO .Create clips from the summaries + interesting stuff - first, trial ~week:
+              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220215, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 230, RemTime: 230}
+              Details:
+                - Do it for the first ~week, every streamed content which has "proper" summary:
+                  - \"proper" is that we consider it ~high quality - meaning that if someone watches it, it's more likely that they get interested than they get disinterested
+                  - process is somethinglike:
+                    - Hana selects and cuts the ones which she thinks would pass
+                    - Bobi + Hana reviews them together and selects the ones which stay
+            NEXT .Decide:_ how do we continue based on the results of first ~week:
+              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+
+          OnGoing .Create process about Twitch streaming:
+            Id: TwitchStreaming
+            BelongsTo: -->Tasks\Processes\..Outreach<
+            +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214527, By: [Hana, Bobi]}
+            TODO .Create baseline:
+              Id: Baseline
+              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214839, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+              Details:
+                Make sure that this is not too detailed!!!:
+                  Because it's mostly for us and we don't have time to waste.
+                Include:
+                  How to start streaming and technicalities:
+                    Include:
+                      Accounts:
+                        - tf2p should be about planning when we work together (like working on this task should be)
+                        - personal (bobi, hana) should be used for when we do NOT work together (like Bobi dev, Hana healt/admin/etc)
+                      HowTos:
+                        - where should we click basically in which application in what order for what type of streaming                  
+                  What to do during streaming:
+                    Include: 
+                      Performing this Task: -->...Streaming..Activities.."Standup or Summary at the beginning and end"<
+            OnGoing .Updates:
+              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 215538, By: [Bobi, Hana]}
+        
 
 .9Gag:
   OnGoing .Collect ideas about 9gag posts:
@@ -359,11 +480,41 @@ OnGoing .Promote our F2BarbaManagement PM environment:
     
 .Streaming:
   Id: Streaming
-  OnGoing .Create streaming schedule for the next period:    
+  OnGoing .Create and maintain streaming schedule:
     +: {Id: ScheduleNextPeriod, CreatedBy: Bobi, CreatedAt: 20260504 T 142235, By: Hana}
     Details:
+      Include schedule about these activities as well:
       - Hana daily admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<)
       - Hana weekly admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoWeeklyAdmin<)
+    TODO .Incrementally develop initial schedule:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 223505, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      Details:
+        - DO:
+          - create/update the schedule taking the current set of information into account
+          - try to keep the schedule the next day(s)
+          - measure how successful we were                      
+        - WHILE ( NOT (StreamingTargetIsReached()))
+        - StreamingTargetIsReached():
+            Roughly:
+            - IF (:
+                - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                - AND we have at least 4 scheduled ones per week
+                - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
+            - ): 
+                return: true
+            - ELSE: 
+                return: false    
+  
+  OnGoing .Streaming related activities:
+    Id: Activities
+    OnGoing .Standup or Summary at the beginning and end:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163439, By: [Bobi, Hana]}      
+      Details:
+        Do a "standup"-like summary at the beginning and end of the streaming:
+          beginning: what did we do before, what we're planning to do
+          end: what did we do during the stream and what we're planning to do next streams
+          duration: less, than 5 min; ideally less, than 2 mins each
+
 
 TODO .Contact Jessica:
   +: {CreatedBy: Bobi, CreatedAt: 20260502 T 134157, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}

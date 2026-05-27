@@ -191,7 +191,7 @@ SR_20260526_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation"<
 
-SR_NEXT_Bobi:
+SR_20260527_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "", 20260526 T 144822 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation"<: [ 1m, "", 20260526 T 144912 ]
@@ -200,3 +200,9 @@ SR_NEXT_Bobi:
     - -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Taskify/Itemize the results of the previous Task"<: [ 57m, "", 20260526 T 150245 ]
   Next:
     - null
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 15m, "", 20260527 T 144216 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 7m, "", 20260527 T 151414 ]
+  Next:

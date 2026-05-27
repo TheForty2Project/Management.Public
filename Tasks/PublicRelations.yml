@@ -2,6 +2,94 @@
 
 -->Tasks\Archive\PublicRelations\<:
 
+.9Gag:
+  OnGoing .Collect ideas about 9gag posts:
+    Id: Collect9GagIdeas
+    +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144919, By: [Bobi, Hana], Tags: [CSVTODO]}
+    Details:
+      Put them into -->Documents\PublicRelations\..9GagPostIdeas<
+  TODO .Post about algorithm of discussions:    
+    +: {Id: AlgOfDisc, CreatedBy: Bobi, CreatedAt: 20260504 T 185624, By: [Bobi], Tags: [CSVTODO], Estimation: , RemTime:}
+    Blocked .Write the post baseline:
+      +: {Id: WriteBaseline, CreatedBy: Bobi, CreatedAt: 20260504 T 185653, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+      DependsOn: 
+      Details:
+        - Title
+        - Flowchart - ?
+        - Text
+    NEXT .Review and finalize:
+      +: {CreatedBy: Bobi, CreatedAt: 20260504 T 185735, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+  Done .Post the Poll about Sacrifice:
+    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 144958, By: Bobi}
+    Done .Create and post:
+      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145026, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 0}
+      Result:
+        https://9gag.com/gag/a6Z0MdL
+    Done .Analyse:
+      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145050, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+      Result:
+        - The post got removed; no clear reason - fuckthem.
+        - Interesting comments and likes
+        - 4 upvotes total
+        - one username is interesting (upvoted): fortytwofuture
+  TODO .Create at least three 9Gag post baselines:
+    +: {CreatedBy: Bobi, CreatedAt: 20260511 T 203700, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+.Streaming:
+  Id: Streaming
+  OnGoing .Create and maintain streaming schedule:
+    +: {Id: ScheduleNextPeriod, CreatedBy: Bobi, CreatedAt: 20260504 T 142235, By: Hana}
+    Details:
+      Include schedule about these activities as well:
+      - Hana daily admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<)
+      - Hana weekly admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoWeeklyAdmin<)
+    TODO .Incrementally develop initial schedule:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 223505, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      Details:
+        - DO:
+          - create/update the schedule taking the current set of information into account
+          - try to keep the schedule the next day(s)
+          - measure how successful we were                      
+        - WHILE ( NOT (StreamingTargetIsReached()))
+        - StreamingTargetIsReached():
+            Roughly:
+            - IF (:
+                - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                - AND we have at least 4 scheduled ones per week
+                - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
+            - ): 
+                return: true
+            - ELSE: 
+                return: false    
+  OnGoing .Streaming related activities:
+    Id: Activities
+    OnGoing .Standup or Summary at the beginning and end:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163439, By: [Bobi, Hana]}      
+      Details:
+        Do a "standup"-like summary at the beginning and end of the streaming:
+          beginning: what did we do before, what we're planning to do
+          end: what did we do during the stream and what we're planning to do next streams
+          duration: less, than 5 min; ideally less, than 2 mins each  
+  Blocked .Set up a Twitch panel for each Area:
+    Id: TwitchAreaPanel
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 153159, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+    DependsOn: -->Tasks\Management\..PlanNextMS.."Decide:_ Milestones and areas baseline"<          
+  OnGoing .Create clips from the Twitch streams:
+    Id: TwitchClips
+    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214336, By: [Hana, Bobi]}
+    Details:
+      Create clips about interesting parts: important - like summary; entertaining - funny, etc.; deep, etc.
+    TODO .Create clips from the summaries + interesting stuff - first, trial ~week:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220215, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 230, RemTime: 230}
+      Details:
+        - Do it for the first ~week, every streamed content which has "proper" summary:
+          - \"proper" is that we consider it ~high quality - meaning that if someone watches it, it's more likely that they get interested than they get disinterested
+          - process is somethinglike:
+            - Hana selects and cuts the ones which she thinks would pass
+            - Bobi + Hana reviews them together and selects the ones which stay
+    NEXT .Decide:_ how do we continue based on the results of first ~week:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+
+
 InProgress .Initial brainstorming and analysis of outreach ideas:
   +: {CreatedBy: Bobi, CreatedAt: 20251227 T 163547, By: [Bobi, Hana]}
   Details:
@@ -296,7 +384,6 @@ Done .Create outreach plan:
             - what topics are interesting
             - do boobs matter - and how much?
         - we should have a schedule!!!!!!!!!!  
-  
   Done .Improve plan:
     Id: Improve
     +: {CreatedBy: Bobi, CreatedAt: 20260525 T 001815, By: [Bobi, Hana]}
@@ -383,38 +470,6 @@ Done .Create outreach plan:
           -->Tasks\PublicRelations\..Streaming..TwitchClips<:
           -->Tasks\Processes\..Outreach..TwitchStreaming<:
 
-.9Gag:
-  OnGoing .Collect ideas about 9gag posts:
-    Id: Collect9GagIdeas
-    +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144919, By: [Bobi, Hana], Tags: [CSVTODO]}
-    Details:
-      Put them into -->Documents\PublicRelations\..9GagPostIdeas<
-  TODO .Post about algorithm of discussions:    
-    +: {Id: AlgOfDisc, CreatedBy: Bobi, CreatedAt: 20260504 T 185624, By: [Bobi], Tags: [CSVTODO], Estimation: , RemTime:}
-    Blocked .Write the post baseline:
-      +: {Id: WriteBaseline, CreatedBy: Bobi, CreatedAt: 20260504 T 185653, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
-      DependsOn: 
-      Details:
-        - Title
-        - Flowchart - ?
-        - Text
-    NEXT .Review and finalize:
-      +: {CreatedBy: Bobi, CreatedAt: 20260504 T 185735, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-  Done .Post the Poll about Sacrifice:
-    +: {CreatedBy: Bobi, CreatedAt: 20260512 T 144958, By: Bobi}
-    Done .Create and post:
-      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145026, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 0}
-      Result:
-        https://9gag.com/gag/a6Z0MdL
-    Done .Analyse:
-      +: {CreatedBy: Bobi, CreatedAt: 20260512 T 145050, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 0}
-      Result:
-        - The post got removed; no clear reason - fuckthem.
-        - Interesting comments and likes
-        - 4 upvotes total
-        - one username is interesting (upvoted): fortytwofuture
-  TODO .Create at least three 9Gag post baselines:
-    +: {CreatedBy: Bobi, CreatedAt: 20260511 T 203700, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
 
 OnGoing .Posts about programming buddies:  
   Id: ProgrammingBuddies
@@ -435,7 +490,6 @@ OnGoing .Posts about programming buddies:
         - If there are more experienced programmers then they can be part of a pair who helps student-programmers or something
   NEXT .Placeholder:_ Do further posts:
     Id: Furtherposts
-
 OnGoing .Promote our F2BarbaManagement PM environment:
   Id: PromoteBarbaMgmt
   +: {CreatedBy: Bobi, CreatedAt: 20260502 T 144829, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
@@ -445,62 +499,6 @@ OnGoing .Promote our F2BarbaManagement PM environment:
     +: {CreatedBy: Bobi, CreatedAt: 20260502 T 152452, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
     Id: FirstPost
     
-.Streaming:
-  Id: Streaming
-  OnGoing .Create and maintain streaming schedule:
-    +: {Id: ScheduleNextPeriod, CreatedBy: Bobi, CreatedAt: 20260504 T 142235, By: Hana}
-    Details:
-      Include schedule about these activities as well:
-      - Hana daily admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<)
-      - Hana weekly admin (so this: -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoWeeklyAdmin<)
-    TODO .Incrementally develop initial schedule:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 223505, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 180, RemTime: 180}
-      Details:
-        - DO:
-          - create/update the schedule taking the current set of information into account
-          - try to keep the schedule the next day(s)
-          - measure how successful we were                      
-        - WHILE ( NOT (StreamingTargetIsReached()))
-        - StreamingTargetIsReached():
-            Roughly:
-            - IF (:
-                - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
-                - AND we have at least 4 scheduled ones per week
-                - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
-            - ): 
-                return: true
-            - ELSE: 
-                return: false    
-  
-  OnGoing .Streaming related activities:
-    Id: Activities
-    OnGoing .Standup or Summary at the beginning and end:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163439, By: [Bobi, Hana]}      
-      Details:
-        Do a "standup"-like summary at the beginning and end of the streaming:
-          beginning: what did we do before, what we're planning to do
-          end: what did we do during the stream and what we're planning to do next streams
-          duration: less, than 5 min; ideally less, than 2 mins each  
-  Blocked .Set up a Twitch panel for each Area:
-    Id: TwitchAreaPanel
-    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 153159, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
-    DependsOn: -->Tasks\Management\..PlanNextMS.."Decide:_ Milestones and areas baseline"<          
-  OnGoing .Create clips from the Twitch streams:
-    Id: TwitchClips
-    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214336, By: [Hana, Bobi]}
-    Details:
-      Create clips about interesting parts: important - like summary; entertaining - funny, etc.; deep, etc.
-    TODO .Create clips from the summaries + interesting stuff - first, trial ~week:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220215, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 230, RemTime: 230}
-      Details:
-        - Do it for the first ~week, every streamed content which has "proper" summary:
-          - \"proper" is that we consider it ~high quality - meaning that if someone watches it, it's more likely that they get interested than they get disinterested
-          - process is somethinglike:
-            - Hana selects and cuts the ones which she thinks would pass
-            - Bobi + Hana reviews them together and selects the ones which stay
-    NEXT .Decide:_ how do we continue based on the results of first ~week:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-
 
 EstTODO .Post things on Reddit - first phase:
   Id: Reddit

@@ -230,6 +230,28 @@ Summary:
     ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase..Infrastructure.."Basic"<
     Details: Create a process about it.
 .Outreach:
+  OnGoing .Create process about Twitch streaming:
+    Id: TwitchStreaming
+    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214527, By: [Hana, Bobi]}
+    TODO .Create baseline:
+      Id: Baseline
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214839, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+      Details:
+        Make sure that this is not too detailed!!!:
+          Because it's mostly for us and we don't have time to waste.
+        Include:
+          How to start streaming and technicalities:
+            Include:
+              Accounts:
+                - tf2p should be about planning when we work together (like working on this task should be)
+                - personal (bobi, hana) should be used for when we do NOT work together (like Bobi dev, Hana healt/admin/etc)
+              HowTos:
+                - where should we click basically in which application in what order for what type of streaming                  
+          What to do during streaming:
+            Include: 
+              Performing this Task: -->...Streaming..Activities.."Standup or Summary at the beginning and end"<
+    OnGoing .Updates:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 215538, By: [Bobi, Hana]}
       
 .Technical:
   Done .Publishing the F2Tool extension to VS Code MarketPlace:

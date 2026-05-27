@@ -386,7 +386,7 @@ Done .Create "daily administration" schedule for Hana:
   Result:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
 
-Blocked .Plan the next Milestones:
+InProgress .Plan the next Milestones:
   Id: PlanNextMS
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   DependsOn: -->Tasks\PublicRelations\..CreateOutreachPlan<
@@ -404,6 +404,29 @@ Blocked .Plan the next Milestones:
       - F2BarbaManagement.MVP + OCWSPhase2
       - We plan both (collect tasks, estimate them)
       - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
+
+  EstTODO .Decide:_ Milestones and areas baseline:
+    +: {CreatedBy: Bobi, CreatedAt: 20260522 T 211836, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+    Details:      
+      - What Areas we should be "tracking" - and on the website:
+        - we can use them as "topics" during streaming
+        - can define Milestones in them      
+        - ideal number of them is 4-7            
+        - Ideas:
+            administration/management:
+            development:
+              coding:
+                The F2Tool
+                F2Tools extension          
+              website dev:
+            exploration of marketing ideas:
+            health:
+            leisure:
+              - cooking + eating
+              - hiking (need gimbal)
+            +the description of the "Area" class:
+      - Create Area Items for them
+      - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
 
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
@@ -432,19 +455,10 @@ Blocked .Plan the next Milestones:
         Type: Milestone
         Tasks:
 
-
-      
-      
   Blocked .Make final decision about the milestones we pursue:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}
     DependsOn:
       - -->Tasks\Management\.."Plan the next Milestones".."Work out the F2BarbaManagement.MVP milestone"<
       - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
-
-  EstTODO .Decide:_ Milestones and areas baseline:
-    +: {CreatedBy: Bobi, CreatedAt: 20260522 T 211836, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
-    Details:      
-      - What Areas we should be "tracking" - and on the website
-      - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

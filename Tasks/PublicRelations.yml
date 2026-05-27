@@ -215,7 +215,7 @@ InProgress .Initial brainstorming and analysis of outreach ideas:
       - The rest of the people we started collecting - where is it  
       - The guy with the "no management layer in my company"
 
-InProgress .Create outreach plan:
+Done .Create outreach plan:
   Id: CreateOutreachPlan
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133156, By: [Bobi,Hana], Tags: [CSVTODO]}  
   Done .Create first draft:
@@ -297,7 +297,7 @@ InProgress .Create outreach plan:
             - do boobs matter - and how much?
         - we should have a schedule!!!!!!!!!!  
   
-  InProgress .Improve plan:
+  Done .Improve plan:
     Id: Improve
     +: {CreatedBy: Bobi, CreatedAt: 20260525 T 001815, By: [Bobi, Hana]}
     Details:
@@ -319,11 +319,11 @@ InProgress .Create outreach plan:
             Create Tasks for this:
               Include:
                 Areas and panels:
-                  - Categorize our work into areas (like Website, F2Tools dev, Management and admin, etc.):
+                  Categorize our work into areas (like Website, F2Tools dev, Management and admin, etc.):
                     - consider including non-work topics as well (like our evening talks)
                     - ideas: -->...CreateOutreachPlan.."Create first draft".Result."streaming seems worth pursuing".topics<
-                  - Create Panels
-                  - Reference these Areas/panels in the stream description
+                  Create Panels:
+                  Reference these Areas/panels in the stream description:
                 Create clips:
                   - Regularly create clips about interesting parts of the recorded/streamed videos:
                     - interesting parts: important - like summary; entertaining - funny, etc.; deep
@@ -366,55 +366,22 @@ InProgress .Create outreach plan:
           Explore further outreach ideas:
             Mainly these - the ones marked with "TODO":
               -->Tasks\PublicRelations\..CreateOutreachPlan.."Create first draft".Result."we should be exploring the outreach ideas one by one"<
-    CurrentFocus .Taskify/Itemize the results of the previous Task:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163156, By: [Bobi, Hana], Estimation: 90, RemTime: 90}
+    Done .Taskify/Itemize the results of the previous Task:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163156, By: [Bobi, Hana], Estimation: 90, RemTime: 0}
       Details: So this -->...CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result<
-      Workspace:
-        To be still processed:
-          -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result."What steps we should make"."Explore further outreach ideas"<:
-          -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result."What steps we should make"."Establish regular and proper streaming"."Create Tasks for this".Include."Areas and panels"<:
-        Tasks to sort/put in place:
+      Result:
+        Tasks created:
+          Areas and panels:
+            - -->Tasks\Management\..PlanNextMS.."Decide:_ Milestones and areas baseline"<
+            - -->Tasks\PublicRelations\..Streaming..TwitchAreaPanel<
+          Other outreach related tasks:            
+            - -->Tasks\PublicRelations\..Reddit<
+            - -->Tasks\PublicRelations\.."Contact people on our contact list"<
+            - -->Tasks\PublicRelations\.."Music listener followers first phase"<
+            - -->Tasks\PublicRelations\.."Promote F2BarbaMgmt as a PM Tool"<
           -->Tasks\PublicRelations\..Streaming..ScheduleNextPeriod.."Incrementally develop initial schedule"<:
-          OnGoing .Create clips from the Twitch streams:
-            BelongsTo: -->Tasks\PublicRelations\..Streaming<
-            +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214336, By: [Hana, Bobi]}
-            Details:
-              Create clips about interesting parts: important - like summary; entertaining - funny, etc.; deep, etc.
-            TODO .Create clips from the summaries + interesting stuff - first, trial ~week:
-              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220215, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 230, RemTime: 230}
-              Details:
-                - Do it for the first ~week, every streamed content which has "proper" summary:
-                  - \"proper" is that we consider it ~high quality - meaning that if someone watches it, it's more likely that they get interested than they get disinterested
-                  - process is somethinglike:
-                    - Hana selects and cuts the ones which she thinks would pass
-                    - Bobi + Hana reviews them together and selects the ones which stay
-            NEXT .Decide:_ how do we continue based on the results of first ~week:
-              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
-
-          OnGoing .Create process about Twitch streaming:
-            Id: TwitchStreaming
-            BelongsTo: -->Tasks\Processes\..Outreach<
-            +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214527, By: [Hana, Bobi]}
-            TODO .Create baseline:
-              Id: Baseline
-              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214839, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 120, RemTime: 120}
-              Details:
-                Make sure that this is not too detailed!!!:
-                  Because it's mostly for us and we don't have time to waste.
-                Include:
-                  How to start streaming and technicalities:
-                    Include:
-                      Accounts:
-                        - tf2p should be about planning when we work together (like working on this task should be)
-                        - personal (bobi, hana) should be used for when we do NOT work together (like Bobi dev, Hana healt/admin/etc)
-                      HowTos:
-                        - where should we click basically in which application in what order for what type of streaming                  
-                  What to do during streaming:
-                    Include: 
-                      Performing this Task: -->...Streaming..Activities.."Standup or Summary at the beginning and end"<
-            OnGoing .Updates:
-              +: {CreatedBy: Bobi, CreatedAt: 20260525 T 215538, By: [Bobi, Hana]}
-        
+          -->Tasks\PublicRelations\..Streaming..TwitchClips<:
+          -->Tasks\Processes\..Outreach..TwitchStreaming<:
 
 .9Gag:
   OnGoing .Collect ideas about 9gag posts:
@@ -513,7 +480,67 @@ OnGoing .Promote our F2BarbaManagement PM environment:
         Do a "standup"-like summary at the beginning and end of the streaming:
           beginning: what did we do before, what we're planning to do
           end: what did we do during the stream and what we're planning to do next streams
-          duration: less, than 5 min; ideally less, than 2 mins each
+          duration: less, than 5 min; ideally less, than 2 mins each  
+  Blocked .Set up a Twitch panel for each Area:
+    Id: TwitchAreaPanel
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 153159, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+    DependsOn: -->Tasks\Management\..PlanNextMS.."Decide:_ Milestones and areas baseline"<          
+  OnGoing .Create clips from the Twitch streams:
+    Id: TwitchClips
+    +: {CreatedBy: Bobi, CreatedAt: 20260525 T 214336, By: [Hana, Bobi]}
+    Details:
+      Create clips about interesting parts: important - like summary; entertaining - funny, etc.; deep, etc.
+    TODO .Create clips from the summaries + interesting stuff - first, trial ~week:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220215, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 230, RemTime: 230}
+      Details:
+        - Do it for the first ~week, every streamed content which has "proper" summary:
+          - \"proper" is that we consider it ~high quality - meaning that if someone watches it, it's more likely that they get interested than they get disinterested
+          - process is somethinglike:
+            - Hana selects and cuts the ones which she thinks would pass
+            - Bobi + Hana reviews them together and selects the ones which stay
+    NEXT .Decide:_ how do we continue based on the results of first ~week:
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+
+
+EstTODO .Post things on Reddit - first phase:
+  Id: Reddit
+  +: {CreatedBy: Bobi, CreatedAt: 20260526 T 155450, By: [Hana, Bobi]}
+  EstTODO .Find subreddits into which we can paste articles/questions:
+    Id: FindSubReddits
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 150534, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+  EstTODO .Pick articles/questions/anything we want to post in Reddit:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 150729, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+    Details:
+      - one of them can be that question we posted on 9gag
+    Workspace:
+      - Articles candidates:
+        - -->Documents\PublishableArticles\DecisionFormalization\.."Overview"<
+        - -->Documents\PublishableArticles\LogicalThinkingAndItsFormalization\..HighLevel.Type<
+        - -->Documents\PublishableArticles\ThePathOfImprovingDecisionMaking\.ThePathOfImprovingDecisionMaking..HighLevel<
+EstTODO .Contact people on our contact list:
+  +: {CreatedBy: Bobi, CreatedAt: 20260526 T 150925, By: [Hana, Bobi], Tags: [CSVTODO]}
+  EstTODO .Collect and have ideas about how to contact them with what message, goals, etc.:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151045, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+  NEXT .Contact people we identified in the previous step:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151123, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+EstTODO .Music listener followers first phase:            
+  +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151240, By: [Bobi, Hana]}
+  Details:
+    Try this for like a few weeks.
+  EstTODO .Soundcloud:_ Create some playlist-like thing and make up our mind about how to progress with becoming more "visible":
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151637, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+  NEXT .Whenever I (Bobi) like some music, post it on Soundcloud:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 152057, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+EstTODO .Promote F2BarbaMgmt as a PM Tool:
+  +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151847, By: [Bobi, Hana]}
+  EstTODO .Find avenues where we can:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 152227, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+  EstTODO .Collect the requirements - so when exactly we should be doing it?:
+    +: {CreatedBy: Bobi, CreatedAt: 20260526 T 152256, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+
+
+
+
 
 
 TODO .Contact Jessica:

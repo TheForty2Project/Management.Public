@@ -608,7 +608,7 @@ ReadyForDev .Time tracking should stop when VS Code shuts down:
 ReadyForDev .Time tracking should generate Id based F2Links, not Summary ones.:
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 172314, By: Bobi}
   Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..TTIdLinks<
-ReadyForDev .QueryDescription based CSV report generation:
+InDev .QueryDescription based CSV report generation:
   Id: QueryBasedCSV
   +: {CreatedBy: Bobi, CreatedAt: 20260516 T 004242, By: Bobi}
   Details:
@@ -634,13 +634,13 @@ ReadyForDev .QueryDescription based CSV report generation:
             Id: CurrentTasks
             Summary: Current Tasks
             Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-            Where:
+            From: [-->Tasks\<]
+            Where: 
               TaggedBy: [CSV]
               ItemType: [Task, Bug]
-              From: [-->Tasks\<]
               SkipUnder: [-->Tasks\Archive\<]
             OutputFile: Reports\CurrentTasks.csv
-            BehaviorWhenDeletingRows: CommentOut
+            BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
             AddSyncResultColumn: true
       Properties:
         string[] Select:
@@ -664,11 +664,11 @@ ReadyForDev .QueryDescription based CSV report generation:
           DefaultValue: true
           Summary: adds a -->~..SelectPropertySpecialValues..SYNCRESULT< column when syncing (if it's not already present in the Select part)
         string OutputFile:
+          DefaultValue: the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
           Details: 
             - the output file path (partial file system path, from the root of the workspace)
             - both the characters "\" and "/" are accepted as separators
-            - such as: Reports\CurrentTasks.csv
-            - if not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
+            - such as: Reports\CurrentTasks.csv            
         # char CommentPrefix:
         #   Details: 
         #     - the prefix to use in front of comments
@@ -706,7 +706,7 @@ ReadyForDev .QueryDescription based CSV report generation:
       CommentOut:
         Summary: the row is commented out
       DoNothing:
-        Summary: the row is kept as-is but marked as -->~..SyncResultValues..DeletedRow< if the column is present
+        Summary: the row is kept as-is but marked as -->~..SyncResultValues..DeletedRow< if the -->~..SelectPropertySpecialValues..SYNCRESULT< column is present
     class .ReportHeader:
       Inherits: Item
       Properties:
@@ -727,10 +727,10 @@ ReadyForDev .QueryDescription based CSV report generation:
     .EmptyValue: \"" #so two double quote characters
     .CSVHeader: >
     
-  ReadyForDev .Registers commands:
+  Done .Registers commands:
     Id: RegistersCommands
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Registers commands"<
-    ReadyForDev .ExecuteQuery: 
+    Done .ExecuteQuery: 
       Command: "F2Tools.Reports.Execute: Execute query"
       Summary: if the cursor is on a Query, generates the CSV report according to it
       Details:
@@ -739,24 +739,25 @@ ReadyForDev .QueryDescription based CSV report generation:
           - IF (queryDescription.Select.Any(isF2Link)):
             - keeps the order of the rows            
             - comments out the rows for which there are no Items present (any more)            
-    ReadyForDev .WriteBack:
+    Done .WriteBack:
       Command: "F2Tools.Reports.WriteBack: Write back from output file"
       Summary: 
         if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select part, writes the changes FROM the csv to the Items
       Details:
         if the property does not exist but there's data for it in the CSV cell, creates the property
   
-  ReadyForDev .Executes query:
+  InDev .Executes query:
     Id: ExecuteQuery
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<
     Summary:
       Executes the query in the QueryDescription item under the cursor
     Details:
       When the user issues the $@-->...ExecuteQuery<@$ command, verifies and executes the query, then displays summary.
-    ReadyForDev .Verifies query:  
+    InDev .Verifies query:  
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..Verify<
       Details:
-      - var itemYamlUnderTheCursor = GetItemYamlUnderTheCursor()        
+      - var itemYamlUnderTheCursor = GetItemYamlUnderTheCursor():
+        - where GetItemYamlUnderTheCursor():          
       - IF (NOT IsQueryDescription(itemYamlUnderTheCursor)):
         - Displays error message: "The cursor must be on an Item with type QueryDescription"
         - Stops.

@@ -188,10 +188,15 @@ SR_20260526_Bobi:
   Next:
     - -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Taskify/Itemize the results of the previous Task"<
     - -->Tasks\Management\..PlanNextMS<
-    - -->Tasks\Management\..General..TaskAdmin<
-    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV<
+    - -->Tasks\Management\.."General management".."Task Administration"<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation"<
 
 SR_NEXT_Bobi:
   Was:
-    
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 20m, "", 20260526 T 144822 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation"<: [ 1m, "", 20260526 T 144912 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Registers commands"<: [ 8m, "", 20260526 T 145037 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 1m, "", 20260526 T 145840 ]
+    - -->Tasks\PublicRelations\..CreateOutreachPlan..Improve.."Taskify/Itemize the results of the previous Task"<: [ 57m, "", 20260526 T 150245 ]
   Next:
+    - null

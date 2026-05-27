@@ -168,12 +168,12 @@ OnGoing .Taskify the requirements:
           Explanation:  
             - supposedly one change
             - expecting trouble though
-  EstTODO .QueryDescription based CSV report generation:
+  InProgress .QueryDescription based CSV report generation:
     Id: QueryBasedCSV
     +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: Bobi}    
     Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
     MaintenanceTasks:
-      InProgress .Taskify and estimate:        
+      Done .Taskify and estimate:        
         +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
         Result:
           Execute.Verify:
@@ -184,14 +184,14 @@ OnGoing .Taskify the requirements:
           Execute.BasicExecute:
             PAR: 60
             Normal: 180
-    EstTODO .Registers commands:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+    Done .Registers commands:
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
-    EstTODO .Executes query:
+    InProgress .Executes query:
       Id: Execute
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [CSVTODO]}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
-      EstTODO .Verifies query:
+      InProgress .Verifies query:
         Id: Verify
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<

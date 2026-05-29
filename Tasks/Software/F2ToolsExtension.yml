@@ -183,7 +183,7 @@ OnGoing .Taskify the requirements:
               probably having to write half of the functionality.
           Execute.BasicExecute:
             PAR: 60
-            Normal: 180
+            Normal: 180      
     Done .Registers commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
@@ -195,6 +195,11 @@ OnGoing .Taskify the requirements:
         Id: Verify
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+        ImplPlan: |
+          TryGetQueryDescriptionUnderTheCursor:
+            - Get the document and the cursor position
+            - GetItemAtCursor: base it on the current generateCSV implementation and record some todos to make it "nice"
+            - Fill in the QueryDescription while checking the values    
       EstTODO .Basic query execution:
         Id: BasicExecute
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}

@@ -26,9 +26,14 @@ OnGoing .BusinessAnalysis:
         - Work into: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
         - Reach the ReadyForDev status (including a review with Hana)
       Done .Create Draft:
+        Id: CreateDraft
         +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
-      TODO .Review with Hana:
-        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      InProgress .Review with Hana:
+        Id: Review
+        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Estimation: 20, RemTime: 10}
+      OnGoing .Handover and changes during implementation:
+        Id: Handover
+        +: {CreatedBy: Bobi, CreatedAt: 20260527 T 153932, By: [Bobi, Hana]}
     InProgress .F2Link related upgrades:
       Id: F2LinkUpgrades
       +: {CreatedBy: Bobi, CreatedAt: 20260520 T 153759, By: [Bobi,Hana], Estimation: 120, RemTime: 20}

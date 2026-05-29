@@ -201,8 +201,14 @@ SR_20260527_Bobi:
   Next:
     - null
 
-SR_NEXT_Bobi:
+SR_20260529_Bobi:
   Was:
     - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 15m, "", 20260527 T 144216 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 7m, "", 20260527 T 151414 ]
+    - -->Tasks\Miscellaneous\.."BusinessAnalysis"..F2ToolsExtension.."QueryDescription based CSV report generation".."Handover and changes during implementation"<: [ 42m, "", 20260527 T 154928 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 145m, "", 20260527 T 211817 ]
+  Next:
+
+SR_NEXT_Bobi:
+  Was:
   Next:

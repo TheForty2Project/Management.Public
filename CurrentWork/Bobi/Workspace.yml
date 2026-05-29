@@ -9,7 +9,30 @@ DecisionAppScribbles:
           client-server
         Web:
 
--->Tasks\Website.."Improvements".."Add the part we recorded during our smoking session to the Summary"<
+CurrentTasksMinimal:
+  Type: QueryDescription
+  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  From: [-->Tasks\<]
+  Where: 
+    TaggedBy: [CSV]
+    ItemType: [Task, Bug]
+    SkipUnder: [-->Tasks\Archive\<]
+
+CurrentTasks:
+  Type: QueryDescription
+  Id: CurrentTasks
+  Summary: Current Tasks
+  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  From: [-->Tasks\<]
+  Where: 
+    TaggedBy: [CSVTODO]
+    ItemType: [Task, Bug]
+    SkipUnder: [-->Tasks\Archive\<]
+  OutputFile: Reports\CurrentTasks.csv
+  BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
+  AddSyncResultColumn: true
+
+
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

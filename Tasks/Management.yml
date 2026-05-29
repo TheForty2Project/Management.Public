@@ -405,7 +405,7 @@ InProgress .Plan the next Milestones:
       - We plan both (collect tasks, estimate them)
       - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
 
-  EstTODO .Decide:_ Milestones and areas baseline:
+  InProgress .Decide:_ Milestones and areas baseline:
     +: {CreatedBy: Bobi, CreatedAt: 20260522 T 211836, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
     Details:      
       - What Areas we should be "tracking" - and on the website:
@@ -427,6 +427,24 @@ InProgress .Plan the next Milestones:
             +the description of the "Area" class:
       - Create Area Items for them
       - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
+    InProgress .Collect the mentionable things during the life of the project:
+      Details:
+        - after having enough, decide which one should be treated as a milestone
+      Workspace:
+        - Website:
+          - Version1, 2, 3 (current OCWS)
+        - F2Tools extension:
+          - Pre-MVP (current)
+          - MVP (upcoming)
+        - F2BarbaMgmt:
+          - Documents:
+            - Processes:
+        - Publicrelations:
+          - Streaming start
+          - Social media presence (linkedin page)
+          - Post for programming buddies
+        - Team:
+          - 
 
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
@@ -438,7 +456,7 @@ InProgress .Plan the next Milestones:
         - -->Tasks\Miscellaneous\..BA..F2Tools..TextOutput<
       - Taskify them
       - Estimate them
-      - Choose the bugs (and estimate them)      
+      - Choose the bugs (and estimate them)
     Workspace:
 
   InProgress .Work out the OCWSPhase2 milestone:

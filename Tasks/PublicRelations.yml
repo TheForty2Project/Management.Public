@@ -90,7 +90,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260525 T 220903, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
 
 
-InProgress .Initial brainstorming and analysis of outreach ideas:
+Done .Initial brainstorming and analysis of outreach ideas:
   +: {CreatedBy: Bobi, CreatedAt: 20251227 T 163547, By: [Bobi, Hana]}
   Details:
     - List of outreach channels, such as Coding streaming, management streaming, talks (about what topics?), sex, talk before we go to the party, contact certain people, involving Jessica and boyfriend, talks about logic (what we started), 9gag, Reddit
@@ -296,8 +296,9 @@ InProgress .Initial brainstorming and analysis of outreach ideas:
     Result:
       - We prioritized them
       - Main target audience is programmers
-  TODO .Collect people for the Contact Certain People topic:
+  Cancelled .Collect people for the Contact Certain People topic:
     +: {CreatedBy: Bobi, CreatedAt: 20251229 T 221959, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    CancelReason: Moved the content to $@-->Tasks\PublicRelations\.."Contact people on our contact list"<@$
     Workspace:
       - Shamanth (the one who was interested in our podcast about logic)
       - The rest of the people we started collecting - where is it  
@@ -519,6 +520,10 @@ EstTODO .Contact people on our contact list:
   +: {CreatedBy: Bobi, CreatedAt: 20260526 T 150925, By: [Hana, Bobi], Tags: [CSVTODO]}
   EstTODO .Collect and have ideas about how to contact them with what message, goals, etc.:
     +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151045, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+    Details:
+      - Shamanth (the one who was interested in our podcast about logic)
+      - The rest of the people we started collecting - where is it  
+      - The guy with the "no management layer in my company"    
   NEXT .Contact people we identified in the previous step:
     +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151123, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
 EstTODO .Music listener followers first phase:            

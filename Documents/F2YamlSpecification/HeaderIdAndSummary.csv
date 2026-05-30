@@ -1,0 +1,13 @@
+Header exists + 1 word, Id has value, Summary has value, Computed Id, Computed Summary
+                     0,            0,                 0, -          , -
+                     0,            0,                 1, -          , Summary
+                     0,            1,                 0, Id         , -
+                     0,            1,                 1, Id         , Summary
+                     1,            0,                 0,  -          , Header
+                     1,            0,                 1, -          , Summary
+                     1,            1,                 0, Id         , Header
+                     1,            1,                 1, Id         , Summary
+                     2,            0,                 0, Header     , -
+                     2,            0,                 1, Header     , Summary
+                     2,            1,                 0, Id         , Header
+                     2,            1,                 1, ERROR      , ERROR

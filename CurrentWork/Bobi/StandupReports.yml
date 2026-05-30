@@ -209,6 +209,10 @@ SR_20260529_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 145m, "", 20260527 T 211817 ]
   Next:
 
+
 SR_NEXT_Bobi:
   Was:
+    - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 316m, "", 20260529 T 135528 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 40m, "", 20260529 T 191156 ]
   Next:
+    - null

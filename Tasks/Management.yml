@@ -387,6 +387,7 @@ Done .Create "daily administration" schedule for Hana:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
 
 InProgress .Plan the next Milestones:
+  Summary: Not what I wrote above
   Id: PlanNextMS
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   DependsOn: -->Tasks\PublicRelations\..CreateOutreachPlan<
@@ -427,24 +428,39 @@ InProgress .Plan the next Milestones:
             +the description of the "Area" class:
       - Create Area Items for them
       - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
-    InProgress .Collect the mentionable things during the life of the project:
+    CurrentFocus .Collect the mentionable things during the life of the project:
       Details:
         - after having enough, decide which one should be treated as a milestone
       Workspace:
-        - Website:
-          - Version1, 2, 3 (current OCWS)
+        Areas:
+        - General:
+        - F2Tool:      
+        - PublicationLevel:
+          - Barebone Website:
+            - Ideas published, just a few words and sentences; for finding people who have similar ideas
+          - Articles published:
+            - Articles describing the project, approach, etc.; for finding people who would be interested in the idea AND who can just read and imagine how it could work
+          - Work is mirrored:
+            - Work is published; to show how it works
+        - F2BarbaMgmt:     
         - F2Tools extension:
-          - Pre-MVP (current)
-          - MVP (upcoming)
-        - F2BarbaMgmt:
-          - Documents:
-            - Processes:
+            - Pre-MVP (current)
+            - MVP (upcoming)
+            - Basic (MVP stabilized + small extra features emerging during usage, ideally usage by others)
+        - ProcessDevelopmentLevel:
+          - Processes.MVP:
+              - Processes:
+              - Items and classes:
+                - QueryDescriptions for recommended reports
+        - DocumentationLevel:
+
         - Publicrelations:
           - Streaming start
           - Social media presence (linkedin page)
           - Post for programming buddies
         - Team:
           - 
+        - 
 
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}

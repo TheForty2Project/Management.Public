@@ -93,7 +93,8 @@ namespace System.Types:
       IdString[] Tags:
         Summary: a set of one-word tags - e.g. we use "CSVTODO" currently, signaling it should be added to the CSV file.      
     Notes: 
-      The content of the Id field will be automatically generated from the content of the Summary field by removing spaces and capitalizing the letter after (Pascal case), removing non-allowed chars, and using the first 12 + last 12 chars IF left empty; if not unique, adding numbers to the end (and using less characters from the last part). E.g. the summary "Add the Extract F2Yaml link functionality" would be "AddTheExtrac_unctionality"
+      # The content of the Id field will be automatically generated from the content of the Summary field by removing spaces and capitalizing the letter after (Pascal case), removing non-allowed chars, and using the first 12 + last 12 chars IF left empty; if not unique, adding numbers to the end (and using less characters from the last part). E.g. the summary "Add the Extract F2Yaml link functionality" would be "AddTheExtrac_unctionality"
+      The content of the Id and Summary fields are determined as follows depending on what is in the header ()
 
   class Comment:
     #Inherits: Item //Commented out as this is by default

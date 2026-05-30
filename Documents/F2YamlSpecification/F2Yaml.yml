@@ -716,10 +716,10 @@ Done .Notes:
             Prefix:
               Variant1: "->"
               Variant2: "-->"
-            Postfix: \"<" (optional)
+            Postfix: \"<"
             Yaml type: plain scalar
             Examples:
-              Prop10: ->Root..MyProject..MyTask.MyProperty<
+              Prop10: ->Root..MyProject<-MyTask.MyProperty<
               Prop11: ->Root..MyProject..MyTask.MyProperty
               Prop20: -->Root..MyProject..MyTask.MyProperty<
               Prop21: -->Root..MyProject..MyTask.MyProperty
@@ -868,7 +868,7 @@ Done .Notes:
           - An ItemReference preceded by the file path
           - 
         Tasks:            
-          TODO .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:
+          CurrentFocus .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:
             Details:
               Problem overview:
                 - A convenient notation must be found for references/links pointing to Items residing in Workspace files, organized in a hierarchical structure. This notation should not impose too strict uniqueness constraints, should mimic existing notations, should be easy to learn, understand and use; Convenience is way more important than easy implementation.
@@ -908,7 +908,7 @@ Done .Notes:
                       - The system mandates that every Item is placed into a hierarchy of Items (the BelongsTo tree, forming a kind of a folder structure where folders and files are the same, so each FolderFile can have children and also content)
                         - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner - i.e. not Item with InternalId 876465468768 but -->Root.Projects.Barba.Task.
                         - as this is a program which never stops, we need strict accounting of memory objects; a simple garbage collector based on simple rules (=no reference) is not enough 
-                        - permission 
+                        - permission handling
                       - Most Items we work with (Tasks, Requirements, etc) have default list property/ies and we often reference these through the parent(s).Wwe want to see Ids which are compile-time checked, not position in the list (such as a Task have a Task[] SubTasks property):
                         - What we want as a minimum:
                             MyBigTask.SubTasks.42ndMediumTask.SubTasks.LoremIpsum
@@ -950,6 +950,38 @@ Done .Notes:
                   - Would not put too much constraints on reassigning the Items 
                 - At the moment no "unique id" constraint is applied to any Children (through BelongsTo), also, the properties and other sub-Items can have the same Id, leading to the problems of:
                   - A link pointing to an element with Id x can be ambiguous (for the user)
+            Workspace:
+              Current best idea:
+                Changes/clarifications:
+                - Id uniqueness: basically no (only Property Id uniqueness)
+                - F2Link notation:
+                  - is "approximate", i.e. it can happen in supposedly very edge cases (if tracking is lost), that they point to the wrong location in an irrecoverable and undetectable way:
+                  - Specialty:_ Linking to "MyTargetProp" in the following produced the following link - skipping "Blah" from the yaml path:_ -->Where.OneItemPrp.MyTargetProp<:
+                      Where:
+                        OneItemProp:
+                          TODO .Blah:
+                            MyTargetProp: lorem
+
+                  - 3 separator types:
+                      ".": the following element is a Property Id or an Item
+                      "..": the following element is an Item Id where the Item is a member of the default list of the previous element
+                      #"<-": the following element is an Item Id where the Item BelongsTo the previous element
+                  - non-uniqueness handling:
+                    - at generation: if duplicate ids, use internalid instead
+                    - at following (=in the meantime it became non-unique): cycle-through or warning that it's not unique
+                Example:
+                  QueryDescription:
+                    Where:
+                      OneItem:
+                        TODO .Blah:
+                          MyTargetProp: lorem
+                      
+                      TODO .Bumm:
+
+                  -->Example.QueryDescription.Where.OneItem.MyTargetProp<:
+                  -->Example.QueryDescription.Where..Bumm<:
+
+
           InProgress .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
             Details:                
               For example in this case:
@@ -1015,7 +1047,8 @@ Done .Notes:
                 - -->MyFile2\..ItemA..ItemB<: opens the file MyFile2
                 - -->MyFile1\..ItemA..ItemB<: opens the file MyFile1
             Result:
-              Idea1 seems to be fine.
+              - Idea1 seems to be fine.
+              - Update: no belongsto links any more...
           TODO .Problem:_ Linking to an element under an Item update:          
             Details:
               Such as, in Barba.Types, link to Item:
@@ -1024,14 +1057,18 @@ Done .Notes:
                     blahlablah: blah
               Problems:
                 - It's a link in a link - is it fine? So e.g. it would be -->Barba.Types\-->Root..System..Types<.Summary< - I think it is actually.
-          TODO .Decide:_ Should we have separate Workspace links and Item references:
+          InProgress .Decide:_ Should we have separate Workspace links and Item references:
             Details:
               - Item references could use the simple dot notation and the BelongsTo tree only - so no referencing through property values
               - F2Links would use the double dot notation
               - 
-          TODO .Decide:_ Should we allow Items with the same Ids belonging to the same Item?:
+            Workspace:
+              - F2Links are for file + item + property + member of property, in the workspace; no belongsto support
+              - in the background we store references, but we convert them into F2Links when written into the workspace
+          InProgress .Decide:_ Should we allow Items with the same Ids belonging to the same Item?:
             Details:
               - We made the decision that we should, on the other hand, this might not be too convenient. We need to collect pros-cons for both.              
+            Workspace: yep
         Workspace:
           Sandbox:
             Example:

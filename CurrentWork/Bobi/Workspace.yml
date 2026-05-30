@@ -8,6 +8,8 @@ DecisionAppScribbles:
         console:
           client-server
         Web:
+    [Alma]:
+    {Blma: Clma}: gecike
 
 CurrentTasksMinimal:
   Type: QueryDescription
@@ -20,8 +22,8 @@ CurrentTasksMinimal:
 
 CurrentTasks:
   Type: QueryDescription
-  Id: CurrentTasks
-  Summary: Current Tasks
+  #Id: CurrentTasks
+  #Summary: Current Tasks  
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
   From: [-->Tasks\<]
   Where: 

@@ -116,179 +116,8 @@ Done .Initial brainstorming and analysis of outreach ideas:
       - Expected conversion: #to what - supporter (who at least shares), non-working member, working member (in what role), money, big money
   Done .Create first draft:
     +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170414, By: Hana, Estimation: "0", RemTime: "0"}
-    Result:  
-      Outreach Ideas:
-        5-VeryHigh Coding Streaming:
-          Details: 
-            Robert should be streaming 2 hours per day on F2Tool Development
-          Steps:
-            - Set up the platforms:
-              - Twitch (Science & Technology / Programming) — Live coding  streams + chat:
-                - Account Created:
-                  - Bobii42
-                  - TheForty2Project
-              - YouTube Live — Longer-form coding streams or workshops:
-                - Account Created:
-                  - Theforty2project@gmail.com
-              - Discord Servers — Study rooms, coding voice channels, community projects:
-            - advertise about the stream to the respective channels:
-              - X
-              - Reddit
-              - 9Gag (maybe programmers section)
-              - Midnight network
-          Requirements:
-            - Website
-            - Done Account Creation
-            - Done Testing the platform
-          Target Audience: 
-            - Programmers
-            - Coders
-          Goals:
-            - To market the main stream of outreach which is coding TF2P Tool
-          Done .Go through our past data about coding streaming task and check what are the new updates from Reddit and chat gpt:
-        5-VeryHigh Management Streaming:
-          Details: Hana should stream management daily at a certain time if possible
-          Steps: 
-            - Management and Coding can be streamed together
-            - Set a schedule on Twitch 
-            - Advertise on Reddit 
-          Requirements:
-            - Management Time should be early morning when the brain is at its most thinking capabilities
-            - Peer pressure required Set schedule on Twitch
-          Target Audience:
-            - Programmers
-            - Softwares Managers
-            - Managers
-          Goals:
-            - To show how TF2P project is managed 
-            - To attract programmers and managers
-        5-VeryHigh Reddit:
-          Details: Can be an important source of feedback to the articles and discussions
-          Steps: 
-            - Collect the topics/ questions that we need to share 
-            - Find communities that we can ask or share articles with 
-          Requirements:
-            - DeepDive section should be published
-          Target Audience:
-          Goals:
-        5-VeryHigh Midnight Network:
-          Details: putting some intro about us here and there
-          Target Audience: programmers/blockchain enthusiasts
-        5-VeryHigh Talks about Logic (what we started):
-            Details:
-            Steps:
-              - Collect the articles in regards Logic
-              - Search for Videos 
-            Requirements: 
-              - Videos that are saved in Robert's Computer should be saved in Drive ( for me to edit and upload it online)
-            Target Audience: All
-            Goals: Show the world how computed decisions are made (in TF2P)
-        4-High Contact certain people:
-          Details: Contact people who are in the field of Logic, Programming, Coding
-          Steps:
-            - Find the list of people to be contacted in VSC
-            - Collect the names and the organization of people that need to be contacted
-          Requirements:             
-          Goals: Searching for members       
-        4-High 9gag:
-          Details: There are some decent communities in 9Gag based on the comments sections that can be beneficial for the project 
-          Steps:
-            - Choose the topic
-            - Plan the ad
-            - Select the interest/group
-          Requirements:
-            - Website (DeepDive) should be published 
-          Target Audience:
-            - Programmers, Coders, Logicians, Community builders
-          Goals: 
-            - To find members
-            - To familiarize the world with the project concept         
-        4-High Music listener of the same taste of music:
-          Details: 
-            - People with similar music taste can be target audiences
-            - Through comments on Youtube, maybe soundcloud
-          Steps:
-            Soundcloud:
-              Share the music I'm listening to on my "wall" so that:
-                - we get more followers
-                - we can engage with them
-          Requirements:
-          Target Audience:
-            - Similar minded people 
-          Goals:
-            - Find similar minded people
-        4-High Promote the F2Tools extension as a management tool:
-          Details:
-            - maybe on Reddit subreddits
-          Steps:
-            - find avenues we can promote this
-            - post about it
-        4-High Comment on 9gag interesting topics:        
-        3-Average Talks about Drugs:
-          Details: mention how drugs affect our daily life in work, personal and health
-          Steps:
-          Requirements:
-          Target Audience: Scientist, Enthiusaist, people who use it for certain purposes
-        3-Average Talks(about what topics):             
-        1-VeryLow Sex:
-          Details: 
-            - Doing actual things
-            - Talks about experiences, how important it is
-          Steps:
-            - Collect the videos about it
-            - Collect pictures 
-            - Collect voice notes 
-            - Have some talk shows in certain platforms:
-              - OnlyFans
-          Requirements:
-            - Ds
-          Target Audience: 
-            - Onlyfans
-            - Males in general + females who are interested
-          Goals: 
-            - This can give us income as the project consist of work and entertainment
-            - Show people how much we love each other and how we are using logic to manage our life. 
-            - Have income
-          1-VeryLow Involving Jessica and boyfriend:
-            Details: Have some outreach ideas from Jessica, share the party and convert it to income
-            Steps:
-              - Have a discusion with Robi about it
-              - Prepare the outreach plans
-              - Contact Jessica and share the plans with her
-            Requirements:
-            Goals:          
-        X:
-          Details: Need to search more about it
-          Steps: 
-          Requirements:
-          Target Audience:
-          Goals:
-        Videos and Audio outreach:
-          Details: Collect the Audios and Videos for publishing
-          Steps:
-            .Audio:
-              - Audios are saved in the Drive already
-              - Need to give titles to the Audios
-              - Categorize it based on the topics
-              - Save the videos and Audios to the TF2P Drive
-            .Video:
-              - Locate the videos
-              - Save all the videos on Drive
-              - Categorize it based on the topics
-          Requirements:
-            - Videos should be in the Drive before 20260103
-          Target Audience: Depend on the video content
-          Goals: Publish who we are            
-        5-VeryHigh KurzGesagt:
-          Details:
-            - We can contact them to make an episode about how the project would work
-            - Including:
-              - Animation about hierarchical vs. computed decision-making (what we planned originally)
-          Target Audience: \"smarter", more logical people - so opposite of Tiktok
-        4-High Job portals:
-          Details:
-            - There are way better options than 9gag and wellfound. We can try this again once the site is out.
-            - https://9gag.com/gag/agg5B6v
+    Result:        
+      -->Documents\PublicRelations\..OutReachIdeas<
   Done .Involve Robi:
     +: {CreatedBy: Bobi, CreatedAt: 20251227 T 170433, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 45, RemTime: 45}
     Details:
@@ -310,9 +139,9 @@ Done .Create outreach plan:
   Done .Create first draft:
     Details:
       - what streams we should be pursuing first:
-          Base it on: -->..."Outreach Ideas"<
+          Base it on: -->Documents\PublicRelations\..OutReachIdeas<
       - when do we start communicating with the public in which streams; requirements for each:
-          Base it on: -->..."Outreach Ideas"<
+          Base it on: -->Documents\PublicRelations\..OutReachIdeas<
       - End of OCSWSPhase 1:
           Requirements:
             - Website MVP DD
@@ -336,23 +165,23 @@ Done .Create outreach plan:
             - cooking + eating
             - hiking (need gimbal)
       we should be exploring the outreach ideas one by one:
-        -->..."Outreach Ideas"."5-VeryHigh Reddit"<:
-          - TODO find subreddits into which we can paste articles/questions
-          - TODO pick articles we want to post there:
+        -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Reddit"<:
+          - find subreddits into which we can paste articles/questions
+          - pick articles we want to post there:
             - one of them can be that question we posted on 9gag
-        -->..."Outreach Ideas"."4-High Contact certain people"<:
-          - TODO collect and have ideas about how to contact them with what message, goals, etc.
-        -->..."Outreach Ideas"."4-High Music listener of the same taste of music"<:
-          - TODO whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
-        -->..."Outreach Ideas"."4-High Promote the F2Tools extension as a management tool"<:
-          - TODO find avenues where we can
-          - TODO collect the requirements - so when exactly we should be doing it?
-        -->Tasks\PublicRelations\..ProgrammingBuddies<:
+        -->Documents\PublicRelations\..OutReachIdeas."4-High Contact certain people"<:
+          - collect and have ideas about how to contact them with what message, goals, etc.
+        -->Documents\PublicRelations\..OutReachIdeas."4-High Music listener of the same taste of music"<:
+          - whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
+        -->Documents\PublicRelations\..OutReachIdeas."4-High Promote the F2Tools extension as a management tool"<:
+          - find avenues where we can
+          - collect the requirements - so when exactly we should be doing it?
+        -->Documents\PublicRelations\..OutReachIdeas.."Programming buddies"<:
           - IF Hana runs out of work - i.e. has time for programming
           - we need the tasks to be worked out properly (mostly by Bobi):
               Hana can shadow me though
           - takes time to ramp this up        
-        -->..."Outreach Ideas"."5-VeryHigh Talks about Logic (what we started)"<:
+        -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Talks about Logic (what we started)"<:
           - plan the next steps
           - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
       at the moment this is a "trial" stage:
@@ -540,8 +369,11 @@ EstTODO .Promote F2BarbaMgmt as a PM Tool:
     +: {CreatedBy: Bobi, CreatedAt: 20260526 T 152227, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
   EstTODO .Collect the requirements - so when exactly we should be doing it?:
     +: {CreatedBy: Bobi, CreatedAt: 20260526 T 152256, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
-
-
+TODO .Work out and action the Aphantasia-test idea:
+  Id: AphantasiaVideo
+  +: {CreatedBy: Bobi, CreatedAt: 20260529 T 143044, By: Bobi}
+  Details:
+    This idea: -->Documents\PublicRelations\..OutReachIdeas.."Aphantasia test"<  
 
 
 

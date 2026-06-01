@@ -428,39 +428,70 @@ InProgress .Plan the next Milestones:
             +the description of the "Area" class:
       - Create Area Items for them
       - Exercise: Collect the mentionable things during the life of the project and after having enough, decide which one should be treated as a milestone
-    CurrentFocus .Collect the mentionable things during the life of the project:
+    Done .Collect the mentionable things during the life of the project and the areas we think we should have:
       Details:
         - after having enough, decide which one should be treated as a milestone
-      Workspace:
-        Areas:
-        - General:
-        - F2Tool:      
-        - PublicationLevel:
-          - Barebone Website:
-            - Ideas published, just a few words and sentences; for finding people who have similar ideas
-          - Articles published:
-            - Articles describing the project, approach, etc.; for finding people who would be interested in the idea AND who can just read and imagine how it could work
-          - Work is mirrored:
-            - Work is published; to show how it works
-        - F2BarbaMgmt:     
-        - F2Tools extension:
-            - Pre-MVP (current)
-            - MVP (upcoming)
-            - Basic (MVP stabilized + small extra features emerging during usage, ideally usage by others)
-        - ProcessDevelopmentLevel:
-          - Processes.MVP:
+      Result:
+        Areas:          
+          PublicationLevel:
+            .Barebone Website:
+              Ideas published, just a few words and sentences; for finding people who have similar ideas
+            .Articles published:
+              Articles describing the project, approach, etc.; for finding people who would be interested in the idea AND who can just read and imagine how it could work
+            .Work is mirrored:
+              Work is published; to show how it works
+          F2BarbaMgmt:
+            Details:
+              - this is basically the extension capabilities + the business Items + the documentation/know-how/tutorials around it
+          F2Tools extension:
+            Pre-MVP (current):
+            MVP (upcoming):
+              - QueryDescription based report generation
+              - Rename support
+            Basic (MVP stabilized + small extra features emerging during usage, ideally usage by others):
+          Publicrelations:
+            Events:
+              Streaming start
+              Social media presence (linkedin page)
+              Post for programming buddies
+              Interviewed a lot of people (found through ~linkedin-like sites)
+              Website development 
+            Future milestones:
+              Stable streaming schedule
+              First successful social media post
+              First followers
+              Significant follower base                
+          The F2Tool:
+            Events:
+              First try: Graphical user interface based version
+              Second: Textual, F2Yaml based version in development
+            Future events:
+              TheF2Tool.MVP
+          F2Yaml:
+            Events:
+              Basics:
+              Syntax v1.0 draft: ~roughly the current state
+            Future events:
+              Syntax v1.0 documented and finalized
+          Team:
+            Events:
+              Stable partner:
+              Trial team (6 ppl):
+                - F2Tools basics were developed
+                - Not enough resources and management capacity to be able to keep and grow the team 
+            Future events:
+          ProcessDevelopmentLevel:
+            - Processes.MVP:
               - Processes:
               - Items and classes:
                 - QueryDescriptions for recommended reports
-        - DocumentationLevel:
-
-        - Publicrelations:
-          - Streaming start
-          - Social media presence (linkedin page)
-          - Post for programming buddies
-        - Team:
-          - 
-        - 
+          DocumentationLevel:
+            Future events:
+              - Fully documented F2Yaml
+              - F2Tools
+              - Processes to start working
+    TODO .Pick the ones from the previous task we want to track and publish:
+      +: {CreatedBy: Bobi, CreatedAt: 20260530 T 152353, By: [Bobi,Hana]}
 
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}

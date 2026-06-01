@@ -1525,6 +1525,8 @@ Done .Back to original:
           - So: we split up the task; first is a yaml based, just the content, second is a designed, special element, bigger deal one.
     DependsOn: -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<
     Details:
+      - Milestones categorized into Areas
+      - What did we reach already, what are the current ones we're pursuing and what are the next ones we're planning
       - Decide whether and how to include the history here
     EstTODO .Decide:_ how should we handle history?:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 215034, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 30, RemTime: 30}

@@ -21,9 +21,9 @@ CurrentTasksMinimal:
     SkipUnder: [-->Tasks\Archive\<]
 
 CurrentTasks:
+  Id: CurrentTasks
+  Summary: Current Tasks  
   Type: QueryDescription
-  #Id: CurrentTasks
-  #Summary: Current Tasks  
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
   From: [-->Tasks\<]
   Where: 
@@ -35,6 +35,12 @@ CurrentTasks:
   AddSyncResultColumn: true
 
 
+TODO .ParentTODO:
+  SubTasks:
+  - TODO SubTODO:
+      InternalId:       
+  - TODO SubTODO:
 
+-->CurrentWork\Bobi\Workspace..ParentTODO.SubTasks.SubTODO<:
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

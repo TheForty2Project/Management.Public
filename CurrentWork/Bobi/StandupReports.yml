@@ -210,9 +210,19 @@ SR_20260529_Bobi:
   Next:
 
 
+SR_20260530_Bobi:
+  Was:
+    - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 60m, "", 20260529 T 135528 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 40m, "", 20260529 T 191156 ]
+    - -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or Links"..F2Link.Tasks.."Problem:_ F2Link notation (separator of Ids) AND Id uniqueness"<: [ 30m, "", 20260529 T 000042 ]
+    - Task about figuring out what the Id and Summary properties should contain based on the value in the header: [ 40m, "", 20260529 T 000042 ]
+  Next:
+    - null
+
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 316m, "", 20260529 T 135528 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 40m, "", 20260529 T 191156 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 15m, "", 20260530 T 141542 ]
+    - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline".."Collect the mentionable things during the life of the project and the areas we think we should have"<: [ 46m, "", 20260530 T 143636 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 300m, "", 20260530 T 235151 ]
   Next:
     - null

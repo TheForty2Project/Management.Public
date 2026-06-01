@@ -1,5 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
+#Management:
 OnGoing .General management:
   Id: General
   OnGoing .Task Administration:
@@ -162,123 +163,6 @@ OnGoing .General management:
             - Analysis
       Done .Implement:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
-Done .OCWSPhase1:
-  Id: OCWSPhase1
-  Done .Clean up the CSVTODO tags:
-    +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
-    Details:
-      - Everywhere (so do a find in all files (ctrl+shift+f) for CSVTODO))
-      - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
-      - Only those should keep the CSVDONE tags which are present in one of the CSVs
-  Done .Merge the Tasks (I was working on) with the original set:
-    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
-  Done .Provide estimations:
-    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
-  Done .Cleanup workspace:
-    +: {CreatedBy: Hana, CreatedAt: 20260403 T 130948, Tags: [OCWSPhase1]}
-    Details:
-      - Move to archive or even delete the Items we don't want to be there (not public, garbage, old, etc.).
-      - Note that as everything is in the repo history, we don't need to be too careful with deletion
-    Done .Bobi:
-      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
-    Done .Hana:
-      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}    
-  Done .Update F2yaml links:
-    Id: UpdateF2Links
-    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: [Hana, Bobi]}
-    Done .Fix the ones which are possible without Bobi's involvement:
-      Id: Fix1stRound
-      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVDONE], Estimation: "142", RemTime: "0"}
-      Details:
-        - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
-        - If not, put some comment behind it, like \#MISSINGLINK and_some_note_if_necessary
-    Cancelled .Bobi to go through the ones which are tagges:
-      Id: Fix2ndRound
-      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
-      CancelReason: This is now included in -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
-  Done .Clean up the files we are publishing:
-    Id: CleanUpFiles
-    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
-    Details:
-      - Remove unnecessary content
-      - Fix the links (the \#MISSINGLINKS ones)
-    Done .Bobi per TasksToBeSorted:
-    Done .F2Yaml:
-InProgress .Plan and prepare Twitch streaming first phase:
-  +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
-  Note: Added to CurrentTask.csv
-  Workspace:
-    First stream:
-
-    What to stream:
-      Standups
-    What setups do we still need to do:
-    Schedule:
-      2200-2400: Bobi's stream; 
-    Notes:
-      2 types:
-        scheduled:
-          precisely:
-            Things:
-              10pm Bobi Coding
-              5am Hana Health and Management
-          roughly:
-  InProgress .Create baseline schedule:
-    Details:
-      There should be a schedule for different topics daily, weekly and monthly
-    Workspace:
-      Hana:
-        TF2P-Health (Can be scheduled early morning):
-        Details: 
-        - Location: -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
-        - Timing: 05:00-06:00
-        - Topics:
-          - Sleep Quality data analysis (Hana)
-          - Preparation and confirmation of Cardio and strength of the day based on the sleep quality (Hana)
-          - preparation of meals of the day(Hana and Roberts meals)
-        TF2P-Work (late morning and afernoon):
-        - Timing: 11:00-14:00
-        - Topics:
-          - StandUp Report
-          - Planning Meeting
-          - Retrospective
-          - Tasks
-        TF2P-Preparation (late night):
-        - Timing: 17:00-18:00  19:00-20:00
-        - Topics:
-          - TF2P- Health: 
-            - Include the data of the day (Garmin analysis)
-            - Prepare for tomorrows possible meals
-            - Mood Analysis            
-      Bobi:
-
-Done .Big replanning after OCWSPhase1:
-  +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
-  Details:
-    - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
-    - Also, Hana needs to learn into it properly
-    - Goals are:
-      - We have KPIs set up and measured, such as:
-        - Velocity
-        - Hours spent/day
-        - Scope creep
-      - We have milestones estimated
-      - Tracking, evaluating and (re)planning done:
-        - Through events such as:
-          - Standups
-          - Retrospectives
-          - Plannings
-        - Based on the KPIs, corrective actions are taken (=we improve how we do things)
-      - Ideally:
-        - There are nice graphs (burndown, scope creep, velocity/period, etc.)
-  Result:
-    First part: see at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$
-  Done .Clean up and move the Tasks in the Workspace of this Task:
-    +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
-    Details:
-      - Move them AND leave a link (like above)
-      - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!          
-
 OnGoing .Create and fine tune schedules:
   +: {Id: CreateSchedules, CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   Done .Create baseline:
@@ -385,6 +269,128 @@ Done .Create "daily administration" schedule for Hana:
   +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
   Result:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
+
+#Website:
+Done .OCWSPhase1:
+  Id: OCWSPhase1
+  Done .Clean up the CSVTODO tags:
+    +: {CreatedBy: Bobi, CreatedAt: 20260402 T 162519, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+    Details:
+      - Everywhere (so do a find in all files (ctrl+shift+f) for CSVTODO))
+      - After this, only those Tasks should be tagged with CSVTODO which are meant to, but not yet put into one of the CSVs
+      - Only those should keep the CSVDONE tags which are present in one of the CSVs
+  Done .Merge the Tasks (I was working on) with the original set:
+    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 224243, By: Bobi, Tags: , Estimation:, RemTime:}
+  Done .Provide estimations:
+    +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162148, By: Bobi, Tags: , Estimation:, RemTime:}          
+  Done .Cleanup workspace:
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 130948, Tags: [OCWSPhase1]}
+    Details:
+      - Move to archive or even delete the Items we don't want to be there (not public, garbage, old, etc.).
+      - Note that as everything is in the repo history, we don't need to be too careful with deletion
+    Done .Bobi:
+      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
+    Done .Hana:
+      +: {CreatedBy: Hana, CreatedAt: 20260403 T 130937, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}    
+  Done .Update F2yaml links:
+    Id: UpdateF2Links
+    +: {CreatedBy: Hana, CreatedAt: 20260403 T 131043, By: [Hana, Bobi]}
+    Done .Fix the ones which are possible without Bobi's involvement:
+      Id: Fix1stRound
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142545, By: Hana, Tags: [CSVDONE], Estimation: "142", RemTime: "0"}
+      Details:
+        - If possible, fix the f2yaml links (so e.g. if it's pointing to Backlog\TheF2Tool, now it should be pointing to Tasks\Software\TheF2Tool)
+        - If not, put some comment behind it, like \#MISSINGLINK and_some_note_if_necessary
+    Cancelled .Bobi to go through the ones which are tagges:
+      Id: Fix2ndRound
+      +: {CreatedBy: Bobi, CreatedAt: 20260409 T 142604, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
+      CancelReason: This is now included in -->Tasks\Management\.."OCWSPhase1"..CleanUpFiles<
+  Done .Clean up the files we are publishing:
+    Id: CleanUpFiles
+    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 123529, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
+    Details:
+      - Remove unnecessary content
+      - Fix the links (the \#MISSINGLINKS ones)
+    Done .Bobi per TasksToBeSorted:
+    Done .F2Yaml:
+Done .Big replanning after OCWSPhase1:
+  +: {CreatedBy: Bobi, CreatedAt: 20250901 T 000001, By: [Bobi,Hana], Tags: [CSVDONE]}
+  Details:
+    - Ideally the activities should be streamed, therefore we do it "properly" even though we might not need it for just ourselves
+    - Also, Hana needs to learn into it properly
+    - Goals are:
+      - We have KPIs set up and measured, such as:
+        - Velocity
+        - Hours spent/day
+        - Scope creep
+      - We have milestones estimated
+      - Tracking, evaluating and (re)planning done:
+        - Through events such as:
+          - Standups
+          - Retrospectives
+          - Plannings
+        - Based on the KPIs, corrective actions are taken (=we improve how we do things)
+      - Ideally:
+        - There are nice graphs (burndown, scope creep, velocity/period, etc.)
+  Result:
+    First part: see at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$
+  Done .Clean up and move the Tasks in the Workspace of this Task:
+    +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
+    Details:
+      - Move them AND leave a link (like above)
+      - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!          
+
+
+#PublicRelation:
+InProgress .Plan and prepare Twitch streaming first phase:
+  +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+  Note: Added to CurrentTask.csv
+  Workspace:
+    First stream:
+
+    What to stream:
+      Standups
+    What setups do we still need to do:
+    Schedule:
+      2200-2400: Bobi's stream; 
+    Notes:
+      2 types:
+        scheduled:
+          precisely:
+            Things:
+              10pm Bobi Coding
+              5am Hana Health and Management
+          roughly:
+  InProgress .Create baseline schedule:
+    Details:
+      There should be a schedule for different topics daily, weekly and monthly
+    Workspace:
+      Hana:
+        TF2P-Health (Can be scheduled early morning):
+        Details: 
+        - Location: -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
+        - Timing: 05:00-06:00
+        - Topics:
+          - Sleep Quality data analysis (Hana)
+          - Preparation and confirmation of Cardio and strength of the day based on the sleep quality (Hana)
+          - preparation of meals of the day(Hana and Roberts meals)
+        TF2P-Work (late morning and afernoon):
+        - Timing: 11:00-14:00
+        - Topics:
+          - StandUp Report
+          - Planning Meeting
+          - Retrospective
+          - Tasks
+        TF2P-Preparation (late night):
+        - Timing: 17:00-18:00  19:00-20:00
+        - Topics:
+          - TF2P- Health: 
+            - Include the data of the day (Garmin analysis)
+            - Prepare for tomorrows possible meals
+            - Mood Analysis            
+      Bobi:
+
+
 
 InProgress .Plan the next Milestones:
   Summary: Not what I wrote above

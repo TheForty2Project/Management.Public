@@ -138,6 +138,18 @@ OnGoing .Taskify the requirements:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average} 
     Done .Update readme:      
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
+  OnGoing .Refactorings:
+    +: {CreatedBy: Bobi, CreatedAt: 20260602 T 220423, By: Bobi}
+  InProgress .Create proper Item structures library:
+    +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 30}
+    Details:
+      - Create library for handling Item data necessary to implement the new functionality instead of using the existing makeshift implementation:
+        - parsing and validation:
+          - Items from a Pair<Scalar, Map>
+          - F2Links
+          - IdStrings
+        - Item, StandardItem implementations
+      - Try implementing only those functionalities which are necessary for the new functionalities
   EstTODO .Create a stop task command feature that is executed when VS Code is shutting down:
     Id: StopTTAtShutdown
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: [Bobi, Gaurav], Estimation: 30}
@@ -193,13 +205,13 @@ OnGoing .Taskify the requirements:
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
       InProgress .Verifies query:
         Id: Verify
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 60}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
         ImplPlan: |
           TryGetQueryDescriptionUnderTheCursor:
             - Get the document and the cursor position
             - GetItemAtCursor: base it on the current generateCSV implementation and record some todos to make it "nice"
-            - Fill in the QueryDescription while checking the values    
+            - Fill in the QueryDescription while checking the values
       EstTODO .Basic query execution:
         Id: BasicExecute
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}

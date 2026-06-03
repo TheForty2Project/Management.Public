@@ -28,7 +28,7 @@ CurrentTasks:
   From: [-->Tasks\<]
   Where: 
     TaggedBy: [CSVTODO]
-    ItemType: [Task, Bug]
+    ItemTypes: [Task, Bug]
     SkipUnder: [-->Tasks\Archive\<]
   OutputFile: Reports\CurrentTasks.csv
   BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut

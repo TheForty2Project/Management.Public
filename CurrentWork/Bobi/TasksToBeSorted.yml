@@ -101,8 +101,11 @@
                   - user2.ProvideCounterProof(statement);
               - WHEN:
                     
-
-
-
+20260603:
+  TODO .Add exploring cofounderslab-like sites to Outreach options:
+    +: {CreatedBy: Bobi, CreatedAt: 20260603 T 173805, By: Bobi, Estimation: 120}
+    Details:
+      - ycombinator (they say) is better than cofounderslab
+      - nevertheless, fill in the details in both, focusing on introducing what we do and that we're looking for partners/investors
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

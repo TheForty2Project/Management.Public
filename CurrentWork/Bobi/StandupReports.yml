@@ -223,6 +223,7 @@ SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 15m, "", 20260530 T 141542 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline".."Collect the mentionable things during the life of the project and the areas we think we should have"<: [ 46m, "", 20260530 T 143636 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 300m, "", 20260530 T 235151 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 300m, "Large part of it is proper Item creation", 20260530 T 235151 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 0m, "", 20260602 T 225801 ]
   Next:
     - null

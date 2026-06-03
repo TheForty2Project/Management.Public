@@ -773,7 +773,7 @@ InDev .QueryDescription based CSV report generation:
               - The value of the From property can be parsed and each link points to a valid location
           - displays error message detailing the problem, pointing to the property which is problematic and describing the problem                    
           - Stops
-        - ELSE RETURN: queryDescription
+        - ELSE RETURN: queryDescription      
     ReadyForDev .Basic query execution:
       Id: BasicExecute
       ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
@@ -854,7 +854,7 @@ InDev .QueryDescription based CSV report generation:
   Notes:
     Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
 
-ReadyForDev .Various F2Link related upgrades:
+InDev .Various F2Link related upgrades:
   Id: F2LinkUpgrades
   +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
   ReadyForDev .Replacing F2Links:
@@ -894,7 +894,7 @@ ReadyForDev .Various F2Link related upgrades:
       - Such as a link to the below key should not contain the "3-Average Must Done " part:
         3-Average Must Done .My Item summary:
       - Do it by checking whether there's a word starting with a "."(dot) in the key, if there is, remove all words in front of it while generating the link        
-  ReadyForDev .Support for local f2links:
+  InDev .Support for local f2links:
     Id: LocalLink
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
@@ -902,13 +902,17 @@ ReadyForDev .Various F2Link related upgrades:
       Support for links which only contain the last part of the full path (F2LocalLink in the F2Links.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
     Details:        
       Update -->...ReplaceLinks< to support this as well
-  ReadyForDev .Support for filepath-only F2Links:
+    Workspace:
+      - F2Links class now supports parsing local links
+  InDev .Support for filepath-only F2Links:
     Id: FilePathLink
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..FilePathLink<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014710, By: Bobi}
     Summary:
       Support for links which only contain the filepath part; both generation and following. For example: -->Documents\Requirements\F2ToolsExtension\<
-ReadyForDev .Proper Text output support:
+    Workspace:
+      - F2Links class now supports parsing local links
+InDev .Proper Text output support:
   Id: TextOutput
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014700, By: Bobi}
   Task: -->Tasks\Software\F2ToolsExtension\..Tasks..TextOutput<
@@ -916,15 +920,17 @@ ReadyForDev .Proper Text output support:
     - to some VS Code Output for both debugging and messaging purposes
     - setting for output verbosity:
         name: Output Verbosity
-        options: [None, Information, Verbose, Debug]
+        options: [None, Error, Warning, Information, Debug]
     - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display  
-ReadyForDev .Proper escaping in Summary part of F2Links:
+InDev .Proper escaping in Summary part of F2Links:
   Id: F2LinkEscaping
   +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
   Task: -->Tasks\Software\F2ToolsExtension\..Tasks..F2LinkEscaping<
   Details:
     - double quote chars in Summaries should be escaped to [see the specification, but if there's nothing there, then double-double quote]
     - both link generation and following
+  Workspace:
+    - F2Links class created which parses properly escaped Summary links
 
         
         

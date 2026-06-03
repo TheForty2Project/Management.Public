@@ -1,14 +1,17 @@
-F2Link                    ::= F2LocalLink | F2FullLink
+F2Link                    ::= F2LocalLink | F2FullLink | F2PathLink
 F2LocalLink               ::= "-->." <YamlPath> "<" 
 F2FullLink                ::= "-->" <FilePath> <YamlPath> "<"
-FilePath                  ::= *(<FilePathPart> "\\")*
-FilePathPart              ::= +<AllowedFileCharacters>+
-YamlPath                  ::= <YamlPathPart>*
+F2PathLink                ::= "-->" <FilePath> "<" #It is also valid if the last backslash is missing
+FilePath                  ::= (<FilePathPart> "\\")+
+FilePathPart              ::= <FileNameChar>+
+YamlPath                  ::= <YamlPathPart>+
 YamlPathPart              ::= "." (<PropertyIdentifier> | ("." <ItemIdentifier>))
-PropertyIdentifier        ::= +<IdentifierChar>+
+PropertyIdentifier        ::= <IdentifierChar>+
 ItemIdentifier            ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary>
-ItemIdentifierWithId      ::= +<IdentifierChar>+
-ItemIdentifierWithGUID    ::= "{" <GUID> "}"
-ItemIdentifierWithSummary ::= '"' <Text> '"'
-
-IdentifierChar ::= // so the characters: A-Za-z0-9_-
+ItemIdentifierWithId      ::= <IdentifierChar>+
+ItemIdentifierWithGUID    ::= "{" <IdentifierChar>+ "}"
+ItemIdentifierWithSummary ::= '"' <SummaryChar>+ '"' #in <SummaryChar>+ double quotes should be escaped to double-double quotes - not sure how to write this in BNF
+ 
+IdentifierChar ::= # the characters: A-Za-z0-9_-
+FileNameChar ::= # the characters which are valid as a filename character
+SummaryChar ::= #all characters

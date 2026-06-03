@@ -143,8 +143,28 @@ TODO .Transfer all the planning tasks to Management folder:
   Details:
     - Fix the links
 
-  
+TODO .20260601:
+  InProgress .Skim through the focused files in management public:
+    +: {CreatedBy: Hana, CreatedAt: 20260601 T 114143, By: Hana, Tags: [CSVTODO], Estimation: 90m, RemTime: 90m}
+    InProgress .Go through Management:
+      TODO .Fix Hana Standup reports:
+        Details:
+          - Integrate Bobis standup report to Hanas:
+            - Shadowing Development - Report Description Generation
+            - Miestone and area meetings
+      Done .Planning: 
+        Details: 
+          - What is the difference between Planning and milestone planning
+      TODO . Collect the big tasks that has been done in this 2 years:
+        Details:
+          - To be included in the website
+          - Schedule a meeting for the last past milestones - TBD    
+      TODO .Create or update a new schedule fo the month of June:
+    
+    
+    TODO .Go through Website:
 
+    TODO .Go though Public Relation:
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 

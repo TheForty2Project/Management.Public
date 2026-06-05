@@ -273,7 +273,7 @@ OnGoing .Taskify the requirements:
         - to generate a new link for each link:
           - keep the part up until the 2 links (newly generated, old) match
           - the rest is the part from the generated (Id based)                  
-  EstTODO .Make F2Links handle 2 or more property values preceding summary in headers:
+  InProgress .Make F2Links handle 2 or more property values preceding summary in headers:
     Id: MorePrefix
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023150, By: Bobi, Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<
@@ -286,7 +286,7 @@ OnGoing .Taskify the requirements:
           Explanation:
             - the function - if there's one, but then there should be one - which removes one prefix should be updated
             - expecting trouble.
-  EstTODO .Support for local f2links:
+  InProgress .Support for local f2links:
     Id: LocalLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi, Estimation: 90, RemTime: 90}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
@@ -299,7 +299,7 @@ OnGoing .Taskify the requirements:
           Explanation:
             - this is new logic, having to plug it into the existing mess
             - yes, expecting trouble
-  EstTODO .Support for filepath-only F2Links:
+  InProgress .Support for filepath-only F2Links:
     Id: FilePathLink
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023512, By: Bobi, Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..FilePathLink<
@@ -312,7 +312,7 @@ OnGoing .Taskify the requirements:
           Explanation: 
             - supposedly just modifying a few lines
             - but expecting trouble.
-  EstTODO .Proper Text output support:
+  InProgress .Proper Text output support:
     Id: TextOutput
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023648, By: Bobi, Estimation: 60, RemTime: 60}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..TextOutput<
@@ -329,7 +329,12 @@ OnGoing .Taskify the requirements:
             - one example implementation
             - requirements for the other functionalities
             - no trouble expected as this is not really changing or using any existing functionality
-  EstTODO .Proper escaping in Summary part of F2Links:
+    Done .Implement the logger functionality:
+      Id: Implement
+      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143712, By: Bobi}
+    TODO .Create the concept and the Tasks for the others:
+      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143728, By: Bobi}
+  InProgress .Proper escaping in Summary part of F2Links:
     Id: F2LinkEscaping
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<

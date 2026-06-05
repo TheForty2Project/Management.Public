@@ -574,6 +574,7 @@ BugFixing .Follow F2Links:
 InDev .Docs for the extension:
   Id: Docs
   InDev .Initial readme:
+    Id: InitialReadme
     Details:
       - all the features of the F2Tools extension should be mentioned in the readme.
       - all the features should have a explanation.
@@ -594,10 +595,12 @@ InDev .Docs for the extension:
     Tasks:
       -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Write initial changelog.md"<
 OnGoing .Keep the docs of the extension updated at each release:
+  Id: DocUpdates
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 165959, By: Bobi}
   Details:
     - as per the requirements in -->Documents\Requirements\F2ToolsExtension\..Docs<
   ReadyForDev .Docs are updated when releasing the F2BarbaMgmt.MVP version:
+    Id: F2BarbaMgmtMVP
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 170431, By: Bobi}  
 ReadyForDev .Time tracking should stop when VS Code shuts down:
   Id: StopTTAtShutdown
@@ -606,6 +609,7 @@ ReadyForDev .Time tracking should stop when VS Code shuts down:
     - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
   Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..StopTTAtShutdown<
 ReadyForDev .Time tracking should generate Id based F2Links, not Summary ones.:
+  Id: TTIdLinks
   +: {CreatedBy: Bobi, CreatedAt: 20260520 T 172314, By: Bobi}
   Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..TTIdLinks<
 InDev .QueryDescription based CSV report generation:
@@ -853,7 +857,6 @@ InDev .QueryDescription based CSV report generation:
       - displays message "x out of total y Items updated"
   Notes:
     Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
-
 InDev .Various F2Link related upgrades:
   Id: F2LinkUpgrades
   +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
@@ -886,7 +889,7 @@ InDev .Various F2Link related upgrades:
       Details:
       - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
       - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
-  ReadyForDev .Make F2Links handle 2 or more property values preceding summary in headers:      
+  ReadyForDev .Make F2Links handle 2 or more property values preceding summary in headers:
     Id: MorePrefix
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..MorePrefix<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 015637, By: Bobi}
@@ -921,7 +924,7 @@ InDev .Proper Text output support:
     - setting for output verbosity:
         name: Output Verbosity
         options: [None, Error, Warning, Information, Debug]
-    - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display  
+    - there should be created at least placeholder requirements about upgrading the existing functionalities to have a more verbose output, including about creating a common concept/style about how and what to display    
 InDev .Proper escaping in Summary part of F2Links:
   Id: F2LinkEscaping
   +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}

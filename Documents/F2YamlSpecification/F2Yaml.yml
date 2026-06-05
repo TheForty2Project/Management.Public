@@ -956,15 +956,9 @@ Done .Notes:
                 - Id uniqueness: basically no (only Property Id uniqueness)
                 - F2Link notation:
                   - is "approximate", i.e. it can happen in supposedly very edge cases (if tracking is lost), that they point to the wrong location in an irrecoverable and undetectable way:
-                  - Specialty:_ Linking to "MyTargetProp" in the following produced the following link - skipping "Blah" from the yaml path:_ -->Where.OneItemProp.MyTargetProp<:
-                      Where:
-                        OneItemProp:
-                          TODO .Blah:
-                            MyTargetProp: lorem
-
                   - 2 separator types:
-                      ".": the following element is a Property Id or an Item
-                      "..": the following element is an Item Id where the Item is a member of the default list of the previous element
+                      ".": the following element is a Property Id #or an Item
+                      "..": the following element is an Item Id #where the Item is a member of the default list of the previous element
                       #"<-": the following element is an Item Id where the Item BelongsTo the previous element
                   - non-uniqueness handling:
                     - at generation: if duplicate ids, use internalid instead
@@ -975,10 +969,15 @@ Done .Notes:
                       OneItem:
                         TODO .Blah:
                           MyTargetProp: lorem
+                      OneItem2:
+                        Status: TODO
+                        Id: Blah
+                        MyTargetProp: lorem
                       
                       TODO .Bumm:
 
-                  -->Example.QueryDescription.Where.OneItem.MyTargetProp<:
+                  -->Example.QueryDescription.Where.OneItem..Blah.MyTargetProp<:
+                  -->Example.QueryDescription.Where.OneItem2.MyTargetProp<: 
                   -->Example.QueryDescription.Where..Bumm<:
 
 

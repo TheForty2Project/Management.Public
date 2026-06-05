@@ -108,7 +108,7 @@ SR_20260530_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 80m, "Going through management file ", 20260601 T 134802 ]
-    - 
-
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, " ", 20260601 T 134802 ]
+    - - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 27m, " ", 20260601 T 134802 ]
   Next:
     - null

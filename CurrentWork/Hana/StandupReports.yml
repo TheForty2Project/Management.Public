@@ -107,6 +107,8 @@ SR_20260530_Hana:
     - 
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 13m, "", 20260601 T 134802 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 80m, "Going through management file ", 20260601 T 134802 ]
+    - 
+
   Next:
     - null

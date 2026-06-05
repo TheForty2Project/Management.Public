@@ -412,7 +412,7 @@ InProgress .Plan the next Milestones:
       - We plan both (collect tasks, estimate them)
       - We then confirm whether that fits (if it takes around 1 month (with scope creep expected to be 100% (so double the original time)) then it fits)
 
-  InProgress .Decide:_ Milestones and areas baseline:
+  OnHold .Decide:_ Milestones and areas baseline:
     +: {CreatedBy: Bobi, CreatedAt: 20260522 T 211836, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 60, RemTime: 60}
     Details:      
       - What Areas we should be "tracking" - and on the website:
@@ -439,7 +439,7 @@ InProgress .Plan the next Milestones:
         - after having enough, decide which one should be treated as a milestone
       Result:
         Areas:          
-          PublicationLevel:
+          Website:
             .Barebone Website:
               Ideas published, just a few words and sentences; for finding people who have similar ideas
             .Articles published:
@@ -496,8 +496,12 @@ InProgress .Plan the next Milestones:
               - Fully documented F2Yaml
               - F2Tools
               - Processes to start working
-    TODO .Pick the ones from the previous task we want to track and publish:
+    OnHold .Pick the ones from the previous task we hwant to track and publish:
       +: {CreatedBy: Bobi, CreatedAt: 20260530 T 152353, By: [Bobi,Hana]}
+      Workspace:
+        Website/Public relations:
+        F2BarbaMgmt/F2Tools:
+        ProcessDevelopmentLevel:
 
   InProgress .Work out the F2BarbaManagement.MVP milestone:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: 180, RemTime: 180}
@@ -511,20 +515,28 @@ InProgress .Plan the next Milestones:
       - Estimate them
       - Choose the bugs (and estimate them)
     Workspace:
-
-  InProgress .Work out the OCWSPhase2 milestone:
+      -->Documents\Milestones\..Milestones..MstF2BarbaMgmtMVP<
+      
+  Done .Work out the OCWSPhase2 milestone:
     Id: OcWSPhase2
-    +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: , RemTime: }
+    +: {CreatedBy: Bobi, CreatedAt: 20260428 T 133722, By: [Bobi, Hana]}
     DependsOn: -->Tasks\PublicRelations\..CreateOutreachPlan<
     Details:
       - Collect features
       - We are Task based - so no requirements              
       - Estimate them (- include the F2FileToHtmlConverter upgrades as well)
       - Create a Milestone (an Item with the Type:_ Milestone) and select the features (Tasks)
-    Workspace:
-      NextMilestone:
-        Type: Milestone
-        Tasks:
+    Result:
+      -->Documents\Milestones\..Milestones..MstBasicOCWebsite<    
+
+  TODO .Work out the PublicPresence Phase 1 milestone:
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 162539, By: [Bobi, Hana]}
+    Details:
+      Include things like:
+        - streaming
+        - plans in place for marketing activities
+        - certain marketing activities are done
+      Work into: -->Documents\Milestones\..Milestones..PublicPhs1<
 
   Blocked .Make final decision about the milestones we pursue:
     +: {CreatedBy: Bobi, CreatedAt: 20260428 T 134025, By: [Bobi,Hana], Tags: [CSVDONE], Estimation: 30, RemTime: 30}

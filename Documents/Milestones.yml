@@ -1,0 +1,84 @@
++: {Type: Folder, DefaultTypes: [Folder]}
+
+.Areas:
+  +: {Type: Folder, DefaultTypes: [Area, Folder]}
+
+  .Website:
+    Id: Website
+  .F2BarbaMgmt (+F2Tools):
+    Id: F2BarbaMgmt
+  .Process Development Level:
+    Id: ProcessDevLvl
+
+.Milestones:
+  +: {Type: Folder, DefaultTypes: [Milestone, Folder]}
+  ReadyForDev .Basic Website (OCWSPhase2):
+    Id: MstBasicOCWebsite
+    Area: -->...Areas..Website< 
+    Details:
+      - The original concept website containing all the basic features we planned originally
+      - No "I want to work" support yet for the public
+    Type: Milestone
+    Tasks:
+      -->Tasks\Website\..Improvements.."Convert the F2Links on the site to html ones"<
+      -->Tasks\Website\..Improvements..RecordingAboutHistory<
+      -->Tasks\Website\..Improvements..CreateYamls..LearnToDiveSyntax<
+      -->Tasks\Website\..Improvements..CreateYamls..TheAbyss<
+      -->Tasks\Website\..Improvements..MakeYamlsDownloadable.."As a Github repo"<
+      -->Tasks\Website\..Improvements..FoldAll<
+      -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
+      -->Tasks\Website\..Improvements..CreateRoadmap<
+      -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
+      -->Tasks\Website\..Improvements.."Update the colors to the current VS Code color scheme"<
+      -->Tasks\Website\..Improvements.."Embed something from Twitch"<
+      -->Tasks\Website\..Improvements.."Fix spelling mistakes by feeding the content to some LLM agent"<
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..EmptyLines..Implement<
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls"<
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Update the colors to the current VS Code theme"<
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links"<
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Add "Commit message"-like feature"<
+
+  Drafting .F2BarbaManagement MVP:
+    Id: MstF2BarbaMgmtMVP
+    +: {CreatedBy: Bobi, CreatedAt: 20260603 T 181955}
+    Details:          
+      - F2Tools development:
+        - reach the state that it can be used as the main project management tool for small teams consisting of programmer-minded people
+      - Processes:
+        - covering the most important topics during the life of a project:
+          - from requirement creation through taskification until testing
+          - daily life: standups, plannings, retros, task prioritization
+      - System setup/Business Items:
+        - mostly BusinessClasses
+        - snippets
+      - Documentation:
+        - Overview about features
+        - Content which explains some details (videos, documentation, etc.)
+    Draft .F2ToolsMVP:
+      +: {CreatedBy: Bobi, CreatedAt: 20260603 T 184017}
+      Details: 
+        Requirements about the F2ToolsExtension development
+      Parts:
+        - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
+        - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks<
+        - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
+        - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..FilePathLink<
+        - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<            
+        - -->Documents\Requirements\F2ToolsExtension\..StopTTAtShutdown<
+        - -->Documents\Requirements\F2ToolsExtension\..TTIdLinks<
+        - -->Documents\Requirements\F2ToolsExtension\..TextOutput<
+        - -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<
+    Drafting .F2ToolsDocsMVP:
+      +: {CreatedBy: Bobi, CreatedAt: 20260603 T 184059}
+      Details:
+        The non-extension development related tasks
+      Tasks:          
+        - -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
+        - -->Documents\Requirements\F2ToolsExtension\..Docs.."Initial license"<
+        - -->Documents\Requirements\F2ToolsExtension\..DocUpdates..F2BarbaMgmtMVP<
+
+  New .Public presence phase1:
+    Id: PublicPhs1
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 162727}
+    
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

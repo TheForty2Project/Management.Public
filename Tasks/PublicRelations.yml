@@ -373,7 +373,15 @@ TODO .Work out and action the Aphantasia-test idea:
   Id: AphantasiaVideo
   +: {CreatedBy: Bobi, CreatedAt: 20260529 T 143044, By: Bobi}
   Details:
-    This idea: -->Documents\PublicRelations\..OutReachIdeas.."Aphantasia test"<  
+    This idea: -->Documents\PublicRelations\..OutReachIdeas.."Aphantasia test"<      
+TODO .Explore and action cofounderslab-like sites:
+  +: {CreatedBy: Bobi, CreatedAt: 20260605 T 134452, By: [Hana, Bobi], Estimation: 120, RemTime: 120}
+  Details:
+    - Explore what options are there for "business-partner-search" sites:
+      - ycombinator (they say) is better than cofounderslab
+    - fill in the details in the ones we found, focusing on introducing what we do, what products we already have and that we're looking for partners/investors:
+      - collect the information points we want to put there
+      - ChatGPT it
 
 
 

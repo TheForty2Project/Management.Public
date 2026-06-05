@@ -102,10 +102,28 @@
               - WHEN:
                     
 20260603:
-  TODO .Add exploring cofounderslab-like sites to Outreach options:
-    +: {CreatedBy: Bobi, CreatedAt: 20260603 T 173805, By: Bobi, Estimation: 120}
+  InProgress .Add "exploring cofounderslab-like sites" to Outreach options:
+    +: {CreatedBy: Bobi, CreatedAt: 20260603 T 173805, By: Bobi}
     Details:
       - ycombinator (they say) is better than cofounderslab
       - nevertheless, fill in the details in both, focusing on introducing what we do and that we're looking for partners/investors
+
+  TODO .Add class QueryDescription to BusinessClasses:
+    +: {CreatedBy: Bobi, CreatedAt: 20260603 T 174509, By: Bobi, Estimation: 20, RemTime: 20}
+
+  TODO .Specification:_ All Item header Ids/Summaries should start with a "." (dot):
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 005724, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+  TODO .Specification:_ a simple map is a valid Item format:
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031336, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+  TODO .F2ToolsExtension:_ Add support for Item to parse itself from a yaml map:
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031410, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+  TODO .QueryDescription:_ Add "OnlyItemsWithHeader"-like property to the Where part of the query:
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 153350, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+  TODO .Specification:_ headers support in Items. Also, in the TS code:
+    +: {CreatedBy: Bobi, CreatedAt: 20260605 T 003628, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -784,7 +784,54 @@ InDev .QueryDescription based CSV report generation:
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
       Details:
         - var queryDescription: result of $@-->.."Executes query".."Verifies query"<@$
-        - var items: getItemsUnderTheLinksIn(queryDescription.From)
+        - var items: 
+            getItemsUnderTheLinksIn(queryDescription.From):
+              - what we want:
+                - Item => WorkspaceItem:
+                  - contains rendering information:
+                    - parent Item (and property?)
+                    - class RenderingOptions:
+                        ItemYamlHeaderType .HeaderType:
+                        IdString[] HeaderPrefixPropIds:
+                        
+                    - enum ItemYamlHeaderType:
+                        .
+                  - a yaml.Node is an ItemYaml in the yaml if:
+                    - instanceof Pair<yaml.Scalar, yaml.YAMLMap>:
+                      - IF (:
+                        - Scalar can be parsed to a non-empty header
+                        - AND for (key of keys in the yamlmap):
+                          - all IdStrings (all) (implicitly NOT starting with a dot)
+                          - OR all can be parsed to non-empty headers:
+                      - Example: 
+                          Done .MyItem:
+                            MyProp: 12
+                            MyP2: dfsg
+                          <Task>:
+                    - instanceof yaml.YamlMap:
+                      - All items in it are Pair<Scalar, yaml.Node>
+                      - the Scalar is a string and can be parsed to an IdString
+                      - Example:
+                        - as a value of a property, like a "WherePartOfQuery" Item as the value of the Where property:
+                            ...:
+                            Where: 
+                              TaggedBy: 
+                              SkipUnder:
+                    - instanceof Pair<yaml.Scalar, yaml.Scalar(?):
+                      - The first scalar must be an non-empty Item header
+                      - The second scalar must be an empty string (or whatever the parser returns for an empty value)
+                      - Example: |
+                          Done .MySmallTodo:
+                  - so WorkspaceItems should be able to parse ItemYamls
+                  - 
+              - ImplementationPlan:
+                  - crawler, going through all the:
+                    - keys of maps:
+                      - if 
+                    - of maps:
+                      - check if it's an Item:
+                        - 
+                        - (what if flat Item?)
         - generates the CSV from the items:
           - creates file header:
             - uses the prefix set in CommentPrefix in front of each header line

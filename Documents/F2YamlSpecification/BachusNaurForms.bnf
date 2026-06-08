@@ -1,0 +1,34 @@
+#F2Link:
+<F2Link>                    ::= F2LocalLink | F2FullLink | F2PathLink
+<F2LocalLink>               ::= "-->." <YamlPath> "<" 
+<F2FullLink>                ::= "-->" <FilePath> "\\" <YamlPath> "<"
+<F2PathLink>                ::= "-->" <FilePath> "\\"? "<"
+<FilePath>                  ::= (<FilePathPart> "\\")* <FilePathPart>
+<FilePathPart>              ::= <FileNameChar>+
+<YamlPath>                  ::= <YamlPathPart>+
+<YamlPathPart>              ::= "." (<PropertyIdentifier> | ("." <ItemIdentifier>))
+<PropertyIdentifier>        ::= <IdString>
+<ItemIdentifier>            ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary>
+<ItemIdentifierWithId>      ::= <IdString>
+<ItemIdentifierWithGUID>    ::= "{" <IdString> "}"
+<ItemIdentifierWithSummary> ::= '"' <AnyCharMinusNl>+ '"' #in this double quotes should be escaped to double-double quotes - not sure how to write this in BNF
+<FileNameChar>              ::= ? the characters which are valid as filename character on both Linux and Windows systems?
+
+#Item yaml header:
+<ItemYamlHeader>            ::= <TypeIdHeader> | <IdHeader> | <SummaryHeader>
+<TypeIdHeader>              ::= "<" <ItemClassId> ">" #e.g.: <Task>
+<IdHeader>                  ::= <Prefixes> "." <ItemId> #If the header matches this then this is the priority and not <SummaryHeader> (as it will match both). e.g.: Done 4-High .MyItemId
+<SummaryHeader>             ::= <Prefixes> "." <ItemSummary> #e.g.: Done 4-High .My Item Summary
+<ItemClassId>               ::= <IdString>
+<Prefixes>                  ::= (<Prefix> <Separator>+)*
+<ItemId>                    ::= <IdString>
+<ItemSummary>               ::= <AnyCharMinusNl>+
+<Prefix>                    ::= <IdString>
+<Separator>                 ::= " " | "\t"
+
+#Common:
+<IdString>                  ::= <IdStartChar> <IdChar>*
+<AnyCharMinusNL>            ::= ? All characters except the new line ones?
+<IdChar>                    ::= <IdStartChar> | <NumberChar>
+<IdStartChar>               ::= ? A-Za-z_ ?
+<NumberChar>                ::= ? 0-9 ?

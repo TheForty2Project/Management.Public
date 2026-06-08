@@ -1,5 +1,21 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder], Id: Articles}
 
+
+.Technical:
+  TODO .Add QueryDescription and related to BusinessClasses:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 185706, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+  OnGoing .Specification:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 185841}
+    TODO .Specification:_ headers support in Items:
+      +: {CreatedBy: Bobi, CreatedAt: 20260605 T 003628, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+    TODO .Specification:_ All Item header Ids/Summaries should start with a "." (dot):
+      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 005724, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+    TODO .Specification:_ a simple map is a valid Item format:
+      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031336, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+
+  
 InProgress .Collect and choose article ideas:
   Id: CollectIdeas
 InProgress .Decision Formalization:

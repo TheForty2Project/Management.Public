@@ -93,43 +93,42 @@ namespace Barba.Types:
           Example: [bobi, 10m, "writing this", 20250115 T 2015]
 
   enum TaskStatusEnum:
-    Members:
-      DraftTODO:
-          Details: the initial status.
-      TODO:
-          Details: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
-      EstTODO:
-          Details: 
-            - it's estimated how long it would take to finish the task
-            - in larger tasks you should only start working on a task (ideally...) after it reached this status
-      InProgress:
-          Details: the task is 
-      Done:
-      CurrentFocus:
-        Details:
-          There should be only 1 CurrentFocus "tree"; it's highlighted (if using CustomColoring) on the right hand side bar          
-      Blocked:
-        Details:
-          The Task is blocked by another Task
-        Notes: If a Task is set to this status then there should be a "DependsOn:" property added as well, signaling what other task or circumstance is blocking the one in this status.
-      NEXT:
-        Details:
-          The Task should be performed only after all the previous Tasks are done (in the parent Task)
-      Scheduled:
-        Details: the Task is scheduled to be performed at a certain time
-        Notes: If a Task is set to this status, then there should be a "ScheduledAt:" property set for the task
-      OnGoing:
+    .DraftTODO:
+        Details: the initial status.
+    .TODO:
+        Details: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
+    .EstTODO:
         Details: 
-          - The task is going on for a long time, on-off. 
-          - Example: a Task for preparing for the standup, which happens every day, with the same steps, so instead of creating a new Task for each, you create one in this status and log the hours to it every day.
-      OnHold:
-          Details: No work should be done on the task until further notice.
-      Cancelled:
-          Details: The task should not be done at all.
-      Paused:
-          Details: The task is paused due to needing to concentrate on other Tasks
-      Closed:
-          Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
+          - it's estimated how long it would take to finish the task
+          - in larger tasks you should only start working on a task (ideally...) after it reached this status
+    .InProgress:
+        Details: the task is 
+    .Done:
+    .CurrentFocus:
+      Details:
+        There should be only 1 CurrentFocus "tree"; it's highlighted (if using CustomColoring) on the right hand side bar          
+    .Blocked:
+      Details:
+        The Task is blocked by another Task
+      Notes: If a Task is set to this status then there should be a "DependsOn:" property added as well, signaling what other task or circumstance is blocking the one in this status.
+    .NEXT:
+      Details:
+        The Task should be performed only after all the previous Tasks are done (in the parent Task)
+    .Scheduled:
+      Details: the Task is scheduled to be performed at a certain time
+      Notes: If a Task is set to this status, then there should be a "ScheduledAt:" property set for the task
+    .OnGoing:
+      Details: 
+        - The task is going on for a long time, on-off. 
+        - Example: a Task for preparing for the standup, which happens every day, with the same steps, so instead of creating a new Task for each, you create one in this status and log the hours to it every day.
+    .OnHold:
+        Details: No work should be done on the task until further notice.
+    .Cancelled:
+        Details: The task should not be done at all.
+    .Paused:
+        Details: The task is paused due to needing to concentrate on other Tasks
+    .Closed:
+        Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
 
   class Bug:
     Inherits: Task

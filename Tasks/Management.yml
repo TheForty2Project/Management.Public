@@ -340,7 +340,6 @@ Done .Big replanning after OCWSPhase1:
       - Move them AND leave a link (like above)
       - FIX THE LINKS IN THEM POINTING TO EACH OTHER!!!          
 
-
 #PublicRelation:
 InProgress .Plan and prepare Twitch streaming first phase:
   +: {CreatedBy: Bobi, CreatedAt: 20260415 T 133514, By: [Bobi, Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
@@ -389,9 +388,6 @@ InProgress .Plan and prepare Twitch streaming first phase:
             - Prepare for tomorrows possible meals
             - Mood Analysis            
       Bobi:
-
-
-
 InProgress .Plan the next Milestones:
   Summary: Not what I wrote above
   Id: PlanNextMS

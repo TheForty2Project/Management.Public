@@ -781,57 +781,11 @@ InDev .QueryDescription based CSV report generation:
     ReadyForDev .Basic query execution:
       Id: BasicExecute
       ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
-      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
+      Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<      
       Details:
-        - var queryDescription: result of $@-->.."Executes query".."Verifies query"<@$
+        - var queryDescription: result of $@-->.."Executes query".."Verifies query"<@$      
         - var items: 
-            getItemsUnderTheLinksIn(queryDescription.From):
-              - what we want:
-                - Item => WorkspaceItem:
-                  - contains rendering information:
-                    - parent Item (and property?)
-                    - class RenderingOptions:
-                        ItemYamlHeaderType .HeaderType:
-                        IdString[] HeaderPrefixPropIds:
-                        
-                    - enum ItemYamlHeaderType:
-                        .
-                  - a yaml.Node is an ItemYaml in the yaml if:
-                    - instanceof Pair<yaml.Scalar, yaml.YAMLMap>:
-                      - IF (:
-                        - Scalar can be parsed to a non-empty header
-                        - AND for (key of keys in the yamlmap):
-                          - all IdStrings (all) (implicitly NOT starting with a dot)
-                          - OR all can be parsed to non-empty headers:
-                      - Example: 
-                          Done .MyItem:
-                            MyProp: 12
-                            MyP2: dfsg
-                          <Task>:
-                    - instanceof yaml.YamlMap:
-                      - All items in it are Pair<Scalar, yaml.Node>
-                      - the Scalar is a string and can be parsed to an IdString
-                      - Example:
-                        - as a value of a property, like a "WherePartOfQuery" Item as the value of the Where property:
-                            ...:
-                            Where: 
-                              TaggedBy: 
-                              SkipUnder:
-                    - instanceof Pair<yaml.Scalar, yaml.Scalar(?):
-                      - The first scalar must be an non-empty Item header
-                      - The second scalar must be an empty string (or whatever the parser returns for an empty value)
-                      - Example: |
-                          Done .MySmallTodo:
-                  - so WorkspaceItems should be able to parse ItemYamls
-                  - 
-              - ImplementationPlan:
-                  - crawler, going through all the:
-                    - keys of maps:
-                      - if 
-                    - of maps:
-                      - check if it's an Item:
-                        - 
-                        - (what if flat Item?)
+            getItemsUnderTheLinksIn(queryDescription.From):            
         - generates the CSV from the items:
           - creates file header:
             - uses the prefix set in CommentPrefix in front of each header line
@@ -849,6 +803,93 @@ InDev .QueryDescription based CSV report generation:
             - creates a string by concatenating them by using a comma (,) as separator              
         - writes the CSV into the output file:
           - either to the one specified in the queryDescription.OutputFile or if it's empty or not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
+      Workspace:
+        - what we want:
+          - Item => WorkspaceItem:
+            - structural changes:
+              - property data should be stored in a dictionary they reference by Id:
+                  SOTHAT:
+                    - future: 
+                      - filter by property value
+                      - anticipated simplification in handling
+                    - 
+              - classdescription... should we?:
+                - so, 
+              - double-linked lists...:
+                - should we have facilities, 
+            - contains rendering information:    
+                How:                
+                  Property called "YamlRenderingOptions", type:
+                    class .YamlRenderingOptions:
+                      Range DocumentRange: 
+                      ItemYamlHeaderType .HeaderType:
+                      IdString[] .HeaderPrefixPropertyIds:
+                        Details: Ids of the properties which are present in the prefix part of header and in what order
+                      IdString[] .AdditionalPropertiesPropertyIds:
+                        Details: Ids of the properties which are present in the Additional Properties (the "+:") part and in what order
+                      IdString[] .NormalPropertiesPropertyIds:
+                      bool .RenderDefaultListPropertyId:
+                    enum .ItemYamlHeaderType:
+                      .None:
+                      .TypeId:
+                      .Id:
+                      .Summary:
+                    class .Range:
+                      integer .Start:
+                      integer .ValueEnd:
+                        Details: range not including the end position
+                      integer .NodeEnd:
+                        Details: range not including the end position
+                Why:
+                  - When serializing the QueryDescription into the csv
+                  - WriteBack - maybe, if we don't only edit that part of the text (=the value)
+                  - Later:
+                    - 
+            - a Scalar of a Pair<yaml.Scalar, yaml.YAMLMap | yaml.Scalar> is an Item Header yaml if it matches the <ItemYamlHeader> BNF in -->Documents\Requirements\F2YamlSpecification\BachusNaurForms.bnf<: |
+
+            - a yaml.Node is an ItemYaml in the yaml if yamlNode is instanceof:
+              - - Pair<yaml.Scalar, yaml.YAMLMap>
+                - AND Scalar can be parsed to a non-empty Item header
+                - AND each key of the keys in the yamlmap is a string scalar
+                  # - key is an IdString (implicitly NOT starting with a dot) (representing a property Id)
+                  # - OR key can be parsed to non-empty header (representing another Item's header)
+                - Example: 
+                    - Done .MyItem:
+                        MyProp: 12
+                        MyP2: dfsg
+                      .MyItem2:
+                        MyProp: 23
+                        <Task>:
+                          Id: blah
+                    - Here we have Items with Id "MyItem", "MyItem2" and "blah"                                          
+              - - yaml.YAMLMap
+                - AND items in it are Pair<Scalar, yaml.Node>
+                - the Scalar is a string and can be parsed to an IdString
+                - Example:
+                  - as a value of a property, like a "WherePartOfQuery" Item as the value of the Where property:
+                      ...:
+                      Where: 
+                        TaggedBy: 
+                        SkipUnder:
+              - - Pair<yaml.Scalar, yaml.Scalar(?):
+                - AND the first scalar is a non-empty Item header
+                - AND the second scalar is an empty string (or whatever the parser returns for an empty value)
+                - Example: |
+                    Done .MySmallTodo:
+            - so WorkspaceItems should be able to parse ItemYamls:
+              - Have a function which 
+        
+        - ImplementationPlan:
+            - crawler, going through all the nodes of a yaml document and checks whether a the Node is an Item, if so, parses them into a WorkspaceItem
+            - 
+              - keys of maps:
+                - if 
+              - yaml maps
+              - of maps:
+                - check if it's an Item:
+                  - 
+                  - (what if flat Item?)
+
     ReadyForDev .Filters by the Where property:
       Id: Filter
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..Filter<
@@ -902,6 +943,11 @@ InDev .QueryDescription based CSV report generation:
                 - create it
               - set its value to csvLine[columnNo]
       - displays message "x out of total y Items updated"
+  ReadyForDev .Related classes added to BusinessClasses:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 185603, By: Bobi}
+    Tasks: -->Tasks\Documents\..Technical.."Add QueryDescription and related to BusinessClasses"<
+    Details:
+      QueryDescription, etc.
   Notes:
     Task for creating this is at $@-->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<@$
 InDev .Various F2Link related upgrades:

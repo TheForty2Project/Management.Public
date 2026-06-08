@@ -51,6 +51,38 @@ OnGoing .BusinessAnalysis:
         Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 OnGoing .Health:
+  InProgress .Health planning W20260608:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi}
+    Details:
+      Food
+      Gym
+      Dandar Bath - Thursday?
+    Workspace:
+      Food:
+        Tuesday-Friday:
+          Afrikai harcsa
+          Chicken breast w sauces
+          Luncheon meat with boc choy
+          Chicken soup
+          Pork soup          
+      Supplements:
+        -->..."Hana to make supplements plan"<
+      Gym:
+        Target is every day
+      Cardio:
+        One day run, then hiit, then rest
+    TODO .Hana to make supplements plan:
+      +: {CreatedBy: Bobi, CreatedAt: 20260608 T 221507, By: Hana}
+      Details:
+        About each supplement:
+          Id:
+          Quantity:
+          When:
+            Details: at what time of the day, before/after meals, etc.
+          Benefits:
+        Group them if possible - such as "morning", "before meal", etc.:          
+        Per person:
+
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
     Details:

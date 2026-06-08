@@ -230,8 +230,9 @@ SR_20260605_Bobi:
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 75m, "", 20260604 T 151321 ]
   Next:
     - null
+    
 SR_NEXT_Bobi:
   Was:
-    - -->Documents\Requirements\F2ToolsExtension\.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 90m, "", 20260605 T 190028 ]
+    - -->Documents\Requirements\F2ToolsExtension\.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 91m, "", 20260605 T 190028 ]
   Next:
     - null

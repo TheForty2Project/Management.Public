@@ -857,7 +857,7 @@ HealthLog20260520Hana:
     - Sleep Hygiene:  
     - Mood: 
   .Notes for tomorrow:
-HealthLog202606051Hana:
+HealthLog20260605Hana:
   .Cycle Day:  Cycle 19 (Fertile phase)
   .Wake up:
     - Time: 10:36
@@ -918,22 +918,22 @@ HealthLog202606051Hana:
     - Time: 
     - Sleep Hygiene:  
     - Mood: 
-HealthLog20260605Hana:
-  .Cycle Day:  Cycle 03 (Menstrual phase)
+HealthLog20260606Hana:
+  .Cycle Day:  Cycle 04 (Menstrual phase)
   .Wake up:
-    - Time: 04:42
-    - Duration: 5h 29m
-    - Garmin Link: 
-    - Mood: Energetic
-    - Face: low inflamation (Acne)
+    - Time: 11:12
+    - Duration: 10h 43m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-06/0
+    - Mood: Tired
+    - Face: 
   .Diet+Hydration+Mood:
       - AfterWakeUp: 
-        - Time: 04:42
-        - Macro Nutrient: Water
-        - Hydration: 150ml
-        - Mood: Jolly
+        - Time:  
+        - Macro Nutrient:
+        - Hydration: 
+        - Mood: 
       - Breakfast:
-        - Time: 05:00
+        - Time: 
         - Food: Egg, Spinach, 1 piece of cake
         - Mood: Jolly
       - Snacks:
@@ -952,7 +952,7 @@ HealthLog20260605Hana:
       - Time:   12:47
       - Quality: Type 4
   .Activity:
-      - After wake up:
+      - After wake up: 
         - Time: 06:30
         - Activity: Walk 
         - Mood: Jolly
@@ -973,8 +973,72 @@ HealthLog20260605Hana:
         - Garmin Link :
   .Night Sleep:
       - Time: 
-      - Sleep Hygiene:  
+      - Sleep Hygiene:  Salad and it's following consequences
       - Mood: 
       - Garmin Link: 
   .Notes for tomorrow:
+
+HealthLog20260607Hana:
+  .Cycle Day:  Cycle 05 (Menstrual phase)
+  .Wake up:
+    - Time: 09:18
+    - Duration: 7h 46m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-07/0
+    - Mood: Energetic
+    - Face: low inflamation (Acne)
+  .Diet+Hydration+Mood:
+      - AfterWakeUp: 
+        - Time: 
+        - Macro Nutrient: Water
+        - Hydration: 150ml
+        - Mood: ok
+      - Breakfast:
+        - Time: 11:00
+        - Food: Egg, Spinach,rice, cucumbers
+        - Mood: Fight with Robi
+      - Snacks:
+        - Time: 13:20
+        - Food: cake 
+        - Mood: calm
+      - Lunch: 
+        - Time: 14:40
+        - Food: Turkey balls, Spinach, rice noodles soup
+        - Mood: ok
+      - Dinner:
+        - Time: 18:30
+        - Food: Rice, Soup, Fish
+        - Mood: calm
+      - The forbidables:
+        - Time: 19:00 and above
+        - Food: Biscuits almost the whole box, cake 3 pieces, chai milk. Vomit. Craberries
+  .Stool Quality:
+      - Time:   12:47
+      - Quality: Type 4
+  .Activity:
+      - After wake up:
+        - Time: 
+        - Activity: 
+        - Mood:
+        - Garmin link: 
+      - Morning: 
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link:  
+      - Afternoon:
+        - Time: 15:00
+        - Activity: hike
+        - Mood: Mixed
+        - Garmin Link: https://connect.garmin.com/app/activity/23165891169
+      - Evening:
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link :
+  .Night Sleep:
+      - Time: 
+      - Sleep Hygiene:  
+      - Mood: 
+      - Garmin Link: 
+.Notes for tomorrow:
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

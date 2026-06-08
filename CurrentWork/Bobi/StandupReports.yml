@@ -235,4 +235,6 @@ SR_NEXT_Bobi:
   Was:
     - -->Documents\Requirements\F2ToolsExtension\.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 91m, "", 20260605 T 190028 ]
   Next:
-    - null
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
+    - 

@@ -129,10 +129,12 @@ OnGoing .Health:
             - Include goals what we want to acheive in a month, 3 month, 6 month
         TODO .Schedule body measurement:
 
+  TODO .Family problem Solving:
+    +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
   .Schedules:
-    TODO .Schedule Health Analysis (Live):
-      Details: 
-      - Better bidaily (morning before waking up and evening (sleep hygiene period)
-      - To be done for Hana, Robi ad Baba
-
+    EstTODO .Schedule Health Analysis (Live):
+      +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
+      Details:
+        Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
+    
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

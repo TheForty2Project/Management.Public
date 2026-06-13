@@ -1152,7 +1152,30 @@ Bugs:
     Details:
       Example:      
         MyItem.:
-          -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to follow links where a summary part ends with dot".Details.Example.MyItem.<  
-        
+          -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to follow links where a summary part ends with dot".Details.Example.MyItem.< 
+
+  New .Unable to create new task from an existing task within the same SR "SR_20260608_Hana":
+    +: {CreatedBy: Hana, CreatedAt: 20260609 T 215850, By: Bobi, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    QA: Bobi
+    Version: 2.0.26
+    Area: TimeTracking
+    Severity: 2-Low
+    Details:
+      Scenario one:
+        - Task previously present in the SR
+        - Specify stand up Report command
+        - Cursor on the existing task ( 20260601)
+        - Start timer command
+        - No new task added
+        - Time resumes on the the previous task
+      Scenario two:
+        - Task previously present in the SR
+        - Specify stand up Report command
+        - Cursor of the existing task in the orginal folder
+        - Start timer command
+        - No new task added
+        - Time resumes on the the previous task
+
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

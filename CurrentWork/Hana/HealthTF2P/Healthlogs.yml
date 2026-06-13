@@ -1036,9 +1036,287 @@ HealthLog20260607Hana:
         - Mood: 
         - Garmin Link :
   .Night Sleep:
+      - Time: 12:57
+      - Sleep Hygiene: Food before sleep, Weed before sleep, various vomit.
+      - Mood: no mood, wasted
+  .Analysis:
+    - Food before sleeping
+    - Smoke before sleeping
+    - 400 active calorie burn in one activity
+    - Possibility of fight if not mobilized
+HealthLog20260608Hana:
+  .Cycle Day:  Follicular
+  .Wake up:
+    - Time: 11:01
+    - Duration: 9h 45m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-08
+    - Mood: ok
+    - Face: Puffy
+  .Diet+Hydration+Mood:
+      - AfterWakeUp: 
+        - Time: 
+        - Macro Nutrient: Water
+        - Hydration: 150ml
+        - Mood: ok
+      - Breakfast:
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Snacks:
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Lunch: 
+        - Time: 12:30
+        - Food: Main - steam rice, fish, tomatos,. Dessert- pudding, cake coffee 
+        - Mood: Fight with Robi again. Mentioned in Analysis.HealthLog20260608Hana
+      - Dinner:
+        - Time: 19:00
+        - Food: 
+        - Mood: calm
+      - The forbidables:
+        - Time: 19:00 and above
+        - Food: Pudding, chips, pudding 
+  .Stool Quality:
+      - Time:   12:00
+      - Quality: Type 4
+  .Activity:
+      - After wake up:
+        - Time: 
+        - Activity: 
+        - Mood:
+        - Garmin link: 
+      - Morning: 
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link:  
+      - Afternoon:
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link: 
+      - Evening:
+        - Time: 20:30
+        - Activity: walk
+        - Mood: down
+        - Garmin Link : https://connect.garmin.com/app/activity/23179645367
+  .Night Sleep:
+      - Time: 12:57
+      - Sleep Hygiene: Shower, Work ( getting tready for tomorrow)
+      - Mood: working mood
+  .Analysis:
+    - Smoke before sleeping
+  .TODOs:
+    - Log food to paid garmin app
+    - Check your challenges
+    - 
+HealthLog20260608Bobi:
+  .Things to note:
+    - NO proper gym for 2 weeks (Hana too)
+    - sensitive mood (Hana too)
+    - C shape sleep
+    - burps most the last 3 days. 
+  .Wake up:
+    - Time: 11:01
+    - Duration: 6h 37m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-08/0
+    - Mood: Remembering the fight of yesterday despite we were ok at night.
+    - Face: Puffy
+  .Diet+Hydration+Mood:
+    - AfterWakeUp: 
       - Time: 
-      - Sleep Hygiene:  
+      - Macro Nutrient: 
+      - Hydration:
       - Mood: 
-      - Garmin Link: 
-.Notes for tomorrow:
+    - Breakfast:
+      - Time: 
+      - Food: Pancake
+      - Mood: Bad (remembering the previous fights)
+    - Snacks:
+      - Time: 
+      - Food: 
+      - Mood: 
+    - Lunch: 
+      - Time: 15:00
+      - Food: Main - steam rice, fish, tomatos,. Dessert- pudding, cake coffee 
+      - Mood: Fight 
+    - Dinner:
+      - Time: 19:00
+      - Food: 
+      - Mood: calm
+    - The forbidables:
+      - Time: 19:00 and above
+      - Food: Pudding, chips, pudding 
+  .Stool Quality:
+      - Time:   
+      - Quality: 
+  .Activity:
+      - After wake up:
+        - Time: 
+        - Activity: Walking
+        - Mood: sensitive
+        - Garmin link:  https://connect.garmin.com/app/activity/23173404860
+      - Morning: 
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link: https://connect.garmin.com/app/activity/23179388085 
+      - Afternoon:
+        - Time: 
+        - Activity: Walk
+        - Mood: ok
+        - Garmin Link: https://connect.garmin.com/app/activity/23179645367
+      - Evening:
+        - Time: 20:30
+        - Activity: walk
+        - Mood: down
+        - Garmin Link : https://connect.garmin.com/app/activity/23179644619     
+  .Night Sleep:
+      - Time: 12:57
+      - Sleep Hygiene: walk
+      - Mood: working mood
+  .Analysis:
+    - Smoke before sleeping
+  .TODOs:
+ 
+
+HealthLog20260609Hana:
+  .Cycle Day:  Follicular
+  .Wake up:
+    - Time: 08:30
+    - Duration: 7h 10m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-09/0
+    - Mood: ok
+    - Face: Puffy
+  .Diet+Hydration+Mood:
+      - AfterWakeUp: 
+        - Time: 08:40
+        - Macro Nutrient: Water, citrolline, L-Glutamin
+        - Hydration: 100ml
+        - Mood: some guilt of mama and baba
+      - Breakfast:
+        - Time: 08:45
+        - Food: https://connect.garmin.com/app/nutrition/2026-06-09
+        - Mood: thoughts better managed 
+      - Snacks:
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Lunch: 
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Dinner:
+        - Time:
+        - Food: 
+        - Mood: 
+      - The forbidables:
+        - Time: 
+        - Food: 
+  .Stool Quality:
+      - Time:   
+      - Quality:
+  .Activity:
+      - After wake up:
+        - Time: 
+        - Activity: 
+        - Mood:
+        - Garmin link: 
+      - Morning: 
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link:  
+      - Afternoon:
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link: 
+      - Evening:
+        - Time: 20:30
+        - Activity: walk
+        - Mood: down
+        - Garmin Link : https://connect.garmin.com/app/activity/23179645367
+  .Night Sleep:
+      - Time: 12:57
+      - Sleep Hygiene: Shower, Work ( getting tready for tomorrow)
+      - Mood: working mood
+  .Analysis:
+    - 13:51 Asked Robi if we could put the details of diet on GARMIN. The subject get mad and noise of the dishes which are cleaned are loud. Asked if he was mad, Answer: Yes I don't want to talk to you now, lets just work.
+  .TODOs:
+    - Log food to paid garmin app
+    - Check your challenges
+    - 
+  
+
+HealthLog20260609Bobi:
+  .Wake up:
+    - Time: 12:00
+    - Duration: 8h 16m
+    - Garmin Link: https://connect.garmin.com/app/sleep/2026-06-09/0
+    - Mood: ok
+    - Face: 
+  .Diet+Hydration+Mood:
+      - AfterWakeUp: 
+        - Time: 12:15
+        - Food: Water, citrolline, L-Glutamine
+        - Hydration: 
+        - Mood: ok
+      - Breakfast:
+        - Time: 12:30
+        - Food: Pancake
+        - Mood: ok
+      - Snacks:
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Lunch: 
+        - Time: 
+        - Food: 
+        - Mood: 
+      - Dinner:
+        - Time: 
+        - Food: 
+        - Mood: 
+      - The forbidables:
+        - Time: 19:00 and above
+        - Food: Pudding, chips, pudding 
+  .Stool Quality:
+      - Time:   12:00
+      - Quality: Type 4
+  .Activity:
+      - After wake up:
+        - Time: 
+        - Activity: 
+        - Mood:
+        - Garmin link: 
+      - Morning: 
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link:  
+      - Afternoon:
+        - Time: 
+        - Activity: 
+        - Mood: 
+        - Garmin Link: 
+      - Evening:
+        - Time: 20:30
+        - Activity: walk
+        - Mood: down
+        - Garmin Link : https://connect.garmin.com/app/activity/23179645367
+  .Night Sleep:
+      - Time: 12:57
+      - Sleep Hygiene: Shower, Work ( getting tready for tomorrow)
+      - Mood: working mood
+  .Analysis:
+    - 13:51 Asked Robi if we could put the details of diet on GARMIN. The subject get mad and noise of the dishes which are cleaned are loud. Asked if he was mad, Answer: Yes I don't want to talk to you now, lets just work. Took the kratom and closed the door of the room.
+  .TODOs:
+    - Log food to paid garmin app
+    - Check your challenges
+    - 
+ 
+
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

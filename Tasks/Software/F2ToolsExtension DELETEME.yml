@@ -140,68 +140,33 @@ OnGoing .Taskify the requirements:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average}
   OnGoing .Refactorings:
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 220423, By: Bobi}
-    Done .Rename Item to F2YamlWorkspaceItem:
+    EstTODO .Rename Item to F2YamlWorkspaceItem:
       Id: RenameToF2YamlWorkspaceItem
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022539, By: Bobi, Tags: [CSVTODO], Estimation:5, RemTime:5}
       Details:
-        Comment to it: A smart map-like data-storage structure for storing Item data retrieved from yaml documents.    
-    Done .Custom Properties OR F2YamlWorkspaceItem to store its data in a Map:
+        Comment to it: A smart map-like data-storage structure for storing Item data retrieved from yaml documents.
+    EstTODO .Custom Properties OR F2YamlWorkspaceItem to store its data in a Map:
       Id: CustomProperties
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021307, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
       Details:
         Custom properties support:
-        - property data should be stored in a dictionary; the properties (e.g. Id, Summary) reference the values by Id
+        - property data should be stored in a dictionary; the properties (e.g. Id, Summary) reference by Id
         - parser should treat all the keys of the yaml.YAMLMap entries as property ids and store their values in this dictionary
-        So that: allowing "custom" properties - so not only hardcoded ones like Id and Summary for StandardItem - and general methods of accessing and manipulating property values
-      Done .Update the implementation by storing the correct types:
-        +: {CreatedBy: Bobi, CreatedAt: 20260612 T 214715, By: Bobi, Estimation: 20, RemTime: 20}
-        Workspace:
-          Item properties can have the following types:
-            string: text
-            char: single character
-            integer: whole number
-            float: decimal number
-            bool: true/false
-            boolean: alternate boolean type name
-            IdString: restricted identifier string
-            F2Link: F2 reference/link value
-            Duration: time span
-            DateTime: timestamp / point in time
-            InternalId: internal unique item id
-          Correct non-array types:
-            Property, Yaml, TypeScript
-            string  , string, string
-            char    , string, string
-            integer , string/integer, number
-            float   , string/float, number
-            bool    , string/bool, number
-            IdString, string, IdString
-            F2Link, string, F2Link
-            DateTime, timestamp, Date
-            Enumeration, string/number (its string or number value), number
-            Item, various, F2YamlWorkspaceItem
-          Array types:
-            Property, Yaml, TypeScript
-            Item array, sequence/map, ItemList
-            all other arrays, sequence/map, ItemList      
+        So that: allowing "custom" properties - so not only hardcoded ones like Id and Summary for StandardItem - and general methods of accessing and manipulating property values 
     EstTODO .Type (class) support:
       Id: TypeDescriptionSupport
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021315, By: Bobi, Tags: [CSVTODO], Estimation: 240, RemTime: 240}
       Details:
         Type verification support:
           - class parsing and the ClassDescription + PropertyDescription + TypeInfo types
-          - F2YamlWorkspaceItems to have:
-            - \"ClassDescription?: ClassDescription" property which describes the Item (and its properties) the same way a class describes an object
+          - Items to have:
+            - \"ClassDescription ClassDescription" property which describes the Item (and its properties) the same way a class describes an object
             - public IsValid(): boolean to verify the parsed data against the ClassDescription
         So that: 
           - Better Item recognition - e.g. we can have DefaultTypes support
           - Future: 
             - Code completion
             - Coloring
-      TODO .Non-Item ClassDescription:
-        +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-        Details:
-          - In the example implementation  to avoid the circular initialization and dependency hell
     InProgress .Double-linked lists:
       Id: DoubleLinkedLists
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022636, By: Bobi}
@@ -223,12 +188,12 @@ OnGoing .Taskify the requirements:
             - special, using similar implementation as in -->Tasks\Software\F2ToolsExtension\F2ToolsExtensionContent\ItemList< to store the information
         Result:
           Implement the ItemList if it seems to be the right way - i.e. the TypeScript implementation of the C# code is not fucked up
-      Done .If decided, implement the decision:
+      EstTODO .If decided, implement the decision:
         +: {CreatedBy: Bobi, CreatedAt: 20260610 T 022234, By: Bobi, Tags: [CSVTODO], Estimation: 60 , RemTime: 60}
         Details:
           So implement, but check first:
             - try that "plan" mode in one of the models (or just make it implement it and revert, if problematic? I think this.)
-            - see how it would look like            
+            - see how it would look like    
     Done .Decide:_ how do we store information about F2Links (and their referenced Items)?:
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153642, By: Bobi}
       Details:
@@ -359,48 +324,13 @@ OnGoing .Taskify the requirements:
       Why:
         - When serializing the QueryDescription into the csv
         - WriteBack - maybe, if we don't only edit that part of the text (=the value)
-    Done .Create an IsValidItemHeader method in the ItemHeader class:
+    EstTODO .Create an IsValidItemHeader method in the ItemHeader class:
       Id: IsValidItemHeader
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
       Details:
         It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\Requirements\F2YamlSpecification\BachusNaurForms.bnf<
-    Done .Implement and upgrade functionality about recognizing and parsing ItemYamls:
-      +: {CreatedBy: Bobi, CreatedAt: 20260611 T 144755, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      Details:
-        - a yamlNode:yaml.Node is an ItemYaml in the yaml if:
-          - Standard item:
-            - yamlNode instanceof Pair<yaml.Scalar, yaml.YAMLMap>
-            - AND Scalar can be parsed to a non-empty Item header
-            - AND each key of the keys in the yamlmap is a string scalar
-              # - key is an IdString (implicitly NOT starting with a dot) (representing a property Id)
-              # - OR key can be parsed to non-empty header (representing another Item's header)
-            - Example: 
-                - Done .MyItem:
-                    MyProp: 12
-                    MyP2: dfsg
-                  .MyItem2:
-                    MyProp: 23
-                    <Task>:
-                      Id: blah
-                - Here we have Items with Id "MyItem", "MyItem2" and "blah"                                                      
-          - Headerless Item:
-            - yamlNode instanceof yaml.YAMLMap
-            - AND items in it are Pair<Scalar, yaml.Node>, each scalar is a string
-            - Example:
-              - as a value of a property, like a "WherePartOfQuery" Item as the value of the Where property:
-                  ...:
-                  Where: 
-                    TaggedBy: 
-                    SkipUnder:                
-          - HeaderOnly Item:
-            - yamlNode instanceof Pair<yaml.Scalar, yaml.Scalar(?):                    
-            - AND the first scalar is a non-empty Item header
-            - AND the second scalar is an empty string (or whatever the parser returns for an empty value)
-            - Example: |
-                Done .MySmallTodo:
-        - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
-        - Update the existing parsing functionalities in F2YamlWorkspaceItem          
-  InProgress .Create proper basic Item structures library:    
+
+  Done .Create proper basic Item structures library:
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 30}
     Details:
       - Create library for handling Item data necessary to implement the new functionality instead of using the existing makeshift implementation:
@@ -410,23 +340,6 @@ OnGoing .Taskify the requirements:
           - IdStrings
         - Item, StandardItem implementations
       - Try implementing only those functionalities which are necessary for the new functionalities
-    Done .Update parsing of properties:
-      +: {CreatedBy: Bobi, CreatedAt: 20260613 T 150507, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      Details:
-        Update item yaml parsing (mainly ImportFromYamlScalarMapPair functions):
-          - be able to import from all the yaml structures which are considered ItemYamls (-->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Implement and upgrade functionality about recognizing and parsing ItemYamls"<):
-            - change the name
-            - change the parameter type
-            - change the parsing to be able to accomodate the further types
-          - have another parameter for listing the Ids of the fields which are already processed (and therefore should be skipped processing)
-          - do not process those pairs from the map which have its key's value appearing in the above parameter
-          - call the super only at the end of the descendant's ImportFromYamlScalarMapPair call (and pass the above list filled with the values of the yaml scalar keys which it already processed)
-          - during custom properties import:
-            - all ItemYamls should be parsed into an F2YamlWorkspaceItem
-            - Everything "not parseable" is wrapped into a "NotParsedYaml" class:
-              - Purpose is to be able to emit this when serializing back to yaml
-              - stores the original yaml node
-              - its toString returns the yaml node serialized (ideally close to the original format, but don't put too much effort in it)
   EstTODO .Create a stop task command feature that is executed when VS Code is shutting down:
     Id: StopTTAtShutdown
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: [Bobi, Gaurav], Estimation: 30}
@@ -480,10 +393,9 @@ OnGoing .Taskify the requirements:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..CustomProperties<
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<
           
     Done .Registers commands:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}      
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
     InProgress .Executes query:
       Id: Execute
@@ -506,8 +418,57 @@ OnGoing .Taskify the requirements:
           - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..ShowSummary<
 
         Workspace:
+          what we want:
+            - Item => WorkspaceItem:
+              - :
+              - a yaml.Node is an ItemYaml in the yaml if yamlNode is instanceof:
+                - Standard item:
+                  - Pair<yaml.Scalar, yaml.YAMLMap>
+                  - AND Scalar can be parsed to a non-empty Item header
+                  - AND each key of the keys in the yamlmap is a string scalar
+                    # - key is an IdString (implicitly NOT starting with a dot) (representing a property Id)
+                    # - OR key can be parsed to non-empty header (representing another Item's header)
+                  - Example: 
+                      - Done .MyItem:
+                          MyProp: 12
+                          MyP2: dfsg
+                        .MyItem2:
+                          MyProp: 23
+                          <Task>:
+                            Id: blah
+                      - Here we have Items with Id "MyItem", "MyItem2" and "blah"                                          
+                  
+                - Headerless Item:
+                  - yaml.YAMLMap
+                  - AND items in it are Pair<Scalar, yaml.Node>, each scalar is a string
+                  - Example:
+                    - as a value of a property, like a "WherePartOfQuery" Item as the value of the Where property:
+                        ...:
+                        Where: 
+                          TaggedBy: 
+                          SkipUnder:                
+                - HeaderOnly Item:
+                  - Pair<yaml.Scalar, yaml.Scalar(?):                    
+                  - AND the first scalar is a non-empty Item header
+                  - AND the second scalar is an empty string (or whatever the parser returns for an empty value)
+                  - Example: |
+                      Done .MySmallTodo:
+
+              - so WorkspaceItems should be able to parse ItemYamls:
+                - Have a function which 
+          
           ImplementationPlan:
               - crawler, going through all the nodes of a yaml document and checks whether a the Node is an Item, if so, parses them into a WorkspaceItem
+              - 
+                - keys of maps:
+                  - if 
+                - yaml maps
+                - of maps:
+                  - check if it's an Item:
+                    - 
+                    - (what if flat Item?)
+
+
       NEXT .Filter by the Where property:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}

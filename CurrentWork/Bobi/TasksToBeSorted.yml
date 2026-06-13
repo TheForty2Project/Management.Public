@@ -117,17 +117,19 @@
   Done .Headers support in Items:
 
 Tasks20260608:
-  TODO .Create Architectural todos from the architectural tasks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 190952, By: Bobi, Estimation: 30, RemTime: 30}
-    Details:
-      DO NOT WORK THEM OUT!
-  TODO .Estimate what's left from the CSV generation task:
+  Done .Create Architectural todos from the architectural tasks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 190952, By: Bobi, Estimation: 30, RemTime: 0}
+    Details:      
+  CurrentFocus .Estimate what's left from the CSV generation task:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191044, By: Bobi, Estimation: 10, RemTime: 10}
   NEXT .Finish the csv generation task:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191255, By: Bobi}
   TODO .Prepare for streaming today:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 192430, By: Bobi, Estimation: 20, RemTime: 20}        
-        
+    Workspace:
+      Summary: 
+      Time:
+      What will be the streaming about:    
 
 
 
@@ -149,7 +151,11 @@ Tasks20260608:
           - Gym, etc.
           - Anything "worth mentioning" - so there should be a field for this
           - Drugs:
-            - Both supplements and non-supplements
+            - Both supplements and non-supplements    
+    TODO .Collect initial ideas:
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 143822, By: [Bobi, Hana], Estimation: 15m, Remaining: 15}
+    NEXT .Finalize and review it:
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 143837, By: [Hana, Bobi]}
         
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -128,26 +128,13 @@ SR_20260614_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260612 T 150211 ]
 
   Next:
-    - Things to mention:
-        - Add stand up to your daily schedule:
-          Details:
-            - Standup and its preparation should be among the highest priorities in the daily work schedule.
-            - What to include in the standup:
-                - Food
-                - Mobility:
-                    - HOw many hours we sit and how much ball sitting should we add per day
-                - work:
-                    - Resolution of discord
-                    - Scripts
-                - -->CurrentWork\Hana\TasksToBeSorted\.."create processes for handling negative events"<
-                - Finances
-            - Robert to review my work in TF2p, Health and my workout schedule
-            - Planning to Schedule for Salad
-            - Reply to the Airbnb Lenka
-    - Convert the above to tasks
-    
+   
+
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260614 T 180000 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 12m, " transfering the tasks to its perspective place and taskifying my stand up report", 20260614 T 180000 ]
+    - -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<: [ 60m, "", 20260614 T 233031 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, " template of the health logs", 20260615 T 003042 ]
+
   Next:
     - null

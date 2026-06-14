@@ -1248,8 +1248,6 @@ HealthLog20260609Hana:
     - Log food to paid garmin app
     - Check your challenges
     - 
-  
-
 HealthLog20260609Bobi:
   .Wake up:
     - Time: 12:00
@@ -1316,7 +1314,55 @@ HealthLog20260609Bobi:
     - Log food to paid garmin app
     - Check your challenges
     - 
- 
-
+  
+#NewTemplate
+HealthLog20260615Hana:
+.MealLogs:
+  - Time: 0800 
+    Description: Eggs and rice
+    HungerBefore: 2-Low
+    HungerAfter: 1-VeryLow
+    Amount: 2-Low
+  - Time: 1000
+    Description: 
+    HungerBefore:
+    HungerAfter:
+    Amount:
+  - Time: 
+    Description:
+    HungerBefore:
+    HungerAfter:
+    Amount:
+.MoodLog:  
+  - Time: 
+    PeriodLengthInHrs:
+    Irritability:
+    Drowsiness:
+    Foggyness:
+    TummyGassesFeel:
+    Bloatedness:
+    Burping:
+    Farting:
+    Headache:
+    Hornyness:
+.PoopikaLog:
+  - Time:
+    Type:
+.ExerciseLog:
+  - Time: 
+    Category:
+    Garmin Link:
+.Dlog:
+  - Time:
+    NotableThings:
+.SupplementLog:
+  - Time: 20260615 T 001342
+    What:
+      - Magnesium bizglicinate 500mg
+  - Time: 20260615 T 08
+    What:
+.SleepLogs:
+  Time:
+  GarminLink:   
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

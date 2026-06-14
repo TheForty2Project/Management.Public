@@ -192,10 +192,11 @@ OnGoing .Health:
           Classes:
             class .LogEntry:
               Inherits: StandardItem
+              string UserName:       
               DateTime Time:
                 Details: the time of the event; 
               string NotableThings:
-                Details: anything notable for the event            
+                Details: anything notable for the event          
             class .SupplementLog:
               Inherits: LogEntry
               string[] What:
@@ -229,7 +230,7 @@ OnGoing .Health:
               Levels .Hornyness:
             class .ExerciseLog:
               Inherits: LogEntry
-              string .Kind:
+              string .Category:
                 Details:
                   Weights, Running, Walking, Hiking, Stretching, Sauna
               Duration .Length:
@@ -243,12 +244,43 @@ OnGoing .Health:
                 Details:
                   The effects of it - how much it was felt                
   
-  TODO .Family problem Solving:
+  OnGoing .Family problem Solving:
     +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
+    Details: 
+      Write down the steps that are created by Tota and you
   .Schedules:
-    EstTODO .Schedule Health Analysis (Live):
+    Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
       Details:
         Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
+      Results: -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<
+
+InProgress .Create incentivisation system baseline:
+    +: {CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Workspace:
+      First idea:
+        # - points 1p = 1 "effectively spent minute on important task":
+        #   - important task: something which we'd likely prioritize as such on a prioritization meeting
+        #   - effectively: concentrating on the Task, not e.g. browsing, talking, chatting or fiddling with some unimportant details of it
+        - incentives:            
+            # .DailyDishwashing:
+            #   Details:
+            #     At each checkpoint - e.g. end of the day - the decision is made about the dishwashing scheule:
+            #     - checkpoint meeting can be triggered by any of the participants at or after the scheduled time (currently at standup time)
+            #     - rule ideas:
+            #       - the one collecting less points is the one washing the dishes before going to bed
+            .EnforceImportantTask:
+              Details:
+                - On the threat of a number of dishwashing (one-one day-one week) one needs to perform a Task:                  
+                  - first n warnings should be issued
+                  - if the Task is still not completed after the warnings, the consequences can be triggered - e.g. next x day dishwashing.:
+                - If a Task is like this, the concrete rules (how many warnings, what is the punishment exactly) should be mentioned in its Comments property
+    TODO .Move the idea from the above workspace to its correct place:
+      +: {CreatedBy: Bobi, CreatedAt: 20260614 T 195929, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        - maybe processes? yep. But where - that's the task.
+
+    NEXT .Finalize and review it:
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 143837, By: [Hana, Bobi]}
     
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

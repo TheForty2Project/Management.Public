@@ -169,7 +169,7 @@ TODO .20260601:
 
 
 Fast Thoughts:
-  - Schedule for tomorrow:
+  - Schedule for tomorrow20260614:
     - Morning:
       - Breakfast: Run Breakfast
       - Go through Robis health log of 20260608
@@ -192,6 +192,22 @@ Fast Thoughts:
       - Walk
       - create time for reading  (off screen first)
       - Sleep hygiene  
+  - Schedule for tomorrow 20260615:
+    - Morning:
+      - Breakfast: 
+      - TODO mobility: 
+        - Walk - Run
+        - HIIT
+        - Walk - HIIT
+        - Walk
+      - TODO Plan for gym activity:
+        Details:
+          - Back and core
+    - Afternoon:
+      - TODO Lunch Chicken breast, Soup and rice
+      - TODO Gym
+    - Evening:  
+
 20260609:
   - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<
   - twitch schdule ( the trial of serious one - maybe record first)
@@ -206,5 +222,73 @@ Fast Thoughts:
     Details:
       - The first agreement was kept to no weed till there are sonm work done
       - Today is the 2nd agreement. It should be kept and strengthen the neuron network on the locigal thread of no smoking = higher probabilities in having work done 
- 
+ - Things to mention:
+        - Add stand up to your daily schedule:
+          Details:
+            - Standup and its preparation should be among the highest priorities in the daily work schedule.
+            - What to include in the standup:
+                - Food
+                - Mobility:
+                    - HOw many hours we sit and how much ball sitting should we add per day
+                - work:
+                    - Resolution of discord
+                    - Scripts
+                - -->CurrentWork\Hana\TasksToBeSorted\.."create processes for handling negative events"<
+                - Finances
+            - Robert to review my work in TF2p, Health and my workout schedule
+            - Planning to Schedule for Salad
+            - Reply to the Airbnb Lenka
+    - Convert the above to tasks
+    - TODO .Taskify the above:
+      TODO .Add standup preparation to the stand up report:
+        Details:
+          - Standup should happen every day including the healthlogs
+
+
+.MealLogs:
+  - Time: 0800 
+    Description: Eggs and rice
+    HungerBefore: 2-Low
+    HungerAfter: 1-VeryLow
+    Amount: 2-Low
+  - Time: 1000
+    Description: 
+    HungerBefore:
+    HungerAfter:
+    Amount:
+  - Time: 
+    Description:
+    HungerBefore:
+    HungerAfter:
+    Amount:
+.MoodLog:  
+  - Time: 
+    PeriodLengthInHrs:
+    Irritability:
+    Drowsiness:
+    Foggyness:
+    TummyGassesFeel:
+    Bloatedness:
+    Burping:
+    Farting:
+    Headache:
+    Hornyness:
+.PoopikaLog:
+  - Time:
+    Type:
+.ExerciseLog:
+  - Time: 
+    Category:
+    Garmin Link:
+.Dlog:
+  - Time:
+    NotableThings:
+.SupplementLog:
+  - Time: 20260615 T 001342
+    What:
+      - Magnesium bizglicinate 500mg
+  - Time: 20260615 T 08
+    What:
+    
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

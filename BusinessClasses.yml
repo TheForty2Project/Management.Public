@@ -139,7 +139,7 @@ namespace Barba.Types:
       string Area:
         Summary:
           the functionality group of the app - like "login"
-      BugSeverity Severity:
+      Levels Severity:
       string ActualResult:
       string ExpectedResult:
       string Steps:      
@@ -166,7 +166,7 @@ namespace Barba.Types:
       Closed:
       OnHold:
   
-  enum BugSeverity:
+  enum Levels:
     Members:
       0-Zero:
       1-VeryLow:

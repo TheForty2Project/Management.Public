@@ -261,11 +261,27 @@ SR_20260610_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Estimate what's left from the CSV generation task"<
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<
 
+SR_20260614_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 10m, "", 20260610 T 150001 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 10m, "", 20260611 T 140747 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Custom Properties OR F2YamlWorkspaceItem to store its data in a Map".."Update the implementation by storing the correct types"<: [ 20m, "", 20260612 T 214755 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Double-linked lists".."Decide:_ Should collection properties (the ones denoted by []) and their (Item) values reference each other?"<: [ 30m, "", 20260614 T 173048 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Double-linked lists".."If decided, implement the decision"<: [ 30m, "", 20260614 T 173053 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Decide:_ how do we store information about F2Links (and their referenced Items)?"<: [ 30m, "", 20260614 T 173118 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Create an IsValidItemHeader method in the ItemHeader class"<: [ 30m, "", 20260614 T 173126 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Implement and upgrade functionality about recognizing and parsing ItemYamls"<: [ 30m, "", 20260614 T 173131 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Create proper basic Item structures library".."Update parsing of properties"<: [ 42m, "", 20260614 T 173138 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 95m, "", 20260614 T 173816 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 1m, "", 20260614 T 185802 ]
+  Next:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<:
+    - The Ds.
+    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements"<
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260610 T 150001 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Estimate what's left from the CSV generation task"<: [ 1m, "", 20260611 T 140634 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 0m, "", 20260611 T 140747 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Custom Properties OR F2YamlWorkspaceItem to store its data in a Map".."Update the implementation by storing the correct types"<: [ 0m, "", 20260612 T 214755 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 0m, "", 20260614 T 190014 ]
   Next:
     - null

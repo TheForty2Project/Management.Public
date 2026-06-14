@@ -202,7 +202,7 @@ OnGoing .Taskify the requirements:
         +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
         Details:
           - In the example implementation  to avoid the circular initialization and dependency hell
-    InProgress .Double-linked lists:
+    Done .Double-linked lists:
       Id: DoubleLinkedLists
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022636, By: Bobi}
       Done .Decide:_ Should collection properties (the ones denoted by []) and their (Item) values reference each other?:
@@ -400,7 +400,7 @@ OnGoing .Taskify the requirements:
                 Done .MySmallTodo:
         - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
         - Update the existing parsing functionalities in F2YamlWorkspaceItem          
-  InProgress .Create proper basic Item structures library:    
+  Done .Create proper basic Item structures library:    
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 30}
     Details:
       - Create library for handling Item data necessary to implement the new functionality instead of using the existing makeshift implementation:
@@ -476,11 +476,15 @@ OnGoing .Taskify the requirements:
       CurrentFocus .Create Implementation plan for Basic Query Execution:
         +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 20}
         Workspace:
-          - Need the following architectural changes:
+          - Done the following architectural changes:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..CustomProperties<
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<
+            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<          
+          - crawler, going through all the nodes of a yaml document and checks whether the Node is an Item, if so, parses them into a WorkspaceItem
+          - checks whether
+          - 
+
           
     Done .Registers commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
@@ -507,7 +511,6 @@ OnGoing .Taskify the requirements:
 
         Workspace:
           ImplementationPlan:
-              - crawler, going through all the nodes of a yaml document and checks whether a the Node is an Item, if so, parses them into a WorkspaceItem
       NEXT .Filter by the Where property:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}

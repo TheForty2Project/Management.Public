@@ -451,7 +451,7 @@ Done .Notes:
                       - Cucumber
             Mappings:
               Allowed:
-                Details: Flow and block types
+                Details: Flow and block types with a scalar as a key
                 Examples:
                   Flow: {Apple: {Banana, Cucumber}}
                   Block:
@@ -499,6 +499,7 @@ Done .Notes:
                 - Tags, tag handles, verbatim tags
                 - Aliases, anchors, merge keys           
                 - The "?" notation for mapping keys
+                - non-scalars as mapping keys
     5-Done Must .Flow and block mappings:
       Details:
         Items can be represented as multi-line (block) and single line (flow) yaml mappings as well; they mean the same:
@@ -548,7 +549,7 @@ Done .Notes:
         - In cases where the context does not provide the type information, the parser would by default try to parse it as the "most probable" type
       - In cases where where the type information does not provide enough information:
       #     Rules for values:
-      #       PropertyType, CanBeParsedAs , Warning, Example
+      #       PropertyType, ParsedAs      , Warning, Example          
       #       string      , ItemProperty  , yes    , Root..MyItem.StringProp
       #       string      , FunctionCall  , yes    , Root..MyFunction()
       #       object      , ItemRef       , no     , Root..MyItem                 

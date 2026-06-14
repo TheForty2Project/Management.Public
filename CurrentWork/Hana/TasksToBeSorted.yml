@@ -2,5 +2,11 @@
 
 TODO .Review the requirements currently in "Draft" status:
   +: {CreatedBy: Bobi, CreatedAt: 20260521 T 011246, By: Hana}
-  
+TODO .create processes for handling negative events:
+  +: {CreatedBy: Hana, CreatedAt: 20260614 T 175704, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  Details:  
+    - Fights:
+      - create processes for stop fighting or after fights keeping the goal in mind .
+    - Bad stomach ache
+    - Weed
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

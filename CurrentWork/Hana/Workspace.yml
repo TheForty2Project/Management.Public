@@ -174,28 +174,37 @@ Fast Thoughts:
       - Breakfast: Run Breakfast
       - Go through Robis health log of 20260608
       - Go through -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<
-      - Breakfast: Run Breakfast
-      - mobility: 
+      - Done Breakfast: Run Breakfast
+      - Done mobility: 
         - Walk - Run
         - HIIT
         - Walk - HIIT
         - Walk
-      - Plan for gym activity 
+      - Done Plan for gym activity 
     - Afternoon:
-      - Lunch (planned)
-      - Gym
-      - Listen to Totas message
-      - Create time to solve problems
+      - Done Lunch (planned)
+      - Cancelled Gym
+      - Done Listen to Totas message
+      - Done Create time to solve problems
     - Evening:  
       - update health logs
       - Dinner
       - Walk
       - create time for reading  (off screen first)
       - Sleep hygiene  
-20260608:
-  - Health Logs:
-    - 20260607Bobi:
-      
-    - 20260608Bobi:
-    -20260608Hana:
+20260609:
+  - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<
+  - twitch schdule ( the trial of serious one - maybe record first)
+  -
+20260614: 
+  2-HighLevel .DStrategy:
+    Type: Article
+    Content:
+      (whatever is in the paper + we disussed comes here; then put this into 5-Done)
+  
+  2nd no weed till nigh agreement from hana: 
+    Details:
+      - The first agreement was kept to no weed till there are sonm work done
+      - Today is the 2nd agreement. It should be kept and strengthen the neuron network on the locigal thread of no smoking = higher probabilities in having work done 
+ 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

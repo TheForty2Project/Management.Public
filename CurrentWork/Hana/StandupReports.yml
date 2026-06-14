@@ -114,12 +114,40 @@ SR_20260608_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 30m, " ", 20260601 T 134802 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 70m, " scheduling 20260609 ", 20260601 T 134802 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 65m, " ", 20260608 T 134802 ]
-    
+
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<
     - -->Tasks\Miscellaneous\.."Health".."Family problem Solving"<
     - update my standup report
     - Record the bug of Standup:
         - 
+SR_20260614_Hana:
+  Was:
+    - -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to create a new existing SR under the same date "SR_20260608_Hana""<: [ 30m, "", 20260609 T 220933 ]
+    - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260610 T 150211 ]
+    - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260612 T 150211 ]
+
+  Next:
+    - Things to mention:
+        - Add stand up to your daily schedule:
+          Details:
+            - Standup and its preparation should be among the highest priorities in the daily work schedule.
+            - What to include in the standup:
+                - Food
+                - Mobility:
+                    - HOw many hours we sit and how much ball sitting should we add per day
+                - work:
+                    - Resolution of discord
+                    - Scripts
+                - -->CurrentWork\Hana\TasksToBeSorted\.."create processes for handling negative events"<
+                - Finances
+            - Robert to review my work in TF2p, Health and my workout schedule
+            - Planning to Schedule for Salad
+            - Reply to the Airbnb Lenka
+    - Convert the above to tasks
+    
 SR_NEXT_Hana:
-  - -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to create a new existing SR under the same date "SR_20260608_Hana""<: [ 30m, "", 20260609 T 220933 ]
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260614 T 180000 ]
+  Next:
+    - null

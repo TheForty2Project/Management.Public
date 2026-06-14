@@ -66,12 +66,27 @@ OnGoing .Health:
           Chicken soup
           Pork soup          
       Supplements:
-        -->..."Hana to make supplements plan"<
+        Details: -->..."Hana to make supplements plan"<
+        WorkSpace:
+          Supplement plan:
+            After waking up:
+              - L-Glutamin 5g
+              - L- Citrolline 2g
+              - 5HTP pill
+            Breakfast:
+              - Omega 3 1 pill
+            Lunch:
+              - Omega 3 1 pill
+              - Creatine 5 g
+            Dinner:
+              - L-Glutamin 5 g
+              - Collagen 5g
+              - NAC 1 pill
       Gym:
         Target is every day
       Cardio:
         One day run, then hiit, then rest
-    TODO .Hana to make supplements plan:
+    Done .Hana to make supplements plan:
       +: {CreatedBy: Bobi, CreatedAt: 20260608 T 221507, By: Hana}
       Details:
         About each supplement:
@@ -82,6 +97,10 @@ OnGoing .Health:
           Benefits:
         Group them if possible - such as "morning", "before meal", etc.:          
         Per person:
+    InProgress .Hana to schedule it own in google Calendar:
+      +: {CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [CSVTODO], Estimation: 30m, RemTime: 30m}
+      Done .Activity has been scheduled in (hanakovacs42@gmail.com) calendar:
+      Done .Schedule supplements:
 
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}

@@ -152,5 +152,12 @@ namespace System.Types:
       Serves as a grouping of class descriptions - similarly as in e.g. C#.
       Purpose is not much different than a simple folder/directory.
       At the moment there are no extra properties (on top of the ones defined in Item)
-  
+
+  class Folder:
+    Inherits: StandardItem
+
+    ItemType[] .DefaultTypes:
+      Summary: By default the system tries to parse the Items in the $@Items@$ collection as these types, in this order
+    Item[] .Items:
+      Flags: [IsDefault]  
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

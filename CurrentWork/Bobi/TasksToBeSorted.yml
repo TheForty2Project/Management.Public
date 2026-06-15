@@ -116,7 +116,7 @@
 
   Done .Headers support in Items:
 
-Tasks20260608:
+.Tasks20260608:
   Done .Create Architectural todos from the architectural tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 190952, By: Bobi, Estimation: 30, RemTime: 0}
     Details:      
@@ -135,6 +135,6 @@ Tasks20260608:
 
 -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<:            
 
--->Tasks\Miscellaneous\.."Create incentivisation system baseline"<:        
+-->Tasks\Miscellaneous\.."Create incentivisation system baseline"<:
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -234,31 +234,31 @@ SR_20260605_Bobi:
 SR_20260609_Bobi:
   Was:
     - -->Documents\Requirements\F2ToolsExtension\.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 91m, "", 20260605 T 190028 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create Architectural todos from the architectural tasks"<: [ 60m, "", 20260609 T 020042 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create Architectural todos from the architectural tasks"<: [ 60m, "", 20260609 T 020042 ]
     - -->Tasks\Website\..Improvements.."Create content yamls".."The Abyss:_ Finish F2Yaml specification"<: [ 62m, "", 20260608 T 020042 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Create proper basic Item structures library"<: [ 91m, "", 20260607 T 010042 ]
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 42m, "", 20260608 T 190042 ]
     - Administration: 20m
   Next:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create Architectural todos from the architectural tasks"<:
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Prepare for streaming today"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Estimate what's left from the CSV generation task"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create Architectural todos from the architectural tasks"<:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create health-log tracking requirements"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Estimate what's left from the CSV generation task"<
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<
 
 SR_20260610_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 10m, "", 20260609 T 144112 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create Architectural todos from the architectural tasks"<: [ 20m, "", 20260609 T 01 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create Architectural todos from the architectural tasks"<: [ 20m, "", 20260609 T 01 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute.Workspace."Item features".."Decide:_ how do we store information about F2Links (and their referenced Items)?"<: [ 10m, "", 20260609 T 010042 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute.Workspace."Item features".."Double-linked lists".."Decide:_ Should collection properties (the ones denoted by []) and their (Item) values reference each other?"<: [ 20m, "", 20260609 T 011042 ]
   Next:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create Architectural todos from the architectural tasks"<:
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Prepare for streaming today"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Estimate what's left from the CSV generation task"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create Architectural todos from the architectural tasks"<:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create health-log tracking requirements"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Estimate what's left from the CSV generation task"<
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<
 
 SR_20260614_Bobi:
@@ -273,15 +273,32 @@ SR_20260614_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Implement and upgrade functionality about recognizing and parsing ItemYamls"<: [ 30m, "", 20260614 T 173131 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Create proper basic Item structures library".."Update parsing of properties"<: [ 42m, "", 20260614 T 173138 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 95m, "", 20260614 T 173816 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 1m, "", 20260614 T 185802 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 1m, "", 20260614 T 185802 ]
   Next:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<:
     - The Ds.
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create health-log tracking requirements"<
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<
+
+SR_20260615_Bobi:
+  Was:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 90m, "", 20260614 T 190014 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 90m, "Including various refactorings", 20260615 T 014159 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260615 T 185145 ]
+    - -->Tasks\Miscellaneous\.."Create incentivisation system baseline"<: [ 45m, "", 20260614 T 205347 ]
+  Next:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<:
+    - Reply to the Airbnb review
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 10m ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 20m ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
+
 SR_NEXT_Bobi:
   Was:
-    - -->CurrentWork\Bobi\TasksToBeSorted\.Tasks20260608.."Create health-log tracking requirements".."Collect initial ideas"<: [ 0m, "", 20260614 T 190014 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 15m, "", 20260615 T 192742 ]
   Next:
     - null

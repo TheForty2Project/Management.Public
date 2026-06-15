@@ -653,7 +653,7 @@ InDev .QueryDescription based CSV report generation:
           Mandatory: true
           Details: 
             - the Id-s of the properties to include in the report or keywords (instructing the generator to insert special values), and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
-            - special keywords: SelectPropertySpecialValues
+            - special keywords: -->...SelectPropertySpecialValues<
             - same as the "SELECT" part of an SQL query
             - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn, EMPTY as Notes]
             - Special keywords

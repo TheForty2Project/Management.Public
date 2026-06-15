@@ -270,92 +270,108 @@ OnGoing .Taskify the requirements:
             Analysis: nah... F2Link first - easy - and then we decide what to do when we really need these property updates
       Result:
         F2Link.                    
-    EstTODO .Store rendering information in F2YamlWorkspaceItem-s:
+    TODO .F2Link generation through F2YamlWorkspaceItem:
+      +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184849, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      MaintenanceTasks:
+        TODO .Create Implementation plan:
+          +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+          Details:
+            use the plan I started at the impl. plan of Query Execution
+    EstTODO .Store yaml representation information in F2YamlWorkspaceItem-s:
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}              
       Details:
-        - During parsing from yaml (currently the "ImportFromYamlScalarMapPair" function, but later possibly renamed to just ImportFromYamlNode), store important information about how the Item was stored as a yaml to be able to reproduce the yaml in a similar structure as the original by creating a property " F2YamlWorkspaceItem" with type "YamlRenderingOptions" and filling it in how it's described below.
-        - type descriptions:
-            class .YamlRenderingOptions:
-              Range DocumentRange: 
-              ItemYamlHeaderType .HeaderType:
-              IdString[] .HeaderPrefixPropertyIds:
-                Details: 
-                  - Ids of the properties which are present in the prefix part of header and in what order
-                  - Example:
-                      \["Status", "Importance"] would render (if "Status" is "Done", "Importance" is "4-High"):
-                        Done 4-High .MyTask:
-              IdString[] .AdditionalPropertiesPropertyIds:
-                Details: 
-                  - Ids of the properties which are present in the Additional Properties (the "+:") part and in what order
-                  - Example:
-                      \["CreatedBy", "CreatedAt"] would render:
-                        +: {CreatedBy: ..., CreatedAt: ...}
-              IdString[] .PropertyIds:
-                Details:                         
-                  - Ids of the properties which are present as "normal" properties and in what order
-                  - Containing a "+" as the Id marking the place to which the Additional Properties should be rendered
-                  - If "RenderDefaultListPropertyId" is false, render the Items in the property marked as the default item list (in the PropertyDescription of the ClasDescription; see ) at this place
-                  - Example:
-                      \["+", "Id", "Summary", "SubTasks"] would render:
-                        .<Task>:
-                          +: {...}
-                          Id: ...
-                          Summary: ...
-                          SubTasks: ...
-              bool .RenderDefaultListPropertyId:
-                Details: 
-                  - If true, the property Id of the default item list property should not be rendered.
-                  - Example:
-                      True:
-                        .MyTask:
-                          SubTasks:
-                            .MySubTask1:
-                      False:
-                        .MyTask:
-                          .MySubTask1:
-            enum .ItemYamlHeaderType:
-              .None:
-                Details:
-                  - No header; mostly for Items which are the value of a Property - like WherePartOfQuery in the Where part of the QueryDescription class      
-                  - Example:
-                      The value of the "Where" property is a WherePartOfQuery item yaml without header:
-                      CurrentTasksMinimal:
-                        Type: QueryDescription
-                        Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-                        From: [-->Tasks\<]
-                        Where: 
-                          TaggedBy: [CSV]
-                          ItemType: [Task, Bug]
-                          SkipUnder: [-->Tasks\Archive\<]
-              .TypeId:
-                Details:
-                  - Type id as header
-                  - Example:
+        - During parsing from yaml (currently the "ImportFromYamlScalarMapPair" function, but later possibly renamed to just ImportFromYamlNode), store important information about how the Item was stored as a yaml to be able to reproduce the yaml in a similar structure as the original by creating a property "YamlRepresentation" in "F2YamlWorkspaceItem" with type "YamlRepresentationDescriptor" and filling it in how it's described below.
+        - class .YamlRepresentationDescriptor:     
+            Range .DocumentRange: 
+            ItemYamlHeaderType .HeaderType:
+            ItemRepresentationType .RepresentationType:
+            IdString[] .HeaderPrefixPropertyIds:
+              Details: 
+                - Ids of the properties which are present in the prefix part of header and in what order
+                - Example:
+                    \["Status", "Importance"] would render (if "Status" is "Done", "Importance" is "4-High"):
+                      Done 4-High .MyTask:
+            IdString[] .AdditionalPropertiesPropertyIds:
+              Details: 
+                - Ids of the properties which are present in the Additional Properties (the "+:") part and in what order
+                - Example:
+                    \["CreatedBy", "CreatedAt"] would render:
+                      +: {CreatedBy: ..., CreatedAt: ...}
+            IdString[] .PropertyIds:
+              Details:                         
+                - Ids of the properties which are present as "normal" properties and in what order
+                - Containing a "+" as the Id marking the place to which the Additional Properties should be rendered
+                - If "RenderDefaultListPropertyId" is false, render the Items in the property marked as the default item list (in the PropertyDescription of the ClasDescription; see ) at this place
+                - Example:
+                    \["+", "Id", "Summary", "SubTasks"] would render:
                       .<Task>:
-                        Id: MyTask
-              .Id:
-                Details:
-                  - Id as header
-                  - Example:
+                        +: {...}
+                        Id: ...
+                        Summary: ...
+                        SubTasks: ...
+            bool .RenderDefaultListPropertyId:
+              Details: 
+                - If true, the property Id of the default item list property should not be rendered.
+                - Example:
+                    True:
                       .MyTask:
-                        Summary: My Task summary
-                        Type: Task
-              .Summary:
-                Details:
-                  - Summary as header
-                  - Example:
-                      .My Task summary:
-                        Id: MyTask
-                        Type: Task
-            class .Range:
+                        SubTasks:
+                          .MySubTask1:
+                    False:
+                      .MyTask:
+                        .MySubTask1:                          
+          enum .ItemRepresentationType:
+            .Folder:
+              The Item is represented as a file system folder (such as -->Tasks\Software\<)
+            .File:
+              The Item is represented as a file system file (a yaml) containing a yaml mapping as its root element (such as -->Tasks\Software\F2ToolsExtension\<)
+            .Node:
+              The Item is represented as a yaml Node
+          enum .ItemYamlHeaderType:
+            .None:
               Details:
-                Same as the yaml.Range in the yaml typescript library
-              integer .Start:
-                Details: The start character position
-              integer .ValueEnd:
-                Details: The value end character + 1 (range not including the end position)
-              integer .NodeEnd:
-                Details: The node end character position + 1 (range not including the end position)
+                - No header; mostly for Items which are:
+                  - the value of a Property - like WherePartOfQuery in the Where part of the QueryDescription class
+                  - are represented as files or folders
+                - Example:
+                    The value of the "Where" property is a WherePartOfQuery item yaml without header:
+                    CurrentTasksMinimal:
+                      Type: QueryDescription
+                      Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+                      From: [-->Tasks\<]
+                      Where: 
+                        TaggedBy: [CSV]
+                        ItemType: [Task, Bug]
+                        SkipUnder: [-->Tasks\Archive\<]
+            .TypeId:
+              Details:
+                - Type id as header
+                - Example:
+                    .<Task>:
+                      Id: MyTask
+            .Id:
+              Details:
+                - Id as header
+                - Example:
+                    .MyTask:
+                      Summary: My Task summary
+                      Type: Task
+            .Summary:
+              Details:
+                - Summary as header
+                - Example:
+                    .My Task summary:
+                      Id: MyTask
+                      Type: Task
+          class .Range:
+            Details:
+              Same as the yaml.Range in the yaml typescript library
+            integer .Start:
+              Details: The start character position
+            integer .ValueEnd:
+              Details: The value end character + 1 (range not including the end position)
+            integer .NodeEnd:
+              Details: The node end character position + 1 (range not including the end position)
       Why:
         - When serializing the QueryDescription into the csv
         - WriteBack - maybe, if we don't only edit that part of the text (=the value)
@@ -481,7 +497,88 @@ OnGoing .Taskify the requirements:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..CustomProperties<
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<          
-          - crawler, going through all the nodes of a yaml document and checks whether the Node is an Item, if so, parses them into a WorkspaceItem
+          - Create a "Folder" (TypeScript) class based on the Folder (F2Yaml) class in Types.yml (similary how QueryDescription typescript class is based on the QueryDescription f2yaml class)
+          - Create a "GetF2Link(linkType:_ LinkTypes):_ F2Link" method in F2YamlWorkspaceItem, returning an Id based F2Link:
+            - Where: 
+                enum LinkTypes:
+                  .Id:
+                  .Summary:
+            - Go through the parent Items using their BelongsToItem and BelongsToProperty fields:
+              - If the currentItem's RepresentationType:
+                - ItemRepresentationType.Node:
+                  - var linkPartValue: F2LinkPart
+                  - var idPropValue = currentItem.GetPropertyValue("Id");
+                  - var summaryPropValue = currentItem.GetPropertyValue("Summary")?.EscapeDoubleQuotesToDoubleDoubleQuotes().WrapInDoubleQuotes()
+                  - var parentPropertyId = currentItem.BelongsToProperty;
+                  - var internalId = currentItem.InternalId;
+                  - if (currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.None):
+                    - if (parentPropertyId === undefined) throw InvalidOperationError(); //this shouldn't happen
+                    - else if (parentPropertyId is not a list property)
+                      - linkPartValue = new PropertyIdPart(parentPropertyValue!);
+                    - else linkPart
+                  - else (if currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.TypeId):
+                    - if (p)
+                    - Example:
+                        MyItem:
+                          MyItemListProp:
+                            - .<Geci>:
+                                Id: GecciInstance
+                            - .<Geci>:
+                                Id: GecciInstance
+                            - .<GeciDescendant>:
+                                SomeProp: value                                
+                          MyAnotherItemListProp:
+                            .<Fasz>:
+                          .<Buzi>:
+
+
+                  - if (linkType === LinkTypes.Id):
+                      linkPartValue = currentItem.GetPropertyValue("Id") !== undefined ? currentItem.Id
+                  ? value of the Id property : value of the Summary property
+
+              - If the Item's "ItemRepresentationType" is ItemRepresentationType.Folder or File:
+          - var itemsInFrom: F2YamlWorkspaceItem[] = [];
+          - Parse the Yaml Item into an F2YamlWorkspaceItem under each F2Link in the From field:
+            - check whether the location exist - if not, throw an exception
+            - if so:
+              - if the target (or current part of the f2link) is a folder, create a "Folder" F2YamlWorkspaceItem (set its Id to the name of the folder) and parse the contents as the elements of its Items property
+              - if the target/current part is a file:
+                - the file must contain a yaml.YAMLMap as its root node AND this map must be an ItemYaml - if not, OutputChannelLogger.Warning and the created item is undefined
+                - otherwise, create a general F2ZamlWorkspaceItem from this map:
+                  - treat the filename as if it was the Id part of the header (so throw exception if there's an Id property with a different value than the filename)
+              - if the target/current part is the property of an ItemYaml:
+                - if the value is not an ItemYaml - undefined; 
+                - if it is, parse it 
+              - if the target/current part is the header of an ItemYaml:
+                - parse it - or if can't, undefined + warning
+            - if (created item is not undefined) itemsInFrom.push(created item);          
+          - var csvCellValuesPerRow: string[][]
+          - var csvColumnNames: string[]
+          - generate csvColumnNames from the Select part of the query (either the property name or if there is an "as" part, the given name)
+          - go through the F2YamlWorkspaceItems in the itemsInFrom (and their children):
+            - if (item matches the conditions in the Where part of the query):
+              - var csvCellValues: string[] = []
+              - for (var columnName of csvColumnNames):
+                - var value = :
+                  - if columnName === :
+                    - EMPTY: ""
+                    - SYNCRESULT: one of the values from SyncResultValues representing whether the row was created, updated, etc. (-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..SyncResultValues<); at the moment this should be always "N" (until we implement updating)
+                    - IDLINK: the Id based F2Link pointing to the Item
+                    - SUMMARYLINK: the Summary based F2Link pointing to the Item
+
+            
+              - 
+              - generate the string[] from its values
+            
+
+
+
+
+
+
+
+
+
           - checks whether
           - 
 
@@ -604,7 +701,7 @@ OnGoing .Taskify the requirements:
           Normal: 30m
           Explanation: 
             - supposedly just modifying a few lines
-            - but expecting trouble.
+            - but expecting trouble.  
   InProgress .Proper Text output support:
     Id: TextOutput
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023648, By: Bobi, Estimation: 60, RemTime: 60}

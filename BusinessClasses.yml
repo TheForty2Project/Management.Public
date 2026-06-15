@@ -4,14 +4,6 @@ namespace Barba.Types:
   Comments:
     - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. The term 'Barba' is a homage to the children cartoon 'BarbaPapa'"]
 
-  class Folder:
-    Inherits: StandardItem
-    Properties:
-      ItemType[] DefaultTypes:
-        Summary: Only these types are allowed in the $@Items@$ collection
-      Item[] Items:
-        Flags: [IsDefault]
-
   class Task:
     Inherits: StandardItem
     Properties:

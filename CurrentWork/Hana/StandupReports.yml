@@ -121,7 +121,7 @@ SR_20260608_Hana:
     - update my standup report
     - Record the bug of Standup:
         - 
-SR_20260614_Hana:
+SR_20260615_Hana:
   Was:
     - -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to create a new existing SR under the same date "SR_20260608_Hana""<: [ 30m, "", 20260609 T 220933 ]
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260610 T 150211 ]
@@ -130,14 +130,20 @@ SR_20260614_Hana:
   Next:
 
 
-SR_NEXT_Hana:
+SR_20260616_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 35m, " transfering the tasks to its perspective place and taskifying my stand up report", 20260614 T 180000 ]
     - -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<: [ 90m, "", 20260614 T 233031 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, " template of the health logs", 20260615 T 003042 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 15m, "", 20260615 T 194243 ]
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 87m, "", 20260616 T 143858 ] 
 
   Next:
     - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - Fix 720 p for discord
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260616 T 160811 ]
+  Next:
+    - null

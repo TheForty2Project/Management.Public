@@ -169,6 +169,16 @@ namespace Barba.Types:
       6-Extreme:
       7-OMG:
 
+  enum BristolPoopika:
+    .Type1
+    .Type2
+    .Type3
+    .Type4
+    .Type5
+    .Type6
+    .Type7
+
+    
   class TestCase:
     Inherits: StandardItem
     Properties:

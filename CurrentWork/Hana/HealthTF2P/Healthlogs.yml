@@ -1316,53 +1316,133 @@ HealthLog20260609Bobi:
     - 
   
 #NewTemplate
-HealthLog20260615Hana:
-.MealLogs:
-  - Time: 0800 
-    Description: Eggs and rice
-    HungerBefore: 2-Low
-    HungerAfter: 1-VeryLow
-    Amount: 2-Low
-  - Time: 1000
-    Description: 
-    HungerBefore:
-    HungerAfter:
-    Amount:
-  - Time: 
-    Description:
-    HungerBefore:
-    HungerAfter:
-    Amount:
-.MoodLog:  
-  - Time: 
-    PeriodLengthInHrs:
-    Irritability:
-    Drowsiness:
-    Foggyness:
-    TummyGassesFeel:
-    Bloatedness:
-    Burping:
-    Farting:
-    Headache:
-    Hornyness:
-.PoopikaLog:
-  - Time:
-    Type:
-.ExerciseLog:
-  - Time: 
-    Category:
-    Garmin Link:
-.Dlog:
-  - Time:
-    NotableThings:
-.SupplementLog:
-  - Time: 20260615 T 001342
-    What:
-      - Magnesium bizglicinate 500mg
-  - Time: 20260615 T 08
-    What:
-.SleepLogs:
-  Time:
-  GarminLink:   
+HealthLog20260616Hana:
+  .MealLogs:
+    - Time: 105042
+      Description: Eggs and rice
+      HungerBefore: 3-med
+      HungerAfter: 1-VeryLow
+      Amount: 2-Low
+    - Time: 13:00:42
+      Description: Pancakes, pudding vanilla and choholates
+      HungerBefore: 3-Average
+      HungerAfter: 4-High
+      Amount: 3/4 of pancake, 200ml of pudding
+      NotableThings: vomit after
+    - Time: 170042 
+      Description: Mushroom Bao, Apple, Chicken, Lettuce
+      HungerBefore: 4-High
+      HungerAfter: 3-Average
+      Amount: one Bao
+    - Time: 180706
+      Description:  Paratta
+      HungerBefore:  3-Average
+      HungerAfter: 3-Average
+      Amount: 3/4
+    - Time: 180706
+      Description:  Fresh Pancake
+      HungerBefore:  3-Average
+      HungerAfter: 3-Average
+      Amount: 
+    - Time: 191542 
+      Description: Pancake
+      HungerBefore: 3-Average
+      HungerAfter: 1-VeryLow
+      Amount: 2 Pancakes
+  .MoodLog:  
+    - Time: 103042
+      PeriodLengthInHrs: 10:00 - 13:00
+      Irritability:  5-VeryHigh
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 3-Average
+      Headache: 0-Zero
+      Hornyness: 2-Low
+    - Time: 181536
+      PeriodLengthInHrs: 
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 13:00:42
+      Type: Type4
+  .ExerciseLog:
+    - Time: 
+      Category: 
+      GarminLink:  
+  .Dlog:
+    - Time: 130042
+      NotableThings: Weed 2x 
+  .SupplementLog:
+    - Time: 115042 
+      What: L glutamin, L-Citrolline
+  .SleepLogs:
+  - Time: 181943
+    GarminLink: https://connect.garmin.com/app/sleep/2026-06-16/0
+HealthLog20260616Bobi:
+  .MealLogs:
+    - Time: 111542
+      Description: Pancake
+      HungerBefore: 3-Average
+      HungerAfter: 1-VeryLow
+      Amount: 3-Average
+    - Time: 16:00:42
+      Description: Pancakes
+      HungerBefore: 3-Average
+      HungerAfter: 2-Low
+      Amount: 1.5 pancake
+    - Time: 191542 
+      Description: Pancake
+      HungerBefore: 3-Average
+      HungerAfter: 1-VeryLow
+      Amount: 3 Pancakes
+  .MoodLog:  
+    - Time: 14:00:42
+      PeriodLengthInHrs: 14:00-15:00
+      Irritability: 2-Low 
+      Drowsiness:: 4-High
+      Foggyness: 3-Average
+      TummyGassesFeel: 4-High
+      Bloatedness: 4-High
+      Farting: 4-High
+      Headache: 0-Zero
+      Hornyness: 0-Zero
+    - Time: 181536
+      PeriodLengthInHrs: 
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 120042
+      Type: Type4
+      NotableThings: small sticky in diameter after the healthy poop 
+
+  .ExerciseLog:
+    - Time: 
+      Category: 
+      GarminLink:  
+  .Dlog:
+    - Time: 130042
+      NotableThings: Weed 2x 
+  .SupplementLog:
+    - Time: 115042 
+      What: L glutamin, L-Citrolline
+  .SleepLogs:
+    - Time: 181943
+      GarminLink: https://connect.garmin.com/app/sleep/2026-06-16/0
+
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

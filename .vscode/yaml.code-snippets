@@ -146,10 +146,10 @@
 		"prefix": "LogMeal",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"Description: $1",
-			"HungerBefore:  ${2:2-Low}:",
-			"HungerAfter: ${3:2-Low}:",
-			"Amount: ${4:2-Low}:"
+			"  Description: $1",
+			"  HungerBefore:  ${2:2-Low}",
+			"  HungerAfter: ${3:2-Low}",
+			"  Amount: ${4:2-Low}"
 		],
 		"description": "MealLogEntry"
 	},
@@ -157,15 +157,15 @@
 		"prefix": "LogMood",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"PeriodLengthInHrs: $1",
-			"Irritability:  ${2:2-Low}:",
-			"Drowsiness:: ${3:2-Low}:",
-			"Foggyness: ${4:2-Low}:",
-			"TummyGassesFeel: ${5:2-Low}:",
-			"Bloatedness: ${6:2-Low}:",
-			"Farting: ${7:2-Low}:",
-			"Headache: ${8:2-Low}:",
-			"Hornyness: ${9:2-Low}:"
+			"  PeriodLengthInHrs: $1",
+			"  Irritability:  ${2:2-Low}",
+			"  Drowsiness:: ${3:2-Low}",
+			"  Foggyness: ${4:2-Low}",
+			"  TummyGassesFeel: ${5:2-Low}",
+			"  Bloatedness: ${6:2-Low}",
+			"  Farting: ${7:2-Low}",
+			"  Headache: ${8:2-Low}",
+			"  Hornyness: ${9:2-Low}"
 		],
 		"description": "MoodLogEntry"
 	},
@@ -174,7 +174,7 @@
 		"prefix": "LogPoop",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"Type: $1",
+			"  Type: $1",
 		
 		],
 		"description": "PoopLogEntry"
@@ -184,8 +184,8 @@
 		"prefix": "LogExercise",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"Category: $1",
-			"GarminLink:  $2:",
+			"  Category: $1",
+			"  GarminLink:  $2",
 			
 		],
 		"description": "ExerciseLogEntry"
@@ -196,7 +196,7 @@
 		"prefix": "LogD",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"NotableThings: $1",
+			"  NotableThings: $1",
 		],
 		"description": "DLogEntry"
 	},
@@ -205,16 +205,16 @@
 		"prefix": "LogSupplement                   ",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"What: $1",
+			"  What: $1",
 		],
 		"description": "SupplementLogEntry"
 	},
 
 	"SleepLogEntry": {
-		"prefix": "SleepLog",
+		"prefix": "LogSleep",
 		"body": [
 			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"GarminLink: $1",
+			"  GarminLink: $1",
 		],
 		"description": "SleepLogEntry"	
 	}

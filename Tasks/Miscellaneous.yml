@@ -208,6 +208,8 @@ OnGoing .Health:
               Levels .Amount:
               GarminAnalysis .GarminPhotoAnalysis:
                 Details: type to be defined later
+              MoodLog .MoodBefore:
+              MoodLog .MoodAfter:                
             class .PoopikaLog:
               Inherits: LogEntry
               PoopikaType .PType:

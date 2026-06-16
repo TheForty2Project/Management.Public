@@ -136,7 +136,7 @@ SR_20260616_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<: [ 90m, "", 20260614 T 233031 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, " template of the health logs", 20260615 T 003042 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 15m, "", 20260615 T 194243 ]
-    - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 87m, "", 20260616 T 143858 ] 
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 87m, "", 20260616 T 143858 ]
 
   Next:
     - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<
@@ -145,5 +145,8 @@ SR_20260616_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260616 T 160811 ]
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 19m, "", 20260616 T 182639 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 77m, "", 20260616 T 182721 ]
+
   Next:
     - null

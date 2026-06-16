@@ -54,11 +54,12 @@
       - Documentation:
         - Overview about features
         - Content which explains some details (videos, documentation, etc.)
-    Draft .F2ToolsMVP:
+    Drafting .F2ToolsMVP:
       +: {CreatedBy: Bobi, CreatedAt: 20260603 T 184017}
       Details: 
-        Requirements about the F2ToolsExtension development
+        Requirements about the F2ToolsExtension development      
       Parts:
+        #Features
         - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
         - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks<
         - -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
@@ -68,6 +69,7 @@
         - -->Documents\Requirements\F2ToolsExtension\..TTIdLinks<
         - -->Documents\Requirements\F2ToolsExtension\..TextOutput<
         - -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<
+        #Bugs
     Drafting .F2ToolsDocsMVP:
       +: {CreatedBy: Bobi, CreatedAt: 20260603 T 184059}
       Details:
@@ -76,7 +78,7 @@
         - -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
         - -->Documents\Requirements\F2ToolsExtension\..Docs.."Initial license"<
         - -->Documents\Requirements\F2ToolsExtension\..DocUpdates..F2BarbaMgmtMVP<
-
+        - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<
   New .Public presence phase1:
     Id: PublicPhs1
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 162727}

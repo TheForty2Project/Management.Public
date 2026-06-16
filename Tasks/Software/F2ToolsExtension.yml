@@ -273,7 +273,7 @@ OnGoing .Taskify the requirements:
     TODO .F2Link generation through F2YamlWorkspaceItem:
       +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184849, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
       MaintenanceTasks:
-        TODO .Create Implementation plan:
+        InProgress .Create Implementation plan:
           +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
           Details:
             use the plan I started at the impl. plan of Query Execution

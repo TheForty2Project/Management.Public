@@ -885,6 +885,66 @@ Done .Notes:
           - An ItemReference preceded by the file path
           - 
         Tasks:            
+          Done .Problem:_ Link to Items with various headers and properties:
+            +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175753, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+            Details:
+              Consider this Item:
+                .MyItem:
+                  MyItemList:
+                    - .<Task>:
+                        Id: MyTask
+                        Summary: My Task
+                        LinkToThis1: 
+                    - .<NonStandardItem>:
+                        LinkToThis2:
+                    - Id: MyTask
+                      Type: Task
+                      LinkToThis3:
+                    - Type: NonStandardItem
+                      LinkToThis4:  
+                  MyItemList2:
+                    .<Task>:
+                      Id: MyTask
+                      Summary: My Task
+                      LinkToThis5: 
+                    .<NonStandardItem>:
+                      LinkToThis6:
+                  MyNonStandardItemList:
+                    - LinkToThis7:
+                    - LinktoThis8:
+
+              How do we create links to the LinkToThis properties?:
+            Workspace:
+              Rules:
+                - Possible non-property F2LinkParts holding the value of the corresponding Item property - if there's:
+                  - Id                  
+                  - Summary
+                  - Type                
+                - During generation, we check whether there's a value in the first, if yes, we use that, otherwise we check the 2nd, etc.
+                - If there are multiple Items exist with the same value in the property used (if it's Id - then Id) then its number is suffixed to the part
+              The links:
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
+                -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
+                -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(0).LinkToThis1<
+                
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+                -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(1).LinkToThis3<
+                
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
+                -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<
+                -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
+                
+              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+
+              - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+
+              - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(1).LinkToThis8<
+
+
           Done .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:            
             Id: F2LinkMainProblems
             Details:

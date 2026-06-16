@@ -8,6 +8,10 @@
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 185841}
     InProgress .Finish the F2Yaml.MVP specification:
       +: {CreatedBy: Bobi, CreatedAt: 20260616 T 155226, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}  
+      TODO .F2Links spec:        
+        +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175620, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        Details:
+          Here: 
       TODO .Specification:_ headers support in Items:
         +: {CreatedBy: Bobi, CreatedAt: 20260605 T 003628, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
 

@@ -222,7 +222,7 @@ Fast Thoughts:
     Details:
       - The first agreement was kept to no weed till there are sonm work done
       - Today is the 2nd agreement. It should be kept and strengthen the neuron network on the locigal thread of no smoking = higher probabilities in having work done 
- - Things to mention:
+    Things to mention:
         - Add stand up to your daily schedule:
           Details:
             - Standup and its preparation should be among the highest priorities in the daily work schedule.
@@ -238,52 +238,47 @@ Fast Thoughts:
             - Robert to review my work in TF2p, Health and my workout schedule
             - Planning to Schedule for Salad
             - Reply to the Airbnb Lenka
-    - Convert the above to tasks
-    - TODO .Taskify the above:
-      TODO .Add standup preparation to the stand up report:
-        Details:
-          - Standup should happen every day including the healthlogs
 
-
-.MealLogs:
-  - Time: 0800 
-    Description: Eggs and rice
-    HungerBefore: 2-Low
-    HungerAfter: 1-VeryLow
-    Amount: 2-Low
-  - Time: 1000
-    Description: 
-    HungerBefore:
-    HungerAfter:
-    Amount:
-  - Time: 
-    Description:
-    HungerBefore:
-    HungerAfter:
-    Amount:
-.MoodLog:  
-  - Time: 
-    PeriodLengthInHrs:
-    Irritability:
-    Drowsiness:
-    Foggyness:
-    TummyGassesFeel:
-    Bloatedness:
-    Burping:
-    Farting:
-    Headache:
-    Hornyness:
-.PoopikaLog:
-  - Time:
-    Type:
-.ExerciseLog:
-  - Time: 
-    Category:
-    Garmin Link:
-.Dlog:
-  - Time:
-    NotableThings:
-.SupplementLog:
+Templates of healthlog:
+  .MealLogs:
+    - Time: 0800 
+      Description: Eggs and rice
+      HungerBefore: 2-Low
+      HungerAfter: 1-VeryLow
+      Amount: 2-Low
+    - Time: 1000
+      Description: 
+      HungerBefore:
+      HungerAfter:
+      Amount:
+    - Time: 
+      Description:
+      HungerBefore:
+      HungerAfter:
+      Amount:
+  .MoodLog:  
+    - Time: 
+      PeriodLengthInHrs:
+      Irritability:
+      Drowsiness:
+      Foggyness:
+      TummyGassesFeel:
+      Bloatedness:
+      Burping:
+      Farting:
+      Headache:
+      Hornyness:
+  .PoopikaLog:
+    - Time:
+      Type:
+  .ExerciseLog:
+    - Time: 
+      Category:
+      Garmin Link:
+  .Dlog:
+    - Time:
+      NotableThings:
+  .SupplementLog:
   - Time: 20260615 T 001342
     What:
       - Magnesium bizglicinate 500mg

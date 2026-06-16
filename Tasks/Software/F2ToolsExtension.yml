@@ -277,6 +277,50 @@ OnGoing .Taskify the requirements:
           +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
           Details:
             use the plan I started at the impl. plan of Query Execution
+          Workspace:
+            - Go through the parent Items using their BelongsToItem and BelongsToProperty fields:
+              - If the currentItem's RepresentationType:
+                - ItemRepresentationType.Node:
+                  - var linkPartValue: F2LinkPart
+                  - var idPropValue = currentItem.GetPropertyValue("Id");
+                  - var summaryPropValue = currentItem.GetPropertyValue("Summary")?.EscapeDoubleQuotesToDoubleDoubleQuotes().WrapInDoubleQuotes()
+                  - var parentPropertyId = currentItem.BelongsToProperty;
+                  - var internalId = currentItem.InternalId;
+                  - if (currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.None):
+                    - if (parentPropertyId === undefined) throw InvalidOperationError(); //this shouldn't happen
+                    - else if (parentProperty is not a list property)
+                      - linkPartValue = new PropertyIdPart(parentPropertyValue!);
+                    - else linkPartValue = internalId
+                  - else (if currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.TypeId):
+                    - if (p)
+                    - Example:
+                        MyItem:
+                          MyItemListProp:
+                            - .<Geci>:
+                                Id: GecciInstance
+                            - .<Geci>:
+                                Id: GecciInstance
+                            - .<GeciDescendant>:
+                                SomeProp: value                                
+                          MyAnotherItemListProp:
+                            .<Fasz>:
+                          .<Buzi>:
+                    - 
+
+
+                  - if (linkType === LinkTypes.Id):
+                      linkPartValue = currentItem.GetPropertyValue("Id") !== undefined ? currentItem.Id
+                  ? value of the Id property : value of the Summary property
+
+              - If the Item's "ItemRepresentationType" is ItemRepresentationType.Folder or File:
+      Details:
+        Create a "GetF2Link(linkType:_ LinkTypes):_ F2Link" method in F2YamlWorkspaceItem, returning an Id based F2Link:
+          - Where: 
+              enum LinkTypes:
+                .Id:
+                .Summary:
+
+
     EstTODO .Store yaml representation information in F2YamlWorkspaceItem-s:
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}              
       Details:
@@ -498,45 +542,6 @@ OnGoing .Taskify the requirements:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<          
           - Create a "Folder" (TypeScript) class based on the Folder (F2Yaml) class in Types.yml (similary how QueryDescription typescript class is based on the QueryDescription f2yaml class)
-          - Create a "GetF2Link(linkType:_ LinkTypes):_ F2Link" method in F2YamlWorkspaceItem, returning an Id based F2Link:
-            - Where: 
-                enum LinkTypes:
-                  .Id:
-                  .Summary:
-            - Go through the parent Items using their BelongsToItem and BelongsToProperty fields:
-              - If the currentItem's RepresentationType:
-                - ItemRepresentationType.Node:
-                  - var linkPartValue: F2LinkPart
-                  - var idPropValue = currentItem.GetPropertyValue("Id");
-                  - var summaryPropValue = currentItem.GetPropertyValue("Summary")?.EscapeDoubleQuotesToDoubleDoubleQuotes().WrapInDoubleQuotes()
-                  - var parentPropertyId = currentItem.BelongsToProperty;
-                  - var internalId = currentItem.InternalId;
-                  - if (currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.None):
-                    - if (parentPropertyId === undefined) throw InvalidOperationError(); //this shouldn't happen
-                    - else if (parentPropertyId is not a list property)
-                      - linkPartValue = new PropertyIdPart(parentPropertyValue!);
-                    - else linkPart
-                  - else (if currentItem.YamlRepresentation.HeaderType === ItemYamlHeaderType.TypeId):
-                    - if (p)
-                    - Example:
-                        MyItem:
-                          MyItemListProp:
-                            - .<Geci>:
-                                Id: GecciInstance
-                            - .<Geci>:
-                                Id: GecciInstance
-                            - .<GeciDescendant>:
-                                SomeProp: value                                
-                          MyAnotherItemListProp:
-                            .<Fasz>:
-                          .<Buzi>:
-
-
-                  - if (linkType === LinkTypes.Id):
-                      linkPartValue = currentItem.GetPropertyValue("Id") !== undefined ? currentItem.Id
-                  ? value of the Id property : value of the Summary property
-
-              - If the Item's "ItemRepresentationType" is ItemRepresentationType.Folder or File:
           - var itemsInFrom: F2YamlWorkspaceItem[] = [];
           - Parse the Yaml Item into an F2YamlWorkspaceItem under each F2Link in the From field:
             - check whether the location exist - if not, throw an exception

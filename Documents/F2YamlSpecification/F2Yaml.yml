@@ -352,9 +352,8 @@ Done .Notes:
           Tasks:
 
       
-      0-New Must .SubItems:
-        Tags: [Syntax, Semantics]
-        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 20, RemTime: 20}
+      0-New Must .SubItems:        
+        +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVDONE, OCWSPhase1, Syntax, Semantics], Estimation: 20, RemTime: 20}
         Tasks:
           InProgress .Create content:
             Details:
@@ -376,6 +375,23 @@ Done .Notes:
                           Id: S2
               - The "BelongsTo" property of 
       
+        1-SomeProgress Must .Item hierarchy aka the BelongsTo tree:
+          Content: |
+            - Each Item has an "Item BelongsToItem" and "IdString? BelongsToProperty" property:                        
+              - BelongsToItem is mandatory - except maybe for some root Item
+              - BelongsToProperty:
+                - points to the property of BelongsToItem which (first) referenced this Item
+            - In F2Yaml:
+              - these properties are hidden and/or if present, their contents are discarded
+              - their values are inferred from the place of the definition of the Item:
+                - their BelongsToItem is the Item Yaml surrounding their definition 
+                - their BelongsToProperty is:
+                  - either the Property under which they are defined
+                  - or the default list property if they are defined in the same yaml map as the properties of BelongsToItem
+              - therefore, changing the value of the BelongsToItem property is through relocating the yaml node under the new parent
+            - Therefore:
+              - if an Item is removed from all referencing properties, it's considered deleted:
+                - the concrete handling of these Items in The F2Tool architecture is still being considered - we'll probably put them under some special "RecycleBin" Item.                
         # Examples:
         #   - \"Type" as header:
         #   - Status + Summary as header:
@@ -869,7 +885,8 @@ Done .Notes:
           - An ItemReference preceded by the file path
           - 
         Tasks:            
-          CurrentFocus .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:
+          Done .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:            
+            Id: F2LinkMainProblems
             Details:
               Problem overview:
                 - A convenient notation must be found for references/links pointing to Items residing in Workspace files, organized in a hierarchical structure. This notation should not impose too strict uniqueness constraints, should mimic existing notations, should be easy to learn, understand and use; Convenience is way more important than easy implementation.
@@ -951,45 +968,50 @@ Done .Notes:
                   - Would not put too much constraints on reassigning the Items 
                 - At the moment no "unique id" constraint is applied to any Children (through BelongsTo), also, the properties and other sub-Items can have the same Id, leading to the problems of:
                   - A link pointing to an element with Id x can be ambiguous (for the user)
-            Workspace:
+            Result:              
               Current best idea:
                 Changes/clarifications:
-                - Id uniqueness: basically no (only Property Id uniqueness)
+                - Id uniqueness: basically no (only Property Id uniqueness)                
+                - In the meantime, it was decided that the BelongsTo and property tree should ~almost mean same - Items now must belong to a parent Item which references them and F2Links can only created through this parent Item, therefore no need for a special notation for the BelongsTo
                 - F2Link notation:
-                  - is "approximate", i.e. it can happen in supposedly very edge cases (if tracking is lost), that they point to the wrong location in an irrecoverable and undetectable way:
+                  - \"same id" problem is solved by numbering:
+                    - requires that the parser keeps the order of the yaml map keys
+                    - we simply add a suffix (see the numbering definition in the result of one of the below problems)
                   - 2 separator types:
                       ".": the following element is a Property Id #or an Item
                       "..": the following element is an Item Id #where the Item is a member of the default list of the previous element
                       #"<-": the following element is an Item Id where the Item BelongsTo the previous element
                   - non-uniqueness handling:
-                    - at generation: if duplicate ids, use internalid instead
-                    - at following (=in the meantime it became non-unique): cycle-through or warning that it's not unique
+                    - at generation: if duplicate ids, use the numbering
+                    - at following (=in the meantime it became non-unique): use the numbering
                 Example:
-                  QueryDescription:
-                    Where:
+                  MyItem:
+                    MyItemListProp:
                       OneItem:
-                        TODO .Blah:
-                          MyTargetProp: lorem
+                          Done .Blah:
+                            MyTargetProp: lorem
                       OneItem2:
-                        Status: TODO
-                        Id: Blah
-                        MyTargetProp: lorem
-                      
-                      TODO .Bumm:
+                          Status: Done
+                          Id: Blah
+                          MyTargetProp: lorem
+                      ItemList:
+                        - Id: Blah
+                          MyTargetProp: lorem
+                        - Id: Blah
+                          MyTargetProp: lorem
 
-                  -->Example.QueryDescription.Where.OneItem..Blah.MyTargetProp<:
-                  -->Example.QueryDescription.Where.OneItem2.MyTargetProp<: 
-                  -->Example.QueryDescription.Where..Bumm<:
-
-
-          InProgress .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
+                  -->Example.QueryDescription.MyItemListProp..OneItem..Blah.MyTargetProp<:
+                  -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<:
+                  -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<: 
+                  -->Example.QueryDescription.MyItemListProp..Bumm<:
+          Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
             Details:                
               For example in this case:
-                TODO MyTask:
-                  TODO .MySubTask:
+                Done .MyTask:
+                  Done .MySubTask:
                     Id: MySubTask
                 ...:
-                TODO MySubTask:
+                Done .MySubTask:
                   Id: MySubTask
                   BelongsTo: MyTask
                 
@@ -1003,10 +1025,12 @@ Done .Notes:
                     - A.-.B
                 - Explicitly specifying the list property in this case:
                     - A.SubTasks.B
-          InProgress .Problem:_ Linking to an element having the same Id (or Summary) as one of its "sibling":
+            Result:
+              Solved by not allowing the BelongsTo to be changed; all Items belong to the Item under which they are defined.
+          Done .Problem:_ Linking to an element having the same Id (or Summary) as one of its "sibling":
             Details:
               For example in this case:
-                TODO MyTask:
+                TODO .MyTask:
                   TODO .MySubTask:
                     Id: MySubTask
                   TODO .MySubTask1:
@@ -1021,16 +1045,23 @@ Done .Notes:
               Ideas:
                 - Problem1: we don't really care as following the link should still work in most cases; in "tricky" content-replace cases the user should take care.
                 - Problem2:
-                  - In both cases we display both of the Ids as:
-                    (BNF): 
-                        <DisplayId> ::= <Id> <UniqueNumber>
-                        <UniqueNumber> ::= "(" [0..9]+ ")"
-                    Example: MySubTask(0)
-                  - The link pointing to it will be MyTask..MySubTask(0)
-                  - In case any of the Items (having the same Ids) are removed from the lists we discard the "()"
-          InProgress .Problem:_ Work out the F2Links concept:
-            Workspace:
-              
+                    Numbering:
+                    - In both cases we display both of the Ids as:
+                      (BNF): 
+                          <DisplayId> ::= <Id> <UniqueNumber>
+                          <UniqueNumber> ::= "(" [0..9]+ ")"
+                      Example: MySubTask(0)
+                    - The link pointing to it will be MyTask..MySubTask(0)
+                    - In case any of the Items (having the same Ids) are removed from the lists we discard the "()"                    
+            Result:
+              We number only the link part and do not change the value of the Id (or summary) property:
+                - Id property: attach a "(N)" suffix to the IdString if this is the (N+1)th of the same Ids; numbering starts from 0.
+                - Summary property: same, but suffix is after the ending quotation mark of the SummaryPart
+              Following:
+                - we go to the nth. 
+              Problems:
+                - if the user removes any preceding, the link becomes invalid; this can be solved by the environment where changes are tracked live
+                - same if adding or renaming              
           Done .Problem:_ How should we handle the case if ItemB BelongsTo ItemA, but their definition do not reside in the same file:
             Details:
               Example:
@@ -1048,27 +1079,31 @@ Done .Notes:
                 - -->MyFile1\..ItemA..ItemB<: opens the file MyFile1
             Result:
               - Idea1 seems to be fine.
-              - Update: no belongsto links any more...
-          TODO .Problem:_ Linking to an element under an Item update:          
+              - Update: BelongsTo can't be changed any more.
+          Done .Problem:_ Linking to an element under an Item update:
             Details:
               Such as, in Barba.Types, link to Item:
                 -->Root..System..Types<:
-                  class Item:
-                    blahlablah: blah
+                  Status: Done                  
+                  ItemDefinitions:
+                    class Item:
+                      blahlablah: blah
               Problems:
                 - It's a link in a link - is it fine? So e.g. it would be -->Barba.Types\-->Root..System..Types<.Summary< - I think it is actually.
-          InProgress .Decide:_ Should we have separate Workspace links and Item references:
+              Result:
+                We do not allow linking to an update as it's a description of an operation which would result in an Item to be created, not the Item itself.
+          Done .Decide:_ Should we have separate Workspace links and Item references:
             Details:
               - Item references could use the simple dot notation and the BelongsTo tree only - so no referencing through property values
               - F2Links would use the double dot notation
               - 
-            Workspace:
+            Result:
               - F2Links are for file + item + property + member of property, in the workspace; no belongsto support
               - in the background we store references, but we convert them into F2Links when written into the workspace
           Done .Decide:_ Should we allow Items with the same Ids belonging to the same Item?:
             Details:
               - We made the decision that we should, on the other hand, this might not be too convenient. We need to collect pros-cons for both.              
-            Workspace: yep
+            Workspace: yep, but we warn.
         Workspace:
           Sandbox:
             Example:

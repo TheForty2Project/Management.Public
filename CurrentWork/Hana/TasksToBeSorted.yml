@@ -8,7 +8,16 @@ TODO .create processes for handling negative events:
     - Fights:
       - create processes for stop fighting or after fights keeping the goal in mind .
     - Bad stomach ache
-    - Weed
+TODO .Create a process to handle Salad:
+      Details:
+        - Both parties (Hana and Robi) should lock the Salad in the locker 
+        - Both Parties should verify the lock
+        - If possible then smoke should happen every 2 days instead of everydaya
+      Tasks:
+        Done .Salad locked inside the computer:
+        Done .Salad locked with timer locked:
+        Done .Verified by the 2 parties:
+      
 TODO .Create snippets for HealthLogs templates:
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

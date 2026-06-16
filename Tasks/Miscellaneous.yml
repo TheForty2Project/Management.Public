@@ -248,6 +248,7 @@ OnGoing .Health:
     +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
     Details: 
       Write down the steps that are created by Tota and you
+    TODO .Write a letter describing the events that happened in the past and what is the current goal and what are their current goals:
   .Schedules:
     Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}

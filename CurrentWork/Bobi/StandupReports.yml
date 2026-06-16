@@ -313,6 +313,8 @@ SR_20260616_Bobi:
 SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 16m, "", 20260616 T 160542 ]
-    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<: [ 0m, "", 20260616 T 175054 ]
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<: [ 4m, "", 20260616 T 175054 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 1m, "", 20260616 T 175517 ]
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 53m, "", 20260616 T 175625 ]
   Next:
     - null

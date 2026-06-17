@@ -1374,9 +1374,9 @@ HealthLog20260616Hana:
     - Time: 13:00:42
       Type: Type4
   .ExerciseLog:
-    - Time: 
-      Category: 
-      GarminLink:  
+    - Time: 214110
+      Category: Mandatory
+      GarminLink: https://connect.garmin.com/app/activity/23274557818  
   .Dlog:
     - Time: 130042
       NotableThings: Weed 2x 
@@ -1428,11 +1428,10 @@ HealthLog20260616Bobi:
     - Time: 120042
       Type: Type4
       NotableThings: small sticky in diameter after the healthy poop 
-
   .ExerciseLog:
-    - Time: 
-      Category: 
-      GarminLink:  
+    - Time: 214110
+      Category: Mandatory
+      GarminLink: https://connect.garmin.com/app/activity/23274557818  
   .Dlog:
     - Time: 130042
       NotableThings: Weed 2x 
@@ -1442,7 +1441,33 @@ HealthLog20260616Bobi:
   .SleepLogs:
     - Time: 181943
       GarminLink: https://connect.garmin.com/app/sleep/2026-06-16/0
-
-
+HealthLog20260617Hana:
+  .MealLogs:
+  
+  .MoodLog:  
+    
+  .PoopikaLog:
+    
+  .ExerciseLog:
+   
+  .Dlog:
+   
+  .SupplementLog:
+   
+  .SleepLogs:
+HealthLog20260617Bobi:
+  .MealLogs:
+  
+  .MoodLog:  
+    
+  .PoopikaLog:
+    
+  .ExerciseLog:
+   
+  .Dlog:
+   
+  .SupplementLog:
+   
+  .SleepLogs:   
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

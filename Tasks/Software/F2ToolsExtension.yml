@@ -270,13 +270,11 @@ OnGoing .Taskify the requirements:
             Analysis: nah... F2Link first - easy - and then we decide what to do when we really need these property updates
       Result:
         F2Link.                    
-    TODO .F2Link generation through F2YamlWorkspaceItem:
+    InProgress .F2Link generation through F2YamlWorkspaceItem:
       +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184849, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
       MaintenanceTasks:
         InProgress .Create Implementation plan:
           +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-          Details:
-            use the plan I started at the impl. plan of Query Execution
           Workspace:
             - Go through the parent Items using their BelongsToItem and BelongsToProperty fields:
               - If the currentItem's RepresentationType:
@@ -318,10 +316,10 @@ OnGoing .Taskify the requirements:
           - Where: 
               enum LinkTypes:
                 .Id:
-                .Summary:
+                .Summary:      
 
 
-    EstTODO .Store yaml representation information in F2YamlWorkspaceItem-s:
+    Done .Store yaml representation information in F2YamlWorkspaceItem-s:
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}              
       Details:
         - During parsing from yaml (currently the "ImportFromYamlScalarMapPair" function, but later possibly renamed to just ImportFromYamlNode), store important information about how the Item was stored as a yaml to be able to reproduce the yaml in a similar structure as the original by creating a property "YamlRepresentation" in "F2YamlWorkspaceItem" with type "YamlRepresentationDescriptor" and filling it in how it's described below.
@@ -533,61 +531,8 @@ OnGoing .Taskify the requirements:
           Execute.BasicExecute:
             PAR: 60
             Normal: 180      
-      CurrentFocus .Create Implementation plan for Basic Query Execution:
-        +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 20}
-        Workspace:
-          - Done the following architectural changes:
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..CustomProperties<
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
-            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<          
-          - Create a "Folder" (TypeScript) class based on the Folder (F2Yaml) class in Types.yml (similary how QueryDescription typescript class is based on the QueryDescription f2yaml class)
-          - var itemsInFrom: F2YamlWorkspaceItem[] = [];
-          - Parse the Yaml Item into an F2YamlWorkspaceItem under each F2Link in the From field:
-            - check whether the location exist - if not, throw an exception
-            - if so:
-              - if the target (or current part of the f2link) is a folder, create a "Folder" F2YamlWorkspaceItem (set its Id to the name of the folder) and parse the contents as the elements of its Items property
-              - if the target/current part is a file:
-                - the file must contain a yaml.YAMLMap as its root node AND this map must be an ItemYaml - if not, OutputChannelLogger.Warning and the created item is undefined
-                - otherwise, create a general F2ZamlWorkspaceItem from this map:
-                  - treat the filename as if it was the Id part of the header (so throw exception if there's an Id property with a different value than the filename)
-              - if the target/current part is the property of an ItemYaml:
-                - if the value is not an ItemYaml - undefined; 
-                - if it is, parse it 
-              - if the target/current part is the header of an ItemYaml:
-                - parse it - or if can't, undefined + warning
-            - if (created item is not undefined) itemsInFrom.push(created item);          
-          - var csvCellValuesPerRow: string[][]
-          - var csvColumnNames: string[]
-          - generate csvColumnNames from the Select part of the query (either the property name or if there is an "as" part, the given name)
-          - go through the F2YamlWorkspaceItems in the itemsInFrom (and their children):
-            - if (item matches the conditions in the Where part of the query):
-              - var csvCellValues: string[] = []
-              - for (var columnName of csvColumnNames):
-                - var value = :
-                  - if columnName === :
-                    - EMPTY: ""
-                    - SYNCRESULT: one of the values from SyncResultValues representing whether the row was created, updated, etc. (-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..SyncResultValues<); at the moment this should be always "N" (until we implement updating)
-                    - IDLINK: the Id based F2Link pointing to the Item
-                    - SUMMARYLINK: the Summary based F2Link pointing to the Item
-
-            
-              - 
-              - generate the string[] from its values
-            
-
-
-
-
-
-
-
-
-
-          - checks whether
-          - 
-
-          
+      Done .Create Implementation plan for Basic Query Execution:
+        +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 0}
     Done .Registers commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
@@ -604,15 +549,68 @@ OnGoing .Taskify the requirements:
             - Get the document and the cursor position
             - GetItemAtCursor: base it on the current generateCSV implementation and record some todos to make it "nice"
             - Fill in the QueryDescription while checking the values
-      EstTODO .Basic query execution:
+      InProgress .Basic query execution:
         Id: BasicExecute
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
         Requirement: 
           - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..BasicExecute<
           - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..ShowSummary<
-
-        Workspace:
-          ImplementationPlan:
+        ImplPlan:
+          - Done the following architectural changes:
+            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
+            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..CustomProperties<
+            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..DoubleLinkedLists<            
+            - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..IsValidItemHeader<          
+          - Create a "Folder" (TypeScript) class based on the Folder (F2Yaml) class in Types.yml (similary how QueryDescription typescript class is based on the QueryDescription f2yaml class)
+          - Implement the method roughly as follows:
+            - F2YamlWorkspaceItem[] itemsInFrom = [];
+            - Parse the Yaml Item into an F2YamlWorkspaceItem under each F2Link in the From field:
+              - check whether the location exist - if not, throw an exception
+              - if exists:
+                - if the target (or current part of the f2link) is a folder, create a "Folder" F2YamlWorkspaceItem (set its Id to the name of the folder) and parse the contents as the elements of its Items property
+                - if the target/current part is a file:
+                  - the file must contain a yaml.YAMLMap as its root node AND this map must be an ItemYaml - if not, OutputChannelLogger.Warning and the created item is undefined
+                  - otherwise, create a general F2ZamlWorkspaceItem from this map:
+                    - treat the filename as if it was the Id part of the header (so throw exception if there's an Id property with a different value than the filename)
+                - if the target/current part is the property of an ItemYaml:
+                  - if the value is not an ItemYaml - undefined; 
+                  - if it is, parse it 
+                - if the target/current part is the header of an ItemYaml:
+                  - parse it - or if can't, undefined + warning
+              - if (created item is not undefined) itemsInFrom.push(created item);          
+            - string[][] csvCellValuesPerRow
+            - string[] csvColumnNames
+            - generate csvColumnNames from the Select part of the query (either the property name or if there is an "as" part, the given name)
+            - go through each f2Item of F2YamlWorkspaceItems in the itemsInFrom (and their children):
+              - if (f2Item matches the conditions in the Where part of the query):
+                - string[] csvCellValues = []
+                - for (var propertyId of (property Ids in the Select part)):
+                  - string value = :
+                    - switch (propertyId):
+                      - EMPTY: ""
+                      - SYNCRESULT: one of the values from SyncResultValues representing whether the row was created, updated, etc. (-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..SyncResultValues<); at the moment this should be always "N" (until we implement updating)
+                      - IDLINK: f2Item.GetF2Link(LinkTypePreference.Id)
+                      - SUMMARYLINK: f2Item.GetF2Link(LinkTypePreference.Summary)
+                      - default: 
+                        - var propertyValue = f2Item.GetPropertyValue(propertyId)
+                        - switch (type of propertyValue):
+                          - F2YamlWorkspaceItemPropertyScalarValue: String(propertyValue)
+                          - F2YamlWorkspaceItemPropertyArrayValue or F2Link[]: the values as strings, separated by ", "
+                          - F2YamlWorkspaceItem or ItemList or NotParsedYaml: "NOTSUPPORTED"
+                          - F2Link: propertyValue.toString()
+                          - null: ""
+                  - csvCellValues.push(CSVEscapeAndPutInQuotationsIfNeeded(value)) //if the value contains "," or newline then replace double quotation to double double quote, newline to the string "\n" and surround it with double quotation
+                - csvCellValuesPerRow.push(csvCellValues)
+            - create the output file:
+              - either to the one specified in the queryDescription.OutputFile or if it's empty or not present, uses the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds the next not-existing number in a bracket)
+            - write to the output file:
+              - file header:
+                - uses the prefix set in CommentPrefix in front of each header line
+                - writes/updates the header generated by creating or updating a -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.."ReportHeader"< Item complying with the template in its details
+              - column headers:
+                - csvColumnNames.join(",")
+              - column values:
+                - content of csvCellValuesPerRow, \n in between rows, "," in between cell values
       NEXT .Filter by the Where property:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
@@ -622,6 +620,25 @@ OnGoing .Taskify the requirements:
       Id: WriteBack
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
+  TODO .F2Link class based F2Link handling:
+    Id: F2LinkClass
+    +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    TODO .Update link parsing according to the new specification:
+      +: {CreatedBy: Bobi, CreatedAt: 20260617 T 142620, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        Change the parser (F2Link.TryParseString):
+        - FilePathParts can now contain the file's extension as well
+        - Each ItemIdentifierPart can be suffixed by a number in brackets
+        - recognize a TypeIdPart (an ), which is: <TypeIdPart> ::= ".<" <IdString> ">"
+    TODO .Create a method which generates F2Links:
+      +: {CreatedBy: Bobi, CreatedAt: 20260618 T 012449, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      Details:
+        - 
+        - replace the already existing F2Link generation functionalities to this
+
+
+    Details:
+      
   EstTODO .Replacing F2Links:
     Id: ReplaceLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022624, By: Bobi}
@@ -727,6 +744,8 @@ OnGoing .Taskify the requirements:
     Done .Implement the logger functionality:
       Id: Implement
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143712, By: Bobi}
+    Done .Upgrade the logger to be a log output:
+      +: {CreatedBy: Bobi, CreatedAt: 20260620 T 213712, By: Bobi}
     TODO .Create the concept and the Tasks for the others:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143728, By: Bobi}
   InProgress .Proper escaping in Summary part of F2Links:

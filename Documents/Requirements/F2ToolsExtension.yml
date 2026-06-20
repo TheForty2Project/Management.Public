@@ -908,7 +908,7 @@ InDev .Various F2Link related upgrades:
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
     Summary:
-      Support for links which only contain the last part of the full path (F2LocalLink in the F2Links.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
+      Support for links which only contain the last part of the full path (F2LocalLink in the F2Links in BachusNaurForm.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
     Details:        
       Update -->...ReplaceLinks< to support this as well
     Workspace:

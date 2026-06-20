@@ -584,73 +584,73 @@ Done .Notes:
             - but a warning is generated
           - if unsuccessful, interpreted as string
         - for both, only the syntax needs to be correct, e.g. Item references don't need to point to an actually existing Item          
-    # .Describing Items:
-    #   .Overview:
-    #     Title: Overview
-    #     Content:
+      # .Describing Items:
+      #   .Overview:
+      #     Title: Overview
+      #     Content:
 
-    #   .Details:
-    #     Details:
-    #       - For defining Items in the "WithHeader" format, the "new" keyword must precede the header
-    #       - For defining Items in the "WithoutHeader" format, the "new" keyword must be the key of a mapping where the value of the mapping is the item definition
-    #     .WithHeader:
-    #       Prefix: "new"
-    #       Yaml type: plain scalar or single-entry map with scalar key and map value
-    #       Details:
-    #         Overview:
-    #           - Headers contain the value of one or more distinguished property of the Item. By default the system supports Type as header for all items, Id as header for StandardItems-s and by defining header formats in the ClassDescription, one can create their own.
-    #           - if the entry is a scalar, then the "new" keyword must be followed by the values as per -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining Items"..WithHeader..CustomHeader<
-    #           - if the entry is a map, then the key must start with the "new" keyword, optionally followed by values and the value is a map containing entries with IdString-s as keys
-    #       .TypeAsHeader:
-    #         Details:
-    #           The header is the Id of the Type of the Item (the value of its "Id" property) in between the "<" and the ">" characters:
-    #         Format:
-    #           new <CLASS_ID>:
-    #             PROPERTY_ID1: PROPERTY_VALUE
-    #             ...:
-    #             PROPERTY_IDn: PROPERTY_VALUE                  
-    #         Example:
-    #           new <Task>:
-    #             Id: MyTask
-    #             Details: "Lorem ipsum dolor sit amet"
-    #       .IdAsHeader:
-    #         Details:
-    #           - For Items inheriting from StandardItem, the header is the value of the Id property of the Item.
-    #         Format:
-    #           new ID:
-    #             PROPERTY_ID1: PROPERTY_VALUE
-    #             ...:
-    #             PROPERTY_IDn: PROPERTY_VALUE                  
-    #         Example:
-    #           new MyTask:
-    #             Type: Task
-    #             Details: Lorem ipsum dolor sit amet
-    #       .CustomHeader:
-    #         Details:       
-    #           - For each type header formats can be defined in a way that properties which can be serialized (=represented as) to single line string can be used as an element.
-    #           - If a property value can consist of multiple words they must be placed in between the quotation characters
-    #         Format:
-    #           new PROPERTY_VALUE1 "PROPERTY_VALUE2":
-    #             PROPERTY_ID1: PROPERTY_VALUE
-    #             ...:
-    #             PROPERTY_IDn: PROPERTY_VALUE
-    #         Example:
-    #           Let's say that there's an Article:
-    #             <Article>:
-    #               Id: MyArticle
-    #               Maturity: 4-AlmostDone
-    #               Content: lorem ipsum              
-    #           Done 4-AlmostDone MyTask:
-    #             Content: lorem ipsum
-    #     .Without header:
-    #       Prefix: "new"
-    #       Yaml type: single-entry map with scalar key and map value
-    #       Details: a yaml mapping containing property names (IdStrings) as keys
-    #       Example:
-    #         new:
-    #           Type: Task
-    #           Id: MyTask
-    #           Details: Lorem ipsum dolor sit amet
+      #   .Details:
+      #     Details:
+      #       - For defining Items in the "WithHeader" format, the "new" keyword must precede the header
+      #       - For defining Items in the "WithoutHeader" format, the "new" keyword must be the key of a mapping where the value of the mapping is the item definition
+      #     .WithHeader:
+      #       Prefix: "new"
+      #       Yaml type: plain scalar or single-entry map with scalar key and map value
+      #       Details:
+      #         Overview:
+      #           - Headers contain the value of one or more distinguished property of the Item. By default the system supports Type as header for all items, Id as header for StandardItems-s and by defining header formats in the ClassDescription, one can create their own.
+      #           - if the entry is a scalar, then the "new" keyword must be followed by the values as per -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining Items"..WithHeader..CustomHeader<
+      #           - if the entry is a map, then the key must start with the "new" keyword, optionally followed by values and the value is a map containing entries with IdString-s as keys
+      #       .TypeAsHeader:
+      #         Details:
+      #           The header is the Id of the Type of the Item (the value of its "Id" property) in between the "<" and the ">" characters:
+      #         Format:
+      #           new <CLASS_ID>:
+      #             PROPERTY_ID1: PROPERTY_VALUE
+      #             ...:
+      #             PROPERTY_IDn: PROPERTY_VALUE                  
+      #         Example:
+      #           new <Task>:
+      #             Id: MyTask
+      #             Details: "Lorem ipsum dolor sit amet"
+      #       .IdAsHeader:
+      #         Details:
+      #           - For Items inheriting from StandardItem, the header is the value of the Id property of the Item.
+      #         Format:
+      #           new ID:
+      #             PROPERTY_ID1: PROPERTY_VALUE
+      #             ...:
+      #             PROPERTY_IDn: PROPERTY_VALUE                  
+      #         Example:
+      #           new MyTask:
+      #             Type: Task
+      #             Details: Lorem ipsum dolor sit amet
+      #       .CustomHeader:
+      #         Details:       
+      #           - For each type header formats can be defined in a way that properties which can be serialized (=represented as) to single line string can be used as an element.
+      #           - If a property value can consist of multiple words they must be placed in between the quotation characters
+      #         Format:
+      #           new PROPERTY_VALUE1 "PROPERTY_VALUE2":
+      #             PROPERTY_ID1: PROPERTY_VALUE
+      #             ...:
+      #             PROPERTY_IDn: PROPERTY_VALUE
+      #         Example:
+      #           Let's say that there's an Article:
+      #             <Article>:
+      #               Id: MyArticle
+      #               Maturity: 4-AlmostDone
+      #               Content: lorem ipsum              
+      #           Done 4-AlmostDone MyTask:
+      #             Content: lorem ipsum
+      #     .Without header:
+      #       Prefix: "new"
+      #       Yaml type: single-entry map with scalar key and map value
+      #       Details: a yaml mapping containing property names (IdStrings) as keys
+      #       Example:
+      #         new:
+      #           Type: Task
+      #           Id: MyTask
+      #           Details: Lorem ipsum dolor sit amet
     4-AlmostDone Should .Functions:
       Title: Functions
       Details:
@@ -729,7 +729,7 @@ Done .Notes:
           +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}
           Details:
             Summary:
-              An ItemReference inside the pre-postfix. See the -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or Links"..ItemReference< for item reference syntax.
+              An ItemReference inside the pre-postfix. See the -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or F2Links"..ItemReference< for item reference syntax.
             Prefix:
               Variant1: "->"
               Variant2: "-->"
@@ -877,438 +877,467 @@ Done .Notes:
             new <Task>:
               Id: Blah
 
-    1-SomeProgress Must .Item references or Links:
-      .ItemReference:
-        Content:
-      .F2Link:
-        Details:
-          - An ItemReference preceded by the file path
-          - 
-        Tasks:            
-          Done .Problem:_ Link to Items with various headers and properties:
-            +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175753, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-            Details:
-              Consider this Item:
-                .MyItem:
-                  MyItemList:
-                    - .<Task>:
-                        Id: MyTask
-                        Summary: My Task
-                        LinkToThis1: 
-                    - .<NonStandardItem>:
-                        LinkToThis2:
-                    - Id: MyTask
-                      Type: Task
-                      LinkToThis3:
-                    - Type: NonStandardItem
-                      LinkToThis4:  
-                  MyItemList2:
-                    .<Task>:
+    4-AlmostDone Must .Item references or F2Links:      
+      Content:
+        - F2Links are strings storing the path (filesystem + yaml) to a folder, file, an Item or one of its properties in a human readable form.:
+          In their full form (the F2FullLink):
+          - they first contain the filesystem path to the file containing the yaml
+          - then the Item and property path (~hierarchy) leading to the target - e.g. if the target is a property, then the last part is its Id, then the previous is an identifier of the Item containing the property, then a property Id containing the Item as (one of) its value(s), etc.
+        - Example: 
+            -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks.."Taskify and estimate".CreatedBy<
+        - The BNF for it: <F2Link> in -->Documents\F2YamlSpecification\BachusNaurForms.bnf\< 
+        - Starts with "-->", ends with "<"
+        - Three types of links:
+            .F2PathLink: 
+              Details:
+                - Containing only the path to a file or folder
+                - <F2PathLink> in BachusNaurForms.bnf
+              Example:
+                -->Tasks\Software\F2ToolsExtension\<
+            .F2LocalLink: 
+              Details:
+                - containing only the - partial or full - yaml path 
+                - <F2LocalLink> in BachusNaurForms.bnf
+                - Finding the target is searching only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern.
+              Example:
+                -->..ReplaceLinks.MaintenanceTasks.."Taskify and estimate"
+            .F2FullLink:
+              Details:
+                - containing both parts, separated by a backslash ("\")
+                - <F2FullLink> in BachusNaurForms.bnf
+              Example:
+                -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks.."Taskify and estimate"<
+        - They consist of F2LinkParts, the FilePathParts first, separated by a "\" (backslash), then a "\", then the YamlPathParts, separated by a "." (dot):
+            Note: this means there is an extra dot between the file path and the first ItemIdentifierPart, e.g. -->MyFile\..MyItem.MyProperty<
+            Part types:
+              FilePathPart: 
+                Details:
+                  - the name of a file or folder
+                  - in case the file's extension is "yml" or "yaml", the extension is omitted.
+              YamlPathParts:
+                ItemIdentifierParts:
+                  Details:
+                    - Each ItemIdentifierPart must start with a "." - dot
+                    - As the separator between YamlPathParts is also a dot, this means an ItemIdentifierPart is preceded by two consecutive dots whenever it follows another YamlPathPart or the file path
+                    - In case there are multiple Items with the same identifier - e.g. an ItemList contains two Items with the same Id - its index is appended after it; numbering starts from 0:
+                        Example:
+                          Consider the following Item:
+                            MyItem:
+                              ItemListProperty:
+                                .<Task>:
+                                  Id: Blah
+                                .<Note>:
+                                  Id: NotBlah                          
+                                .<Article>:                                 
+                                  Id: Blah
+                          Link to the first Blah: -->..MyItem.ItemListProperty..Blah(0)<
+                          To the second Blah (but third Item): -->..MyItem.ItemListProperty..Blah(1)<                          
+                  ItemIdPart: 
+                    Summary: 
+                      the value of the Id property of the StandardItem it references
+                    Example: 
+                      ..Tasks
+                  SummaryPart: 
+                    Summary:
+                    - the value of the Summary property of the StandardItem it references:
+                      - Double quotes escaped as double double quotes
+                    - Wrapped in double quotes
+                    Example:
+                      .."Taskify and estimate"
+                  TypeIdPart:
+                    Summary:
+                      - the Id of the class of the Item
+                      - wrapped in between "<" and ">"
+                    Example:
+                      ..<Task>
+                PropertyIdPart:
+                  Summary:
+                    The Id of a property the previous part references (if it's not a local link starting with a property Id )
+                  Details:
+                    - a PropertyIdPart itself does not start with a dot
+                    - the separator dot before it comes from separating the YamlPathParts
+                    - therefore examples look like `..MyItem.MyProperty`, where `..MyItem` is the ItemIdentifierPart and `.MyProperty` is the separator plus the PropertyIdPart
+                  Example:
+                    .MaintenanceTasks
+        # - Matching and generating:
+        #     Matching:
+        #       Recap: Each link points to either a file/folder, or to a location inside a yaml file containing Item yamls, in particular to an Item or a property of it.
+        #       FilePathParts: 
+        #         Summary:
+        #           - they contain the file system path to the folder/file in question, relative to the root folder of the F2YamlWorkspace. 
+        #           - If the last element is a file AND its extension is "yml" or "yaml", the extension is omitted
+        #       YamlPathParts:
+        #         Summary:
+        #           - they contain the path to the element (Item property or Item header), each part representing an Item or property identifier
+        #         ItemIdPart:
+
+        - Specialities:
+          - The property name of the default ItemList property can be omitted from the YamlPathPart:
+              Example:
+                Consider this Task where the default list property is "SubTasks":                    
+                  .MyTask:
+                    SubTasks:
+                      .MySubTask1:
+                Then both links are pointing to Item MySubTask1:
+                  -->..MyTask.SubTasks..MySubTask1<
+                  -->..MyTask..MySubTask1<
+          - In case of linking to an Item as the value of a (non-list) property with type Item, the Item identifier part can be omitted:
+              Example:
+                Consider this Item - where the "MyItemProperty" has the type "Item":
+                  .MyItem:
+                    MyItemProperty:
+                      .MyAnotherItem:
+                        LinkToThis:
+                Then both links are valid and pointing to LinkToThis:
+                  -->..MyItem.MyItemProperty..MyAnotherItem.LinkToThis<
+                  -->..MyItem.MyItemProperty.LinkToThis<
+          - The trailing backslash ("\") is optional at the end of F2PathLinks            
+      Tasks:                      
+        Done .Problem:_ Link to Items with various headers and properties:
+          +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175753, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+          Details:
+            Consider this Item:
+              .MyItem:
+                MyItemList:
+                  - .<Task>:
                       Id: MyTask
                       Summary: My Task
-                      LinkToThis5: 
-                    .<NonStandardItem>:
-                      LinkToThis6:
-                  MyNonStandardItemList:
-                    - LinkToThis7:
-                    - LinktoThis8:
+                      LinkToThis1: 
+                  - .<NonStandardItem>:
+                      LinkToThis2:
+                  - Id: MyTask
+                    Type: Task
+                    LinkToThis3:
+                  - Type: NonStandardItem
+                    LinkToThis4:  
+                MyItemList2:
+                  .<Task>:
+                    Id: MyTask
+                    Summary: My Task
+                    LinkToThis5: 
+                  .<NonStandardItem>:
+                    LinkToThis6:
+                MyNonStandardItemList:
+                  - LinkToThis7:
+                  - JustAProperty:
+                MyItemProperty:
+                  .<Task>:
+                    Id: MyTask
+                    LinkToThis9:
+                    Status: Done
+                    Summary: My Task
+                MyItemProperty2:
+                  Id: MyTask
+                  LinkToThis10:
+                  Summary: My Task                  
+                MyItemProperty3:
+                  Done .MyTask:
+                    LinkToThis11:
+                MyItemProperty4:
+                  LinkToThis12:
+            How do we create links to the LinkToThis properties?:
+            What are the links generated if the user asks for Id, Summary links? What's the default?:
+          Workspace:
+            Rules:
+              - Recap:                
+                - F2Links are human readable references resembling a filesystem path + yaml path concatenated together, pointing to a folder or file, or a key in the yaml representing a property or the header of an Item inside the yaml files of the f2yaml workspace
+                - consisting of F2LinkParts separated by a "." (for the yaml path parts) or "\" (for FilePathParts):
+                  - the FilePathParts contain the names (without extension) of the Folders and Files in the path to the file it points to, such as:
+                      -->Tasks\Software\F2ToolsExtension\<
+                  - the other parts contain:
+                      values identifying the Item or Property they are pointing to:
+                        Property values of the Item:
+                          - Id
+                          - Summary
+                          - Type
+                        Property Id:
+                      Such as:
+                        -->Tasks\Software\F2ToolsExtension\..MyItem.MyItemListProperty..MySubItemId.MySubItemProp.."SubSub Item Summary"<
+                - the BNF describing it is in -->Documents\F2YamlSpecification\BachusNaurForms\<
+                - They can point to:
+                  - A file or directory
+                  - Yaml mapping pair keys, in particular:
+                    - The header of an Item
+                    - A property of an Item
+                  - Sequence entries:
+                    - if the entry is an Item
+                    - but - at the moment - not if the entry is not an Item:
+                      - sequence notation - so like -->...Tasks.SubTasks[2]< pointing to the 3rd member of the SubTasks list - might be supported at later phases.                  
+              - The user can specify whether they want an "Id" or a "Summary" based link:
+                - Id (or not specified): the Id property is used for generating the F2LinkParts but if it's empty, we fall back to the Summary (and then to Type)
+                - Summary: the Summary property is used for generating the F2LinkParts but if it's empty, we fall back to the Id (and then to Type)
+              - By default - if the user did not specify the type of the link (so Id or Summary):
+                - for Items with header:
+                  - we use the value from the header (so if it's Id, then Id, if Summary, then Summary, if Type, then Type)
+                - for headerless ones:
+                  - if they are the value of a non-list property, we skip the part
+                  - we try to use Id, then Summary, then Type (which always exists)
+              - If there are multiple Items existing with the same value in the property used (if it's Id - then Id) then its number is suffixed to the part
+            The links:
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(0).LinkToThis1<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
+              
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
 
-              How do we create links to the LinkToThis properties?:
-            Workspace:
-              Rules:
-                - Possible non-property F2LinkParts holding the value of the corresponding Item property - if there's:
-                  - Id                  
-                  - Summary
-                  - Type                
-                - During generation, we check whether there's a value in the first, if yes, we use that, otherwise we check the 2nd, etc.
-                - If there are multiple Items exist with the same value in the property used (if it's Id - then Id) then its number is suffixed to the part
-              The links:
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
-                -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
-                -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(0).LinkToThis1<
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<                
+              
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<                
+              
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+            
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..<Task>.LinkToThis9<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..MyTask.LinkToThis9<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty.."My Task".LinkToThis9<
+              
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2..LinkToThis10<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2..MyTask.LinkToThis10<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2.."My Task".LinkToThis10<
+
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3.."My Task".LinkToThis11<
+
+            - Default:     -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+              IdLink:      -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+              SummaryLink: -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+        Done .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:
+          Id: F2LinkMainProblems
+          Details:              
+            Note: 
+              in the meantime (after writing the below problem overview, etc.): 
+                - BelongsTo became "read-only", or, rather, automatically determined by the location of the yaml node
+                - Id uniqueness is not required anywhere (we'll show some warnings though)
+
+            Problem overview:
+              - A convenient notation must be found for references/links pointing to Items residing in Workspace files, organized in a hierarchical structure. This notation should not impose too strict uniqueness constraints, should mimic existing notations, should be easy to learn, understand and use; Convenience is way more important than easy implementation.
+            What needs to be decided are:                
+              What notation should be used to be able to distinguish in between referencing properties of an Item, Items belonging to it and Items being referenced by it, so in case:
+                <MyItemType>:
+                  Id: Banana
+                  Apple: lorem ipsum
+                  DefaultListProp:
+                    - <AnotherItemType>:
+                        Id: Apple
+                    - <AnotherItemType>:
+                        Id: Apple
                 
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
-
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-                -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(1).LinkToThis3<
-                
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
-
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
-                -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<
-                -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
-                
-              - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-
-              - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
-
-              - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(1).LinkToThis8<
-
-
-          Done .Problem:_ F2Link notation (separator of Ids) AND Id uniqueness:            
-            Id: F2LinkMainProblems
-            Details:
-              Problem overview:
-                - A convenient notation must be found for references/links pointing to Items residing in Workspace files, organized in a hierarchical structure. This notation should not impose too strict uniqueness constraints, should mimic existing notations, should be easy to learn, understand and use; Convenience is way more important than easy implementation.
-              What needs to be decided are:                
-                What notation should be used to be able to distinguish in between referencing properties of an Item, Items belonging to it and Items being referenced by it, so in case:
-                  <MyItemType>:
-                    Id: Banana
-                    Apple: lorem ipsum
-                    DefaultListProp:
-                      - <AnotherItemType>:
-                          Id: Apple
-                      - <AnotherItemType>:
-                          Id: Apple
+                <AnotherItemType>:
+                  BelongsTo: -->Banana<
+                  Id: Apple
+                                  
+              What to do if there are multiple Items with the same Id belonging to or  referenced by the same Item:
+                - Should we require that Items belonging to another Item have unique Ids?
+                - Should we require that Items referenced by another Item have unique Ids?
+                - Should we require that both Items belonging to and referenced by another Item have unique Ids?                  
+            Considerations:
+              - Basic situation:
+                - Programming languages overview:
+                    Class hierarchy:
+                      In most OOP programming languages one organizes/references the classes and their members through hierarchies by their Id. Each Id (property name, subclass name) is enforced to be unique, therefore the following notation works and is never ambiguous:
+                          BNF: <fullName> ::= <rootElementId> ("." <nextElementId>)*  
+                          C# example: System.Math.Min(...) #first is a namespace, second is a class, third is a Function
+                    Object hierarchy:
+                      Having some kind of directory of all the objects is at least not widespread, therefore there is no systm-given structure we could use - so we reference them either through the local variables, properties, or we create our own structure for which each time we have our "own" notation depending on what type of structure we created:
+                      Such as in this C# example:
+                        MyBigTask.SubTasks.Single(t => t.Id = "42ndMediumTask").SubTasks.Single(t=> t.Id = "LoremIpsum")
+                - F2Yaml:
+                  - Here on the other hand, the "code" is mostly about manipulating "live" data, referencing Items (and not just classes, properties) very often - i.e. it's like every human is a process (very slowly running on its own thread) which manipulates the objects created from those classes while the program is running and only rarely working on classess and their methods.
+                  - There are special conditions:
+                    - The system mandates that every Item is placed into a hierarchy of Items (the BelongsTo tree, forming a kind of a folder structure where folders and files are the same, so each FolderFile can have children and also content)
+                      - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner - i.e. not Item with InternalId 876465468768 but -->Root.Projects.Barba.Task.
+                      - as this is a program which never stops, we need strict accounting of memory objects; a simple garbage collector based on simple rules (=no reference) is not enough 
+                      - permission handling
+                    - Most Items we work with (Tasks, Requirements, etc) have default list property/ies and we often reference these through the parent(s).Wwe want to see Ids which are compile-time checked, not position in the list (such as a Task have a Task[] SubTasks property):
+                      - What we want as a minimum:
+                          MyBigTask.SubTasks.42ndMediumTask.SubTasks.LoremIpsum
+                      - Current implementation is that since SubTasks is a default list, we can syntax sugar the above by saying that two dots ".." mean that the Id following it is from the property of the parent marked with "isDefault":
+                          MyBigTask..42ndMediumTask..LoremIpsum
+                    - Not all Items have Ids though - but very importantly, we very rarely need to reference them in a human readable form (batch processing by algorithms is a different case)
+              - The goals:
+                - Ideally we do not require that the followings have unique Ids under an Item: 
+                  - Properties of it, 
+                  - Items belonging to it, 
+                  - Items its default property references
+                - Ideally we use the single dot notation for most of the scenarios, but referencing classes and namespaces at least, better if that was the "default" and any special (like the double dot) is special case
+                - 
+              - The options we have:
+                - Requiring some uniqueness in between certain types - e.g. Ids of an Item Belonging to vs. Ids of the Properties:
                   
-                  <AnotherItemType>:
-                    BelongsTo: -->Banana<
-                    Id: Apple
-                                    
-                What to do if there are multiple Items with the same Id belonging to or  referenced by the same Item:
-                  - Should we require that Items belonging to another Item have unique Ids?
-                  - Should we require that Items referenced by another Item have unique Ids?
-                  - Should we require that both Items belonging to and referenced by another Item have unique Ids?                  
-              Considerations:
-                - Basic situation:
-                  - Programming languages overview:
-                      Class hierarchy:
-                        In most OOP programming languages one organizes/references the classes and their members through hierarchies by their Id. Each Id (property name, subclass name) is enforced to be unique, therefore the following notation works and is never ambiguous:
-                            BNF: <fullName> ::= <rootElementId> ("." <nextElementId>)*  
-                            C# example: System.Math.Min(...) #first is a namespace, second is a class, third is a Function
-                      Object hierarchy:
-                        Having some kind of directory of all the objects is at least not widespread, therefore there is no systm-given structure we could use - so we reference them either through the local variables, properties, or we create our own structure for which each time we have our "own" notation depending on what type of structure we created:
-                        Such as in this C# example:
-                          MyBigTask.SubTasks.Single(t => t.Id = "42ndMediumTask").SubTasks.Single(t=> t.Id = "LoremIpsum")
-                  - F2Yaml:
-                    - Here on the other hand, the "code" is mostly about manipulating "live" data, referencing Items (and not just classes, properties) very often - i.e. it's like every human is a process (very slowly running on its own thread) which manipulates the objects created from those classes while the program is running and only rarely working on classess and their methods.
-                    - There are special conditions:
-                      - The system mandates that every Item is placed into a hierarchy of Items (the BelongsTo tree, forming a kind of a folder structure where folders and files are the same, so each FolderFile can have children and also content)
-                        - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner - i.e. not Item with InternalId 876465468768 but -->Root.Projects.Barba.Task.
-                        - as this is a program which never stops, we need strict accounting of memory objects; a simple garbage collector based on simple rules (=no reference) is not enough 
-                        - permission handling
-                      - Most Items we work with (Tasks, Requirements, etc) have default list property/ies and we often reference these through the parent(s).Wwe want to see Ids which are compile-time checked, not position in the list (such as a Task have a Task[] SubTasks property):
-                        - What we want as a minimum:
-                            MyBigTask.SubTasks.42ndMediumTask.SubTasks.LoremIpsum
-                        - Current implementation is that since SubTasks is a default list, we can syntax sugar the above by saying that two dots ".." mean that the Id following it is from the property of the parent marked with "isDefault":
-                            MyBigTask..42ndMediumTask..LoremIpsum
-                      - Not all Items have Ids though - but very importantly, we very rarely need to reference them in a human readable form (batch processing by algorithms is a different case)
-                - The goals:
-                  - Ideally we do not require that the followings have unique Ids under an Item: 
-                    - Properties of it, 
-                    - Items belonging to it, 
-                    - Items its default property references
-                  - Ideally we use the single dot notation for most of the scenarios, but referencing classes and namespaces at least, better if that was the "default" and any special (like the double dot) is special case
+                - Having a different notation for referencing certain types of Items - such as namespaces, classes and methods - than for referencing general Items:
+                    Example: 
+                      We could say:
+                        namespace Root.Projects.Barba.Types:
+                          class SpecialTask:
+                            Inherits: Root.System.Types.Task
+                      Instead of (currently):
+                        -->Root..Projects..Barba..Types<:
+                          class SpecialTask: 
+                            Inherits: -->Root..System..Types..Task<
+                    Analysis:
+                      Pros:
+                      - programmer-style, what we expect notation
+                      - Short(est) possible
+                      Cons:
+                      - Can only reference through the BelongsTo tree, not through the default list one or property one
+                      - A second notation which need to be learned; causes confusion                        
+                - Since the system does not store the references by Id, we can have "hacks" for the cases the uniqueness is broken:
+                  - In case of duplicate Ids: Automatic workspace-wide link rewriting to a form where the Id gets a suffix like MyBigTask..MyTask(0)..MyLittleTask
                   - 
-                - The options we have:
-                  - Requiring some uniqueness in between certain types - e.g. Ids of an Item Belonging to vs. Ids of the Properties:
-                    
-                  - Having a different notation for referencing certain types of Items - such as namespaces, classes and methods - than for referencing general Items:
-                      Example: 
-                        We could say:
-                          namespace Root.Projects.Barba.Types:
-                            class SpecialTask:
-                              Inherits: Root.System.Types.Task
-                        Instead of (currently):
-                          -->Root..Projects..Barba..Types<:
-                            class SpecialTask: 
-                              Inherits: -->Root..System..Types..Task<
-                      Analysis:
-                        Pros:
-                        - programmer-style, what we expect notation
-                        - Short(est) possible
-                        Cons:
-                        - Can only reference through the BelongsTo tree, not through the default list one or property one
-                        - A second notation which need to be learned; causes confusion                        
-                  - Since the system does not store the references by Id, we can have "hacks" for the cases the uniqueness is broken:
-                    - In case of duplicate Ids: Automatic workspace-wide link rewriting to a form where the Id gets a suffix like MyBigTask..MyTask(0)..MyLittleTask
-                    - 
-                - We need to find a notation which:
-                  - In an ideal situaton, would folow the above <rootElementId> ("." <nextElementId>)* notation as that's what programmers are used to, it's easy and optimal to write
-                  - Would not put too much constraints on reassigning the Items 
-                - At the moment no "unique id" constraint is applied to any Children (through BelongsTo), also, the properties and other sub-Items can have the same Id, leading to the problems of:
-                  - A link pointing to an element with Id x can be ambiguous (for the user)
-            Result:              
-              Current best idea:
-                Changes/clarifications:
-                - Id uniqueness: basically no (only Property Id uniqueness)                
-                - In the meantime, it was decided that the BelongsTo and property tree should ~almost mean same - Items now must belong to a parent Item which references them and F2Links can only created through this parent Item, therefore no need for a special notation for the BelongsTo
-                - F2Link notation:
-                  - \"same id" problem is solved by numbering:
-                    - requires that the parser keeps the order of the yaml map keys
-                    - we simply add a suffix (see the numbering definition in the result of one of the below problems)
-                  - 2 separator types:
-                      ".": the following element is a Property Id #or an Item
-                      "..": the following element is an Item Id #where the Item is a member of the default list of the previous element
-                      #"<-": the following element is an Item Id where the Item BelongsTo the previous element
-                  - non-uniqueness handling:
-                    - at generation: if duplicate ids, use the numbering
-                    - at following (=in the meantime it became non-unique): use the numbering
-                Example:
-                  MyItem:
-                    MyItemListProp:
-                      OneItem:
-                          Done .Blah:
-                            MyTargetProp: lorem
-                      OneItem2:
-                          Status: Done
-                          Id: Blah
+              - We need to find a notation which:
+                - In an ideal situaton, would folow the above <rootElementId> ("." <nextElementId>)* notation as that's what programmers are used to, it's easy and optimal to write
+                - Would not put too much constraints on reassigning the Items 
+              - At the moment no "unique id" constraint is applied to any Children (through BelongsTo), also, the properties and other sub-Items can have the same Id, leading to the problems of:
+                - A link pointing to an element with Id x can be ambiguous (for the user)
+          Result:
+            Current best idea:
+              Changes/clarifications:
+              - Id uniqueness: basically no (only Property Id uniqueness)                
+              - In the meantime, it was decided that the BelongsTo and property tree should ~almost mean same - Items now must belong to a parent Item which references them and F2Links can only created through this parent Item, therefore no need for a special notation for the BelongsTo
+              - F2Link notation:
+                - \"same id" problem is solved by numbering:
+                  - requires that the parser keeps the order of the yaml map keys
+                  - we simply add a suffix (see the numbering definition in the result of one of the below problems)
+                - 2 separator types:
+                    ".": the following element is a Property Id
+                    "..": the following element is an Item Id
+                - non-uniqueness handling:
+                  - at generation: if duplicate ids, use the numbering
+                  - at following (=in the meantime it became non-unique, but the link does not have numbering): display warning
+              Example:
+                MyItem:
+                  MyItemListProp:
+                    OneItem:
+                        Done .Blah:
                           MyTargetProp: lorem
-                      ItemList:
-                        - Id: Blah
-                          MyTargetProp: lorem
-                        - Id: Blah
-                          MyTargetProp: lorem
+                    OneItem2:
+                        Status: Done
+                        Id: Blah
+                        MyTargetProp: lorem
+                    ItemList:
+                      - Id: Blah
+                        MyTargetProp: lorem
+                      - Id: Blah
+                        MyTargetProp: lorem
 
-                  -->Example.QueryDescription.MyItemListProp..OneItem..Blah.MyTargetProp<:
-                  -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<:
-                  -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<: 
-                  -->Example.QueryDescription.MyItemListProp..Bumm<:
-          Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
-            Details:                
-              For example in this case:
-                Done .MyTask:
-                  Done .MySubTask:
-                    Id: MySubTask
-                ...:
+                -->Example.QueryDescription.MyItemListProp..OneItem..Blah.MyTargetProp<:
+                -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<:
+                -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<: 
+                -->Example.QueryDescription.MyItemListProp..Bumm<:
+        Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
+          Details:                
+            For example in this case:
+              Done .MyTask:
                 Done .MySubTask:
                   Id: MySubTask
-                  BelongsTo: MyTask
-                
-              Notes:
-                - The problem arises only in the "workspace" files as the system stores the Item references (to each-other) in a "proper" way, not affected by the value of their Id/Summary properties
-                - By default, the "A..B" notation means that B BelongsTo A
-            Workspace:
-              Ideas:
-                - Using a special notation in this case for the Item in the Default list property, such as:
-                    - A...B
-                    - A.-.B
-                - Explicitly specifying the list property in this case:
-                    - A.SubTasks.B
-            Result:
-              Solved by not allowing the BelongsTo to be changed; all Items belong to the Item under which they are defined.
-          Done .Problem:_ Linking to an element having the same Id (or Summary) as one of its "sibling":
-            Details:
-              For example in this case:
-                TODO .MyTask:
-                  TODO .MySubTask:
-                    Id: MySubTask
-                  TODO .MySubTask1:
-                    Id: MySubTask
-              Problems:
-                Problem1: Where does the link "MyTask..MySubTask" point to?
-                Problem2: How to generate an Id link?
-              Notes:
-                - The problem arises only in the "workspace" files as the system stores the Item references (to each-other) in a "proper" way, not affected by the value of their Id/Summary properties
-                - Problem1: this should happen only if the workspace is disconnected from the system and the metadata is lost OR the user replaces the content in such a way that it's not clear which Item was the first and which one the other one - e.g. it's "new" content, no InternalIds yet and it's a copy-paste from another, external location                  
-            Workspace:
-              Ideas:
-                - Problem1: we don't really care as following the link should still work in most cases; in "tricky" content-replace cases the user should take care.
-                - Problem2:
-                    Numbering:
-                    - In both cases we display both of the Ids as:
-                      (BNF): 
-                          <DisplayId> ::= <Id> <UniqueNumber>
-                          <UniqueNumber> ::= "(" [0..9]+ ")"
-                      Example: MySubTask(0)
-                    - The link pointing to it will be MyTask..MySubTask(0)
-                    - In case any of the Items (having the same Ids) are removed from the lists we discard the "()"                    
-            Result:
-              We number only the link part and do not change the value of the Id (or summary) property:
-                - Id property: attach a "(N)" suffix to the IdString if this is the (N+1)th of the same Ids; numbering starts from 0.
-                - Summary property: same, but suffix is after the ending quotation mark of the SummaryPart
-              Following:
-                - we go to the nth. 
-              Problems:
-                - if the user removes any preceding, the link becomes invalid; this can be solved by the environment where changes are tracked live
-                - same if adding or renaming              
-          Done .Problem:_ How should we handle the case if ItemB BelongsTo ItemA, but their definition do not reside in the same file:
-            Details:
-              Example:
-                In MyFile1:
-                  <Task> .ItemA:
-                In MyFile2:
-                  <Task> .ItemB:
-                    BelongsTo: -->MyFile1\..ItemA<
-              Problems:
-                Problem1: What's the link to ItemB?
-            Workspace:
-              Ideas:
-                Idea1:
-                - -->MyFile2\..ItemA..ItemB<: opens the file MyFile2
-                - -->MyFile1\..ItemA..ItemB<: opens the file MyFile1
-            Result:
-              - Idea1 seems to be fine.
-              - Update: BelongsTo can't be changed any more.
-          Done .Problem:_ Linking to an element under an Item update:
-            Details:
-              Such as, in Barba.Types, link to Item:
-                -->Root..System..Types<:
-                  Status: Done                  
-                  ItemDefinitions:
-                    class Item:
-                      blahlablah: blah
-              Problems:
-                - It's a link in a link - is it fine? So e.g. it would be -->Barba.Types\-->Root..System..Types<.Summary< - I think it is actually.
-              Result:
-                We do not allow linking to an update as it's a description of an operation which would result in an Item to be created, not the Item itself.
-          Done .Decide:_ Should we have separate Workspace links and Item references:
-            Details:
-              - Item references could use the simple dot notation and the BelongsTo tree only - so no referencing through property values
-              - F2Links would use the double dot notation
-              - 
-            Result:
-              - F2Links are for file + item + property + member of property, in the workspace; no belongsto support
-              - in the background we store references, but we convert them into F2Links when written into the workspace
-          Done .Decide:_ Should we allow Items with the same Ids belonging to the same Item?:
-            Details:
-              - We made the decision that we should, on the other hand, this might not be too convenient. We need to collect pros-cons for both.              
-            Workspace: yep, but we warn.
-        Workspace:
-          Sandbox:
+              ...:
+              Done .MySubTask:
+                Id: MySubTask
+                BelongsTo: MyTask
+              
+            Notes:
+              - The problem arises only in the "workspace" files as the system stores the Item references (to each-other) in a "proper" way, not affected by the value of their Id/Summary properties
+              - By default, the "A..B" notation means that B BelongsTo A
+          Workspace:
+            Ideas:
+              - Using a special notation in this case for the Item in the Default list property, such as:
+                  - A...B
+                  - A.-.B
+              - Explicitly specifying the list property in this case:
+                  - A.SubTasks.B
+          Result:
+            Solved by not allowing the BelongsTo to be changed; all Items belong to the Item under which they are defined.
+        Done .Problem:_ Linking to an element having the same Id (or Summary) as one of its "sibling":
+          Details:
+            For example in this case:
+              TODO .MyTask:
+                TODO .MySubTask:
+                  Id: MySubTask
+                TODO .MySubTask1:
+                  Id: MySubTask
+            Problems:
+              Problem1: Where does the link "MyTask..MySubTask" point to?
+              Problem2: How to generate an Id link?
+            Notes:
+              - The problem arises only in the "workspace" files as the system stores the Item references (to each-other) in a "proper" way, not affected by the value of their Id/Summary properties
+              - Problem1: this should happen only if the workspace is disconnected from the system and the metadata is lost OR the user replaces the content in such a way that it's not clear which Item was the first and which one the other one - e.g. it's "new" content, no InternalIds yet and it's a copy-paste from another, external location                  
+          Workspace:
+            Ideas:
+              - Problem1: we don't really care as following the link should still work in most cases; in "tricky" content-replace cases the user should take care.
+              - Problem2:
+                  Numbering:
+                  - In both cases we display both of the Ids as:
+                    (BNF): 
+                        <DisplayId> ::= <Id> <UniqueNumber>
+                        <UniqueNumber> ::= "(" [0..9]+ ")"
+                    Example: MySubTask(0)
+                  - The link pointing to it will be MyTask..MySubTask(0)
+                  - In case any of the Items (having the same Ids) are removed from the lists we discard the "()"                    
+          Result:
+            We number only the link part and do not change the value of the Id (or summary) property:
+              - Id property: attach a "(N)" suffix to the IdString if this is the (N+1)th of the same Ids; numbering starts from 0.
+              - Summary property: same, but suffix is after the ending quotation mark of the SummaryPart
+            Following:
+              - we go to the nth. 
+            Problems:
+              - if the user removes any preceding, the link becomes invalid; this can be solved by the environment where changes are tracked live
+              - same if adding or renaming
+        Done .Problem:_ How should we handle the case if ItemB BelongsTo ItemA, but their definition do not reside in the same file:
+          Details:
             Example:
-              RootItem:
-                <Task>:      
-                  Id: MyItem
-                  Summary: First Item
-                  InternalId: <13421234-1234234-243-1234> #guid
-                  .<Task>:
-                    Id: MySubItem
-                    Summary: Sub Item of First Item
-                    InternalId: <132980135-2134123-42136> #guid
-                TODO I like "quotes" and backslashes like this \:        
-                TODO I like "quotes" and backslashes like these \ and atdollars @$:
-                TODO My colons are clean - I mean these:_ "::", not my guts:
-                # TODO .First Item:
-                #   Id: MyItem
-                #   InternalId: <13421234-1234234-243-1234>
-                TODO .MyItem:
-                  Id: MyItem2
-
-          Link as the value of a property:
-            Notes: 
-              - Links can appear at 3 places:
-                - as a value:
-                      SomeProperty: -->Root."Item summary"<
-                - as a key:
-                    -->Root."Item summary"<: 
-                - as inside a text:
-                    SomeProperty: this is a link:_ $@Root."Item summary"@$ and there's more text
-              - 
-              - you can only link to a yaml key - so not to an element of a sequence.
-              - all links can have a "text" part, serving like the DisplayText part in html <a href="">DisplayText</a>, although this should not be necessary in most cases as the link itself should be human readable and contain the information about what it is pointing to.
-
-            Direct link with note:
-              -!>{132980135-2134123-42136}, "Note"<
-            Approximate link:
-              ~-><
-            Hierarchical link:
-              Full path:
-                -->!PublicWorkspace\Bobi\RootItem."First Item".{132980135-2134123-42136}<
-              Relative path:
-                Example:
-                  Consider the following structure:
-                    .Apple:
-                      .Banana:
-                        .Cauliflower: ~->"Blue Berry"<
-                        .Cherry: -->.\Cucumber<
-                        .Cucumber: -->..\BlueBerry<
-                        -->..\BlueBerry<:
-                          Note: this property is part of Item "Blue Berry" with this value of the note as well. Not the best practice though, so probably will only be allowed in temporary locations (e.g. in your workspace or when issuing commands), not in the storage of Items (so e.g. in Backlog)                    
-                      .Blue Berry:
-                        Id: BlueBerry                                  
-                
-            
-            Quotes in summary:
-              -->!PublicWorkspace\Bobi\RootItem."I like ""quotes"" and backslashes like this \"<
-
-
-
-          Link inside a text:
-            This is a text $@!PublicWorkspace\Bobi\RootItem."Implement the ""escaping"" with @$"@$ and it continues here
-
-          Colon inside a text:
-
-          Escaping Rules: |
-            "": "
-
-          Double dots shit sandbox:
-            MyFolder\Thisisadot.my\My Yaml\:
-            Comments:
-              Bobi: This is a file I like.    
-            TODO .Root:
-              Summary: This is the summary of Root #First
-              TODO .Summary: #Second
-                Id: Summari
-                Type: Task
-              TODO .Sum Mary: #Third
-                Id: Summary
-                Type: Task
-              LinkToAnItem: -->MyFolder\Thisisadot.my\My Yaml\..OtherItem<
-            TODO .OtherItem:
-              PropOfOther:
-              .SubOtherItem:
-              
-              - -->MyFolder\.Root<
-
-            Links:
-              #First - through the property name:
-              - -->MyFolder\Thisisadot.my\My Yaml\..Root.Summary< #link to the first - to the Summary property
-
-              #Second - through the value of the Summary property of the Task ("Summary"):
-              - -->MyFolder\Thisisadot.my\My Yaml\..Root.."Summary"< #link to the property with .Summary in the header
-
-              #Third - through the value of the Id property of the Task ("Summary"):
-              - -->MyFolder\Thisisadot.my\My Yaml\..Root..Summary< #link to the property with .Sum Mary in the header
-
-            Pseudocodeshit: |
-              string GetOrGenerateLiink(filename, cursorposition)
-              {
-                if (isThisF2YamlLink(cursorPosition, currentDocument))
-                  return GetF2YamlLinkAtCursor(cursorPosition, currentDocument)
-                else return GenerateLinkFrom(filename, cursorposition);
-              }
-              
-              string GenerateLinkFrom(filename, cursorposition)
-              {
-                string[] pathElements = GetPathElementsFrom(filename) //
-                string fileNamePart = "";
-                foreach (var pathElement in pathElements)
-                  fileNamePart = pathElement + "\";
-                string idLinkPart = ""; //missing:_ what if the cursor is on a property
-
-                Item currentItem = GetItemAtCursorPosition(filename, cursorposition)
-                while (true)
-                {
-                  idLinkPart = GetIdOrSummaryPartFromItem(currentItem) + idLinkPart;
-                  currentItem = GetParentItemOf(currentItem);
-                  if (currentItem is null)
-                    break;
-                }
-                
-                return fileNamePart + idLinkPart;
-              }
-
-              string GetIdOrSummaryPartFromItem(Item item)
-              {
-                if (item.Id is not null)
-                  return ".." + item.Id.Value;
-                else if (item.Summary is not null)
-                  return ".." + """" + item[Summary].Value + "\"";
-              }
-
-              Item GetItemAtCursorPosition(filename, cursorposition)
-              {
-                //- returns an Item in a form of a Map<string, object>, where the keys are the property names and the values are the values of those properties
-                //- able to understand a yaml representation of an Item where the Item is rendered as a yaml mapping in a way that:
-                //  - the key contains:
-                //    - the value of the Status property as the first word
-                //    - the value of the Summary property from the second word
-                //  - the value contains mappings where:
-                //    - the key is the name of a property
-                //    - the value is the value of the property
-                //- it decides whether the Item is represented like above or not based on whether the first word is part of the [NameOfTheIgnoreList]
-              }
+              In MyFile1:
+                <Task> .ItemA:
+              In MyFile2:
+                <Task> .ItemB:
+                  BelongsTo: -->MyFile1\..ItemA<
+            Problems:
+              Problem1: What's the link to ItemB?
+          Workspace:
+            Ideas:
+              Idea1:
+              - -->MyFile2\..ItemA..ItemB<: opens the file MyFile2
+              - -->MyFile1\..ItemA..ItemB<: opens the file MyFile1
+          Result:            
+            - BelongsTo can't be changed any more, so no problem.
+        Done .Problem:_ Linking to an element under an Item update:
+          Details:
+            Such as, in Barba.Types, link to Item:
+              -->Root..System..Types<:
+                Status: Done                  
+                ItemDefinitions:
+                  class Item:
+                    blahlablah: blah
+            Problems:
+              - It's a link in a link - is it fine? So e.g. it would be -->Barba.Types\-->Root..System..Types<.Summary< - I think it is actually.
+            Result:
+              We do not allow linking to an update as it's a description of an operation which would result in an Item to be created, not the Item itself.
+        Done .Decide:_ Should we have separate Workspace links and Item references:
+          Details:
+            - Item references could use the simple dot notation and the BelongsTo tree only - so no referencing through property values
+            - F2Links would use the double dot notation            
+          Result:
+            - F2Links are pointing to a file or a key in the yaml representing a property or the header of an Item inside the files of the f2yaml workspace, 
+            - in the background we store references, but we convert them into F2Links when written into the workspace
+        Done .Decide:_ Should we allow Items with the same Ids belonging to the same Item?:
+          Details:
+            - We made the decision that we should, on the other hand, this might not be too convenient. We need to collect pros-cons for both.              
+          Workspace: yep, but we warn.
 
   1-SomeProgress Must .Semantics:
     5-Done .No "update Items when assigning them as value":
@@ -1357,37 +1386,37 @@ Done .Notes:
               ->Root<:
                 MyItem:
                   MyProp: My new value
-    4-AlmostDone .Omitting the type specification:
+    4-AlmostDone .Omitting the type declaration:
       Content:
         Details:
           In most cases where the Type of an Item yaml can be determined from its context, it can be omitted.
-        .Assigning a value to a Property having a Type from which no other Types derive from:        
-          Status: 5-Done
-          Content:
-            Details:
-              
-            Examples:
-              class MyItemType:
-                Inherits: ItemWithId
-                Properties: 
-                  string SomeProp:
-                Flags: IsSealed #representing that other classes can't be inheriting from this class
+      .Assigning a value to a Property having a Type from which no other Types derive from:
+        Status: 5-Done
+        Content:
+          Details:
+            
+          Examples:
+            class MyItemType:
+              Inherits: ItemWithId
+              Properties: 
+                string SomeProp:
+              Flags: IsSealed #representing that other classes can't be inheriting from this class
 
-              class MyClass:
-                Properties:
-                  MyItemType MyItem:
-                  ItemWithId SomeItemWithId:
-                  MyItemType[] MyItems:
+            class MyClass:
+              Properties:
+                MyItemType MyItem:
+                ItemWithId SomeItemWithId:
+                MyItemType[] MyItems:
 
-              <MyClass>:
-                SomeItem: {SomeId1: {SomeProp: "lorem ipsum"}} #valid
-                SomeItemWithId: {SomeId2: {SomeProp: "lorem ipsum"}} #invalid - missing type
-                MyItems:
-                  - SomeId3:
-                      SomeProp: "lorem ipsum"
-                  - SomeId4: {SomeProp: "lorem ipsum"}
-          Type restrictions imposed by the "Folder.DefaultTypes" setting:
-            TODO 
+            <MyClass>:
+              SomeItem: {SomeId1: {SomeProp: "lorem ipsum"}} #valid
+              SomeItemWithId: {SomeId2: {SomeProp: "lorem ipsum"}} #invalid - missing type
+              MyItems:
+                - SomeId3:
+                    SomeProp: "lorem ipsum"
+                - SomeId4: {SomeProp: "lorem ipsum"}
+        Type restrictions imposed by the "Folder.DefaultTypes" setting:
+          TODO 
     5-Done .InlineItemBelongsTo:
       Content:
         Details:

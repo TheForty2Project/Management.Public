@@ -1,18 +1,21 @@
 #F2Link:
-<F2Link>                    ::= F2LocalLink | F2FullLink | F2PathLink
-<F2LocalLink>               ::= "-->." <YamlPath> "<" 
+<F2Link>                    ::= <F2LocalLink> | <F2FullLink> | <F2PathLink>
+<F2LocalLink>               ::= "-->" <YamlPath> "<" 
 <F2FullLink>                ::= "-->" <FilePath> "\\" <YamlPath> "<"
 <F2PathLink>                ::= "-->" <FilePath> "\\"? "<"
 <FilePath>                  ::= (<FilePathPart> "\\")* <FilePathPart>
 <FilePathPart>              ::= <FileNameChar>+
 <YamlPath>                  ::= <YamlPathPart>+
-<YamlPathPart>              ::= "." (<PropertyIdentifier> | ("." <ItemIdentifier>))
+<YamlPathPart>              ::= <PropertyPathPart> | <ItemPathPart>
+<PropertyPathPart>          ::= "." <PropertyIdentifier>
+<ItemPathPart>              ::= ".." <ItemIdentifier> ("(" <NumberChar>+ ")")?
 <PropertyIdentifier>        ::= <IdString>
-<ItemIdentifier>            ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary>
+<ItemIdentifier>            ::= <ItemIdentifierWithId> | <ItemIdentifierWithGUID> | <ItemIdentifierWithSummary> | <ItemIdentifierWithTypeId>
 <ItemIdentifierWithId>      ::= <IdString>
 <ItemIdentifierWithGUID>    ::= "{" <IdString> "}"
-<ItemIdentifierWithSummary> ::= '"' <AnyCharMinusNl>+ '"' #in this double quotes should be escaped to double-double quotes - not sure how to write this in BNF
-<FileNameChar>              ::= ? the characters which are valid as filename character on both Linux and Windows systems?
+<ItemIdentifierWithTypeId>  ::= "<" <IdString> ">"
+<ItemIdentifierWithSummary> ::= '"' <AnyCharMinusNL>+ '"' #in this double quotes should be escaped to double-double quotes - not sure how to write this in BNF
+<FileNameChar>              ::= ? the characters which are valid as filename character on both Linux and Windows systems; including the dot?
 
 #Item yaml header:
 <ItemYamlHeader>            ::= <TypeIdHeader> | <IdHeader> | <SummaryHeader>
@@ -22,7 +25,7 @@
 <ItemClassId>               ::= <IdString>
 <Prefixes>                  ::= (<Prefix> <Separator>+)*
 <ItemId>                    ::= <IdString>
-<ItemSummary>               ::= <AnyCharMinusNl>+
+<ItemSummary>               ::= <AnyCharMinusNL>+
 <Prefix>                    ::= <IdString>
 <Separator>                 ::= " " | "\t"
 

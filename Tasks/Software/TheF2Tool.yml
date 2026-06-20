@@ -271,7 +271,7 @@ InProgress .MVPLeftAsOf20250730:
     TODO .F2Link upgrades:
       TODO .Make F2Link support pointing to an Item in the default list property of the preceding Item:
         Details:
-          See @ $@-->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or Links"..F2Link.Tasks.."Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id."<@$
+          See @ $@-->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or F2Links"..F2Link.Tasks.."Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id."<@$
     TODO .FunctionGenerator.GetFunctionFromStaticMethodInfo(MethodInfo? method) should ask for BelongsTo:
     TODO .The parser should expect that in later stages there will be meta info coming along the yaml:
       Details: |

@@ -142,11 +142,21 @@ SR_20260616_Hana:
     - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - Fix 720 p for discord
-SR_NEXT_Hana:
+SR_20260617_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260616 T 160811 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 16m, "", 20260616 T 160811 ]
     - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 19m, "", 20260616 T 182639 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 77m, "", 20260616 T 182721 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 6m, "", 20260617 T 145957 ]
 
+  Next:
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]
+    - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 0m, "", 20260617 T 145349 ]
+    - -->Tasks\Management\.." Review the belongs to section in F2yaml.yml"<:
+
+
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260617 T 151527 ]
   Next:
     - null

@@ -124,13 +124,14 @@
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191044, By: Bobi, Estimation: 10, RemTime: 10}
   NEXT .Finish the csv generation task:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191255, By: Bobi}
-  TODO .Prepare for streaming today:
-    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 192430, By: Bobi, Estimation: 20, RemTime: 20}        
+  InProgress .Prepare for streaming today:
+    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 192430, By: Bobi, Estimation: 20, RemTime: 20}
     Workspace:
-      Summary: 
-      Time:
-      What will be the streaming about:    
+      Stream summary: 
 
+      Time: 24:00
+      What will be the streaming about: 
+ 
 
 
 -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<:            

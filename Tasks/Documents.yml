@@ -8,10 +8,12 @@
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 185841}
     InProgress .Finish the F2Yaml.MVP specification:
       +: {CreatedBy: Bobi, CreatedAt: 20260616 T 155226, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}  
-      TODO .F2Links spec:        
-        +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175620, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      InProgress .F2Links spec:        
+        +: {CreatedBy: Bobi, CreatedAt: 20260616 T 175620, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime: 0}
         Details:
-          Here: 
+          Here: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."4-AlmostDone Must .Item references or F2Links"<
+        TODO .Add the part about Item headers and prefixes:
+          +: {CreatedBy: Bobi, CreatedAt: 20260618 T 145829, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
       TODO .Specification:_ headers support in Items:
         +: {CreatedBy: Bobi, CreatedAt: 20260605 T 003628, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
 

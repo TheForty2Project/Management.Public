@@ -214,7 +214,7 @@ SR_20260530_Bobi:
   Was:
     - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 60m, "", 20260529 T 135528 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Verifies query"<: [ 40m, "", 20260529 T 191156 ]
-    - -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or Links"..F2Link.Tasks..F2LinkMainProblems<: [ 30m, "", 20260529 T 000042 ]
+    - -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or F2Links"..F2Link.Tasks..F2LinkMainProblems<: [ 30m, "", 20260529 T 000042 ]
     - Task about figuring out what the Id and Summary properties should contain based on the value in the header: [ 40m, "", 20260529 T 000042 ]
   Next:
     - null
@@ -310,11 +310,70 @@ SR_20260616_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
 
-SR_NEXT_Bobi:
+SR_20260617_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 16m, "", 20260616 T 160542 ]
-    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<: [ 4m, "", 20260616 T 175054 ]
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 144m, "", 20260616 T 175025 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 1m, "", 20260616 T 175517 ]
-    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 53m, "", 20260616 T 175625 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 5m, "", 20260617 T 141952 ]
+  Next:
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 30m, "Write a summary" ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 20m ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
+
+SR_20260618_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 16m, "", 20260617 T 151253 ]
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 102, "Reached the AlmostDone state", 20260617 T 013000 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260618 T 145542 ]
+  Next:
+    - PersonalTasks:
+        - Decide about the new booking and Malvin
+        - Cook
+        - Clean Cesar
+        - Gym
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 30m ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
+
+SR_20260619_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260618 T 150259 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 11m, "", 20260618 T 153500 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 78m, "", 20260618 T 154600 ]
+    - -->Management.Public\Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 10m, "", 20260619 T 025005 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 30m, 20260619 T 030005 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260619 T 145542 ]
+  Next:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 30m, "In the middle; finishing and then wrapping up" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"< [1h]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV< [1h, "anything missing"]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: []
+
+SR_20260620_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 16m, "", 20260619 T 150315 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 100m, "First run; bufgixing", 20260620 T 205742 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query"<: [ 100m, "First run; bugfixing", 20260620 T 205836 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..TextOutput.."Upgrade the logger to be a log output"<: [ 15m, "", 20260619 T 230042 ]
+    - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification".."F2Links spec"<: [ 30m, "Reached the AlmostDone state", 20260619 T 013000 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 15m, "", 20260620 T 210345 ]
+  Next:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 30m, "In the middle; finishing and then wrapping up" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: []
+    - -->Tasks\Management\.."General management".."Task Administration"<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"< [1h]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV< [1h, "anything missing"]
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260620 T 211932 ]
   Next:
     - null

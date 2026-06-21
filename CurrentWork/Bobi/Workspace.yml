@@ -1,6 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
-DecisionAppScribbles:
+.DecisionAppScribbles:
   Workspace:
     ideas:
       flowchart:
@@ -11,16 +11,12 @@ DecisionAppScribbles:
     [Alma]:
     {Blma: Clma}: gecike
 
-CurrentTasksMinimal:
+.CurrentTasksMinimal:
   Type: QueryDescription
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
   From: [-->Tasks\<]
-  Where: 
-    TaggedBy: [CSV]
-    ItemType: [Task, Bug]
-    SkipUnder: [-->Tasks\Archive\<]
 
-CurrentTasks:
+.CurrentTasks:
   Id: CurrentTasks
   Summary: Current Tasks  
   Type: QueryDescription

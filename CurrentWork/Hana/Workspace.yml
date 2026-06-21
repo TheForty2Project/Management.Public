@@ -222,6 +222,7 @@ Fast Thoughts:
     Details:
       - The first agreement was kept to no weed till there are sonm work done
       - Today is the 2nd agreement. It should be kept and strengthen the neuron network on the locigal thread of no smoking = higher probabilities in having work done 
+      - 3rd agreement Sunday 20260621 
     Things to mention:
         - Add stand up to your daily schedule:
           Details:
@@ -239,51 +240,69 @@ Fast Thoughts:
             - Planning to Schedule for Salad
             - Reply to the Airbnb Lenka
 
-Templates of healthlog:
-  .MealLogs:
-    - Time: 0800 
-      Description: Eggs and rice
-      HungerBefore: 2-Low
-      HungerAfter: 1-VeryLow
-      Amount: 2-Low
-    - Time: 1000
-      Description: 
-      HungerBefore:
-      HungerAfter:
-      Amount:
-    - Time: 
-      Description:
-      HungerBefore:
-      HungerAfter:
-      Amount:
-  .MoodLog:  
-    - Time: 
-      PeriodLengthInHrs:
-      Irritability:
-      Drowsiness:
-      Foggyness:
-      TummyGassesFeel:
-      Bloatedness:
-      Burping:
-      Farting:
-      Headache:
-      Hornyness:
-  .PoopikaLog:
-    - Time:
-      Type:
-  .ExerciseLog:
-    - Time: 
-      Category:
-      Garmin Link:
-  .Dlog:
-    - Time:
-      NotableThings:
-  .SupplementLog:
-  - Time: 20260615 T 001342
-    What:
-      - Magnesium bizglicinate 500mg
-  - Time: 20260615 T 08
-    What:
-    
+Standup Process:
+    .StandupProcess:
+      Type: ProcessDescription
+      Summary: Description of the standup process along with preparation for it using F2Tool
+      Actors:
+        - you
+        - Other Expected Participants
+      Prerequisites:
+        .F2ToolsExtension: The F2Tools extension is installed
+    .StandUpPreparation:
+      Summary: Preparation for the stand-up meeting should be completed before the meeting starts.
+      Situation:
+        .GitBasedF2Workspace: you're working as per the $@WorkProcesses.GitBasedF2Workspace@$ work process
+      Steps:
+        .Before Meeting:
+          - SpecifySRItem:
+            Summary: Select the Standup Report that will receive the logged time.
+            Cases:        
+              - NewUser: Create a new Standup Report for today.
+              - ExistingUser: Continue using SR_NEXT_[username]. - Update NEXT to the current date (yyyymmdd).
+            Actors: you
+            Steps:    
+              - Create a new Standup Report or update SR_NEXT_[username]. 
+              - Name new reports using: 
+                - SR_[yyyymmdd]_[username] 
+                - Example: SR_20250114_Bobi 
+              - For multiple standups on the same day: 
+                - SR_20250114_Bobi_1 
+                - SR_20250114_Bobi_2 
+              - Place the cursor on the Standup Report item. - Run "Specify Standup Report": 
+              - Command Palette (Ctrl+Shift+P) 
+              - Select "Specify Standup Report" 
+              - Or use shortcut Ctrl+S+R
+          - StartOrSwitchToTask:
+            Summary: Start working on/switching to a new Task
+            Prerequisite: SpecifyStandupReport
+          - StopTask:
+            Summary: Stop working on a Task you already started working on
+            Situation: You want to pause/stop working on a Task
+            Steps:
+              - Place the cursor either:
+                - On the task link, or 
+                - On the task itself
+                - Issue the command "Stop Task" from the command palette (ctrl + shift + P)
+          - Add StandUp preparation Task:
+            Summary: Track the time spent preparing for the standup.
+            Step: 
+              - Add -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: 
+              - Log the time spent preparing for the standup meeting.
+        .During Meeting: 
+            Steps:
+              - Ensure the preparation task has been stopped and its time logged:
+              - Start -->Tasks\Management\.."General management".."Standup related".."Standup"<: 
+              - Participate in the standup meeting. - Stop the Standup task when the meeting ends:
+        .After meeting:
+          Steps: 
+            - Create new SR entry with SR_NEXT_[Username]:
+            - Log your current tasks here:
+        .Repeat the process:
+          Summary: Repeat this workflow for each standup meeting.
+Healthschedule: 
+  - Focus on increase VO2 Max
+  
+              
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

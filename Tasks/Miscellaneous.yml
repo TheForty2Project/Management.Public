@@ -139,6 +139,8 @@ OnGoing .Health:
     +: {CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
     Details:
       Perform the followings:
+        InProgress .Analyse Health Data:
+          +: {CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [CSVTODO], Estimation: 180m, RemTime: 180m}       
         OnGoing .Schedule Health Analysis sessions(Live):
           Details:
             Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< 
@@ -246,11 +248,9 @@ OnGoing .Health:
                 Details:
                   The effects of it - how much it was felt                
   
-  OnGoing .Family problem Solving:
-    +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
-    Details: 
-      Write down the steps that are created by Tota and you
-    TODO .Write a letter describing the events that happened in the past and what is the current goal and what are their current goals:
+ 
+
+
   .Schedules:
     Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}

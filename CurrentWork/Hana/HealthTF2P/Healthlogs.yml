@@ -1179,8 +1179,6 @@ HealthLog20260608Bobi:
   .Analysis:
     - Smoke before sleeping
   .TODOs:
- 
-
 HealthLog20260609Hana:
   .Cycle Day:  Follicular
   .Wake up:
@@ -1443,31 +1441,515 @@ HealthLog20260616Bobi:
       GarminLink: https://connect.garmin.com/app/sleep/2026-06-16/0
 HealthLog20260617Hana:
   .MealLogs:
-  
+    - Time: 07:02
+      Description: Egg, Yogurt, Banana
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: one boiled egg, one yogurt. Banana
+    - Time: 16:00
+      Description: Rice, Fish in foil with herbs
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 100grice, half africai fish, Pancake
+    - Time: 21:30
+      Description: proteinshake, yogurt 
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 10g protein, 0.5 yogurt
   .MoodLog:  
-    
+    - Time: 08:00
+      PeriodLengthInHrs: 08:00-18:00
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+    - Time: 23:00
+      PeriodLengthInHrs: 23:00-02:00
+      Sensitivity: 4-High
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
   .PoopikaLog:
-    
+    - Time: 08:30
+      Type: Type5
+    - Time: 21:00
+      Type: Type 5
   .ExerciseLog:
-   
+    - Time: 183038
+      Category: Recovery run ( low sleep score)
+      GarminLink: https://connect.garmin.com/app/activity/23287923428   
   .Dlog:
-   
+   n/a
   .SupplementLog:
-   
-  .SleepLogs:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:22
+      GarminLink:  https://connect.garmin.com/app/sleep/2026-06-17/0 
 HealthLog20260617Bobi:
   .MealLogs:
-  
+    - Time: 07:02
+      Description: Egg, Yogurt, Banana
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: one boiled egg, one yogurt. Banana
+    - Time: 16:00
+      Description: Rice, Fish in foil with herbs
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 100grice, half africai fish, Pancake
+
   .MoodLog:  
-    
+    - Time: 08:00
+      PeriodLengthInHrs: 08:00-18:00
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+    - Time: 23:00
+      PeriodLengthInHrs: 23:00-02:00
+      Sensitivity: 4-High
+      Irritability:  4-High
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 4-High
+      Bloatedness: 4-High
+      Farting: 4-High
+      Headache: 2-Low
+      Hornyness: 2-Low
   .PoopikaLog:
-    
+    - Time: 
+      Type: 
+
   .ExerciseLog:
-   
+    - Time: 
+      Category: 
+      GarminLink: h
   .Dlog:
-   
+   n/a
   .SupplementLog:
-   
-  .SleepLogs:   
+   - Time: 11:30
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  https://connect.garmin.com/app/sleep/2026-06-17/0 
+HealthLog20260618Hana:
+  .MealLogs:
+    - Time: 11:02
+      Description: Coffee milk with supplements
+      HungerBefore:  2-Low
+      HungerAfter: 2-Low
+      Amount: regular
+    - Time: 13:30
+      Description: Rice, Chicken, lettuce, boiled egg, collagen soup
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 100grice, 50g chicken breast, some lettuce (10g), one boiled egg, 10ml collagen soup
+  .MoodLog:  
+    - Time: 11:00
+      PeriodLengthInHrs: 11:00-17:00
+      Sensitivity: 5-VeryHigh
+      Irritability:  5-VeryHigh
+      Drowsiness:: 4-High
+      Foggyness: 2-Low
+      TummyGassesFeel: 4-High
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 3-Average
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 11:30
+      Type: Type5
+    - Time: 15:00
+      Type: Type 5
+  .ExerciseLog:
+    - Time: 
+      Category: 
+      GarminLink: 
+  .Dlog:
+   n/a
+  .SupplementLog:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  https://connect.garmin.com/app/sleep/2026-06-18/0
+HealthLog20260618Bobi:
+  .MealLogs:
+    - Time: 11:02
+      Description: Plain Pancakes, milk, coffee
+      HungerBefore:  3-Average
+      HungerAfter: 1-VeryLow
+      Amount: regular
+    - Time: 17:00
+      Description: Rice, fish, collagen soup, Pancake
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 100g rice, 50g chicken breast, some lettuce (10g), one boiled egg, 10ml collagen soup
+    - Time: 17:00
+      Description: Rice, fish, collagen soup, Pancake
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 100g rice, 50g chicken breast, some lettuce (10g), one boiled egg, 10ml collagen soup
+    - Time: 22:00
+      Description: Pancake 
+      Details: 5 pancakes
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 2-Low
+  .MoodLog:  
+    - Time: 11:00
+      PeriodLengthInHrs: 11:00-17:00
+      Sensitivity: 2-Low
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 0-Zero
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 11:30
+      Type: Type2
+  .ExerciseLog:
+    - Time: 17:00
+      Category: Strength
+      GarminLink: https://connect.garmin.com/app/activity/23296853275
+  .Dlog:
+    - 3 Salad night after 21:00
+  .SupplementLog:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  
+HealthLog20260619Bobi:
+  .MealLogs:
+    - Time: 11:02
+      Description: Plain Pancakes, milk, coffee
+      HungerBefore:  3-Average
+      HungerAfter: 1-VeryLow
+      Amount: regular
+    - Time: 18:00
+      Description: Rice, Fish pickled and Fish Sardines
+      HungerBefore: 3-Average
+      HungerAfter: 0-Zero
+      Amount: 
+    - Time: 
+      Description: 
+      HungerBefore:  
+      HungerAfter:
+      Amount: 
+    - Time: 
+      Description: 
+      Details: 
+      HungerBefore:  
+      HungerAfter: 
+      Amount: 
+  .MoodLog:  
+    - Time: 11:00
+      PeriodLengthInHrs: 11:00-15:00
+      Sensitivity: 2-Low
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 0-Zero
+      Hornyness: 4-High
+    - Time: 161037
+      PeriodLengthInHrs: 
+      Irritability:  4-High
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 11:30
+      Type: Type2
+  .ExerciseLog:
+    - Time: 13:00
+      Category: Walk
+      GarminLink: https://connect.garmin.com/app/activity/23305167413
+  .Dlog:
+   n/a
+  .SupplementLog:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  
+HealthLog20260620Bobi:
+  .MealLogs:
+    - Time: 12:00
+      Description: Pancakes 
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 3-Average
+    - Time: 15:00
+      Description: Pancakes 
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: one Pancake
+    - Time: 18:00
+      Description: buffalo Cheese Pizza 
+      HungerBefore:  2-Low
+      HungerAfter: 0-Zero
+      Amount: 2/3
+    - Time: 215631
+      Description: Pancakes
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 2-Low
+  .MoodLog:  
+    - Time: 11:00
+      PeriodLengthInHrs: 11:00-21:13
+      Sensitivity: 2-Low
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 0-Zero
+      Hornyness: 2-low
+    - Time: 215834
+      PeriodLengthInHrs: 20:00-22:00
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 4-High
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 2-Low
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 12:00
+      Type: Type2
+  .ExerciseLog:
+    - Time: 13:00-17:00
+      Category: hike
+      GarminLink: https://connect.garmin.com/app/activity/23319104299
+  .Dlog:
+    - Time: 
+        - 120042
+        - 150042
+        - 170042
+        - 190042
+      NotableThings:
+        - Bloatedness
+  .SupplementLog:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  
+  .Sex:
+    Amount: 2x
+HealthLog20260620Hana:
+  .MealLogs:
+    - Time: 12:00
+      Description: Pancakes 
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 1 Pancake
+    - Time: 15:00
+      Description: Pancakes 
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: one Pancake
+    - Time: 18:00
+      Description: buffalo Cheese Pizza 
+      HungerBefore:  2-Low
+      HungerAfter: 0-Zero
+      Amount: 1/3
+    - Time: 215631
+      Description: Pancakes
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 2-Low
+  .MoodLog:  
+    - Time: 11:00
+      PeriodLengthInHrs: 11:00-21:13
+      Sensitivity: 2-Low
+      Irritability:  4-High
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 2-Low
+      Bloatedness: 2-Low
+      Farting: 2-Low
+      Headache: 0-Zero
+      Hornyness: 2-low
+    - Time: 215834
+      PeriodLengthInHrs: 20:00-22:00
+      Irritability:  2-Low
+      Drowsiness:: 2-Low
+      Foggyness: 2-Low
+      TummyGassesFeel: 4-High
+      Bloatedness: 4-High
+      Farting: 3-Average
+      Headache: 2-Low
+      Hornyness: 2-Low
+  .PoopikaLog:
+    - Time: 12:00
+      Type: Type3
+  .ExerciseLog:
+    - Time: 13:00-17:00
+      Category: hike
+      GarminLink: https://connect.garmin.com/app/activity/23318770523
+  .Dlog:
+    - Time: 
+        - 120042
+        - 150042
+        - 170042
+        - 190042
+      NotableThings:
+        - Bloatedness
+  .SupplementLog:
+   - Time: 08:50
+     What: L-glutamin, Citrolline
+  .SleepLogs: 
+    - Time: 0133
+      GarminLink: https://connect.garmin.com/app/sleep/2026-06-21/0
+  .Sex: 
+    Amount: 2x
+HealthLog20260621Hana:
+  .MealLogs:
+    - Time: 10:00
+      Description: Rice, Sunnysideup, Avocado 1/4, one pickle fish
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 100g rice, one egg, 1/4 Avocado, 
+    - Time: 14:00
+      Description: Chicken wiht stir fry veggies 
+      HungerBefore:  3-Average
+      HungerAfter: 2-Low
+      Amount: 100g rice, 30g chicken
+    - Time: 18:00
+      Description: Chicken with stir fry veggies 
+      HungerBefore:  2-Low
+      HungerAfter: 2-Low
+      Amount: 3-Average
+  .MoodLog:  
+
+    
+  
+  .PoopikaLog:
+    - Time: 11:00
+      Type: Type3
+  .ExerciseLog:
+    - Time:
+      Category: 
+      GarminLink: 
+  .Dlog:
+    - Time: 21:00
+      NotableThings:   
+        - ate one pancake and 10 spoon of chocolate pudding, 3 spoon of strawbery jam and 5 spoons of vanilla pudding
+  .SupplementLog:
+   - Time: 10:30
+     What: creatine
+  .SleepLogs: 
+    - Time: 1:36
+      GarminLink:  https://connect.garmin.com/app/home
+
+HealthLog20260621Bobi:
+  .MealLogs:
+    - Time: 10:00
+      Description: Pancake
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 
+  .MoodLog:  
+  .PoopikaLog:
+    - Time: 
+      Type: 
+  .ExerciseLog:
+    - Time:
+      Category: 
+      GarminLink: 
+  .Dlog:
+    - Time: 
+      
+      NotableThings:
+        - Bloatedness
+  .SupplementLog:
+   - Time: 10:30
+     What: creatine
+  .SleepLogs: 
+    - Time: 02:30
+      GarminLink:  
+
+HealthLog20260622Hana:
+  .MealLogs:
+    - Time: 10:00
+      Description: Rice, Egg, Fish
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: Average
+  .MoodLog:  
+    - Very Heavy ( muscle ache, confusion, slow reaction)
+  .PoopikaLog:
+    - Time: 11:30
+      Type: Type4 and Type6
+  .ExerciseLog:
+    - Time:
+      Category: 
+      GarminLink: 
+  .Dlog:
+    - Time: 
+      
+      NotableThings:
+       
+  .SupplementLog:
+   - Time: 10:30
+     What: Glutanmine, Ginseng, Folic Acid, Maca, NAC, ALC
+  .SleepLogs: 
+    - Time:
+      GarminLink:  
+HealthLog20260622Bobi:
+  .MealLogs:
+    - Time: 11:40
+      Description: Pancakes 1.5 thick and big pancake
+      HungerBefore:  4-High
+      HungerAfter: 2-Low
+      Amount: 3-Average
+  .MoodLog:  
+    - Good
+  .PoopikaLog:
+    - Time: 11:30
+      Type: Type4 and Type6
+  .ExerciseLog:
+    - Time:
+      Category: 
+      GarminLink: 
+  .Dlog:
+    - Time: 
+      
+      NotableThings:
+       
+  .SupplementLog:
+   - Time: 10:30
+     What: NAC, ALC
+  .SleepLogs: 
+    - Time: 3:45
+      GarminLink:  https://connect.garmin.com/app/sleep/2026-06-22/0
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

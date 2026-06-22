@@ -1,0 +1,28 @@
++: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
+
+TODO .Review finances 20260620:
+  +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  TODO .Schedule meeting for Finance:
+    +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  TODO .Review Bobi Tax issue:
+    +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+
+TODO .Buy Earplugs for the guests [Airbnb]:
+  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [CSVTODO], Estimation: 20m, RemTime: 20m}
+OnGoing .Family problem Solving:
+  +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
+  Details: 
+    Write down the steps that are created by Tota and you
+  TODO .Collect the milestones of Sudan selling opportunity:
+    Details:
+      - Tota flying to Egypt
+      - Babas History
+      - Baba in Egypt
+      - Medical expenses 
+      - Debts
+      - Collecting Data
+      - Finding Buyers
+      - step1 preparing requiremnts for the buyers
+      - step2 going to the embassy 20260621
+      - make a decision 
+      - preparing step 3

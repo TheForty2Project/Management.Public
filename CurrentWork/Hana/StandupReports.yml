@@ -151,12 +151,52 @@ SR_20260617_Hana:
 
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]
+    - -->Tasks\Management\.." Review the belongs to section in F2yaml.yml"<:
     - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 0m, "", 20260617 T 145349 ]
+
+SR_20260619_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260617 T 151527 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 1m, "", 20260618 T 151527 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< [ 60m, "", 20260618 T 151527 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 3m, "", 20260619 T 151527 ]
+  Next:
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]
     - -->Tasks\Management\.." Review the belongs to section in F2yaml.yml"<:
 
 
-SR_NEXT_Hana:
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
+SR_20260620_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260617 T 151527 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 14m, "", 20260620 T 210217 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 7m, "", 20260620 T 212147 ]
+    - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<:
   Next:
-    - null
+
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260620 T 210519 ]
+SR_20260621_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 12m, "", 20260620 T 212413 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 39m, "", 20260620 T 232534 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 15m, "", 20260620 T 232541 ]
+    - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 60m, "in my workspace", 20260621 T 105953 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Analyse Health Data"<: [ 60m, "", 20260621 T 130532 ]
+    - -->Tasks\Miscellaneous\.."Health".."Family problem Solving".."Collect the milestones of Sudan selling opportunity"<: [ 120m, "Including Totas call", 20260621 T 130532 ]
+
+  Next:
+    - -->CurrentWork\Hana\Personal\.."Review finances 20260620"<:
+    - -->Tasks\Miscellaneous\.."Health".."Family problem Solving".."Collect the milestones of Sudan selling opportunity"<
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Analyse Health Data"<
+    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi for fixing the stand up process".."Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<"<
+  AOIB:
+    - -->Tasks\Management\.."General management".."Schedule meetings".."Schedule RePlSt within the week"<:
+    - Schedule meeting for review standup process
+    - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<
+    - 
+SR_20260622_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 4m, "", 20260622 T 212745 ]
+  
+  Next:
+    - -->Tasks\Management\.."General management".."Schedule meetings".."Schedule RePlSt within the week"<:
+    - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<

@@ -18,6 +18,7 @@ TODO .Create a process to handle Salad:
         Done .Salad locked with timer locked:
         Done .Verified by the 2 parties:
       
-TODO .Create snippets for HealthLogs templates:
-
+Done .Create snippets for HealthLogs templates:
+  - -->CurrentWork\Hana\Personal\.."Review finances 20260620"<
+  
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

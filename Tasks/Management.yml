@@ -163,8 +163,19 @@ OnGoing .General management:
             - Analysis
       Done .Implement:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 235850, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
+  OnGoing .Schedule meetings:
+    OnGoing .Schedule RePlSt within the week:
+      +: {CreatedBy: Hana, CreatedAt: 20260622 T 213111, By: Hana, Tags: [CSVTODO], Estimation: 5m, RemTime: 5m}
+  OnGoing .Remind and follow up with participants:
+    TODO .Remind Bobi for fixing the stand up process:
+      +: {CreatedBy: Hana, CreatedAt: 20260622 T 213452, By: Hana}
+      TODO .Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<:
+        +: {CreatedBy: Hana, CreatedAt: 20260622 T 213625, By: Hana}
 OnGoing .Create process description for Standup, Retrospective and Planning:
   +: {CreatedBy: Hana, CreatedAt: 20260617 T 145241, By: Hana, Tags: [CSVTODO], Estimation: 80m, RemTime: 80m}
+  Done .Create and revise process of StandUpreport:
+  TODO .Create process for Planing meeting:
+  TODO .Create process for retrospective meeting:
 OnGoing .Create and fine tune schedules:
   +: {Id: CreateSchedules, CreatedBy: Bobi, CreatedAt: 20260425 T 133051, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   Done .Create baseline:
@@ -543,7 +554,9 @@ InProgress .Plan the next Milestones:
       - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<
 
 #Review:
-TODO . Review the belongs to section in F2yaml.yml:
+TODO . Review the below:
   Details:
-    -->Documents\F2YamlSpecification\F2Yaml."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."5-Done Must .FYamlBasics"."0-New Must .SubItems"."1-SomeProgress Must .Item hierarchy aka the BelongsTo tree"<
+    TODO .Reviwe-->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."5-Done Must .FYamlBasics"."0-New Must .SubItems"."1-SomeProgress Must .Item hierarchy aka the BelongsTo tree"<
+    TODO .Reviwe-->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or Links"..F2Link.Tasks.."Problem:_ Link to Items with various headers and properties"<
+    TODO .Reviwe-->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses<
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

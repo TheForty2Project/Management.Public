@@ -96,7 +96,7 @@
         
         Time: 24:00
         What will be the streaming about: 
-  5-VeryHigh Management Streaming:
+  5-VeryHigh Management and Health Streaming:
     Details: Hana should stream management daily at a certain time if possible
     Steps: 
       - Management and Coding can be streamed together
@@ -112,8 +112,16 @@
     Goals:
       - To show how TF2P project is managed 
       - To attract programmers and managers
-    TODO .Create a streaming process for Hana tonight (5th Annivarsay):
+    Done .Create a streaming process for Hana tonight (5th Annivarsay):
       +: {CreatedBy: Hana, CreatedAt: 20260624 T 194855, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+      Done .Create a description on the panel:
+        +: {CreatedBy: Hana, CreatedAt: 20260624 T 212332, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+        Result: 
+        Goal: 
+          To create effective processes that enable members to work at their best.
+        How:
+          - "Using the Forty2 Project (TF2P) to systematically solve health, productivity, and management challenges in public. We document the process, test ideas, track results, and build reusable systems that help us become healthier, more resilient, happier, and more effective over time:"
+          - I am using TF2P management system to improve both project outcomes and human well-being. This includes managing the project itself, managing the health and performance of its members, identifying sources of procrastination and testing physical activities categories as potential solutions, and studying how physical activity influences productivity and work quality.
   5-VeryHigh Reddit:
     Details: Can be an important source of feedback to the articles and discussions
     Steps: 

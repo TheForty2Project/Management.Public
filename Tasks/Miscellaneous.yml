@@ -141,9 +141,11 @@ OnGoing .Health:
       Perform the followings:
         InProgress .Analyse Health Data:
           +: {CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [CSVTODO], Estimation: 180m, RemTime: 180m}       
-        OnGoing .Schedule Health Analysis sessions(Live):
+        OnGoing .Schedule Health Analysis sessions:
           Details:
-            Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< 
+            Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
+          Results: 
+            20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
         TODO .Schedule exercises and include baba in the morning after waking up and evening before sleeping:
           Details: 
             - We can start preschedule for a week period

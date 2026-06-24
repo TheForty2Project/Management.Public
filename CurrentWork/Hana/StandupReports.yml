@@ -201,6 +201,7 @@ SR_20260622_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260623 T 211733 ]
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<: [ 25m, "", 20260624 T 193021 ]
     - -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Coding Streaming".."Create a streaming process for Bobi tonight (5th Annivarsary)"<: [ 31m, "", 20260624 T 195529 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 85m, "", 20260624 T 214525 ]
 
   Next:
 
@@ -214,6 +215,8 @@ SR_20260622_Hana:
 SR_20260624_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260622 T 212745 ]
+    
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 104m, "", 20260624 T 231028 ]
   Next:
-    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Schedule body measurement"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<

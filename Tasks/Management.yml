@@ -167,6 +167,8 @@ OnGoing .General management:
     Done .Schedule RePlSt within the week:
       +: {CreatedBy: Hana, CreatedAt: 20260622 T 213111, By: Hana, Tags: [CSVTODO], Estimation: 5m, RemTime: 5m}
       Result: Schesuled at 2026062312
+    TODO .Schedule Milestone within next week:
+      +: {CreatedBy: Hana, CreatedAt: 20260624 T 194021, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   OnGoing .Remind and follow up with participants:
     OnHold .Remind Bobi for fixing the stand up process:
       +: {CreatedBy: Hana, CreatedAt: 20260622 T 213452, By: Hana}

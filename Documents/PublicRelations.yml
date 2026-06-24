@@ -88,6 +88,14 @@
     Goals:
       - To market the main stream of outreach which is coding TF2P Tool
     Done .Go through our past data about coding streaming task and check what are the new updates from Reddit and chat gpt:
+    TODO .Create a streaming process for Bobi tonight (5th Annivarsary): 
+      +: {CreatedBy: Hana, CreatedAt: 20260624 T 194908, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+      Workspace:
+        Stream summary: 
+          - Finishing the query based report generation for the F2Tools Extensions
+        
+        Time: 24:00
+        What will be the streaming about: 
   5-VeryHigh Management Streaming:
     Details: Hana should stream management daily at a certain time if possible
     Steps: 
@@ -104,6 +112,8 @@
     Goals:
       - To show how TF2P project is managed 
       - To attract programmers and managers
+    TODO .Create a streaming process for Hana tonight (5th Annivarsay):
+      +: {CreatedBy: Hana, CreatedAt: 20260624 T 194855, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   5-VeryHigh Reddit:
     Details: Can be an important source of feedback to the articles and discussions
     Steps: 
@@ -231,6 +241,14 @@
     Details:
       - There are way better options than 9gag and wellfound. We can try this again once the site is out.
       - https://9gag.com/gag/agg5B6v  
-
+.Twitch:
+  TODO .Re-write the panels on the 3 accounts: 
+    +: {CreatedBy: Hana, CreatedAt: 20260624 T 201455, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    Details:
+      - https://www.twitch.tv/theforty2project/about
+      - hanak42
+      - bobii42
+    WorkSpace: 
+      - Streaming discussion: https://chatgpt.com/share/6a3c22df-13d8-83ed-a226-018ec7d0d904
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

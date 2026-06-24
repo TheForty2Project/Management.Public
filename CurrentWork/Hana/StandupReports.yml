@@ -198,7 +198,9 @@ SR_20260622_Hana:
     - Administration
     - -->Tasks\Management\.."General management".."Schedule meetings".."Schedule RePlSt within the week"<: [ 7m, "", 20260622 T 222145 ]
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming"<: [ 4m, "", 20260622 T 222600 ]
-    
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260623 T 211733 ]
+    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<: [ 25m, "", 20260624 T 193021 ]
+    - -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Coding Streaming".."Create a streaming process for Bobi tonight (5th Annivarsary)"<: [ 31m, "", 20260624 T 195529 ]
 
   Next:
 
@@ -207,3 +209,11 @@ SR_20260622_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<:
+
+
+SR_20260624_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260622 T 212745 ]
+  Next:
+    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<

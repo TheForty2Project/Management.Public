@@ -177,9 +177,9 @@ OnGoing .General management:
     OnGoing .Remind Bobi and myself about the streaming:
       +: {CreatedBy: Hana, CreatedAt: 20260622 T 215751, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
       Done .Reminder on 20260623:
-      TODO .Search where to start the streaming process in management and public relation:
+      Done .Search where to start the streaming process in management and public relation:
         +: {CreatedBy: Hana, CreatedAt: 20260622 T 223006, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-OnGoing .Create process description for Standup, Retrospective and Planning:
+OnHOld .Create process description for Standup, Retrospective and Planning:
   +: {CreatedBy: Hana, CreatedAt: 20260617 T 145241, By: Hana, Tags: [CSVTODO], Estimation: 80m, RemTime: 80m}
   Done .Create and revise process of StandUpreport:
   TODO .Create process for Planing meeting:

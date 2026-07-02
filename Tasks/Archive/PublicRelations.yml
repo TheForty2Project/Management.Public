@@ -11,9 +11,9 @@
               - Badminton
     Drafting .Community of Hanas project:
     Drafting .Live channels of focusmate while the members are working: 
-      TODO .create a stable schedule first for focusmate
+      TODO .create a stable schedule first for focusmate:
 .WrittenMarketing:
-  Id: WrittenMarketing
+  Id: WrittenMarketing  
   +: { Type: Folder, DefaultTypes: [ Folder, Task ] }
   InProgress .Approach Reddit groups:
     Details:
@@ -142,7 +142,7 @@
     +: { CreatedBy: Hana, CreatedAt: 20250727 T 160745, By: Hana, Tags: [CSVDONE] }
   TODO .Publish written articles on different platforms:
     Id: Writtenarticlesplatforms
-    +: { CreatedBy:Hana, CreatedAt: 20250727 T 163116, By: All }
+    +: { CreatedBy: Hana, CreatedAt: 20250727 T 163116, By: All }
     Notes:
       - LinkedIn:
           Purpose:

@@ -170,14 +170,20 @@ namespace Barba.Types:
       7-OMG:
 
   enum BristolPoopika:
-    .Type1
-    .Type2
-    .Type3
-    .Type4
-    .Type5
-    .Type6
-    .Type7
-
+    .Type1:
+      Details: Separate hard lumps like nuts
+    .Type2: 
+      Details: Sausage-Shaped but lumpy
+    .Type3:
+      Details: Like a sausage but crackon the surface
+    .Type4:
+      Details: Like sausage or snake, smooth and soft
+    .Type5:
+      Details: Soft Blobs with clear cut edges
+    .Type6:
+      Details: Fluffy pieces with Ragged edges, a mushy stool
+    .Type7:
+      Details: Watery no soild pieces
     
   class TestCase:
     Inherits: StandardItem

@@ -215,8 +215,22 @@ SR_20260622_Hana:
 SR_20260624_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260622 T 212745 ]
-    
+
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 104m, "", 20260624 T 231028 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 50m, "", 20260625 T 103434 ]
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Schedule body measurement"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
+
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 20m, "", 20260630 T 112741 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 10m, "Hana part", 20260701 T 112741 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 10m, "Hana part", 20260702 T 142742 ]
+  Next:
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
+\Miscellaneous:
+  Was:
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260702 T 145856 ]
+  Next:
+    - null

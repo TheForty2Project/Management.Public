@@ -649,7 +649,7 @@ InDev .QueryDescription based CSV report generation:
             BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
             AddSyncResultColumn: true
       Properties:
-        string[] Select:
+        string[] .Select:
           Mandatory: true
           Details: 
             - the Id-s of the properties to include in the report or keywords (instructing the generator to insert special values), and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
@@ -657,19 +657,19 @@ InDev .QueryDescription based CSV report generation:
             - same as the "SELECT" part of an SQL query
             - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn, EMPTY as Notes]
             - Special keywords
-        string[] From:
+        string[] .From:
           Mandatory: true
           Details:
             - Use the files under the specified path (file or Item); recursive.                
             - such as: [-->Tasks\<, -->Tasks\Software\F2ToolsExtension\< ]
-        WherePartOfQuery Where:
-        RowDeletingBehavior BehaviorWhenDeletingRows:
+        WherePartOfQuery .Where:
+        RowDeletingBehavior .BehaviorWhenDeletingRows:
           DefaultValue: RowDeletingBehavior..CommentOut
           Summary: what to do if a row is deleted during a sync operation (i.e. when the query is re-run to sync the changes)
-        bool AddSyncResultColumn:
+        bool .AddSyncResultColumn:
           DefaultValue: true
           Summary: adds a -->~..SelectPropertySpecialValues..SYNCRESULT< column when syncing (if it's not already present in the Select part)
-        string OutputFile:
+        string .OutputFile:
           DefaultValue: the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
           Details: 
             - the output file path (partial file system path, from the root of the workspace)
@@ -689,29 +689,29 @@ InDev .QueryDescription based CSV report generation:
       BelongsTo: QueryDescription
       Inherits: Item
       Properties:
-        string[] TaggedBy:
+        string[] .TaggedBy:
           Details: 
             - include only those Items which are tagged by one of the tags
             - such as: [CSV]
             - if empty, all Items
-        string[] ItemType: 
+        string[] .ItemType: 
           Details: 
             - include only those Items which are one of the specified types
             - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be included)
             - such as: [Task, Bug]
             - if empty, all Items
-        string[] SkipUnder:
+        string[] .SkipUnder:
           Details:
             - skip those Items which are under the specified path (file or Item); recursive.
             - note that this takes precedence over From, i.e. the Items under these paths will be skipped even if their path is included in From
             - such as: [-->Tasks\Archive\<]
             - if empty, no Items skipped        
     enum .RowDeletingBehavior:
-      Remove:
+      .Remove:
         Summary: the row is removed
-      CommentOut:
+      .CommentOut:
         Summary: the row is commented out
-      DoNothing:
+      .DoNothing:
         Summary: the row is kept as-is but marked as -->~..SyncResultValues..DeletedRow< if the -->~..SelectPropertySpecialValues..SYNCRESULT< column is present
     class .ReportHeader:
       Inherits: Item

@@ -278,8 +278,8 @@ Comments:
             Estimation: 4h 
             Details: 
               Like in C#. Concept is that if a property with type T is a get/set one, then we mark it like this and in this case 2 functions must be provided with the signature of:
-              - T GetterFunction(T value)
-              - T SetterFunction(T value)
+              - T GetterFunction()
+              - void SetterFunction(T value)
           Estimated .Expression as a value:
             Estimation: 4h
             Details:

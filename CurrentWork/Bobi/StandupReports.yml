@@ -372,8 +372,22 @@ SR_20260620_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"< [1h]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV< [1h, "anything missing"]
 
-SR_NEXT_Bobi:
+SR_20260622_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260620 T 211932 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 162m, "Facilities for debugging", 20260621 T 020748 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s".."Store further information"<: [ 20m, "", 20260622 T 214830 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260622 T 214605 ]
+  Next:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
+    - Baseline Item yaml generation
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ Debugging and fixing ]
+    - Replst meeting
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260622 T 215303 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 1092m, "", 20260624 T 223916 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<: [ 30m, "", 20260624 T 223921 ]
   Next:
     - null

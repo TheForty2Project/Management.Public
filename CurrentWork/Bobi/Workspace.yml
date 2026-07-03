@@ -15,13 +15,14 @@
   Type: QueryDescription
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
   From: [-->Tasks\<]
+  OutputFile: CurrentWork\Bobi\CurrentTasks.csv
 
 .CurrentTasks:
   Id: CurrentTasks
   Summary: Current Tasks  
   Type: QueryDescription
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->Tasks\<]
+  From: [-->Tasks\<, -->CurrentWork\Bobi\TasksToBeSorted<]
   Where: 
     TaggedBy: [CSVTODO]
     ItemTypes: [Task, Bug]
@@ -29,6 +30,28 @@
   OutputFile: Reports\CurrentTasks.csv
   BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
   AddSyncResultColumn: true
+
+.CurrentTasks_Sandbox:
+  Id: CurrentTasks
+  Summary: Current Tasks
+  Type: QueryDescription
+  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  Items:      
+    - Root: -->Tasks\<
+      Where: 
+        TaggedBy: [CSVTODO]
+        ItemTypes: [Task, Bug]
+        SkipUnder: [-->Tasks\Archive\<]
+        MatchExpression: 
+          contains(item.Tags, "CSVTODO") 
+          & Type == Task
+          & Status > TODO 
+          & IsSomeSpecialConditionTrue(item)
+    - Root: -->CurrentWork\Bobi\TasksToBeSorted]   
+  OutputFile: Reports\CurrentTasks.csv
+  BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
+  AddSyncResultColumn: true
+
 
 
 TODO .ParentTODO:
@@ -39,9 +62,41 @@ TODO .ParentTODO:
 
 -->CurrentWork\Bobi\Workspace..ParentTODO.SubTasks.SubTODO<:
 
-ReplyToBitch: |
-  The guest threatened us to write a bad review if we do not give a full refund - she only got a partial one, so here it is. Her reason was: she didn't know that she booked a room (even its name is "Room1"...), "it's not my fault because I didn't know it was a room" and "we were in the apartment only until the evening". We also didn't go with her physically checking the apartments she was trying to book after she realized her mistake (yes, she asked for it; we couldn't believe) - but spent 2(!) hours beforehand on trying to solve problems of hers we didn't even know could be a problem and had to help even in the smallest things; it seems she didn't even register this, I guess this is what she expects from everyone.
-  She acted like a celebrity who treated us like her fans who should be glad that we could help and interact with her, anything unpleasant happening to her is our fault obviously... at least we learned that these people 
-  Flies... there are no flies in the middle of the city and we didn't find any, but they left the entrance open so one could have flew in. We think though that she just wanted to write something bad and had no better idea.
+.FirstPosts:
+  Workspace:
+    Notes: |  
+      - About that we made progress, take a look.
+      - In details - maybe comment - the below meme content, or what happened
+      - mention that current phase we're making the product; next is kind of the financehelper to enable trust
+      - you can take a look now
+      - this is a test - what is our reach; we don't want to be loud yet, just the first 
+      - Meme: Some pictures about what happened while Earth finished computing, that people first formed "computer-human hybrid" computing blahh machines; that these Items are the base; practical example; 
+    Memes:
+      - Type: 4 squares, top left guy with the "nooo" expression and body language to the top right thing, bottom left guy pointing to the bottom right thing with his body expressing "yeeah, this one"
+        Content: 
+          - top right: work and build what we want; at least check out the site and root for us
+          - bottom right: it's scam/stupid/communism/notpossible/nothere/eatshit.
+      - Type: two buttons, hand in front of them, choosing which one to press
+        Content:
+          - hand choosing in between "complain that everything is bad" - "at least check out the solutions"
+      - Type: comic
+        Content:
+          - conversation, 2 people:
+            - B: democracy is the worst... turning into dictatorship, rich getting richer, everyone is poor... Let's DO SOMETHING!!!
+            - A: we're building the solutions for this, self-improving and automating computed management, we cooperate and share fairly, fixing the problems with democracy or communism, join us!
+            - B: I don't understand but it's not possible/I have better things to do/it's communism/it's not democratical/you're building terminator/it's not perfect/read this book, it will help you/I don't believe in logic - even though I can't define what it is, but I'm sure/do you have a degree for it/show me when it's done/I have a better idea - don't let low IQ people vote/
+      - Type: my face, the blurry pastafarian
+        Content:
+          - Top: I wanted to be a god, that I have unlimited powers
+          - Bottom: Until I realized that it also means that I do everything
+
+    History:
+      - 
+    Current plan:
+      - 
+
+
+
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

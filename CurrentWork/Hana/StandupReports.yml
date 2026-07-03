@@ -223,14 +223,15 @@ SR_20260624_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
 
 SR_NEXT_Hana:
-  Was:
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 20m, "", 20260630 T 112741 ]
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 10m, "Hana part", 20260701 T 112741 ]
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 10m, "Hana part", 20260702 T 142742 ]
-  Next:
-    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
-\Miscellaneous:
-  Was:
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260702 T 145856 ]
-  Next:
-    - null
+  Was:    
+  Next:    
+    - Check mama's phone - is it a brick
+    - Do finances:
+      - Plan first!!!!!!:
+        - have some idea about the structure and have it reviewed by Bobi
+        - it should be easy to maintain
+        - the process should include using ChatGPT as much as possible - like export CSV => Codex convert
+        - Include: 
+          - planned expenses
+          - analysis about past spent - where can we spend less/optimize? What types of things are we spending how much?
+    - Taskify the above

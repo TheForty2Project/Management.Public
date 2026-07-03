@@ -450,15 +450,15 @@ namespace Barba.Types:
   
   enum ArticleMaturity:
     Members:
-    - 0-New
-    - 1-SomeProgress
-    - 2-HighLevel
-    - 3-Detailing
-    - 4-AlmostDone
-    - 5-Done
-    - 6-Reviewed
-    - 7-Mature
-    - 8-Gandalf
+    .0-New:
+    .1-SomeProgress:
+    .2-HighLevel:
+    .3-Detailing:
+    .4-AlmostDone:
+    .5-Done:
+    .6-Reviewed:
+    .7-Mature:
+    .8-Gandalf:
 
   class ProcessDescription:
     Inherits: StandardItem

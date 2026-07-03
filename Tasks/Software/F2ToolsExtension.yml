@@ -319,7 +319,7 @@ OnGoing .Taskify the requirements:
                 .Summary:      
 
 
-    Done .Store yaml representation information in F2YamlWorkspaceItem-s:
+    InProgress .Store yaml representation information in F2YamlWorkspaceItem-s:
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}              
       Details:
         - During parsing from yaml (currently the "ImportFromYamlScalarMapPair" function, but later possibly renamed to just ImportFromYamlNode), store important information about how the Item was stored as a yaml to be able to reproduce the yaml in a similar structure as the original by creating a property "YamlRepresentation" in "F2YamlWorkspaceItem" with type "YamlRepresentationDescriptor" and filling it in how it's described below.
@@ -417,6 +417,14 @@ OnGoing .Taskify the requirements:
       Why:
         - When serializing the QueryDescription into the csv
         - WriteBack - maybe, if we don't only edit that part of the text (=the value)
+      Done .Store further information:
+        +: {CreatedBy: Bobi, CreatedAt: 20260622 T 012819, By: Bobi, Tags: [CSVTODO], Estimation: 25, RemTime: 25}
+        Details:
+          Store:
+            - whether the Item is rendered as a flow or block mapping (its map part that is)
+            - property rendering information:
+              - type of the Node (map, sequence, scalar)
+              - if it's a string, which type (of I think 5?)
     Done .Create an IsValidItemHeader method in the ItemHeader class:
       Id: IsValidItemHeader
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
@@ -458,7 +466,7 @@ OnGoing .Taskify the requirements:
                 Done .MySmallTodo:
         - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
         - Update the existing parsing functionalities in F2YamlWorkspaceItem          
-  Done .Create proper basic Item structures library:    
+  OnGoing .Create proper basic Item structures library:    
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 30}
     Details:
       - Create library for handling Item data necessary to implement the new functionality instead of using the existing makeshift implementation:
@@ -484,7 +492,16 @@ OnGoing .Taskify the requirements:
             - Everything "not parseable" is wrapped into a "NotParsedYaml" class:
               - Purpose is to be able to emit this when serializing back to yaml
               - stores the original yaml node
-              - its toString returns the yaml node serialized (ideally close to the original format, but don't put too much effort in it)
+              - its toString returns the yaml node serialized (ideally close to the original format, but don't put too much effort in it)  
+    InProgress .Baseline ItemYaml generation:
+      Id: ItemYamlGeneration
+      +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202548, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}        
+      Done .Write the code:
+        Id: WriteTheCode
+        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202645, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      InProgress .Test and fix:
+        Id: TestAndFix
+        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202658, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
   EstTODO .Create a stop task command feature that is executed when VS Code is shutting down:
     Id: StopTTAtShutdown
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: [Bobi, Gaurav], Estimation: 30}
@@ -533,14 +550,14 @@ OnGoing .Taskify the requirements:
             Normal: 180      
       Done .Create Implementation plan for Basic Query Execution:
         +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 0}
-    Done .Registers commands:
+    Implemented .Registers commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
-    InProgress .Executes query:
+    Implemented .Executes query:
       Id: Execute
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [CSVTODO]}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
-      InProgress .Verifies query:
+      Implemented .Verifies query:
         Id: Verify
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 60}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<

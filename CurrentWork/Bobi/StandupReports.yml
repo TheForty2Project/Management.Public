@@ -389,5 +389,10 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260622 T 215303 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 1092m, "", 20260624 T 223916 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<: [ 30m, "", 20260624 T 223921 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."yml, yaml in F2Links"<: [ 14m, "", 20260703 T 015736 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish".."Engine"<: [ 10m, "", 20260703 T 135153 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."During F2Link generation the first part of the file path is missing"<: [ 63m, "", 20260703 T 135255 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish".."Tags"<: [ 12m, "", 20260703 T 220115 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish"<: [ 0m, "", 20260703 T 221321 ]
   Next:
     - null

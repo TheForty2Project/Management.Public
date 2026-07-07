@@ -80,17 +80,17 @@ namespace System.Types:
     #Inherits: Item //Commented out as this is by default
     ClassDesciptionFlags: [Abstract]
     Properties:
-      IdString Id: #Note that the content of this will be automatically generated IF left empty by The F2Tool
+      IdString .Id: #Note that the content of this will be automatically generated IF left empty by The F2Tool
         Mandatory: true
-      string Summary: 
-      string Notes:
+      string .Summary: 
+      string .Notes:
         Summary:
           any notes from anyone (regarding the Task, how to do it, etc.; please note that the "Workspace" property is to be used for scribblings while doing the task). Please mention your username in it if you're not the owner of the task
-      Comment[] Comments:
+      Comment[] .Comments:
         Summary:
           - a "chat" thread - up until we have some chat functionality.
           - about the format: see the notes on the Comment class 
-      IdString[] Tags:
+      IdString[] .Tags:
         Summary: a set of one-word tags - e.g. we use "CSVTODO" currently, signaling it should be added to the CSV file.      
     Notes: 
       # The content of the Id field will be automatically generated from the content of the Summary field by removing spaces and capitalizing the letter after (Pascal case), removing non-allowed chars, and using the first 12 + last 12 chars IF left empty; if not unique, adding numbers to the end (and using less characters from the last part). E.g. the summary "Add the Extract F2Yaml link functionality" would be "AddTheExtrac_unctionality"
@@ -133,7 +133,8 @@ namespace System.Types:
     Inherits: StandardItem
     Summary:
       Item for the description of the Properties of other Items
-    Properties: -Result->TODO write this - based on the current F2Tool implementation
+    Properties: 
+      object .DefaultValue:
     Comments:
       - [Bobi, 20251208, "Up until I write this, use the fields you see in property descriptions in this file (so anything which is under the 'Properties:' part of class descriptions"]
 

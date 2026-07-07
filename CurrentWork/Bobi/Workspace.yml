@@ -17,6 +17,17 @@
   From: [-->Tasks\<]
   OutputFile: CurrentWork\Bobi\CurrentTasks.csv
 
+.TasksToBeSorted20260702:
+  Type: QueryDescription
+  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  From: [-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702<, -->CurrentWork\Bobi\TasksToBeSorted\..TESTING_DILITDIS<]
+  OutputFile: CurrentWork\Bobi\TasksToBeSorted20260702.csv
+  Where: 
+    TaggedBy: []
+    ItemTypes: [Bug]
+    SkipUnder: [-->Tasks\Archive\<]
+
+
 .CurrentTasks:
   Id: CurrentTasks
   Summary: Current Tasks  

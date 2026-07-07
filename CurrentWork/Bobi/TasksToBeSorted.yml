@@ -101,7 +101,7 @@
                   - user2.ProvideCounterProof(statement);
               - WHEN:
                     
-.20260603:
+.Tasks20260603:
   InProgress .Add "exploring cofounderslab-like sites" to Outreach options:
     +: {CreatedBy: Bobi, CreatedAt: 20260603 T 173805, By: Bobi}
     Details:
@@ -120,29 +120,31 @@
   Done .Create Architectural todos from the architectural tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 190952, By: Bobi, Estimation: 30, RemTime: 0}
     Details:      
-  CurrentFocus .Estimate what's left from the CSV generation task:
+  Done .Estimate what's left from the CSV generation task:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191044, By: Bobi, Estimation: 10, RemTime: 10}
-  NEXT .Finish the csv generation task:
-    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191255, By: Bobi}
-  InProgress .Prepare for streaming today:
+  Done .Prepare for streaming today:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 192430, By: Bobi, Estimation: 20, RemTime: 20}
     Workspace:
       Stream summary: 
-
       Time: 24:00
       What will be the streaming about: 
  
-
-
--->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<:            
-
--->Tasks\Miscellaneous\.."Create incentivisation system baseline"<:
+.TESTING_DILITDIS:
+  .Almatype:
+    Tags: ["Alma", Blma]
+    Type: Almafa
+    Status: Buzi
+  TODO .TaggedBy:
+    Tags: ["Alma", Blma]
+  TODO .Gecike:
+    By: Testgeci    
 
 .TasksToBeSorted20260702:  
   TODO .Check the health-log progress and collect feedback:    
   TODO .Work on the marketing things:
-    TODO .Collect what we want to do before we post:
+    InProgress .Collect what we want to do before we post:
       Workspace:
+        Points:
         - Update the site? That converter-feature?
         - Have the Tasks worked out (on which I'm planning to work on)
         - Have some history/future plans part:
@@ -151,8 +153,12 @@
         - we need the F2FinanceHelper so that we can have some trust
         - then we need the processes + the people for a real "self-improving hybrid electronic-human computer":
           - set up in a way that the goal is to "produce the most value and share fairly"
+        Tasks:
+          TODO .Finish the F2FinanceHelper draft requirement:
+          TODO .Updates feature in F2File2HtmlConverter:
+          TODO .Clean the repo up - again:          
     TODO .Create the baseline posts from the ideas:
-  TODO .CommitAndSync:
+  Done .CommitAndSync:
     +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
   Done .F2Link generation fix:
     +: {CreatedBy: Bobi, CreatedAt: 20260625 T 210256, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
@@ -177,7 +183,7 @@
         - workspace-wide operations
         - server based behavior        
         - item provider for user scripts
-  TODO .CSV Remainings:
+  EstTODO .CSV Remainings:
     EstTODO .Handling of overlapping froms:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
@@ -188,21 +194,44 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013636, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
     EstTODO .CSV header:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
-    EstTODO -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<:      
+    EstTODO .WriteBack:
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      Details:
+        -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<:      
     EstTODO .Update:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
     EstTODO .RowDeletingBehavior:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
-    TODO .Where upgrades:
-      TODO .Skip:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      TODO .Tags:
-      TODO .Type:      
-        TODO .Filter for each location:
+    InProgress .Where finish:
+      Done .Engine:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
+      Blocked .Skip:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+        DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Introduce itemmanager and manage items through it"<
+      Done .Tags:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 5}
+      Done .Type:      
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+      Done .Leaves only:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130109, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 0}
+      Done .SkipFoldersAndFiles:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130142, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+    EstTODO .Filtering upgrades:
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 013323, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      EstTODO .Filter for each location:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130534, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}
+      EstTODO .Typescript expression based evaluation baseline:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130550, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
         Details:
-          - SkipFolders:
-          - OnlyLevaves:
-  Items:
+          - User can enter a TypeScript expression into one of the filter properties (let's call it "MatchesExpression")
+          - We generate a line only from those which match this + the others as well
+        ImplPlan:
+          - We are "high trust" at the moment, so no worries about exposing too much functionality
+          - Try it with the "low trust" method first though - see https://chatgpt.com/s/t_6a479a97f7cc8191af2a4966b8bfb67e
+          - Timebox it to the estimated
+          
+
+  .Items:
     EstTODO .F2Link as key:
       +: {CreatedBy: Bobi, CreatedAt: 20260702 T 222419, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
@@ -282,8 +311,13 @@
         TODO .Expression as value:
           Details:
             See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"<
+  .Bugs:
+    Fixed .During F2Link generation the first part of the file path is missing:
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Accepted .If a map key is a number, it can't parse it as an Id:
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
 
-
+  .Refactors:
 
 
 

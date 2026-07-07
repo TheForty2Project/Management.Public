@@ -1,4 +1,5 @@
 #F2Link:
+
 <F2Link>                    ::= <F2LocalLink> | <F2FullLink> | <F2PathLink>
 <F2LocalLink>               ::= "-->" <YamlPath> "<" 
 <F2FullLink>                ::= "-->" <FilePath> "\\" <YamlPath> "<"
@@ -15,9 +16,12 @@
 <ItemIdentifierWithGUID>    ::= "{" <IdString> "}"
 <ItemIdentifierWithTypeId>  ::= "<" <IdString> ">"
 <ItemIdentifierWithSummary> ::= '"' <AnyCharMinusNL>+ '"' #in this double quotes should be escaped to double-double quotes - not sure how to write this in BNF
-<FileNameChar>              ::= ? the characters which are valid as filename character on both Linux and Windows systems; including the dot?
+<FileNameChar>              ::= ? the characters which are valid as filename character on both Linux and Windows systems; including the dot (".").?
+
+
 
 #Item yaml header:
+
 <ItemYamlHeader>            ::= <TypeIdHeader> | <IdHeader> | <SummaryHeader>
 <TypeIdHeader>              ::= "<" <ItemClassId> ">" #e.g.: <Task>
 <IdHeader>                  ::= <Prefixes> "." <ItemId> #If the header matches this then this is the priority and not <SummaryHeader> (as it will match both). e.g.: Done 4-High .MyItemId
@@ -27,11 +31,24 @@
 <ItemId>                    ::= <IdString>
 <ItemSummary>               ::= <AnyCharMinusNL>+
 <Prefix>                    ::= <IdString>
-<Separator>                 ::= " " | "\t"
+
+
+
+#QueryDescription.OrderBy:
+
+<OrderByExpression> ::= (<Element> <CommaSeparator>)* <Element>
+<CommaSeparator> ::= "," <Separator>+
+<Element> ::= <ColumnName> (" " <AscDesc>)?
+<ColumnName> ::= <IdString>
+<AscDesc> ::= "Asc" | "Desc"
+
+
 
 #Common:
+
 <IdString>                  ::= <IdStartChar> <IdChar>*
 <AnyCharMinusNL>            ::= ? All characters except the new line ones?
 <IdChar>                    ::= <IdStartChar> | <NumberChar>
 <IdStartChar>               ::= ? A-Za-z_ ?
 <NumberChar>                ::= ? 0-9 ?
+<Separator>                 ::= " " | "\t"

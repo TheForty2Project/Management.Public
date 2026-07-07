@@ -663,6 +663,16 @@ InDev .QueryDescription based CSV report generation:
             - Use the files under the specified path (file or Item); recursive.                
             - such as: [-->Tasks\<, -->Tasks\Software\F2ToolsExtension\< ]
         WherePartOfQuery .Where:
+        IdString[] .OrderBy:
+          Details:
+            - list of the column ids of the columns by which the rows should be ordered + optional "asc" or "desc" keywords, comma separated
+            - bnf: |
+                -->Documents\F2YamlSpecification\BachusNaurForms.bnf\< 
+            - if "desc" is present as a suffix, the order is descending
+            - if all values:
+              - can be parsed as numbers: sorts them as numbers; 
+              - else if they can be parsed as durations: sorts them as durations
+              - else sorts them as strings            
         RowDeletingBehavior .BehaviorWhenDeletingRows:
           DefaultValue: RowDeletingBehavior..CommentOut
           Summary: what to do if a row is deleted during a sync operation (i.e. when the query is re-run to sync the changes)
@@ -690,22 +700,34 @@ InDev .QueryDescription based CSV report generation:
       Inherits: Item
       Properties:
         string[] .TaggedBy:
+          DefaultValue: []
           Details: 
             - include only those Items which are tagged by one of the tags
             - such as: [CSV]
             - if empty, all Items
         string[] .ItemType: 
+          DefaultValue: []
           Details: 
             - include only those Items which are one of the specified types
             - note that as of the time of writing (20260513), inheritance is not supported (so despite a Bug inherits Task, both need to be included)
             - such as: [Task, Bug]
             - if empty, all Items
         string[] .SkipUnder:
+          DefaultValue: []
           Details:
             - skip those Items which are under the specified path (file or Item); recursive.
             - note that this takes precedence over From, i.e. the Items under these paths will be skipped even if their path is included in From
             - such as: [-->Tasks\Archive\<]
             - if empty, no Items skipped        
+        bool .SkipFoldersAndFiles:
+          DefaultValue: true
+          Details:
+            - skip Items which are represented as a folder or a file, or have the type "Folder"
+        bool LeavesOnly:
+          DefaltValue: false
+          Details:
+            - if true, includes only those Items which have no Children
+        
     enum .RowDeletingBehavior:
       .Remove:
         Summary: the row is removed
@@ -731,8 +753,7 @@ InDev .QueryDescription based CSV report generation:
     .CommentPrefix: "#"      
     .NullValue: "" #so empty
     .EmptyValue: \"" #so two double quote characters
-    .CSVHeader: >
-    
+    .CSVHeader: >    
   Done .Registers commands:
     Id: RegistersCommands
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Registers commands"<
@@ -750,8 +771,7 @@ InDev .QueryDescription based CSV report generation:
       Summary: 
         if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select part, writes the changes FROM the csv to the Items
       Details:
-        if the property does not exist but there's data for it in the CSV cell, creates the property
-  
+        if the property does not exist but there's data for it in the CSV cell, creates the property  
   InDev .Executes query:
     Id: ExecuteQuery
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<    
@@ -828,7 +848,6 @@ InDev .QueryDescription based CSV report generation:
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<
       Details:
         Displays the message: "Csv generated into OUTPUTFILE"
-
   ReadyForDev .Writes back from output:
     Id: WriteBack
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<

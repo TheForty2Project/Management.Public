@@ -125,7 +125,7 @@ namespace Barba.Types:
   class Bug:
     Inherits: Task
     Properties:
-      BugStatus Status:
+      BugStatus BugStatus:
       User QA:
       string Version:
       string Area:
@@ -200,7 +200,7 @@ namespace Barba.Types:
       Requirement[] Parts:
         IsDefault: true
       Requirement[] RequiresRequirement:
-      RequirementStatusEnum Status:
+      RequirementStatusEnum ReqStatus:
       integer CurrentValue:
       Area ForArea:
       User[] By:
@@ -336,7 +336,7 @@ namespace Barba.Types:
   class UseCase:
     Inherits: StandardItem
     Properties:
-      UseCaseStatusEnum Status:
+      UseCaseStatusEnum UCStatus:
         Summary: Signaling the maturity of the UC
       User[] Actors:
         Summary: The actors performing the actions in the UC

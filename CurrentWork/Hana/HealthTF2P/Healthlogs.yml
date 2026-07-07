@@ -1560,8 +1560,7 @@ HealthLog20260702Hana:
       - Sweeped outside
       - Prepare breakfast
       - Mobility ex
-      - Didn't entertain the fight [https://chatgpt.com/share/6a4664ee-5e98-83eb-8c90-303b1eb86fab]
-      
+      - Didn't entertain the fight [https://chatgpt.com/share/6a4664ee-5e98-83eb-8c90-303b1eb86fab]     
   .PoopikaLog:
     - Time: 08:30
       Type: 4
@@ -1588,9 +1587,127 @@ HealthLog20260702Hana:
     - Eye still Yellow
     - Bloating is less ( but todaymorning was more than few days ago):
       - it could be because of the protein and milk I took before eating. 
+HealthLog20260703Hana:
+  .MealLogs:
+    - Time: 08:30
+      Description: water ,dates
+      HungerBefore:  2
+      HungerAfter: 1
+      Amount: 2
+    - Time: 12:30
+      Description: Fish, Bockchoy, argula, tofu, zucchini
+      HungerBefore:  5
+      HungerAfter: 0
+      Amount: 0.25, 1, 10g, 3 small square pieces, one spoon
+    - Time: 
+      Description:
+      HungerBefore:
+      HungerAfter: 
+      Amount: 
+  .Hydration:
+    - Morning: 1
+    - Afternoon: 
+    - Evening: 
+  .MoodLog:  
+    - Woke up ok. What i did is I went through vinted and I felt my mind wasnt activated. I had to leave the phone and move in the kitchen. felt tired, sad sequence of thoughts and lazy so went for a quick walk. prepared breakfast, ate 2 dates and went to the gym for quick mobility amd functional exercises. cam back and ate lunch. My mind still felt heavy so I took Coke, Velo and 0.25 americano. Now working. Mind is started to be stimulated
+    - 
+  .PoopikaLog:
+    - Time: 08:30
+      Type: 5
+      Trigger: Coke and Velo
+  .ExerciseLog:
+    - Time: 11:05
+      Category: Mobility and Strength
+      Type: whole body functional ex 
+      GarminLink: https://connect.garmin.com/app/activity/23462891673
+  .Dlog:
+    - Time: 09:30
+      NotableThings: 1 velo
+    - Time: 14:00
+      NotableThings: Kratom 0.6
+    - Time: 162843
+      NotableThings: C 0.1
+  .SupplementLog:
+   - Time: 09:30
+     What: Glutanmine, Creatine, Folic Acid
+  .SleepLogs: 
+    - Time: 11:48
+      Score: 81
+      GarminLink: https://connect.garmin.com/app/sleep/2026-06-30/0
+  .Anynotablething:
+    - woke up ok 
+    - Sequence of sad thoughts
+    - forced myself to walk 
+    - went to the gym and some strength and mobility
+    - boy is tired
+HealthLog20260704Hana:
+  .Did not log for the day:
+HealthLog20260705Hana:
+  .InitialState:
+      Sleep:
+        Score: 71
+        Duration: 7h 9m
+        WakeTime: 8:50
+        Link: https://connect.garmin.com/app/sleep/2026-07-06
 
+      BrainBaselineState:
+        Energy: 6/10
+        ThinkingQuality: 6/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
 
+      Body:
+        Hunger: 4/10
+        Stress: H
+        MuscleSoreness: L
 
+  .MealLogs:
+    - Time: 09:30
+      Description: Egg, Yogurt, Coffe-Lionsmane-milk,
+      HungerBefore:  2
+      HungerAfter: 1
+      Amount: 1,1, regular minimum coffee
+    - Time: 15:00
+      Description: Rice, Chicken, boiled egg
+      HungerBefore: 5 
+      HungerAfter: 0
+      Amount: 80 g, 20g, one
+    - Time: 17:00
+      Description: Protein Shake
+      HungerBefore: 3
+      HungerAfter: 0
+      Amount: 25g
+  .Hydration:
+    - Morning: 1L
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - shooting headache
+    - fatigue
+    - some joint oain on my right index
+    - 
+  .PoopikaLog:
+    - Time: 9:50
+      Type: 4
+      Trigger: Velo
+  .ExerciseLog:
+    - Time: 12:05
+      Category: Walk
+      Type: recovery 
+      GarminLink: https://connect.garmin.com/app/activity/23462891673
+  .Dlog:
+    - Time: 09:30
+      NotableThings: 1 velo
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Glutanmine, Creatine, Folic Acid, Iron
+  .Anynotablething:
+  
 
 
 HealthLog20260422Bobi:
@@ -2553,6 +2670,253 @@ HealthLog20260702Bobi:
     - SleepTime: 02:56
       GarminLink: https://connect.garmin.com/app/sleep/2026-07-02
       Score: 76
+HealthLog20260705Bobi:
+  .InitialState:
+      Sleep:
+        Score: 79
+        Duration: 7h 9m
+        WakeTime: 11:32
+        Link: https://connect.garmin.com/app/sleep/2026-07-06
+
+      BrainBaselineState:
+        Energy: 71
+        ThinkingQuality: 6/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+
+      Body:
+        Hunger: 4/10
+        Stress: H
+        MuscleSoreness: L
+
+  .MealLogs:
+    - Time: 09:30
+      Description: Pancake, Blueberry
+      HungerBefore:  4
+      HungerAfter: 0
+      Amount: 0.5 cup batter, 
+    - Time: 
+      Description: 
+      HungerBefore:  
+      HungerAfter: 
+      Amount: 
+    - Time: 
+      Description:
+      HungerBefore:
+      HungerAfter: 
+      Amount: 
+  .Hydration:
+    - Morning: 1L
+    - Afternoon: 
+    - Evening: 
+  .MoodLog:  
+    - 
+    - 
+  .PoopikaLog:
+    - Time: 9:50
+      Type: 4
+      Trigger: Velo
+  .ExerciseLog:
+    - Time: 12:05
+      Category: Walk
+      Type: recovery 
+      GarminLink: https://connect.garmin.com/app/activity/23462891673
+  .Dlog:
+    - Time: 09:30
+      NotableThings: 1 velo
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Glutanmine, Creatine, Folic Acid
+  .Anynotablething:
+    - woke up ok 
+    - Sequence of sad thoughts
+    - forced myself to walk 
+    - went to the gym and some strength and mobility
+    - boy is tired
+
+
+
+
+HumanOperatingLog20260703: 
+
+  InitialState:
+    Sleep:
+      Score: 81
+      Duration: 6h 15m
+      WakeTime: 7:54 
+      Link: https://connect.garmin.com/app/sleep/2026-07-03
+
+    BrainBaselineState:
+      Energy: 6/10
+      ThinkingQuality: 4/10
+      Motivation: 4/10
+      Emotion: Neutral
+      Rumination: Low
+
+    Body:
+      Hunger: 2/10
+      Stress: H
+      MuscleSoreness: M
+
+    BrainState:
+
+      Subjective:
+        Energy: 4/10
+        ThinkingQuality: 3/10
+        Motivation: 3/10
+        Emotion: Sad
+        MentalActivation: Low
+
+      Observation:
+        Started browsing Vinted.
+        Mind felt inactive.
+        Negative thought sequence started.
+
+      Decision:
+        PredictedValue:
+          Continue scrolling: Low
+          Move body: High
+
+        ChosenAction:
+          Walk to kitchen.
+          Prepare breakfast.
+          Eat two dates.
+          Go to gym.
+
+  Timeline:
+
+    - Time: 08:30
+      Description: water ,dates
+      HungerBefore:  2
+      HungerAfter: 1
+      Amount: 2
+      Observation: Energy stable.
+
+    - Time: 09:30
+      What: Glutanmine, Creatine, Folic Acid
+
+    - Time: 12:30
+      Description: Fish, Bockchoy, argula, tofu, zucchini
+      HungerBefore:  5
+      HungerAfter: 0
+      Amount: 0.25, 1, 10g, 3 small square pieces, one spoon
+      Nicotine:
+        Velo: 1
+
+    - Time: 10:00
+
+     
+
+    - Time: 11:05
+
+      Event: Exercise
+
+      Category:
+        Mobility
+        Functional Strength
+
+      Garmin:
+        https://connect.garmin.com/app/activity/23462891673
+
+      ImmediateEffect:
+
+        Subjective:
+          Energy: 6/10
+          ThinkingQuality: 5/10
+
+    - Time: 12:30
+
+      Event: Lunch
+
+      Nutrition:
+        Foods:
+          - Fish
+          - Bok choy
+          - Arugula
+          - Tofu
+          - Zucchini
+
+      Hunger:
+        Before: 5
+        After: 0
+
+    - Time: 14:00
+
+      Event:
+        Kratom
+
+      Dose:
+        0.6 g
+
+    - Time: 16:28
+
+      Event:
+        Cocaine
+
+      Dose:
+        0.1 g
+
+      Coffee:
+        Americano: 0.25
+
+      Nicotine:
+        Velo: 1
+
+      SubjectiveEffect:
+
+        Energy: 8/10
+        ThinkingQuality: 8/10
+        Motivation: 9/10
+
+        Observation:
+          Mind felt stimulated.
+          Started working.
+
+      ObjectiveWork:
+        Completed:
+        TimeFocused:
+        BugsSolved:
+        LinesWritten:
+
+  DailyReview:
+
+    WhatWorked:
+      - Walking interrupted mental inactivity.
+      - Movement improved activation.
+      - Mobility increased readiness for work.
+
+    WhatDidNotWork:
+      - Phone immediately after waking reduced activation.
+
+    Hypotheses:
+      - Morning movement activates thinking better than passive phone use.
+      - Exercise reduces mental inertia.
+      - Subjective stimulation after cocaine should be compared with objective productivity rather than assumed to improve cognition.
+
+    TomorrowExperiment:
+      - No phone before breakfast.
+      - Compare movement vs caffeine alone.
+      - Record objective coding performance.
+
+  BrainModel:
+
+    Prediction:
+      Movement increases ThinkingQuality.
+
+    Observation:
+      Supported today.
+
+    Confidence:
+      Moderate
+
+    NextQuestion:
+      Is ThinkingQuality driven more by movement, sleep, caffeine, nicotine, or expectation?
+
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

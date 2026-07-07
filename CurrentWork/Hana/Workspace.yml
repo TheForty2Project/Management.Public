@@ -306,4 +306,20 @@ Healthschedule:
 TODO .Workout the streaming pannel we have it in management and PR:
 
 
+20260706:
+  - Prepare the schedule of the week with its priorities: 
+    - Activities:
+      - morning run everyday goal
+    - Meals
+    - Work:
+      - timing
+      - priorities
+    - Publication and recording 
+
+    - Reminder system 
+  - Create a class for the new data types:
+    - BrainbaselineState, Body, sleep
+    - 
+  - 
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

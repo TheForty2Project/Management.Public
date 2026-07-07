@@ -221,17 +221,14 @@ SR_20260624_Hana:
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Schedule body measurement"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
-
 SR_NEXT_Hana:
-  Was:    
-  Next:    
-    - Check mama's phone - is it a brick
-    - Do finances:
-      - Plan first!!!!!!:
-        - have some idea about the structure and have it reviewed by Bobi
-        - it should be easy to maintain
-        - the process should include using ChatGPT as much as possible - like export CSV => Codex convert
-        - Include: 
-          - planned expenses
-          - analysis about past spent - where can we spend less/optimize? What types of things are we spending how much?
-    - Taskify the above
+  Was:
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260703 T 140133 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, "", 20260706 T 140133 ]
+    
+  Next:
+    - null
+  AOIB:
+    - Healthlog:
+        - Can we change the name from Health Log to Human Operating Log?
+        - Can we categorize the items to hours? It seemed it is easier to track via time instead of categories

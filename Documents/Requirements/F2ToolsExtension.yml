@@ -621,16 +621,19 @@ InDev .QueryDescription based CSV report generation:
   MaintenanceTasks:
     - -->Tasks\Miscellaneous\..BA..F2Tools..QueryBasedCSV<    
   Artifacts:
-    .SyncResultValues:
-      .NewRow: N
-      .UpdatedRow: U
-      .SameRow: S 
-      .DeletedRow: Del
-    .SelectPropertySpecialValues:
-      .EMPTY: an empty value
-      .SYNCRESULT: one of the values from SyncResultValues representing whether the row was created, updated, etc.
-      .IDLINK: the Id based F2Link pointing to the Item
-      .SUMMARYLINK: the Summary based F2Link pointing to the Item
+    enum .SyncResultValues:
+      .NoChange:
+      .RowCreated:
+      .RowUpdated:
+      .RowDeleted:
+      .ItemCreated:
+      .ItemUpdated:
+      .ItemNotFound:
+    string[] .SelectPropertySpecialValues:
+      - EMPTY #an empty value
+      - SYNCRESULT #one of the values from SyncResultValues representing whether the row was created, updated, etc.
+      - IDLINK #the Id based F2Link pointing to the Item
+      - SUMMARYLINK #the Summary based F2Link pointing to the Item
     class .QueryDescription:
       Inherits: StandardItem
       Details:
@@ -676,6 +679,11 @@ InDev .QueryDescription based CSV report generation:
         RowDeletingBehavior .BehaviorWhenDeletingRows:
           DefaultValue: RowDeletingBehavior..CommentOut
           Summary: what to do if a row is deleted during a sync operation (i.e. when the query is re-run to sync the changes)
+        bool .CreateNonExistingItems:
+          DefaultValue: true
+          Summary: if true, during write-back operation the Items which do not exist get created - i.e. if the link does not point anywhere, otherwise a 
+          Details:
+            - if the 
         bool .AddSyncResultColumn:
           DefaultValue: true
           Summary: adds a -->~..SelectPropertySpecialValues..SYNCRESULT< column when syncing (if it's not already present in the Select part)

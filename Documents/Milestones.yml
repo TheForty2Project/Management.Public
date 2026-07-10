@@ -79,8 +79,17 @@
         - -->Documents\Requirements\F2ToolsExtension\..Docs.."Initial license"<
         - -->Documents\Requirements\F2ToolsExtension\..DocUpdates..F2BarbaMgmtMVP<
         - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<
+        
   New .Public presence phase1:
-    Id: PublicPhs1
+    Id: PublicPhs1    
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 162727}
+    Details:
+      - Reaching the state that we:
+        - actively promote our activities - e.g. with 9gag, fb, etc posts:
+          - let's say that after 3-5 "posts" we reached this state
+        - we regularly stream
+        - we update the site with the latest development at least daily (on average)
+        - we have our daily schedule, RePlSt,  - but this is not really this milestone though
+    Tasks:
     
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

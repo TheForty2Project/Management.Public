@@ -1,4 +1,4 @@
-*,Estimation,Status,By,RemTime,IdLink,DependsOn
-,,,Bobi,,"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs..""During F2Link generation the first part of the file path is missing""<",
-,,,Bobi,,"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs..""If a map key is a number, it can't parse it as an Id""<",
-,,,,,-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Refactors<,
+*, Estimation, Status, By  , RemTime, IdLink                                                                                                                                         , DependsOn
+ ,           ,       , Bobi,        , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs..""During F2Link generation the first part of the file path is missing""<", 
+ ,           ,       , Bobi,        , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs..""If a map key is a number, it can't parse it as an Id""<"               , 
+ ,           ,       ,     ,        , -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Refactors<                                                                      , 

@@ -99,7 +99,7 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         InProgress .See what can be done to support the empty lines; if easy, do it: 
           Id: Implement
-          +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [CSVDONE], Estimation: "120", RemTime: "60"}
+          +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "120", RemTime: "60", Importance: 2-Low}
           Details:
             - It can be done seemingly, relatively easy (2h)
       Done .Fix the non-scalar as a sequence entry folding issue:
@@ -109,7 +109,7 @@
       EstTODO .Merge the project into the F2Tool solution:
         +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194910, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       EstTODO .Detect and convert urls:
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "60", RemTime: "60", Importance: 2-Low}
         Details:
           - check first - 
           - email addresses
@@ -117,9 +117,9 @@
       Done .Display line and col number when unable to parse yaml:
         +: {CreatedBy: Bobi, CreatedAt: 20260420 T 203155, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
       EstTODO .Update the colors to the current VS Code theme:
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "15"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [Before1stPost], Estimation: "15", RemTime: "15", Importance: 1-VeryLow}
       EstTODO .Detect and convert f2yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVDONE], Estimation: "90", RemTime: "90"}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "90", RemTime: "90", Importance: 3-Average}
         MaintenanceTasks:
           Done .Have an implementation plan and improve estimation:
             Id: ImprEstimation
@@ -149,8 +149,8 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185113, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
-      EstTODO .Add "Commit message"-like feature:
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [CSVTODO], Estimation: 70, RemTime: 70}
+      OnHold .Add "Commit message"-like feature:
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [Before1stPost], Estimation: 120, RemTime: 120}
         MaintenanceTasks:
           Done .Have an implementation plan and provide estimation:
             Id: ImprEstimation
@@ -158,15 +158,11 @@
             Result:
               Estimation:
                 PAR: 30
-                Normal: 70
+                Normal: 120
         Details:
           - At each website update a description must be provided
           - The app also tracks the changes
-        TODO .Decide:_ where should the commit message provided and how?:
-          Details:
-            - as a command-line parameter?
-            - as an entry in some config file?
-        InProgress .Decide:_ how should we handle the whole thing:
+        Done .Decide:_ how should we handle the whole thing:
           Details:
             - we should preserve the previous updates, which should be stored somewhere - maybe a yaml in our workspace?
             - so the app would edit this file maybe?
@@ -176,12 +172,11 @@
               - it can just compare the generated htmls
               - it can take a snapshot of all the yamls, save them, and then compare the new ones
           Workspace:
-            - What to display in the website:
-              - History of TF2P and current status (growth included):
-                 - The previous 2 websites and the backgrownd growth ( team, requiremnt development, the extenrsion ..etc) - The previous 2 websites and the backgrownd growth ( team, requiremnt development, the extenrsion ..etc)
-              - Milestones section
-              - schedule of streaming on twitch with the tasks (optionally:-to be updated everday)
-              - 
+            - Current idea is that:
+              - there's a file into which we put the current message template, containing placeholders for the file list (FILELIST) and the date (DATE); fill in the "${1:_ message}" part with the message
+              - there's a diff in between the last and the current repo; command-line, run by the app; the output is parsed and inserted into the relevant file's placeholder
+        TODO .Implement:
+              
   OnGoing .Bugs:   
 
 

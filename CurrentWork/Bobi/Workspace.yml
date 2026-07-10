@@ -17,16 +17,18 @@
   From: [-->Tasks\<]
   OutputFile: CurrentWork\Bobi\CurrentTasks.csv
 
-.TasksToBeSorted20260702:
+.Before1stPostTasks:
   Type: QueryDescription
-  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702<, -->CurrentWork\Bobi\TasksToBeSorted\..TESTING_DILITDIS<]
-  OutputFile: CurrentWork\Bobi\TasksToBeSorted20260702.csv
+  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Apple, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->Tasks<
+  OutputFile: CurrentWork\Bobi\Before1stPostTasks.csv
+  OrderBy: [Importance desc, By, RemTime]
   Where: 
-    TaggedBy: []
-    ItemTypes: [Bug]
-    SkipUnder: [-->Tasks\Archive\<]
-
+    TaggedBy: [Before1stPost]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
 
 .CurrentTasks:
   Id: CurrentTasks
@@ -82,14 +84,14 @@ TODO .ParentTODO:
       - you can take a look now
       - this is a test - what is our reach; we don't want to be loud yet, just the first 
       - Meme: Some pictures about what happened while Earth finished computing, that people first formed "computer-human hybrid" computing blahh machines; that these Items are the base; practical example; 
-    Memes:
+    9Gag memes:
       - Type: 4 squares, top left guy with the "nooo" expression and body language to the top right thing, bottom left guy pointing to the bottom right thing with his body expressing "yeeah, this one"
         Content: 
           - top right: work and build what we want; at least check out the site and root for us
           - bottom right: it's scam/stupid/communism/notpossible/nothere/eatshit.
       - Type: two buttons, hand in front of them, choosing which one to press
         Content:
-          - hand choosing in between "complain that everything is bad" - "at least check out the solutions"
+          - hand choosing in between "complain that everything is bad" - "at least check out the solutions" or "actually do something"
       - Type: comic
         Content:
           - conversation, 2 people:
@@ -100,12 +102,48 @@ TODO .ParentTODO:
         Content:
           - Top: I wanted to be a god, that I have unlimited powers
           - Bottom: Until I realized that it also means that I do everything
+      - Type: The logo of the project
+        Content:
+          One of these:
+          - Ping.
+          - Getting there; we want those who want to suck dick together, sharing them fairly, computing and automating the decisions so that you can get the most out of them with the least sucking?
+          - You said it was scam, so we worked to reach the scrap state; you can soon join and we can suck dick together fairly, self-improvingly, computing the decisions.:
+            - Why 9Gag? It's like democracy: the worst community except all the others we tried.
+          - Everyone is just whining - no jobs, AI taking over, everything is bad, "someone do something!";   
+    Reddit:
 
     History:
       - 
     Current plan:
       - 
 
+Schedule20260711:
+  Details:
+    Goals:      
+      - have hours for non-programming work (both): 2
+      - have hours for programming work (Bobi): 2
+      - extra chores:
+        - Bubbles
+        - Room cleaning        
+      - usual chores:
+        - shopping (fish)
+        - cooking (fish)
+      - exercise:
+        - gym
+        - big walk (night)
+    Schedule:
+      - Hana wakes up at 8-9:
+        - Bubbles in the morning
+        - Room cleaning by Hana in the morning
+      - Hana must eat
+      - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+      - 12:30-13:30: work
+      - 14:00: eat
+      - 15:00: gym
+      - 16:30: work
+      - 18:00: eat
+      - big walk (night)
+    
 
 
 

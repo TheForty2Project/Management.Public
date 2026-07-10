@@ -141,23 +141,37 @@
 
 .TasksToBeSorted20260702:  
   TODO .Check the health-log progress and collect feedback:    
-  TODO .Work on the marketing things:
+  InProgress .Work on the marketing things:
     InProgress .Collect what we want to do before we post:
       Workspace:
         Points:
         - Update the site? That converter-feature?
-        - Have the Tasks worked out (on which I'm planning to work on)
+        - Have the (development) Tasks worked out (on which I'm planning to work on)
         - Have some history/future plans part:
-        - what is the reason we're posting, what do we want to reach with it:          
-        - what is the current stage - so e.g. finishing the dev of the F2Tools.MVP; the "product"        
-        - we need the F2FinanceHelper so that we can have some trust
-        - then we need the processes + the people for a real "self-improving hybrid electronic-human computer":
-          - set up in a way that the goal is to "produce the most value and share fairly"
+          - what is the reason we're posting, what do we want to reach with it:          
+          - what is the current stage - so e.g. finishing the dev of the F2Tools.MVP; the "product"        
+          - we need the F2FinanceHelper so that we can have some trust
+          - then we need the processes + the people for a real "self-improving hybrid electronic-human computer":
+            - set up in a way that the goal is to "produce the most value and share fairly"
         Tasks:
-          TODO .Finish the F2FinanceHelper draft requirement:
-          TODO .Updates feature in F2File2HtmlConverter:
-          TODO .Clean the repo up - again:          
-    TODO .Create the baseline posts from the ideas:
+      Done .Go through the existing Tasks in the Milestones and tag them:
+        +: {CreatedBy: Bobi, CreatedAt: 20260706 T 152256, By: [Bobi, Hana]}
+      InProgress .Create Tasks for the new activities:
+        +: {CreatedBy: Bobi, CreatedAt: 20260706 T 152322, By: [Bobi, Hana]}
+        Details:
+          - Including moving any from here to their correct location
+          - Tag them with "Before1stPost"
+  .TaskAdmin:
+    EstTODO .Finish the F2FinanceHelper draft requirement:
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 4-High}
+    EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 3-Average}
+      Details:
+        - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
+        - Write Requirements for new features and estimate each
+  .Outreach:
+    EstTODO .Create the baseline posts from the ideas:
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
   Done .CommitAndSync:
     +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
   Done .F2Link generation fix:
@@ -183,6 +197,8 @@
         - workspace-wide operations
         - server based behavior        
         - item provider for user scripts
+  Done .OrderBy:
+    +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}    
   EstTODO .CSV Remainings:
     EstTODO .Handling of overlapping froms:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
@@ -202,6 +218,8 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
     EstTODO .RowDeletingBehavior:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+    EstTODO .CreateMissingItems:
+      +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
     InProgress .Where finish:
       Done .Engine:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
@@ -293,7 +311,7 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013346, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
           Details:
             - Valid if matches with the spec in the classDescription
-    EstTODO .DefaultTypes support through Folder:
+    TODO .DefaultTypes support through Folder:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013359, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
         Store and use the default types for folder

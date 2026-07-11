@@ -1642,7 +1642,7 @@ HealthLog20260703Hana:
     - boy is tired
 HealthLog20260704Hana:
   .Did not log for the day:
-HealthLog20260705Hana:
+HealthLog20260706Hana:
   .InitialState:
       Sleep:
         Score: 71
@@ -1651,7 +1651,7 @@ HealthLog20260705Hana:
         Link: https://connect.garmin.com/app/sleep/2026-07-06
 
       BrainBaselineState:
-        Energy: 6/10
+        Energy: 100
         ThinkingQuality: 6/10
         Motivation: 8/10
         Emotion: Neutral
@@ -1669,10 +1669,10 @@ HealthLog20260705Hana:
       HungerAfter: 1
       Amount: 1,1, regular minimum coffee
     - Time: 15:00
-      Description: Rice, Chicken, boiled egg
+      Description: Rice, Chicken, boiled egg, Pancake
       HungerBefore: 5 
       HungerAfter: 0
-      Amount: 80 g, 20g, one
+      Amount: 80 g, 20g, one, 0.5
     - Time: 17:00
       Description: Protein Shake
       HungerBefore: 3
@@ -1707,7 +1707,180 @@ HealthLog20260705Hana:
    - Time: 09:30
      What: Glutanmine, Creatine, Folic Acid, Iron
   .Anynotablething:
-  
+HealthLog20260707Hana:
+  .InitialState:
+      Sleep:
+        Score: 86
+        Duration: 7h 52m
+        WakeTime: 9:53
+        Link: https://connect.garmin.com/app/home
+        Stress: 16 avg Fair
+        Deep: 1h 40m Excellent
+        Light: 4h 11m Excellent
+        REM: 2h 1m Excellent
+        Awake/Restlessness: 42m • 47 Restless Moments Fair
+        Resting heart rate: 47
+
+      BrainBaselineState:
+        Energy: 89
+        ThinkingQuality: 7/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+
+      Body:
+        Hunger: 6/10
+        Stress: L
+        MuscleSoreness: L
+
+  .MealLogs:
+    - Time: 10:30
+      Description: Egg, rice, coffeelionsmane, home madetomato sauce with basil
+      HungerBefore:  2
+      HungerAfter: 1
+      Amount: 1,50, regular minimum coffee
+    - Time: 15:00
+      Description: Rice, Fish, tomato sauce,egg
+      HungerBefore:  3
+      HungerAfter: 0
+      Amount: 100g , 20g, 3 spoons,1
+    - Time: 21:00
+      Description: Rice, Fish, tomato sauce
+      HungerBefore: 5
+      HungerAfter: 2
+      Amount: 30g rice, 20g fish, 2 spoonof tomato sauce
+  .Hydration:
+    - Morning: 0.5
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Tired but mentally ok
+    - 
+    - 
+    - 
+  .PoopikaLog:
+    - Time: 11:00
+      Type: 3
+      Trigger: Velo
+  .ExerciseLog:
+    - Time: 12:30
+      Category: HIIT
+      Type: 
+        GarminLink: https://connect.garmin.com/app/activity/23462891673
+    - Time: 21:30
+      Category: Walk 
+      GarminLink: https://connect.garmin.com/app/activity/23516506996  
+  .Dlog:
+    - Time: 13:30
+      NotableThings: Kratom
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Glutanmine, Creatine, Folic Acid, Iron
+  .Anynotablething:
+HealthLog20260708Hana:
+  .InitialState:
+      Sleep:
+        Score: 78
+        Duration: 6h 40m
+        WakeTime: 8:00 
+        Link: https://connect.garmin.com/app/sleep/2026-07-08
+        Stress: 18m • 48 Restless Moments
+        Deep: 1h 36m
+        Light: 4h 6m
+        REM: 58m
+        Awake/Restlessness: 18m • 48 Restless Moments
+        Resting heart rate: 49
+
+      BrainBaselineState:
+        Energy: 93
+        ThinkingQuality: 7/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+
+      Body:
+        Hunger: 4/10
+        Stress: L
+        MuscleSoreness: L
+
+  .MealLogs:
+    - Time: 10:45
+      Description: Egg, ricecake, spinach, coffeelionsmane
+      HungerBefore:  2
+      HungerAfter: 1
+      Amount: 1,50g, regular minimum coffee, spinach 100g
+    - Time: 15:00
+      Description: Rice, Fish, tomato sauce,egg
+      HungerBefore:  3
+      HungerAfter: 0
+      Amount: 100g , 20g, 3 spoons,1
+    - Time: 21:00
+      Description: Rice, Fish, tomato sauce
+      HungerBefore: 5
+      HungerAfter: 2
+      Amount: 30g rice, 20g fish, 2 spoonof tomato sauce
+  .Hydration:
+    - Morning: 0.5
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Tired but mentally ok
+  .PoopikaLog:
+    - Time: 11:00
+      Type: 4
+      Trigger: Velo
+    - Time: 132327
+      Type: 4
+  .ExerciseLog:
+    - Time: 09:30
+      Category: Walk
+      Type: 
+        GarminLink: 
+   
+  .Dlog:
+    - Brain State before:
+      Subjective:
+        Energy: 7/10
+        ThinkingQuality: 5/10
+        Motivation: 8/10
+        Emotion: neutral
+        MentalActivation: L
+
+      Observation:
+        - ability to work on the health log
+    - Time: 13:00
+      NotableThings: Kratom 0.6G
+    - BrainState:
+
+      Subjective:
+        Energy: 8/10
+        ThinkingQuality: 7/10
+        Motivation: 8/10
+        Emotion: neutral
+        MentalActivation: High
+
+      Observation:
+        - ability to work on the health log
+
+      Decision:
+        PredictedValue:
+          Continue scrolling: Low
+          work: High
+
+        ChosenAction:
+         - Take Kratom for focus
+         - leave the phone inside the bag
+         - hyration
+    - 
+ 
+  .SupplementLog:
+   - Time: 09:30
+     What: Glutanmine, Creatine, Folic Acid
+  .Anynotablething: 
 
 
 HealthLog20260422Bobi:

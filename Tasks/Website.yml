@@ -1221,15 +1221,15 @@ Done .Back to original:
                 Tools and processes: 
                   - on a good track to be able to handle a larger team
                   - 
-                Product
+                Product:
                 Outreach: 
                   Website content:                     
                     - \"Too long, didn't read" attitude coupled with the complexity of the topic
                   Ways: 
                     - regular ways are not for us (linkedin, ads, etc.) - we're not a company but a self-improving cooperation
                     - explanation 
-                #- Starting to understand that even though we're building from existing ideas, the result is 
-                - "People need to see the system in action to understand"
+                   #- Starting to understand that even though we're building from existing ideas, the result is 
+                    - "People need to see the system in action to understand"
             stage_3:
               title: "Ok then, let's "
               description: 
@@ -1292,6 +1292,160 @@ Done .Back to original:
               - "Provide direct communication"
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
+    InProgress .Further Fine-Tune the transcription:
+      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [CSVTODO], Estimation: 90m, RemTime: 79m}
+      Workspace:
+        Stage1:
+          Title: "The Idea"
+          Years: "2018-2024"
+
+          Description: 
+            The project began with a simple question:
+
+              Can we design a universal decision-making system that scales from
+              individuals to teams, organizations, and eventually society?
+
+              Existing Application Lifecycle Management (ALM) tools showed that
+              software projects could coordinate thousands of decisions.
+              We wondered whether the same principles could be generalized into
+              something much broader.
+
+              During these years we focused on researching, writing, and testing
+              theories rather than building products.
+          Products:
+            - Early concepts
+            - Decision-making theories
+            - Initial proof-of-concepts
+          Result:
+            - Core principles established
+            - Initial concepts validated
+
+        Stage2:
+          Title: "Finding Others"
+          Years: "2023"
+
+          Description: 
+            Our first assumption was simple:
+
+              Surely many people already think this way.
+              We only need to find them.
+
+              We created the first version of the website and began sharing the
+              project publicly on communities such as Reddit and 9GAG.
+
+              Reality quickly taught us something important.
+              People were interested in the vision, but the explanation was not
+              clear enough for them to understand what made the project different.
+
+          Products:
+            - First TF2P website
+            - Initial public posts
+
+          Result:
+            - Two people joined the project
+            - Learned that explaining the vision is much harder than expected
+            - Realized the website needed to become significantly clearer
+
+        Stage3:
+          Title: "From Theory to Practice"
+          Years: "2024"
+
+          Description: >
+            We shifted our focus from simply presenting the vision to explaining
+            the underlying concepts in much greater detail.
+
+            The website was expanded to document the philosophy behind TF2P,
+            how the system is intended to work, and why we believe current
+            decision-making systems can be improved.
+
+            At the same time, a small team of five members began testing these
+            ideas in real work. To support this, we developed the first versions
+            of our management processes and supporting tools.
+
+            We also experimented with conventional ways of growing the project,
+            including LinkedIn and other communities.
+
+          Products:
+            - Expanded TF2P website
+            - Detailed explanation of the TF2P concepts
+            - First TF2P management processes
+            - TF2Tool extension
+            - Internal workflows
+
+          Result:
+            - Successfully used TF2Tool to manage our own work
+            - Learned that understanding the concepts alone is still not enough
+            - Identified the need for more contributors, especially programmers
+            - Confirmed that practical demonstrations communicate better than theory
+
+        Stage4:
+          Title: "Show, Don't Tell"
+          Years: "2025-Present"
+
+          Description: 
+            We reached another important realization:
+
+              Even detailed explanations leave room for interpretation.
+
+              Instead of asking people to understand the system by reading about it,
+              we decided to expose the development process itself.
+
+              The website now includes the technical side of the project, allowing
+              visitors to explore the architecture, browse development tasks,
+              understand what is currently being built, and choose where they would
+              like to contribute.
+
+              Our goal is to make TF2P observable, transparent, and testable.
+
+          Products:
+            - F2Tool
+            - Technical documentation
+            - Public development roadmap
+            - Public task system
+            - Interactive demonstrations
+
+          CurrentFocus:
+            - Refine the decision-making system
+            - Improve clarity through working examples
+            - Build the development platform
+            - Enable open technical collaboration
+            - Grow a community of thoughtful contributors
+
+          HowToHelp:
+
+            Basic:
+              - Ask questions
+              - Share feedback
+              - Introduce the project to others
+
+            Advanced:
+              - Choose a development task
+              - Submit YAML configurations
+              - Report inconsistencies
+              - Suggest improvements
+              - Contribute code
+
+            Note: >
+              Anyone can follow the project's progress through the public tasks.
+              If you would like to contribute more deeply, reach out to us.
+              Early contributors have the opportunity to help shape both the
+              platform and the direction of the project.
+
+        Stage5:
+          Title: "Scaling Beyond the Core Team"
+          Years: "Future"
+          Description: 
+            The goal is to demonstrate that the system can coordinate
+            increasingly larger groups while maintaining transparency,
+            adaptability, and high-quality decision making.
+          Success:
+            - Independent contributors
+            - Self-improving management processes
+            - Multiple real-world projects using TF2P
+            - Evidence that the approach scales
+
+      
+
     EstTODO .Add it to the website:
       +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: Bobi, Tags: [Before1stPost], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       Details:

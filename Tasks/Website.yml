@@ -1813,6 +1813,12 @@ Done .Back to original:
       - Feed the current yamls to some LLM and ask:
         - are there any spelling mistakes in the English text (so not in the Id-s)
         - is there anything super not understandable
+    WorkSpace: 
+      Mispelling:
+        Paragraph: Combining two main ideas
+        Mispelling: computing-power to outcompUte capitalistic systems.
+        
+
   OnHold .Later:
     Details:
       Tasks we planned at one point but not sure if or when we want to pursue them

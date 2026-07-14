@@ -1881,6 +1881,201 @@ HealthLog20260708Hana:
    - Time: 09:30
      What: Glutanmine, Creatine, Folic Acid
   .Anynotablething: 
+HealthLog20260712Hana:
+  Notes: 
+    Sunday - Supplement free day
+  InitialState:
+      Sleep:
+        Score: 64
+        Duration: 6h 54m
+        WakeTime: 8:59 
+        Link: https://connect.garmin.com/app/sleep/2026-07-12/0
+
+      BrainBaselineState:
+        Energy: 88
+        ThinkingQuality: 5/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+
+      Body:
+        Hunger: 5/10
+        Stress: L
+        MuscleSoreness: L
+
+      BrainState:
+
+        Subjective:
+          Energy: 4/10
+          ThinkingQuality: 3/10
+          Motivation: 3/10
+          Emotion: Sad
+          MentalActivation: Low
+
+        Observation:
+          Started browsing Vinted.
+          Mind felt inactive.
+          Negative thought sequence started.
+
+        Decision:
+          PredictedValue:
+            Continue scrolling: Low
+            Move body: High
+
+          ChosenAction:
+            Walk to kitchen.
+            Prepare breakfast.
+            Eat two dates.
+            Go to gym.
+HealthLog20260713Hana:
+  .InitialState:
+      Sleep:
+        Score: 90
+        Duration: 8h 27m
+        WakeTime: 9:00 
+        Link: https://connect.garmin.com/app/sleep/2026-07-13/0
+      BrainBaselineState:
+        ThinkingQuality: 7/10
+        Motivation: 9/10
+        Emotion: Neutral
+        Rumination: Low
+      Body:
+        Energy: 98
+        BP: 107/72
+        Hunger: 4/10
+        Stress: L
+        MuscleSoreness: L
+      BrainState:
+
+        Subjective:
+          Energy: 
+          ThinkingQuality: 
+          Motivation: 
+          Emotion: 
+          MentalActivation: 
+        Observation:     
+        Decision:
+          PredictedValue:
+          Continue scrolling: Low
+          Move body: High
+
+          ChosenAction:
+            Walk to kitchen.
+            Prepare breakfast.
+            Eat two dates.
+            Go to gym.
+  .MealLogs:
+    - Time: 101442
+      Description: Water, napalm,coffeegingerlionsmane
+      Amount: 600L, 10ml, Cup
+   
+  .Hydration:
+    - Morning: 0.6
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Tired but mentally ok
+    - 
+    - 
+    - 
+  .PoopikaLog:
+    - Time: 9:30
+      Type: 3
+      Trigger: None
+    - Time: 101614
+      Type: 6 
+  .ExerciseLog:
+    - Time: 
+      Category:
+      Type: 
+      GarminLink:
+    - Time: 13:30
+      NotableThings: Kratom
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Folic Acid
+  
+  .Anynotablething:
+HealthLog20260714Hana:
+  .InitialState:
+      Sleep:
+        Score: 78
+        Duration: 7h 11m
+        WakeTime: 9:00 
+        Link: https://connect.garmin.com/app/sleep/2026-07-14/0
+      BrainBaselineState:
+        ThinkingQuality: 7/10
+        Motivation: 7/10
+        Emotion: Neutral
+        Rumination: Low
+      Body:
+        Energy: 77
+        BP: 110/72
+        Hunger: 3/10
+        Stress: L
+        MuscleSoreness: L
+      BrainState:
+
+        Subjective:
+          Energy: M
+          ThinkingQuality: M 
+          Motivation: L
+          Emotion: L
+          MentalActivation: L
+        Observation:     
+          - Vinted scrolling in the morning
+          - Fear of failing
+          - Kratom
+        Decision:
+          PredictedValue: 
+          Continue scrolling: Low
+          Move body: High
+
+          ChosenAction:
+            Walk to kitchen.
+            Prepare breakfast.
+            Eat two dates.
+            Go to gym.
+  .MealLogs:
+    - Time: 101442
+      Description: Water, napalm,coffeegingerlionsmane
+      Amount: 600L, 10ml, Cup
+  .Dlogs:
+    - Time: 114213
+      NotableThings: Kratom
+  .Hydration:
+    - Morning: 0.7
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Fear of failure
+  .PoopikaLog:
+    - Time: 9:30
+      Type: 3
+      Trigger: None
+
+  .ExerciseLog:
+    - Time: 
+      Category:
+      Type: 
+      GarminLink:
+    - Time: 13:30
+      NotableThings: Kratom
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Folic Acid
+  
+  .Anynotablething:
+
+
 
 
 HealthLog20260422Bobi:
@@ -2911,6 +3106,82 @@ HealthLog20260705Bobi:
     - forced myself to walk 
     - went to the gym and some strength and mobility
     - boy is tired
+HealthLog20260714Bobi:
+  .InitialState:
+      Sleep:
+        Score: 67
+        Duration: 5h 24m
+        WakeTime: 9:10
+        Link: https://connect.garmin.com/app/sleep/2026-07-14/0
+      BrainBaselineState:
+        ThinkingQuality: 7/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+      Body:
+        Energy: +53
+        BP: 105/72
+        Hunger: 
+        Stress: L
+        MuscleSoreness: L
+      BrainState:
+
+        Subjective:
+          Energy: M
+          ThinkingQuality: M 
+          Motivation: L
+          Emotion: L
+          MentalActivation: L
+        Observation:     
+          - Vinted scrolling in the morning
+          - Fear of failing
+          - Kratom
+        Decision:
+          PredictedValue: 
+          Continue scrolling: Low
+          Move body: High
+
+          ChosenAction:
+            Walk to kitchen.
+            Prepare breakfast.
+            Eat two dates.
+            Go to gym.
+  .MealLogs:
+    - Time: 101442
+      Description: Water, napalm,coffeegingerlionsmane
+      Amount: 600L, 10ml, Cup
+   
+  .Hydration:
+    - Morning: 0.6
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Tired but mentally ok
+    - 
+    - 
+    - 
+  .PoopikaLog:
+    - Time: 9:30
+      Type: 3
+      Trigger: None
+    - Time: 101614
+      Type: 6 
+  .ExerciseLog:
+    - Time: 
+      Category:
+      Type: 
+      GarminLink:
+    - Time: 13:30
+      NotableThings: Kratom
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Folic Acid
+  
+  .Anynotablething:
 
 
 

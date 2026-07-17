@@ -87,7 +87,7 @@
       Details:
         Name: CSharp
         Ideas: well... later?
-      Inprogress .Collect C# related questions:
+      InProgress .Collect C# related questions:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 164537, By: Bobi, Tags: [CSVTODO], Priority: 3-Average}
     TODO .Startups:
       +: {CreatedBy: Bobi, CreatedAt: 20250819 T 154222, By: marketing, Tags: [CSVTODO], Priority: 3-Average}
@@ -133,7 +133,7 @@
       Details:
         - So that e.g. Bobi knows what needs to be done, when
         - And - who does it; like Bobi creates a summary and someone else does the actual post?
-  Onhold .Creating short description on[meet up]:
+  OnHold .Creating short description on[meet up]:
     - Definition of the TF2P
     - What we do as a team
     - The Goals
@@ -905,7 +905,7 @@
       Estimation:
         - [ 1h, timeboxed ]
       By: Bobi, Hana
-      Summary:
+      Details:
         Use this - amongst other descriptions:
           - We should reach lots of people - and then we selectively let in the first batch, from then on the growth is incremental - so the first batch prepares the things for the next batches.
           - We should be in the leadership roles, NOT the ones doing work (so like we explain to people what needs to be done mostly, not that we do it):
@@ -914,22 +914,22 @@
           - Do the "marketing" up until we have enough people + money
     InProgress .Podcasts:
       OnGoing .Iteratively work out, shoot, review, do q&a recording:
-        Summary:
+        Details:
           - There should be a Task created under the subtasks of this for each topic
           - We should start recording the topics which are ready - and not finishing the structure of all first - so that we get experience about how well it works and can incorporate learnings as soon as possible
         OnGoing .Create a structure about each topic:
           By: Bobi
-          Summary:
+          Details:
             - It should be points only, not complete sentences - I should _not_ read up the things
           Done .Create the structure about the most important topics:
-            Summary:
+            Details:
               - The "core" for sure:
                   - = what I was explaining in the last 10 minutes + a little more.
               - Maybe 1-2 others:
                   - important "core" parts - so instead of just stating things like in the "core", I actually explain things
             Done .Develop the "Core summary - of what we are doing" topic structure baseline:
               By: Bobi
-              Summary: A "short" summary in which we explain all the important knowledge about the project
+              Details: A "short" summary in which we explain all the important knowledge about the project
               Result:
                 Intro:
                   Garbage: and continue to the subsequent ones simply about expanding the group and increasing the decision-making power to reach practical perfection in benefiting the members.
@@ -998,7 +998,7 @@
                   - resources: money always helps, we can convert it to work (or just food).
                   - supporters: we, humanity need this - so support us at least; share, say a few good words or at least ask constructive questions.
         OnGoing .Do structure reviews:
-          Summary: Distribute the material in between the members for review and question collection
+          Details: Distribute the material in between the members for review and question collection
           Notes:
             By Hana:
               - copied it to a google sheet got approval of the members
@@ -1007,7 +1007,7 @@
                   - Done Gaurav
                   - todo Giselle (within today)
         OnGoing .Reshoot the topics with just Hana first:
-          Summary:
+          Details:
             Structure:
               - I explain the topic, based on the structure I created
               - Make sure that I use the technique of "if I was stuttering, then I say "and now properly" and I say it properly" so that we can cut the good parts together
@@ -1043,7 +1043,7 @@
             WorkLog:
               - [ 2h, hana, "" ]
         OnGoing .Reshoot the topics with Q&A from audiences:
-          Summary:
+          Details:
             - They should collect questions
             - These questions are presented to us beforehand so that we can prepare
             - We do the session, probably in a way that:

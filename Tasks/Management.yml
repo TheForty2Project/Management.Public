@@ -172,14 +172,14 @@ OnGoing .General management:
   OnGoing .Remind and follow up with participants:
     OnHold .Remind Bobi for fixing the stand up process:
       +: {CreatedBy: Hana, CreatedAt: 20260622 T 213452, By: Hana}
-      Onhold .Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<:
+      OnHold .Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<:
         +: {CreatedBy: Hana, CreatedAt: 20260622 T 213625, By: Hana}
     OnGoing .Remind Bobi and myself about the streaming:
       +: {CreatedBy: Hana, CreatedAt: 20260622 T 215751, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
       Done .Reminder on 20260623:
       Done .Search where to start the streaming process in management and public relation:
         +: {CreatedBy: Hana, CreatedAt: 20260622 T 223006, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-OnHOld .Create process description for Standup, Retrospective and Planning:
+OnHold .Create process description for Standup, Retrospective and Planning:
   +: {CreatedBy: Hana, CreatedAt: 20260617 T 145241, By: Hana, Tags: [CSVTODO], Estimation: 80m, RemTime: 80m}
   Done .Create and revise process of StandUpreport:
   TODO .Create process for Planing meeting:
@@ -409,8 +409,7 @@ InProgress .Plan and prepare Twitch streaming first phase:
             - Prepare for tomorrows possible meals
             - Mood Analysis            
       Bobi:
-InProgress .Plan the next Milestones:
-  Summary: Not what I wrote above
+InProgress .Plan the next Milestones:  
   Id: PlanNextMS
   +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133207, By: [Bobi,Hana], Tags: [CSVDONE], Estimation:, RemTime:}
   DependsOn: -->Tasks\PublicRelations\..CreateOutreachPlan<

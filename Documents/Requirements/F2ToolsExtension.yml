@@ -746,9 +746,9 @@ InDev .QueryDescription based CSV report generation:
     class .ReportHeader:
       Inherits: Item
       Properties:
-        F2Link QueryDescriptionLink:
-        QueryDescription QueryDescription:
-        string[] Log:
+        F2Link .QueryDescriptionLink:
+        QueryDescription .QueryDescription:
+        string[] .Log:
       Details:
         Template: |
           <ReportHeader>:

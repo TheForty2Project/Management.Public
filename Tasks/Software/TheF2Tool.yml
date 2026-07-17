@@ -61,7 +61,7 @@ InProgress .MVPLeftAsOf20250730:
                     Id: blah
                 YetAnotherItemProp:
                   =TODO MyBlah:
-                    Summary: blah blah
+                    Details: blah blah
           \Code (non-Excel) style:
             Description:                    
               Scalar values:
@@ -86,7 +86,7 @@ InProgress .MVPLeftAsOf20250730:
                     Id: blah
                 YetAnotherItemProp:
                   =TODO MyBlah:
-                    Summary: blah blah
+                    Details: blah blah
       Done .Go through the requirements and check the little features I was planning to include:
       Result: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"<
     OnGoing .Update specification for F2Yaml.MVP:
@@ -109,7 +109,7 @@ InProgress .MVPLeftAsOf20250730:
       Estimation: 
         2h: normal
         30m: PAR time
-      Summary:
+      Details:
         - fix dependency injection
         - fix circular references in dep. inj.
         - that's it?
@@ -198,7 +198,7 @@ InProgress .MVPLeftAsOf20250730:
     TODO .Check if during resolving F2Links we use the BelongsTo hierarchy; fix if not:
   OnGoing .Refactorings, Consolidations and Changes:    
     Id: RefactorsAndChanges
-    Ongoing .Refactorings:
+    OnGoing .Refactorings:
       TODO .Test whether everything works if we do not initialize all the type descriptors in one go:
       TODO .Move all the checks and shit from the Starter to some better place:
       TODO .Move the initialization of IoC to some static constructor maybe?:      
@@ -275,7 +275,7 @@ InProgress .MVPLeftAsOf20250730:
     TODO .FunctionGenerator.GetFunctionFromStaticMethodInfo(MethodInfo? method) should ask for BelongsTo:
     TODO .The parser should expect that in later stages there will be meta info coming along the yaml:
       Details: |
-        So the situation is that we can render things in different formats, like in the "STATUS SUMMARY: {MyProp: blah, MyOtherProp: blahblah}" way, also, we often omit the Type information. These should be present though in the "meta" we store about those sections somewhere in a different place (file, location)
+        So the situation is that we can render things in different formats, like in the "STATUS Details: {MyProp: blah, MyOtherProp: blahblah}" way, also, we often omit the Type information. These should be present though in the "meta" we store about those sections somewhere in a different place (file, location)
       Workspace:
       #- The parser should also accept information about what is the "displayformat" for the currently parsed section, so like:
       - It can happen that something can be parsed to 2 things as well:
@@ -374,7 +374,7 @@ InProgress .MVPLeftAsOf20250730:
                 CreatedAt: 2025-10-20T20:35
                 BelongsTo: -->F2Tool..System..Users<
                 Id: testuser
-                Summary: "Lorem ipsum dolor"
+                Details: "Lorem ipsum dolor"
                 InternalId: asdfasd-asdfasd-asdfadsf
           Done .DateTime is parsed as InternalId:
             Details:
@@ -431,7 +431,7 @@ InProgress .MVPLeftAsOf20250730:
     EstTODO .Update property value of Item:
       Id: UpdateProp
       Estimation: 8h
-      Summary:
+      Details:
         - Include the "soft delete" case - where "IsDeleted=true"
         - Console based change property - so like: |
           MyRoot.MyItem.Burp: bumm
@@ -469,7 +469,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation: 
             2h: easypeasy.
             15m: PAR time.
-          Summary:
+          Details:
             - Check if it can be deleted at all - i.e. no references. If yes, and force, then:
               - remove all the references to it as well
               - everything belonging to it should belong to its parent
@@ -479,7 +479,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation: 
             1h: provided we did the Delete Item
             15m: PAR time.
-          Summary:
+          Details:
             - Check if it can be deleted at all - i.e. no references. If yes, and force, then:            
               - remove all the references to it as well
               - everything belonging to it should belong to its parent        
@@ -487,7 +487,7 @@ InProgress .MVPLeftAsOf20250730:
     Id: MakeDBWork
     Estimation: 
       Normal: {Value: 10.5h, Comment: 1+3+2+1+0.5+3; normal case}
-    Summary:
+    Details:
       - Upgrade the DB
       - Initialization and check-db at start
       - Test a few writes-reads   
@@ -503,11 +503,11 @@ InProgress .MVPLeftAsOf20250730:
     EstTODO .F2WebAPIGovernor initialization tasks:
       Id: GovernorInit
       Estimation: 3h
-      Summary:
+      Details:
         - Test database connection by reading the System Folder
         - Restore the DB if needed
       Done .Decide:_ Create initial DB structure:
-        Summary:
+        Details:
           Question:_ Do we need to mirror the memory structure to the DB?:
             Answer: Yes
             Reason: \"Cleaner".
@@ -536,27 +536,27 @@ InProgress .MVPLeftAsOf20250730:
       Id: NonOrderedNull
       Importance: 2-Low
       Estimation: 2h
-      Summary:
+      Details:
       -  (maybe store them in an ordered manner anyways - so if DisallowNull is not enabled):
     EstTODO .Solve circular references:
       Id: CircularRefs
       Estimation: 1h
-      Summary:
+      Details:
         In case Item A references Item B and B references A. In this case:
             - first creating the Items
             - then create the connections
     EstTODO .Fix DBStatus:
       Id: DbStatus
       Estimation: 30m
-      Summary:
+      Details:
         Read something from it, like a "SimpleType" - or write, read and delete something simple?
     EstTODO .Strategy to write to database:
       Id: DbStrategy
       Estimation: 3h
-      Summary:        
+      Details:        
         - we probably don't want immediate writes, rather in batches after an update (action) is done, due to Items triggering modifications of other Items, in circular fashion maybe
       Done .Question:_ Is it better to do immediate writes at first and then do deferred ones later?:
-        Summary:
+        Details:
           - maybe. So after each Action, we save to DB.
           - but, probably with the "modified" flag; it doesn't seem to be hard.
         Result: No.
@@ -564,14 +564,14 @@ InProgress .MVPLeftAsOf20250730:
       EstTODO .DB strategy - when to write to it? And implement.:
         Id: Implement
         Estimation: 3h
-        Summary:
+        Details:
           - Collect Items with the "modified" flag, convert them to DBNodes.Item and write them to DB, based on a trigger.            
           - Figure out when to write to the db (but:_ immediately after each CUD operation at first)
           - Figure out how to check if an Item is changed (but:_ worst case is brute-force, so we check everything starting from the root. Probably better if ItemManager keeps track of them by maintaining a list of changed Items, to which each Item should be subscribing. This would need some changes in the constructor (of Items)).     
     EstTODO .Fix DateTime, etc. handlings:
       Id: ScalarHandling
       Estimation: 4h
-      Summary:
+      Details:
         - Figure out a strategy - so a "decide" task
         - DateTime and Duration are the questions
   EstTODO .Workspace support:    
@@ -585,7 +585,7 @@ InProgress .MVPLeftAsOf20250730:
       Estimation: 
         1h: if I'm blurry minded.
         0.5h: PAR time
-      Summary:
+      Details:
         At each update, the version of the Item is incremented.
       Implementation notes:
         Supposedly a new field only. 
@@ -596,7 +596,7 @@ InProgress .MVPLeftAsOf20250730:
       Estimation: 
         1h    : simple class creations; little thinking through maybe.
         0.25h : PAR time - if I type fast and nothing to think through
-      Summary:
+      Details:
         The C# objects - the classes and their ClassDescriptions, like: |
           class WorkspaceDescriptor: Item
           {
@@ -607,7 +607,7 @@ InProgress .MVPLeftAsOf20250730:
       Estimation: 
         1h  : create/change/delete the files and their content; basically should be part of other tasks, so this is mostly about the decisions to be made.
         0.5h: PAR time (kind of if we are lucky and no need to think it through much)
-      Summary:
+      Details:
         Background:
           - We store "meta" information about the files in the workspace in the TF2P Folder
           - The information we store:
@@ -622,14 +622,14 @@ InProgress .MVPLeftAsOf20250730:
       Estimation: 
         5.5h: 2 + 3.5; normal time
         1.25h: 45m + 30m; PAR time
-      Summary: |
+      Details: |
         In-memory updates can happen due to the Item updated in one location or by another user through the server; in this case all locations should be updated with the latest Item version. Problem is if the instance to be updated is changed; in this case, we merge.      
       EstTODO .Implement simple update process:
         Id: SimpleUpdate
         Estimation: 
           2h: notifying the user is a Console.WriteLine thingie, 15 mins tops. Parsing Items is an existing functionality; comparing the parsed is simple, then writing the file is also a simple thing.
           30m: PAR time
-        Summary: |
+        Details: |
           In case there's no local change AND in case there are changes which do not cause conflict.          
           Includes:
             - Notifying the user that there is update
@@ -641,7 +641,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           3.5h: 90 + 30 + 60 + 30; normal time
           45m: 30 + 5 + 10 + 0; PAR time
-        Summary:
+        Details:
           Task: In case there are conflicts, perform the merge process.
           General example: 
             MyItem:
@@ -656,7 +656,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation:
             90m: this is just the framework; the individual cases are different tasks. MIGHT include some nice solution for outputting the strings - time permitting.
             30m: PAR time
-          Summary:
+          Details:
             Process:
             - Notify the user (e.g. in a message on the console) that there are conflicts, there should be merge
             - Update the workspace Items
@@ -669,7 +669,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation:
             30m: simple string manip
             5m: PAR time
-          Summary:
+          Details:
             Situation: The Item is HARD deleted but we have local changes. Soft delete is just a change in properties - so ".Item change" case.              
             Requirement:
             - The "Key" of the Item is surrounded with the "-DELETED-" string
@@ -681,7 +681,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation:
             1h: simple strgin manip, just a bit more.
             10m: PAR time
-          Summary:
+          Details:
             In all cases a property with the ".Orig" suffix is added after the property name to show the original value of the property:
               MyItem:
                 Prop.Orig: originalValue
@@ -711,7 +711,7 @@ InProgress .MVPLeftAsOf20250730:
           Estimation:
             30m: because 30m is the minimum. Basically included in the $@.Item change@$
             0m: PAR time
-          Summary:
+          Details:
             The Item belongs to another Item now, so for example it should not appear in the particular file any more.
           Result:
             It's treated as a "BelongsTo" property change:
@@ -730,7 +730,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           6h: becaue I expect shit.
           2h: PAR time
-        Summary:
+        Details:
           - Create the command, 2 params - one is an Item, the other is a path
           - Get the Workspace Item from ItemManager by Id
           - Folder creations:
@@ -746,7 +746,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation: 
           2h: checking if everything is commited "engine" is included here; services.
           1h: PAR time
-        Summary:
+        Details:
           - Checks if everything is "commited" - so that the file contents match with the descriptions in the Workspace Items
           - Asks the server for updates based on the Workspace Items
       EstTODO .Periodic queries/keepalive:
@@ -754,7 +754,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           2h: engine, services, etc. 
           1h: PAR time
-        Summary:
+        Details:
           - The client periodically sends a query to the server, serving 2 purposes:
             - keeping the session alive
             - checking whether anything has changed; if so, downloads the Actions resulting it, applies to the memory rep and either asks the user or automatically updates the files
@@ -763,7 +763,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           1h: command and writing the files
           30m: PAR time
-        Summary:
+        Details:
           Process:
           - Command for updating an Item by e.g. Id
           - Updates the files.
@@ -777,7 +777,7 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           9h: 6+2+1
           105m: PAR time sum
-        Summary:
+        Details:
           Situation is: the user changed a few Items residing in various files in the workspace, then the user issues the "SaveAll" command.
           Notes:
             - The process is broken down into Actions for rollback and partial processing purposes:
@@ -795,9 +795,9 @@ InProgress .MVPLeftAsOf20250730:
               - the changes are present only in the local workspace files (as per the "baseline" functionalities)
             - Reminder:_ 3-4 types of files, we focus on Root and maybe on Workspace ones:
               - Query results:
-                  Summary: containing the results of queries; read-only at baseline - you should copy an Item to a workspace file to edit. So no actions coming from here.
+                  Details: containing the results of queries; read-only at baseline - you should copy an Item to a workspace file to edit. So no actions coming from here.
               - Root:
-                  Summary: 
+                  Details: 
                     - containing ALL the Items (in case of reverse BelongsTo, ALL the Items belonging to an Item) under a certain Property/Item
                     - meaning that if an Item which was there before is not present now:
                       - it should be removed
@@ -806,10 +806,10 @@ InProgress .MVPLeftAsOf20250730:
                   .Reverse BelongsTo based:
                   .Other property (like "SubTasks") based:
               - Workspace:
-                  Summary: a file used like a command line (+you can scroll up, edit things, etc.)
+                  Details: a file used like a command line (+you can scroll up, edit things, etc.)
           Process:
             - FailQuestionResult FailQuestion()=:
-                Summary: 
+                Details: 
                 =>:
                   - Display the error
                   - Does the user want to continue? (Y)es/Yes for (A)ll/(N)o/(R)ollback:
@@ -825,7 +825,7 @@ InProgress .MVPLeftAsOf20250730:
                     - restore the Items to their "before" state on the client side
                     - handle this as a new "Change" - so no rollback on the server side, only new Actions which are the opposite of the ones to be rolled back.
             - ProcessLocalChange()=:
-                Summary: 
+                Details: 
                   - the main process of the SaveAll command.                
                 =>:       
                   - LocalVariables.New(): List<Action> ExecutedActions
@@ -858,20 +858,20 @@ InProgress .MVPLeftAsOf20250730:
           Estimation:
             6h: I expect "troubles" with the concept.
             1h: PAR time.
-          Summary: see the summary of the parent Task.     
+          Details: see the summary of the parent Task.     
         EstTODO .Create means for sending the Actions to the server:
           Id: MeansForActions
           Estimation:
             2h: I fiddle too much with these things usually... includes the concept as well - having to think through the other functionalities and their API needs. Needs a clean mind.
             30m: PAR time
-          Summary: 
+          Details: 
             Refactor the REST Api to support Actions instead of CUD.
         EstTODO .Logging the Actions for later rollback and history:
           Id: LogActions
           Estimation:
             1h: Not much, right... so I think PAR time is closer.
             15m: PAR time
-          Summary:
+          Details:
             - Finding a place for them
             - Creating the Actions Items and maintaining them
       EstTODO .SaveItem:
@@ -879,8 +879,8 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           1h: if the SaveAll is done, this is pieceofcake.
           30m: PAR time
-        Summary:
-          Summary: Saving an individual Item.
+        Details:
+          Details: Saving an individual Item.
           Needs:
             - Command for saving, requiring an Id            
             - Finding the Item in the files and performing the save - like in SaveAll
@@ -889,8 +889,8 @@ InProgress .MVPLeftAsOf20250730:
         Estimation:
           30m: if SaveItem and SaveAll is done, this is pieceofcake.
           15m: PAR time
-        Summary:
-          Summary: Saving an individual File
+        Details:
+          Details: Saving an individual File
           Needs:
             - Command for saving, requiring a path
             - Finding the Item in the files and performing the save - like in SaveAll
@@ -1140,7 +1140,7 @@ DraftTODO BasicOrMVPPlus:
       DependsOn: -->Tasks\Software\TheF2Tool\."DraftTODO BasicOrMVPPlus"..Services..DecideIfWeNeedChangeItem<
       PreviousStatuses: [EstTODO]          
       Estimation: 2h
-      Summary:
+      Details:
         - Check what's with this
         - Probably we'll need to support some property-based update, not a full replace of Item
 

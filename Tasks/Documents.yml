@@ -177,7 +177,7 @@ InProgress .Company Structure:
       Estimation: 3h
       Note: this can be done by "anyone" who has access to the recording, so does not need Bobi
     TODO .migrate the file to drive:
-      +: { CreatedBy: Hana, CreatedAt: 20250613 T 110033, By:Bobi }
+      +: { CreatedBy: Hana, CreatedAt: 20250613 T 110033, By: Bobi }
     Done .Write the baseline article:
       +: { CreatedBy: Bobi, CreatedAt: 20250607 T 131334, By: Bobi }
       Estimaion: 1h

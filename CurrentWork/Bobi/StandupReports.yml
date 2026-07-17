@@ -396,8 +396,11 @@ SR_NEXT_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish"<: [ 0m, "", 20260703 T 221321 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CommitAndSync"<: [ 1m, "", 20260706 T 022311 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items.."DefaultTypes support through Folder"<: [ 9m, "", 20260706 T 022353 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."OrderBy"<: [ 20m, "", 20260706 T 023405 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."OrderBy"<: [ 40m, "", 20260706 T 023405 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Work on the marketing things".."Collect what we want to do before we post"<: [ 57m, "", 20260706 T 142849 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."CreateMissingItems"<: [ 34m, "", 20260710 T 015629 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Finish the F2FinanceHelper draft requirement"<: [ 39m, "", 20260710 T 191951 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Writes Back From Output"<: [ 0m, "", 20260713 T 140513 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."CSV header".."Summary line"<: [ 1418m, "", 20260713 T 141123 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Work out the script/screenplay"<: [ 92m, "", 20260714 T 134943 ]
   Next:
     - null

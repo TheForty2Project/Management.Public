@@ -421,13 +421,44 @@
           Mindless: tasks which can be done in a "zombie" mindset
           Physical: involving movement
         Query:          
-    TODO .Create a schedule for Saturday:
+    Done .Create a schedule for Saturday:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
       Details:
         - include the "work on hated tasks" hours (1-2)
         - use the previous schedule as baseline
+      Workspace:
+        Goals:      
+          - have hours for non-programming work (both): 2
+          - have hours for programming work (Bobi): 2
+          - extra chores:
+            - Bubbles
+            - Room cleaning        
+          - usual chores:
+            - shopping (fish)
+            - cooking (fish)
+          - exercise:
+            - gym
+            - big walk (night)
+        Schedule:
+          - Hana wakes up at 8-9:
+            - Mobility + walk
+            - Hana must eat
+            - work on tf2p.personal
+          - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+          - 12:30-13:30: work
+          - 14:00: eat
+          - 15:00: gym
+          - 16:30: work
+          - 18:00: eat
+          - big walk (night)
+
   
   .Personal:
+    TODO .Hana to experiment with the query:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
+      Details:
+        - example is in Bobi's workspace (the before1stposttasks one)
+        - filter to "TL" tag        
     EstTODO .Hana to reply to eliza:      
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
     EstTODO .Check the registration around gas picture meter:
@@ -454,7 +485,6 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}
       TODO .Create implementation plan:
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}    
-    
 
 
 

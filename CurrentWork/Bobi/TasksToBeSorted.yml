@@ -164,17 +164,19 @@
           - Tag them with "Before1stPost"
   .TaskAdmin:
     InProgress .Finish the F2FinanceHelper draft requirement:
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 70, Importance: 4-High}
+      Details:
+        here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
     EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 4-High}
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
   .Outreach:
     OnHold .Create the baseline posts from the ideas:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
     InProgress .Work out the DM comparison outreach idea:
-      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost], Estimation: 240, RemTime: 240, Importance: 6-Extreme}
+      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 6-Extreme}
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       InProgress .Work out the script/screenplay:
@@ -245,8 +247,22 @@
               - LoadWorkspace
               - GetItem(F2Link)
               - GetAllItemsUnder()
-    TODO .Create file structure:
-
+            - YamlParser:
+              - ParseYamlNode
+              - EmitYaml
+            - FileBasedWorkspaceProvider implements IItemRepository:
+    InProgress .Create file structure:
+    TODO .Move parsing + emitting:
+    TODO .Move getting F2YamlItems:    
+  Cancelled .Return the proper typescript F2YamlWorkspaceItem descendant during parsing:
+    +: {CreatedBy: Bobi, CreatedAt: 20260718 T 023934, By: Bobi, Tags: [TL, Dev], Estimation: , RemTime: }
+    Details:
+      - why: 
+      - so if it's Folder, Folder
+      - use the parser of the Folder for parsing:
+        - kind of a second step after the general parser      
+    CancelReason: 
+      - I think importing from an F2YamlWorkspaceItem (if necessary) is enough, such as for a QueryDescription
   Done .OrderBy:
     +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}    
   EstTODO .CSV Remainings:
@@ -411,8 +427,12 @@
 
   .Admin:
     CurrentFocus .Create a daily process now that we have queries:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
       Workspace:        
+        Goals:            
+          - on top of the existing standup process, we want to see a prioritized task list from which we can select what tasks we're planning to work on next:
+            - including private ones              
+            - categorized in a way that we can see which one requires "clean mind" - e.g. creative ones - and which one does not - e.g. physical
         Tags:
           TL: (temporary) tag meaning it should be included in the Task List
           Private: for private/personal tasks
@@ -420,7 +440,26 @@
           Creative: tasks requiring "creativity" mindset - e.g. marketing copies, visuals
           Mindless: tasks which can be done in a "zombie" mindset
           Physical: involving movement
-        Query:          
+        Query:
+          See at -->Reports\Queries\..TaskListTasks<
+        Process:
+          Steps:
+            - During the (previous) day:
+              - record and tag tasks according to the above guideline in "Tags" into locations the report is working from (e.g. TaskToBeSorted)
+            - Before RePlSt:
+              - go through the report results and update the Tasks with any changes
+              - pick the ones which you're expecting to work on and fill in your standup report
+              - Pm to:
+                - create/update reports - ideally before the meeting:
+                  - spent hours on non-dev and dev tasks
+                  - scope creep for milestones - if there are milestones
+                  - work hours from-to per person
+                - evaluate the performance of the team, have some recommendations about improving - or give some chocolate if everything is awesome
+            - RePlSt:
+                - normal standup
+                - based on the reports, how were we doing, do we need to improve?
+                - improve the processes (or, create Tasks for it)
+            - update the site with the changes
     Done .Create a schedule for Saturday:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
       Details:
@@ -454,23 +493,23 @@
 
   
   .Personal:
-    TODO .Hana to experiment with the query:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
+    Done .Hana to experiment with the query:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: 0, RemTime: 0}
       Details:
         - example is in Bobi's workspace (the before1stposttasks one)
         - filter to "TL" tag        
-    EstTODO .Hana to reply to eliza:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
+    Done .Hana to reply to eliza:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
     EstTODO .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 4-High}
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 6-Extreme}
       Details:
         Check Robi's messages with anyu
     EstTODO .Airbnb things:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana, Tags: [TL, Private], Estimation: 35, RemTime: 35, Importance: 3-Average}      
-      TODO .Guide about how to press buttons:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15}
-      TODO .Entrance door stickers:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
+      EstTODO .Guide about how to press buttons:
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
+      EstTODO .Entrance door stickers:
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
         Details:
           - to close:
             - close the door
@@ -479,12 +518,16 @@
             - close
             - put the key horizontally
             - turn once counterclockwise        
-    TODO .Finances:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi, Tags: [TL, Private], Estimation: m, RemTime: m}
-      TODO .Create the requirements:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}
-      TODO .Create implementation plan:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}    
+    EstTODO .Finances:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi, Estimation: , RemTime: }
+      EstTODO .Create the requirements:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      NEXT .Create implementation plan:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}    
+      NEXT .Implement it:
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+
+        
 
 
 

@@ -454,7 +454,7 @@
 
   
   .Personal:
-    TODO .Hana to experiment with the query:
+    Done .Hana to experiment with the query:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
       Details:
         - example is in Bobi's workspace (the before1stposttasks one)

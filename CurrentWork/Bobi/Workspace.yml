@@ -30,6 +30,20 @@
     LeavesOnly: false
     SkipFoldersAndFiles: false
 
+.TLTasks:
+  Type: QueryDescription
+  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Idlink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->CurrentWork\Hana\TasksToBeSorted<
+    - -->Tasks<
+  OutputFile: CurrentWork\Bobi\TaskListTasks.csv
+  OrderBy: [Importance desc, By, RemTime]
+  Where: 
+    TaggedBy: [TL]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+
 .CurrentTasks:
   Id: CurrentTasks
   Summary: Current Tasks  

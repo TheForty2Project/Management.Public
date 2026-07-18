@@ -22,6 +22,6 @@ Done .Create snippets for HealthLogs templates:
   - -->CurrentWork\Hana\Personal\.."Review finances 20260620"<
 TODO .-->Tasks\Management\.."General management".."Schedule meetings".."Schedule Milestone within next week"<:
 TODO .-->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Coding Streaming".."Create astreaming process for Bobi tonight (5th Annivarsary)"<:
-TODO .
-  
+EstTODO .Schedule Bobis Lab:
+  +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana, Tags: [TL], Estimation: 15 , RemTime: 15 }  
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

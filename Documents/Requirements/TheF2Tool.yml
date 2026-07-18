@@ -291,15 +291,21 @@ Comments:
                   MyItem:                                          
                     MyProperty: ="TimeAndDate:_" + this.MyOtherProperty
                     MyOtherPoperty: =System.TimeUtils.Now()
+                    MyLongCompProp: 
+                      =>: |
+                        return "alma"
                 Getting:
                   MyItem:
                     MyProperty: 
                       ="TimeAndDate:\\_" + this.MyOtherProperty:
                         "TimeAndDate: 2025-07-25 00:00"
-                    MyOtherProperty: 
+                    MyOtherProperty:
                       =System.TimeUtils.Now():
                         "2025-07-25 00:00"
-
+                    MyComplexProp:
+                      =>: |
+                        return "alma"
+                      : alma
       Estimated ."Everything is an Item" concept:
         Estimation: 
           =: 18h
@@ -1088,7 +1094,7 @@ Comments:
         Estimation: 2h
         Details:
           remove PoC code, upgrade where possible.
-    Ongoing .Technical architecture:
+    OnGoing .Technical architecture:
       Details: Architectural parts mostly
       Implemented .Minimal Starter and Loaders:
         Details: Support for multiple Starters - programs which host the engine in a Console window, in a webservice, etc.  

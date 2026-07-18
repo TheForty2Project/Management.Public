@@ -14,46 +14,18 @@
 	// }
 	"BobiCreatedByAt": {
 		"prefix": "bcreated",
-		"description": "Output a Created By and Created At field with Bobi",
+		"description": "Outputs an Additional Properties line with usual fields",
 		"body": [
-			"+: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Bobi}, Tags: [${2:CSVTODO}], Estimation:${3:}, RemTime:${4:}}"
+			"+: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Bobi}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}}"
 		]
 	},
 	"HanaCreatedByAt": {
 		"prefix": "hcreated",
-		"description": "Output a Created By and Created At field with Hana",
+		"description": "Outputs an Additional Properties line with usual fields",
 		"body": [
-			"+: {CreatedBy: Hana, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Hana}, Tags: [${2:CSVTODO}], Estimation: ${3:0}m, RemTime: ${4:0}m}"
+			"+: {CreatedBy: Hana, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Hana}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}}"
 		]
 	},
-	"GauravCreatedByAt": {
-		"prefix": "gcreated",
-		"description": "Output a Created By and Created At field with Gaurav",
-		"body": [
-			"+: {CreatedBy: Gaurav, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Gaurav}, Tags: [${2:CSVTODO}], Priority: ${3:3-Average}}"
-		]
-	},
-	"ShadowCreatedByAt": {
-		"prefix": "screated",
-		"description": "Output a Created By and Created At field with Shadow",
-		"body": [
-			"+: {CreatedBy: Shadow, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Shadow}, Tags: [${2:CSVTODO}], Priority: ${3:3-Average}}"
-		]
-	},
-	"GigiCreatedByAt": {
-		"prefix": "ycreated",
-		"description": "Output a Created By and Created At field with Gigi",
-		"body": [
-			"+: {CreatedBy: Gigi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Gigi}, Tags: [${2:CSVTODO}], Priority: ${3:3-Average}}"
-		]
-	},
-	"FirewoodCreatedByAt": {
-		"prefix": "fcreated",
-		"description": "Output a Created By and Created At field with Firewood",
-		"body": [
-			"+: {CreatedBy: Firewood, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Firewood}, Tags: [${2:CSVTODO}], Priority: ${3:3-Average}}"
-		]
-	},	
 	"StandupReportEntry": {
 		"prefix": "srentry",
 		"description": "Outputs a standup report entry",

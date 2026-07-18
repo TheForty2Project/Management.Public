@@ -140,9 +140,10 @@
     By: Testgeci    
 
 .TasksToBeSorted20260702:  
-  TODO .Check the health-log progress and collect feedback:    
-  InProgress .Work on the marketing things:
-    InProgress .Collect what we want to do before we post:
+  TODO .Check the health-log progress and collect feedback:
+  Done .Work on the marketing things:
+    Done .Collect what we want to do before we post:
+      +: {CreatedBy: Bobi, CreatedAt: 20260705, By: [Bobi, Hana], Tags: [CSVTODO]}
       Workspace:
         Points:
         - Update the site? That converter-feature?
@@ -156,13 +157,13 @@
         Tasks:
       Done .Go through the existing Tasks in the Milestones and tag them:
         +: {CreatedBy: Bobi, CreatedAt: 20260706 T 152256, By: [Bobi, Hana]}
-      InProgress .Create Tasks for the new activities:
+      Done .Create Tasks for the new activities:
         +: {CreatedBy: Bobi, CreatedAt: 20260706 T 152322, By: [Bobi, Hana]}
         Details:
           - Including moving any from here to their correct location
           - Tag them with "Before1stPost"
   .TaskAdmin:
-    EstTODO .Finish the F2FinanceHelper draft requirement:
+    InProgress .Finish the F2FinanceHelper draft requirement:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 4-High}
     EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost], Estimation: 90, RemTime: 90, Importance: 3-Average}
@@ -170,8 +171,45 @@
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
   .Outreach:
-    EstTODO .Create the baseline posts from the ideas:
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
+    OnHold .Create the baseline posts from the ideas:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60}
+    InProgress .Work out the DM comparison outreach idea:
+      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost], Estimation: 240, RemTime: 240, Importance: 6-Extreme}
+      Details:
+        This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
+      InProgress .Work out the script/screenplay:
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Estimation: 60, RemTime: 60}
+        Details:
+          - a textual description about the animation content
+        Workspace:
+          History of group decision-making:
+            Ancient:
+              Hierarchical dm:
+              Capitalism:
+            
+          DM method:
+            Points to include:
+              - goal is to "action the idea with the highest expected utility":
+                - ideas coming from knowledge
+                - feeling / thinking (= AI / computation)
+                - limited processing power
+            Visuals:
+               
+          DM comparison:
+            Hierarchical:
+              - information travel from bottom to top:
+                - speed (delay):
+                  - bandwidth
+                  - time needed to create summary                  
+                - granularity (always just the summary)
+                - errors
+              - computational complexity:
+                - more idea options
+                - more circumstances
+      EstTODO .Investigate about how we can do the animation/graphics:
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Estimation: 90, RemTime: 90}
+      NEXT .Implement:
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Estimation: 90, RemTime: 90}
   Done .CommitAndSync:
     +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
   Done .F2Link generation fix:
@@ -185,18 +223,30 @@
       - If it's Id string => Id
   TODO .Ensure that yaml map entries keep their order after a parse and emit roundtrip:
     +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-  EstTODO .Introduce itemmanager and manage items through it:
+  InProgress .Introduce itemmanager and manage items through it:
     +: {CreatedBy: Bobi, CreatedAt: 20260702 T 004907, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
     Details:
       - move current functionalities from F2YamlWorkspaceItem as well - e.g. parsing
       - to solve the overlapping "from" problem
       - class description provider during parsing
-      - enables resolving f2links "in-house" - so not through crawling through the yaml in the files      
+      - enables resolving f2links "in-house" - so not through crawling through the yaml in the files
       - future:      
         - caching (so no reparsing at each command execution)
         - workspace-wide operations
         - server based behavior        
         - item provider for user scripts
+    ImplPlan:
+      - Instead of parsing folders/files, we ask ItemManager to do so
+      - Architecture:
+        - like in the ChatGPT example:
+          - everything through manager, but parts:
+            - yaml parser
+            - ItemManager:
+              - LoadWorkspace
+              - GetItem(F2Link)
+              - GetAllItemsUnder()
+    TODO .Create file structure:
+
   Done .OrderBy:
     +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}    
   EstTODO .CSV Remainings:
@@ -208,14 +258,16 @@
         Use ItemManager for this shit.
     Done .yml, yaml in F2Links:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013636, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
-    EstTODO .CSV header:
+    Done .CSV header:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+      Done .Summary line:
+        +: {CreatedBy: Bobi, CreatedAt: 20260713 T 154918, By: Bobi}
     EstTODO .WriteBack:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
       Details:
         -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<:      
     EstTODO .Update:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30} 
     EstTODO .RowDeletingBehavior:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
     EstTODO .CreateMissingItems:
@@ -317,15 +369,35 @@
         Store and use the default types for folder
     EstTODO .Yaml emitting:
       Done .Baseline:
-      EstTODO .tostring indentation:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013156, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      Done .tostring indentation:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013156, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}      
     TODO .Programmability:
+      +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013000, By: Bobi, Tags: [], Estimation:, RemTime:}      
       TODO .Engine and baseline:
+        +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013006, By: Bobi, Tags: [], Estimation:, RemTime:}
+        Details:
+          - See the chatgpt thread about running TypeScript user-scripts
+          - But along the lines of providing the F2YamlWorkspaceItem + a few libraries
+          - At first the least restricted, later we introduce restrictions, e.g. read-only Item in certain environments, etc.
       TODO .Expression handling in Queries:
+        +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013009, By: Bobi, Tags: [], Estimation:, RemTime:}
+        TODO .In From:
+          +: {CreatedBy: Bobi, CreatedAt: 20260713 T 010901, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+          Details:
+            - put into a function which returns a string and accepts 
+            - referencing through variables declared from the "From" property identifer parts          
       TODO .Computed values:
+        +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013011, By: Bobi, Tags: [], Estimation:, RemTime:}        
+        TODO .Engine:
+          +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013037, By: Bobi, Tags: [], Estimation:, RemTime:}
+          Details:
+            - Orchestration which computes the values
+            - At first, by trigger -  the user issues some command
+            - Later, watching the files and recalculating things in a separate thread in the background and writing once complete; keeping track of the dependencies of each value maybe and recalculating only those for which a dependency changed; in this case writing "COMPUTING..." in place of the values of the ones which must be recomputed
         TODO .Through classDescription:
           Details:
-            See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Computed properties"<
+            - See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Computed properties"<
+            - Include the decision about whether we should mark the computed properties somehow - e.g. a "=" sign at the end, like "Estimation=" (probably yes)
         TODO .Expression as value:
           Details:
             See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"<
@@ -336,6 +408,83 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
 
   .Refactors:
+
+  .Admin:
+    CurrentFocus .Create a daily process now that we have queries:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
+      Workspace:        
+        Tags:
+          TL: (temporary) tag meaning it should be included in the Task List
+          Private: for private/personal tasks
+          Dev: development tasks
+          Creative: tasks requiring "creativity" mindset - e.g. marketing copies, visuals
+          Mindless: tasks which can be done in a "zombie" mindset
+          Physical: involving movement
+        Query:          
+    Done .Create a schedule for Saturday:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
+      Details:
+        - include the "work on hated tasks" hours (1-2)
+        - use the previous schedule as baseline
+      Workspace:
+        Goals:      
+          - have hours for non-programming work (both): 2
+          - have hours for programming work (Bobi): 2
+          - extra chores:
+            - Bubbles
+            - Room cleaning        
+          - usual chores:
+            - shopping (fish)
+            - cooking (fish)
+          - exercise:
+            - gym
+            - big walk (night)
+        Schedule:
+          - Hana wakes up at 8-9:
+            - Mobility + walk
+            - Hana must eat
+            - work on tf2p.personal
+          - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+          - 12:30-13:30: work
+          - 14:00: eat
+          - 15:00: gym
+          - 16:30: work
+          - 18:00: eat
+          - big walk (night)
+
+  
+  .Personal:
+    TODO .Hana to experiment with the query:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
+      Details:
+        - example is in Bobi's workspace (the before1stposttasks one)
+        - filter to "TL" tag        
+    EstTODO .Hana to reply to eliza:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
+    EstTODO .Check the registration around gas picture meter:
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 4-High}
+      Details:
+        Check Robi's messages with anyu
+    EstTODO .Airbnb things:
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana, Tags: [TL, Private], Estimation: 35, RemTime: 35, Importance: 3-Average}      
+      TODO .Guide about how to press buttons:
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15}
+      TODO .Entrance door stickers:
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20}
+        Details:
+          - to close:
+            - close the door
+            - pull up the handle
+          - to lock:
+            - close
+            - put the key horizontally
+            - turn once counterclockwise        
+    TODO .Finances:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi, Tags: [TL, Private], Estimation: m, RemTime: m}
+      TODO .Create the requirements:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}
+      TODO .Create implementation plan:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: m, RemTime: m}    
 
 
 

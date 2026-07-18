@@ -116,7 +116,7 @@ Done .Initial Website:
     Id: AccessesAndCredentials
     +: { CreatedBy: Hana, CreatedAt: 20250516 T 133531, By: [ Bobi, Shadow ] }
   Done .Create and configure the comment section under the articles:
-    +: { CreatedBy: Hana, CreatedAt: 20250523 T 203756, By:Shadow }
+    +: { CreatedBy: Hana, CreatedAt: 20250523 T 203756, By: Shadow }
   Done .Setup and configure emailjs:
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 203817, By: Shadow }
   Done .Create Website content:
@@ -939,7 +939,7 @@ Done .Back to original:
                     Done .Item:
                     Done .Yaml representation:
                   Done .Syntax, semantics and Barba.Types should not be mixed:
-                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+                    +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
                       - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
@@ -995,7 +995,7 @@ Done .Back to original:
                 - figure out how to handle this in the new repo:
                 - implement
               Done .Figure out how to handle this in the new repo:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114312, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 114312, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
                 Result:
                   - PublicWorkspace renamed to CurrentWork
                   - We have to separate our private tasks from our public/publishable ones:
@@ -1045,7 +1045,7 @@ Done .Back to original:
                 Go through the existing files and see what needs to be moved
               Done .Move .vscode folder:
               Done .Move the F2FileToHtmlConverter related tasks:
-                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                                  
+                +: {CreatedBy: Bobi, CreatedAt: 20260326 T 184340, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}                                  
         Done .Write content for the knots:
           +: {CreatedBy: Bobi, By: Bobi, Tags: [OCWSPhase1], Estimation: 60, RemTime: 60}
           Done .Decide the format and process:
@@ -1073,7 +1073,7 @@ Done .Back to original:
           - To "Work optimally and share fairly through computed management".
           - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided"<
         Done .Change it in the title bar:
-          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation:"30", RemTime:"0"}
+          +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation: 30, RemTime: 0}
       Done .Integrate Shadow's site with the Deepdive one:
         +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004842, By: Bobi}
         Details:
@@ -1160,7 +1160,7 @@ Done .Back to original:
     .-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<:      
   InProgress .Add the part we recorded during our smoking session to the Summary:
     Id: RecordingAboutHistory
-    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi], Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+    +: {CreatedBy: Bobi, CreatedAt: 20260414 T 124226, By: [Hana, Bobi]}
     Details:
       - transcript the recording
       - chatgpt it
@@ -1292,8 +1292,8 @@ Done .Back to original:
               - "Provide direct communication"
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
-    InProgress .Further Fine-Tune the transcription:
-      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [CSVTODO], Estimation: 90m, RemTime: 79m}
+    Done .Further Fine-Tune the transcription:
+      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [Before1stPost], Estimation: 90m, RemTime: 0m}
       Workspace:
         Stage1:
           Title: "The Idea"
@@ -1443,11 +1443,9 @@ Done .Back to original:
             - Self-improving management processes
             - Multiple real-world projects using TF2P
             - Evidence that the approach scales
-
-      
-
-    EstTODO .Add it to the website:
-      +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: Bobi, Tags: [Before1stPost], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+    EstTODO .Finalize and upload the content:
+      Id: FinalizeAndUpload
+      +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: [Bobi, Hana], Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
       Details:
         - find a place
         - put it there  
@@ -1554,17 +1552,17 @@ Done .Back to original:
               - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
       TODO .Specifics:
         TODO .BelongsTo:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
         TODO .InternalId:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
         TODO .Workspace and Command Line differences:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
         TODO .The dot notation:
-          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+          +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
       TODO .Review and organize the rest:
-        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
       TODO .F2Link:
-        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}
+        +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
   EstTODO .Make the yaml downloadable:
     Id: MakeYamlsDownloadable
     Cancelled .As a single file:
@@ -1676,9 +1674,9 @@ Done .Back to original:
     TODO .Crypto:
       +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154708, By: Bobi, Estimation:, RemTime:}
       TODO .Resurrect Monero:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:""}
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160615, By: Bobi, Tags: [CSVDONE], Estimation: "", RemTime:}
       TODO .Decide do we need anything else:
-        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:"", RemTime:""}                  
+        +: {CreatedBy: Bobi, CreatedAt: 20260328 T 160617, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}                  
     Notes:
       Bobi: OnHold until we have some audience
   EstTODO .Create Roadmap section:

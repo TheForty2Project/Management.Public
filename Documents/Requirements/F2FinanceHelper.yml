@@ -1,13 +1,23 @@
-+: {Type: Folder, DefaultTypes: [Task, Folder]}
++: {Type: Folder, DefaultTypes: [Requirement, Folder]}
 
 Comments:
   - [Bobi, "This is very in the middle, lots of garbage as well.", 20260420 T 210600]
 
 Drafting .F2FinanceHelper:
-  Summary:
-    - A (n at first) console app which enables the safe handling of blockchain-based financial transactions, using a cryptographical method in a way that X number of people must approve a transaction out of Y (it's important that the "must" here is mathematical must, not the "I promise" type)
-    - Core idea is that the app creates a crypto address and the private key (the one required to make a transaction with it) is "split up" and distributed to the members, where "split up" is creating information pieces out of the private key in a way that any X number of pieces are enough to reconstruct it - but (obviously) any less than X is not enough.
-  Details:           
+  Summary: |
+    A(n at first) console app which provides a way to have high trust in the handling of blockchain-based financial transactions in groups even if individual group members are not trusted, using a mathemathical method which requires that at least X number of people provide a cryptographical approval for a transaction to happen.    
+
+    Core idea is that instead of certain people (e.g. finance boss) create crypto addresses, have access to the private key and do the transaction, the app would both create the address and handle the transactions but instead of storing the private key it would distribute cryptographic information about it to the members in a way that X (out of Y total) of these information pieces is enough to reconstruct the key. When there's a need for a transaction, these members are asked by the app to approve by providing their piece and the app itself would do the transaction once enough pieces have arrived.
+
+    On top of the above, the transaction handling could also be set up in a way that certain approvers must approve - i.e. the information can't be reconstructed without their pieces (but - of course - their pieces alone are also not enough to initiate the transaction).
+  Details:
+    Process example:
+      - Members agree that they'd be part of the group of approvers    
+      - They either agree that they'd use   
+      - They download the source code of the app, compile it and set it up:
+        - create an "account" - user name, password, private+public key
+      - 
+    Initial app:
     - server:
       - stores login information (encrypted, so e.g. hash+salt + maybe the public key part of a key)
       - stores history:
@@ -34,7 +44,8 @@ Drafting .F2FinanceHelper:
             - crypto address creation:
               - creates the crypto address
               - encrypts the private part of the crypto address and splits it up into NoOfLoggedInClients pieces in a way that MinApprovers no of splits is enough to be able to reconstruct the private key, but not less.
-              - the split is included into the transaction response yaml, which the server sends back encrypted with the client's public key to each client.
+              - the split is included into the transaction response, which the server sends back encrypted with the client's public key to each client.
+              - 
             - crypto transactions:
               - TODO
           - TODO            

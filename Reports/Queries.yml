@@ -1,0 +1,17 @@
++: {Type: Folder, DefaultTypes: [QueryDescription, Folder]}
+
+.TaskListTasks:
+  Type: QueryDescription
+  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->CurrentWork\Hana\TasksToBeSorted<
+    - -->Tasks<
+  OutputFile: Reports\TaskListTasks.csv
+  OrderBy: [Importance desc, By, RemTime]
+  Where: 
+    TaggedBy: [TL]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

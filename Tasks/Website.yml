@@ -1293,7 +1293,7 @@ Done .Back to original:
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
     Done .Further Fine-Tune the transcription:
-      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [Before1stPost], Estimation: 90m, RemTime: 0m}
+      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [Before1stPost, TL], Estimation: 90m, RemTime: 0m}
       Workspace:
         Stage1:
           Title: "The Idea"
@@ -1443,9 +1443,10 @@ Done .Back to original:
             - Self-improving management processes
             - Multiple real-world projects using TF2P
             - Evidence that the approach scales
-    EstTODO .Finalize and upload the content:
+    Blocked .Finalize and upload the content:
       Id: FinalizeAndUpload
-      +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: [Bobi, Hana], Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260515 T 165124, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+      DependsOn: -->Tasks\Website\..Improvements..CreateRoadmap.."Decide:_ how should we handle history?"<
       Details:
         - find a place
         - put it there  
@@ -1625,7 +1626,7 @@ Done .Back to original:
           Include:
             - F2FileToHtmlConfig edit            
   EstTODO .Create Updates section containing the commit-message-like updates:
-    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [Before1stPost], Estimation: 45, RemTime: 45, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi, Tags: [Before1stPost, TL], Estimation: 45, RemTime: 45, Importance: 5-VeryHigh}
     Details:
       - These updates are the commmit-message-like updates we write whenever we sync our yaml files to the site (using the F2FileToHtmlConverter tool).
       - yaml mirrored to the site
@@ -1707,11 +1708,11 @@ Done .Back to original:
       - What did we reach already, what are the current ones we're pursuing and what are the next ones we're planning
       - Decide whether and how to include the history here
     EstTODO .Decide:_ how should we handle history?:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 215034, By: [Bobi, Hana], Tags: [Before1stPost], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 215034, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       Workspace:
         Probably -->Tasks\Website\..Improvements..RecordingAboutHistory< is enough
     EstTODO .Basic yaml based, generated:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213151, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213151, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
       Details:
         See the Result of -->...Provide rough estimate"<
     EstTODO .Designed, non-generated:
@@ -1723,7 +1724,9 @@ Done .Back to original:
     +: {CreatedBy: Bobi, CreatedAt: 20260518 T 013645}
     EstTODO .Revise the other pages:
       Id: RevisePages
-      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
+      Details:
+        - Remove any mention of "heaven" - or, rather, detail it that it's not that you get everything but the freedom to set the "game difficulty" to anything
       Comments:
         - [Bobi, 20251202, "OnHold because we might just move everything to the OriginalConcept site"]
         - [Bobi, 20260518, "Back to life"]
@@ -1742,7 +1745,7 @@ Done .Back to original:
   EstTODO .Update the colors to the current VS Code color scheme:
     +: {CreatedBy: Bobi, CreatedAt: 20260525 T 150539, By: Bobi}    
     EstTODO .Update the colors of the non-generated pages:
-      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 151321, By: Bobi, Tags: [Before1stPost], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+      +: {CreatedBy: Bobi, CreatedAt: 20260525 T 151321, By: Bobi, Tags: [Before1stPost, TL], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
     .-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Update the colors to the current VS Code theme"<:
   OnGoing .Work out user journeys on the site:
     +: {CreatedBy: Bobi, CreatedAt: 20260523 T 002049, By: Bobi, Tags: [CSVTODO]}
@@ -1799,19 +1802,19 @@ Done .Back to original:
   EstTODO .Embed something from Twitch:
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151834}
     EstTODO .Decide:_ what to embed and how:
-      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151851, By: [Hana, Bobi], Tags: [Before1stPost], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
+      +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151851, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
       Details:
         - Instead of just a link to Twitch there's some designed stuff;
         - Hana to investigate and propose ideas
     NEXT .Implement the decision:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151903, By: Bobi, Estimation: 30, RemTime: 30}
   EstTODO .Fix spelling mistakes by feeding the content to some LLM agent:
-    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 152838, By: Hana, Tags: [Before1stPost], Estimation: 30, RemTime: 30, Importance: 4-High}
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 152838, By: Hana, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 2-Low}
     Details:
       - Feed the current yamls to some LLM and ask:
         - are there any spelling mistakes in the English text (so not in the Id-s)
         - is there anything super not understandable
-    WorkSpace: 
+    Workspace: 
       Mispelling:
         Paragraph: Combining two main ideas
         Mispelling: computing-power to outcompUte capitalistic systems.

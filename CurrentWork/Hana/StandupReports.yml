@@ -233,3 +233,4 @@ SR_NEXT_Hana:
     - Healthlog:
         - Can we change the name from Health Log to Human Operating Log?
         - Can we categorize the items to hours? It seemed it is easier to track via time instead of categories
+    - Gas Meter reminder:

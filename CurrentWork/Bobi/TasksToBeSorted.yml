@@ -494,8 +494,9 @@
           - 16:30: work
           - 18:00: eat
           - big walk (night)
-    EstTODO .Create a process about uploading things to the site:
+    Blocked .Create a process about uploading things to the site:
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
     Done .Hana to experiment with the query:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }

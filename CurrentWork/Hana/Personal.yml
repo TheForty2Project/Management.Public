@@ -1,5 +1,5 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
-
+# Finances:
 TODO .Review finances 20260620:
   +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   TODO .Schedule meeting for Finance:
@@ -7,60 +7,111 @@ TODO .Review finances 20260620:
   TODO .Review Bobi Tax issue:
     +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
 
-TODO .Buy Earplugs for the guests [Airbnb]:
-  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [CSVTODO], Estimation: 20m, RemTime: 20m}
-OnGoing .Family problem Solving:
-  +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
-  Details: 
-    Write down the steps that are created by Tota and you
-  TODO .Collect the milestones of Sudan selling opportunity:
+
+#Health:
+EstTODO .Schedule Bobis Lab:
+  +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
+  Done .Blood and urine:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132809, By: [Hana], Tags: [TL, Private], Estimation: 15 , RemTime: 15, Importance: 4-High}
+    Details:    
+      - \"nagy rutin" (includes iron + cbc)
+      - thyroid (TSH + usual + my special anti thyroid immune cells something)
+  EstTODO .Sperm lab:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Details:
-      - Tota flying to Egypt
-      - Babas History
-      - Baba in Egypt
-      - Medical expenses 
-      - Debts
-      - Collecting Data
-      - Finding Buyers
-      - step1 preparing requiremnts for the buyers
-      - step2 going to the embassy 20260621
-      - make a decision 
-      - preparing step 3
-WorkSpace:
-  The good and bad things that happened in this day 20260622:
-    Goodthings: 
-      - Was able to stay active:
-        - Sauna at 14:00
-        - Gym at 18:00:
-          - Recovery Run
-          - Squats (different forms)
-          - LowerBack with Jabs
-          - some stretching
-        - Walking at night 2.7k
-      - Worked on TF2P in a relatively proper way:
-        - see -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<
-        - Another reminder about twitch mi amor
-      - Sudan Things:
-        - Tota conversation:
-          - Need to create medicine, food, movement schedule for Baba
-          - Need to organize the selling process that happened, mpw and what posibility that we have to reach our goals in written
-          - Need to thank baba for his giving that he is trying to help his family and be happy. what we are doing is wrong. Baba is listening. He really need to go around and be happy. 
-          - create finance sheet for expenses:
-            - Remind tota that most important is the laptop and eye glasses with it's consoltation when we collect money.
+      - DNA fragmentation
+      - count
+    TODO .Research first:
+      Details:
+        - check what can be done if the results are bad
+        - what are the options (price)
+    NEXT .Do it:
+  TODO .Genetics test:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana]}
+    Details:
+    EstTODO .Research genetics test:
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana], Tags: [TL, Private], Estimation: 25, RemTime: 25, Importance: 2-Low}
+      Details:
+        - check what we need - so what genes we should include
+        - what are the options (price)
+    TODO .Do genetics test:
 
-    Badthings:
-      - not planning for meal properly
-      - being hungry in wrong times. eg tonight at 22:00 ate 1.5 Pancake. My body will need it but my digestve system will also not rest whick will impact on my sleep quality and my mood tomorrow
-      - sleeping late:
-        Thoughts: 
-          I should create a schedule for sleeping connecting it to the mandatory activities (Physical fitness)
-          make sure of the supplements its importan not to miss doses of mandatory supplements
-      - what if scenarios in my thoughts about mamas sickness and death events.    
-      - not hugging Robi enough today
+#Ds:
+TODO .Create a process to handle Salad:
+      Details:
+        - Both parties (Hana and Robi) should lock the Salad in the locker 
+        - Both Parties should verify the lock
+        - If possible then smoke should happen every 2 days instead of everydaya
+      Tasks:
+        Done .Salad locked inside the computer:
+        Done .Salad locked with timer locked:
+        Done .Verified by the 2 parties:
 
+#Sudan:
+OnGoing .Family problem Solving:
+    +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
+    Details: 
+      Write down the steps that are created by Tota and you
+    WorkSpace:
+
+
+
+
+
+
+    The good and bad things that happened in this day 20260622:
+      Goodthings: 
+        - Was able to stay active:
+          - Sauna at 14:00
+          - Gym at 18:00:
+            - Recovery Run
+            - Squats (different forms)
+            - LowerBack with Jabs
+            - some stretching
+          - Walking at night 2.7k
+        - Worked on TF2P in a relatively proper way:
+          - see -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<
+          - Another reminder about twitch mi amor
+        - Sudan Things:
+          - Tota conversation:
+            - Need to create medicine, food, movement schedule for Baba
+            - Need to organize the selling process that happened, mpw and what posibility that we have to reach our goals in written
+            - Need to thank baba for his giving that he is trying to help his family and be happy. what we are doing is wrong. Baba is listening. He really need to go around and be happy. 
+            - create finance sheet for expenses:
+              - Remind tota that most important is the laptop and eye glasses with it's consoltation when we collect money.
+
+      Badthings:
+        - not planning for meal properly
+        - being hungry in wrong times. eg tonight at 22:00 ate 1.5 Pancake. My body will need it but my digestve system will also not rest whick will impact on my sleep quality and my mood tomorrow
+        - sleeping late:
+          Thoughts: 
+            I should create a schedule for sleeping connecting it to the mandatory activities (Physical fitness)
+            make sure of the supplements its importan not to miss doses of mandatory supplements
+        - what if scenarios in my thoughts about mamas sickness and death events.    
+        - not hugging Robi enough today
+    TODO .Collect the milestones of Sudan selling opportunity:
+        Details:
+          - Tota flying to Egypt
+          - Babas History
+          - Baba in Egypt
+          - Medical expenses 
+          - Debts
+          - Collecting Data
+          - Finding Buyers
+          - step1 preparing requiremnts for the buyers
+          - step2 going to the embassy 20260621
+          - make a decision 
+          - preparing step 3
+
+
+#Nervous system:
 Hana to be controlled thoughts: 
   - Fear of Robi:
-  - Don't know how to cooperate:
+  - Don't know how to cooperate:  
     - Give an example
-  - 
-  - 
+EstTODO . Create explanation to Agi about the nervous system: 
+
+
+#Airbnb:
+TODO .Buy Earplugs for the guests [Airbnb]:
+  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [CSVTODO], Estimation: 20m, RemTime: 20m}

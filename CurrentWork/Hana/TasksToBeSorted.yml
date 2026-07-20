@@ -19,8 +19,34 @@ TODO .Create a process to handle Salad:
         Done .Verified by the 2 parties:
 
 EstTODO .Schedule Bobis Lab:
-  +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana, Tags: [TL], Estimation: 15 , RemTime: 15 }  
-  Details:
+  +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
+  EstTODO .Blood and urine:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132809, By: [Hana], Tags: [TL, Private], Estimation: 15 , RemTime: 15, Importance: 4-High}
+    Details:    
+      - \"nagy rutin" (includes iron + cbc)
+      - thyroid (TSH + usual + my special anti thyroid immune cells something)
+  EstTODO .Sperm lab:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    Details:
+      - DNA fragmentation
+      - count
+    TODO .Research first:
+      Details:
+        - check what can be done if the results are bad
+        - what are the options (price)
+    NEXT .Do it:
+  TODO .Genetics test:
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana]}
+    Details:
+    EstTODO .Research genetics test:
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana], Tags: [TL, Private], Estimation: 25, RemTime: 25, Importance: 2-Low}
+      Details:
+        - check what we need - so what genes we should include
+        - what are the options (price)
+    TODO .Do genetics test:
+
+
+    
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

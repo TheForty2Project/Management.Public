@@ -384,7 +384,7 @@ SR_20260622_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ Debugging and fixing ]
     - Replst meeting
 
-SR_NEXT_Bobi:
+SR_20260720_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260622 T 215303 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 1092m, "", 20260624 T 223916 ]
@@ -403,4 +403,12 @@ SR_NEXT_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."CSV header".."Summary line"<: [ 1418m, "", 20260713 T 141123 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Work out the script/screenplay"<: [ 92m, "", 20260714 T 134943 ]
   Next:
-    - null
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Check the registration around gas picture meter"<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a process about uploading things to the site"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<
+    
+SR_NEXT_Bobi:
+  Was:
+  Next:

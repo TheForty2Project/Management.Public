@@ -463,7 +463,7 @@
                     - improve the processes (or, create Tasks for it)
               - update the site with the changes
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260722}
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260722, Importance: 2-Low}
     Done .Create a schedule for Saturday:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
       Details:
@@ -487,7 +487,7 @@
             - Mobility + walk
             - Hana must eat
             - work on tf2p.personal
-          - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+          - Robi wakes up at 10:30; usual stuff by 1 2:00-12:30 
           - 12:30-13:30: work
           - 14:00: eat
           - 15:00: gym
@@ -504,10 +504,14 @@
         - filter to "TL" tag        
     Done .Hana to reply to eliza:      
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
-    EstTODO .Order protein:
-      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 4-High}    
-    EstTODO .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 6-Extreme}
+    Done .Order protein:
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
+      Result:
+        - beef protein was not a good idea... we'll see. Collagen source if no answer
+    Scheduled .Follow up on my question about protein:
+      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
+    InProgress .Check the registration around gas picture meter:
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     EstTODO .Airbnb things:

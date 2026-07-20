@@ -6,6 +6,7 @@
   From: 
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<
+    - -->CurrentWork\Hana\Personal<
     - -->Tasks<
   OutputFile: Reports\TaskListTasks.csv
   OrderBy: [Status desc, Importance desc, By, RemTime]

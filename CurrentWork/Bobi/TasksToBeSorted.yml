@@ -511,7 +511,7 @@
     Scheduled .Follow up on my question about protein:
       +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
     InProgress .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 5-VeryHigh}
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     EstTODO .Airbnb things:

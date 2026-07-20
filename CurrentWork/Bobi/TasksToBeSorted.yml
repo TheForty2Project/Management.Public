@@ -426,40 +426,44 @@
   .Refactors:
 
   .Admin:
-    CurrentFocus .Create a daily process now that we have queries:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
-      Workspace:        
-        Goals:            
-          - on top of the existing standup process, we want to see a prioritized task list from which we can select what tasks we're planning to work on next:
-            - including private ones              
-            - categorized in a way that we can see which one requires "clean mind" - e.g. creative ones - and which one does not - e.g. physical
-        Tags:
-          TL: (temporary) tag meaning it should be included in the Task List
-          Private: for private/personal tasks
-          Dev: development tasks
-          Creative: tasks requiring "creativity" mindset - e.g. marketing copies, visuals
-          Mindless: tasks which can be done in a "zombie" mindset
-          Physical: involving movement
-        Query:
-          See at -->Reports\Queries\..TaskListTasks<
-        Process:
-          Steps:
-            - During the (previous) day:
-              - record and tag tasks according to the above guideline in "Tags" into locations the report is working from (e.g. TaskToBeSorted)
-            - Before RePlSt:
-              - go through the report results and update the Tasks with any changes
-              - pick the ones which you're expecting to work on and fill in your standup report
-              - Pm to:
-                - create/update reports - ideally before the meeting:
-                  - spent hours on non-dev and dev tasks
-                  - scope creep for milestones - if there are milestones
-                  - work hours from-to per person
-                - evaluate the performance of the team, have some recommendations about improving - or give some chocolate if everything is awesome
-            - RePlSt:
-                - normal standup
-                - based on the reports, how were we doing, do we need to improve?
-                - improve the processes (or, create Tasks for it)
-            - update the site with the changes
+    Scheduled .Create a daily process now that we have queries:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana]}
+      Done .Create baseline:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
+        Result:        
+          Goals:            
+            - on top of the existing standup process, we want to see a prioritized task list from which we can select what tasks we're planning to work on next:
+              - including private ones              
+              - categorized in a way that we can see which one requires "clean mind" - e.g. creative ones - and which one does not - e.g. physical
+          Tags:
+            TL: (temporary) tag meaning it should be included in the Task List
+            Private: for private/personal tasks
+            Dev: development tasks
+            Creative: tasks requiring "creativity" mindset - e.g. marketing copies, visuals
+            Mindless: tasks which can be done in a "zombie" mindset
+            Physical: involving movement
+          Query:
+            See at -->Reports\Queries\..TaskListTasks<
+          Process:
+            Steps:
+              - During the (previous) day:
+                - record and tag tasks according to the above guideline in "Tags" into locations the report is working from (e.g. TaskToBeSorted)
+              - Before RePlSt:
+                - go through the report results and update the Tasks with any changes
+                - pick the ones which you're expecting to work on and fill in your standup report
+                - Pm to:
+                  - create/update reports - ideally before the meeting:
+                    - spent hours on non-dev and dev tasks
+                    - scope creep for milestones - if there are milestones
+                    - work hours from-to per person
+                  - evaluate the performance of the team, have some recommendations about improving - or give some chocolate if everything is awesome
+              - RePlSt:
+                  - normal standup
+                  - based on the reports, how were we doing, do we need to improve? If so:
+                    - improve the processes (or, create Tasks for it)
+              - update the site with the changes
+      Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260722, Importance: 2-Low}
     Done .Create a schedule for Saturday:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
       Details:
@@ -483,15 +487,15 @@
             - Mobility + walk
             - Hana must eat
             - work on tf2p.personal
-          - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+          - Robi wakes up at 10:30; usual stuff by 1 2:00-12:30 
           - 12:30-13:30: work
           - 14:00: eat
           - 15:00: gym
           - 16:30: work
           - 18:00: eat
           - big walk (night)
-
-  
+    EstTODO .Create a process about uploading things to the site:
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
   .Personal:
     Done .Hana to experiment with the query:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
@@ -500,8 +504,14 @@
         - filter to "TL" tag        
     Done .Hana to reply to eliza:      
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
-    EstTODO .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 6-Extreme}
+    Done .Order protein:
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
+      Result:
+        - beef protein was not a good idea... we'll see. Collagen source if no answer
+    Scheduled .Follow up on my question about protein:
+      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
+    InProgress .Check the registration around gas picture meter:
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Hana, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     EstTODO .Airbnb things:

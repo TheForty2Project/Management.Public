@@ -9,7 +9,7 @@ TODO .Review finances 20260620:
 
 
 #Health:
-EstTODO .Schedule Bobis Lab:
+OnHold .Schedule Bobis Lab:
   +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
   Done .Blood and urine:
     +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132809, By: [Hana], Tags: [TL, Private], Estimation: 15 , RemTime: 15, Importance: 4-High}
@@ -115,3 +115,8 @@ EstTODO . Create explanation to Agi about the nervous system:
 #Airbnb:
 TODO .Buy Earplugs for the guests [Airbnb]:
   +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [CSVTODO], Estimation: 20m, RemTime: 20m}
+
+
+#Failures: 
+  Robi: 
+  Hana:

@@ -60,8 +60,6 @@ SR_20260421_Hana:
 
   Next:
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<:
-
-
 SR_20260428_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 38m, "", 20260421 T 173647 ]
@@ -88,14 +86,12 @@ SR_20260430_Hana:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260428"<
     - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260428"<
     - -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
-
 SR_20260502_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 41m, "", 20260502 T 133911 ]
     - -->Tasks\Management\..Health.."Schedule exercises and include baba in the morning after waking up and evening before sleeping"<: [ m, "", 20260502 T 141955 ]
   Next:
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<
-
 SR_20260530_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 34m, "", 20260505 T 093758 ]
@@ -153,7 +149,6 @@ SR_20260617_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]
     - -->Tasks\Management\.." Review the belongs to section in F2yaml.yml"<:
     - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 0m, "", 20260617 T 145349 ]
-
 SR_20260619_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260617 T 151527 ]
@@ -210,8 +205,6 @@ SR_20260622_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<:
-
-
 SR_20260624_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20260622 T 212745 ]
@@ -221,15 +214,21 @@ SR_20260624_Hana:
   Next:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Schedule body measurement"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
-SR_NEXT_Hana:
+
+SR_20260722_Hana:
   Was:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260703 T 140133 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, "", 20260706 T 140133 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, "", 20260714 T 140133 ]
     - -->Tasks\Website\..Improvements.."Fix spelling mistakes by feeding the content to some LLM agent"<: [ 0m, "", 20260714 T 151323 ]
-    - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 10m, "", 20260720 T 162831 ]
+    - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 0m, "", 20260722 T 153457 ]
   Next:
-    - 
+    - Finances
+    - Review 2 reports Before1stpost tasks and TaskListTasks.csv
+    - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<:
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
+    - Schedule meeting about talking about failures and successes and what is next
+
   AOIB:
     - Healthlog:
         - Can we change the name from Health Log to Human Operating Log?

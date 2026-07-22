@@ -15,4 +15,17 @@
     LeavesOnly: false
     SkipFoldersAndFiles: false
 
+.Before1stPostTasks:
+  Type: QueryDescription
+  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Apple, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->Tasks<
+  OutputFile: CurrentWork\Bobi\Before1stPostTasks.csv
+  OrderBy: [Importance desc, By, RemTime]
+  Where: 
+    TaggedBy: [Before1stPost]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false    
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

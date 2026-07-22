@@ -184,30 +184,70 @@
         Details:
           - a textual description about the animation content
         Workspace:
-          History of group decision-making:
-            Ancient:
-              Hierarchical dm:
-              Capitalism:
-            
+          We want to show:
+            - general overview about decision-making:
+              - goal is to "action the idea with the highest expected utility":
+                - ideas coming from knowledge
+                - feeling / thinking (= AI / computation)
+                - limited processing power
+            - speed of making decision:
+              - humans: few seconds for an "IF THEN"
+              - computers: nanoseconds
+            - information bandwidth:
+              - humans: few bytes/s
+              - computers: \>gigabytes/s; upgradeable
+            - errors:
+              - humans: 
+                - mistake: more, than 1% of the cases
+                - deliberate: bribes, dishonesty, feeling based decisions, etc.
+              - computers: 
+                - mistake: negligible (<than 1 trillionth of the cases)
+                - deliberate: none
+            - complexity:
+              - humans: cases 
           DM method:
             Points to include:
               - goal is to "action the idea with the highest expected utility":
                 - ideas coming from knowledge
                 - feeling / thinking (= AI / computation)
-                - limited processing power
+                - very limited processing power for humans
             Visuals:
-               
+              - decision-making overview:
+                - a list of ideas (e.g. )
+                - 
+                - show that each idea is evaluated:
+                - 
+              - show the:
+                - iterative evaluation of ideas
+                - 
+
+
+          History of group decision-making:
+            Ancient:
+              Hierarchical dm:
+              Capitalism:                           
           DM comparison:
             Hierarchical:
               - information travel from bottom to top:
                 - speed (delay):
                   - bandwidth
-                  - time needed to create summary                  
+                  - time needed to create summary      
                 - granularity (always just the summary)
                 - errors
               - computational complexity:
                 - more idea options
                 - more circumstances
+            Visuals:
+              - hierarchical:
+                  directed tree:
+                    - 4 levels
+                    - 4 descendants each node (=16 in the bottom)
+                  animation:
+                    - 
+              - computed:
+                  directed tree:
+                  - 2 levels
+                  - 16 nodes at the bottom
       EstTODO .Investigate about how we can do the animation/graphics:
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Estimation: 90, RemTime: 90}
       NEXT .Implement:

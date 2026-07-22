@@ -549,15 +549,15 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
       Result:
         - beef protein was not a good idea... we'll see. Collagen source if no answer
-    Scheduled .Follow up on my question about protein:
+    Done .Follow up on my question about protein:
       +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
-    InProgress .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20m, RemTime: 20m, Importance: 5-VeryHigh}
+    Done .Check the registration around gas picture meter:
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     EstTODO .Airbnb things:
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
-      EstTODO .Guide about how to press buttons:
+      InProgress .Guide about how to press buttons:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
       EstTODO .Entrance door stickers:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
@@ -570,11 +570,32 @@
             - put the key horizontally
             - turn once counterclockwise        
     EstTODO .Finances:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi, Estimation: , RemTime: }
-      EstTODO .Create the requirements:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
+      InProgress .Create the requirements:
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
-      NEXT .Create implementation plan:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}    
+        Workspace:
+          UCs:
+            - Can (and when can) we buy something?
+            - Expected amount of money left by x date
+            - What are the stuff categories we're spending on - and can we optimize/reduce?
+          Requirements and their priorities:
+            - Things to buy list, ordered by importance: 5-VeryHigh
+            - Current assets (money total we have at the time of creating it): 4-High
+            - Analysis of past spent: 3-Average
+            - Forecast: 3-Average
+      InProgress .Create implementation plan:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+        Workspace:
+          - Current assets:
+              - a separate tab
+              - one "entry" for each date it's done
+          - Past spent should be done by importing CSV exports:
+              from:
+              - Raiffeisen
+              - Revolut (Hana, Bobi)
+              by a script (ideally):
+          - There should be a separate tab for the things to buy          
+
       NEXT .Implement it:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
 

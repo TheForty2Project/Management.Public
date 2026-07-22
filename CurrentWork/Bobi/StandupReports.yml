@@ -399,18 +399,21 @@ SR_20260720_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."OrderBy"<: [ 40m, "", 20260706 T 023405 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Work on the marketing things".."Collect what we want to do before we post"<: [ 57m, "", 20260706 T 142849 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Finish the F2FinanceHelper draft requirement"<: [ 39m, "", 20260710 T 191951 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Writes Back From Output"<: [ 0m, "", 20260713 T 140513 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."CSV header".."Summary line"<: [ 1418m, "", 20260713 T 141123 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."CSV header".."Summary line"<: [ 25m, "", 20260713 T 141123 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Work out the script/screenplay"<: [ 92m, "", 20260714 T 134943 ]
   Next:
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Check the registration around gas picture meter"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a process about uploading things to the site"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<
-    
+
 SR_NEXT_Bobi:
   Was:
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<: [ 0m, "", 20260720 T 190715 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<: [ 30m, "", 20260720 T 190715 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Check the registration around gas picture meter"<: [ 13m, "", 20260722 T 152423 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Finances".."Create the requirements"<: [ 26m, "", 20260722 T 155247 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Follow up on my question about protein"<: [ 4m, "", 20260722 T 160043 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Finances".."Create implementation plan"<: [ 4m, "", 20260722 T 162036 ]
   Next:
     - null

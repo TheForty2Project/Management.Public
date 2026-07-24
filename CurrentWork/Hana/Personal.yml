@@ -6,8 +6,40 @@ TODO .Review finances 20260620:
     +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   TODO .Review Bobi Tax issue:
     +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-
-
+EstTODO .Finances:      
+  +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
+  Done .Create the requirements:
+    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
+    Workspace:
+      UCs:
+        - Can (and when can) we buy something?
+        - Expected amount of money left by x date
+        - What are the stuff categories we're spending on - and can we optimize/reduce?
+      Requirements and their priorities:
+        - Things to buy list, ordered by importance: 5-VeryHigh
+        - Current assets (money total we have at the time of creating it): 4-High
+        - Analysis of past spent: 3-Average
+        - Forecast: 3-Average
+  InProgress .Create implementation plan:
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+        Workspace:
+          - Current assets:
+              - a separate tab
+              - one "entry" for each date it's done
+          - Past spent should be done by importing CSV exports:
+              from:
+              - Raiffeisen
+              - Revolut (Hana, Bobi)
+              by a script (ideally):
+          - There should be a separate tab for the things to buy     
+        Result:
+          - Used past google sheet
+          - current assets (income) has its separate tab laong wiht the expenses
+          - need to merge past expenses
+          - Things to buy has a separate tab
+  NEXT .Implement it:
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}   
+        Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
 #Health:
 OnHold .Schedule Bobis Lab:
   +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
@@ -109,7 +141,7 @@ Hana to be controlled thoughts:
   - Fear of Robi:
   - Don't know how to cooperate:  
     - Give an example
-EstTODO . Create explanation to Agi about the nervous system: 
+Done . Create explanation to Agi about the nervous system: 
 
 
 #Airbnb:

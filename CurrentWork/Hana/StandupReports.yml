@@ -219,12 +219,13 @@ SR_20260722_Hana:
   Was:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 0m, "", 20260703 T 140133 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, "", 20260706 T 140133 ]
-    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 36m, "", 20260714 T 140133 ]
+    - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 1328m, "", 20260714 T 140133 ]
     - -->Tasks\Website\..Improvements.."Fix spelling mistakes by feeding the content to some LLM agent"<: [ 0m, "", 20260714 T 151323 ]
-    - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 0m, "", 20260722 T 153457 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Finances".."Create the requirements"<: [ 10m, "Reading the requirements", 20260722 T 162950 ]
+    - -->CurrentWork\Hana\Personal\.."Finances".."Create implementation plan"<: [ 94m, " used past googlesheet, things to buy is in the separatetabs", 20260722 T 164911 ]
   Next:
-    - Finances
-    - Review 2 reports Before1stpost tasks and TaskListTasks.csv
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a daily process now that we have queries".."After a few days of doing and fine-tuning, move the process to the processes"<
+    - -->Tasks\Management\.."General management".."Task Administration"<:
     - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - Schedule meeting about talking about failures and successes and what is next
@@ -233,4 +234,15 @@ SR_20260722_Hana:
     - Healthlog:
         - Can we change the name from Health Log to Human Operating Log?
         - Can we categorize the items to hours? It seemed it is easier to track via time instead of categories
-    - Gas Meter reminder:
+    - Gas Meter reminder: #For Bobis standup: - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 5m, "", 20260722 T 153457 ]
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 1141m, "reviewing 2 reports", 20260723 T 155722 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Guide about how to press buttons"<: [ 40m, "", 20260724 T 111849 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Entrance door stickers"<: [ 15m, "", 20260724 T 130150 ]
+
+  Next:
+ 
+  AOIB:
+    - What to do with animation:
+        - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Investigate about how we can do the animation/graphics"<

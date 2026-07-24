@@ -8,8 +8,10 @@ TODO .create processes for handling negative events:
     - Fights:
       - create processes for stop fighting or after fights keeping the goal in mind .
     - Bad stomach ache
-
-    
+TODO .Review 2 reports (before1stpostTasks, TasklistTasks):
+  +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TL], Estimation: , RemTime: }
+  Details:
+    - Go through
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

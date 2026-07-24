@@ -462,6 +462,14 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
     Accepted .If a map key is a number, it can't parse it as an Id:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Rejected .Error:_ "This command only works with YAML files":
+      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [Dev], Estimation: 20, RemTime: 20}
+      Details:
+        - when starting a timer on a task, even though it starts it, still, displays the message in the title
+      Comments:
+        - Bobi: non reproducible
+    Fixed .After a command - e.g. start timer on task - the cursor goes to the output window:
+      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [Dev], Estimation: 10, RemTime: 10}
 
   .Refactors:
 
@@ -502,6 +510,8 @@
                   - based on the reports, how were we doing, do we need to improve? If so:
                     - improve the processes (or, create Tasks for it)
               - update the site with the changes
+      OnGoing .Fine tune the process:
+        +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana], Tags: [TL]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260722, Importance: 2-Low}
     Done .Create a schedule for Saturday:

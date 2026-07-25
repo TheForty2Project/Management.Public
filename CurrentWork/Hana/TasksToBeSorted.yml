@@ -22,7 +22,7 @@ TODO .Learn TypeScript basics:
   +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150000, By: [Hana, Bobi]}
   EstTODO .Find a TS tutorial:
     +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15}
-  EstTODO .Create TS tutorial tasks:
+  NEXT .Create TS tutorial tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10}
     Details:
       - create tasks about processing the tutorial - e.g. chapter based or something

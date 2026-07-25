@@ -565,11 +565,11 @@
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
-    EstTODO .Airbnb things:
+    Done .Airbnb things:
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
-      InProgress .Guide about how to press buttons:
+      Done .Guide about how to press buttons:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
-      EstTODO .Entrance door stickers:
+      Done .Entrance door stickers:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
         Details:
           - to close:
@@ -578,10 +578,10 @@
           - to lock:
             - close
             - put the key horizontally
-            - turn once counterclockwise        
-    EstTODO .Finances:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
-      InProgress .Create the requirements:
+            - turn once counterclockwise    
+    InProgress .Finances:      
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400}
+      Done .Create the requirements:
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
         Workspace:
           UCs:
@@ -593,7 +593,7 @@
             - Current assets (money total we have at the time of creating it): 4-High
             - Analysis of past spent: 3-Average
             - Forecast: 3-Average
-      InProgress .Create implementation plan:
+      Done .Create implementation plan:
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
         Workspace:
           - Current assets:
@@ -605,10 +605,18 @@
               - Revolut (Hana, Bobi)
               by a script (ideally):
           - There should be a separate tab for the things to buy          
-
-      NEXT .Implement it:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-
+      InProgress .Implement it:
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+      NEXT .Showcase and get feedback:
+        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      NEXT .Action the feedbacks:
+        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    OnGoing .Chores:
+      TODO .Pay the electricity bill:
+        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [TL, Private], Estimation: 5, RemTime: 5, Importance: 4-High}
+      OnGoing .Bubbles:
+        TODO .Bubbles at 20260725:
+          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: }
         
 
 

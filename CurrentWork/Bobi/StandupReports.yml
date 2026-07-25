@@ -416,7 +416,8 @@ SR_NEXT_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Follow up on my question about protein"<: [ 4m, "", 20260722 T 160043 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Finances".."Create implementation plan"<: [ 15m, "", 20260722 T 162036 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<: [ 5m, "", 20260722 T 163137 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."After a command - e.g. start timer on task - the cursor goes to the output window"<: [ 0m, "", 20260723 T 020644 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."Error:_ "This command only works with YAML files""<: [ 0m, "", 20260723 T 020958 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."After a command - e.g. start timer on task - the cursor goes to the output window"<: [ 10m, "", 20260723 T 020644 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."Error:_ "This command only works with YAML files""<: [ 15m, "", 20260723 T 020958 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 12m, "", 20260725 T 144726 ]
   Next:
     - null

@@ -1,10 +1,10 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
 # Finances:
-TODO .Review finances 20260620:
+Done .Review finances 20260620:
   +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  TODO .Schedule meeting for Finance:
+  Done .Schedule meeting for Finance:
     +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  TODO .Review Bobi Tax issue:
+  Done .Review Bobi Tax issue:
     +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
 EstTODO .Finances:      
   +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
@@ -40,6 +40,7 @@ EstTODO .Finances:
   NEXT .Implement it:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}   
         Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
+
 #Health:
 OnHold .Schedule Bobis Lab:
   +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
@@ -48,6 +49,7 @@ OnHold .Schedule Bobis Lab:
     Details:    
       - \"nagy rutin" (includes iron + cbc)
       - thyroid (TSH + usual + my special anti thyroid immune cells something)
+    Result: High HDL and Bacteria in urine ( small infection)
   EstTODO .Sperm lab:
     +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Details:
@@ -78,7 +80,6 @@ TODO .Create a process to handle Salad:
         Done .Salad locked inside the computer:
         Done .Salad locked with timer locked:
         Done .Verified by the 2 parties:
-
 #Sudan:
 OnGoing .Family problem Solving:
     +: {CreatedBy: Hana, CreatedAt: 20260609 T 142904, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
@@ -152,3 +153,29 @@ TODO .Buy Earplugs for the guests [Airbnb]:
 #Failures: 
   Robi: 
   Hana:
+
+    WorkSpace: 
+      Schedule Vatriables:
+        Focus on creating a schedule that is beneficial for Robi and me:
+          - Sleep time range/ wake time range
+          - Meals of the week:
+            - important that the meal depends on the activity of the day
+            - 
+          - Strict mobility - strict recovery:
+            - mandatory walks at night by (6-8) for sunset ( its cold after sunset)
+            - after zone 2 run, 2 days active recovery 
+            - sauna after completing whole body strength ( once per week) TBD
+            - 
+          - Tasks after negative event:
+            Negative  evnets: 
+              - Physical triggers:
+                - Diahrrhea
+                - Burps
+                - stomach ache
+                - Sickness
+              - Words:
+                - "Leaving " 
+                - "Divorce"
+              - Attempting Suicide
+              - I don't have any one, you are my safety, mama passed away thoughts 
+              - Robi is your family. treat him as Robi not as you. 

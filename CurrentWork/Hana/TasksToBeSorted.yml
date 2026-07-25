@@ -13,5 +13,22 @@ TODO .Review 2 reports (before1stpostTasks, TasklistTasks):
   Details:
     - Go through
 
+TODO .Set up Codex in VS Code for Hana:
+  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 145308, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: }
+  Details:
+    - ask chatgpt
+
+TODO .Learn TypeScript basics:
+  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150000, By: [Hana, Bobi]}
+  EstTODO .Find a TS tutorial:
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15}
+  EstTODO .Create TS tutorial tasks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10}
+    Details:
+      - create tasks about processing the tutorial - e.g. chapter based or something
+      - DO NOT OVERSPEND THIS TASK - so aim for 5 mins and only create the first batch
+      - each Task should be around 45 mins      
+      
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -8,22 +8,20 @@ TODO .create processes for handling negative events:
     - Fights:
       - create processes for stop fighting or after fights keeping the goal in mind .
     - Bad stomach ache
-TODO .Review 2 reports (before1stpostTasks, TasklistTasks):
-  +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TL], Estimation: , RemTime: }
-  Details:
-    - Go through
+Done .Review 2 reports (before1stpostTasks, TasklistTasks):
+  +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TL], Estimation: , RemTime: }  
 
-TODO .Set up Codex in VS Code for Hana:
-  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 145308, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: }
+EstTODO .Set up Codex in VS Code for Hana:
+  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 145308, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
   Details:
     - ask chatgpt
 
 TODO .Learn TypeScript basics:
   +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150000, By: [Hana, Bobi]}
   EstTODO .Find a TS tutorial:
-    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15}
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
   NEXT .Create TS tutorial tasks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10}
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10, Importance: 3-Average}
     Details:
       - create tasks about processing the tutorial - e.g. chapter based or something
       - DO NOT OVERSPEND THIS TASK - so aim for 5 mins and only create the first batch

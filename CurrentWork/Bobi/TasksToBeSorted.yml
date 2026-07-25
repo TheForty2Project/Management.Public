@@ -565,11 +565,11 @@
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
-    EstTODO .Airbnb things:
+    Done .Airbnb things:
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
-      InProgress .Guide about how to press buttons:
+      Done .Guide about how to press buttons:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
-      EstTODO .Entrance door stickers:
+      Done .Entrance door stickers:
         +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
         Details:
           - to close:

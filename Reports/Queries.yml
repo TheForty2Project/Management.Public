@@ -2,7 +2,7 @@
 
 .TaskListTasks:
   Type: QueryDescription
-  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Id, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<

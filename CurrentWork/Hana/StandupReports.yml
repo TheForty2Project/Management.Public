@@ -237,9 +237,11 @@ SR_20260722_Hana:
     - Gas Meter reminder: #For Bobis standup: - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 5m, "", 20260722 T 153457 ]
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 1141m, "reviewing 2 reports", 20260723 T 155722 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Guide about how to press buttons"<: [ 40m, "", 20260724 T 111849 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Entrance door stickers"<: [ 15m, "", 20260724 T 130150 ]
+    - 
 
   Next:
  

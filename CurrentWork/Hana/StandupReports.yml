@@ -235,7 +235,7 @@ SR_20260722_Hana:
         - Can we change the name from Health Log to Human Operating Log?
         - Can we categorize the items to hours? It seemed it is easier to track via time instead of categories
     - Gas Meter reminder: #For Bobis standup: - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 5m, "", 20260722 T 153457 ]
-SR_NEXT_Hana:
+SR_20260726_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]

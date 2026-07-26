@@ -31,4 +31,10 @@ TODO .Process the below into outreach ideas:
   +: {CreatedBy: Hana, CreatedAt: 20260726 T 134140, By: Hana, Tags: [TL], Estimation: , RemTime: }
   Details:
     - Location: https://chatgpt.com/share/6a65e4a3-d098-83eb-a14f-3a657cf0fce5
+TODO .collect the lab esults into one file:
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [Health], Estimation: 40, RemTime: 40}
+
+TODO .Create tags:
+  - Finances and Health
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -2074,7 +2074,81 @@ HealthLog20260714Hana:
      What: Folic Acid
   
   .Anynotablething:
+HealthLog20260725Hana:
+  .InitialState:
+      Sleep:
+        Score: na
+        Duration: 
+        WakeTime: 
+        Link: 
+      BrainBaselineState:
+        ThinkingQuality: 7/10
+        Motivation: 8/10
+        Emotion: Neutral
+        Rumination: Low
+      Body:
+        Energy: na
+        BP: 105/72
+        Hunger: 
+        Stress: L
+        MuscleSoreness: L
+      BrainState:
 
+        Subjective:
+          Energy: M
+          ThinkingQuality: M 
+          Motivation: L
+          Emotion: L
+          MentalActivation: L
+        Observation:     
+          - Vinted scrolling in the morning
+          - Fear of failing
+          - Kratom
+        Decision:
+          PredictedValue: 
+          Continue scrolling: Low
+          Move body: High
+
+          ChosenAction:
+            Walk to kitchen.
+            Prepare breakfast.
+            Eat two dates.
+            Go to gym.
+  .MealLogs:
+    - Time: 101442
+      Description: Water, napalm,coffeegingerlionsmane
+      Amount: 600L, 10ml, Cup  
+  .Hydration:
+    - Morning: 0.6
+    - Afternoon: 0.5
+    - Evening: 0.5
+  .MoodLog:  
+    - Tired but mentally ok
+    - 
+    - 
+    - 
+  .PoopikaLog:
+    - Time: 9:30
+      Type: 3
+      Trigger: None
+    - Time: 101614
+      Type: 6 
+  .ExerciseLog:
+    - Time: 
+      Category:
+      Type: 
+      GarminLink:
+    - Time: 13:30
+      NotableThings: Kratom
+    - Time: 14:00
+      NotableThings: 
+    - Time: 
+      NotableThings:
+  .SupplementLog:
+   - Time: 09:30
+     What: Folic Acid
+  
+  .Anynotablething:
 
 
 

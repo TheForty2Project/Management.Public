@@ -168,15 +168,15 @@
       Details:
         here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
     EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
   .Outreach:
     OnHold .Create the baseline posts from the ideas:      
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
-    InProgress .Work out the DM comparison outreach idea:
-      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 6-Extreme}
+    OnHold .Work out the DM comparison outreach idea:
+      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 5-VeryHigh}
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       InProgress .Work out the script/screenplay:
@@ -578,37 +578,13 @@
           - to lock:
             - close
             - put the key horizontally
-            - turn once counterclockwise        
-    EstTODO .Finances:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
-      InProgress .Create the requirements:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
-        Workspace:
-          UCs:
-            - Can (and when can) we buy something?
-            - Expected amount of money left by x date
-            - What are the stuff categories we're spending on - and can we optimize/reduce?
-          Requirements and their priorities:
-            - Things to buy list, ordered by importance: 5-VeryHigh
-            - Current assets (money total we have at the time of creating it): 4-High
-            - Analysis of past spent: 3-Average
-            - Forecast: 3-Average
-      InProgress .Create implementation plan:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
-        Workspace:
-          - Current assets:
-              - a separate tab
-              - one "entry" for each date it's done
-          - Past spent should be done by importing CSV exports:
-              from:
-              - Raiffeisen
-              - Revolut (Hana, Bobi)
-              by a script (ideally):
-          - There should be a separate tab for the things to buy          
-
-      NEXT .Implement it:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-
+            - turn once counterclockwise    
+    OnGoing .Chores:
+      EstTODO .Pay the electricity bill:
+        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [TL, Private], Estimation: 5, RemTime: 5, Importance: 4-High}
+      OnGoing .Bubbles:
+        EstTODO .Bubbles at 20260725:
+          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High }
         
 
 

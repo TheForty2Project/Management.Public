@@ -6,7 +6,7 @@ Done .Review finances 20260620:
     +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   Done .Review Bobi Tax issue:
     +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-EstTODO .Finances:      
+OnGoing .Finances:      
   +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
   Done .Create the requirements:
     +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
@@ -20,26 +20,40 @@ EstTODO .Finances:
         - Current assets (money total we have at the time of creating it): 4-High
         - Analysis of past spent: 3-Average
         - Forecast: 3-Average
-  InProgress .Create implementation plan:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
-        Workspace:
-          - Current assets:
-              - a separate tab
-              - one "entry" for each date it's done
-          - Past spent should be done by importing CSV exports:
-              from:
-              - Raiffeisen
-              - Revolut (Hana, Bobi)
-              by a script (ideally):
-          - There should be a separate tab for the things to buy     
-        Result:
-          - Used past google sheet
-          - current assets (income) has its separate tab laong wiht the expenses
-          - need to merge past expenses
-          - Things to buy has a separate tab
-  NEXT .Implement it:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048, By: [Bobi, Hana], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}   
-        Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
+  Done .Create implementation plan:
+    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+    Workspace:
+      - Current assets:
+          - a separate tab
+          - one "entry" for each date it's done
+      - Past spent should be done by importing CSV exports:
+          from:
+          - Raiffeisen
+          - Revolut (Hana, Bobi)
+          by a script (ideally):
+      - There should be a separate tab for the things to buy     
+    Result:
+      - Used past google sheet
+      - current assets (income) has its separate tab laong wiht the expenses
+      - need to merge past expenses
+      - Things to buy has a separate tab
+  InProgress .Implement it:
+    +: {CreatedBy: Bobi, CreatedAt: 20260718 T 151048}   
+    Details:
+      Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
+    Done .Baseline:
+      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201809, By: [Hana], Tags: [TL, Private], Estimation: 60, RemTime: 0}
+    EstTODO .CSV imports and analysis:
+      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Bobi,Hana], Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 3-Average}
+      Details:
+        - have some idea
+        - discuss it with Bobi
+        - implement
+  EstTODO .Showcase and get feedback:
+    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+  NEXT .Action the feedbacks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+
 
 #Health:
 OnHold .Schedule Bobis Lab:

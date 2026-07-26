@@ -1724,12 +1724,12 @@ Done .Back to original:
     +: {CreatedBy: Bobi, CreatedAt: 20260518 T 013645}
     EstTODO .Revise the other pages:
       Id: RevisePages
-      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
-      Details:
-        - Remove any mention of "heaven" - or, rather, detail it that it's not that you get everything but the freedom to set the "game difficulty" to anything
+      +: {CreatedBy: Bobi, CreatedAt: 20250925 T 004133, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
       Comments:
         - [Bobi, 20251202, "OnHold because we might just move everything to the OriginalConcept site"]
         - [Bobi, 20260518, "Back to life"]
+      Workspace:
+        - Remove any mention of "heaven" - or, rather, detail it that it's not that you get everything but the freedom to set the "game difficulty" to anything
     EstTODO .Redesign the main site to black:
       +: {CreatedBy: Bobi,  By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: 60, RemTime: 60}
       Importance: Should          
@@ -1799,16 +1799,16 @@ Done .Back to original:
             - Roadmap
             - Progress towards various milestones
             - Articles about core topics
-  EstTODO .Embed something from Twitch:
+  OnHold .Embed something from Twitch:
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151834}
-    EstTODO .Decide:_ what to embed and how:
+    OnHold .Decide:_ what to embed and how:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151851, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
       Details:
         - Instead of just a link to Twitch there's some designed stuff;
         - Hana to investigate and propose ideas
     NEXT .Implement the decision:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151903, By: Bobi, Estimation: 30, RemTime: 30}
-  EstTODO .Fix spelling mistakes by feeding the content to some LLM agent:
+  Cancelled .Fix spelling mistakes by feeding the content to some LLM agent:
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 152838, By: Hana, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 2-Low}
     Details:
       - Feed the current yamls to some LLM and ask:
@@ -1818,6 +1818,7 @@ Done .Back to original:
       Mispelling:
         Paragraph: Combining two main ideas
         Mispelling: computing-power to outcompUte capitalistic systems.
+    CancelReason: technical text is not expected to be "perfect English"
         
 
   OnHold .Later:

@@ -284,10 +284,16 @@ OnGoing .Health:
           - TODO .Have Activity week meeting schedule with Bobi:
           - Focus on oncreasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
           - 
-
- 
-
-
+  EstTODO .Research kidney-saving protocol:
+    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private], Estimation: , RemTime: , Importance: 6-Extreme}
+    Details:
+      - include:
+        - low blood pressure effects
+        - diet - what to eat/avoid
+        - exercises
+        - water
+        - salt
+        - sickle cell trait effects      
   .Schedules:
     Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}

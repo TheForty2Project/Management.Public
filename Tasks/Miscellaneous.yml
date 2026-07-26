@@ -256,8 +256,34 @@ OnGoing .Health:
       - Take into consideration the time of month for menstrual cycle
       - Focus on Robis Health
   OnGoing .Schedule and estimate activity for a week:
+    +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana, Tags: [TL], Estimation: , RemTime: }
     Details:
       - Activity should be based on the physical symptoms
+      - Analysis of the month of June and July 
+      - Physical tasks that has to be done each week:
+        - Mandatory:
+          - Hana:
+            - Evening walk 
+            - 3x Run
+            - 3x strength
+            - Daily mobility
+            - 1x hike
+            - Sauna after a complete body
+          - Bobi: 
+            - Evening walk
+            - 5x strength
+            - Daily mobility 
+            - Massages 
+            - 1x Hike
+            - Sauna after complete body strength
+        - Optional 
+          - Bikram once a week
+          - Badminton after 10x running
+          - HIIT only on follicular days for now 
+        - Notes:
+          - TODO .Have Activity week meeting schedule with Bobi:
+          - Focus on oncreasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
+          - 
 
  
 

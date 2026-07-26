@@ -1,8 +1,7 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 Id: Misc
 
-OnGoing .IT:
-  Id: IT
+.IT:
   OnGoing .Environment configuration:
     Id: EnvConfig
     Details:
@@ -13,7 +12,7 @@ OnGoing .IT:
       +: {CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       DependsOn: -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<
       
-OnGoing .BusinessAnalysis:
+.BusinessAnalysis:
   Id: BA
   Details:
     Business analysis related - e.g. requirement writing, discussions, etc.
@@ -50,7 +49,7 @@ OnGoing .BusinessAnalysis:
       Details:
         Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
-OnGoing .Health:
+.Health:
   InProgress .Health planning W20260608:
     +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi}
     Details:

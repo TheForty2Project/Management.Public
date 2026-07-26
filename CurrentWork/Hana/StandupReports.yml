@@ -235,6 +235,7 @@ SR_20260722_Hana:
         - Can we change the name from Health Log to Human Operating Log?
         - Can we categorize the items to hours? It seemed it is easier to track via time instead of categories
     - Gas Meter reminder: #For Bobis standup: - -->CurrentWork\Hana\Personal\.."Schedule Bobis Lab"<: [ 5m, "", 20260722 T 153457 ]
+
 SR_20260726_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]
@@ -246,13 +247,13 @@ SR_20260726_Hana:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260725 T 145350 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260725 T 145407 ]
   Next:
+    - -->Tasks\Miscellaneous\..Health.."Research kidney-saving protocol"<:
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Process the below into outreach ideas"<:
+    - -->CurrentWork\Hana\Personal\..Finances.."Showcase and get feedback"<: [10m, "Schedule a meeting first"]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Investigate about how we can do the animation/graphics"<
+    - -->CurrentWork\Hana\Personal\..Finances.."Implement it".."CSV imports and analysis"<
+    - Showcase health log: [30m, "create tasks for it (e.g. scheudle meeting, prepare, hold) + Schedule a meeting first + prepare a little (TIMEBOXED)"]
 
-  AOIB:
-    - What to do with animation:
-        - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Investigate about how we can do the animation/graphics"<
-    - Finances : 
-      - Track the spending . schedule it every Sat.
-      - buy Sugar strips
-    - dS SCHEDULRE
-    - Create a task for outreach ideas from chat gpt thread:
-      - location: https://chatgpt.com/share/6a65e4a3-d098-83eb-a14f-3a657cf0fce5
+SR_NEXT_Hana:
+  Was:
+  Next:

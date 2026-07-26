@@ -408,7 +408,7 @@ SR_20260720_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<
 
-SR_NEXT_Bobi:
+SR_20260726_Bobi:
   Was:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea"<: [ 30m, "", 20260720 T 190715 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Check the registration around gas picture meter"<: [ 13m, "", 20260722 T 152423 ]
@@ -420,4 +420,6 @@ SR_NEXT_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."Error:_ "This command only works with YAML files""<: [ 15m, "", 20260723 T 020958 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 12m, "", 20260725 T 144726 ]
   Next:
-    - null
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Chores".."Pay the electricity bill"<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<

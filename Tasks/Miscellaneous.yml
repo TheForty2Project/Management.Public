@@ -283,7 +283,7 @@ Id: Misc
           - TODO .Have Activity week meeting schedule with Bobi:
           - Focus on oncreasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
           - 
-  EstTODO .Research kidney-saving protocol:
+  Done .Research kidney-saving protocol:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private], Estimation: , RemTime: , Importance: 6-Extreme}
     Details:
       - include:
@@ -293,6 +293,8 @@ Id: Misc
         - water
         - salt
         - sickle cell trait effects      
+    Result:
+      - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   .Schedules:
     Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}

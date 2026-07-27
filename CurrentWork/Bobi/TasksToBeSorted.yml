@@ -580,13 +580,11 @@
             - put the key horizontally
             - turn once counterclockwise    
     OnGoing .Chores:
-      EstTODO .Pay the electricity bill:
+      Done .Pay the electricity bill:
         +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [TL, Private], Estimation: 5, RemTime: 5, Importance: 4-High}
       OnGoing .Bubbles:
-        EstTODO .Bubbles at 20260725:
-          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High }
-        
-
+        Done .Bubbles at 20260725:
+          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High }                
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -28,9 +28,10 @@ TODO .Learn TypeScript basics:
       - each Task should be around 45 mins      
       
 EstTODO .Process the below into outreach ideas:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 134140, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30}
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 134140, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
   Details:
     - Location: https://chatgpt.com/share/6a65e4a3-d098-83eb-a14f-3a657cf0fce5
+    - also: add the romanian couple, with some comments about why we were thinking of them (their desire to be in some community like ours things? )
 TODO .collect the lab esults into one file:
   +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [Health], Estimation: 40, RemTime: 40}
 

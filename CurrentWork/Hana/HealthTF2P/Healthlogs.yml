@@ -2074,22 +2074,22 @@ HealthLog20260714Hana:
      What: Folic Acid
   
   .Anynotablething:
-HealthLog20260725Hana:
+HealthLog20260727Hana:
   .InitialState:
       Sleep:
-        Score: na
-        Duration: 
-        WakeTime: 
-        Link: 
+        Score: 69
+        Duration: 6h 41m
+        WakeTime: 8:30
+        Link: https://connect.garmin.com/app/sleep/2026-07-27/0
       BrainBaselineState:
-        ThinkingQuality: 7/10
-        Motivation: 8/10
+        ThinkingQuality: 6/10
+        Motivation: 7/10
         Emotion: Neutral
         Rumination: Low
       Body:
-        Energy: na
-        BP: 105/72
-        Hunger: 
+        Energy:  88
+        BP: 90/60
+        Hunger: n/a 
         Stress: L
         MuscleSoreness: L
       BrainState:
@@ -2097,27 +2097,31 @@ HealthLog20260725Hana:
         Subjective:
           Energy: M
           ThinkingQuality: M 
-          Motivation: L
+          Motivation: M
           Emotion: L
-          MentalActivation: L
+          MentalActivation: M
         Observation:     
-          - Vinted scrolling in the morning
-          - Fear of failing
-          - Kratom
+          -Consistent going through the thoughts of the big goal
+          - Fear of failing but was able to balance it out with walk and listening to podcast that can make me think ( connecting movement to ability to connect cerebral cortex)
         Decision:
-          PredictedValue: 
-          Continue scrolling: Low
+          PredictedValue: Walk
           Move body: High
 
           ChosenAction:
-            Walk to kitchen.
+            Walk to laundry and carry 10 kg
             Prepare breakfast.
-            Eat two dates.
-            Go to gym.
+            Ability to go through the schedule and set it in my brain of what are the tasks today
   .MealLogs:
-    - Time: 101442
-      Description: Water, napalm,coffeegingerlionsmane
+    - Time: 08:42
+      Description: Water, coffeegingerlionsmane
       Amount: 600L, 10ml, Cup  
+    - Time: 120544
+      Description: Egg with yogurt, Basil, Olive, rice, tomayo, grapes 
+      HungerBefore:  3-Average
+      HungerAfter: 1-Low
+      Amount:  1, one spoon of greek yogurt, 6 leaves, one olivem 0.25 tomato, 4 grapes
+  .Body State:
+    - BP: 106/70
   .Hydration:
     - Morning: 0.6
     - Afternoon: 0.5

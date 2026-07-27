@@ -44,12 +44,12 @@ Done .Review finances 20260620:
     Done .Baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201809, By: [Hana], Tags: [TL, Private], Estimation: 60, RemTime: 0}
     EstTODO .CSV imports and analysis:
-      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Bobi,Hana], Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 3-Average}
       Details:
         - have some idea
         - discuss it with Bobi
         - implement
-  EstTODO .Showcase and get feedback:
+  EstTODO .Schedule showcase, showcase and get feedback:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
   NEXT .Action the feedbacks:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
@@ -67,15 +67,17 @@ OnHold .Schedule Bobis Lab:
       - thyroid (TSH + usual + my special anti thyroid immune cells something)
     Result: High HDL and Bacteria in urine ( small infection)
   EstTODO .Sperm lab:
-    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838}
     Details:
       - DNA fragmentation
       - count
     TODO .Research first:
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
       Details:
         - check what can be done if the results are bad
         - what are the options (price)
     NEXT .Do it:
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
   TODO .Genetics test:
     +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana]}
     Details:

@@ -32,18 +32,23 @@ Done .Process the below into outreach ideas:
   Details:
     - Location: https://chatgpt.com/share/6a65e4a3-d098-83eb-a14f-3a657cf0fce5
     - also: add the romanian couple, with some comments about why we were thinking of them (their desire to be in some community like ours things? )
-  WorkSpace:
+  Workspace:
     - Locate the file where the oureach contacts are
     - Add the organization that has similar visions to ours
     - Add the people who has a similar interest in building a community
   Result: -->Tasks\PublicRelations\.."Contact people on our contact list"<
-  TODO .Bobi to review outreah ideas:
-    +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+  Done .Bobi to review outreah ideas:
+    +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TL], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
-TODO .collect the lab esults into one file:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [Health], Estimation: 40, RemTime: 40}
+EstTODO .collect the lab results into one folder:
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health], Estimation: 40, RemTime: 40, Importance: 2-Low}
+  Details:
+    - Into the management.HanaBobi repo
+  Comments:
+    Bobi: I remember there was some folder somewhere into which we put these, with the passwords; 
 
-TODO .Create tags:
-  - Finances and Health
+EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
+  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+  
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

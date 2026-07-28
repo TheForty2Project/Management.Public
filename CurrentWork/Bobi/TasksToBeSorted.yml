@@ -166,8 +166,8 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 70, Importance: 4-High}
       Details:
         here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
-    EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 5-VeryHigh}
+    InProgress .Have the (development) Tasks worked out (on which I'm planning to work on):
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 100, Importance: 5-VeryHigh}
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each

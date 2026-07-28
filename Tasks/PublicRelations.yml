@@ -433,11 +433,13 @@ EstTODO .Contact people on our contact list:
             - Names:
               - DAOs (Decentralized Autonomous Organizations):
                 Description: Use blockchain and token voting to govern projects without a traditional company hierarchy. They have demonstrated both the potential and the challenges of large-scale decentralised governance.
+                Analysis: These might be valuable targets; at least worth notifying them that we exist
               - Liquid Democracy:
-                - Description: used by groups like Germany's Pirate Party) - Lets people vote directly or delegate their vote to someone they trust, trying to balance expertise with broad participation.
-                - Used Liquid Feedback. See https://en.wikipedia.org/wiki/LiquidFeedback
+                Description: used by groups like Germany's Pirate Party) - Lets people vote directly or delegate their vote to someone they trust, trying to balance expertise with broad participation. Software is https://en.wikipedia.org/wiki/LiquidFeedback
+                Analysis: democracy+. Not for us.
               - The Venous Project:
-                - Description: A proposal for organising society using systems thinking and technology, though it is more of a social vision than an implemented collaboration platform.
+                Description: A proposal for organising society using systems thinking and technology, though it is more of a social vision than an implemented collaboration platform.
+                Analysis: nah; crazies.
         People who may show interest:
           Jay:
             Status: TODO

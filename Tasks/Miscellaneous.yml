@@ -250,8 +250,10 @@ Id: Misc
                   The effects of it - how much it was felt                
     TODO .Showcase health-log to Bobi:
       +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154540}
-      EstTODO .Schedule health-log showcase:
+      Done .Schedule health-log showcase:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [Hana], Tags: [TL, Private, Health], Estimation: 10, RemTime: 10, Importance: 3-Average}
+        Result: 
+          - Showcase healthLog is on Aug 1
       EstTODO .Prepare for health-log showcase:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [Hana], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 3-Average} 
         Details:

@@ -43,14 +43,19 @@ Done .Review finances 20260620:
       Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
     Done .Baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201809, By: [Hana], Tags: [TL, Private], Estimation: 60, RemTime: 0}
-    EstTODO .CSV imports and analysis:
+    Done .CSV imports and analysis:
       +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 3-Average}
       Details:
         - have some idea
         - discuss it with Bobi
         - implement
+      Result: 
+        - CSV has been imported
+        - TBD with BObi
   EstTODO .Schedule showcase, showcase and get feedback:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    TODO . Schedule Finances to 20260801:
+      +: {CreatedBy: Hana, CreatedAt: 20260728 T 151830, By: Hana, Tags: [TL, Finances], Estimation: 40 , RemTime: 40 , Importance: 3-Average}
   NEXT .Action the feedbacks:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
   EstTODO .Schedule a Task about updating Finances every Saturday:
@@ -71,7 +76,7 @@ OnHold .Schedule Bobis Lab:
     Details:
       - DNA fragmentation
       - count
-    TODO .Research first:
+    EstTODO .Research first:
       +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
       Details:
         - check what can be done if the results are bad

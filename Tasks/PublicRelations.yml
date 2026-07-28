@@ -353,6 +353,153 @@ EstTODO .Post things on Reddit - first phase:
         - -->Documents\PublishableArticles\ThePathOfImprovingDecisionMaking\.ThePathOfImprovingDecisionMaking..HighLevel<
 EstTODO .Contact people on our contact list:
   +: {CreatedBy: Bobi, CreatedAt: 20260526 T 150925, By: [Hana, Bobi], Tags: [CSVTODO]}
+  Details:
+      Hierarchy of audience role that we need:
+        - Programmers
+        - IT
+        - Management and administration
+        - small time investors 5 usd coffee
+        - Big time investors ( lowest priority)   
+      Categories:
+        Programmers:
+          - Beside the website, our working system should be shared with the programmers (Backlog, CSV, Standups..etc ) FD:
+          - Intland team:
+            AdamAcs:
+              Name: Adam Acs        
+              Email: acsadam0404@gmail.com  
+            FerencHerman:
+              Name: Ferenc Herman
+              Email: Herman.ferenc93@gmail.com
+            Szabolcs Berecz:
+              Name: Szabi
+              Email: szabolcs.berecz@gmail.com
+            Maja: 
+              Status: InProgress
+              Occupation: Masters student
+              Location: Slovenia
+              Reason for being a possible audience: 
+                - Deep knowledge in IT
+                - Wisdom in sense of how to build a society
+                - Logical  
+              What to say: 
+              What way: maja@chloris.si 
+              Material to prepare: Website
+            Aidin:
+              Status: TODO
+              Occupation: Journalist/ Computer science student
+              Location: Denmark
+              Reason for being a possible audience:
+                - Curiosity in different nations history and present
+                - Knowledge in computer science/ Basic knowledge in C#
+              What to say: 
+              What way: 
+              Material to prepare: Website
+            Khalil:
+              Status: TODO
+              Occupation: Java Developer
+              Location: China
+              Reason for being a possible audience: 
+                - Deep knowledge in IT
+                - Wisdom in sense of how to build a society
+                - Logical
+              What to say: 
+              What way: Chat, mandarin explanation(for easy understanding)
+              Material to prepare: Website, Translation
+            Julius:
+              Status: TODO
+              Occupation: C# programmer
+              Location: Philippines
+              Reason for being a possible audience: C# knowledge
+              What to say: 
+              What way: Email - jucarca8@gmail.com
+            Chad: 
+              Status: TODO    
+              Occupation: Developer 
+              Location: Philippines
+              Reason for being a possible audience: Database science knowledge
+              What to say: 
+              What way: 
+              Update: No 
+            Karthik:
+              Status: InProgress
+              Occupation: C# programmer
+              Location: Canada
+              Reason for being a possible audience: 
+                - Programming knowledge
+                - Searching for a society to belong
+        Organizations: 
+          Details:
+            - Location: https://chatgpt.com/share/6a65e4a3-d098-83eb-a14f-3a657cf0fce5
+            - Names:
+              - DAOs (Decentralized Autonomous Organizations):
+                Description: Use blockchain and token voting to govern projects without a traditional company hierarchy. They have demonstrated both the potential and the challenges of large-scale decentralised governance.
+              - Liquid Democracy:
+                - Description: used by groups like Germany's Pirate Party) - Lets people vote directly or delegate their vote to someone they trust, trying to balance expertise with broad participation.
+                - Used Liquid Feedback. See https://en.wikipedia.org/wiki/LiquidFeedback
+              - The Venous Project:
+                - Description: A proposal for organising society using systems thinking and technology, though it is more of a social vision than an implemented collaboration platform.
+        People who may show interest:
+          Jay:
+            Status: TODO
+            Occupation: Enterpreneur (India licensed based company for preparing/teaching people for the automotive design sector)
+            Location: India
+            Reason for being a possible audience:
+              - Asked to be updated on the project
+              - Pushes us to go public
+              - Wise, logical, humble
+              - prioritize health
+              - ability to handle conversations with Robert
+            Email: mr.jayakumar@gmail.com
+          Soron:
+            Status: TODO
+            Occupation: Masters in Political sciences/ maybe politician
+            Location: Denmark
+            Reason for being a possible audience:
+              - Eagerness to build a just society 
+              - Ability to handle conversation woith RObert. Asked questions about the methodoligies of how to build a great society
+              - Asked to be updated about the project
+          Cancelled Joshua:
+            Occupation: Student and Private businesses
+            Location: Hungary
+            Reason for being a possible audience:
+              - Wants a society
+          Jordan-Townsend:      
+            How we know him: from Reddit post 
+
+            Occupation: Created Universal scripting language
+            Notes: 
+              - might be scam
+              - https://www.reddit.com/user/Content-Excitement49/:
+          Mikael Finstad:
+              Notes:
+                - Creator of LossLessCut
+                - https://github.com/mifi
+                - "I create free and open source software because I believe that software should be available to everyone, without having to sell our souls to data mining megacorporations."
+          https://gwynethllewelyn.net/about/:
+              Notes:
+                - messaged roberjdoe on keybase
+                - has "super secret" projects
+                - interesting website
+                - born in 1969, maybe girl
+                - seems to be a good candidate for the "influencer we need to approach"
+          Selene:
+            Email: veganmetalchick@gmail.com 
+          Ember:  
+            Status: TODO
+            Email: Emberll1225@gmail.com 
+          Nan:  
+            Email: nanzhang7@outlook.com 
+          Romania: 
+            - Alina and Andrain: 
+              - Contact: Hana instagram
+              - Reason: Researchers in the field of epigenetics. They mentioned indirectly of building comunities. 
+          TomTom:
+              - maybe when we already have some results from the 2nd round
+          AgiTibi:
+              - Agness is a person who is drien by logic
+          CsabiJudit:
+          Shamanth ( molecular medicine ):
+            Contact: Hana has his cwhatsapp contact
   EstTODO .Collect and have ideas about how to contact them with what message, goals, etc.:
     +: {CreatedBy: Bobi, CreatedAt: 20260526 T 151045, By: [Hana, Bobi], Tags: [CSVTODO], Estimation: 30, RemTime: 30}
     Details:

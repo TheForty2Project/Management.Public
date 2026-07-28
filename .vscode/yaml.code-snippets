@@ -16,14 +16,16 @@
 		"prefix": "bcreated",
 		"description": "Outputs an Additional Properties line with usual fields",
 		"body": [
-			"+: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Bobi}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}}"
+			"+: {CreatedBy: Bobi, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Bobi}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}, Importance: ${4:3-Average}}",
+      "$0"
 		]
 	},
 	"HanaCreatedByAt": {
 		"prefix": "hcreated",
 		"description": "Outputs an Additional Properties line with usual fields",
 		"body": [
-			"+: {CreatedBy: Hana, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Hana}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}}"
+			"+: {CreatedBy: Hana, CreatedAt: $CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND, By: ${1:Hana}, Tags: [${2:TL}], Estimation: ${3:}, RemTime: ${3:}, Importance: ${4:3-Average}}",
+      "$0"
 		]
 	},
 	"StandupReportEntry": {

@@ -293,7 +293,7 @@ SR_20260615_Bobi:
     - -->CurrentWork\Hana\TasksToBeSorted\.."Create snippets for HealthLogs templates"<: [ 10m ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 20m ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 20m, "Asking Codex to do it" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
 
@@ -306,7 +306,7 @@ SR_20260616_Bobi:
     - -->Tasks\Documents\..Technical.."Specification".."Finish the F2Yaml.MVP specification"<: [ 10m, "F2Link problems closed" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 20m ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 20m, "Asking Codex to do it" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
 
@@ -321,7 +321,7 @@ SR_20260617_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 20m ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 20m, "Asking Codex to do it" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
 
@@ -339,7 +339,7 @@ SR_20260618_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 30m ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem"<: [ 20m, "Asking Codex to do it" ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 20m, "Asking Codex to do it" ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 20m, "Asking Codex to do it" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 30m, "Finishing" ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 20m, "Asking Codex to do it" ]
 
@@ -348,7 +348,7 @@ SR_20260619_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260618 T 150259 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 11m, "", 20260618 T 153500 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 78m, "", 20260618 T 154600 ]
-    - -->Management.Public\Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s"<: [ 10m, "", 20260619 T 025005 ]
+    - -->Management.Public\Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 10m, "", 20260619 T 025005 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 30m, 20260619 T 030005 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260619 T 145542 ]
   Next:
@@ -376,7 +376,7 @@ SR_20260622_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 14m, "", 20260620 T 211932 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Executes query".."Basic query execution"<: [ 162m, "Facilities for debugging", 20260621 T 020748 ]
-    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s".."Store further information"<: [ 20m, "", 20260622 T 214830 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline".."Store further information"<: [ 20m, "", 20260622 T 214830 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260622 T 214605 ]
   Next:
     - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Prepare for streaming today"<:
@@ -420,6 +420,13 @@ SR_20260726_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."Error:_ "This command only works with YAML files""<: [ 15m, "", 20260723 T 020958 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 12m, "", 20260725 T 144726 ]
   Next:
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Chores".."Pay the electricity bill"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 31m, "", 20260727 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Chores".."Pay the electricity bill"<: [ 15m, "Including other finances", 20260727 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<: [ 33m, "", 20260728 T 145042 ]
+  Next:

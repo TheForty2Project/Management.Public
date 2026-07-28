@@ -1,20 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Task, Bug, Folder]}
 
-OnGoing .Taskify the requirements:
-  Id: TaskifyReqs
-  +: {CreatedBy: Bobi, CreatedAt: 20260520 T 165338}
-  Details:
-    - create a subtask for each requirement taskification and log your time on it
-  
 .Tasks:  
-  OnGoing .Task maintenance (estimation, taskification, ):
-    Id: EstimateTaskify
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 140359}
-    Details:      
-      - Create a separate Task for each!
-      - Each Task should have the estimation details in its Result when Done
-    
-
   Closed .Create the F2ToolsExtension:
     By: Gaurav
     Estimation: 15m                    
@@ -129,7 +115,7 @@ OnGoing .Taskify the requirements:
           - as a priority, should understand the format with the quotations as well (it does not currently)
           - should in general understand ID based (and mixed - so one part Id, other part Summary) based links as well            
         - the CSV line generator should put those values in quotes which contain characters which are not allowed (which I think are only the doublequote and the comma, right?) (and which do not, not)   
-    Done .Prioritize andor consolidate the Bugfixes after Requirement consolidation:    
+    Done .Prioritize andor consolidate the Bugfixes after Requirement consolidation:      
   Done .Wrap up the first phase of VSIX development:
     +: {CreatedBy: Hana, CreatedAt: 20250827 T 133402, By: Bobi, Priority: 5-veryhigh}
     Done .Test:
@@ -142,12 +128,12 @@ OnGoing .Taskify the requirements:
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 220423, By: Bobi}
     Done .Rename Item to F2YamlWorkspaceItem:
       Id: RenameToF2YamlWorkspaceItem
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022539, By: Bobi, Tags: [CSVTODO], Estimation: 5, RemTime: 5}
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022539, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 5, RemTime: 5}
       Details:
         Comment to it: A smart map-like data-storage structure for storing Item data retrieved from yaml documents.    
     Done .Custom Properties OR F2YamlWorkspaceItem to store its data in a Map:
       Id: CustomProperties
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021307, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021307, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 20, RemTime: 20}
       Details:
         Custom properties support:
         - property data should be stored in a dictionary; the properties (e.g. Id, Summary) reference the values by Id
@@ -186,7 +172,7 @@ OnGoing .Taskify the requirements:
             all other arrays, sequence/map, ItemList      
     EstTODO .Type (class) support:
       Id: TypeDescriptionSupport
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021315, By: Bobi, Tags: [CSVTODO], Estimation: 240, RemTime: 240}
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021315, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 240, RemTime: 240}
       Details:
         Type verification support:
           - class parsing and the ClassDescription + PropertyDescription + TypeInfo types
@@ -199,7 +185,7 @@ OnGoing .Taskify the requirements:
             - Code completion
             - Coloring
       TODO .Non-Item ClassDescription:
-        +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
         Details:
           - In the example implementation  to avoid the circular initialization and dependency hell
     Done .Double-linked lists:
@@ -224,7 +210,7 @@ OnGoing .Taskify the requirements:
         Result:
           Implement the ItemList if it seems to be the right way - i.e. the TypeScript implementation of the C# code is not fucked up
       Done .If decided, implement the decision:
-        +: {CreatedBy: Bobi, CreatedAt: 20260610 T 022234, By: Bobi, Tags: [CSVTODO], Estimation: 60 , RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260610 T 022234, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 60 , RemTime: 60}
         Details:
           So implement, but check first:
             - try that "plan" mode in one of the models (or just make it implement it and revert, if problematic? I think this.)
@@ -270,11 +256,11 @@ OnGoing .Taskify the requirements:
             Analysis: nah... F2Link first - easy - and then we decide what to do when we really need these property updates
       Result:
         F2Link.                    
-    InProgress .F2Link generation through F2YamlWorkspaceItem:
-      +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184849, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Done .F2Link generation through F2YamlWorkspaceItem:
+      +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184849, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 0, RemTime: 0}
       MaintenanceTasks:
-        InProgress .Create Implementation plan:
-          +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        Done .Create Implementation plan:
+          +: {CreatedBy: Bobi, CreatedAt: 20260615 T 184905, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
           Workspace:
             - Go through the parent Items using their BelongsToItem and BelongsToProperty fields:
               - If the currentItem's RepresentationType:
@@ -314,13 +300,11 @@ OnGoing .Taskify the requirements:
       Details:
         Create a "GetF2Link(linkType:_ LinkTypes):_ F2Link" method in F2YamlWorkspaceItem, returning an Id based F2Link:
           - Where: 
-              enum LinkTypes:
+              enum LinkTypePreference:
                 .Id:
-                .Summary:      
-
-
-    InProgress .Store yaml representation information in F2YamlWorkspaceItem-s:
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}              
+                .Summary:
+    Done .Store yaml representation information in F2YamlWorkspaceItem-s baseline:
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 153224, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 60, RemTime: 0}
       Details:
         - During parsing from yaml (currently the "ImportFromYamlScalarMapPair" function, but later possibly renamed to just ImportFromYamlNode), store important information about how the Item was stored as a yaml to be able to reproduce the yaml in a similar structure as the original by creating a property "YamlRepresentation" in "F2YamlWorkspaceItem" with type "YamlRepresentationDescriptor" and filling it in how it's described below.
         - class .YamlRepresentationDescriptor:     
@@ -418,20 +402,20 @@ OnGoing .Taskify the requirements:
         - When serializing the QueryDescription into the csv
         - WriteBack - maybe, if we don't only edit that part of the text (=the value)
       Done .Store further information:
-        +: {CreatedBy: Bobi, CreatedAt: 20260622 T 012819, By: Bobi, Tags: [CSVTODO], Estimation: 25, RemTime: 25}
+        +: {CreatedBy: Bobi, CreatedAt: 20260622 T 012819, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 25, RemTime: 25}
         Details:
           Store:
             - whether the Item is rendered as a flow or block mapping (its map part that is)
             - property rendering information:
               - type of the Node (map, sequence, scalar)
-              - if it's a string, which type (of I think 5?)
+              - if it's a string, which type (of I think 5?)      
     Done .Create an IsValidItemHeader method in the ItemHeader class:
       Id: IsValidItemHeader
-      +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 20, RemTime: 20}
       Details:
         It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\Requirements\F2YamlSpecification\BachusNaurForms.bnf<
     Done .Implement and upgrade functionality about recognizing and parsing ItemYamls:
-      +: {CreatedBy: Bobi, CreatedAt: 20260611 T 144755, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260611 T 144755, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
       Details:
         - a yamlNode:yaml.Node is an ItemYaml in the yaml if:
           - Standard item:
@@ -467,7 +451,7 @@ OnGoing .Taskify the requirements:
         - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
         - Update the existing parsing functionalities in F2YamlWorkspaceItem          
   OnGoing .Create proper basic Item structures library:    
-    +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 30}
+    +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: , Estimation: 120, RemTime: 0}
     Details:
       - Create library for handling Item data necessary to implement the new functionality instead of using the existing makeshift implementation:
         - parsing and validation:
@@ -477,7 +461,7 @@ OnGoing .Taskify the requirements:
         - Item, StandardItem implementations
       - Try implementing only those functionalities which are necessary for the new functionalities
     Done .Update parsing of properties:
-      +: {CreatedBy: Bobi, CreatedAt: 20260613 T 150507, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260613 T 150507, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
       Details:
         Update item yaml parsing (mainly ImportFromYamlScalarMapPair functions):
           - be able to import from all the yaml structures which are considered ItemYamls (-->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Implement and upgrade functionality about recognizing and parsing ItemYamls"<):
@@ -493,15 +477,15 @@ OnGoing .Taskify the requirements:
               - Purpose is to be able to emit this when serializing back to yaml
               - stores the original yaml node
               - its toString returns the yaml node serialized (ideally close to the original format, but don't put too much effort in it)  
-    InProgress .Baseline ItemYaml generation:
+    Done .Baseline ItemYaml generation:
       Id: ItemYamlGeneration
-      +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202548, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}        
+      +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202548, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}        
       Done .Write the code:
         Id: WriteTheCode
-        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202645, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      InProgress .Test and fix:
+        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202645, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
+      Done .Test and fix:
         Id: TestAndFix
-        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202658, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+        +: {CreatedBy: Bobi, CreatedAt: 20260623 T 202658, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
   EstTODO .Create a stop task command feature that is executed when VS Code is shutting down:
     Id: StopTTAtShutdown
     +: { CreatedBy: Hana, CreatedAt: 20250523 T 114808, By: [Bobi, Gaurav], Estimation: 30}
@@ -538,7 +522,7 @@ OnGoing .Taskify the requirements:
     Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
     MaintenanceTasks:
       Done .Taskify and estimate:        
-        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 30, RemTime: 30}
         Result:
           Execute.Verify:
             PAR: 30
@@ -551,24 +535,24 @@ OnGoing .Taskify the requirements:
       Done .Create Implementation plan for Basic Query Execution:
         +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 0}
     Implemented .Registers commands:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
     Implemented .Executes query:
       Id: Execute
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [TL, Dev, F2Tools]}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
       Implemented .Verifies query:
         Id: Verify
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 90, RemTime: 60}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
         ImplPlan: |
           TryGetQueryDescriptionUnderTheCursor:
             - Get the document and the cursor position
             - GetItemAtCursor: base it on the current generateCSV implementation and record some todos to make it "nice"
             - Fill in the QueryDescription while checking the values
-      InProgress .Basic query execution:
+      Done .Basic query execution:
         Id: BasicExecute
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 180, RemTime: 0}
         Requirement: 
           - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..BasicExecute<
           - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..ShowSummary<
@@ -628,41 +612,43 @@ OnGoing .Taskify the requirements:
                 - csvColumnNames.join(",")
               - column values:
                 - content of csvCellValuesPerRow, \n in between rows, "," in between cell values
-      NEXT .Filter by the Where property:
+      InProgress .Filter by the Where property:
         Id: Filter
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 180, RemTime: 20}
         DependsOn: -->...BasicExecute<
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..Filter<
+        Done .Engine and majority:
+        InProgress .SkipUnder:
     EstTODO .Writes Back From Output:
       Id: WriteBack
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 180, RemTime: 180}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
-  TODO .F2Link class based F2Link handling:
+  InProgress .F2Link class based F2Link handling:
     Id: F2LinkClass
-    +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-    TODO .Update link parsing according to the new specification:
-      +: {CreatedBy: Bobi, CreatedAt: 20260617 T 142620, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi}
+    Done .Update link parsing according to the new specification:
+      +: {CreatedBy: Bobi, CreatedAt: 20260617 T 142620, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
       Details:
         Change the parser (F2Link.TryParseString):
         - FilePathParts can now contain the file's extension as well
         - Each ItemIdentifierPart can be suffixed by a number in brackets
         - recognize a TypeIdPart (an ), which is: <TypeIdPart> ::= ".<" <IdString> ">"
-    TODO .Create a method which generates F2Links:
-      +: {CreatedBy: Bobi, CreatedAt: 20260618 T 012449, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    Done .Create a method which generates F2Links:
+      +: {CreatedBy: Bobi, CreatedAt: 20260618 T 012449, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
       Details:
-        - 
-        - replace the already existing F2Link generation functionalities to this
-
-
+    TODO .Replace the already existing F2Link generation functionalities to this:
+      +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150546, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 3-Average}        
+  TODO .ItemManager based F2Link following:
+    +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150959, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: , RemTime: , Importance: 3-Average}
     Details:
-      
+      - Instead of the current method, use ItemManager to get the Item and point to it
   EstTODO .Replacing F2Links:
     Id: ReplaceLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022624, By: Bobi}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks<
     MaintenanceTasks:
-      InProgress .Taskify and estimate:
-        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      Done .Taskify and estimate:
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: , Estimation: 30, RemTime: 0}
         Result:                
           MarkF2LinksForReplace:
             PAR: 30m
@@ -676,11 +662,11 @@ OnGoing .Taskify the requirements:
             Normal:
             Explanation: 
     EstTODO .Register commands:
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000302, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000302, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 10, RemTime: 10}
       Details: 3 at the moment
     EstTODO .MarkF2LinksForReplace:
       Id: MarkF2LinksForReplace
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000421, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000421, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 60, RemTime: 60}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..MarkF2LinksForReplace<
       Details:
         - finds all files,
@@ -688,14 +674,14 @@ OnGoing .Taskify the requirements:
         - and checks whether any points to the Item by analyzing the link    
     EstTODO .ReplaceMarkedToIdLink:
       Id: ReplaceMarkedToIdLink
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002832, By: Bobi, Tags: [CSVTODO], Estimation: 45, RemTime: 45}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002832, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 45, RemTime: 45}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedToIdLink<
       Details:
         - simple id link generation + then replacing the old
         - keeping the escaping (csv/yaml)
     EstTODO .ReplaceMarkedTo:
       Id: ReplaceMarkedTo
-      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 15}
+      +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 20, RemTime: 15}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
       Details:
         On top of $@-->...ReplaceMarkedToLink<@$:
@@ -708,20 +694,23 @@ OnGoing .Taskify the requirements:
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<
     MaintenanceTasks:
       Done .Taskify and estimate:
-        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 10, RemTime: 0}
         Result:
           PAR: 10m
           Normal: 30m
           Explanation:
             - the function - if there's one, but then there should be one - which removes one prefix should be updated
             - expecting trouble.
+    Done .Support during the new F2Link generator:
+      +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150737, By: Bobi}
+    TODO .Placeholder for 
   InProgress .Support for local f2links:
     Id: LocalLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi, Estimation: 90, RemTime: 90}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..LocalLink<
     MaintenanceTasks:
       Done .Taskify and estimate:
-        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260521 T 022114, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 10, RemTime: 0}
         Result:
           PAR: 30m
           Normal: 90m
@@ -767,7 +756,7 @@ OnGoing .Taskify the requirements:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143728, By: Bobi}
   InProgress .Proper escaping in Summary part of F2Links:
     Id: F2LinkEscaping
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 40, RemTime: 40}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<
     MaintenanceTasks:
       Done .Taskify and estimate:
@@ -788,7 +777,7 @@ OnGoing .Taskify the requirements:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
     EstTODO .Create proper readme:
-      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [CSVTODO], Estimation: 90, RemTime: 90}
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 90, RemTime: 90}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
     EstTODO .Create License:
       +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: 60, RemTime: 60}
@@ -1252,7 +1241,7 @@ Bugs:
           +: {Id: blah}
   
   New .Stop timer fails with the usual "item" related error message when the SR entry is incomplete:
-    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 144459, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260517 T 144459, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
     QA: Bobi
     Version: 2.0.25
     FixVersion:
@@ -1264,7 +1253,7 @@ Bugs:
           - -->Tasks\Management\.."General management".."Task Administration"<:
 
   New .getYamlMapIfPairOrYamlMap throws error if clicking on the f2links provided in the details:
-    +: {CreatedBy: Bobi, CreatedAt: 20260518 T 150217, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260518 T 150217, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
     QA: Bobi
     Version: 2.0.25
     FixVersion:
@@ -1289,14 +1278,14 @@ Bugs:
               - -->Tasks\PublicRelations\.."Create outreach plan"<      
 
   New .Unable to follow links where a summary part ends with dot:
-    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 145730, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260521 T 145730, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation:, RemTime:}
     Details:
       Example:      
         MyItem.:
           -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to follow links where a summary part ends with dot".Details.Example.MyItem.< 
 
   New .Unable to create new task from an existing task within the same SR "SR_20260608_Hana":
-    +: {CreatedBy: Hana, CreatedAt: 20260609 T 215850, By: Bobi, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    +: {CreatedBy: Hana, CreatedAt: 20260609 T 215850, By: Bobi, Tags: [TL, Dev, F2Tools], Estimation: 0m, RemTime: 0m}
     QA: Bobi
     Version: 2.0.26
     Area: TimeTracking

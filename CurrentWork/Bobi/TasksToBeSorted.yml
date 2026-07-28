@@ -139,8 +139,7 @@
   TODO .Gecike:
     By: Testgeci    
 
-.TasksToBeSorted20260702:  
-  TODO .Check the health-log progress and collect feedback:
+.TasksToBeSorted20260702:    
   Done .Work on the marketing things:
     Done .Collect what we want to do before we post:
       +: {CreatedBy: Bobi, CreatedAt: 20260705, By: [Bobi, Hana], Tags: [CSVTODO]}
@@ -168,12 +167,12 @@
       Details:
         here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
     EstTODO .Have the (development) Tasks worked out (on which I'm planning to work on):
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 5-VeryHigh}
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
   .Outreach:
-    OnHold .Create the baseline posts from the ideas:      
+    OnHold .Create the baseline posts from the ideas:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
     OnHold .Work out the DM comparison outreach idea:
       +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 5-VeryHigh}
@@ -291,9 +290,9 @@
               - ParseYamlNode
               - EmitYaml
             - FileBasedWorkspaceProvider implements IItemRepository:
-    InProgress .Create file structure:
+    Done .Create file structure:
     TODO .Move parsing + emitting:
-    TODO .Move getting F2YamlItems:    
+    Done .Move getting F2YamlItems:
   Cancelled .Return the proper typescript F2YamlWorkspaceItem descendant during parsing:
     +: {CreatedBy: Bobi, CreatedAt: 20260718 T 023934, By: Bobi, Tags: [TL, Dev], Estimation: , RemTime: }
     Details:
@@ -471,10 +470,8 @@
     Fixed .After a command - e.g. start timer on task - the cursor goes to the output window:
       +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [Dev], Estimation: 10, RemTime: 10}
 
-  .Refactors:
-
   .Admin:
-    Scheduled .Create a daily process now that we have queries:
+    InProgress .Create a daily process now that we have queries:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana]}
       Done .Create baseline:
         +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
@@ -513,7 +510,7 @@
       OnGoing .Fine tune the process:
         +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana], Tags: [TL]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260722, Importance: 2-Low}
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260822, Importance: 2-Low}
     Done .Create a schedule for Saturday:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
       Details:

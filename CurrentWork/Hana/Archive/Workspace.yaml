@@ -694,14 +694,7 @@ TODO . Publish the 20250818 video:
   +: {CreatedBy: Hana, CreatedAt: 20250818 T 203922, By: Hana, Tags: [CSVTODO], Priority: 4-High }
   TODO .Create a process:
   TODO .Choose/create a platform:
-Test:
-  -->Backlog\Development\..F2VSCExtension.."Create the F2VSCExtension"<
-  -->Backlog\Development\..F2VSCExtension.."Create a stop task command feature that is executed when VS Code is shutting down"<
-  -->Backlog\Development\..F2VSCExtension..F2ToolsConsolidation20250618<
-  -->Backlog\Development\..F2VSCExtension..F2ToolsConsolidation<
-  -->Backlog\Development\..F2VSCExtension.."Create a stop task command feature that is executed when VS Code is shutting down"<
-  -->Backlog\Development\..F2VSCExtension..geci<
-  -->Backlog\Development\.F2VSCExtension.."Consolidate the requirements of the F2Tools extension as of 20250618"<
+
 Workspace20250828:
   SR20250828Hana:
     Was:
@@ -2478,14 +2471,6 @@ InProgress Phase 1 Marketing:
     TODO .Choose/create a platform:
   <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
 
-  Test:
-    -->Backlog\Development\..F2VSCExtension.."Create the F2VSCExtension"<
-    -->Backlog\Development\..F2VSCExtension.."Create a stop task command feature that is executed when VS Code is shutting down"<
-    -->Backlog\Development\..F2VSCExtension..F2ToolsConsolidation20250618<
-    -->Backlog\Development\..F2VSCExtension..F2ToolsConsolidation<
-    -->Backlog\Development\..F2VSCExtension.."Create a stop task command feature that is executed when VS Code is shutting down"<
-    -->Backlog\Development\..F2VSCExtension..geci<
-    -->Backlog\Development\.F2VSCExtension.."Consolidate the requirements of the F2Tools extension as of 20250618"<
 
   Workspace20250828:
     SR20250828Hana:

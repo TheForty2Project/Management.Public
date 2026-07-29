@@ -305,12 +305,12 @@
   Done .OrderBy:
     +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}    
   EstTODO .CSV Remainings:
-    EstTODO .Handling of overlapping froms:
+    Done .Handling of overlapping froms:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
       Details:
         If a "From" entry contains a link which overlaps with the other ensure that only one row is generated.
       ImplPlan:
-        Use ItemManager for this shit.
+        - Use ItemManager for this shit.
     Done .yml, yaml in F2Links:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013636, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
     Done .CSV header:
@@ -327,14 +327,14 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
     EstTODO .CreateMissingItems:
       +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
-    InProgress .Where finish:
+    Done .Where finish:
       Done .Engine:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
-      Blocked .Skip:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      Done .SkipUnder:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
         DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Introduce itemmanager and manage items through it"<
       Done .Tags:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 5}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
       Done .Type:      
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
       Done .Leaves only:

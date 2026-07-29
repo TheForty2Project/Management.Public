@@ -688,7 +688,7 @@
         - to generate a new link for each link:
           - keep the part up until the 2 links (newly generated, old) match
           - the rest is the part from the generated (Id based)                  
-  InProgress .Make F2Links handle 2 or more property values preceding summary in headers:
+  Blocked .Make F2Links handle 2 or more property values preceding summary in headers:
     Id: MorePrefix
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023150, By: Bobi, Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..MorePrefix<
@@ -705,8 +705,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150737, By: Bobi}
     Blocked .Placeholder for verifying that this is solved after F2Link rewrite:
       +: {CreatedBy: Bobi, CreatedAt: 20260728 T 203235, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 10, Importance: 3-Average}
-      DependsOn: -->..."ItemManager based F2Link following"<
-          
+      DependsOn: -->..."ItemManager based F2Link following"<          
   InProgress .Support for local f2links:
     Id: LocalLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi, Estimation: 90, RemTime: 90}
@@ -719,7 +718,7 @@
           Normal: 90m
           Explanation:
             - this is new logic, having to plug it into the existing mess
-            - yes, expecting trouble
+            - yes, expecting trouble    
   InProgress .Support for filepath-only F2Links:
     Id: FilePathLink
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023512, By: Bobi, Estimation: 30, RemTime: 30}
@@ -768,9 +767,6 @@
           PAR: 20m
           Normal: 40m
           Explanation: expecting trouble, otherwise easy-peasy (simple string replace back and forth)
-
-
-  
   OnGoing .Publication to marketplace:
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
@@ -790,7 +786,7 @@
     Done .V2.0.26:
       +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
 
-Bugs:
+.Bugs:
 
   OnHold .Mac can't install VSIX:
     QA: [ Giselle ]

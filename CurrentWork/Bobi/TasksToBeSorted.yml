@@ -179,7 +179,7 @@
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       InProgress .Work out the script/screenplay:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Estimation: 60, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
         Details:
           - a textual description about the animation content
         Workspace:
@@ -247,10 +247,12 @@
                   directed tree:
                   - 2 levels
                   - 16 nodes at the bottom
-      EstTODO .Investigate about how we can do the animation/graphics:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Estimation: 90, RemTime: 90}
-      NEXT .Implement:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Estimation: 90, RemTime: 90}
+      Done .Investigate about how we can do the animation/graphics:
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10}
+        Result: https://chatgpt.com/share/6a68f66b-aeb4-83eb-9790-5cafe1d3e21c
+
+      TODO .Implement:
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
   Done .CommitAndSync:
     +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
   Done .F2Link generation fix:

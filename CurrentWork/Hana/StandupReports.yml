@@ -248,15 +248,14 @@ SR_20260726_Hana:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260725 T 145350 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260725 T 145407 ]
   Next:
-    - -->Tasks\Miscellaneous\..Health.."Research kidney-saving protocol"<:
-    - -->CurrentWork\Hana\TasksToBeSorted\.."Process the below into outreach ideas"<:
-    - -->CurrentWork\Hana\Personal\..Finances.."Showcase and get feedback"<: [ 10m, "Schedule a meeting first" ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Investigate about how we can do the animation/graphics"<
     - -->CurrentWork\Hana\Personal\..Finances.."Implement it".."CSV imports and analysis"<
     - Showcase health log: [ 30m, "create tasks for it (e.g. scheudle meeting, prepare, hold) + Schedule a meeting first + prepare a little (TIMEBOXED)" ]
+    - -->Tasks\Website\..Improvements.."Shadows site todos".."Revise the other pages"<
 SR_20260727_Hana:
   Was:
     - -->CurrentWork\Hana\TasksToBeSorted\.."Process the below into outreach ideas"<: [ 32m, "", 20260727 T 160849 ]
     - -->CurrentWork\Hana\Personal\..Finances.."Implement it".."CSV imports and analysis"<: [ 40m, "", 20260728 T 162838 ]
   Next:
-    - null
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Implement"<
+    

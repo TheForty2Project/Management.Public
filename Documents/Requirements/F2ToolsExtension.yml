@@ -970,10 +970,45 @@ InDev .Proper escaping in Summary part of F2Links:
 Drafting .QueryDescription based report generation enhancements:
   Id: ReportEnhancements
   +: {CreatedBy: Bobi, CreatedAt: 20260729 T 023911, By: Bobi}
-  Drafting .Filtering:
-    
-  
-        
+  Drafting .Filter for list containment:
+    +: {CreatedBy: Bobi, CreatedAt: 20260729 T 221954, By: Bobi, CurrentValue: 4-High}    
+    Details: | 
+      e.g. if "Done MyTask: {Tags: [Tag1, Tag2]}" then one can specify that 
+  Drafting .Sorting by value or string:
+    +: {CreatedBy: Bobi, CreatedAt: 20260729 T 213418, By: Bobi, Effort: 1-VeryLow, CurrentValue: 4-High}
+    Details:      
+      - on top of the "asc/desc" suffix, one can add a "byVal/asString" suffix as well
+      - if "byVal" (default), then sorting is done on the values the cell values represent, e.g. if an enumeration member, then its defined numerical value:
+        - like: 
+            if we have:
+              enum myEnum: { .Z: {Value: 1}, .X: {Value: 2}, .Y: {Value: 3}  }
+            Then the order is:
+              Z, X, Y (and not X, Y, Z)
+      - if "asString", then sorting is done on the string representation, e.g. numbers sorted like "1, 11, 12, 2, 3..."
+    Evaluations:
+      Done .Main:
+        +: {CreatedBy: Bobi, CreatedAt: 20260729 T 215655, By: Bobi, Value: 4-High, Effort: 1-VeryLow, EvaluationPrecision: 3-Average}                        
+        ValueEvaluation:
+          Pros:
+            - enables the expected way of sorting enumeration members - so e.g. we want the "M" in between "XS" and "XL"
+            - easy to define - no need to e.g. define a custom sort function
+          Cons:
+            none
+          Evaluation:
+            Frequently needed as we use lots of enumerations
+            Basic functionality for sorting
+          Example:
+            if the e.g. Levels enum  did not contain number prefixes (e.g. 1-VeryLow, 2-Low), the report's sorting functionality would be useless currently
+        EffortEvaluation:
+          Steps:
+            parser support: 
+              Estimation: FewMins                
+            business logic: 
+              Estimation: TenMins
+            getting the value:
+              Estimation: FewMins
+              Details: provided that there's a functionality through ItemManager supporting this in a few steps        
+
         
 
 

@@ -193,22 +193,23 @@ namespace Barba.Types:
       string TestSteps:
       string ExpectedResult:
 
-  class Requirement:
+  class .Requirement:
     Inherits: StandardItem
     Properties:
-      string Details:
-      Requirement[] Parts:
+      string .Details:
+      Requirement[] .Parts:
         IsDefault: true
-      Requirement[] RequiresRequirement:
-      RequirementStatusEnum ReqStatus:
-      integer CurrentValue:
-      Area ForArea:
-      User[] By:
+      Requirement[] .RequiresRequirement:
+      RequirementStatusEnum .ReqStatus:      
+      Area .ForArea:
+      User[] .By:
         Summary:
           a listof users who (can) perform/contribute to the task. The first user is the responsible one.
-      Task[] Tasks:
+      Task[] .Tasks:
         Summary:
           the task(s) implementing this requirement (i.e. when they are done, the requirement should be fulfilled (~done))
+      
+      
     ##Methods:
     ##- void DoSomething(): =>SomeFunction()
     Notes:

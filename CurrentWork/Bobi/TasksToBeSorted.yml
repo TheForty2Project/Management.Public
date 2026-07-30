@@ -344,7 +344,7 @@
     EstTODO .Filtering upgrades:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 013323, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
       EstTODO .Filter for each location:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130534, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130534, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}    
       EstTODO .Typescript expression based evaluation baseline:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130550, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
         Details:

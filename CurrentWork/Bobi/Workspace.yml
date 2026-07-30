@@ -49,13 +49,12 @@
   Summary: Current Tasks  
   Type: QueryDescription
   Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->Tasks\<, -->CurrentWork\Bobi\TasksToBeSorted<]
-  Where: 
-    TaggedBy: [CSVTODO]
+  From: [-->Tasks\<, -->CurrentWork\Bobi\TasksToBeSorted<, -->Tasks\<]
+  Where:     
     ItemTypes: [Task, Bug]
     SkipUnder: [-->Tasks\Archive\<]
   OutputFile: Reports\CurrentTasks.csv
-  BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
+  BehaviorWhenDeletingRows: RowDeletingBehavior.CommentOut
   AddSyncResultColumn: true
 
 .CurrentTasks_Sandbox:

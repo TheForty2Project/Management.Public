@@ -967,7 +967,12 @@ InDev .Proper escaping in Summary part of F2Links:
     - both link generation and following
   Workspace:
     - F2Links class created which parses properly escaped Summary links
-
+Drafting .QueryDescription based report generation enhancements:
+  Id: ReportEnhancements
+  +: {CreatedBy: Bobi, CreatedAt: 20260729 T 023911, By: Bobi}
+  Drafting .Filtering:
+    
+  
         
         
 

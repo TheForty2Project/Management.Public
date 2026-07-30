@@ -1,9 +1,9 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
 .Algorithm of discussions:  
-  +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}      
+  +: {Id: AlgOfDiscussions, CreatedBy: Bobi, CreatedAt: 20260502 T 134056, By: Bobi, Tags: , Estimation: 180, RemTime: 180}      
   InProgress .Decide:_ approach and details:    
-    +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+    +: {Id: DecideApproach, CreatedBy: Bobi, CreatedAt: 20260502 T 143621, By: Bobi, Tags: , Estimation: 120, RemTime: 120}
     Details:      
       - Should it be just a flowchart?
       - Include:
@@ -109,10 +109,10 @@
       - nevertheless, fill in the details in both, focusing on introducing what we do and that we're looking for partners/investors
 
   Done .F2ToolsExtension:_ Add support for Item to parse itself from a yaml map:
-    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031410, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031410, By: Bobi, Tags: , Estimation:, RemTime:}
 
   TODO .QueryDescription:_ Add "OnlyItemsWithHeader"-like property to the Where part of the query:
-    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 153350, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 153350, By: Bobi, Tags: , Estimation:, RemTime:}
 
   Done .Headers support in Items:
 
@@ -142,7 +142,7 @@
 .TasksToBeSorted20260702:    
   Done .Work on the marketing things:
     Done .Collect what we want to do before we post:
-      +: {CreatedBy: Bobi, CreatedAt: 20260705, By: [Bobi, Hana], Tags: [CSVTODO]}
+      +: {CreatedBy: Bobi, CreatedAt: 20260705, By: [Bobi, Hana], Tags: }
       Workspace:
         Points:
         - Update the site? That converter-feature?
@@ -251,23 +251,23 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10}
         Result: https://chatgpt.com/share/6a68f66b-aeb4-83eb-9790-5cafe1d3e21c
 
-      TODO .Implement:
+      NEXT .Implement animation:
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
   Done .CommitAndSync:
-    +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+    +: {CreatedBy: Bobi, CreatedAt: 20260630 T 185837, By: Bobi, Tags: , Estimation: 10, RemTime: 10}
   Done .F2Link generation fix:
-    +: {CreatedBy: Bobi, CreatedAt: 20260625 T 210256, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260625 T 210256, By: Bobi, Tags: , Estimation:, RemTime:}
   Done .Outputchannel to be created at extension start:
-    +: {CreatedBy: Bobi, CreatedAt: 20260625 T 210615, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260625 T 210615, By: Bobi, Tags: , Estimation:, RemTime:}
   Done .Clean up File, Folder, etc.:
-    +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024358, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024358, By: Bobi, Tags: , Estimation:, RemTime:}
     Details:
       - If the filename is multi word then goes into the summary of the Item:
       - If it's Id string => Id
   TODO .Ensure that yaml map entries keep their order after a parse and emit roundtrip:
-    +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: , Estimation:, RemTime:}
   InProgress .Introduce itemmanager and manage items through it:
-    +: {CreatedBy: Bobi, CreatedAt: 20260702 T 004907, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+    +: {CreatedBy: Bobi, CreatedAt: 20260702 T 004907, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
     Details:
       - move current functionalities from F2YamlWorkspaceItem as well - e.g. parsing
       - to solve the overlapping "from" problem
@@ -305,50 +305,53 @@
     CancelReason: 
       - I think importing from an F2YamlWorkspaceItem (if necessary) is enough, such as for a QueryDescription
   Done .OrderBy:
-    +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}    
+    +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: , Estimation: 30, RemTime: 30}    
   EstTODO .CSV Remainings:
     Done .Handling of overlapping froms:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
       Details:
         If a "From" entry contains a link which overlaps with the other ensure that only one row is generated.
       ImplPlan:
         - Use ItemManager for this shit.
     Done .yml, yaml in F2Links:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013636, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013636, By: Bobi, Tags: , Estimation: 15, RemTime: 15}
     Done .CSV header:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: , Estimation: 15, RemTime: 15}
       Done .Summary line:
         +: {CreatedBy: Bobi, CreatedAt: 20260713 T 154918, By: Bobi}
+    EstTODO .Automatic aligning of CSV columns:
+      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [F2Tools, Dev], Estimation: , RemTime: , }
+      
     EstTODO .WriteBack:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: [CSVTODO], Estimation: 180, RemTime: 180}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: , Estimation: 180, RemTime: 180}
       Details:
         -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<:      
     EstTODO .Update:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30} 
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: , Estimation: 30, RemTime: 30} 
     EstTODO .RowDeletingBehavior:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 10}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: , Estimation: 10, RemTime: 10}
     EstTODO .CreateMissingItems:
-      +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: , Estimation: 20, RemTime: 20}
     Done .Where finish:
       Done .Engine:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: , Estimation: 15, RemTime: 0}
       Done .SkipUnder:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 30, RemTime: 0}
         DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Introduce itemmanager and manage items through it"<
       Done .Tags:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 15, RemTime: 0}
       Done .Type:      
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 10, RemTime: 0}
       Done .Leaves only:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130109, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130109, By: Bobi, Tags: , Estimation: 20, RemTime: 0}
       Done .SkipFoldersAndFiles:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130142, By: Bobi, Tags: [CSVTODO], Estimation: 10, RemTime: 0}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130142, By: Bobi, Tags: , Estimation: 10, RemTime: 0}
     EstTODO .Filtering upgrades:
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 013323, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 013323, By: Bobi, Tags: , Estimation:, RemTime:}
       EstTODO .Filter for each location:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130534, By: Bobi, Tags: [CSVTODO], Estimation: 40, RemTime: 40}    
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130534, By: Bobi, Tags: , Estimation: 40, RemTime: 40}    
       EstTODO .Typescript expression based evaluation baseline:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130550, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 120}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 130550, By: Bobi, Tags: , Estimation: 120, RemTime: 120}
         Details:
           - User can enter a TypeScript expression into one of the filter properties (let's call it "MatchesExpression")
           - We generate a line only from those which match this + the others as well
@@ -360,20 +363,20 @@
 
   .Items:
     EstTODO .F2Link as key:
-      +: {CreatedBy: Bobi, CreatedAt: 20260702 T 222419, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      +: {CreatedBy: Bobi, CreatedAt: 20260702 T 222419, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
       Details:
         - in ItemLists we should store F2Links as well
       ImplPlan:
         - we supposedly just store it that way + when retrieving, handling this case as well.
         - no use cases exist at the moment which expect 
     TODO .Optimize parsing:
-      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi, Tags: [CSVTODO], Estimation: , RemTime: }
+      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi, Tags: , Estimation: , RemTime: }
       Details:
         Takes a full second to load the current Management.Public workspace; will be slow.
     TODO .Implement class description support:
       +: {CreatedBy: Bobi, CreatedAt: 20260702 T 005321, By: Bobi}
       EstTODO .Implement ClassDescription concept:
-        +: {CreatedBy: Bobi, CreatedAt: 20260702 T 223400, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260702 T 223400, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
         Details:
           - as an Item
           - same way as in the big brother
@@ -381,14 +384,14 @@
         ImplPlan:
           Ask codex to do it, but with a plan first; make it copy the implementation in the C# version.
       NEXT .Parsing of syntax-sugar notations:      
-        +: {CreatedBy: Bobi, CreatedAt: 20260702 T 221728, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260702 T 221728, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
         DependsOn: -->.."Implement ClassDescription concept"<
         TODO .enum:
         TODO .class:  
         ImplPlan:
           Ask codex to do it; write the specification first.
       EstTODO .Implement ClassDescriptions for built-in Items:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 000155, By: Bobi, Tags: [CSVTODO], Estimation: 45, RemTime: 45}
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 000155, By: Bobi, Tags: , Estimation: 45, RemTime: 45}
         Details:
           - For Folder, QueryDescription, etc
         ImplPlan:
@@ -397,7 +400,7 @@
           - \"Manual" or Codex based, but expecting trouble.
       TODO .F2YamlWorkspaceItem upgrades:
         EstTODO .Parser to handle TypeId/ClassDescription:
-          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 000241, By: Bobi, Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 000241, By: Bobi, Tags: , Estimation: 20, RemTime: 20}
           Details:
             - parser to find and assign the ClassDescription based on TypeId in the Items
             - 2(3?) notations for TypeId:
@@ -407,27 +410,32 @@
             - \"Type" should be tied to TypeId:
               - if not found, ClassDesc should be null              
         EstTODO .Parsing and emitting of scalar types:
-          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004156, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004156, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
           EstTODO .Store enumeration members as long:
-            +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004209, By: Bobi, Tags: [CSVTODO], Estimation: 15, RemTime: 15}
+            +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004209, By: Bobi, Tags: , Estimation: 15, RemTime: 15}
           EstTODO .Duration support:
-            +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004221, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+            +: {CreatedBy: Bobi, CreatedAt: 20260703 T 004221, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
             Details:
               - store the duration in year, m, d, etc. fields - so do not convert it to just a length of time
               - parse the suffixes - so h, m, etc.            
             ImplPlan: codex
         EstTODO .IsValid update: 
-          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013346, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
+          +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013346, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
           Details:
             - Valid if matches with the spec in the classDescription
     TODO .DefaultTypes support through Folder:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013359, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 30}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013359, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
       Details:
         Store and use the default types for folder
     EstTODO .Yaml emitting:
       Done .Baseline:
       Done .tostring indentation:
-        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013156, By: Bobi, Tags: [CSVTODO], Estimation: 30, RemTime: 0}      
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013156, By: Bobi, Tags: [], Estimation: 30, RemTime: 0}      
+      TODO .Finish yaml emitting:
+        +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140719, By: Bobi, Tags: [F2Tools, Dev], Estimation: 120, RemTime: 120, Importance: 3-Average}
+        Details:
+          - it should be able to do parse-emit roundtrips in a way that the original and resulting strings are the same
+          - don't overspend
     TODO .Programmability:
       +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013000, By: Bobi, Tags: [], Estimation:, RemTime:}      
       TODO .Engine and baseline:
@@ -439,7 +447,7 @@
       TODO .Expression handling in Queries:
         +: {CreatedBy: Bobi, CreatedAt: 20260713 T 013009, By: Bobi, Tags: [], Estimation:, RemTime:}
         TODO .In From:
-          +: {CreatedBy: Bobi, CreatedAt: 20260713 T 010901, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+          +: {CreatedBy: Bobi, CreatedAt: 20260713 T 010901, By: Bobi, Tags: [], Estimation:, RemTime:}
           Details:
             - put into a function which returns a string and accepts 
             - referencing through variables declared from the "From" property identifer parts          
@@ -460,17 +468,26 @@
             See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"<
   .Bugs:
     Fixed .During F2Link generation the first part of the file path is missing:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
     Accepted .If a map key is a number, it can't parse it as an Id:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
     Rejected .Error:_ "This command only works with YAML files":
-      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [Dev], Estimation: 20, RemTime: 20}
+      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20}
       Details:
         - when starting a timer on a task, even though it starts it, still, displays the message in the title
       Comments:
         - Bobi: non reproducible
     Fixed .After a command - e.g. start timer on task - the cursor goes to the output window:
-      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [Dev], Estimation: 10, RemTime: 10}
+      +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10}
+    Accepted .Report generation is messed up:
+      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140422, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+      Version: 3.1.0
+      Details:
+        - if there is a TaggedBy filter - does not work, no lines
+        - if there's none - emits all kind of (not too...) funny things as CSV rows
+    Accepted .Caching does not work in ItemManager:
+      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [F2Tools, Dev], Estimation: , RemTime: , Importance: 3-Average}      
+      Version: 3.1.0
 
   .Admin:
     InProgress .Create a daily process now that we have queries:

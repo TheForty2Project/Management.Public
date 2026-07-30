@@ -10,7 +10,7 @@
     - -->Tasks<
   OutputFile: Reports\TaskListTasks.csv
   OrderBy: [Status desc, Importance desc, By, RemTime]
-  Where: 
+  Where:     
     TaggedBy: [TL]
     LeavesOnly: false
     SkipFoldersAndFiles: false

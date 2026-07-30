@@ -311,6 +311,8 @@ Id: Misc
         - sickle cell trait effects      
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
+  EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
+  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
   .Schedules:
     Done .Schedule Health Analysis (Live):
       +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}

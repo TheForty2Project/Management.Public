@@ -179,7 +179,7 @@
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       InProgress .Work out the script/screenplay:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
         Details:
           - a textual description about the animation content
         Workspace:
@@ -486,7 +486,7 @@
         - if there is a TaggedBy filter - does not work, no lines
         - if there's none - emits all kind of (not too...) funny things as CSV rows
     Accepted .Caching does not work in ItemManager:
-      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [F2Tools, Dev], Estimation: , RemTime: , Importance: 3-Average}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}      
       Version: 3.1.0
 
   .Admin:
@@ -564,8 +564,15 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
+    Done .Book badminton court:
+      +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 3-Average}
+    Done .Schedule meetup event:
+      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+      
+     
+      
     Done .Hana to experiment with the query:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL], Estimation: , RemTime: }
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: }
       Details:
         - example is in Bobi's workspace (the before1stposttasks one)
         - filter to "TL" tag        

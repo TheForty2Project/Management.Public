@@ -1,15 +1,12 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
-.DecisionAppScribbles:
-  Workspace:
-    ideas:
-      flowchart:
-      or app:
-        console:
-          client-server
-        Web:
-    [Alma]:
-    {Blma: Clma}: gecike
+
+.Test:
+  Type: QueryDescription
+  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  From: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest.yml<]
+  OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
+
 
 .CurrentTasksMinimal:
   Type: QueryDescription

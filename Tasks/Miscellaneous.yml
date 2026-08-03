@@ -259,7 +259,7 @@ Id: Misc
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
-      NEXT .Showcase:
+      NEXT .Showcase health log:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 3-Average}
       NEXT .Action the feedback items:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana], Tags: [TL, Private, Health]}
@@ -270,15 +270,21 @@ Id: Misc
       - One vegeterian day for Hana
       - Take into consideration the time of month for menstrual cycle
       - Focus on Robis Health
-  OnGoing .Schedule and estimate activity for a week:
+  EstTODO .Analysis of the month of June and July:
+    +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}      
+    Details:
+      - Analysis of the month of June and July:
+        - is there a correlation in between number of calories burnt and bad mood the next day?
+        - if intense runs - knee pain next day?
+        - weight reduction - did it help in muscle pain?
+  OnGoing .Schedule and estimate activity for the next 10 days:
     +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana, Tags: [TL], Estimation: , RemTime: }
     Details:
       - Activity should be based on the physical symptoms
-      - Analysis of the month of June and July 
       - Physical tasks that has to be done each week:
         - Mandatory:
           - Hana:
-            - Evening walk 
+            - Evening walk
             - 3x Run
             - 3x strength
             - Daily mobility
@@ -295,10 +301,12 @@ Id: Misc
           - Bikram once a week
           - Badminton after 10x running
           - HIIT only on follicular days for now 
+      
         - Notes:
           - TODO .Have Activity week meeting schedule with Bobi:
           - Focus on oncreasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
-          - 
+    EstTODO .Activity schedule 03-13 Aug:
+      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
   Done .Research kidney-saving protocol:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: , RemTime: , Importance: 6-Extreme}
     Details:
@@ -313,16 +321,16 @@ Id: Misc
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
-  
-  .Schedules:
-    Done .Schedule Health Analysis (Live):
-      +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [CSVTODO], Estimation: 40m, RemTime: 40m}
-      Details:
-        Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
-      Results: -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<
+
+.Schedules:
+  Done .Schedule Health Analysis (Live):
+    +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [], Estimation: 40m, RemTime: 40m}
+    Details:
+      Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
+    Results: -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<
 
 InProgress .Create incentivisation system baseline:
-    +: {CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [], Estimation:, RemTime:}
     Workspace:
       First idea:
         # - points 1p = 1 "effectively spent minute on important task":

@@ -179,7 +179,7 @@
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       InProgress .Work out the script/screenplay:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
         Details:
           - a textual description about the animation content
         Workspace:
@@ -564,10 +564,10 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
-    EstTODO .Book badminton court:
+    Done .Book badminton court:
       +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 3-Average}
-    InProgress .Schedule meetup event:
-      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    Done .Schedule meetup event:
+      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
       
      
       

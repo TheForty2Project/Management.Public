@@ -41,7 +41,7 @@ Done .Process the below into outreach ideas:
     +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TL], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
 EstTODO .collect the lab results into one folder:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health], Estimation: 40, RemTime: 40, Importance: 2-Low}
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 40, Importance: 2-Low}
   Details:
     - Into the management.HanaBobi repo
   Comments:
@@ -49,6 +49,12 @@ EstTODO .collect the lab results into one folder:
 
 EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+  
+EstTODO .Collect money transferred to Baba, Tuta, Hiba:
+  +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
+  Details:
+    - What we talked about Friday (20260731)
+    - How much money Hiba got from mama and how much you got - including university payment, drug rehab, anythingelse
   
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

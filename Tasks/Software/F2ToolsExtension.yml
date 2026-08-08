@@ -785,6 +785,8 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V2.0.26:
       +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
+    InProgress .V3.0.1:
+      Done .Package and publish:
 
 .Bugs:
 

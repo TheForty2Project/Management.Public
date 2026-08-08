@@ -1,6 +1,19 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-Done .TagTest:
+Done .TagTestd:
   Tags: [TL]
   Summary: Yeeeah
   
+Done .TagTest2:
+  Tags: [TL]
+  Summary: Yeeeah
+
+Done .TagTest3:
+  Tags: [TL]
+  Summary: Yeeeah
+
+.Test:
+  Type: QueryDescription
+  Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  From: [-->ReportGenTest.yml<]
+  OutputFile: TestReport.csv

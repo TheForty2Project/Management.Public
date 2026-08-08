@@ -3,9 +3,11 @@
 
 .Test:
   Type: QueryDescription
-  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
   From: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest.yml<]
   OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
+  Where: 
+    TaggedBy: [Before1stPost]
 
 
 .CurrentTasksMinimal:
@@ -14,7 +16,7 @@
   From: [-->Tasks\<]
   OutputFile: CurrentWork\Bobi\CurrentTasks.csv
 
-.Before1stPostTasks:
+.Before1stpPostTasks:
   Type: QueryDescription
   Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Apple, DependsOn]
   From: 

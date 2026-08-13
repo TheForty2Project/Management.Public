@@ -7,7 +7,7 @@
   From: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest.yml<]
   OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
   Where: 
-    TaggedBy: [Before1stPost]
+    TaggedBy: [TL]
 
 
 .CurrentTasksMinimal:
@@ -434,9 +434,75 @@ Schedule20260728:
         - Banana for food or some rice balls with turkey
       - Prepareation for the next day and analysis
 
+ScheduleSwitzerland:
+  Workspace:    
+    - Hana is coming back on the 21st - evening
+    - Streaming should be tried...
+    - Schedule for each day for Robi:
+      - Wake up: 10:30 latest
+      - Robi to message Hana that he woke up
+      - ..12:30: morning routine + Airbnb if necessary
+      - 12:30 - 14:00: Work
+      - 14:00 - 15:00: Lunch (+ prep + cleanup)
+      - IF (gym with Tomi at 18:30):
+        - 15:00-15:30: walk/outside chores requiring walking
+        - -17:30: work
+        - 17:30: light dinner(ish)
+        - 18:30-19:45: gym
+      - ELSE IF (me only gym):
+        - 15:00-16:30: gym
+        - 16:30 - 20:00: work + breaks (including eating)
+      - ELSE IF (badminton):
+        - depends.
+      - 20:30-21:30:
+        - Work with Hana (see below)
+      - 21:30:
+        - \"Free" time - either play or catch up with work; do programming, etc.
+    - Schedule for each day for Hana:      
+      - 20:30-21:30 (or we'll see, but around): 
+          What: 
+            - prepare for replst
+            - replst
+            - work together (do next tasks!)
+  TODO .Put supplements in:
+    Details:
+      Supplements:
+      - Done b-complex
+      - Done nac
+      - Done l-citruline
+      - Done taurine
+      - Done ashwaganda
+      - Done kratom
+      -  ibuprofen
+      - Done nose spray
+      Others:
+      - Done lighter
+      - Done joint
+      - Done garmin cable
+      - passport
+      - passport
+      - passport
+      - passport
+      - Done passport
+  TODO .Buy food:
+    Details:
+      - Done canned fish
+      - libamajkrem      
+  EstTODO .Search for and then if not found, buy Garmin charging cable:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145915, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 6-Extreme}
+  TODO .Agree with Tomi on the gym times:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
+  TODO .Schedule some badminton:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}    
+  TODO .Prepare the ds and lock them:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 140116, By: Bobi}
+  TODO .Hana to check Anyu's notebook:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 140154, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    Details:
+      - sync - do you have everything?
+      - Change something, commit and sync - did it work?
+    
+    
 
-Work: 
-  - install the SIX
-  - Regenerate the queries ( dont forget to time it in standup)
-  - Review each queries
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

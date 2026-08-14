@@ -970,11 +970,16 @@ InDev .Proper escaping in Summary part of F2Links:
 Drafting .QueryDescription based report generation enhancements:
   Id: ReportEnhancements
   +: {CreatedBy: Bobi, CreatedAt: 20260729 T 023911, By: Bobi}
+  Draft .Automatic aligning of CSV columns:
+    +: {CreatedBy: Bobi, CreatedAt: 20260811 T 221905, By: Bobi}
+    Details:
+      - Same functionality as "Align" in RainbowCSV
+      - boolean AlignColumns property of QueryDescription
   Drafting .Filter for list containment:
-    +: {CreatedBy: Bobi, CreatedAt: 20260729 T 221954, By: Bobi, CurrentValue: 4-High}    
+    +: {CreatedBy: Bobi, CreatedAt: 20260729 T 221954, By: Bobi, CurrentValue: 4-High}
     Details: | 
-      e.g. if "Done MyTask: {Tags: [Tag1, Tag2]}" then one can specify that 
-  Drafting .Sorting by value or string:
+      - e.g. if "Done MyTask: {Tags: [Tag1, Tag2]}" then one can say that Tags should contain "Tag1", etc.
+  Drafting .Sorting by value or string:  
     +: {CreatedBy: Bobi, CreatedAt: 20260729 T 213418, By: Bobi, Effort: 1-VeryLow, CurrentValue: 4-High}
     Details:      
       - on top of the "asc/desc" suffix, one can add a "byVal/asString" suffix as well
@@ -1008,7 +1013,143 @@ Drafting .QueryDescription based report generation enhancements:
             getting the value:
               Estimation: FewMins
               Details: provided that there's a functionality through ItemManager supporting this in a few steps        
-
+  Drafting .Typescript expression based evaluation baseline:
+    +: {CreatedBy: Bobi, CreatedAt: 20260810 T 193306, By: Bobi}    
+    Details:
+      - User can enter a TypeScript expression into one of the filter properties (let's call it "MatchesExpression")
+      - We generate a line only from those which match this + the others as well
+  Drafting .Filter for each location:
+    +: {CreatedBy: Bobi, CreatedAt: 20260811 T 191647, By: Bobi}
+    Details:
+      - One can define a filter - a WherePartOfQuery - for each location in the "From" property
+      - Syntax tbd  
+  Draft .GroupBy and basic functions:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 012738, By: Bobi}
+    ReqReq: 
+    Details:
+      - Similar to SQL GroupBy
+      - Syntax:
+          MyQD:
+            Type: QueryDescription
+            GroupBy: [Status, Importance]
+    Draft .Engine:
+      +: {CreatedBy: Bobi, CreatedAt: 20260813 T 022329, By: Bobi}
+    Draft .Functions:
+      +: {CreatedBy: Bobi, CreatedAt: 20260813 T 022503, By: Bobi}
+      Details:
+        Functions which take the result of the grouping operation as source
+      Draft .Sum:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 022705, By: Bobi}
+        Details:
+          Signature: Sum(propertyId:_ IdString):_ number 
+          Returns: the sum of the values of the given properties
+          Notes:
+            - if the value is not a number or empty, it is skipped (or, 0 is used insted as value)
+          UseCases:
+            - for listing the sum of the estimation of the tasks with a given importance
+      Draft .Count:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 022705, By: Bobi}
+        Details:
+          Signature: Count():_ number 
+          Returns: the number of records
+          UseCases:
+            - for listing the number of tasks with a given importance
+      Draft .Avg:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 022705, By: Bobi}
+        Details:
+          Signature: Avg(propertyId:_ IdString):_ number 
+          Returns: the average of the values of the given properties
+          Notes:
+            - if the value is not a number or empty, it is skipped
+          UseCases:
+            - for listing the average spent hours of the tasks with a given estimated size category
+  Draft .Basic functions support in Select:
+    Id: BasicSelectFunctions
+    +: {CreatedBy: Bobi, CreatedAt: 20260811 T 214141, By: Bobi}
+    Details:
+      One can use - basic - functions in the "Select" property of the QueryDescription in place of the property Id (so before the - optional - ""as" <ColumnName>" part)
+    Draft .Purpose built engine:
+      Id: Engine
+      +: {CreatedBy: Bobi, CreatedAt: 20260813 T 015058, By: Bobi}
+      Details:
+        - Engine to provide just enough support for the first, minimal set of functions
+        - Supports:
+          - Recognition of the pattern - i.e. the parenthesis
+          - Function identification along with function description support (how many parameters, types):
+            - basic, purpose built
+          - Parameter identification and verification
+          - Execution
+    Draft .Function implementations:
+      Id: Functions
+      Draft .ThisOrAncestor:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 015229, By: Bobi}
+        Details:
+          Signature: ThisOrAncestor(propertyId:_ IdString):_ F2YamlWorkspaceItemPropertyValue
+          Returns: the value of the first non-empty property having the given id, walking up through the parents of the Items, starting with the current
+          UseCases:
+            - if one wants to see the value in the Priority property of the parent for children Tasks not having their own Priority property set      
+      Draft .SumChildren:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 015953, By: Bobi}      
+        Details:
+          Signature: SumChildren(propertyId:_ IdString, includeCurrent:_ bool, recursive:_ bool):_ number 
+          Returns: the sum of the values of the given properties of the child items
+          Parameters:
+            includeCurrent: if true, includes the value of the property in the current item in the sum
+            recursive: if true, includes the children of the children recursively in the sum
+          Notes:
+            - if the value is not a number or empty, it is skipped (or, 0 is used insted as value)
+          UseCases:
+            - for displaying the total estimation of the child tasks next to each ancestor
+      Draft .IdHiearchy:
+        +: {CreatedBy: Bobi, CreatedAt: 20260813 T 021327, By: Bobi}
+        Details:
+          Signature: IdHierarchy(depth:_ number):_ string
+          Returns: 
+            - n-part Id hierarchy - like for n=2 Parent2Id.Parent1Id.CurrentId
+            - parts are generated the same way as for an F2Link (using Summary or Type if there's no Id property + numbering in case of conflicts)
+          Parameters:
+            - depth: how many elements the link should contain - so how many ancestor Ids
+          Notes:          
+          UseCases:
+            - for having a meaningful short identifier for child Items, e.g. :
+                Item structure:
+                  .MyFunctionality:
+                    .Implement:
+                Function return value "Implement" in case of "IdHierarchy(1)": MyFunctionality.Implement
+      
+Draft .Advanced time tracking:
+  +: {CreatedBy: Bobi, CreatedAt: 20260811 T 191845, By: Bobi}
+  Draft .Alerts:
+    +: {CreatedBy: Bobi, CreatedAt: 20260811 T 214157, By: Bobi}    
+    Details:
+      - at predefined times an alert would be displayed after issuing the "Start timer on task" command, calculated from the value in the "Estimation" field
+      - there is a settings:
+          Name: AlertAfter
+          Accepting: 
+            list of strings; each:
+              either a percentage: 
+                Meaning: after this percentage of the period of time in the Estimation property passed, display an alert (that it has passed). 
+                Notes: larger, than 100% values are also allowed.
+                BNF: |
+                  <Digit>+ "%"
+                e.g.: 50%, 95%
+              or minutes: 
+                Meaning: 
+                  If positive:
+                    after this amount of time passed, display an alert (that it has passed)
+                  If negative:
+                    after this amount of time is left from the period of time in the Estimation property, display an alert
+                BNF: |
+                  "-"? <Digit>+ "m"
+                e.g.: 12m, -10m
+        
+  Draft .Automatic stop:
+    +: {CreatedBy: Bobi, CreatedAt: 20260811 T 214205, By: Bobi}
+    Details:
+      If there is no file change detected in the workspace for the predefined minutes, stop the timer after the last interaction + 1 minute.
+    
+  
+    
         
 
 

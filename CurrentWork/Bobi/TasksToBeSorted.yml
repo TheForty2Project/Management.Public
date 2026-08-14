@@ -293,6 +293,10 @@
     Done .Create file structure:
     TODO .Move parsing + emitting:
     Done .Move getting F2YamlItems:
+  Done .Implement caching:
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 134933, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 0, Importance: 3-Average}
+    Details:
+      fileSystemWatcher + way to signal that a file should be refreshed + engine to refresh
   Cancelled .Return the proper typescript F2YamlWorkspaceItem descendant during parsing:
     +: {CreatedBy: Bobi, CreatedAt: 20260718 T 023934, By: Bobi, Tags: [TL, Dev], Estimation: , RemTime: }
     Details:
@@ -317,26 +321,30 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: , Estimation: 15, RemTime: 15}
       Done .Summary line:
         +: {CreatedBy: Bobi, CreatedAt: 20260713 T 154918, By: Bobi}
-    EstTODO .Automatic aligning of CSV columns:
-      +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [F2Tools, Dev], Estimation: , RemTime: , }
-      
-    EstTODO .WriteBack:
+    EstTODO .QueryDescription parsing from CSV header:
+      Id: CSVHeaderParsing
+      +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162718, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}      
+    EstTODO .Write Back:
+      Id: WriteBack
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: , Estimation: 180, RemTime: 180}
       Details:
         -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<:      
     EstTODO .Update:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi, Tags: , Estimation: 30, RemTime: 30} 
-    EstTODO .RowDeletingBehavior:
-      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: , Estimation: 10, RemTime: 10}
-    EstTODO .CreateMissingItems:
-      +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: , Estimation: 20, RemTime: 20}
+      Id: Update
+      +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi} 
+      EstTODO .Engine:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 163142, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 3-Average}        
+      EstTODO .RowDeletingBehavior:
+        +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 3-Average}
+      EstTODO .CreateMissingItems:
+        +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Done .Where finish:
       Done .Engine:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 131445, By: Bobi, Tags: , Estimation: 15, RemTime: 0}
       Done .SkipUnder:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 30, RemTime: 0}
         DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Introduce itemmanager and manage items through it"<
-      Done .Tags:
+      Done .Tags: 
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 15, RemTime: 0}
       Done .Type:      
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014516, By: Bobi, Tags: , Estimation: 10, RemTime: 0}
@@ -357,20 +365,36 @@
           - We are "high trust" at the moment, so no worries about exposing too much functionality
           - Try it with the "low trust" method first though - see https://chatgpt.com/s/t_6a479a97f7cc8191af2a4966b8bfb67e
           - Timebox it to the estimated
-          
+    .Updgrades:
+      EstTODO .Automatic aligning of CSV columns:      
+        +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      EstTODO .IDHIERARCHY(n) as column value:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162617, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 4-High}
+        Details:
 
   .Items:
-    EstTODO .F2Link as key:
-      +: {CreatedBy: Bobi, CreatedAt: 20260702 T 222419, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
+    Done .F2Link as key:
+      +: {CreatedBy: Bobi, CreatedAt: 20260702 T 222419, By: Bobi, Tags: , Estimation: 30, RemTime: 0}
       Details:
         - in ItemLists we should store F2Links as well
       ImplPlan:
-        - we supposedly just store it that way + when retrieving, handling this case as well.
-        - no use cases exist at the moment which expect 
-    TODO .Optimize parsing:
-      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi, Tags: , Estimation: , RemTime: }
+        - we supposedly just store it that way + when retrieving, handling this case as well.        
+    EstTODO .Optimize parsing of the workspace:
+      Id: OptimiseParsing
+      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi}
       Details:
         Takes a full second to load the current Management.Public workspace; will be slow.
+      EstTODO .Exclude folders starting with a dot as a temporary measure:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161800, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 4-High}        
+      EstTODO .Introduce some config for ignore list:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161825, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 2-Low}        
+      NEXT .Measure speed after the folder exclusions:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161935, By: Bobi, Tags: [F2Tools, Dev], Estimation: 5, RemTime: 5, Importance: 3-Average}        
+      Blocked .Code optimisation first round - if necessary:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161835, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
+        DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items.."Optimize parsing of the workspace".."Measure speed after the folder exclusions"<
+        Details:
+          Only do it if required; probably not though.
     TODO .Implement class description support:
       +: {CreatedBy: Bobi, CreatedAt: 20260702 T 005321, By: Bobi}
       EstTODO .Implement ClassDescription concept:
@@ -429,7 +453,7 @@
       Done .Baseline:
       Done .tostring indentation:
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013156, By: Bobi, Tags: [], Estimation: 30, RemTime: 0}      
-      TODO .Finish yaml emitting:
+      EstTODO .Finish yaml emitting:
         +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140719, By: Bobi, Tags: [F2Tools, Dev], Estimation: 120, RemTime: 120, Importance: 3-Average}
         Details:
           - it should be able to do parse-emit roundtrips in a way that the original and resulting strings are the same
@@ -464,7 +488,6 @@
         TODO .Expression as value:
           Details:
             See at: -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Object model".."OOP - Basic level, including algorithmical data".."Item Programmability - Basic level".."Expression as a value"<
-  .Bugs:
   .Admin:
     InProgress .Create a daily process now that we have queries:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana]}

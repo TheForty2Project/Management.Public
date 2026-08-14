@@ -1,15 +1,16 @@
 #.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-08-07T00:30:42.975Z}
+#  +: {CreatedBy: undefined, CreatedAt: 2026-08-10T14:13:18.094Z}
 #  QueryDescriptionLink: -->\..Test<
 #  QueryDescription: 
 #    Type: QueryDescription
 #    Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-#    From: [-->ReportGenTest.yml\<]
-#    OutputFile: TestReport.csv
+#    From: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest.yml\<]
+#    OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
+#    Where: 
+#      TaggedBy: [TL]
 #  Log: 
-#    - Created at 2026-08-07T00:30:42.976Z; Added / Updated / Deleted: 4 / 0 / 0
+#    - Created at 2026-08-10T14:13:18.095Z; Added / Updated / Deleted: 3 / 0 / 0
 *,Tags,Estimation,Status,By,RemTime,IdLink,DependsOn
-,TL,,Done,,,-->ReportGenTest\..TagTestd<,
-,TL,,Done,,,-->ReportGenTest\..TagTest2<,
-,TL,,Done,,,-->ReportGenTest\..TagTest3<,
-,,,,,,-->ReportGenTest\..Test<,
+,TL,,Done,,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTestd<,
+,TL,,Done,,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest2<,
+,TL,,Done,,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest3<,

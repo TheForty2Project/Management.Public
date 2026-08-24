@@ -1,0 +1,82 @@
++: {Type: Folder, DefaultTypes: [Task, Folder]}
+
+Tasks20260824:  
+  EstTODO .Create baseline (daily/weekly) schedule as of 20260824:
+    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+    Details:
+      Include:        
+        Work:
+        - Bobi's 2 hours of coding        
+        - Our 2 hours of working together
+        - Include breaks - so every 45 mins 15 mins break?
+        - Airbnb and personal chores
+        Food and sleep:
+        - What time what food
+        - When to go to bed / wake up
+        Supplements schedule:          
+          Creatine
+          Glutamine
+          Iron for Hana
+        Movement:
+        - walks: 20000 steps - or Garming goals
+        - Aerobic: 3 / week
+        - Resistance: 4 / week
+        - Stretch:
+          - Maybe in the evening - when high? But 
+        - Games:
+          - Badminton
+          - Bouldering
+        Entertainment:
+        - ds:
+          - Velo
+          - W
+          - Kratom
+          - Coffee
+          - Exceptional - like c, m, etc. - maybe as a reward
+        - daily entertainment/relax:
+          - Games?
+          - Movies?
+          - Lego
+          - Massage        
+        - exceptional entertainment:
+          - trips
+          - anythingelse?
+          - parties (half ent/half "scary")      
+      Approach should be:
+        - create a rough schedule, keeping the "Include" part in mind:
+          - base it on what we have now
+        - create rules - what to do in what case, e.g. we're not feeling well (because of what reason) then how to change the schedule
+        - Go through the "Include" part and modify the schedule by taking each point into accout
+    EstTODO .Create rough schedule:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TL], Estimation: 15, RemTime: , Importance: 6-Extreme}
+      Details:
+        - Read the parent tasks's details!
+        - Base it on a schedule we created - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a schedule for Saturday"< maybe?
+    
+  .Medical:
+    EstTODO .Schedule Bobi's lipid panel:
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 4-High}    
+      Details:
+        - "Nagy rutin"
+        - + TSH
+        - anythingelseHanathinksof
+        - Confirm it with Bobi              
+    EstTODO .Find a doctor for Bobi's lipid shit:
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 4-High}
+    EstTODO .Schedule Hana's NagyRutin:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-Average}
+      Details:
+        - egfr most importantly
+        - anything else?
+        - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
+  EstTODO .Research psylocibin:
+    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    Details:
+      - How safe it is to buy the seeds or the plant      
+  EstTODO .Explore OBS filename prompt and implement if easy:
+    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 131813, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    Details:
+      Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6
+    
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

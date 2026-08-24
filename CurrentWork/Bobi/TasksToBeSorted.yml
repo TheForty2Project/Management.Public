@@ -129,16 +129,6 @@
       Time: 24:00
       What will be the streaming about: 
  
-.TESTING_DILITDIS:
-  .Almatype:
-    Tags: ["Alma", Blma]
-    Type: Almafa
-    Status: Buzi
-  TODO .TaggedBy:
-    Tags: ["Alma", Blma]
-  TODO .Gecike:
-    By: Testgeci    
-
 .TasksToBeSorted20260702:    
   Done .Work on the marketing things:
     Done .Collect what we want to do before we post:

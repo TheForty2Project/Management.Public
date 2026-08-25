@@ -305,6 +305,110 @@ Done .Create outreach plan:
           -->Tasks\PublicRelations\..Streaming..ScheduleNextPeriod.."Incrementally develop initial schedule"<:
           -->Tasks\PublicRelations\..Streaming..TwitchClips<:
           -->Tasks\Processes\..Outreach..TwitchStreaming<:
+  InProgress .Introductory plan for twitch platform:
+    +: {CreatedBy: Hana, CreatedAt: 20260811 T 193005, By: Hana, Tags: [TL], Estimation: 30 , RemTime:0 , Importance: 3-Average}
+    
+    Workspace:
+      Thought Dumbs:
+        - Introductory video about Bobi, Hana & TF2P:
+          - What we are building:
+            - System that manage us and the project
+            - To be developed to decision automation
+            - to solve complicated scenarios
+            - to reach our extreme goals
+            - show the process ( our work ) to public
+            - contributers join
+            - management and contributers cooperates, developing the system
+        - Report file for each milestones should be placed in twitch some how for the viewer to see the tasks that can be done:
+        - tasks can be scheduled at Hanas calendar both on twitch and emails:
+        - Work hours on twitch based on the estimation of the task:
+          - we set reminders on how long we were in a task. eg. 25 mins has been passed:
+            Requiremens:
+              - Trial on google calendar for a week then apply it to the twitch
+      ChatGpt refinemnt:
+        EstTODO .Introductory plan for Twitch platform:
+          - Goal:
+              - Use Twitch as one possible way to make TF2P development public.
+              - Work live while completing real TF2P tasks.
+              - Allow viewers to see what is being worked on, what is finished,
+                and what can be worked on next.
+          - Introductory video:
+              - Introduce Hana, Robi and TF2P.
+              - Explain what we are building:
+                  - A system that helps manage ourselves and the project.
+                  - A system that can gradually support decision automation.
+                  - A way to handle complicated scenarios.
+                  - A way to track and execute goals.
+                  - A system where contributors can cooperate in developing TF2P.
+              - Explain why we are working publicly:
+                  - Show the actual development process.
+                  - Make progress transparent.
+                  - Allow interested people to understand the project before joining.
+                  - Give potential contributors a way to discover tasks they can help with.
+          - Twitch live-work concept:
+              - Stream actual TF2P work sessions.
+              - Select tasks from the current report / milestone file.
+              - Work on the selected task during the stream.
+              - Show relevant task information to viewers:
+                  - Task name
+                  - Description
+                  - Estimated time
+                  - Current status
+                  - Milestone / report it belongs to
+              - Update the task/report as work progresses.
+              - Mark completed tasks publicly.
+          - Public task/report view:
+              - Find a way to expose the current milestone/report file from the Twitch page.
+              - Viewers should be able to see:
+                  - Current milestone
+                  - Tasks available
+                  - Tasks in progress
+                  - Completed tasks
+                  - Estimated work
+              - Investigate Twitch panels, links, extensions, or an external TF2P page
+                linked from the Twitch profile.
+          - Work-session structure:
+              - Before stream:
+                  - Choose task(s) from the report.
+                  - Define expected work duration.
+              - During stream:
+                  - Start timer / work session.
+                  - Work on the task.
+                  - Track elapsed time.
+                  - Explain decisions when useful.
+              - After task/session:
+                  - Update task status.
+                  - Update actual work time.
+                  - Record relevant result / report.
+                  - Select the next task.
+          - Time management:
+              - Base work sessions on task estimates.
+              - Example:
+                  - Estimated task: 30 min
+                  - Reminder after 25 min
+                  - Review whether to continue, stop, or update the estimate.
+              - Avoid reminders that interrupt deep work unnecessarily.
+          - Scheduling:
+              - TF2P live-work sessions should appear in Hana's calendar.
+              - Calendar entry may include:
+                  - Twitch work session
+                  - Planned task / milestone
+                  - Estimated duration
+              - Test the workflow with Google Calendar for one week.
+              - After the trial, decide whether/how to integrate the schedule
+                more directly with Twitch.
+          - Trial:
+            - Run the system manually for one week.
+            - Test:
+              - Calendar scheduling
+              - Twitch streaming workflow
+              - Public task/report visibility
+              - Task timing
+              - Updating reports while live
+            - After one week:
+              - Review what worked.
+              - Identify unnecessary manual steps.
+              - Decide what TF2P should automate.
 
 
 OnGoing .Posts about programming buddies:  

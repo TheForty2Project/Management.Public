@@ -1,5 +1,5 @@
 #.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-08-25T12:35:23.047Z}
+#  +: {CreatedBy: undefined, CreatedAt: 2026-08-25T18:11:08.558Z}
 #  QueryDescriptionLink: -->\..TaskListTasks<
 #  QueryDescription: 
 #    Type: QueryDescription
@@ -16,7 +16,7 @@
 #      LeavesOnly: false
 #      SkipFoldersAndFiles: false
 #  Log: 
-#    - Created at 2026-08-25T12:35:23.047Z; Added / Updated / Deleted: 79 / 0 / 0
+#    - Created at 2026-08-25T18:11:08.558Z; Added / Updated / Deleted: 79 / 0 / 0
 Status    , Importance, Estimation, By          , RemTime, Summary                                                                             , Tags                 , IdLink                                                                                                                                                                                                        , DependsOn
 Scheduled , 2-Low     , 20        , "Bobi, Hana", 20     , "After a few days of doing and fine-tuning, move the process to the processes"      , TL                   , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin..""Create a daily process now that we have queries""..""After a few days of doing and fine-tuning, move the process to the processes""<", 
 OnHold    , 5-VeryHigh, 240       , Bobi        , 240    , Work out the DM comparison outreach idea                                            , "Before1stPost, TL"  , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach..""Work out the DM comparison outreach idea""<"                                                                                      , 

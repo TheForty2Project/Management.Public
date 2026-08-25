@@ -1,108 +1,171 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
-
-.Schedule20260711:
-  Details:
-    Goals:      
-      - have hours for non-programming work (both): 2
-      - have hours for programming work (Bobi): 2
-      - extra chores:
-        - Bubbles
-        - Room cleaning        
-      - usual chores:
-        - shopping (fish)
-        - cooking (fish)
-      - exercise:
-        - gym
-        - big walk (night)
-    Schedule:
-      - Hana wakes up at 8-9:
-        - Bubbles in the morning
-        - Room cleaning by Hana in the morning
-      - Hana must eat
-      - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
-      - 12:30-13:30: work
-      - 14:00: eat
-      - 15:00: gym
-      - 16:30: work
-      - 18:00: eat
-      - big walk (night)
-
-.Schedule20260718:    
-  Done .Create a schedule for Saturday:
-    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
-    Details:
-      - include the "work on hated tasks" hours (1-2)
-      - use the previous schedule as baseline
-    Workspace:
-      Goals:      
-        - have hours for non-programming work (both): 2
-        - have hours for programming work (Bobi): 2
-        - extra chores:
-          - Bubbles
-          - Room cleaning        
-        - usual chores:
-          - shopping (fish)
-          - cooking (fish)
-        - exercise:
-          - gym
-          - big walk (night)
-      Schedule:
-        - Hana wakes up at 8-9:
-          - Mobility + walk
-          - Hana must eat
-          - work on tf2p.personal
-        - Robi wakes up at 10:30; usual stuff by 1 2:00-12:30 
-        - 12:30-13:30: work
-        - 14:00: eat
-        - 15:00: gym
-        - 16:30: work
-        - 18:00: eat
-        - big walk (night)
-
-
-
-.ScheduleCreationWorkspace:
+.ScheduleCreationNotes:
   Schedule:
     Goal:
-      Create a schedule that maximizes the wellbeing, productivity, and recovery of both Robi and me.
+      Create a schedule that maximizes the wellbeing, productivity, and recovery of both Robi and me. Take into accounts the 4 pillars:
+        Sleep:
+          - Define a consistent bedtime range.
+          - Define a consistent wake-up time range.
+          - Protect sleep unless there is a genuine emergency.
+        Meals:
+          WeeklyPlanning:
+            - Plan meals for the entire week.
+            - Adapt meals to the day's planned activities.
+            - Match carbohydrate intake to training intensity.
+            - Prioritize foods that are gentle on digestion.
+            - Prepare meals in advance when possible.
+        TrainingAndRecovery:
+          Activities_Primary_Functions:
+            movement_snacks:
+              primary_function: "Interrupt prolonged sedentary behavior"
+            mobility:
+              primary_function: "Develop and maintain usable ranges of motion"  
+            aerobic:
+              primary_function: 
+                Develop cardiovascular, metabolic, mitochondrial,
+                and endurance capacity
+            strength:
+              primary_function: "Develop neuromuscular and musculoskeletal capacity"
+          Activities:
+            Movement/Mobility:
+            - Status: Must 
+            - Frequency: Everyday
+            - Notes: The main benefit isn't simply “becoming more flexible.” It is interrupting prolonged static posture and repeatedly restoring movement, circulation, muscle activity, and joint range throughout the day.
+            - Mobility Snacks Examples: 
+              - Lower body: 10-15 squats, deep squat hold, calf raises, hip rotations.
+              - Spine: thoracic rotations, gentle spinal flexion/extension, side bends.
+              - Shoulders/neck: shoulder circles, wall slides, scapular movements, gentle neck rotations.
+              - Hips: hip-flexor movement, 90/90 transitions, leg swings.
+              - Core/trunk: dead bugs, bird dogs, standing rotations or a short plank.
+              - Circulation: simply walking around for 2-3 minutes is surprisingly valuable.
+              - Use the exercise ball to sit
+              - Introduce timing alarm or reminder every 45- 60 mins
+            AerobicExercise:
+            - Status: Must 
+            - Frequency: 3-5 days/week
+            - Notes: 
+              - description: 
+                  Exercise in which energy production is predominantly supported
+                  by oxygen-dependent metabolism.
+              - primary_system:
+                  pathway: "Heart → circulation → oxygen delivery → mitochondria → ATP"
+              - intensity:
+                  zone_1:
+                    approximate_hrmax: "50-60%"
+                    character: "Very easy"
+                    purpose:
+                      - recovery
+                      - circulation
+                      - low-stress movement
+                  zone_2:
+                    approximate_hrmax: "60-70%"
+                    character: "Easy, sustainable aerobic work"
+                    primary_aerobic_base_zone: true
+                    purpose:
+                      - aerobic base
+                      - mitochondrial adaptation
+                      - fat oxidation
+                      - cardiovascular efficiency
+                      - high-volume training with relatively low recovery cost
+                  zone_3:
+                    approximate_hrmax: "70-80%"
+                    character: "Moderate aerobic work"
+                    purpose:
+                      - aerobic endurance
+                      - sustained moderate-intensity capacity
+                  zone_4:
+                    approximate_hrmax: "80-90%"
+                    character: "Threshold"
+                    metabolism: "Aerobic with substantial anaerobic contribution"
+                    purpose:
+                      - lactate-threshold development
+                      - ability to sustain higher aerobic output
+                  zone_5:
+                    approximate_hrmax: "90-100%"
+                    character: "Very high intensity"
+                    purpose:
+                      - VO2max development
+                      - raise aerobic ceiling
+              - body_benefits:
+                  cardiovascular:
+                    - increased_stroke_volume
+                    - improved_cardiac_efficiency
+                    - improved_endothelial_function
+                    - increased_capillary_density
+                    - improved_oxygen_delivery
+                  cellular:
+                    - increased_mitochondrial_content_and_function
+                    - increased_oxidative_enzyme_activity
+                    - improved_ATP_production_capacity
+                  metabolic:
+                    - improved_insulin_sensitivity
+                    - improved_fat_oxidation
+                    - improved_metabolic_flexibility
+                  performance:
+                    - increased_endurance
+                    - improved_recovery
+                    - higher_sustainable_work_capacity
+                    - lower_effort_at_same_workload
+              - brain_benefits:
+                  acute:
+                    - increased_alertness
+                    - improved_attention
+                    - support_for_executive_function
+                    - increased_neuroplasticity_signaling
+                    - increased_BDNF_signaling
+                  long_term:
+                    - support_for_memory
+                    - support_for_executive_function
+                    - improved_processing_speed
+                    - improved_brain_health
+                    - neuroplastic_adaptation
+              - Aerobic_functions:
+                - aerobic_base:
+                  primary_zone: "Zone 2"
+                  function: "Build the aerobic machinery"
+                - threshold:
+                  primary_zone: "Zone 4"
+                  function: "Increase sustainable fraction of aerobic capacity"
+                - vo2max:
+                  primary_zone: "Zone 5"
+                  function: "Raise the aerobic ceiling"
+            - AerobicExerciseExamples:
+                - walking
+                - brisk_walking
+                - running
+                - cycling
+                - swimming
+                - rowing
+                - hiking
+                - cross_country_skiing
+            StrengthExercises:
+              TODO
+            Recovery: 
+              - TODO
+              - Mandatory evening walk (18:00-20:00).
+              - Reason:
+                - Cooler temperature after sunset.
+                - Relaxation.
+                - Supports digestion.
+                - Wind-down before Hana sleep.
 
-    Sleep:
-      - Define a consistent bedtime range.
-      - Define a consistent wake-up time range.
-      - Protect sleep unless there is a genuine emergency.
+                - After every Zone 2 run:
+                    - Two days of active recovery.
+                    - No hard aerobic sessions.
 
-    Meals:
-      WeeklyPlanning:
-        - Plan meals for the entire week.
-        - Adapt meals to the day's planned activities.
-        - Match carbohydrate intake to training intensity.
-        - Prioritize foods that are gentle on digestion.
-        - Prepare meals in advance when possible.
+                - Whole-body strength:
+                    Frequency: divided intp per week
+                    FollowedBy:
+                      - Sauna (TBD)
 
-    TrainingAndRecovery:
-      Mobility:
-        - Daily mobility routine.
-        - Strictly non-negotiable.
-
-      Recovery:
-        - Mandatory evening walk (18:00-20:00).
-        - Reason:
-          - Cooler temperature after sunset.
-          - Relaxation.
-          - Supports digestion.
-          - Wind-down before Hana sleep.
-
-        - After every Zone 2 run:
-            - Two days of active recovery.
-            - No hard aerobic sessions.
-
-        - Whole-body strength:
-            Frequency: divided intp per week
-            FollowedBy:
-              - Sauna (TBD)
-
-        - Schedule recovery as seriously as training.
-
+                - Schedule recovery as seriously as training.
+        Work related: 
+        - Physical:
+          - Introduce prayers and breathing exercise:
+          - Creat goal for walking from garmin
+          - Create a schedule for the first run  in day 4 (observe the body)
+        - TF2P:
+      
   NegativeEventProtocol:
 
     Purpose:
@@ -151,184 +214,370 @@
         - No relationship decisions.
         - No life-changing decisions.
         - No important work decisions while triggered.
-
-
-.Schedule20260725:
-  Note: Think You will lose Robi if you dont start changing. 
-  Tasks:
-    - Morning: 
-      - Take Supplements:
-        - Glutamine
-        - water with salt 
-        - iron
-        - Folic Acid
-      - Work:
-        - Check the schedule of the day
-      - Movement Activity:
-        - Walk (force yourself) change the cycle:
-          - Bring coffee, kefir and Banana
-          - Do the laundry
-          - go to lidl and buy turkey, brown rice,  and celery
-          - go home and put the stuff
-          - go get the laundry back  
-      - Rest 10 mins ( calm your nerous system)  
-      - Food:
-        - 2 boiled eggs
-        - Ampalaya
-        - Tomato
-        - Spinach
-        - Omega 3
-        - Milk
-        - Green Tea
-      - Chore Activy:
-        - Prepare the batter for Robi
-        - Prepare the room 
-        - Hang the clothes
-        - Prepare lunch:
-          - Turkey sauteed with boiled celery
-      - Sleep/rest (15, 20 mins) 
-      - Robi wakes up:
-        - Drink glutamin/ creatinine - water - food - walk 
-        - 
-      - Work 45m - 10 min break - 45min:
-        - Coffee/ hot tea, work on stand up:
-          - Go through In progress tasks and the priority once
-          - Health logs
-        - Standup:
-          - Show healht logs and follow up on the inprogresses
-      - Lunch:
-      - Workout:
-        - Hana: Full body workout baseline ( minimal to no weights energizing the muscles)
-        - Banana for food or some rice balls with turkey
-      - Prepareation for the next day and analysis
-
 .Standard template: 
   Reason: get the nervous system used to the rhythm
   Plan: Keep the rhythm for 5 days ( test and take health logs) 
-  Goal: recovery days preparing the body for luteal phase
-
-  Food of the week for ovulation and luteal:
-    Introduce estrogen
-  Work related: 
-    - Physical:
-      - Introduce prayers and breathing exercise:
-      - Creat goal for walking from garmin
-      - Create a schedule for the first run  in day 4 (observe the body)
-    - Read the milestones
-
-.Schedule20260727:
-  Note: Think You will lose Robi if you dont start changing. 
-  Tasks:
+  
+.Schedule Template month of September and Oct:
+  - Morning: 
+    - Take Supplements:
+      - Glutamine
+      - water with salt 
+      - iron (luteal and menstruation phase every 2 days )
+      - 0.5 Folic Acid
+      - Omega 3 with Breakfast
+      - Cholestrin for Robi
+    - Activity:
+      - Morning Mobility
+    - Work:
+      - Check the schedule of the day
+      - Check  what tasks are for the day
+      - Start HealthLOgs ( what you feel )
+    - Food:
+      - Pancake or cake (Must)-Robi
+      - Oats (Must)-Hana
+      - Ampalaya 
+      - Egg
+      - Spinach
+      - tofu
+      - Green Tea
+      - Coffee
+    - Movement morning Activity:
+      - Walk (force yourself) change the cycle:
+        - Bring coffee, kefir or Banana
+        - Do the laundry
+        - go to lidl and buy grocery
+        - Trash ( down and up the stairs)
+      - Run Zone 2 atlwast 20 mins (see the schedule of the week)
+      - HIIT in the gym
+    - Rest 10 mins ( calm your nerous system)  
+    - Work:
+      - StandUp
+      - Application of tasks
+  - Afternoon:   
+    - Prepare lunch:
+      - Psylium Husk preparation for Robi
+      - StandardFood:
+          - Rice
+          - Fish
+          - Rice Noodles
+          - Chicken
+          - Turkey
+    - Sleep/rest (15, 20 mins) 
+    - Training:
+      - Gym
+      - Bikram
+      - Baminton
+  - Evening: 
+    - Dinner:
+      - Minimal Carbs if no evening run and no intense exercise 
+    - Work 45m - 10 min break - 45min:
+        - Continuation of tasks application
+        - Health logs
+        - Day analysis
+    - Light Training:
+      - Zone 2 aerobic (good for deep sleep)
+      - Stretching and mobility
+  - Sleep preparation:
+      - Light Training
+      - Shower
+      - Writing thoughts and analysis
+      - Reading book
+      - Watching Movie
+.Shedules:
+  .Schedule20260711:
+    Details:
+      Goals:      
+        - have hours for non-programming work (both): 2
+        - have hours for programming work (Bobi): 2
+        - extra chores:
+          - Bubbles
+          - Room cleaning        
+        - usual chores:
+          - shopping (fish)
+          - cooking (fish)
+        - exercise:
+          - gym
+          - big walk (night)
+      Schedule:
+        - Hana wakes up at 8-9:
+          - Bubbles in the morning
+          - Room cleaning by Hana in the morning
+        - Hana must eat
+        - Robi wakes up at 10:30; usual stuff by 12:00-12:30 
+        - 12:30-13:30: work
+        - 14:00: eat
+        - 15:00: gym
+        - 16:30: work
+        - 18:00: eat
+        - big walk (night)
+  .Schedule20260718:    
+    Done .Create a schedule for Saturday:
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
+      Details:
+        - include the "work on hated tasks" hours (1-2)
+        - use the previous schedule as baseline
+      Workspace:
+        Goals:      
+          - have hours for non-programming work (both): 2
+          - have hours for programming work (Bobi): 2
+          - extra chores:
+            - Bubbles
+            - Room cleaning        
+          - usual chores:
+            - shopping (fish)
+            - cooking (fish)
+          - exercise:
+            - gym
+            - big walk (night)
+        Schedule:
+          - Hana wakes up at 8-9:
+            - Mobility + walk
+            - Hana must eat
+            - work on tf2p.personal
+          - Robi wakes up at 10:30; usual stuff by 1 2:00-12:30 
+          - 12:30-13:30: work
+          - 14:00: eat
+          - 15:00: gym
+          - 16:30: work
+          - 18:00: eat
+          - big walk (night)
+  .Schedule20260725:
+    Note: Think You will lose Robi if you dont start changing. 
+    Tasks:
+      - Morning: 
+        - Take Supplements:
+          - Glutamine
+          - water with salt 
+          - iron
+          - Folic Acid
+        - Work:
+          - Check the schedule of the day
+        - Movement Activity:
+          - Walk (force yourself) change the cycle:
+            - Bring coffee, kefir and Banana
+            - Do the laundry
+            - go to lidl and buy turkey, brown rice,  and celery
+            - go home and put the stuff
+            - go get the laundry back  
+        - Rest 10 mins ( calm your nerous system)  
+        - Food:
+          - 2 boiled eggs
+          - Ampalaya
+          - Tomato
+          - Spinach
+          - Omega 3
+          - Milk
+          - Green Tea
+        - Chore Activy:
+          - Prepare the batter for Robi
+          - Prepare the room 
+          - Hang the clothes
+          - Prepare lunch:
+            - Turkey sauteed with boiled celery
+        - Sleep/rest (15, 20 mins) 
+        - Robi wakes up:
+          - Drink glutamin/ creatinine - water - food - walk 
+          - 
+        - Work 45m - 10 min break - 45min:
+          - Coffee/ hot tea, work on stand up:
+            - Go through In progress tasks and the priority once
+            - Health logs
+          - Standup:
+            - Show healht logs and follow up on the inprogresses
+        - Lunch:
+        - Workout:
+          - Hana: Full body workout baseline ( minimal to no weights energizing the muscles)
+          - Banana for food or some rice balls with turkey
+        - Prepareation for the next day and analysis
+  .Schedule20260727:
+    Note: Think You will lose Robi if you dont start changing. 
+    Tasks:
+      - Morning: 
+        - Take Supplements:
+          - Glutamine
+          - water with salt 
+          - iron
+          - 0.5 Folic Acid
+        - Activity:
+          - MObility
+        - Work:
+          - Check the schedule of the day
+          - Check  what tasks are for the day
+          - Start HealthLOgs ( what you feel )
+        - Movement Activity:
+          - Walk (force yourself) change the cycle:
+            - Bring coffee, kefir and Banana
+            - Do the laundry
+            - go to lidl and buy fruits amd yogurts
+            - go home and put the stuff
+            - go get the laundry back  
+        - Rest 10 mins ( calm your nerous system)  
+        - Food:
+          - 3 boiled eggs
+          - Ampalaya
+          - Tomato
+          - Spinach
+          - Omega 3
+          - tofu
+          - Green Tea
+        - Chore Activy:
+          - Prepare the batter for Robi
+          - 
+          - Hang the clothes
+          - Prepare lunch (14:00-15:00):
+            - Psylium Husk preparation for Robi
+            - Rice noodles with fish
+            - Spinach
+            - Tomatos
+        - Sleep/rest (15, 20 mins) 
+        - Robi wakes up:
+          - Drink glutamin/ creatinine - water - food - walk 
+          - 
+        - Work 45m - 10 min break - 45min:
+          - Coffee/ hot tea, work on stand up:
+            - Go through In progress tasks and the priority once
+            - Health logs
+          - Standup:
+            - Show healht logs and follow up on the inprogresses
+        - Lunch:
+        - Workout:
+          - Hana: Legs Strength 
+          - Banana for food or some rice balls with turkey
+        - Prepareation for the next day and analysis
+  .Schedule20260728:
+    Note: 
+      - Think You will lose Robi if you dont start changing. 
+      - Buy the picture frame and print the picture
+      - Buy the gift card of flow
+    Tasks:
+      - Morning: 
+        - Take Supplements:
+          - Glutamine
+          - water with salt 
+          - iron
+          - 0.5 Folic Acid
+        - Activity:
+          - MObility
+        - Work:
+          - Check the schedule of the day
+          - Check  what tasks are for the day
+          - Start HealthLOgs ( what you feel )
+        - Movement Activity:
+          - Walk (force yourself) change the cycle:
+            - Bring coffee, kefir and Banana
+            - Do the laundry
+            - go to lidl and buy fruits amd yogurts
+            - go home and put the stuff
+            - go get the laundry back  
+        - Rest 10 mins ( calm your nerous system)  
+        - Food:
+          - 3 boiled eggs
+          - Ampalaya
+          - Tomato
+          - Spinach
+          - Omega 3
+          - tofu
+          - Green Tea
+        - Chore Activy:
+          - Prepare the batter for Robi
+          - 
+          - Hang the clothes
+          - Prepare lunch (14:00-15:00):
+            - Psylium Husk preparation for Robi
+            - Rice noodles with fish
+            - Spinach
+            - Tomatos
+        - Sleep/rest (15, 20 mins) 
+        - Robi wakes up:
+          - Drink glutamin/ creatinine - water - food - walk 
+          - 
+        - Work 45m - 10 min break - 45min:
+          - Coffee/ hot tea, work on stand up:
+            - Go through In progress tasks and the priority once
+            - Health logs
+          - Standup:
+            - Show healht logs and follow up on the inprogresses
+        - Lunch:
+        - Workout:
+          - Hana: Legs Strength 
+          - Banana for food or some rice balls with turkey
+        - Prepareation for the next day and analysis
+  .Schedule20260826:
     - Morning: 
+      - WakeUpTime:
+        Hana: 06-07am
+        Bobi: 10am
       - Take Supplements:
         - Glutamine
         - water with salt 
-        - iron
+        - iron (luteal and menstruation phase every 2 days )
         - 0.5 Folic Acid
+        - Omega 3 with Breakfast
+        - Cholestrin for Robi
       - Activity:
-        - MObility
+        - Morning Mobility
       - Work:
         - Check the schedule of the day
         - Check  what tasks are for the day
         - Start HealthLOgs ( what you feel )
-      - Movement Activity:
-        - Walk (force yourself) change the cycle:
-          - Bring coffee, kefir and Banana
-          - Do the laundry
-          - go to lidl and buy fruits amd yogurts
-          - go home and put the stuff
-          - go get the laundry back  
-      - Rest 10 mins ( calm your nerous system)  
       - Food:
-        - 3 boiled eggs
-        - Ampalaya
-        - Tomato
+        - Pancake or cake (Must)-Robi
+        - Oats (Must)-Hana
+        - Ampalaya 
+        - Egg
         - Spinach
-        - Omega 3
         - tofu
         - Green Tea
-      - Chore Activy:
-        - Prepare the batter for Robi
-        - 
-        - Hang the clothes
-        - Prepare lunch (14:00-15:00):
-          - Psylium Husk preparation for Robi
-          - Rice noodles with fish
-          - Spinach
-          - Tomatos
-      - Sleep/rest (15, 20 mins) 
-      - Robi wakes up:
-        - Drink glutamin/ creatinine - water - food - walk 
-        - 
-      - Work 45m - 10 min break - 45min:
-        - Coffee/ hot tea, work on stand up:
-          - Go through In progress tasks and the priority once
-          - Health logs
-        - Standup:
-          - Show healht logs and follow up on the inprogresses
-      - Lunch:
-      - Workout:
-        - Hana: Legs Strength 
-        - Banana for food or some rice balls with turkey
-      - Prepareation for the next day and analysis
-.Schedule20260728:
-  Note: 
-    - Think You will lose Robi if you dont start changing. 
-    - Buy the picture frame and print the picture
-    - Buy the gift card of flow
-  Tasks:
-    - Morning: 
-      - Take Supplements:
-        - Glutamine
-        - water with salt 
-        - iron
-        - 0.5 Folic Acid
-      - Activity:
-        - MObility
-      - Work:
-        - Check the schedule of the day
-        - Check  what tasks are for the day
-        - Start HealthLOgs ( what you feel )
-      - Movement Activity:
+        - Coffee
+      - Movement morning Activity:
         - Walk (force yourself) change the cycle:
-          - Bring coffee, kefir and Banana
+          - Bring coffee, kefir or Banana
           - Do the laundry
-          - go to lidl and buy fruits amd yogurts
-          - go home and put the stuff
-          - go get the laundry back  
+          - go to lidl and buy grocery
+          - Trash ( down and up the stairs)
+        - Run Zone 2 atlwast 20 mins (see the schedule of the week)
+        - HIIT in the gym
       - Rest 10 mins ( calm your nerous system)  
-      - Food:
-        - 3 boiled eggs
-        - Ampalaya
-        - Tomato
-        - Spinach
-        - Omega 3
-        - tofu
-        - Green Tea
-      - Chore Activy:
-        - Prepare the batter for Robi
-        - 
-        - Hang the clothes
-        - Prepare lunch (14:00-15:00):
-          - Psylium Husk preparation for Robi
-          - Rice noodles with fish
-          - Spinach
-          - Tomatos
+      
+    - Afternoon:   
+      - Work (12:00-13:00):
+        - StandUp
+        - Application of tasks
+      - Prepare lunch(13:00-14:00):
+        - Psylium Husk preparation for Robi
+        - StandardFood:
+            - Rice
+            - Fish
+            - Rice Noodles
+            - Chicken
+            - Turkey
       - Sleep/rest (15, 20 mins) 
-      - Robi wakes up:
-        - Drink glutamin/ creatinine - water - food - walk 
-        - 
+      - Training(15:00-17:00):
+        - Gym
+        - Bikram
+        - Baminton
+    - Evening: 
+      - Dinner:
+        - Hana: After Gym
+        - Robi: 22:00
+        - Minimal Carbs if no evening run and no intense exercise 
       - Work 45m - 10 min break - 45min:
-        - Coffee/ hot tea, work on stand up:
-          - Go through In progress tasks and the priority once
+          - Continuation of tasks application
           - Health logs
-        - Standup:
-          - Show healht logs and follow up on the inprogresses
-      - Lunch:
-      - Workout:
-        - Hana: Legs Strength 
-        - Banana for food or some rice balls with turkey
-      - Prepareation for the next day and analysis
+          - Day analysis
+      - Light Training:
+        - Hana: 09:30
+        - Robi: 09:30
+        - Zone 2 aerobic (good for deep sleep)
+        - Stretching and mobility
+    - Sleep preparation:
+      - Hana: 22:30-23:00
+      - Bobi: 01:45
+      - Shower
+      - Writing thoughts and analysis
+      - Reading book
+      - Watching Movie
 
 OnGoing .Schedule and estimate activity for the next 10 days:
   +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana, Tags: [TL], Estimation: , RemTime: }
@@ -350,7 +599,7 @@ OnGoing .Schedule and estimate activity for the next 10 days:
           - Massages 
           - 1x Hike
           - Sauna after complete body strength
-      - Optional 
+      - Optional:
         - Bikram once a week
         - Badminton after 10x running
         - HIIT only on follicular days for now 
@@ -415,8 +664,7 @@ OnGoing .Schedule and estimate activity for the next 10 days:
 
   EstTODO .Activity schedule 03-13 Aug:
     +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
-
-.ScheduleSwitzerland:
+Done .ScheduleSwitzerland:
   Workspace:    
     - Hana is coming back on the 21st - evening
     - Streaming should be tried...

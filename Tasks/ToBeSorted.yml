@@ -49,13 +49,17 @@
           - base it on what we have now
         - create rules - what to do in what case, e.g. we're not feeling well (because of what reason) then how to change the schedule
         - Go through the "Include" part and modify the schedule by taking each point into accout
-    EstTODO .Create rough schedule:
+    Done .Create rough schedule:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:
         - Read the parent tasks's details!
         - Base it on a schedule we created:
           - -->CurrentWork\Hana\Schedules\..Schedule20260718.."Create a schedule for Saturday"<         
         - Create a "template" - so like "default day" - and tailor it for the next 1-2 days
+      Result:
+        - Template: 
+          - -->CurrentWork\Hana\Schedules\.."Schedule Template month of September and Oct"<
+        - -->CurrentWork\Hana\Schedules\..Shedules..Schedule20260826<
     EstTODO .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:

@@ -270,5 +270,6 @@ SR_20260727_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements"<: [ 36m, "", 20260825 T 140541 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 87m, "", 20260825 T 203505 ]
   Next:
     - null

@@ -3458,4 +3458,204 @@ HumanOperatingLog20260703:
       SleepQuality:
       MuscleSorenessNextDay:
 
+HumanOperatingSystemLog:
+  Categories (events): 
+    - Food
+    - Mobility
+    - Work
+    - Sleep
+  InitialState:
+    Notes: 
+      - Initial states refer to the first state of the human mind and body after waking up
+      - Variables: Sleep score, Brain Baseline State, Body State
+    Sleep:
+      Notes: Sleep score obtained from an application. In our case Garmin application
+      Score:
+      Duration: 
+      WakeTime: 
+      Link:
+    BrainBaselineState:
+      ThinkingQuality:
+        Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Motivation: 
+        Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Emotion: 
+        Notes: ANy notable emotion? eg. Happy, tired, sad, anger, no emotions
+      Rumination: 
+        Notes: repeating the negative thoughts, worries, past mistakes, mamas death without finding productive solution
+    Body:
+      Hunger:
+        Notes: State of Hunger after waking up
+      Stress:
+        Notes: Can be obtained from an application. Inour case Garmin
+      MuscleSoreness:
+        
+
+    BrainState:
+
+      Subjective:
+        Energy:
+        ThinkingQuality:
+        Motivation: 
+        Emotion: 
+        MentalActivation:
+
+      Observation:
+        Notes:
+          Actions a person makes after waking up
+      Actions:
+         
+
+      Decision:
+        PredictedValue:
+          Continue scrolling: Low
+          Move body: High
+
+        ChosenAction:
+          Walk to kitchen.
+          Prepare breakfast.
+          Eat two dates.
+          Go to gym.
+
+  Timeline :
+    - Notes:
+      - The Timeline is the primary data structure of the Human Operating System. Instead of storing information first in separate categories such as Exercise, Nutrition, Brain, Sleep, and Digestion, HOS records life chronologically as it happens.Each timeline entry can represent an Event, State, Intervention, Decision, or Outcome, with categories such as Brain, Body, Movement, Nutrition, Sleep, Environment, and Social Context used as properties/tags. 
+      - The core model is:
+        - State A → Event/Intervention → State B = State Transition
+        - This allows HOS to learn how particular experiences or actions change the human state over time.
+      - Raw observations remain separate from interpretations:
+        - Timeline → State Transitions → Patterns → Hypotheses → Experiments → Predictions → Personal Knowledge → Decision Engine → Action → Timeline
+        - The ultimate purpose is not merely to record what happened, but to learn:
+          - eg. Given my current state and desired state, which action is most likely to produce the desired transition based on my previous data?
+          - This turns HOS from a health/activity tracker into an adaptive system for observing, understanding, predicting, and intentionally influencing human state transitions.
+          - Architecture: https://docs.google.com/document/d/17veWvUx3WvytzMkpkYPBcO-YnvtZYeZhonBG2F_0W2A/edit?usp=sharing
+
+    - Time: 
+      Description: 
+      HungerBefore:  
+      HungerAfter: 
+      Amount: 
+      Observation: 
+
+    - Time: 09:30
+      What: Glutanmine, Creatine, Folic Acid
+
+    - Time: 12:30
+      Description: Fish, Bockchoy, argula, tofu, zucchini
+      HungerBefore:  5
+      HungerAfter: 0
+      Amount: 0.25, 1, 10g, 3 small square pieces, one spoon
+      Nicotine:
+        Velo: 1
+
+    - Time: 10:00
+
+     
+
+    - Time: 11:05
+
+      Event: Exercise
+
+      Category:
+        Mobility
+        Functional Strength
+
+      Garmin:
+        https://connect.garmin.com/app/activity/23462891673
+
+      ImmediateEffect:
+
+        Subjective:
+          Energy: 6/10
+          ThinkingQuality: 5/10
+
+    - Time: 12:30
+
+      Event: Lunch
+
+      Nutrition:
+        Foods:
+          - Fish
+          - Bok choy
+          - Arugula
+          - Tofu
+          - Zucchini
+
+      Hunger:
+        Before: 5
+        After: 0
+
+    - Time: 14:00
+
+      Event:
+        Kratom
+
+      Dose:
+        0.6 g
+
+    - Time: 16:28
+
+      Event:
+        Cocaine
+
+      Dose:
+        0.1 g
+
+      Coffee:
+        Americano: 0.25
+
+      Nicotine:
+        Velo: 1
+
+      SubjectiveEffect:
+
+        Energy: 8/10
+        ThinkingQuality: 8/10
+        Motivation: 9/10
+
+        Observation:
+          Mind felt stimulated.
+          Started working.
+
+      ObjectiveWork:
+        Completed:
+        TimeFocused:
+        BugsSolved:
+        LinesWritten:
+
+  DailyReview:
+
+    WhatWorked:
+      - Walking interrupted mental inactivity.
+      - Movement improved activation.
+      - Mobility increased readiness for work.
+
+    WhatDidNotWork:
+      - Phone immediately after waking reduced activation.
+
+    Hypotheses:
+      - Morning movement activates thinking better than passive phone use.
+      - Exercise reduces mental inertia.
+      - Subjective stimulation after cocaine should be compared with objective productivity rather than assumed to improve cognition.
+
+    TomorrowExperiment:
+      - No phone before breakfast.
+      - Compare movement vs caffeine alone.
+      - Record objective coding performance.
+
+  BrainModel:
+
+    Prediction:
+      Movement increases ThinkingQuality.
+
+    Observation:
+      Supported today.
+
+    Confidence:
+      Moderate
+
+    NextQuestion:
+      Is ThinkingQuality driven more by movement, sleep, caffeine, nicotine, or expectation?
+
+  Run Analysis and review: 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

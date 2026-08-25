@@ -172,8 +172,12 @@ Done . Create explanation to Agi about the nervous system:
 
 
 #Airbnb:
-TODO .Buy Earplugs for the guests [Airbnb]:
-  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
+EstTODO .Buy Earplugs for the Airbnb guests:
+  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [TL, Private, Airbnb], Estimation: 15, RemTime: 15, Importance: 2-Low}
+  Details:
+    - Decide what from where
+    - If DM "normal" then put it on Bobi's OI shopping list
+    - DO NOT SPEND MORE TIME ON THIS THAN THE ESTIMATED
 Done .Reply to Changli:
   +: {CreatedBy: Bobi, CreatedAt: 20260729 T 141212, By: Hana, Tags: [TL, Private], Estimation: , RemTime: , Importance: 5-VeryHigh}
   

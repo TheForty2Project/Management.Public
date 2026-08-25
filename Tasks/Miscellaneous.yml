@@ -254,12 +254,12 @@ Id: Misc
         Result: 
           - Showcase healthLog is on Aug 1
       EstTODO .Prepare for health-log showcase:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [Hana], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 3-Average} 
+        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [Hana], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh} 
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
       NEXT .Showcase health log:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 3-Average}
+        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       NEXT .Action the feedback items:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana], Tags: [TL, Private, Health]}
   

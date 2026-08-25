@@ -785,6 +785,8 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V2.0.26:
       +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
+    InProgress .V3.0.1:
+      Done .Package and publish:
 
 .Bugs:
 
@@ -1305,6 +1307,36 @@
         - No new task added
         - Time resumes on the the previous task
 
-
+  Fixed .During F2Link generation the first part of the file path is missing:
+    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
+  Accepted .If a map key is a number, it can't parse it as an Id:
+    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
+  Fixed .Error:_ "This command only works with YAML files":
+    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20}
+    Details:
+      - when starting a timer on a task, even though it starts it, still, displays the message in the title
+    Comments:
+      - Bobi: non reproducible
+  Fixed .After a command - e.g. start timer on task - the cursor goes to the output window:
+    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10}
+  Fixed .Report generation is messed up:
+    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140422, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+    Version: 3.1.0
+    FixVersion: 3.1.1
+    Details:
+      - if there is a TaggedBy filter - does not work, no lines
+      - if there's none - emits all kind of (not too...) funny things as CSV rows
+  Fixed .Caching does not work in ItemManager:
+    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 0, Importance: 3-Average}      
+    Version: 3.1.0
+    FixVersion: 3.1.1
+  Fixed .Incorrect default for Where LeavesOnly:
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132442, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 0, Importance: 3-Average}    
+  Done .Unknown prefixes:
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+    Details:
+      - Could, Should, Must, Estimated, Obsolete
+      - Fix only if it's very easy as this will be obsolete when proper type handling is introduced
+    
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

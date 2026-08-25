@@ -100,7 +100,6 @@ Id: Misc
       +: {CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [CSVTODO], Estimation: 30m, RemTime: 30m}
       Done .Activity has been scheduled in (hanakovacs42@gmail.com) calendar:
       Done .Schedule supplements:
-
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
     Details:
@@ -301,13 +300,68 @@ Id: Misc
           - Bikram once a week
           - Badminton after 10x running
           - HIIT only on follicular days for now 
-      
         - Notes:
           - TODO .Have Activity week meeting schedule with Bobi:
-          - Focus on oncreasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
+          - Focus on increasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
+        - Workspace:
+          
+          InProgress .Schedule the activities for this 10 days (Play style): 
+            - Recovery ( walking upwards)
+            - Thai Boxng
+            - Running ( how many per week and for the month of Aug):
+              - Goal: 
+
+                1. 8 zone 2 runs :
+                2. Consistency 5 weeks: 
+                3. True sprinting after 5 weeks:
+                4. getting your nervous system used to the run without getting tired ( no serious sprinting for this month):
+              - Schedule:   
+                - Week 1: 
+                  - Goal: Recovery + restart movement.
+                    Aug 3: Walk on the thread going up
+                    Aug 4: Zone 2 / 25 min / Morning run
+                    Aug 5: no run
+                    Aug 6: Zone 2 30 mins
+                    Aug 7: no run
+                    Aug 8: Zone 2 45 min
+                    Aug 9: no run
+                - Week 2:
+                  - Goal: develops neuromuscular coordination without creating excessive fatigue.
+                    Aug 10: no run
+                    Aug 11: Stride / 35 min / Morning run / waem up 10 min - 5*20s run / RPE 8/10 / walk in between
+                    Aug 12: no run
+                    Aug 13: Stride / 35 min / Morning run / warm up 10 min - 5*20s run / RPE 8/10 / walk in between
+                - Week3:
+                  - Goal: hike and body weight exercise
+                - Week 4: 
+                  - Goal: TBP
+                  - TODO .Plan Week 4 zone 2 exercise on 20 Aug:
+            - Strength Exercise:
+              - Goal: 
+                1.Train Muscles functionally:
+                  
+                    Squat: 7/10
+                    Hinge: 6/10
+
+                    Push: 8/10
+                    Pull: 5/10
+
+                    Carry: 4/10
+                    Rotation: 5/10
+
+                    Balance: 6/10
+                    Mobility: 7/10  everyday
+
+                    Grip: 5/10  
+                2.TODO .Create exercises for the movements above:
+              - Schedule:
+
+          TODO . Apply the HOS set of Questions afyer the run:
+
+
     EstTODO .Activity schedule 03-13 Aug:
       +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
-  Done .Research kidney-saving protocol:
+  InProgress .Research kidney-saving protocol:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: , RemTime: , Importance: 6-Extreme}
     Details:
       - include:
@@ -321,6 +375,25 @@ Id: Misc
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+  TODO .Schedule lab test appointments:
+      +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+      Done .Research lab test for both Robert and Hana:
+        +: {CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+        Tests:
+          Abdominal tests (includes kidney tests):
+            Details:
+              Location:  https://synlab.hu/hasi-panaszok-csomag/
+              Est Price: 49k per person
+          Blood genetics tests: 
+            Details:
+              - Complete HBB gene sequencing with deletion/duplication analysis (MLPA if indicated) for diagnosis of sickle cell disease/trait and β-thalassemia.
+              - Given how specific your case is, I think one of the best routes is through a hematologist or clinical geneticist at a university center, such as Semmelweis University.
+          Genetic tests pre conception:
+            Details:  
+              location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
+              Est Price: 250k-350k per person
+      Done .Add it to the budget sheet:
+      TODO .Schedule testing afer receiving Sudan Money:
 
 .Schedules:
   Done .Schedule Health Analysis (Live):
@@ -328,8 +401,7 @@ Id: Misc
     Details:
       Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
     Results: -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<
-
-InProgress .Create incentivisation system baseline:
+  InProgress .Create incentivisation system baseline:
     +: {CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [], Estimation:, RemTime:}
     Workspace:
       First idea:

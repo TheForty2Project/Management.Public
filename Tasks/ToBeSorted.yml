@@ -1,6 +1,8 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
 Tasks20260824:  
+  EstTODO .Cleanup TL tasks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 6-Extreme}    
   EstTODO .Create baseline (daily/weekly) schedule as of 20260824:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
     Details:
@@ -51,26 +53,26 @@ Tasks20260824:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TL], Estimation: 15, RemTime: , Importance: 6-Extreme}
       Details:
         - Read the parent tasks's details!
-        - Base it on a schedule we created - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a schedule for Saturday"< maybe?
-    
+        - Base it on a schedule we created:
+          - -->CurrentWork\Hana\Schedules\..Schedule20260718.."Create a schedule for Saturday"<         
   .Medical:
     EstTODO .Schedule Bobi's lipid panel:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 4-High}    
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}    
       Details:
         - "Nagy rutin"
         - + TSH
         - anythingelseHanathinksof
         - Confirm it with Bobi              
     EstTODO .Find a doctor for Bobi's lipid shit:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
     EstTODO .Schedule Hana's NagyRutin:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: , RemTime: , Importance: 4-Average}
       Details:
         - egfr most importantly
         - anything else?
         - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
   EstTODO .Research psylocibin:
-    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:
       - How safe it is to buy the seeds or the plant      
   EstTODO .Explore OBS filename prompt and implement if easy:

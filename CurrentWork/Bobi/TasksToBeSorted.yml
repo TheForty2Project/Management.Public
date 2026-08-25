@@ -519,36 +519,6 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana], Tags: [TL]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260822, Importance: 2-Low}
-    Done .Create a schedule for Saturday:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154750, By: [Bobi, Hana], Tags: [], Estimation:, RemTime:}
-      Details:
-        - include the "work on hated tasks" hours (1-2)
-        - use the previous schedule as baseline
-      Workspace:
-        Goals:      
-          - have hours for non-programming work (both): 2
-          - have hours for programming work (Bobi): 2
-          - extra chores:
-            - Bubbles
-            - Room cleaning        
-          - usual chores:
-            - shopping (fish)
-            - cooking (fish)
-          - exercise:
-            - gym
-            - big walk (night)
-        Schedule:
-          - Hana wakes up at 8-9:
-            - Mobility + walk
-            - Hana must eat
-            - work on tf2p.personal
-          - Robi wakes up at 10:30; usual stuff by 1 2:00-12:30 
-          - 12:30-13:30: work
-          - 14:00: eat
-          - 15:00: gym
-          - 16:30: work
-          - 18:00: eat
-          - big walk (night)
     Blocked .Create a process about uploading things to the site:
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<

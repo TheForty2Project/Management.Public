@@ -275,92 +275,8 @@ Id: Misc
         - is there a correlation in between number of calories burnt and bad mood the next day?
         - if intense runs - knee pain next day?
         - weight reduction - did it help in muscle pain?
-  OnGoing .Schedule and estimate activity for the next 10 days:
-    +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana, Tags: [TL], Estimation: , RemTime: }
-    Details:
-      - Activity should be based on the physical symptoms
-      - Physical tasks that has to be done each week:
-        - Mandatory:
-          - Hana:
-            - Evening walk
-            - 3x Run
-            - 3x strength
-            - Daily mobility
-            - 1x hike
-            - Sauna after a complete body
-          - Bobi: 
-            - Evening walk
-            - 5x strength
-            - Daily mobility 
-            - Massages 
-            - 1x Hike
-            - Sauna after complete body strength
-        - Optional 
-          - Bikram once a week
-          - Badminton after 10x running
-          - HIIT only on follicular days for now 
-        - Notes:
-          - TODO .Have Activity week meeting schedule with Bobi:
-          - Focus on increasing strength in the lower extremities ( to increase blood pressure - contribute most to the muscle pump.)
-        - Workspace:
-          
-          InProgress .Schedule the activities for this 10 days (Play style): 
-            - Recovery ( walking upwards)
-            - Thai Boxng
-            - Running ( how many per week and for the month of Aug):
-              - Goal: 
 
-                1. 8 zone 2 runs :
-                2. Consistency 5 weeks: 
-                3. True sprinting after 5 weeks:
-                4. getting your nervous system used to the run without getting tired ( no serious sprinting for this month):
-              - Schedule:   
-                - Week 1: 
-                  - Goal: Recovery + restart movement.
-                    Aug 3: Walk on the thread going up
-                    Aug 4: Zone 2 / 25 min / Morning run
-                    Aug 5: no run
-                    Aug 6: Zone 2 30 mins
-                    Aug 7: no run
-                    Aug 8: Zone 2 45 min
-                    Aug 9: no run
-                - Week 2:
-                  - Goal: develops neuromuscular coordination without creating excessive fatigue.
-                    Aug 10: no run
-                    Aug 11: Stride / 35 min / Morning run / waem up 10 min - 5*20s run / RPE 8/10 / walk in between
-                    Aug 12: no run
-                    Aug 13: Stride / 35 min / Morning run / warm up 10 min - 5*20s run / RPE 8/10 / walk in between
-                - Week3:
-                  - Goal: hike and body weight exercise
-                - Week 4: 
-                  - Goal: TBP
-                  - TODO .Plan Week 4 zone 2 exercise on 20 Aug:
-            - Strength Exercise:
-              - Goal: 
-                1.Train Muscles functionally:
-                  
-                    Squat: 7/10
-                    Hinge: 6/10
-
-                    Push: 8/10
-                    Pull: 5/10
-
-                    Carry: 4/10
-                    Rotation: 5/10
-
-                    Balance: 6/10
-                    Mobility: 7/10  everyday
-
-                    Grip: 5/10  
-                2.TODO .Create exercises for the movements above:
-              - Schedule:
-
-          TODO . Apply the HOS set of Questions afyer the run:
-
-
-    EstTODO .Activity schedule 03-13 Aug:
-      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
-  InProgress .Research kidney-saving protocol:
+  Done .Research kidney-saving protocol:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: , RemTime: , Importance: 6-Extreme}
     Details:
       - include:
@@ -372,28 +288,52 @@ Id: Misc
         - sickle cell trait effects      
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
-  EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
+  Done .Work out a blood pressure increasing training protocol with ChatGPT:
   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
-  TODO .Schedule lab test appointments:
-      +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-      Done .Research lab test for both Robert and Hana:
-        +: {CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-        Tests:
-          Abdominal tests (includes kidney tests):
-            Details:
-              Location:  https://synlab.hu/hasi-panaszok-csomag/
-              Est Price: 49k per person
-          Blood genetics tests: 
-            Details:
-              - Complete HBB gene sequencing with deletion/duplication analysis (MLPA if indicated) for diagnosis of sickle cell disease/trait and β-thalassemia.
-              - Given how specific your case is, I think one of the best routes is through a hematologist or clinical geneticist at a university center, such as Semmelweis University.
-          Genetic tests pre conception:
-            Details:  
-              location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
-              Est Price: 250k-350k per person
-      Done .Add it to the budget sheet:
-      TODO .Schedule testing afer receiving Sudan Money:
-
+  OnGoing .Schedule lab test and doctor appointments:
+    +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana}
+    Done .Research lab test for both Robert and Hana:
+      +: {CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+      Tests:
+        Abdominal tests (includes kidney tests):
+          Details:
+            Location:  https://synlab.hu/hasi-panaszok-csomag/
+            Est Price: 49k per person
+        Blood genetics tests: 
+          Details:
+            - Complete HBB gene sequencing with deletion/duplication analysis (MLPA if indicated) for diagnosis of sickle cell disease/trait and β-thalassemia.
+            - Given how specific your case is, I think one of the best routes is through a hematologist or clinical geneticist at a university center, such as Semmelweis University.
+        Genetic tests pre conception:
+          Details:  
+            location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
+            Est Price: 250k-350k per person
+    Done .Add it to the budget sheet:
+    EstTODO .Schedule Bobi's lipid panel:
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}    
+      Details:
+        - "Nagy rutin"
+        - + TSH
+        - anythingelseHanathinksof
+        - Confirm it with Bobi              
+    EstTODO .Find a doctor for Bobi's lipid shit:
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+    EstTODO .Schedule Hana's NagyRutin:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      Details:
+        - egfr most importantly
+        - anything else?
+        - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
+    EstTODO .Kidney functions:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140147}
+      EstTODO .Research and decide about kidney ultrasound:
+        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}        
+      NEXT .Book the appointment if decided:
+        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
+    Blocked .Schedule testing afer receiving Sudan Money:
+      +: {CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+      Details:
+        - Extra tests for conception (see the google sheet)
+        - Abdominal complaints (Hasi panaszok csomag) package (49k)        
 .Schedules:
   Done .Schedule Health Analysis (Live):
     +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [], Estimation: 40m, RemTime: 40m}

@@ -52,13 +52,16 @@ Done .Review finances 20260620:
       Result: 
         - CSV has been imported
         - TBD with BObi
-  EstTODO .Schedule showcase, showcase and get feedback:
-    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+  EstTODO.Schedule showcase, showcase and get feedback:
+    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656}
     Done . Schedule Finances to 20260801:
-      +: {CreatedBy: Hana, CreatedAt: 20260728 T 151830, By: Hana, Tags: [TL, Finances], Estimation: 4 , RemTime: 4 , Importance: 3-Average}
-    TODO . have the meeting and finalize the possible structure:
-      +: {CreatedBy: Hana, CreatedAt: 20260730 T 135914, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-        
+      +: {CreatedBy: Hana, CreatedAt: 20260728 T 151830, By: Hana, Tags: [TL, Private], Estimation: 4 , RemTime: 4 , Importance: 3-Average}
+      Comments:
+        - [Bobi, 20260825, "The meeting didn't happen"]
+    EstTODO . Schedule Finances showcase:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 141110, By: Hana, Tags: [TL, Private], Estimation: 4, RemTime: 4, Importance: 3-Average}      
+    NEXT . have the meeting and finalize the possible structure:
+      +: {CreatedBy: Hana, CreatedAt: 20260730 T 135914, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
   NEXT .Action the feedbacks:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
   EstTODO .Schedule a Task about updating Finances every Saturday:

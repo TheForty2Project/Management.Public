@@ -1337,6 +1337,10 @@
     Details:
       - Could, Should, Must, Estimated, Obsolete
       - Fix only if it's very easy as this will be obsolete when proper type handling is introduced
+  Accepted .Report needs to be generated twice for the changes to be taken into account:
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143803, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 4-High}
+    Comments:
+      - [Bobi, 20260825, "Bug is probably around caching - and maybe some await is the solution"]
     
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

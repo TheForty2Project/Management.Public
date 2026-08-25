@@ -244,16 +244,18 @@
       NEXT .Implement animation:
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
   .ToBeSorted:
-    TODO .Item identification in Where to use item.IsDescendantOf(item:_ IF2YamlWorkspaceItem):
-      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 195923, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    EstTODO .Item identification in Where to use item.IsDescendantOf(item:_ IF2YamlWorkspaceItem):
+      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 195923, By: Bobi, Tags: [TL, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Details:   
         - Item identification in Where:
         - IsDescendantOf(item: IF2YamlWorkspaceItem)  
-    TODO .Make string escaping work:
-      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 200031, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-      Details:      
-    TODO .Ensure that yaml map entries keep their order after a parse and emit roundtrip:
-      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: , Estimation:, RemTime:}
+    EstTODO .Make string escaping work:
+      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 200031, By: Bobi, Tags: [TL, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      Details:
+        - the leading "\"
+        - the :_        
+    EstTODO .Ensure that yaml map entries keep their order after a parse and emit roundtrip:
+      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: [TL, Dev], Estimation: 60, RemTime: 60, Importance: 2-Low}
   InProgress .Introduce itemmanager and manage items through it:
     +: {CreatedBy: Bobi, CreatedAt: 20260702 T 004907, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
     Details:
@@ -518,7 +520,7 @@
       OnGoing .Fine tune the process:
         +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana], Tags: [TL]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
-        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260822, Importance: 2-Low}
+        +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260829, Importance: 2-Low}
     Blocked .Create a process about uploading things to the site:
       +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<

@@ -424,7 +424,7 @@ SR_20260726_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Chores".."Pay the electricity bill"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
 
-SR_NEXT_Bobi:
+SR_20260825_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 25m, "", 20260727 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Chores".."Pay the electricity bill"<: [ 15m, "Including other finances", 20260727 ]
@@ -439,5 +439,12 @@ SR_NEXT_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."V3.0.1".."Package and publish"<: [ 30m, "Including cleanups", 20260808 T 201133 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unknown prefixes"<: [ 10m, "", 20260810 T 161052 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items.."F2Link as key"<: [ 30m, "", 20260810 T 161158 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<: [ 92m, "Requirement creation for new functionalities", 20260814 T 00:12:35]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<: [ 92m, "Requirement creation for new functionalities", 20260814 T 001235 ]
   Next:
+
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\ToBeSorted\.Tasks20260824.."Cleanup TL tasks"<: [ 20m, "", 20260825 T 140534 ]
+  Next:
+    - null

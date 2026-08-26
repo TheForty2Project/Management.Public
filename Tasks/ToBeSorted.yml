@@ -56,13 +56,236 @@
           - base it on what we have now
         - create rules - what to do in what case, e.g. we're not feeling well (because of what reason) then how to change the schedule
         - Go through the "Include" part and modify the schedule by taking each point into accout
-    EstTODO .Create rough schedule:
+    Done .Create rough schedule:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:
         - Read the parent tasks's details!
         - Base it on a schedule we created:
           - -->CurrentWork\Hana\Schedules\..Schedule20260718.."Create a schedule for Saturday"<         
         - Create a "template" - so like "default day" - and tailor it for the next 1-2 days
+      Result:
+        - Template: 
+          - -->CurrentWork\Hana\Schedules\.."Schedule Template month of September and Oct"<
+        - -->CurrentWork\Hana\Schedules\..Shedules..Schedule20260826<
+    InProgress .Create baseline requirement for the schedules:
+      +: {CreatedBy: Hana, CreatedAt: 20260826 T 140131, By: Hana, Tags: [TL], Estimation: 80, RemTime: 18, Importance: 4-High}
+      WorkSpace:
+        ScheduleRequirement:
+          Goal:
+            Create a schedule that maximizes the wellbeing, productivity, and recovery of both Robi and me. Take into accounts the 4 pillars:
+        Sleep:
+          - Define a consistent bedtime range.
+          - Define a consistent wake-up time range.
+          - Protect sleep unless there is a genuine emergency.
+        Meals:
+          WeeklyPlanning:
+            - Plan meals for the entire week.
+            - Adapt meals to the day's planned activities.
+            - Match carbohydrate intake to training intensity.
+            - Prioritize foods that are gentle on digestion.
+            - Prepare meals in advance when possible.
+        TrainingAndRecovery:
+          Activities_Primary_Functions:
+            movement_snacks:
+              primary_function: "Interrupt prolonged sedentary behavior"
+            mobility:
+              primary_function: "Develop and maintain usable ranges of motion"  
+            aerobic:
+              primary_function: 
+                Develop cardiovascular, metabolic, mitochondrial,
+                and endurance capacity
+            strength:
+              primary_function: "Develop neuromuscular and musculoskeletal capacity"
+        Activities:
+          Movement/Mobility:
+          - Status: Must 
+          - Frequency: Everyday
+          - Notes: The main benefit isn't simply “becoming more flexible.” It is interrupting prolonged static posture and repeatedly restoring movement, circulation, muscle activity, and joint range throughout the day.
+          - Mobility Snacks Examples: 
+            - Lower body: 10-15 squats, deep squat hold, calf raises, hip rotations.
+            - Spine: thoracic rotations, gentle spinal flexion/extension, side bends.
+            - Shoulders/neck: shoulder circles, wall slides, scapular movements, gentle neck rotations.
+            - Hips: hip-flexor movement, 90/90 transitions, leg swings.
+            - Core/trunk: dead bugs, bird dogs, standing rotations or a short plank.
+            - Circulation: simply walking around for 2-3 minutes is surprisingly valuable.
+            - Use the exercise ball to sit
+            - Introduce timing alarm or reminder every 45- 60 mins
+          AerobicExercise:
+          - Status: Must 
+          - Frequency: 3-5 days/week
+          - Notes: 
+            - description: 
+                Exercise in which energy production is predominantly supported
+                by oxygen-dependent metabolism.
+            - primary_system:
+                pathway: "Heart → circulation → oxygen delivery → mitochondria → ATP"
+            - intensity:
+                zone_1:
+                  approximate_hrmax: "50-60%"
+                  character: "Very easy"
+                  purpose:
+                    - recovery
+                    - circulation
+                    - low-stress movement
+                zone_2:
+                  approximate_hrmax: "60-70%"
+                  character: "Easy, sustainable aerobic work"
+                  primary_aerobic_base_zone: true
+                  purpose:
+                    - aerobic base
+                    - mitochondrial adaptation
+                    - fat oxidation
+                    - cardiovascular efficiency
+                    - high-volume training with relatively low recovery cost
+                zone_3:
+                  approximate_hrmax: "70-80%"
+                  character: "Moderate aerobic work"
+                  purpose:
+                    - aerobic endurance
+                    - sustained moderate-intensity capacity
+                zone_4:
+                  approximate_hrmax: "80-90%"
+                  character: "Threshold"
+                  metabolism: "Aerobic with substantial anaerobic contribution"
+                  purpose:
+                    - lactate-threshold development
+                    - ability to sustain higher aerobic output
+                zone_5:
+                  approximate_hrmax: "90-100%"
+                  character: "Very high intensity"
+                  purpose:
+                    - VO2max development
+                    - raise aerobic ceiling
+            - body_benefits:
+                cardiovascular:
+                  - increased_stroke_volume
+                  - improved_cardiac_efficiency
+                  - improved_endothelial_function
+                  - increased_capillary_density
+                  - improved_oxygen_delivery
+                cellular:
+                  - increased_mitochondrial_content_and_function
+                  - increased_oxidative_enzyme_activity
+                  - improved_ATP_production_capacity
+                metabolic:
+                  - improved_insulin_sensitivity
+                  - improved_fat_oxidation
+                  - improved_metabolic_flexibility
+                performance:
+                  - increased_endurance
+                  - improved_recovery
+                  - higher_sustainable_work_capacity
+                  - lower_effort_at_same_workload
+            - brain_benefits:
+                acute:
+                  - increased_alertness
+                  - improved_attention
+                  - support_for_executive_function
+                  - increased_neuroplasticity_signaling
+                  - increased_BDNF_signaling
+                long_term:
+                  - support_for_memory
+                  - support_for_executive_function
+                  - improved_processing_speed
+                  - improved_brain_health
+                  - neuroplastic_adaptation
+            - Aerobic_functions:
+              - aerobic_base:
+                primary_zone: "Zone 2"
+                function: "Build the aerobic machinery"
+              - threshold:
+                primary_zone: "Zone 4"
+                function: "Increase sustainable fraction of aerobic capacity"
+              - vo2max:
+                primary_zone: "Zone 5"
+                function: "Raise the aerobic ceiling"
+          - AerobicExerciseExamples:
+              - walking
+              - brisk_walking
+              - running
+              - cycling
+              - swimming
+              - rowing
+              - hiking
+              - cross_country_skiing
+          StrengthExercises:
+            TODO
+          Recovery: 
+            - TODO
+            - Mandatory evening walk (18:00-20:00).
+            - Reason:
+              - Cooler temperature after sunset.
+              - Relaxation.
+              - Supports digestion.
+              - Wind-down before Hana sleep.
+
+              - After every Zone 2 run:
+                  - Two days of active recovery.
+                  - No hard aerobic sessions.
+
+              - Whole-body strength:
+                  Frequency: divided intp per week
+                  FollowedBy:
+                    - Sauna (TBD)
+
+              - Schedule recovery as seriously as training.
+        Work related: 
+          - Physical:
+          - Introduce prayers and breathing exercise:
+          - Creat goal for walking from garmin
+          - Create a schedule for the first run  in day 4 (observe the body)
+          - TF2P:
+      
+  NegativeEventProtocol:
+
+    Purpose:
+      Prevent emotional spirals by immediately switching to predefined actions.
+
+    Triggers:
+
+      Physical:
+        - Diarrhea
+        - Excessive burping
+        - Stomach ache
+        - Feeling sick
+        - Severe fatigue
+
+      EmotionalWords:
+        - "Leaving"
+        - "Divorce"
+
+      Thoughts:
+        - Suicide or self-harm thoughts
+        - "I don't have anyone."
+        - "You are my only safety."
+        - Thoughts centred around Mama's passing.
+
+    Response:
+
+      Immediate:
+        - Pause important decisions.
+        - Do not interpret thoughts as facts.
+        - Switch to the recovery protocol.
+
+      Reminder:
+        - Robi is your partner and family.
+        - Treat him as Robi, not as an extension of yourself.
+        - Avoid projecting fears onto him.
+        - Emotional states are temporary and should not dictate major decisions (eg.Leaving -> it creates trauma response, stop it before it gets ugly).
+
+      PhysicalReset:
+        - Walk.
+        - Hydrate.
+        - Eat if appropriate.
+        - Rest if ill.
+        - Resume work only after stabilising.
+
+      Restrictions:
+        - No relationship decisions.
+        - No life-changing decisions.
+        - No important work decisions while triggered.
+
+      
     EstTODO .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:

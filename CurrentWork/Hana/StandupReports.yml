@@ -267,4 +267,12 @@ SR_20260727_Hana:
     - -->Tasks\Miscellaneous\..Health.."Schedule and estimate activity for the next 10 days".."Activity schedule 03-13 Aug"<
     - -->Tasks\Miscellaneous\..Health.."Analysis of the month of June and July"<
     - -->CurrentWork\Hana\TasksToBeSorted\..""Learn TypeScript basics""..""Create TS tutorial tasks""<
+SR_20260826_Hana:
+  Was:
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements"<: [ 36m, "", 20260825 T 140541 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 25m, "", 20260825 T 203505 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create baseline requirement for the schedules"< [ 66m, "", 20260825 T 203505 ]
+  Next:
+    - 
+    - 
 SR_NEXT_Hana:

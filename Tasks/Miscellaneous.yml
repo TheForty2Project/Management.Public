@@ -262,7 +262,6 @@ Id: Misc
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       NEXT .Action the feedback items:
         +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana], Tags: [TL, Private, Health]}
-  
   OnGoing .Create food schedule for the next week:
     Details: 
       - Fish 3x a week

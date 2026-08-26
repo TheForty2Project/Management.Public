@@ -1,7 +1,14 @@
-+: {Type: Folder, DefaultTypes: [Task, Folder]}
++: {Type: Folder, DefaultTypes: [Folder, Task]}
 
 .Tasks20260824:  
-  InProgress .Cleanup TL tasks:
+  EstTODO .Driving licence:
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164541}
+    EstTODO .Check and plan driving licence renewal:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: , Importance: 5-VeryHigh}
+      Details:
+        - Check the email
+        - Probably find a doctor
+  Done .Cleanup TL tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 6-Extreme}    
   EstTODO .Create baseline (daily/weekly) schedule as of 20260824:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi}
@@ -57,7 +64,7 @@
           - -->CurrentWork\Hana\Schedules\..Schedule20260718.."Create a schedule for Saturday"<         
         - Create a "template" - so like "default day" - and tailor it for the next 1-2 days
     EstTODO .Create rules baseline:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:
         - What to do in what negative event:        
           - Not feeling well:

@@ -13,6 +13,9 @@
       +: {CreatedBy: Bobi, CreatedAt: 20250806 T 193254, By: Bobi}      
     Comments:
       - [Bobi, 20260330, "The requirements covered only the first phase and were obsolete, so they are not included in the current repo"]
+  OnGoing .Task administration:
+    Id: TaskAdmin
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 201447}           
   InProgress .Development:
     Id: Dev
     Done .ZerothPhase:

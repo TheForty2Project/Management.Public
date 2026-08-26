@@ -1,0 +1,11 @@
+#.<ReportHeader>: 
+#  +: {CreatedBy: undefined, CreatedAt: 2026-08-25T22:20:51.034Z}
+#  QueryDescriptionLink: -->\..Test<
+#  QueryDescription: 
+#    Type: QueryDescription
+#    Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+#    From: [-->ReportGenTest.yml\<]
+#    OutputFile: TestReport.csv
+#  Log: 
+#    - Created at 2026-08-25T22:20:51.034Z; Added / Updated / Deleted: 0 / 0 / 0
+*,Tags,Estimation,Status,By,RemTime,IdLink,DependsOn

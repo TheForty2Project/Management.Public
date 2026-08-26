@@ -4,7 +4,7 @@
 .Test:
   Type: QueryDescription
   Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest.yml<]
+  From: [-->CurrentWork\Bobi\TestMaterial<]
   OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
   Where: 
     TaggedBy: [TL]

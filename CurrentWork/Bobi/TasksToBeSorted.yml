@@ -157,10 +157,20 @@
       Details:
         here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
     InProgress .Have the (development) Tasks worked out (on which I'm planning to work on):
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 100, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi}
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
+      EstTODO .Move the Tasks from the ToBeSorted to their correct place:        
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141536, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
+      EstTODO .Update the Requirements according to the current implementation:
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 3-Average}
+      EstTODO .Create Dev tasks report:
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
+      EstTODO .Have a value/effort rating system and apply it on the Requirements + Tasks:
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141253, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
+        Details:
+          - \"Value" should be in a form of "what would it enable" and therefore how much time we'd save in the next periods
   .Outreach:
     OnHold .Create the baseline posts from the ideas:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
@@ -245,17 +255,17 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
   .ToBeSorted:
     EstTODO .Item identification in Where to use item.IsDescendantOf(item:_ IF2YamlWorkspaceItem):
-      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 195923, By: Bobi, Tags: [TL, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 195923, By: Bobi, Tags: [Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Details:   
         - Item identification in Where:
         - IsDescendantOf(item: IF2YamlWorkspaceItem)  
     EstTODO .Make string escaping work:
-      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 200031, By: Bobi, Tags: [TL, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260808 T 200031, By: Bobi, Tags: [Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
       Details:
         - the leading "\"
         - the :_        
     EstTODO .Ensure that yaml map entries keep their order after a parse and emit roundtrip:
-      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: [TL, Dev], Estimation: 60, RemTime: 60, Importance: 2-Low}
+      +: {CreatedBy: Bobi, CreatedAt: 20260626 T 145208, By: Bobi, Tags: [Dev], Estimation: 60, RemTime: 60, Importance: 2-Low}
   InProgress .Introduce itemmanager and manage items through it:
     +: {CreatedBy: Bobi, CreatedAt: 20260702 T 004907, By: Bobi, Tags: , Estimation: 60, RemTime: 60}
     Details:

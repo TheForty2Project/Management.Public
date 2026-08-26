@@ -443,8 +443,20 @@ SR_20260825_Bobi:
   Next:
 
 
+SR_20260826_Bobi:
+  Was:
+    - -->Tasks\ToBeSorted\.Tasks20260824.."Cleanup TL tasks"<: [ 90m, "", 20260825 T 140534 ]
+    - -->CurrentWork\Hana\Personal\.."Buy Earplugs for the Airbnb guests"<: [ 20m, "", 20260825 T 200704 ]
+    - -->Tasks\Software\F2ToolsExtension\.."Task administration"<: [ 40m, "", 20260825 T 202021 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."Report needs to be generated twice for the changes to be taken into account"<: [ 29m, "", 20260825 T 203008 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."The file name part in F2Link does not get generated for certain Items"<: [ 30m, "", 20260825 T 203008 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "", 20260825 T 203008 ]
+  Next:  
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "Finishing what I started", 20260825 T 203008 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.1"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<
+
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\ToBeSorted\.Tasks20260824.."Cleanup TL tasks"<: [ 20m, "", 20260825 T 140534 ]
   Next:
-    - null

@@ -1,21 +1,38 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-Done .TagTestd:
-  Tags: [TL]
-  Summary: Yeeeah
+Workspace:
+  Done .Buzi:
+    Tags: [TL]
+    Summary: Fasz
+
+# Done .TagTest1_3:
+#   Tags: [TL]
+#   Summary: Yeeeah
+#   MyItem:
+#     TODO .Geci:
+#       Tags: [TL]
+#       Summary: Faszz
   
-Done .TagTest2:
-  Tags: [TL]
-  Summary: Yeeeah
-  -->Gecike2<:  
+# Done .TagTest2:
+#   Tags: [TL]
+#   Summary: Yeeeah
+#   -->Gecike2<:  
 
-Done .TagTest3:
-  Tags: [TL]
-  Summary: Yeeeah
-  -->Gecike<:
+# Done .TagTest3:
+#   Tags: [TL]
+#   Summary: Yeeeah
+#   -->Gecike<:
 
-.Test:
-  Type: QueryDescription
-  Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->ReportGenTest.yml<]
-  OutputFile: TestReport.csv
+# .Test:
+#   Type: QueryDescription
+#   Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+#   From: [-->ReportGenTest.yml<]
+#   OutputFile: TestReport.csv
+
+# .Test2:
+#   Type: QueryDescription
+#   Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+#   From: [-->CurrentWork\Bobi\TestMaterial<]
+#   OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
+#   Where: 
+#     TaggedBy: [TL]

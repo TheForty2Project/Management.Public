@@ -451,12 +451,15 @@ SR_20260826_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Report needs to be generated twice for the changes to be taken into account"<: [ 29m, "", 20260825 T 203008 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."The file name part in F2Link does not get generated for certain Items"<: [ 30m, "", 20260825 T 203008 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "", 20260825 T 203008 ]
-  Next:  
+  Next:
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "Finishing what I started", 20260825 T 203008 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.1"<
+    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<
 
 SR_NEXT_Bobi:
   Was:
+    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
   Next:
+    - null

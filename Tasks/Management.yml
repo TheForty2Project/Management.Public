@@ -8,6 +8,14 @@ OnGoing .General management:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
     Details:
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
+  OnGoing .RePlSt:
+    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143337, By: Bobi}
+    OnGoing .Prepare:
+      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143419, By: Bobi}      
+      Id: RePlStPrep
+    OnGoing .Part icipate:
+      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143419, By: Bobi}
+      Id: RePlStParticipate
   OnGoing .Standup related:
     +: {CreatedBy: Bobi, CreatedAt: 20260401 T 101628, By: All}
     OnGoing .Preparation for participants:

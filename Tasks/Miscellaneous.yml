@@ -309,7 +309,7 @@ Id: Misc
             Est Price: 250k-350k per person
     Done .Add it to the budget sheet:
     EstTODO .Schedule Bobi's lipid panel:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}    
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       Details:
         - "Nagy rutin"
         - + TSH
@@ -318,15 +318,16 @@ Id: Misc
     EstTODO .Find a doctor for Bobi's lipid shit:
       +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
     EstTODO .Schedule Hana's NagyRutin:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         - egfr most importantly
         - anything else?
         - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
+        - Compare with KisRutin - does it have egfr and what does nagyrutin have extra, do we need it
     EstTODO .Kidney functions:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140147}
       EstTODO .Research and decide about kidney ultrasound:
-        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}        
+        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
       NEXT .Book the appointment if decided:
         +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
     Blocked .Schedule testing afer receiving Sudan Money:

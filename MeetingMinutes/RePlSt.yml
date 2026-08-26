@@ -1,0 +1,39 @@
++: {Type: Folder, DefaultTypes: [Folder, Task]}
+
+.RePlSt20260826:
+  Participants: [Bobi, Hana]
+  StartTime: 20260826 143042
+  EndTime: 
+  WorkSpace:
+    Retro:
+      Went wrong:
+        Bobi:
+          - 1: Bloating therefore low performance (candidates:_ spicy, vegetables, apple strudel; maybe psyllium)
+          - 2: Health log not recorded
+          - 3: Hana worked on a Task which did not exist (at that time)
+        Hana:
+          - 1: Running was too heavy on the body (in the recovery state)
+          - 2: Staying up until 1am was a bad idea          
+          - 3: 3 +1
+      Went well:
+        Bobi:
+          - 1: First "proper" workday
+          - 2: D use was according to plan - so we were able to keep the plan
+          - 3: We both more or less did what we should have (so kept the rules)          
+          - 4: Seems that this is doable - so despite Hana was very stressed when sitting down (+ 60 sleep score), she was able to work productively afterwards
+        Hana:
+          - 1: The method seems to be doable; despite I was stressed, knowin that I just "work on the most important task, if can't, the next one I can" seemed to work for me
+          - 2: We went to the gym, ran, controlled D use
+          - 3: Agree with Bobi's points
+      Changes we need to do:
+        - Plain food to remedy Bloating
+        - Health log should be scheduled and monitored every day:
+          - Let's have a process for it - who does what how        
+        - Running should be only if body battery is high enough:
+  Result:
+    Tasks:
+      -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
+
+        
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

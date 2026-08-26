@@ -307,5 +307,13 @@
     Details:
       Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6
     
+.Tasks20260826:
+  EstTODO .Create daily health log recording process:
+  +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+  Details:
+    - Find a location
+    - Find a _very_easy_ way to record things - like only the most important shit, exceptional things, taking <5 mins!!!
+    - Find a time for recording and verifying
+
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

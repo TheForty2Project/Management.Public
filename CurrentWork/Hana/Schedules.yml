@@ -1,5 +1,5 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
-.ScheduleCreationNotes:
+.ScheduleRequirement:
   Schedule:
     Goal:
       Create a schedule that maximizes the wellbeing, productivity, and recovery of both Robi and me. Take into accounts the 4 pillars:

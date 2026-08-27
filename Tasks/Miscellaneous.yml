@@ -292,6 +292,8 @@ Id: Misc
   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
   OnGoing .Schedule lab test and doctor appointments:
     +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana}
+    
+
     Done .Research lab test for both Robert and Hana:
       +: {CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
       Tests:
@@ -323,6 +325,23 @@ Id: Misc
     Blocked .Find a doctor for Bobi's lipid shit:
       +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
       DependsOn: -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Research about Hashimoto and LDL and SIBO connection"<
+      Workspace:
+        Prof. Dr. Császár Albert - Lipidologus:
+          - Address: Visegrádi40 Magánrendelő Budapest, XIII. kerület, Visegrádi u. 40
+          - Nearest appointment: Sep 8
+          - Online Appointment: https://foglaljorvost.hu/lipidologus/prof-dr-csaszar-albert/?dc_id=17888
+          - Current listed consultation: 39,000 Ft
+          - Number: +36 20 344 3733
+        Dr. Katalin Ábel Tatjana - Diabetologist, Lipidologist, Obesitologist:
+            - Address: Wáberer Medical Center - HillSide Budapest, XII. district, Alkotás utca 55-61. Hillside
+            - Nearest appointment: Sep 09
+            - Online Appointment: https://foglaljorvost.hu/diabetologus/dr-abel-tatjana-katalin/?dc_id=13866
+            - Current listed consultation: 47,500 Ft
+            - Number: +36 1 323 7000
+        Dr. Gábor Simonyi - Cardiologist, Endocrinologist, Obesitologist, Diabetologist, Lipidologist:
+            - Address: Buda Private Medical Center - Savoya Park Budapest, XI. district, Hunyadi János út 19 (Savoya Park)
+            - Nearest appointment: Sep 15
+            - Online Appointment: https://foglaljorvost.hu/endokrinologus/dr-simonyi-gabor/?dc_id=14976
     Done .Schedule Hana's NagyRutin:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:

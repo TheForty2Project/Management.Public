@@ -3658,4 +3658,256 @@ HumanOperatingSystemLog:
       Is ThinkingQuality driven more by movement, sleep, caffeine, nicotine, or expectation?
 
   Run Analysis and review: 
+
+HanaHOSLog20260827:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 75
+      Duration: 6h 42m
+      WakeTime: 6:47 
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Score: 2.5
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 4
+    Emotion: 
+      Notes: ANy notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Neutral
+    Rumination: 
+      Notes: repeating the negative thoughts, worries, past mistakes, mamas death without finding productive solution
+      Score: 1
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 2.5
+    Stress:
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: Low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 10:00: 
+      - Glutamin-Citrolline
+      - Oatmeal+apple+Honey+milk
+      - Rosehip Tea
+    .Movement 11:15:
+      - Walk 3.5km
+  Afternoon:
+    .Work 12:40:
+      - Standup
+      - Searching for Doctors lipidolist
+    .Movement 13:40: 
+      - COOKING
+    .Work 14:15: 
+      - Daily health log processing - Hana
+      - Daily health log processing - Bobi
+    .Food-Lunch 15:00:
+      - Shrimp soup + basil+Tomayto+corrots+Celeray
+      - Rice
+    
+    .Sleep-Nap:
+      - Duration: 2.5
+  Evening:
+    .Food 18:35:
+      - Rice with shrimp soup + chiken small pieces
+    .Movement 18:50:
+      - Walk 4 km
+    .Work: 
+      - Health log
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - Stretch
+        - Listen to good music and read book read what yo read yesterday about mental psychology
+     
+BobiHOSLog20260827:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 84
+      Duration: 7h 6m
+      WakeTime: 9:41
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Score: 5
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 5
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Energetic, Happy, want to listen to music, Enjoying music
+  Timeline:
+    Morning: 
+      .Food-Breakfast 10:00: 
+        - Glutamin-Citrolline
+        - Choleestrine
+        - Coffee
+        - Cake with few seeds(almonds) mixed fruits small amount
+      .Movement 11:15:
+        - Walk 3km
+      .Food: 
+        - Coffee
+        - Energy drink sugar free for Vitamin B
+    Afternoon:
+      .Work 12:40:
+        - Standup
+        - Check standup
+      .Food-Lunch 15:00:
+        - Shrimp soup + basil+Tomayto+corrots+Celeray
+        - Rice
+      .BrainState:
+        ThinkingQuality:
+          Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+          Score: 2
+        Motivation: 
+          Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+          Score: 1
+        Emotion: 
+          Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+          State: Fear, demotivated, 
+        Body condition:
+          - Gasses happened before workout
+      .Movement:
+        - GYm (to be detailed 20260828)
+    Evening:
+      .Food 18:35:
+        - Rice with shrimp soup + chiken small pieces
+      .Movement 2130:
+        - Walk 6km
+      .Entertainment:
+        - Smoke S
+      .Work: 
+        - 
+      .Sleep - (should be before 02:00) :
+ 
+HanaHOSLog20260828:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 75
+      Duration: 6h 42m
+      WakeTime: 6:47 
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Score: 2.5
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 4
+    Emotion: 
+      Notes: ANy notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Neutral
+    Rumination: 
+      Notes: repeating the negative thoughts, worries, past mistakes, mamas death without finding productive solution
+      Score: 1
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 2.5
+    Stress:
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: Low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 10:00: 
+      - Glutamin-Citrolline
+      - Oatmeal+apple+Honey+milk
+      - Rosehip Tea
+    .Movement 11:15:
+      - Walk 3.5km
+  Afternoon:
+    .Work 12:40:
+      - Standup
+      - Searching for Doctors lipidolist
+    .Movement 13:40: 
+      - COOKING
+    .Work 14:15: 
+      - Daily health log processing - Hana
+      - Daily health log processing - Bobi
+    .Food-Lunch 15:00:
+      - Shrimp soup + basil+Tomayto+corrots+Celeray
+      - Rice
+    
+    .Sleep-Nap:
+      - Duration: 2.5
+  Evening:
+    .Food 18:35:
+      - Rice with shrimp soup + chiken small pieces
+    .Movement 18:50:
+      - Walk 4 km
+    .Work: 
+      - Health log
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - Stretch
+        - Listen to good music and read book read what yo read yesterday about mental psychology
+     
+BobiHOSLog20260828:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 84
+      Duration: 7h 6m
+      WakeTime: 9:41
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Score: 5
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 5
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Energetic, Happy, want to listen to music, Enjoying music
+  Timeline:
+    Morning: 
+      .Food-Breakfast 10:00: 
+        - Glutamin-Citrolline
+        - Choleestrine
+        - Coffee
+        - Cake with few seeds(almonds) mixed fruits small amount
+      .Movement 11:15:
+        - Walk 3km
+      .Food: 
+        - Coffee
+        - Energy drink sugar free for Vitamin B
+    Afternoon:
+      .Work 12:40:
+        - Standup
+        - Check standup
+      .Food-Lunch 15:00:
+        - Shrimp soup + basil+Tomayto+corrots+Celeray
+        - Rice
+      .BrainState:
+        ThinkingQuality:
+          Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+          Score: 2
+        Motivation: 
+          Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+          Score: 1
+        Emotion: 
+          Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+          State: Fear, demotivated, 
+        Body condition:
+          - Gasses happened before workout
+      .Movement:
+        - GYm (to be detailed 20260828)
+    Evening:
+      .Food 18:35:
+        - Rice with shrimp soup + chiken small pieces
+      .Movement 2130:
+        - Walk 6km
+      .Entertainment:
+        - Smoke S
+      .Work: 
+        - 
+      .Sleep - (should be before 02:00) :
+ 
+
+NOtes To be done:
+  - Legend for numeration
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

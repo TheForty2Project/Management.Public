@@ -273,8 +273,9 @@ SR_20260826_Hana:
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements"<: [ 36m, "", 20260825 T 140541 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 25m, "", 20260825 T 203505 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create baseline requirement for the schedules"< [ 66m, "", 20260825 T 203505 ]
+    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 0m, "", 20260826 T 193855 ]
   Next:
-    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<
+  
     - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Hana's NagyRutin"<
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
     - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<
@@ -282,4 +283,4 @@ SR_20260826_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
-  Next:  
+  Next:

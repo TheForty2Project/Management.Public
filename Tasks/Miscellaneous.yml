@@ -323,7 +323,7 @@ Id: Misc
     Blocked .Find a doctor for Bobi's lipid shit:
       +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
       DependsOn: -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Research about Hashimoto and LDL and SIBO connection"<
-    EstTODO .Schedule Hana's NagyRutin:
+    Done .Schedule Hana's NagyRutin:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         - egfr most importantly

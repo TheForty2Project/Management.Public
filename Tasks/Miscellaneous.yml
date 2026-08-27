@@ -289,7 +289,7 @@ Id: Misc
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   Done .Work out a blood pressure increasing training protocol with ChatGPT:
-  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
   OnGoing .Schedule lab test and doctor appointments:
     +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana}
     Done .Research lab test for both Robert and Hana:

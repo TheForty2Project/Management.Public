@@ -1,13 +1,7 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
 
-TODO .Review the requirements currently in "Draft" status:
-  +: {CreatedBy: Bobi, CreatedAt: 20260521 T 011246, By: Hana}
-TODO .create processes for handling negative events:
-  +: {CreatedBy: Hana, CreatedAt: 20260614 T 175704, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  Details:  
-    - Fights:
-      - create processes for stop fighting or after fights keeping the goal in mind .
-    - Bad stomach ache
+EstTODO .Review the requirements currently in "Draft" status:
+  +: {CreatedBy: Bobi, CreatedAt: 20260521 T 011246, By: Hana, Tags: [TL], Estimation: 40, RemTime: 40, Importance: 3-Average}
 Done .Review 2 reports (before1stpostTasks, TasklistTasks):
   +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TL], Estimation: , RemTime: }  
 
@@ -16,7 +10,7 @@ EstTODO .Set up Codex in VS Code for Hana:
   Details:
     - ask chatgpt
 
-TODO .Learn TypeScript basics:
+EstTODO .Learn TypeScript basics:
   +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150000, By: [Hana, Bobi]}
   EstTODO .Find a TS tutorial:
     +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
@@ -41,17 +35,17 @@ Done .Process the below into outreach ideas:
     +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TL], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
 EstTODO .collect the lab results into one folder:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 40, Importance: 2-Low}
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 40, Importance: 4-High}
   Details:
     - Into the management.HanaBobi repo
   Comments:
     Bobi: I remember there was some folder somewhere into which we put these, with the passwords; 
 
 EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
-  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}  
   
 EstTODO .Collect money transferred to Baba, Tuta, Hiba:
-  +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
+  +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 2-Low}
   Details:
     - What we talked about Friday (20260731)
     - How much money Hiba got from mama and how much you got - including university payment, drug rehab, anythingelse

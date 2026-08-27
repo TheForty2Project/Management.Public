@@ -1350,19 +1350,19 @@ OnGoing .Task administration:
       - Fix only if it's very easy as this will be obsolete when proper type handling is introduced
   Fixed .Report needs to be generated twice for the changes to be taken into account:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143803, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 4-High}
-    Version: 3.1.1
-    FixVersion: 3.1.2
+    Version: 3.1.0
+    FixVersion: 3.1.1
     Comments:
       - [Bobi, 20260825, "Bug is probably around caching - and maybe some await is the solution"]
   InProgress .F2Link contains "ERROR" if the top level key does not start with a dot:        
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 2-Low}
-    Version: 3.1.1
+    Version: 3.1.0
     Comments:
       - [Bobi, 20260825, "It's a user error not to start the key with a dot (most of the times) so low prio."]
   Fixed .The file name part in F2Link does not get generated for certain Items:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 134116, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
-    Version: 3.1.1
-    FixVersion: 3.1.2
+    Version: 3.1.0
+    FixVersion: 3.1.1
     
 
     

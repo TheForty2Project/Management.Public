@@ -4,13 +4,13 @@
   EstTODO .Driving licence:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164541}
     EstTODO .Check and plan driving licence renewal:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: , Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
       Details:
         - Check the email
         - Probably find a doctor
   Done .Cleanup TL tasks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 6-Extreme}    
-  EstTODO .Create baseline (daily/weekly) schedule as of 20260824:
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 0, Importance: 6-Extreme}    
+  InProgress .Create baseline (daily/weekly) schedule as of 20260824:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi}
     Details:
       Include:        

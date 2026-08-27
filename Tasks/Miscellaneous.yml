@@ -308,7 +308,7 @@ Id: Misc
             location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
             Est Price: 250k-350k per person
     Done .Add it to the budget sheet:
-    EstTODO .Schedule Bobi's lipid panel:
+    Done .Schedule Bobi's lipid panel:
       +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       Details:
         - "Nagy rutin"

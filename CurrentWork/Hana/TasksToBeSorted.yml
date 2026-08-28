@@ -41,8 +41,8 @@ EstTODO .collect the lab results into one folder:
   Comments:
     Bobi: I remember there was some folder somewhere into which we put these, with the passwords; 
 
-EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
-  +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}  
+# EstTODO .Work out a blood pressure increasing training protocol with ChatGPT:
+#   +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}  
   
 EstTODO .Collect money transferred to Baba, Tuta, Hiba:
   +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 2-Low}

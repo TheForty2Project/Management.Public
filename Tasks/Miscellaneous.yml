@@ -317,12 +317,14 @@ Id: Misc
         - + TSH
         - anythingelseHanathinksof
         - Confirm it with Bobi              
-    EstTODO .Research about Hashimoto and LDL and SIBO connection:
+    Done .Research about Hashimoto and LDL and SIBO connection:
       +: {CreatedBy: Bobi, CreatedAt: 20260827 T 130533, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         - Can it happen that - e.g. when my immune system is down - this flares up, e.g. I don't have enough thyroid hormones produced quickly enough, reducing energy, digestion, increasing LDL?
         - If so, could thyroid hormone supplementation help? What are the side effects?
-    Blocked .Find a doctor for Bobi's lipid shit:
+      Result:
+        - Unlikely that my high ldl is caused by hashimoto - see the latest tests; everything is normal (T3, T4, TSH).
+    InProgress .Find a doctor for Bobi's lipid shit:
       +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
       DependsOn: -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Research about Hashimoto and LDL and SIBO connection"<
       Workspace:
@@ -342,6 +344,7 @@ Id: Misc
             - Address: Buda Private Medical Center - Savoya Park Budapest, XI. district, Hunyadi János út 19 (Savoya Park)
             - Nearest appointment: Sep 15
             - Online Appointment: https://foglaljorvost.hu/endokrinologus/dr-simonyi-gabor/?dc_id=14976
+        
     Done .Schedule Hana's NagyRutin:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
@@ -351,8 +354,11 @@ Id: Misc
         - Compare with KisRutin - does it have egfr and what does nagyrutin have extra, do we need it
     EstTODO .Kidney functions:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140147}
-      EstTODO .Research and decide about kidney ultrasound:
-         +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+      Blocked .Research and decide about kidney ultrasound:
+        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+        Workspace:
+          - egfr improved in the meantime - to ~65 - but creatinine was still high. Waiting for the cystatin-c
+        DependsOn: Cysatin-c results
       NEXT .Book the appointment if decided:
         +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
     Blocked .Schedule testing afer receiving Sudan Money:

@@ -49,10 +49,13 @@ EstTODO .Collect money transferred to Baba, Tuta, Hiba:
   Details:
     - What we talked about Friday (20260731)
     - How much money Hiba got from mama and how much you got - including university payment, drug rehab, anythingelse
-EstTODO .Research and plan about Hashimoto disease:
+Cancelled .Research and plan about Hashimoto disease:
   +: {CreatedBy: Hana, CreatedAt: 20260826 T 205942, By: Hana, Tags: [TL, Health], Estimation: 30 , RemTime: 30 , Importance: 4-High}
-EstTODO .Research and plan about kodney ultrasound:
+  CancelReason: not needed
+Deleted .Research and plan about kodney ultrasound:
   +: {CreatedBy: Hana, CreatedAt: 20260826 T 210104, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+  Comments:
+    - Bobi: this is duplicate (-->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Kidney functions".."Research and decide about kidney ultrasound"<)
   
   
 

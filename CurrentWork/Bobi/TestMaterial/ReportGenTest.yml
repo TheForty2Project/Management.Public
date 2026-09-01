@@ -1,9 +1,12 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-Workspace:
+aSDFom:
   Done .Buzi:
     Tags: [TL]
     Summary: Fasz
+  Done .Geci:
+    Tags: [TL]
+    Summary: GEcifasz
 
 # Done .TagTest1_3:
 #   Tags: [TL]

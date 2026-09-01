@@ -3721,8 +3721,7 @@ HanaHOSLog20260827:
         - Preparation of work tomorrow
         - Smoke 3 puff
         - Stretch
-        - Listen to good music and read book read what yo read yesterday about mental psychology
-     
+        - Listen to good music and read book read what yo read yesterday about mental psychology 
 BobiHOSLog20260827:
   Sleep:
       Notes: Sleep score obtained from Garmin Application
@@ -3786,13 +3785,13 @@ BobiHOSLog20260827:
 HanaHOSLog20260828:
   Sleep:
       Notes: Sleep score obtained from Garmin Application
-      Score: 75
-      Duration: 6h 42m
-      WakeTime: 6:47 
+      Score: 62
+      Duration: 6h 52m
+      WakeTime: 7:39
   BrainBaselineState:
     ThinkingQuality:
-      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
-      Score: 2.5
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 3
     Motivation: 
       Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
       Score: 4
@@ -3805,37 +3804,176 @@ HanaHOSLog20260828:
   BodyBaselineState:
     Hunger:
       Notes: State of Hunger after waking up
-      Score: 2.5
-    Stress:
+      Score: 0
+    Stress: 
       Notes: Can be obtained from an application. Inour case Garmin
-      Score: Low
+      Score: Medium
     MuscleSoreness:
       state: Low
   Morning: 
     .Food-Breakfast 10:00: 
       - Glutamin-Citrolline
-      - Oatmeal+apple+Honey+milk
-      - Rosehip Tea
+      - Oatmeal+egg
+      - Coffee
     .Movement 11:15:
-      - Walk 3.5km
+      - Walk 1km
   Afternoon:
-    .Work 12:40:
-      - Standup
-      - Searching for Doctors lipidolist
     .Movement 13:40: 
       - COOKING
-    .Work 14:15: 
-      - Daily health log processing - Hana
-      - Daily health log processing - Bobi
+    
     .Food-Lunch 15:00:
-      - Shrimp soup + basil+Tomayto+corrots+Celeray
+      - Fish Soup
       - Rice
     
     .Sleep-Nap:
-      - Duration: 2.5
+      - Duration: 1.5
   Evening:
     .Food 18:35:
-      - Rice with shrimp soup + chiken small pieces
+      - Rice with fish soup
+    .Work20:00: 
+      - Health log
+    .Entertainment: MOvie
+    .Sleep - 00:56:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 1.5 smokes
+        - whole of lindt 45% cacao
+        - Wathed movie
+        - Slept 12:50
+BobiHOSLog20260828:
+  Notes:
+    - Danger ( woke up by Hana with massage, Ataxia, inability tpo communicate)
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 75
+      Duration: 7h 6m
+      WakeTime: 9:41
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 0
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 0
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Fear
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 0
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: Medium 
+    Body:
+      Notes: unable to walk, ack of coordination, possible trapped gas. See Garmin Stress
+  Timeline:
+    Morning: 
+      .Food-Breakfast 10:00: 
+        - Glutamin-Citrolline
+        - Choleestrine
+        - Coffee
+        - Cake 
+      .Movement 13:32:
+        - Walk 4km
+      .Food: 
+        - Coffee
+        - Energy drink sugar free for Vitamin B
+    Afternoon:
+      .Work 12:40:
+        - Standup
+        - Check standup
+      .Food-Lunch 15:00:
+        - Shrimp soup + basil+Tomayto+corrots+Celeray
+        - Rice
+      .BrainState:
+        ThinkingQuality:
+          Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+          Score: 2
+        Motivation: 
+          Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+          Score: 1
+        Emotion: 
+          Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+          State: Fear, demotivated, 
+        Body condition:
+          - Gasses happened before workout
+      .Movement:
+        - GYm (to be detailed 20260828)
+    Evening:
+      .Food 18:35:
+        - Rice with shrimp soup + chiken small pieces
+      .Movement 2130:
+        - Walk 6km
+      Sleep - 00:56:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 1.5 smokes
+        - whole of lindt 45% cacao
+        - Wathed movie
+        - Slept 12:50
+  Results of Notes:
+    - Recovery day:
+      - Long walk after lunch
+      - Movie and Sex before sleep
+      - Good waking up mind state and body state
+
+HanaHOSLog20260829:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 77
+      Duration: 6h 29m
+      WakeTime: 7:29
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 4
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 4
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Anger from myself
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 1
+      Solution:
+        - Took a shower
+        - smoked cig
+        - starte working
+      Results:
+        - Worked started
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 2
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 08:00: 
+      - H20
+      - Coffee
+      - Coffee
+    .Movement 11:15:
+      - Walk 1km
+    .Work:
+      - Health Logs and analysis
+  Afternoon:
+    .Movement 13:40: 
+      - Hike 
+    
+    .Food-Lunch 15:00:
+      - Fish, Rice with beans
+      - Rice
+    
+    .Sleep-Nap:
+      - Duration: 1.5
+  Evening:
+    .Food 18:35:
+      - Rice with fish soup
     .Movement 18:50:
       - Walk 4 km
     .Work: 
@@ -3844,34 +3982,184 @@ HanaHOSLog20260828:
       - Sleep Hygine:
         - Preparation of work tomorrow
         - Smoke 3 puff
-        - Stretch
-        - Listen to good music and read book read what yo read yesterday about mental psychology
-     
-BobiHOSLog20260828:
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+BobiHOSLog20260829:
+  Notes:
+    - woke up in a good physical and metal state
   Sleep:
       Notes: Sleep score obtained from Garmin Application
-      Score: 84
-      Duration: 7h 6m
-      WakeTime: 9:41
+      Score: n/a
+      Duration: 
+      WakeTime:
   BrainBaselineState:
     ThinkingQuality:
-      Notes: Ability to have a omplete thought. eg. plans of the morning and numerating it
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
       Score: 5
     Motivation: 
       Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
       Score: 5
     Emotion: 
       Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
-      State: Energetic, Happy, want to listen to music, Enjoying music
+      State: Happy
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 0
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: Medium 
+    Body:
+      Notes: unable to walk, ack of coordination, possible trapped gas. See Garmin Stress
   Timeline:
     Morning: 
-      .Food-Breakfast 10:00: 
+      .Food-Breakfast 09:24: 
         - Glutamin-Citrolline
         - Choleestrine
         - Coffee
-        - Cake with few seeds(almonds) mixed fruits small amount
-      .Movement 11:15:
-        - Walk 3km
+        - Cake 
+      .Movement 13:32:
+        - Walk 4km
+      .Food: 
+        - Coffee
+        - Energy drink sugar free for Vitamin B
+    Afternoon:
+      .Work 12:40:
+        - Standup
+        - Check standup
+      .Food-Lunch 15:00:
+        - Shrimp soup + basil+Tomayto+corrots+Celeray
+        - Rice
+      .BrainState:
+        ThinkingQuality:
+          Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+          Score: 2
+        Motivation: 
+          Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+          Score: 1
+        Emotion: 
+          Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+          State: Fear, demotivated, 
+        Body condition:
+          - Gasses happened before workout
+      .Movement:
+        - GYm (to be detailed 20260828)
+    Evening:
+      .Food 18:35:
+        - Rice with shrimp soup + chiken small pieces
+      .Movement 2130:
+        - Walk 6km
+      .Entertainment:
+        - Smoke S
+      .Work: 
+        - 
+      .Sleep - (should be before 02:00):
+HanaHOSLog20260830:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 77
+      Duration: 6h 29m
+      WakeTime: 7:29
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 4
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 4
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Anger from myself
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 1
+      Solution:
+        - Took a shower
+        - smoked cig
+        - starte working
+      Results:
+        - Worked started
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 2
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 08:00: 
+      - H20
+      - Coffee
+      - Coffee
+    .Movement 11:15:
+      - Walk 1km
+    .Work:
+      - Health Logs and analysis
+  Afternoon:
+    .Movement 13:40: 
+      - Hike 
+    
+    .Food-Lunch 15:00:
+      - Fish, Rice with beans
+      - Rice
+    
+    .Sleep-Nap:
+      - Duration: 1.5
+  Evening:
+    .Food 18:35:
+      - Rice with fish soup
+    .Movement 18:50:
+      - Walk 4 km
+    .Work: 
+      - Health log
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+
+BobiHOSLog20260830:
+  Notes:
+    - Woke up in a good mood
+    - Hugs and stretches
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 78
+      Duration: 8h 15m
+      WakeTime: 8:40 AM
+  BrainBaselineState:
+    Notes: This is based on what Robert told me and how he said it
+    
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 2
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 2
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Neutral
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 0
+    Stress: 
+      Notes: Can be obtained from an application. In our case Garmin
+      Score: Medium 
+    Body:
+      Notes: unable to walk, ack of coordination, possible trapped gas. See Garmin Stress
+  Timeline:
+    Morning: 
+      .Food-Breakfast 09:24: 
+        - Glutamin-Citrolline
+        - Choleestrine
+        - Coffee
+        - Cake 
+      .Movement 13:32:
+        - Walk 4km
       .Food: 
         - Coffee
         - Energy drink sugar free for Vitamin B
@@ -3906,8 +4194,11 @@ BobiHOSLog20260828:
       .Work: 
         - 
       .Sleep - (should be before 02:00) :
- 
+  
 
-NOtes To be done:
+Notes To be done:
   - Legend for numeration
+  - Include stool score and type
+  - Include Sexual activity and thoughts
+  - Include productivity hours of the day calculated from StandUp report
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

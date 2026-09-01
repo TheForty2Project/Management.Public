@@ -284,5 +284,11 @@ SR_20260826_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
-    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 0m, "", 20260828 T 194132 ]
+    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 20m, "", 20260827 T 194132 ]
+    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 5m, "", 20260828 T 194132 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<: [ 1882m, "", 20260829 T 092912 ]
   Next:
+    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline".."Review what is in the workspace"<
+    - th mobility of next week
+    - The food 3 plain days
+    - -->Tasks\Website\..Improvements..CreateRoadmap..""Decide:_ how should we handle history?""<

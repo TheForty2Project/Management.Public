@@ -286,7 +286,7 @@
         - No important work decisions while triggered.
 
       
-    EstTODO .Create rules baseline:
+    InProgress .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:
         - What to do in what negative event:        
@@ -296,6 +296,36 @@
               - take into account sleep score, burping/farting, diarrhea (~= gut inflammation), blood pressure, hunger, chin-protrusion (for Hana), Robi's vision (blurry = pressure), walk speed, music enjoyment, sexual energy
             - Treatments for each assessment results - ranging from "just do easy tasks" through "go for walk, eat, sleep, massage" to "have a recovery day and these are you recovery chores and rules for the day"
           - Anythingelse?
+      Workspace:
+        Physically not feeling well:
+          - Switch to plain food
+          - Reduce D (Kratom, Velo, Salad)
+          - Soup and hydration
+          - Massage
+          - Gentle Walk
+        Mentally not feeling well (not knowing the cause physically):
+          - Walk
+          - Word of encouragmnt and reminder of goals 
+          - Milestone review
+          - Good deed in case you have the chance.
+          - Get out of comfort zone - Hana
+        Fights:
+          - Take into account that the person who fights might have:
+            - Gasses
+            - Diahhrea
+            - Bad sleep
+            - Bad family (trauma) enounter
+        Health Logs and health in general:
+          - Both Party should confirm and verify health records
+          - 
+        Work follow up on Task list:
+          -Responsibilities should be divided on the team to check the task list bidaily maybe?
+      TODO .Review what is in the workspace:
+        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 3-Average}
+        
+
+
+
     NEXT .Review and work out with Bobi:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Bobi, Hana], Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}      
   EstTODO .Research psylocibin:
@@ -308,12 +338,15 @@
       Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6
     
 .Tasks20260826:
-  InProgress .Create daily health log recording process:
+  Done .Create daily health log recording process:
   +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
   Details:
     - Find a location
     - Find a _very_easy_ way to record things - like only the most important shit, exceptional things, taking <5 mins!!!
     - Find a time for recording and verifying
-
+  Workspace:
+    - Health Log file
+    - check health log
+    - takes 20 mins or less
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

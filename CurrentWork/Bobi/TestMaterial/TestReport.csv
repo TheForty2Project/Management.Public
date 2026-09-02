@@ -1,5 +1,5 @@
 #.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-08-26T11:19:38.629Z}
+#  +: {CreatedBy: undefined, CreatedAt: 2026-08-27T11:49:16.015Z}
 #  QueryDescriptionLink: -->\..Test<
 #  QueryDescription: 
 #    Type: QueryDescription
@@ -9,6 +9,5 @@
 #    Where: 
 #      TaggedBy: [TL]
 #  Log: 
-#    - Created at 2026-08-26T11:19:38.629Z; Added / Updated / Deleted: 1 / 0 / 0
+#    - Created at 2026-08-27T11:49:16.016Z; Added / Updated / Deleted: 0 / 0 / 0
 *,Tags,Estimation,Status,By,RemTime,IdLink,DependsOn
-,TL,,Done,,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..ERROR..Buzi<,

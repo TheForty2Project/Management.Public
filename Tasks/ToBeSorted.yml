@@ -1,13 +1,33 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
 .Tasks20260824:  
-  EstTODO .Driving licence:
+  InProgress .Driving licence:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164541}
-    EstTODO .Check and plan driving licence renewal:
+    Done .Check and plan driving licence renewal:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
       Details:
         - Check the email
         - Probably find a doctor
+      Result:
+        - Check my eyesight - print the paper
+        - Conditional: go to the eye doctor
+        - Book an appointment with the MD (Ferenc ter 1)
+        - Do it.
+    Done .Print the eyesight paper and test:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 154858, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      Details:
+        - Ask chatgpt for one
+        - Print (+ what Hana wants to be printed)
+      Result:
+        - Did it on the screen; it's ok (right eye better than left; better with the glasses.)
+    Cancelled .If my eyesight is bad, find and go to a doctor:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
+    EstTODO .Book a GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 4-High}      
+    NEXT .Attend GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
+    NEXT .Do the admin:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}      
   Done .Cleanup TL tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 0, Importance: 6-Extreme}    
   InProgress .Create baseline (daily/weekly) schedule as of 20260824:
@@ -235,55 +255,58 @@
           - Creat goal for walking from garmin
           - Create a schedule for the first run  in day 4 (observe the body)
           - TF2P:
-      
-  NegativeEventProtocol:
+    
+  EstTODO .Move the below NegativeEventProtocol to its correct place:
+    +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+    Details:    
+      NegativeEventProtocol:
 
-    Purpose:
-      Prevent emotional spirals by immediately switching to predefined actions.
+        Purpose:
+          Prevent emotional spirals by immediately switching to predefined actions.
 
-    Triggers:
+        Triggers:
 
-      Physical:
-        - Diarrhea
-        - Excessive burping
-        - Stomach ache
-        - Feeling sick
-        - Severe fatigue
+          Physical:
+            - Diarrhea
+            - Excessive burping
+            - Stomach ache
+            - Feeling sick
+            - Severe fatigue
 
-      EmotionalWords:
-        - "Leaving"
-        - "Divorce"
+          EmotionalWords:
+            - "Leaving"
+            - "Divorce"
 
-      Thoughts:
-        - Suicide or self-harm thoughts
-        - "I don't have anyone."
-        - "You are my only safety."
-        - Thoughts centred around Mama's passing.
+          Thoughts:
+            - Suicide or self-harm thoughts
+            - "I don't have anyone."
+            - "You are my only safety."
+            - Thoughts centred around Mama's passing.
 
-    Response:
+        Response:
 
-      Immediate:
-        - Pause important decisions.
-        - Do not interpret thoughts as facts.
-        - Switch to the recovery protocol.
+          Immediate:
+            - Pause important decisions.
+            - Do not interpret thoughts as facts.
+            - Switch to the recovery protocol.
 
-      Reminder:
-        - Robi is your partner and family.
-        - Treat him as Robi, not as an extension of yourself.
-        - Avoid projecting fears onto him.
-        - Emotional states are temporary and should not dictate major decisions (eg.Leaving -> it creates trauma response, stop it before it gets ugly).
+          Reminder:
+            - Robi is your partner and family.
+            - Treat him as Robi, not as an extension of yourself.
+            - Avoid projecting fears onto him.
+            - Emotional states are temporary and should not dictate major decisions (eg.Leaving -> it creates trauma response, stop it before it gets ugly).
 
-      PhysicalReset:
-        - Walk.
-        - Hydrate.
-        - Eat if appropriate.
-        - Rest if ill.
-        - Resume work only after stabilising.
+          PhysicalReset:
+            - Walk.
+            - Hydrate.
+            - Eat if appropriate.
+            - Rest if ill.
+            - Resume work only after stabilising.
 
-      Restrictions:
-        - No relationship decisions.
-        - No life-changing decisions.
-        - No important work decisions while triggered.
+          Restrictions:
+            - No relationship decisions.
+            - No life-changing decisions.
+            - No important work decisions while triggered.
 
       
     InProgress .Create rules baseline:
@@ -331,22 +354,25 @@
   EstTODO .Research psylocibin:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:
-      - How safe it is to buy the seeds or the plant      
+      - How safe it is to buy the spores
+    Result:
+      - Mostly safe, safer than a grow kit.
+      - Grow kit _might_ be problematic
+      - Details: https://chatgpt.com/share/6a95f4db-2b78-83eb-aa69-7c0f3d2969e3
   EstTODO .Explore OBS filename prompt and implement if easy:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 131813, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:
-      Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6
-    
+      Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6    
 .Tasks20260826:
   Done .Create daily health log recording process:
-  +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
-  Details:
-    - Find a location
-    - Find a _very_easy_ way to record things - like only the most important shit, exceptional things, taking <5 mins!!!
-    - Find a time for recording and verifying
-  Workspace:
-    - Health Log file
-    - check health log
-    - takes 20 mins or less
+    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+    Details:
+      - Find a location
+      - Find a _very_easy_ way to record things - like only the most important shit, exceptional things, taking <5 mins!!!
+      - Find a time for recording and verifying
+    Workspace:
+      - Health Log file
+      - check health log
+      - takes 20 mins or less
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

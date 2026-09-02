@@ -215,3 +215,57 @@ Done .Reply to Changli:
               - Attempting Suicide
               - I don't have any one, you are my safety, mama passed away thoughts 
               - Robi is your family. treat him as Robi not as you. 
+
+NegativeEventProtocol for Bobi and Hana:
+  +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+  Details:    
+    NegativeEventProtocol:
+
+      Purpose:
+        Prevent emotional spirals by immediately switching to predefined actions.
+
+      Triggers:
+        Physical:
+          - Diarrhea
+          - Excessive burping
+          - Stomach ache
+          - Severe fatigue:
+            - Sick
+            - extreme Muscle sore (Hana)
+        EmotionalWords:
+          - "Leaving"
+          - "Divorce"
+        Thoughts:
+          - Suicide or self-harm thoughts
+          - "I don't have anyone."
+          - "You are my only safety."
+          - Thoughts centred around Mama's passing.
+          - Repeating family history ( Robi and Hana side)
+      Response:
+        Immediate:
+          - Pause important decisions.
+          - Do not interpret thoughts as facts.
+          - Switch to the recovery protocol.
+        Reminder:
+          - Robi is your partner and family.
+          - Treat him as Robi, not as an extension of yourself.
+          - Avoid projecting fears onto him.
+          - Emotional states are temporary and should not dictate major decisions (eg.Leaving -> it creates trauma response, stop it before it gets ugly).
+          - Get away from eating before bed. Reduces motivation and clear mind in the morning and possible the whole day ( food type)     
+      PhysicalReset and recovery protocol:
+        .Movement:
+          - Walk.
+          - Stretch
+          - Bikram if body is in a good conditipn (not sick)
+        .Food:
+          - Hydrate.
+          - Eat if appropriate.
+          - Soup is the best option and reduce carbs. Rice with soup is possible
+        .Body condition:
+          - Rest if ill.
+        .Mind Condition:
+          - Resume work only after stabilising.
+      Restrictions:
+        - No relationship decisions.
+        - No life-changing decisions.
+        - No important work decisions while triggered.

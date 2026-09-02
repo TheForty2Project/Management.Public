@@ -256,7 +256,7 @@
           - Create a schedule for the first run  in day 4 (observe the body)
           - TF2P:
     
-  EstTODO .Move the below NegativeEventProtocol to its correct place:
+  Done .Move the below NegativeEventProtocol to its correct place:
     +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
     Details:    
       NegativeEventProtocol:
@@ -307,44 +307,44 @@
             - No relationship decisions.
             - No life-changing decisions.
             - No important work decisions while triggered.
-
+    Result: -->CurrentWork\Hana\Personal\."NegativeEventProtocol for Bobi and Hana"<
+     
       
-    InProgress .Create rules baseline:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
-      Details:
-        - What to do in what negative event:        
-          - Not feeling well:
-            - Assessment (taking into account that the other might _not_ be cooperative):
-              - what "type" it is (therefore what treatment) and how strong it is:
-              - take into account sleep score, burping/farting, diarrhea (~= gut inflammation), blood pressure, hunger, chin-protrusion (for Hana), Robi's vision (blurry = pressure), walk speed, music enjoyment, sexual energy
-            - Treatments for each assessment results - ranging from "just do easy tasks" through "go for walk, eat, sleep, massage" to "have a recovery day and these are you recovery chores and rules for the day"
-          - Anythingelse?
-      Workspace:
-        Physically not feeling well:
-          - Switch to plain food
-          - Reduce D (Kratom, Velo, Salad)
-          - Soup and hydration
-          - Massage
-          - Gentle Walk
-        Mentally not feeling well (not knowing the cause physically):
-          - Walk
-          - Word of encouragmnt and reminder of goals 
-          - Milestone review
-          - Good deed in case you have the chance.
-          - Get out of comfort zone - Hana
-        Fights:
-          - Take into account that the person who fights might have:
-            - Gasses
-            - Diahhrea
-            - Bad sleep
-            - Bad family (trauma) enounter
-        Health Logs and health in general:
-          - Both Party should confirm and verify health records
-          - 
-        Work follow up on Task list:
-          -Responsibilities should be divided on the team to check the task list bidaily maybe?
-      TODO .Review what is in the workspace:
-        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 3-Average}
+    Done .Create rules baseline:
+        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
+        Details:
+          - What to do in what negative event:        
+            - Not feeling well:
+              - Assessment (taking into account that the other might _not_ be cooperative):
+                - what "type" it is (therefore what treatment) and how strong it is:
+                - take into account sleep score, burping/farting, diarrhea (~= gut inflammation), blood pressure, hunger, chin-protrusion (for Hana), Robi's vision (blurry = pressure), walk speed, music enjoyment, sexual energy
+              - Treatments for each assessment results - ranging from "just do easy tasks" through "go for walk, eat, sleep, massage" to "have a recovery day and these are you recovery chores and rules for the day"
+            - Anythingelse?
+        Workspace:
+          Physically not feeling well:
+            - Switch to plain food
+            - Reduce D (Kratom, Velo, Salad)
+            - Soup and hydration
+            - Massage
+            - Gentle Walk
+          Mentally not feeling well (not knowing the cause physically):
+            - Walk
+            - Word of encouragmnt and reminder of goals 
+            - Milestone review
+            - Good deed in case you have the chance.
+            - Get out of comfort zone - Hana
+          Fights:
+            - Take into account that the person who fights might have:
+              - Gasses
+              - Diahhrea
+              - Bad sleep
+              - Bad family (trauma) enounter
+          Health Logs and health in general:
+            - Both Party should confirm and verify health records
+            - 
+          Work follow up on Task list:
+            -Responsibilities should be divided on the team to check the task list bidaily maybe?
+        Result: -->CurrentWork\Hana\Personal\."NegativeEventProtocol for Bobi and Hana"<      
         
 
 

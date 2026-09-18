@@ -4054,6 +4054,7 @@ BobiHOSLog20260829:
       .Work: 
         - 
       .Sleep - (should be before 02:00):
+
 HanaHOSLog20260830:
   Sleep:
       Notes: Sleep score obtained from Garmin Application
@@ -4120,7 +4121,6 @@ HanaHOSLog20260830:
         - Smoke 3 puff
         - 4 square of lindt 45% cacao
         - Slept 12:30    
-
 BobiHOSLog20260830:
   Notes:
     - Woke up in a good mood
@@ -4194,7 +4194,518 @@ BobiHOSLog20260830:
       .Work: 
         - 
       .Sleep - (should be before 02:00) :
+
+HanaHOSLog20260902:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 77
+      Duration: 6h 29m
+      WakeTime: 7:29
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 4
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 4
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Anger from myself
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 1
+      Solution:
+        - Took a shower
+        - smoked cig
+        - starte working
+      Results:
+        - Worked started
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 2
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 08:00: 
+      - H20
+      - Coffee
+      - Coffee
+    .Movement 11:15:
+      - Walk 1km
+    .Work:
+      - Health Logs and analysis
+  Afternoon:
+    .Movement 13:40: 
+      - Hike 
+    
+    .Food-Lunch 15:00:
+      - Fish, Rice with beans
+      - Rice
+    
+    .Sleep-Nap:
+      - Duration: 1.5
+  Evening:
+    .Food 18:35:
+      - Rice with fish soup
+    .Movement 18:50:
+      - Walk 4 km
+    .Work: 
+      - Health log
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+BobiHOSLog20260902:
+  Notes:
+    - 
+    - 
+  Sleep:
+      Notes: 
+      Score: 
+      Duration: 
+      WakeTime: 
+  BrainBaselineState:
+    Notes: 
+    
+    ThinkingQuality:
+      Notes:
+      Score: 
+    Motivation: 
+      Notes:
+      Score: 
+    Emotion: 
+      Notes: 
+      State: 
+  BodyBaselineState:
+    Hunger:
+      Notes: 
+      Score: 
+    Stress: 
+      Notes:
+      Score: 
+    Body:
+      Notes: 
+  Timeline:
+    Morning: 
+      .Food-Breakfast 09:24: 
+       
+      .Movement 13:32:
+        - 
+      .Food: 
+        - 
+        - 
+    Afternoon:
+      .Work 12:40:
+        - 
+        - 
+      .Food-Lunch 15:00:
+        - 
+        - 
+      .Event 17:59:
+        - Background: 
+          - 
+        - Fight event: Discussing if it's possible to remove Banjo number from his phone in case in future he gets access to Salad if we have a fight. 
+          Result: Bobi didnt agree to it.
+        - Fight 2: Spoke about the events that happened last night which is me being histrical when he arrived and slept at 2:30. The fight stretched to 3:00 and I decided to sleep in the other room so I wont create more problems. That resulted into more problems the next day which is today. 
+        - Recording: none
+        - Physical appearance based on Hanas memory: 
+          - Hana: 
+            Physical: Sick (flu and fever), maybe pregnant
+            Emotional: Slightrly triggered but kept calmness ( goal is to resolve the fight)
+          - Robi:
+            Physical: Maybe gasses, irritability in his body posture and gestures.high voice, imitating the 2nd party when it comes to discussion "Maybe i should talk like this (in soft tone) like you, so we dont fight and we solve the problems", loud heavy steps on the floor.
+            Emotional: Very angry, inability to focus on the topic ( agreement on when the time for sleep is)
+
+
+
+
+      .BrainState:
+        ThinkingQuality:
+          Notes: 
+          Score: 
+        Motivation: 
+          Notes: 
+          Score: 
+        Emotion: 
+          Notes: 
+          State: 
+        Body condition:
+          - 
+      .Movement:
+        - 
+    Evening:
+      .Food 18:35:
+        - 
+      .Movement 2130:
+        - 
+      .Entertainment:
+        - 
+      .Work: 
+        - 
+      .Sleep - (should be before 02:00) :
+
+HanaHOSLog20260913 completed:
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 87
+      Duration: 9h 10m
+      WakeTime: 9:23
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 2
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 2
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Tired, Sick
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 0
+      Solution:
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 4
+    Stress: 
+      Notes: Can be obtained from an application. In our case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 09:30: 
+      - H20
+      - Oatmeal
+      - Banana
+      - Bueberries
+      - Strawberries
+      - pumkin seed
+      - Honey
+      - cinammon
+    .Sleep 09:45:
+      - Duration: 2.5 hours ( sick)
+    .Work:
+      - Health Logs and analysis
+  Afternoon:
+    .Movement 13:40: 
+      - Hike
+      - Trail Run 
+    .Food-Lunch 15:00:
+      - Rice
+      - Fish
+      - chicken with tomao sauce
+      - Olives
+      - Soup ( ready soup)
+      - feta cheese
+      - pickle cucumber
+      - tune
+      - half cake
+  Evening:
+    .Movement:
+      - Walk 1.9 km
+    .Work: 
+      - Health log
+    .Movement2:
+      - Bikram Yoga
+      - Walking 2.7 km
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+    .Analysis of the day:
+      - Woke up sweating and muscles feels heavy
+      - Slept back for 1 hour
+      - work ( health log )
+      - Preparation of tomorrow
+      - Health Analysis:
+        - 5 movement activity
+        - Body Battery 18 at the end of the day
+        - Active Calorie: 632   
+BobiHOSLog20260913 incomplete:  
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 70
+      Duration: 6h 4m
+      WakeTime: 9:22
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 2
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 2
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: Tired, Sick
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 0
+      Solution:
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 4
+    Stress: 
+      Notes: Can be obtained from an application. Inour case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 10:16: 
+      - pudding
+      - Strawberry
+    .Movement:
+      - Morning walk
+      - Morning walk
+    .Food:
+      - 1.5 litre
+      - 2 coffee
+  Afternoon:
+    .Movement 15:09: 
+      - Run 2.9 km
+    .Food-Lunch 15:00:
+      - Rice
+      - Fish
+      - chicken with tomao sauce
+      - Olives
+      - Soup ( ready soup - tomato Soup)
+      - feta cheese
+      - pickle cucumber
+      - tune
+      - half cake
+  Evening:
+    .Movement 18:29:
+      - Walk 
+    .Movemet 19:02: 
+      - Strength 22 min
+    .Movement 20:00:
+      - Cleaning the room 
+    .Food 21:40:
+      - Cake + Pudding
+   
+    .Work: 
+      - 
+    .Sleep :
+
+  Health Analysis:
+    - 5 movements:
+    - Calorie Burned: 580
+  ToBeAdded:
+    - farting all day
+    - 1 sugar free energy drink in the morning
+    - 1 sugar free energy drink before gym
+    - 1 sugar free pepsi 22:10
+    - 1 coffee 22:10
+    - 2 kratoms (after morning walk, 2nd around 6pm)
+    - 2 velo for the whole day
+
+HanaHOSLog20260914 incomplete :
+  Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 72
+      Duration: 8h 43m
+      WakeTime: 8:49
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 0
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 0
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: demotivated, Anger, tired, sad, 
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 5
+      Solution:
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 3
+    Stress: 
+      Notes: Can be obtained from an application. In our case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 09:30: 
+      - H20
+      - Oatmeal
+      - Egg
+      - Olive Oil
+    .Fight:
+      - Big fight. 
+      - Hana hanging herself ( To be written in detailed)
+      - Robert reaching his bottom by seeing me hanging
+      - ugly fight, knife, hits (to be written in detailed)
+      - I am ashamed of what happened
+    .Drugs:
+      - Cannabis
+      - Coke
+    .Food:
+      - Rice cake steamed
+  Afternoon:
+    .Movement 13:40: 
+      - Hike
+      - Trail Run 
+    .Food-Lunch 15:00:
+      - Rice
+      - Fish
+      - chicken with tomao sauce
+      - Olives
+      - Soup ( ready soup)
+      - feta cheese
+      - pickle cucumber
+      - tune
+      - half cake
+  Evening:
+    .Movement:
+      - Walk 1.9 km
+    .Work: 
+      - Health log
+    .Movement2:
+      - Bikram Yoga
+      - Walking 2.7 km
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+    .Analysis of the day:
+      - Woke up sweating and muscles feels heavy
+      - Slept back for 1 hour
+      - work ( health log )
+      - Preparation of tomorrow
+      - Health Analysis:
+        - 5 movement activity
+        - Body Battery 18 at the end of the day
+        - Active Calorie: 632   
+BobiHOSLog20260914 incomplete:  
+  Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 72
+    Duration: 8h 43m
+    WakeTime: 8:49
+  BrainBaselineState:
+    ThinkingQuality:
+      Notes: Ability to have a complete thought. eg. plans of the morning and numerating it
+      Score: 0
+    Motivation: 
+      Notes: How motivated a person for the day. Want to go theough the plans of the day? excitement? Want to sleep more?
+      Score: 0
+    Emotion: 
+      Notes: Any notable emotion? eg. Happy, tired, sad, anger, no emotions
+      State: demotivated, Anger, tired, sad, 
+    Rumination: 
+      Notes: repeating the negative thoughts (Life is not fair), worries, past mistakes finding productive solution
+      Score: 5
+      Solution:
+  BodyBaselineState:
+    Hunger:
+      Notes: State of Hunger after waking up
+      Score: 3
+    Stress: 
+      Notes: Can be obtained from an application. In our case Garmin
+      Score: low
+    MuscleSoreness:
+      state: Low
+  Morning: 
+    .Food-Breakfast 09:30: 
+      - H20
+      - Oatmeal
+      - Egg
+      - Olive Oil
+    .Fight:
+      - Big fight. 
+      - Hana hanging herself ( To be written in detailed)
+      - Robert reaching his bottom by seeing me hanging
+      - ugly fight, knife, hits (to be written in detailed)
+      - I am ashamed of what happened
+    .Drugs:
+      - Cannabis
+      - Coke
+    .Food:
+      - Rice cake steamed
+  Afternoon:
+    .Movement 13:40: 
+      - Hike
+      - Trail Run 
+    .Food-Lunch 15:00:
+      - Rice
+      - Fish
+      - chicken with tomao sauce
+      - Olives
+      - Soup ( ready soup)
+      - feta cheese
+      - pickle cucumber
+      - tune
+      - half cake
+  Evening:
+    .Movement:
+      - Walk 1.9 km
+    .Work: 
+      - Health log
+    .Movement2:
+      - Bikram Yoga
+      - Walking 2.7 km
+    .Sleep - 22:00:
+      - Sleep Hygine:
+        - Preparation of work tomorrow
+        - Smoke 3 puff
+        - 4 square of lindt 45% cacao
+        - Slept 12:30    
+    .Analysis of the day:
+      - Woke up sweating and muscles feels heavy
+      - Slept back for 1 hour
+      - work ( health log )
+      - Preparation of tomorrow
+      - Health Analysis:
+        - 5 movement activity
+        - Body Battery 18 at the end of the day
+        - Active Calorie: 632   
+
+
+Note Drug  20260916:
+  - Bobi have inflamed poop ( thin poop that you need to wipe alot) and irritable bowl syndrom this day
+  - pooped 2 times
+  - Had breakfast: Rice pancake
+  - Had Lunch: safe food ( rice and fish) ( leftover chicken soup + ricenoodle) + cake + coffee
+  - Went to Gym (gym was good)
+  - after gym no good:
+    - continuesly farting whole day ( small ones)
+    - No burping whole day
+  - 2 kratoms ( 6:00 pm):
+    - after the gym and it calmed him down made him sleep ( comatose)
+  - Massage:
+    - Massage was started and we he suggested he wanted weed to calm his physical body
+    - some disagreement happened:
+       - having weed despite we agreed that weed should be every 4 days
+       - Weed slow motility
+       - Bobi stated for cases like irritation of his bowel he will need weed to calm it down
   
+  - Decision of buying weed:
+    - Weed calms nevous system and guts
+    - sleeping by midnight
+    - Hana asked if he will sleep at the same time the next days or he will sleep 
+    - Bobi stated he will sleep by 1 so his biorythm wont be distrupted
+    -
+Notes about Weed:
+  - Meeting Lorcan and having the same condition as Robi
+  - Robi telling me about his past in how he smokes and eat carbs after
+  - Cannabis slow motility https://chatgpt.com/share/6aac2a8f-b1dc-83eb-8692-56e99006c88b also improve gi symtopms ( vicseral pain)
+  - stress: 
+BobiHOSLOG20260916:
 
 Notes To be done:
   - Legend for numeration

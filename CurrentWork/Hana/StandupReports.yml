@@ -286,9 +286,15 @@ SR_NEXT_Hana:
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 20m, "", 20260827 T 194132 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 5m, "", 20260828 T 194132 ]
-    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<: [ 1882m, "", 20260829 T 092912 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<: [ 30m, "", 20260829 T 092912 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 30m, "", 20260902 T 141208 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Move the below NegativeEventProtocol to its correct place".."Create rules baseline"<: [ 35m, "", 20260902 T 141220 ]
+    - -->Tasks\Miscellaneous\..Health.."Do weekly health related planning"<: [ 0m, "", 20260905 T 180807 ]
+    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 20m, "", 20260914 T 2154 ]
+    - -->Tasks\Miscellaneous\..Health.."Create food schedule for the next week"<: [ 25m, "food for Monday", 20260913 T 215547 ]
+    - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 21m, "", 20260914 T 2154 ]
   Next:
-    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline".."Review what is in the workspace"<
+
     - th mobility of next week
     - The food 3 plain days
     - -->Tasks\Website\..Improvements..CreateRoadmap..""Decide:_ how should we handle history?""<

@@ -22,8 +22,11 @@
         - Did it on the screen; it's ok (right eye better than left; better with the glasses.)
     Cancelled .If my eyesight is bad, find and go to a doctor:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
-    EstTODO .Book a GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 4-High}      
+    Blocked .Book a GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 4-High}
+      Details:
+        Include my lipid shit
+      BlockedBy: the lipoprotein results
     NEXT .Attend GP appointment:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
     NEXT .Do the admin:
@@ -309,8 +312,9 @@
             - No important work decisions while triggered.
 
       
-    InProgress .Create rules baseline:
+    Cancelled .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
+      CancelReason: no chance that any of these would work, as the event with "Robi is sleeping late" shows.
       Details:
         - What to do in what negative event:        
           - Not feeling well:
@@ -351,7 +355,7 @@
 
     NEXT .Review and work out with Bobi:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Bobi, Hana], Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}      
-  EstTODO .Research psylocibin:
+  Done .Research psylocibin:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:
       - How safe it is to buy the spores

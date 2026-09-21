@@ -161,16 +161,32 @@
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
-      EstTODO .Move the Tasks from the ToBeSorted to their correct place:        
+      InProgress .Move the Tasks from the ToBeSorted to their correct place:        
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141536, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
       EstTODO .Update the Requirements according to the current implementation:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 3-Average}
-      EstTODO .Create Dev tasks report:
-        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
-      EstTODO .Have a value/effort rating system and apply it on the Requirements + Tasks:
+      Done .Create Dev tasks report:
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TL], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
+      InProgress .Have a value/effort rating system and apply it on the Requirements + Tasks:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141253, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
         Details:
           - \"Value" should be in a form of "what would it enable" and therefore how much time we'd save in the next periods
+        InProgress .Develop value calculation method:
+          +: {CreatedBy: Bobi, CreatedAt: 20260906 T 005825, By: Bobi}
+          Result:          
+            Baseline Value calculation:
+              - amount of time a worker would save per day (=6 hours of work)
+                + time saved due to less errors (therefore less time on fixing it)
+                + extra time worked due to "more enjoyable" work conditions             
+            Considerations:
+              - Only those features should be developed which are expected to return the value invested into them
+              - For the baseline:
+                - value == time saved per average worker:
+                  - as there are e.g. no clients who would be directly paying for it (and even in this case, the amount of money they'd be paying for a feature should be based on "time saved" on their side)
+                  - at the moment we treat the time of all workers having the same value - so it doesn't matter if it's a junior developer with low salary or a senior with high
+            Method:
+              - We add the value to the "EffortSaved" property of the Requirement or Task
+              - Due to csv report generation technical reasons, the same value should be copied to the Task implementing the Requirement
   .Outreach:
     OnHold .Create the baseline posts from the ideas:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
@@ -334,11 +350,14 @@
     EstTODO .Update:
       Id: Update
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi} 
-      EstTODO .Engine:
+      EstTODO .Engine of update:
+        Id: Engine
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 163142, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 3-Average}        
-      EstTODO .RowDeletingBehavior:
+      EstTODO .RowDeletingBehavior at update:
+        Id: RowDeletingBehavior
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 3-Average}
-      EstTODO .CreateMissingItems:
+      EstTODO .Create Missing Items:
+        Id: CreateMissingItems
         +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Done .Where finish:
       Done .Engine:
@@ -370,7 +389,7 @@
     .Updgrades:
       EstTODO .Automatic aligning of CSV columns:      
         +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
-      EstTODO .IDHIERARCHY(n) as column value:
+      Done .IDHIERARCHY(n) as column value:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162617, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 4-High}
         Details:
 
@@ -386,7 +405,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi}
       Details:
         Takes a full second to load the current Management.Public workspace; will be slow.
-      EstTODO .Exclude folders starting with a dot as a temporary measure:
+      InProgress .Exclude folders starting with a dot as a temporary measure:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161800, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 4-High}        
       EstTODO .Introduce some config for ignore list:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161825, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 2-Low}        

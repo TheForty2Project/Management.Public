@@ -1,6 +1,17 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-aSDFom:
+
+TODO .IdHierarchyTest:
+  TODO .One:    
+    Tags: [TL]
+    TODO .Two:
+      Tags: [TL]
+      TODO .Three:
+        Tags: [TL]
+        TODO .Four:
+          Tags: [TL]
+
+.aSDFom:
   Done .Buzi:
     Tags: [TL]
     Summary: Fasz
@@ -8,23 +19,23 @@ aSDFom:
     Tags: [TL]
     Summary: GEcifasz
 
-# Done .TagTest1_3:
-#   Tags: [TL]
-#   Summary: Yeeeah
-#   MyItem:
-#     TODO .Geci:
-#       Tags: [TL]
-#       Summary: Faszz
+Done .TagTest1_3:
+  Tags: [TL]
+  Summary: Yeeeah
+  MyItem:
+    TODO .Geci:
+      Tags: [TL]
+      Summary: Faszz
   
-# Done .TagTest2:
-#   Tags: [TL]
-#   Summary: Yeeeah
-#   -->Gecike2<:  
+Done .TagTest2:
+  Tags: [TL]
+  Summary: Yeeeah
+  -->Gecike2<:  
 
-# Done .TagTest3:
-#   Tags: [TL]
-#   Summary: Yeeeah
-#   -->Gecike<:
+Done .TagTest3:
+  Tags: [TL]
+  Summary: Yeeeah
+  -->Gecike<:
 
 # .Test:
 #   Type: QueryDescription

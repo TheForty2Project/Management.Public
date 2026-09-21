@@ -1,13 +1,23 @@
 #.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-08-27T11:49:16.015Z}
+#  +: {CreatedBy: undefined, CreatedAt: 2026-09-13T00:01:24.501Z}
 #  QueryDescriptionLink: -->\..Test<
 #  QueryDescription: 
 #    Type: QueryDescription
-#    Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+#    Select: [EMPTY as *, Tags, Estimation, Status, By, IDHIERARCHY(0), IDHIERARCHY(1), IDHIERARCHY(5), DependsOn]
 #    From: [-->CurrentWork\Bobi\TestMaterial\<]
 #    OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
 #    Where: 
 #      TaggedBy: [TL]
 #  Log: 
-#    - Created at 2026-08-27T11:49:16.016Z; Added / Updated / Deleted: 0 / 0 / 0
-*,Tags,Estimation,Status,By,RemTime,IdLink,DependsOn
+#    - Created at 2026-09-13T00:01:24.501Z; Added / Updated / Deleted: 10 / 0 / 0
+*,Tags,Estimation,Status,By,IDHIERARCHY(0),IDHIERARCHY(1),IDHIERARCHY(5),DependsOn
+,TL,,TODO,,,.One,.IdHierarchyTest..One,
+,TL,,TODO,,,.Two,.IdHierarchyTest..One..Two,
+,TL,,TODO,,,.Three,.IdHierarchyTest..One..Two..Three,
+,TL,,TODO,,,.Four,.IdHierarchyTest..One..Two..Three..Four,
+,TL,,Done,,,.Buzi,.aSDFom..Buzi,
+,TL,,Done,,,.Geci,.aSDFom..Geci,
+,TL,,Done,,,.TagTest1_3,.TagTest1_3,
+,TL,,TODO,,,.Geci,.TagTest1_3.MyItem..Geci,
+,TL,,Done,,,.TagTest2,.TagTest2,
+,TL,,Done,,,.TagTest3,.TagTest3,

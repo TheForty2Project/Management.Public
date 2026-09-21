@@ -22,10 +22,15 @@
         - Did it on the screen; it's ok (right eye better than left; better with the glasses.)
     Cancelled .If my eyesight is bad, find and go to a doctor:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
-    Blocked .Book a GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 4-High}
+    EstTODO .Book a GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 6-Extreme}
       Details:
-        Include my lipid shit
+        Include:
+        - my lipid shit
+        - rifaximin course
+        - driving license
+        - I want to register myself there
+        Doctor: see the chatgpt conversation (the woman in Ferenc ter 1)
       BlockedBy: the lipoprotein results
     NEXT .Attend GP appointment:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
@@ -313,7 +318,7 @@
     Result: -->CurrentWork\Hana\Personal\."NegativeEventProtocol for Bobi and Hana"<
      
       
-    Cancelled .Create rules baseline:
+    Done .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       CancelReason: no chance that any of these would work, as the event with "Robi is sleeping late" shows.
       Details:
@@ -348,14 +353,10 @@
           - 
         Work follow up on Task list:
           -Responsibilities should be divided on the team to check the task list bidaily maybe?
-      TODO .Review what is in the workspace:
-        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 3-Average}
-        
-
-
-
-    NEXT .Review and work out with Bobi:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Bobi, Hana], Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}      
+      EstTODO .Review what is in the workspace:
+        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 4-High}
+    EstTODO .Review and work out with Bobi:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Hana, Bobi], Tags: [TL, Health], Estimation: 30, RemTime: 30, Importance: 4-High}      
   Done .Research psylocibin:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:

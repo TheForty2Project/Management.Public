@@ -9,7 +9,7 @@
     - -->CurrentWork\Hana\Personal<
     - -->Tasks<
   OutputFile: Reports\TaskListTasks.csv
-  OrderBy: [Status desc, Importance desc, By, RemTime]
+  OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
     TaggedBy: [TL]
     LeavesOnly: false

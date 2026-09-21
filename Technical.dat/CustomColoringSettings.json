@@ -1,0 +1,1452 @@
+{
+  "activeProfile": {
+    "name": "f2yml.TasksAndTypes",
+    "keywords": [
+      {
+        "color": "#ff0000",
+        "keywords": [
+          "0-New"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#e04300",
+        "keywords": [
+          "1-SomeProgress"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#ddcb03",
+        "keywords": [
+          "2-HighLevel"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#0aefff",
+        "keywords": [
+          "3-Detailing"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#478e6c",
+        "keywords": [
+          "4-AlmostDone"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#00ff08",
+        "keywords": [
+          "5-Done"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#2b6827",
+        "keywords": [
+          "6-Reviewed"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#69916d",
+        "keywords": [
+          "7-Mature"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#ffffff",
+        "keywords": [
+          "8-Gandalf"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#ababab",
+        "keywords": [
+          "Ideally",
+          "Could"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#57cb7e",
+        "keywords": [
+          "Should"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#c2f410",
+        "keywords": [
+          "Must"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#fb00ff",
+        "keywords": [
+          "Blocked",
+          "NEXT",
+          "Rejected"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#d48b0c",
+        "keywords": [
+          "Ongoing"
+        ],
+        "exact": true,
+        "case": false
+      },
+      {
+        "color": "#86668a",
+        "keywords": [
+          "OnHold"
+        ],
+        "exact": true,
+        "case": false
+      },
+      {
+        "color": "#a3b8a3",
+        "keywords": [
+          "Cancelled"
+        ],
+        "exact": true,
+        "case": false
+      },
+      {
+        "color": "#a8a82a",
+        "keywords": [
+          "Paused",
+          "Accepted"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#f76402",
+        "keywords": [
+          "InProgress",
+          "Fixing",
+          "Retesting"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#038901",
+        "keywords": [
+          "Done",
+          "Fixed"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#80f2f2",
+        "keywords": [
+          "Status:",
+          "Estimation:",
+          "Est:",
+          "Result:",
+          "By:",
+          "WorkLog:",
+          "Responsible:",
+          "Notes:",
+          "ForReq:",
+          "ForRequirement:",
+          "DependsOn:",
+          "PreviousStatuses:",
+          "Workspace:",
+          "ScheduledAt:",
+          "Dependencies:",
+          "Tags:",
+          "ReqReq:",
+          "RequiresRequirement:",
+          "Tasks:",
+          "Content:",
+          "Stories:",
+          "Importance:",
+          "ForArea:",
+          "Milestones:",
+          "RequirementType:",
+          "CurrentValue:",
+          "RemTime:",
+          "Title:",
+          "Maturity:",
+          "Content:",
+          "CancelReason:",
+          " Actors:",
+          " Situation:",
+          " Prerequisites:",
+          " MaintenanceTasks:",
+          " Dependents:"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#474747",
+        "keywords": [
+          "0-Dont",
+          " 0-Zero"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#4f4f4f",
+        "keywords": [
+          "1-VeryLow"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#ababab",
+        "keywords": [
+          "2-Low",
+          ": Ideally",
+          ": Could"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#58b9e9",
+        "keywords": [
+          "3-Average",
+          ": Should"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#96c864",
+        "keywords": [
+          "4-High",
+          ": Must"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#ffc864",
+        "keywords": [
+          "5-VeryHigh"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#fb6a6a",
+        "keywords": [
+          "6-ASAP",
+          "6-Extreme"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#ff0000",
+        "keywords": [
+          "7-NOW!!!",
+          " 7-OMG!!!"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#05ffc1",
+        "keywords": [
+          "-Tasks-"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#80f2f2",
+        "keywords": [
+          "F2FileDescriptor:",
+          "NameSpace:",
+          "Namespace:",
+          "namespace:",
+          "Using:",
+          "using:",
+          "Inherits:",
+          "Fields:",
+          "Properties:",
+          "Methods:",
+          "Members:",
+          "Type:",
+          "Type!:",
+          "ItemType:",
+          "Mandatory:",
+          "IsDefault:",
+          "IsList:",
+          "Id:",
+          "Summary:",
+          "Details:",
+          "Parts:",
+          "+:",
+          "CreatedBy:",
+          "CreatedAt:",
+          "DefaultTypes:",
+          "Entitlements:",
+          "Comments:",
+          "BelongsTo:",
+          "ItemFlags:",
+          "ClassDescriptionFlags:",
+          "Flags:",
+          "IsFlags:"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#a38d1f",
+        "keywords": [
+          "new:",
+          "  new ",
+          "enum ",
+          "class ",
+          "namespace "
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#4d4c4c",
+        "keywords": [
+          "LowPrio",
+          "Postponed"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#f280f2",
+        "keywords": [
+          "char",
+          " string",
+          "integer",
+          "bool",
+          "boolean",
+          "float",
+          "DateTime",
+          "Duration",
+          " IdString",
+          "F2Link",
+          "InternalId",
+          " TimeStamp"
+        ],
+        "exact": false,
+        "case": false
+      },
+      {
+        "color": "#ff0000",
+        "keywords": [
+          "TODO",
+          "New",
+          "RetestFail"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#c0e0e0",
+        "keywords": [
+          "<-Workspace-:"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#023b06",
+        "keywords": [
+          "RetestSuccess"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#e369fc",
+        "keywords": [
+          "Scheduled"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#e19000",
+        "keywords": [
+          "Drafting"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#ad6501",
+        "keywords": [
+          ": Draft",
+          "{Draft",
+          "Draft}",
+          "Draft "
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#804000",
+        "keywords": [
+          ": Reviewed",
+          "{Reviewed",
+          "Reviewed}",
+          "Reviewed"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#0084ff",
+        "keywords": [
+          "ReadyForDev",
+          "Estimated"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#a805ff",
+        "keywords": [
+          ": Developing",
+          "{Developing",
+          "Developing}",
+          "InDev",
+          ": InDev",
+          "{InDev",
+          "InDev}"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#0edd7c",
+        "keywords": [
+          "ReadyForQA",
+          "Implemented"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#66ff00",
+        "keywords": [
+          "InQA"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#51907b",
+        "keywords": [
+          "BugFixing"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#009407",
+        "keywords": [
+          "QAPassed"
+        ],
+        "exact": true,
+        "case": true
+      },
+      {
+        "color": "#5c5c5c",
+        "keywords": [
+          ": Closed",
+          "{Closed",
+          ".Closed}",
+          "Closed",
+          " Obsolete"
+        ],
+        "exact": false,
+        "case": true
+      },
+      {
+        "color": "#8e808e",
+        "keywords": [
+          "StandardItem",
+          "Item",
+          "User",
+          "ClassDescription",
+          " PropertyDescription",
+          "Enumeration",
+          "Folder",
+          "Task",
+          "WorkLog",
+          " Bug",
+          "TestCase",
+          "Requirement",
+          "Milestone",
+          "Area",
+          "UseCase",
+          " StandupReport",
+          "StandupWasEntry",
+          "StandupWasEntryDetails",
+          "StandupNextEntry",
+          "StandupNextEntryDetails",
+          "StandupMeetingMinutes",
+          "Article"
+        ],
+        "exact": false,
+        "case": true
+      }
+    ],
+    "ranges": [
+      {
+        "rangeColor": "#ffff00",
+        "scrollbarColor": "#ffff00",
+        "rangeStart": "CurrentFocus",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#fa0000",
+        "scrollbarColor": "#ff1e05",
+        "rangeStart": " TODO ",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#fa3e00",
+        "scrollbarColor": "#fa3e00",
+        "rangeStart": "EstTODO",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#f302f7",
+        "scrollbarColor": "#c202f7",
+        "rangeStart": "DraftTODO",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#c0e0e0",
+        "scrollbarColor": "#000000",
+        "rangeStart": "<-",
+        "rangeEnd": "-:"
+      },
+      {
+        "rangeColor": "#a90ee1",
+        "scrollbarColor": "#000000",
+        "rangeStart": " =",
+        "rangeEnd": ":"
+      },
+      {
+        "rangeColor": "#f0f6cb",
+        "scrollbarColor": "#000000",
+        "rangeStart": " ",
+        "rangeEnd": "():"
+      },
+      {
+        "rangeColor": "#01edfe",
+        "scrollbarColor": "#000000",
+        "rangeStart": "$@",
+        "rangeEnd": "@$"
+      },
+      {
+        "rangeColor": "#e10ea8",
+        "scrollbarColor": "#000000",
+        "rangeStart": "<--",
+        "rangeEnd": ":"
+      },
+      {
+        "rangeColor": "#8efcfc",
+        "scrollbarColor": "#000000",
+        "rangeStart": "-->",
+        "rangeEnd": "<"
+      },
+      {
+        "rangeColor": "#715638",
+        "scrollbarColor": "#000000",
+        "rangeStart": "[^",
+        "rangeEnd": "]"
+      },
+      {
+        "rangeColor": "#d7c60f",
+        "scrollbarColor": "#000000",
+        "rangeStart": "+:",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#a38d1f",
+        "scrollbarColor": "#000000",
+        "rangeStart": "[",
+        "rangeEnd": "]"
+      },
+      {
+        "rangeColor": "#635454",
+        "scrollbarColor": "#000000",
+        "rangeStart": "Deleted .",
+        "rangeEnd": ":"
+      },
+      {
+        "rangeColor": "#acffff",
+        "scrollbarColor": "#000000",
+        "rangeStart": "~->",
+        "rangeEnd": "<"
+      },
+      {
+        "rangeColor": "#eeff00",
+        "scrollbarColor": "#eeff00",
+        "rangeStart": "IttTartok",
+        "rangeEnd": ""
+      },
+      {
+        "rangeColor": "#acffff",
+        "scrollbarColor": "#000000",
+        "rangeStart": "->",
+        "rangeEnd": "<"
+      },
+      {
+        "rangeColor": "#f0f6cb",
+        "scrollbarColor": "#000000",
+        "rangeStart": "<(",
+        "rangeEnd": ")"
+      },
+      {
+        "rangeColor": "#63e3e3",
+        "scrollbarColor": "#000000",
+        "rangeStart": " <",
+        "rangeEnd": ">:"
+      }
+    ]
+  },
+  "inactiveProfiles": [
+    {
+      "name": "f2yml.UseCases",
+      "keywords": [
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "Actors:",
+            "Given:",
+            "When:",
+            "Flows:",
+            "Main:",
+            "Steps:",
+            "Notes:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#ff0000",
+          "keywords": [
+            "0-New"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#e04300",
+          "keywords": [
+            "1-SomeProgress"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#ddcb03",
+          "keywords": [
+            "2-HighLevel"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#0aefff",
+          "keywords": [
+            "3-Detailing"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#478e6c",
+          "keywords": [
+            "4-AlmostDone"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#00ff08",
+          "keywords": [
+            "5-Done"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#2b6827",
+          "keywords": [
+            "6-Reviewed"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#69916d",
+          "keywords": [
+            "7-Mature"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#ffffff",
+          "keywords": [
+            "8-Gandalf"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "F2FileDescriptor:",
+            "NameSpace:",
+            "Namespace:",
+            "namespace:",
+            "Using:",
+            "using:",
+            "Inherits:",
+            "Fields:",
+            "Properties:",
+            "Methods:",
+            "Members:",
+            "Type:",
+            "Type!:",
+            "ItemType:",
+            "Mandatory:",
+            "IsDefault:",
+            "IsList:",
+            "Status:",
+            "Id:",
+            "Summary:",
+            "Details:",
+            "Parts:",
+            "+:",
+            "CreatedBy:",
+            "CreatedAt:",
+            "AllowedTypes:",
+            "Entitlements:",
+            "Comments:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#a38d1f",
+          "keywords": [
+            "new:",
+            "  new ",
+            "enum ",
+            "class "
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#f280f2",
+          "keywords": [
+            "string",
+            " integer",
+            " bool"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "Title:",
+            "Maturity:",
+            "Content:"
+          ],
+          "case": true,
+          "exact": false
+        }
+      ],
+      "ranges": [
+        {
+          "rangeColor": "#ffff00",
+          "rangeEnd": "",
+          "rangeStart": "CurrentFocus",
+          "scrollbarColor": "#ffff00"
+        },
+        {
+          "rangeColor": "#fa0000",
+          "rangeEnd": "",
+          "rangeStart": "TODO",
+          "scrollbarColor": "#ff1e05"
+        },
+        {
+          "rangeColor": "#e10ea9",
+          "rangeEnd": "-:",
+          "rangeStart": "<-",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#a90ee1",
+          "rangeEnd": "",
+          "rangeStart": "=:",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#f0f6cb",
+          "rangeEnd": "():",
+          "rangeStart": " ",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#01edfe",
+          "rangeEnd": "@$",
+          "rangeStart": "$@",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#e10ea8",
+          "rangeEnd": ":",
+          "rangeStart": "<--",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#acffff",
+          "rangeEnd": "<",
+          "rangeStart": "-->",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#ceb227",
+          "rangeEnd": ">",
+          "rangeStart": "<",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#715638",
+          "rangeEnd": "]",
+          "rangeStart": "[^",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#d7c60f",
+          "rangeEnd": "",
+          "rangeStart": "+:",
+          "scrollbarColor": "#000000"
+        }
+      ]
+    },
+    {
+      "name": "f2yml.Recordings",
+      "keywords": [
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "Spent:",
+            "Estimation:",
+            "Est:",
+            "Result:",
+            "From:",
+            "ExpUtility:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#000000",
+          "keywords": [
+            "0-Dont",
+            " 0-Zero"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#5e5e5e",
+          "keywords": [
+            "1-VeryLow"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#ababab",
+          "keywords": [
+            "2-Low",
+            ": Ideally"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#1883b9",
+          "keywords": [
+            "3-Average",
+            ": Should"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#c2f410",
+          "keywords": [
+            "4-High",
+            ": Must"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#fbff00",
+          "keywords": [
+            "5-VeryHigh"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#fb6a6a",
+          "keywords": [
+            "6-ASAP",
+            " 6-Extreme"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#ff0000",
+          "keywords": [
+            "7-NOW!!!",
+            " 7-OMG!!!"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "F2FileDescriptor:",
+            "NameSpace:",
+            "Namespace:",
+            "namespace:",
+            "Using:",
+            "using:",
+            "Inherits:",
+            "Fields:",
+            "Properties:",
+            "Methods:",
+            "Members:",
+            "Type:",
+            "Type!:",
+            "ItemType:",
+            "Mandatory:",
+            "IsDefault:",
+            "IsList:",
+            "Status:",
+            "Id:",
+            "Summary:",
+            "Details:",
+            "Parts:",
+            "+:",
+            "CreatedBy:",
+            "CreatedAt:",
+            "AllowedTypes:",
+            "Entitlements:",
+            "Comments:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#a38d1f",
+          "keywords": [
+            "new:",
+            "  new ",
+            "enum ",
+            "class "
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#f280f2",
+          "keywords": [
+            "string",
+            " integer",
+            " bool"
+          ],
+          "case": true,
+          "exact": false
+        }
+      ],
+      "ranges": [
+        {
+          "rangeColor": "#ffff00",
+          "rangeEnd": "",
+          "rangeStart": "CurrentFocus",
+          "scrollbarColor": "#ffff00"
+        },
+        {
+          "rangeColor": "#fa0000",
+          "rangeEnd": "",
+          "rangeStart": "TODO",
+          "scrollbarColor": "#ff1e05"
+        },
+        {
+          "rangeColor": "#f76402",
+          "rangeEnd": "",
+          "rangeStart": "InProgress",
+          "scrollbarColor": "#f76402"
+        },
+        {
+          "rangeColor": "#e10ea9",
+          "rangeEnd": "-:",
+          "rangeStart": "<-",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#a90ee1",
+          "rangeEnd": "",
+          "rangeStart": "=:",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#f0f6cb",
+          "rangeEnd": "():",
+          "rangeStart": " ",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#01edfe",
+          "rangeEnd": "@$",
+          "rangeStart": "$@",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#e10ea8",
+          "rangeEnd": ":",
+          "rangeStart": "<--",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#acffff",
+          "rangeEnd": "<",
+          "rangeStart": "-->",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#715638",
+          "rangeEnd": "]",
+          "rangeStart": "[^",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#d7c60f",
+          "rangeEnd": "",
+          "rangeStart": "+:",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#a38d1f",
+          "rangeEnd": "]",
+          "rangeStart": "[",
+          "scrollbarColor": "#000000"
+        }
+      ]
+    },
+    {
+      "name": "f2yml.Reqs",
+      "keywords": [
+        {
+          "color": "#ababab",
+          "keywords": [
+            ": Ideally",
+            ": Could"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#57cb7e",
+          "keywords": [
+            ": Should"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#c2f410",
+          "keywords": [
+            ": Must"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#5e5e5e",
+          "keywords": [
+            "1-VeryLow"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#ababab",
+          "keywords": [
+            "2-Low",
+            ": Ideally",
+            ": Could"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#1883b9",
+          "keywords": [
+            "3-Average",
+            ": Should"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#c2f410",
+          "keywords": [
+            "4-High",
+            ": Must"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#fbff00",
+          "keywords": [
+            "5-VeryHigh"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#fb6a6a",
+          "keywords": [
+            "6-ASAP",
+            " 6-Extreme"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#ff0000",
+          "keywords": [
+            "7-NOW!!!",
+            " 7-OMG!!!"
+          ],
+          "case": false,
+          "exact": false
+        },
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "RequirementType:",
+            "CurrentValue:",
+            "Parts:",
+            "Details:",
+            "Estimation:",
+            "ReqReq:",
+            "RequiresRequirement:",
+            "Tasks:",
+            "Content:",
+            "Stories:",
+            "Importance:",
+            "ForArea:",
+            "Milestones:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#e19000",
+          "keywords": [
+            "Drafting"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#ad6501",
+          "keywords": [
+            ": Draft",
+            "{Draft",
+            "Draft}",
+            "  Draft "
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#804000",
+          "keywords": [
+            ": Reviewed",
+            "{Reviewed",
+            "Reviewed}",
+            "Reviewed"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#0084ff",
+          "keywords": [
+            "ReadyForDev",
+            "Estimated"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#a805ff",
+          "keywords": [
+            ": Developing",
+            "{Developing",
+            "Developing}",
+            "InDev",
+            ": InDev",
+            "{InDev",
+            "InDev}"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#0edd7c",
+          "keywords": [
+            "ReadyForQA",
+            "Implemented"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#66ff00",
+          "keywords": [
+            "InQA"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#51907b",
+          "keywords": [
+            "BugFixing"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#009407",
+          "keywords": [
+            "QAPassed"
+          ],
+          "case": true,
+          "exact": true
+        },
+        {
+          "color": "#000000",
+          "keywords": [
+            ": Closed",
+            "{Closed",
+            ".Closed}",
+            " Closed "
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#80f2f2",
+          "keywords": [
+            "F2FileDescriptor:",
+            "NameSpace:",
+            "Namespace:",
+            "namespace:",
+            "Using:",
+            "using:",
+            "Inherits:",
+            "Fields:",
+            "Properties:",
+            "Methods:",
+            "Members:",
+            "Type:",
+            "Type!:",
+            "ItemType:",
+            "Mandatory:",
+            "IsDefault:",
+            "IsList:",
+            "Status:",
+            "Id:",
+            "Summary:",
+            "Details:",
+            "Parts:",
+            "+:",
+            "CreatedBy:",
+            "CreatedAt:",
+            "AllowedTypes:",
+            "Entitlements:",
+            "Comments:",
+            "Notes:"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#a38d1f",
+          "keywords": [
+            "new:",
+            "  new "
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#4d4c4c",
+          "keywords": [
+            ": LowPrio",
+            ": Postponed"
+          ],
+          "case": true,
+          "exact": false
+        },
+        {
+          "color": "#86668a",
+          "keywords": [
+            "OnHold"
+          ],
+          "case": true,
+          "exact": true
+        }
+      ],
+      "ranges": [
+        {
+          "rangeColor": "#ffff00",
+          "rangeEnd": "",
+          "rangeStart": "CurrentFocus",
+          "scrollbarColor": "#ffff00"
+        },
+        {
+          "rangeColor": "#fa0000",
+          "rangeEnd": "",
+          "rangeStart": "TODO",
+          "scrollbarColor": "#ff1e05"
+        },
+        {
+          "rangeColor": "#e10ea9",
+          "rangeEnd": "-:",
+          "rangeStart": "<-",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#a90ee1",
+          "rangeEnd": "",
+          "rangeStart": "=:",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#f0f6cb",
+          "rangeEnd": "():",
+          "rangeStart": " ",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#01edfe",
+          "rangeEnd": "@$",
+          "rangeStart": "$@",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#e10ea8",
+          "rangeEnd": ":",
+          "rangeStart": "<--",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#dbffff",
+          "rangeEnd": "<",
+          "rangeStart": "-->",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#ceb227",
+          "rangeEnd": ">",
+          "rangeStart": "<",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#715638",
+          "rangeEnd": "]",
+          "rangeStart": "[^",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#d7c60f",
+          "rangeEnd": "",
+          "rangeStart": "+:",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#a90ee1",
+          "rangeEnd": "-[]:",
+          "rangeStart": "<-",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#1f7500",
+          "rangeEnd": "):",
+          "rangeStart": "(",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#dbffff",
+          "rangeEnd": "<",
+          "rangeStart": "~->",
+          "scrollbarColor": "#000000"
+        },
+        {
+          "rangeColor": "#ff0000",
+          "rangeEnd": "",
+          "rangeStart": "TODO",
+          "scrollbarColor": "#fc0303"
+        }
+      ]
+    }
+  ]
+}

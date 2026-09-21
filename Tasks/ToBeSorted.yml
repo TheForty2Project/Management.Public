@@ -259,7 +259,7 @@
           - Create a schedule for the first run  in day 4 (observe the body)
           - TF2P:
     
-  EstTODO .Move the below NegativeEventProtocol to its correct place:
+  Done .Move the below NegativeEventProtocol to its correct place:
     +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
     Details:    
       NegativeEventProtocol:
@@ -310,7 +310,8 @@
             - No relationship decisions.
             - No life-changing decisions.
             - No important work decisions while triggered.
-
+    Result: -->CurrentWork\Hana\Personal\."NegativeEventProtocol for Bobi and Hana"<
+     
       
     Cancelled .Create rules baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}

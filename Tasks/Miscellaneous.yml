@@ -1,26 +1,24 @@
-+: {Type: Folder, DefaultTypes: [Task, Folder]}
++: { Type: Folder, DefaultTypes: [ Task, Folder ] }
 Id: Misc
 
 .IT:
   OnGoing .Environment configuration:
     Id: EnvConfig
-    Details:
-      SW Installations, configuration, etc.
+    Details: SW Installations, configuration, etc.
   OnGoing .Git setups:
     Id: Git
     Blocked .Create a new repository after the cleanups:
-      +: {CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
+      +: { CreatedBy: Bobi, CreatedAt: 20260420 T 133138, By: Bobi, Tags: [ CSVDONE ], Estimation: "30", RemTime: "30" }
       DependsOn: -->Tasks\Management\.."OCWSPhase1".."Clean up the files we are publishing"<
-      
+
 .BusinessAnalysis:
   Id: BA
-  Details:
-    Business analysis related - e.g. requirement writing, discussions, etc.
+  Details: Business analysis related - e.g. requirement writing, discussions, etc.
   .F2ToolsExtension:
     Id: F2Tools
     InProgress .QueryDescription based CSV report generation:
       Id: QueryBasedCSV
-      +: {CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: [Bobi, Hana]}
+      +: { CreatedBy: Bobi, CreatedAt: 20260513 T 004711, By: [ Bobi, Hana ] }
       Details:
         - Work into: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV<
         - Reach the ReadyForDev status (including a review with Hana)
@@ -29,41 +27,32 @@ Id: Misc
         +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
       Done .Review with Hana:
         Id: Review
-        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Estimation: 20, RemTime: 10}
+        +: { CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [ Bobi, Hana ], Estimation: 20, RemTime: 10 }
       OnGoing .Handover and changes during implementation:
         Id: Handover
-        +: {CreatedBy: Bobi, CreatedAt: 20260527 T 153932, By: [Bobi, Hana]}
+        +: { CreatedBy: Bobi, CreatedAt: 20260527 T 153932, By: [ Bobi, Hana ] }
     InProgress .F2Link related upgrades:
       Id: F2LinkUpgrades
-      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 153759, By: [Bobi,Hana], Estimation: 120, RemTime: 20}
+      +: { CreatedBy: Bobi, CreatedAt: 20260520 T 153759, By: [ Bobi, Hana ], Estimation: 120, RemTime: 20 }
       Details:
         - work into -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades<
         - Reach the ReadyForDev status (including a review with Hana)
       Done .Create Draft:
-        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [CSVTODO], Estimation: 120, RemTime: 0}
+        +: { CreatedBy: Bobi, CreatedAt: 20260520 T 161748, By: Bobi, Tags: [ CSVTODO ], Estimation: 120, RemTime: 0 }
       TODO .Review with Hana:
-        +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [Bobi, Hana], Tags: [CSVTODO], Estimation: 20, RemTime: 20}
+        +: { CreatedBy: Bobi, CreatedAt: 20260520 T 161808, By: [ Bobi, Hana ], Tags: [ CSVTODO ], Estimation: 20, RemTime: 20 }
     Done .Text Output support:
       Id: TextOutput
-      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 161853, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
-      Details:
-        Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
+      +: { CreatedBy: Bobi, CreatedAt: 20260520 T 161853, By: Bobi, Tags: [ CSVTODO ], Estimation:, RemTime: }
+      Details: Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 .Health:
   InProgress .Health planning W20260608:
-    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi}
-    Details:
-      Food
-      Gym
-      Dandar Bath - Thursday?
+    +: { CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi }
+    Details: Food Gym Dandar Bath - Thursday?
     Workspace:
       Food:
-        Tuesday-Friday:
-          Afrikai harcsa
-          Chicken breast w sauces
-          Luncheon meat with boc choy
-          Chicken soup
-          Pork soup          
+        Tuesday-Friday: Afrikai harcsa Chicken breast w sauces Luncheon meat with boc choy Chicken soup Pork soup
       Supplements:
         Details: -->..."Hana to make supplements plan"<
         WorkSpace:
@@ -81,12 +70,10 @@ Id: Misc
               - L-Glutamin 5 g
               - Collagen 5g
               - NAC 1 pill
-      Gym:
-        Target is every day
-      Cardio:
-        One day run, then hiit, then rest
+      Gym: Target is every day
+      Cardio: One day run, then hiit, then rest
     Done .Hana to make supplements plan:
-      +: {CreatedBy: Bobi, CreatedAt: 20260608 T 221507, By: Hana}
+      +: { CreatedBy: Bobi, CreatedAt: 20260608 T 221507, By: Hana }
       Details:
         About each supplement:
           Id:
@@ -94,14 +81,14 @@ Id: Misc
           When:
             Details: at what time of the day, before/after meals, etc.
           Benefits:
-        Group them if possible - such as "morning", "before meal", etc.:          
+        Group them if possible - such as "morning", "before meal", etc.:
         Per person:
     InProgress .Hana to schedule it own in google Calendar:
-      +: {CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [CSVTODO], Estimation: 30m, RemTime: 30m}
+      +: { CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [ CSVTODO ], Estimation: 30m, RemTime: 30m }
       Done .Activity has been scheduled in (hanakovacs42@gmail.com) calendar:
       Done .Schedule supplements:
   TODO .Create an an analysis about the effects of consuming various sugars:
-    +: {CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [Bobi Hana], Tags: [CSVDONE], Estimation: "60", RemTime: "60"}
+    +: { CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [ Bobi Hana ], Tags: [ CSVDONE ], Estimation: "60", RemTime: "60" }
     Details:
       Include:
         Sucrose vs dextrose:
@@ -109,7 +96,7 @@ Id: Misc
           - what are the symptoms of spike/crash
           - how to avoid it
           - adverse effects short long term:
-            - how to "heal" them          
+              - how to "heal" them
           - how to combine macronutrients to avoid spike (e.g. fats)
         Difference in between females and males:
         How much of dextrose and sucrose should we include in our diets:
@@ -123,67 +110,66 @@ Id: Misc
         Activities before/after eating:
           - Walk after - how much it helps
           - Eating on "starved" state:
-            - sugar spike?
+              - sugar spike?
   Done .Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.:
-    +: {CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [CSVDONE], Estimation: 60, RemTime: 0}
+    +: { CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [ CSVDONE ], Estimation: 60, RemTime: 0 }
     Result: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.HealthLog20260606Hana<
   OnGoing .Do health log and daily reviews:
-    +: {CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [CSVDONE]}
+    +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ CSVDONE ] }
     Details:
       - analyse Health through Garmin data
       - review exercise schedule
-      - stream it      
+      - stream it
   OnGoing .Do weekly health related planning:
-    +: {CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
+    +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
     Details:
       Perform the followings:
         InProgress .Analyse Health Data:
-          +: {CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [CSVTODO], Estimation: 180m, RemTime: 180m}       
+          +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ CSVTODO ], Estimation: 180m, RemTime: 180m }
         OnGoing .Schedule Health Analysis sessions:
           Details:
             Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
-          Results: 
+          Results:
             20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
         TODO .Schedule exercises and include baba in the morning after waking up and evening before sleeping:
-          Details: 
+          Details:
             - We can start preschedule for a week period
             - Include goals what we want to acheive in a month, 3 month, 6 month
         TODO .Schedule body measurement:
   InProgress .Create health-log tracking requirements:
-    +: {CreatedBy: Bobi, CreatedAt: 20260608 T 192920, By: Bobi}
+    +: { CreatedBy: Bobi, CreatedAt: 20260608 T 192920, By: Bobi }
     Details:
       - Collect the use cases - what do we want to use them for; don't do it too formally though
       - Collect what data we want to collect:
-        - Results:
-          - Mood
-          - Farting/Burping/Poop
-          - Fights
-        - Possible causes:
-          - Food we ate:
-            - \"fancy" stuff: suspicious spices (garlic, onion, csípős),
-            - Veggies:
-            - Resistant starch
-            - Fatty/non            
-          - Gym, etc.
-          - Anything "worth mentioning" - so there should be a field for this
-          - Drugs:
-            - Both supplements and non-supplements          
+          - Results:
+              - Mood
+              - Farting/Burping/Poop
+              - Fights
+          - Possible causes:
+              - Food we ate:
+                  - \"fancy" stuff: suspicious spices (garlic, onion, csípős),
+                  - Veggies:
+                  - Resistant starch
+                  - Fatty/non
+              - Gym, etc.
+              - Anything "worth mentioning" - so there should be a field for this
+              - Drugs:
+                  - Both supplements and non-supplements
     InProgress .Collect initial ideas:
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 143822, By: [Bobi, Hana], Estimation: 15m, Remaining: 15}
+      +: { CreatedBy: Bobi, CreatedAt: 20260609 T 143822, By: [ Bobi, Hana ], Estimation: 15m, Remaining: 15 }
       Workspace:
         What we want with all this data collection:
-          Final goals:
-            Better mood and general physical condition so that we can be jolly happy all the time
+          Final goals: Better mood and general physical condition so that we can be jolly happy all the time
           SubGoals:
             - Develop a knowledge-base about how to live the most happy life, understanding that health plays a big role:
-              - a balance need to be found, because both:
-                - health plays a big role in one's ability to be happy
-                - one can't spend all his/her time on health-improvement taks; all work no play makes Jack a dull boy.
-              - what and how to eat, exercise, take ds to find the balance
-              - identify the areas which matter (eating timing, spices, macro-micro nutrients, exercise heavyness, frequency, timing, etc.)
-              - identify what events cause what events - e.g. late eating causes bad mood and digestion next day
+                - a balance need to be found, because both:
+                    - health plays a big role in one's ability to be happy
+                    - one can't spend all his/her time on health-improvement taks; all work no play makes Jack a dull boy.
+                - what and how to eat, exercise, take ds to find the balance
+                - identify the areas which matter (eating timing, spices, macro-micro nutrients, exercise heavyness, frequency, timing, etc.)
+                - identify what events cause what events - e.g. late eating causes bad mood and digestion next day
             - Create reports:
-              - Detailed "completed exercises" reports, e.g. how many reps in what exercises (like bench-press)
+                - Detailed "completed exercises" reports, e.g. how many reps in what exercises (like bench-press)
           The followings should be logged:
             - an entry from one of the below LogEntry descendants
             - about each event the specific class is about
@@ -194,11 +180,11 @@ Id: Misc
           Classes:
             class .LogEntry:
               Inherits: StandardItem
-              string UserName:       
+              string UserName:
               DateTime Time:
-                Details: the time of the event; 
+                Details: the time of the event;
               string NotableThings:
-                Details: anything notable for the event          
+                Details: anything notable for the event
             class .SupplementLog:
               Inherits: LogEntry
               string[] What:
@@ -211,7 +197,7 @@ Id: Misc
               GarminAnalysis .GarminPhotoAnalysis:
                 Details: type to be defined later
               MoodLog .MoodBefore:
-              MoodLog .MoodAfter:                
+              MoodLog .MoodAfter:
             class .PoopikaLog:
               Inherits: LogEntry
               PoopikaType .PType:
@@ -221,8 +207,7 @@ Id: Misc
             class .MoodLog:
               Inherits: LogEntry
               Duration .PeriodLengthInHrs:
-                Details:
-                  The length of time (starting from Time) for which the log is recorded; average values.
+                Details: The length of time (starting from Time) for which the log is recorded; average values.
               Levels .Irritability:
               Levels .Drowsiness:
               Levels .Foggyness:
@@ -235,90 +220,100 @@ Id: Misc
             class .ExerciseLog:
               Inherits: LogEntry
               string .Category:
-                Details:
-                  Weights, Running, Walking, Hiking, Stretching, Sauna
+                Details: Weights, Running, Walking, Hiking, Stretching, Sauna
               Duration .Length:
               Levels .Intensity:
             class .DLog:
               Inherits: LogEntry
               string Kind:
-                Details:
-                  W, M, K, C, V, etc.
+                Details: W, M, K, C, V, etc.
               Levels Intensity:
-                Details:
-                  The effects of it - how much it was felt                
+                Details: The effects of it - how much it was felt
     TODO .Showcase health-log to Bobi:
-      +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154540}
+      +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [Hana], Tags: [TL, Private, Health], Estimation: 10, RemTime: 10, Importance: 3-Average}
-        Result: 
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
+        Result:
           - Showcase healthLog is on Aug 1
       EstTODO .Prepare for health-log showcase:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [Hana], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh} 
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
       NEXT .Showcase health log:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
       NEXT .Action the feedback items:
-        +: {CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana], Tags: [TL, Private, Health]}
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [ Hana ], Tags: [ TL, Private, Health ] }
   OnGoing .Create food schedule for the next week:
-    Details: 
+    Details:
       - Fish 3x a week
       - One vegeterian day for Hana
       - Take into consideration the time of month for menstrual cycle
       - Focus on Robis Health
+    20260914:
+      - Breakfast: 
+        - Oatmeal 
+        - Boiled Egg
+        - Spinach
+        - Mushroom
+        - Avocado
+      - Brunch:
+        - Banana shake with lil protein
+      - Lunch:
+        - Chicken breast
+        - Spinach and mixed green salad
+        - Boiled Carrots
+        - White rice
   EstTODO .Analysis of the month of June and July:
-    +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}      
+    +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [ TL, Private ], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:
       - Analysis of the month of June and July:
-        - is there a correlation in between number of calories burnt and bad mood the next day?
-        - if intense runs - knee pain next day?
-        - weight reduction - did it help in muscle pain?
+          - is there a correlation in between number of calories burnt and bad mood the next day?
+          - if intense runs - knee pain next day?
+          - weight reduction - did it help in muscle pain?
 
   Done .Research kidney-saving protocol:
-    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [Hana, Bobi], Tags: [TL, Private, Health], Estimation: , RemTime: , Importance: 6-Extreme}
+    +: { CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation:, RemTime:, Importance: 6-Extreme }
     Details:
       - include:
-        - low blood pressure effects
-        - diet - what to eat/avoid
-        - exercises
-        - water
-        - salt
-        - sickle cell trait effects      
+          - low blood pressure effects
+          - diet - what to eat/avoid
+          - exercises
+          - water
+          - salt
+          - sickle cell trait effects
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   Done .Work out a blood pressure increasing training protocol with ChatGPT:
-    +: {CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TL, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+    +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [ TL, Health, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
   OnGoing .Schedule lab test and doctor appointments:
-    +: {CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana}
-    
+    +: { CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana }
 
     Done .Research lab test for both Robert and Hana:
-      +: {CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+      +: { CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [ TL ], Estimation:, RemTime:, Importance: 3-Average }
       Tests:
         Abdominal tests (includes kidney tests):
           Details:
-            Location:  https://synlab.hu/hasi-panaszok-csomag/
+            Location: https://synlab.hu/hasi-panaszok-csomag/
             Est Price: 49k per person
-        Blood genetics tests: 
+        Blood genetics tests:
           Details:
             - Complete HBB gene sequencing with deletion/duplication analysis (MLPA if indicated) for diagnosis of sickle cell disease/trait and β-thalassemia.
             - Given how specific your case is, I think one of the best routes is through a hematologist or clinical geneticist at a university center, such as Semmelweis University.
         Genetic tests pre conception:
-          Details:  
+          Details:
             location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
             Est Price: 250k-350k per person
     Done .Add it to the budget sheet:
     Done .Schedule Bobi's lipid panel:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [TL, Private], Estimation: 30, RemTime: 0, Importance: 5-VeryHigh}
+      +: { CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [ TL, Private ], Estimation: 30, RemTime: 0, Importance: 5-VeryHigh }
       Details:
         - "Nagy rutin"
         - + TSH
         - anythingelseHanathinksof
-        - Confirm it with Bobi              
+        - Confirm it with Bobi
     Done .Research about Hashimoto and LDL and SIBO connection:
-      +: {CreatedBy: Bobi, CreatedAt: 20260827 T 130533, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+      +: { CreatedBy: Bobi, CreatedAt: 20260827 T 130533, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
       Details:
         - Can it happen that - e.g. when my immune system is down - this flares up, e.g. I don't have enough thyroid hormones produced quickly enough, reducing energy, digestion, increasing LDL?
         - If so, could thyroid hormone supplementation help? What are the side effects?
@@ -335,51 +330,50 @@ Id: Misc
           - Current listed consultation: 39,000 Ft
           - Number: +36 20 344 3733
         Dr. Katalin Ábel Tatjana - Diabetologist, Lipidologist, Obesitologist:
-            - Address: Wáberer Medical Center - HillSide Budapest, XII. district, Alkotás utca 55-61. Hillside
-            - Nearest appointment: Sep 09
-            - Online Appointment: https://foglaljorvost.hu/diabetologus/dr-abel-tatjana-katalin/?dc_id=13866
-            - Current listed consultation: 47,500 Ft
-            - Number: +36 1 323 7000
+          - Address: Wáberer Medical Center - HillSide Budapest, XII. district, Alkotás utca 55-61. Hillside
+          - Nearest appointment: Sep 09
+          - Online Appointment: https://foglaljorvost.hu/diabetologus/dr-abel-tatjana-katalin/?dc_id=13866
+          - Current listed consultation: 47,500 Ft
+          - Number: +36 1 323 7000
         Dr. Gábor Simonyi - Cardiologist, Endocrinologist, Obesitologist, Diabetologist, Lipidologist:
-            - Address: Buda Private Medical Center - Savoya Park Budapest, XI. district, Hunyadi János út 19 (Savoya Park)
-            - Nearest appointment: Sep 15
-            - Online Appointment: https://foglaljorvost.hu/endokrinologus/dr-simonyi-gabor/?dc_id=14976
-        
+          - Address: Buda Private Medical Center - Savoya Park Budapest, XI. district, Hunyadi János út 19 (Savoya Park)
+          - Nearest appointment: Sep 15
+          - Online Appointment: https://foglaljorvost.hu/endokrinologus/dr-simonyi-gabor/?dc_id=14976
+
     Done .Schedule Hana's NagyRutin:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+      +: { CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
       Details:
         - egfr most importantly
         - anything else?
         - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
         - Compare with KisRutin - does it have egfr and what does nagyrutin have extra, do we need it
     EstTODO .Kidney functions:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140147}
+      +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140147 }
       Blocked .Research and decide about kidney ultrasound:
-        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
         Workspace:
           - egfr improved in the meantime - to ~65 - but creatinine was still high. Waiting for the cystatin-c
         DependsOn: Cystatin-c results
       NEXT .Book the appointment if decided:
-        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
+        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [ TL, Private ], Estimation: 15, RemTime: 15, Importance: 3-Average }
     Blocked .Schedule testing afer receiving Sudan Money:
-      +: {CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+      +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [ TL, Private ], Estimation:, RemTime:, Importance: 3-Average }
       Details:
         - Extra tests for conception (see the google sheet)
-        - Abdominal complaints (Hasi panaszok csomag) package (49k)        
+        - Abdominal complaints (Hasi panaszok csomag) package (49k)
 .Schedules:
   Done .Schedule Health Analysis (Live):
-    +: {CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [], Estimation: 40m, RemTime: 40m}
-    Details:
-      Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
+    +: { CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [], Estimation: 40m, RemTime: 40m }
+    Details: Hana to designed schedule for food, mobility and sleep for both and to share the results with Bobi tomorrow Live
     Results: -->Tasks\Miscellaneous\.."Health".."Create health-log tracking requirements"<
   InProgress .Create incentivisation system baseline:
-    +: {CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [], Estimation:, RemTime:}
+    +: { CreatedBy: Bobi, CreatedAt: 20260614 T 192842, By: Bobi, Tags: [], Estimation:, RemTime: }
     Workspace:
       First idea:
         # - points 1p = 1 "effectively spent minute on important task":
         #   - important task: something which we'd likely prioritize as such on a prioritization meeting
         #   - effectively: concentrating on the Task, not e.g. browsing, talking, chatting or fiddling with some unimportant details of it
-        - incentives:            
+        - incentives:
             # .DailyDishwashing:
             #   Details:
             #     At each checkpoint - e.g. end of the day - the decision is made about the dishwashing scheule:
@@ -388,16 +382,21 @@ Id: Misc
             #       - the one collecting less points is the one washing the dishes before going to bed
             .EnforceImportantTask:
               Details:
-                - On the threat of a number of dishwashing (one-one day-one week) one needs to perform a Task:                  
-                  - first n warnings should be issued
-                  - if the Task is still not completed after the warnings, the consequences can be triggered - e.g. next x day dishwashing.:
+                - On the threat of a number of dishwashing (one-one day-one week) one needs to perform a Task:
+                    - first n warnings should be issued
+                    - if the Task is still not completed after the warnings, the consequences can be triggered - e.g. next x day dishwashing.:
                 - If a Task is like this, the concrete rules (how many warnings, what is the punishment exactly) should be mentioned in its Comments property
     TODO .Move the idea from the above workspace to its correct place:
-      +: {CreatedBy: Bobi, CreatedAt: 20260614 T 195929, By: Bobi, Tags: [CSVTODO], Estimation:, RemTime:}
+      +: { CreatedBy: Bobi, CreatedAt: 20260614 T 195929, By: Bobi, Tags: [ CSVTODO ], Estimation:, RemTime: }
       Details:
         - maybe processes? yep. But where - that's the task.
 
     NEXT .Finalize and review it:
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 143837, By: [Hana, Bobi]}
-    
+      +: { CreatedBy: Bobi, CreatedAt: 20260609 T 143837, By: [ Hana, Bobi ] }
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
+reviews:
+  Was:
+    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 4m, "", 20260913 T 213445 ]
+  Next:
+    - null

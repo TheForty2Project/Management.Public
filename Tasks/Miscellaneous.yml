@@ -232,7 +232,7 @@ Id: Misc
     TODO .Showcase health-log to Bobi:
       +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TLDone, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
         Result:
           - Showcase healthLog is on Aug 1
       EstTODO .Prepare for health-log showcase:
@@ -273,7 +273,7 @@ Id: Misc
           - weight reduction - did it help in muscle pain?
 
   Done .Research kidney-saving protocol:
-    +: { CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation:, RemTime:, Importance: 6-Extreme }
+    +: { CreatedBy: Bobi, CreatedAt: 20260725 T 204053, By: [ Hana, Bobi ], Tags: [ TLDone, Private, Health ], Estimation:, RemTime:, Importance: 6-Extreme }
     Details:
       - include:
           - low blood pressure effects
@@ -285,12 +285,12 @@ Id: Misc
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   Done .Work out a blood pressure increasing training protocol with ChatGPT:
-    +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [ TL, Health, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+    +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TLDone, Health, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
   OnGoing .Schedule lab test and doctor appointments:
     +: { CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana }
 
     Done .Research lab test for both Robert and Hana:
-      +: { CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [ TL ], Estimation:, RemTime:, Importance: 3-Average }
+      +: { CreatedBy: Hana, CreatedAt: 20260806 T 172406, By: Hana, Tags: [TLDone ], Estimation:, RemTime:, Importance: 3-Average }
       Tests:
         Abdominal tests (includes kidney tests):
           Details:
@@ -306,21 +306,21 @@ Id: Misc
             Est Price: 250k-350k per person
     Done .Add it to the budget sheet:
     Done .Schedule Bobi's lipid panel:
-      +: { CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [ TL, Private ], Estimation: 30, RemTime: 0, Importance: 5-VeryHigh }
+      +: { CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [ TLDone, Private ], Estimation: 30, RemTime: 0, Importance: 5-VeryHigh }
       Details:
         - "Nagy rutin"
         - + TSH
         - anythingelseHanathinksof
         - Confirm it with Bobi
     Done .Research about Hashimoto and LDL and SIBO connection:
-      +: { CreatedBy: Bobi, CreatedAt: 20260827 T 130533, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
+      +: { CreatedBy: Bobi, CreatedAt: 20260827 T 130533, By: Hana, Tags: [ TLDone, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
       Details:
         - Can it happen that - e.g. when my immune system is down - this flares up, e.g. I don't have enough thyroid hormones produced quickly enough, reducing energy, digestion, increasing LDL?
         - If so, could thyroid hormone supplementation help? What are the side effects?
       Result:
         - Unlikely that my high ldl is caused by hashimoto - see the latest tests; everything is normal (T3, T4, TSH).
     Done .Find a doctor for Bobi's lipid shit:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: [Hana, Bobi], Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 134524, By: [Hana, Bobi], Tags: [TLDone, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
       DependsOn: -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Research about Hashimoto and LDL and SIBO connection"<
       Workspace:
         Prof. Dr. Császár Albert - Lipidologus:
@@ -341,7 +341,7 @@ Id: Misc
           - Online Appointment: https://foglaljorvost.hu/endokrinologus/dr-simonyi-gabor/?dc_id=14976
 
     Done .Schedule Hana's NagyRutin:
-      +: { CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
+      +: { CreatedBy: Bobi, CreatedAt: 20260825 T 003919, By: Hana, Tags: [TLDone, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
       Details:
         - egfr most importantly
         - anything else?
@@ -350,14 +350,14 @@ Id: Misc
     EstTODO .Kidney functions:
       +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140147 }
       Blocked .Research and decide about kidney ultrasound:
-        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [ TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
         Workspace:
           - egfr improved in the meantime - to ~65 - but creatinine was still high. Waiting for the cystatin-c
         DependsOn: Cystatin-c results
       NEXT .Book the appointment if decided:
-        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [ TL, Private ], Estimation: 15, RemTime: 15, Importance: 3-Average }
+        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private ], Estimation: 15, RemTime: 15, Importance: 3-Average }
     Blocked .Schedule testing afer receiving Sudan Money:
-      +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [ TL, Private ], Estimation:, RemTime:, Importance: 3-Average }
+      +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [TL, Private ], Estimation:, RemTime:, Importance: 3-Average }
       Details:
         - Extra tests for conception (see the google sheet)
         - Abdominal complaints (Hasi panaszok csomag) package (49k)

@@ -821,7 +821,7 @@ OnGoing .Task administration:
     Done .V3.0.1:
       Done .Package and publish:
     Done .Package and add to repo V3.1.1:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
       
 
 .Bugs:

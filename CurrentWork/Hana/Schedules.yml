@@ -580,7 +580,7 @@
       - Watching Movie
 .Tasks:
 OnGoing .Schedule and estimate activity for the next 10 days:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana, Tags: [TL], Estimation: , RemTime: }
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 133834, By: Hana }
   Details:
     - Activity should be based on the physical symptoms
     - Physical tasks that has to be done each week:
@@ -662,8 +662,11 @@ OnGoing .Schedule and estimate activity for the next 10 days:
         TODO . Apply the HOS set of Questions afyer the run:
 
 
-  EstTODO .Activity schedule 03-13 Aug:
-    +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
+  Cancelled .Activity schedule 03-13 Aug:
+    +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TLDone, Private], Estimation: 60, RemTime: 60, Importance: 3-Average}
+  EstTODO .Activity schedule 23-31 Sep:
+    +: {CreatedBy: Bobi, CreatedAt: 20260803 T 185407, By: Hana, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
+
 Done .ScheduleSwitzerland:
   Workspace:    
     - Hana is coming back on the 21st - evening
@@ -714,15 +717,15 @@ Done .ScheduleSwitzerland:
     Details:
       - Done canned fish
       - libamajkrem      
-  EstTODO .Search for and then if not found, buy Garmin charging cable:
-    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145915, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 6-Extreme}
+  Done .Search for and then if not found, buy Garmin charging cable:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145915, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 6-Extreme}
   Cancelled .Agree with Tomi on the gym times:
-    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
     CancelReason: I'd rather go with Hana.
-  EstTODO .Schedule some badminton:
-    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}    
+  Cancelled .Schedule some badminton:
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 145838, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}    
   Done .Hana to check Anyu's notebook:
-    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 140154, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260813 T 140154, By: Hana, Tags: [TLDone], Estimation: , RemTime: , Importance: 3-Average}
     Details:
       - sync - do you have everything?
       - Change something, commit and sync - did it work?

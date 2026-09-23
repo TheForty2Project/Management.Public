@@ -4674,8 +4674,6 @@ BobiHOSLog20260914 incomplete:
         - 5 movement activity
         - Body Battery 18 at the end of the day
         - Active Calorie: 632   
-
-
 Note Drug  20260916:
   - Bobi have inflamed poop ( thin poop that you need to wipe alot) and irritable bowl syndrom this day
   - pooped 2 times
@@ -4698,18 +4696,54 @@ Note Drug  20260916:
     - Weed calms nevous system and guts
     - sleeping by midnight
     - Hana asked if he will sleep at the same time the next days or he will sleep 
-    - Bobi stated he will sleep by 1 so his biorythm wont be distrupted
-    -
+    - Bobi stated he will sleep by 1 so his biorythm wont be distrupted    -
 Notes about Weed:
   - Meeting Lorcan and having the same condition as Robi
   - Robi telling me about his past in how he smokes and eat carbs after
   - Cannabis slow motility https://chatgpt.com/share/6aac2a8f-b1dc-83eb-8692-56e99006c88b also improve gi symtopms ( vicseral pain)
   - stress: 
-BobiHOSLOG20260916:
+
+HanaHOSLog20260918:
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 89
+    Duration: 8h 6m
+    WakeTime: 8:03
+  .Food: 
+    - Oatmeal fruit plate
+    - coffee
+    - 0.8L of H2O
+  .Movement:
+    - Walk: 0.6 km 
+    - Walk: 2 km
+  .Work: 
+    - Replst
+    - Health log
+  .Work
+  .
+BobiHOSLOG20260918:
+  .Morning:
+    Wake up really weel
+    slept early check garmin
+  .Work:
+    we had replst but we didnt continue
+  . movement":
+    - Went to gym and went for a walk in the treadmill
+    - Hana mentioned that if he cant do that then we can go for chepel
+    - Bobi wanted to smoke 
+    - Stated that stop smoking doesnt help with his SIBO
+    - mentioned later after coming back home that this is because of his biorythm
 
 Notes To be done:
   - Legend for numeration
   - Include stool score and type
   - Include Sexual activity and thoughts
   - Include productivity hours of the day calculated from StandUp report
+  - Include picture of face every morning and before sleeping
+  - Structure the health logs :
+    - Taskify it and include the value of the task for members 
+    - include the goals and subgoals:
+      - eg. sleeping schedule range and hygiene
+      - Create health log platform on Whatsapp 
+
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -180,7 +180,7 @@ OnGoing .Task administration:
             all other arrays, sequence/map, ItemList      
     EstTODO .Type (class) support:
       Id: TypeDescriptionSupport
-      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021315, By: Bobi, Tags: [Dev, F2Tools], Estimation: 240, RemTime: 240}
+      +: {CreatedBy: Bobi, CreatedAt: 20260609 T 021315, By: Bobi}
       Details:
         Type verification support:
           - class parsing and the ClassDescription + PropertyDescription + TypeInfo types
@@ -192,10 +192,13 @@ OnGoing .Task administration:
           - Future: 
             - Code completion
             - Coloring
-      TODO .Non-Item ClassDescription:
-        +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
+      EstTODO .Basic Type support:
+        +: {CreatedBy: Bobi, CreatedAt: 20260902 T 132934, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 180, Importance: 3-Average}
         Details:
-          - In the example implementation  to avoid the circular initialization and dependency hell
+      EstTODO .Non-Item ClassDescriptions:
+        +: {CreatedBy: Bobi, CreatedAt: 20260613 T 144749, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60, Importance: 3-Average}
+        Details:
+          - In the example implementation to avoid the circular initialization and dependency hell
     Done .Double-linked lists:
       Id: DoubleLinkedLists
       +: {CreatedBy: Bobi, CreatedAt: 20260609 T 022636, By: Bobi}
@@ -458,6 +461,12 @@ OnGoing .Task administration:
                 Done .MySmallTodo:
         - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
         - Update the existing parsing functionalities in F2YamlWorkspaceItem          
+    EstTODO .Proper configuration support:
+      +: {CreatedBy: Bobi, CreatedAt: 20260916 T 235835, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      Details:
+        - Fix the configuration mess
+        - Load the configuration 
+      
   OnGoing .Create proper basic Item structures library:    
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: , Estimation: 120, RemTime: 0}
     Details:
@@ -542,16 +551,16 @@ OnGoing .Task administration:
             Normal: 180      
       Done .Create Implementation plan for Basic Query Execution:
         +: {CreatedBy: Bobi, CreatedAt: 20260611 T 140732, By: Bobi, Estimation: 20, RemTime: 0}
-    Implemented .Registers commands:
+    Done .Registers commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013615, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 0}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Registers commands"<
-    Implemented .Executes query:
+    Done .Executes query (basic):
       Id: Execute
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [Dev, F2Tools]}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
-      Implemented .Verifies query:
+      Done .Verifies query:
         Id: Verify
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 60}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 0}
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
         ImplPlan: |
           TryGetQueryDescriptionUnderTheCursor:
@@ -620,17 +629,33 @@ OnGoing .Task administration:
                 - csvColumnNames.join(",")
               - column values:
                 - content of csvCellValuesPerRow, \n in between rows, "," in between cell values
-      InProgress .Filter by the Where property:
+      Done .Filter by the Where property:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 20}
         DependsOn: -->...BasicExecute<
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..Filter<
         Done .Engine and majority:
-        InProgress .SkipUnder:
-    EstTODO .Writes Back From Output:
+        Done .SkipUnder:
+    EstTODO .Parse report CSV:
+      Id: ParseReport
+      +: {CreatedBy: Bobi, CreatedAt: 20260903 T 005713, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      Requirement: 
+        - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..Update<
+        - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
+      Details:
+        Parse the CSV into:
+          - Header into a -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.."ReportHeader"<
+          - Report content into headerIds[columnNo] and csvCellsInLines[rowNo][columnNo] arrays
+    Blocked .Update report:
+      Id: Update
+      +: {CreatedBy: Bobi, CreatedAt: 20260902 T 134310, By: Bobi, Tags: [Dev, F2Tools], Estimation: , RemTime: , Importance: 3-Average}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..Update<        
+      DependsOn: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
+    Blocked .Writes Back From Output:
       Id: WriteBack
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 180}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
+      DependsOn: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
   InProgress .F2Link class based F2Link handling:
     Id: F2LinkClass
     +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi}
@@ -644,10 +669,10 @@ OnGoing .Task administration:
     Done .Create a method which generates F2Links:
       +: {CreatedBy: Bobi, CreatedAt: 20260618 T 012449, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
       Details:
-    TODO .Replace the already existing F2Link generation functionalities to this:
+    EstTODO .Replace the already existing F2Link generation functionalities to this:
       +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150546, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 3-Average}        
-  TODO .ItemManager based F2Link following:
-    +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150959, By: Bobi, Tags: [Dev, F2Tools], Estimation: , RemTime: , Importance: 3-Average}
+  EstTODO .ItemManager based F2Link following:
+    +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150959, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60, Importance: 3-Average}
     Details:
       - Instead of the current method, use ItemManager to get the Item and point to it
   EstTODO .Replacing F2Links:
@@ -672,7 +697,7 @@ OnGoing .Task administration:
     EstTODO .Register commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000302, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 10}
       Details: 3 at the moment
-    EstTODO .MarkF2LinksForReplace:
+    EstTODO .Mark F2Links For Replace:
       Id: MarkF2LinksForReplace
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000421, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..MarkF2LinksForReplace<
@@ -680,14 +705,14 @@ OnGoing .Task administration:
         - finds all files,
         - parses them for f2links
         - and checks whether any points to the Item by analyzing the link    
-    EstTODO .ReplaceMarkedToIdLink:
+    EstTODO .Replace Marked To Id Link:
       Id: ReplaceMarkedToIdLink
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002832, By: Bobi, Tags: [Dev, F2Tools], Estimation: 45, RemTime: 45}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedToIdLink<
       Details:
         - simple id link generation + then replacing the old
         - keeping the escaping (csv/yaml)
-    EstTODO .ReplaceMarkedTo:
+    EstTODO .Replace Marked To:
       Id: ReplaceMarkedTo
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 15}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
@@ -774,7 +799,7 @@ OnGoing .Task administration:
         Result:
           PAR: 20m
           Normal: 40m
-          Explanation: expecting trouble, otherwise easy-peasy (simple string replace back and forth)
+          Explanation: expecting trouble, otherwise easy-peasy (simple string replace back and forth)  
   OnGoing .Publication to marketplace:
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
@@ -796,7 +821,7 @@ OnGoing .Task administration:
     Done .V3.0.1:
       Done .Package and publish:
     Done .Package and add to repo V3.1.1:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
       
 
 .Bugs:
@@ -1343,7 +1368,7 @@ OnGoing .Task administration:
     FixVersion: 3.1.1
   Fixed .Incorrect default for Where LeavesOnly:
     +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132442, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 0, Importance: 3-Average}    
-  Done .Unknown prefixes:
+  Fixed .Unknown prefixes:
     +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
     Details:
       - Could, Should, Must, Estimated, Obsolete
@@ -1363,6 +1388,12 @@ OnGoing .Task administration:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 134116, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Version: 3.1.0
     FixVersion: 3.1.1
+  Accepted .Unknown prefixes for Bugs:
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+    Version: 3.1.1    
+    Details:
+      - Fixed is definitely missing, others probably as well
+
     
 
     

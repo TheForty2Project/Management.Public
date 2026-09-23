@@ -4,7 +4,7 @@
   InProgress .Driving licence:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164541}
     Done .Check and plan driving licence renewal:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
       Details:
         - Check the email
         - Probably find a doctor
@@ -14,22 +14,50 @@
         - Book an appointment with the MD (Ferenc ter 1)
         - Do it.
     Done .Print the eyesight paper and test:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 154858, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 154858, By: Bobi, Tags: [TLDone, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
       Details:
         - Ask chatgpt for one
         - Print (+ what Hana wants to be printed)
       Result:
         - Did it on the screen; it's ok (right eye better than left; better with the glasses.)
     Cancelled .If my eyesight is bad, find and go to a doctor:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
-    EstTODO .Book a GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 4-High}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
+    Done .Book a GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 10, Importance: 6-Extreme}
+      Details:
+        Include:
+        - my lipid shit
+        - rifaximin course
+        - driving license
+        - I want to register myself there
+        Doctor: see the chatgpt conversation (the woman in Ferenc ter 1)
+      BlockedBy: the lipoprotein results
+    InProgress .Prepare for GP:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
+      Workspace:
+        - Find and print labs
+      TODO .Find lab results:
+        Details:
+          - Hana to do her task first
+      TODO .Fill in the forms:
+        Details:
+          - 3 forms
+      TODO .Print:
+        Details:
+          - 3 forms
+          - lab results
+      NEXT .Send in an email:
+        Details:
+        - 3 forms
+        - lab results
+        - copies of 3 documents
+        - confirmation if it's Thursday at 3
     NEXT .Attend GP appointment:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
     NEXT .Do the admin:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}      
   Done .Cleanup TL tasks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 0, Importance: 6-Extreme}    
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TLDone], Estimation: 30, RemTime: 0, Importance: 6-Extreme}    
   InProgress .Create baseline (daily/weekly) schedule as of 20260824:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi}
     Details:
@@ -77,7 +105,7 @@
         - create rules - what to do in what case, e.g. we're not feeling well (because of what reason) then how to change the schedule
         - Go through the "Include" part and modify the schedule by taking each point into accout
     Done .Create rough schedule:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 004239, By: Hana, Tags: [TLDone], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
       Details:
         - Read the parent tasks's details!
         - Base it on a schedule we created:
@@ -257,7 +285,7 @@
           - TF2P:
     
   Done .Move the below NegativeEventProtocol to its correct place:
-    +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155244, By: Bobi, Tags: [TLDone], Estimation: 15, RemTime: 15, Importance: 3-Average}
     Details:    
       NegativeEventProtocol:
 
@@ -311,61 +339,73 @@
      
       
     Done .Create rules baseline:
-        +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
-        Details:
-          - What to do in what negative event:        
-            - Not feeling well:
-              - Assessment (taking into account that the other might _not_ be cooperative):
-                - what "type" it is (therefore what treatment) and how strong it is:
-                - take into account sleep score, burping/farting, diarrhea (~= gut inflammation), blood pressure, hunger, chin-protrusion (for Hana), Robi's vision (blurry = pressure), walk speed, music enjoyment, sexual energy
-              - Treatments for each assessment results - ranging from "just do easy tasks" through "go for walk, eat, sleep, massage" to "have a recovery day and these are you recovery chores and rules for the day"
-            - Anythingelse?
-        Workspace:
-          Physically not feeling well:
-            - Switch to plain food
-            - Reduce D (Kratom, Velo, Salad)
-            - Soup and hydration
-            - Massage
-            - Gentle Walk
-          Mentally not feeling well (not knowing the cause physically):
-            - Walk
-            - Word of encouragmnt and reminder of goals 
-            - Milestone review
-            - Good deed in case you have the chance.
-            - Get out of comfort zone - Hana
-          Fights:
-            - Take into account that the person who fights might have:
-              - Gasses
-              - Diahhrea
-              - Bad sleep
-              - Bad family (trauma) enounter
-          Health Logs and health in general:
-            - Both Party should confirm and verify health records
-            - 
-          Work follow up on Task list:
-            -Responsibilities should be divided on the team to check the task list bidaily maybe?
-        Result: -->CurrentWork\Hana\Personal\."NegativeEventProtocol for Bobi and Hana"<      
-        
-
-
-
-    NEXT .Review and work out with Bobi:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Bobi, Hana], Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}      
-  EstTODO .Research psylocibin:
-    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
-    Details:
-      - How safe it is to buy the spores
-    Result:
-      - Mostly safe, safer than a grow kit.
-      - Grow kit _might_ be problematic
-      - Details: https://chatgpt.com/share/6a95f4db-2b78-83eb-aa69-7c0f3d2969e3
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 142606, By: Hana, Tags: [TLDone], Estimation: 30, RemTime: 30, Importance: 6-Extreme}
+      Details:
+        - What to do in what negative event:        
+          - Not feeling well:
+            - Assessment (taking into account that the other might _not_ be cooperative):
+              - what "type" it is (therefore what treatment) and how strong it is:
+              - take into account sleep score, burping/farting, diarrhea (~= gut inflammation), blood pressure, hunger, chin-protrusion (for Hana), Robi's vision (blurry = pressure), walk speed, music enjoyment, sexual energy
+            - Treatments for each assessment results - ranging from "just do easy tasks" through "go for walk, eat, sleep, massage" to "have a recovery day and these are you recovery chores and rules for the day"
+          - Anythingelse?
+      Workspace:
+        Physically not feeling well:
+          - Switch to plain food
+          - Reduce D (Kratom, Velo, Salad)
+          - Soup and hydration
+          - Massage
+          - Gentle Walk
+        Mentally not feeling well (not knowing the cause physically):
+          - Walk
+          - Word of encouragmnt and reminder of goals 
+          - Milestone review
+          - Good deed in case you have the chance.
+          - Get out of comfort zone - Hana
+        Fights:
+          - Take into account that the person who fights might have:
+            - Gasses
+            - Diahhrea
+            - Bad sleep
+            - Bad family (trauma) enounter
+        Health Logs and health in general:
+          - Both Party should confirm and verify health records
+          - 
+        Work follow up on Task list:
+          -Responsibilities should be divided on the team to check the task list bidaily maybe?
+      EstTODO .Review what is in the workspace:
+        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 4-High}
+    EstTODO .Review and work out with Bobi:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Hana, Bobi], Tags: [TL, Health], Estimation: 30, RemTime: 30, Importance: 4-High}      
+  InProgress .Research and buy psylocibin:
+    Done .Research:
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
+      Details:
+        - How safe it is to buy the spores
+      Result:
+        - Mostly safe, safer than a grow kit.
+        - Grow kit _might_ be problematic
+        - Details: https://chatgpt.com/share/6a95f4db-2b78-83eb-aa69-7c0f3d2969e3
+    EstTODO .Try to find spores and buy if found:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 232335, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+      Details:
+        see the above result!
+  InProgress .Hana domains blocking on phone:
+    Done .Research whether I can block certain domains on an Android phone:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 232408, By: Bobi, Tags: [TLDone], Estimation: 10, RemTime: 0, Importance: 4-High}
+      Details:
+        Ask chatgpt: can I block certain domains on an Android phone
+      Result:
+        https://nextdns.io/ maybe - but needs to be stable
+        https://chatgpt.com/share/6ab2fd99-49dc-83eb-8399-daf68037d6b3
+    EstTODO .Talk Phone domain blocking through with Hana and implement:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 001318, By: [Hana, Bobi], Tags: [TL], Estimation: 10, RemTime: 10, Importance: 4-High}
   EstTODO .Explore OBS filename prompt and implement if easy:
     +: {CreatedBy: Bobi, CreatedAt: 20260824 T 131813, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 2-Low}
     Details:
       Try this ChatGPT solution: https://chatgpt.com/share/6a8c288f-1528-83eb-9161-eefcc98825c6    
 .Tasks20260826:
   Done .Create daily health log recording process:
-    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 150146, By: [Bobi, Hana], Tags: [TLDone], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
     Details:
       - Find a location
       - Find a _very_easy_ way to record things - like only the most important shit, exceptional things, taking <5 mins!!!
@@ -375,4 +415,17 @@
       - check health log
       - takes 20 mins or less
 
+.Tasks20260922:
+  InProgress .Reprioritize the Tasks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203301}
+    Done .Tag the Done ones with TLDone:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203345, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+    EstTODO .Do the reprioritization baseline:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 005021, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 6-Extreme}
+      Details:
+        Timeboxed!
+        If need more time, create a new task for it
+      
+      
+    
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

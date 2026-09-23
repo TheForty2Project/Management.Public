@@ -458,8 +458,19 @@ SR_20260826_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<
 
+SR_20260903_Bobi:
+  Was:
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 50m, "Can't be fixed without type support" ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.1"<: [ 20m ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<: [ 10m, "", 20260902 T 132336 ]
+    - -->Tasks\Miscellaneous\..BusinessAnalysis..F2ToolsExtension.."QueryDescription based CSV report generation"<: [ 80m, "", 20260902 T 195317 ]
+  Next:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<
+
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<: [ 20m, "", 20260905 T 231710 ]
+    - -->Tasks\ToBeSorted\..Tasks20260922.."Reprioritize the Tasks".."Tag the Done ones with TLDone"<: [ 40m, "", 20260922 T 203419 ]
   Next:
     - null

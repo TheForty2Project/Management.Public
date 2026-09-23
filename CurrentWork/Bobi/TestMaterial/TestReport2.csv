@@ -1,0 +1,23 @@
+#.<ReportHeader>: 
+#  +: {CreatedBy: undefined, CreatedAt: 2026-09-22T10:52:50.017Z}
+#  QueryDescriptionLink: -->\..Test<
+#  QueryDescription: 
+#    Type: QueryDescription
+#    Select: [EMPTY as *, Tags, Estimation, Status, By, IDLINK, IDHIERARCHY(1), IDHIERARCHY(5), DependsOn]
+#    From: [-->CurrentWork\Bobi\TestMaterial\<]
+#    OutputFile: CurrentWork\Bobi\TestMaterial\TestReport2.csv
+#    Where: 
+#      TaggedBy: [TL]
+#  Log: 
+#    - Created at 2026-09-22T10:52:50.017Z; Added / Updated / Deleted: 10 / 0 / 0
+*,Tags,Estimation,Status,By,IDLINK,IDHIERARCHY(1),IDHIERARCHY(5),DependsOn
+,TL,,TODO,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..IdHierarchyTest..One<,One,IdHierarchyTest.One,
+,TL,,TODO,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..IdHierarchyTest..One..Two<,Two,IdHierarchyTest.One.Two,
+,TL,,TODO,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..IdHierarchyTest..One..Two..Three<,Three,IdHierarchyTest.One.Two.Three,
+,TL,,TODO,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..IdHierarchyTest..One..Two..Three..Four<,Four,IdHierarchyTest.One.Two.Three.Four,
+,TL,,Done,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..aSDFom..Buzi<,Buzi,aSDFom.Buzi,
+,TL,,Done,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..aSDFom..Geci<,Geci,aSDFom.Geci,
+,TL,,Done,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest1_3<,TagTest1_3,TagTest1_3,
+,TL,,TODO,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest1_3.MyItem..Geci<,Geci,TagTest1_3.Geci,
+,TL,,Done,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest2<,TagTest2,TagTest2,
+,TL,,Done,,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\..TagTest3<,TagTest3,TagTest3,

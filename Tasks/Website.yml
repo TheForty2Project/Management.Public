@@ -1293,7 +1293,7 @@ Done .Back to original:
               - "Offer tailored processes"
             note: "Selective prioritization is intentional"
     Done .Further Fine-Tune the transcription:
-      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [Before1stPost, TL], Estimation: 90m, RemTime: 0m}
+      +: {CreatedBy: Hana, CreatedAt: 20260710 T 205717, By: Hana, Tags: [Before1stPost, TLDone], Estimation: 90m, RemTime: 0m}
       Workspace:
         Stage1:
           Title: "The Idea"
@@ -1809,7 +1809,7 @@ Done .Back to original:
     NEXT .Implement the decision:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 151903, By: Bobi, Estimation: 30, RemTime: 30}
   Cancelled .Fix spelling mistakes by feeding the content to some LLM agent:
-    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 152838, By: Hana, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 2-Low}
+    +: {CreatedBy: Bobi, CreatedAt: 20260604 T 152838, By: Hana, Tags: [Before1stPost, TLDone], Estimation: 30, RemTime: 30, Importance: 2-Low}
     Details:
       - Feed the current yamls to some LLM and ask:
         - are there any spelling mistakes in the English text (so not in the Id-s)

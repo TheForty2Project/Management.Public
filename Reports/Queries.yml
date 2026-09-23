@@ -4,14 +4,28 @@
   Type: QueryDescription
   Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
-    - -->CurrentWork\Bobi\TasksToBeSorted<
-    - -->CurrentWork\Hana\TasksToBeSorted<
-    - -->CurrentWork\Hana\Personal<
+    - -->CurrentWork\Bobi\<
+    - -->CurrentWork\Hana\<
     - -->Tasks<
   OutputFile: Reports\TaskListTasks.csv
-  OrderBy: [Status desc, Importance desc, By, RemTime]
+  OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
     TaggedBy: [TL]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+    SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
+
+.DevTasks:
+  Type: QueryDescription
+  Select: [TypeId, Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->CurrentWork\Hana\TasksToBeSorted<    
+    - -->Tasks<
+  OutputFile: Reports\DevTasks.csv
+  OrderBy: [Status desc, Importance desc, By, RemTime]
+  Where:     
+    TaggedBy: [Dev]
     LeavesOnly: false
     SkipFoldersAndFiles: false
 

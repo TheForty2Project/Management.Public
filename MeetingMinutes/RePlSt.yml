@@ -33,11 +33,12 @@
   Result:
     Tasks:
       -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
-.RePlSt20260829:
-  Participants: [Bobi, Hana]
-  StartTime: 20260826 143042
+
+.RePlSt202609:
+  Participants: [Hana]
+  StartTime: 20260903 132500
   EndTime: 
-  WorkSpace:
+  Workspace:
     Retro:
       Went wrong:
         Bobi:
@@ -62,14 +63,39 @@
           - 2: minimal Ds
           - 3: Recovery day 20260828
 
+.RePlSt20260918:
+  Participants: [Hana]
+  StartTime: 20260918 130300
+  EndTime: 
+  Workspace:
+    Retro:
+      Went wrong:
+        Bobi:
+          - 1: Bad health (sibo) all month => very little work, despite all the drug reduction
+          - 2: No RePlSt for almost a month          
+        Hana:
+          - 1: No follow up on Health from Bobi
+          - 2: Health logs are in different places
+          - 3: No work on management by Hana
+          - 4: No proper D rules on VSC
+          - 5: Too much vinted
+          
+      Went well:
+        Bobi:
+          - There's a protocol developed for velo, kratom and w use management - and it's working (well, 80%)
+          - Gym is now regular(ish)
+        Hana:          
+          - Robi started running (3 runs this month)
+          - Gym is now regular(ish)
+          - Hana started running (5 runs this month)
+          - Regular health logs in the past 3 days (even though they're in different places)
+          - no eating chocolate (but:_ very little effect on health)
+          - Hana has regular breakfasts          
+
       Changes we need to do:
-        - Plain food to remedy Bloating
-        - Health log should be scheduled and monitored every day:
-          - Let's have a process for it - who does what how        
-        - Running should be only if body battery is high enough:
+
   Result:
-    Tasks:
-      -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
+    
         
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

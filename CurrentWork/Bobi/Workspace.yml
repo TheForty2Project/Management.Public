@@ -3,9 +3,9 @@
 
 .Test:
   Type: QueryDescription
-  Select: [EMPTY as *, Tags, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
+  Select: [EMPTY as *, Tags, Estimation, Status, By, IDLINK, IDHIERARCHY(1), IDHIERARCHY(5), DependsOn]
   From: [-->CurrentWork\Bobi\TestMaterial<]
-  OutputFile: CurrentWork\Bobi\TestMaterial\TestReport.csv
+  OutputFile: CurrentWork\Bobi\TestMaterial\TestReport2.csv
   Where: 
     TaggedBy: [TL]
 
@@ -128,5 +128,10 @@ TODO .ParentTODO:
       - 
     Current plan:
       - 
+
+model: fujitsu esprimo d756
+cpu: core i5-6600
+baseboard product: d3431-a1
+baseboard version: s26361-d3431-a1
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

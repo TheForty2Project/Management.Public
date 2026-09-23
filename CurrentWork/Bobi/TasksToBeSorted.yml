@@ -161,16 +161,32 @@
       Details:
         - Cleanups of previous changes (Requirement sync, moving tasks from here to their correct places)
         - Write Requirements for new features and estimate each
-      EstTODO .Move the Tasks from the ToBeSorted to their correct place:        
+      InProgress .Move the Tasks from the ToBeSorted to their correct place:        
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141536, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
       EstTODO .Update the Requirements according to the current implementation:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 3-Average}
-      EstTODO .Create Dev tasks report:
-        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10, Importance: 5-VeryHigh}
-      EstTODO .Have a value/effort rating system and apply it on the Requirements + Tasks:
+      Done .Create Dev tasks report:
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TLDone], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
+      InProgress .Have a value/effort rating system and apply it on the Requirements + Tasks:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141253, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
         Details:
           - \"Value" should be in a form of "what would it enable" and therefore how much time we'd save in the next periods
+        InProgress .Develop value calculation method:
+          +: {CreatedBy: Bobi, CreatedAt: 20260906 T 005825, By: Bobi}
+          Result:          
+            Baseline Value calculation:
+              - amount of time a worker would save per day (=6 hours of work)
+                + time saved due to less errors (therefore less time on fixing it)
+                + extra time worked due to "more enjoyable" work conditions             
+            Considerations:
+              - Only those features should be developed which are expected to return the value invested into them
+              - For the baseline:
+                - value == time saved per average worker:
+                  - as there are e.g. no clients who would be directly paying for it (and even in this case, the amount of money they'd be paying for a feature should be based on "time saved" on their side)
+                  - at the moment we treat the time of all workers having the same value - so it doesn't matter if it's a junior developer with low salary or a senior with high
+            Method:
+              - We add the value to the "EffortSaved" property of the Requirement or Task
+              - Due to csv report generation technical reasons, the same value should be copied to the Task implementing the Requirement
   .Outreach:
     OnHold .Create the baseline posts from the ideas:
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
@@ -248,7 +264,7 @@
                   - 2 levels
                   - 16 nodes at the bottom
       Done .Investigate about how we can do the animation/graphics:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 10, RemTime: 10}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TLDone], Estimation: 10, RemTime: 10}
         Result: https://chatgpt.com/share/6a68f66b-aeb4-83eb-9790-5cafe1d3e21c
 
       NEXT .Implement animation:
@@ -300,7 +316,7 @@
     Details:
       fileSystemWatcher + way to signal that a file should be refreshed + engine to refresh
   Cancelled .Return the proper typescript F2YamlWorkspaceItem descendant during parsing:
-    +: {CreatedBy: Bobi, CreatedAt: 20260718 T 023934, By: Bobi, Tags: [TL, Dev], Estimation: , RemTime: }
+    +: {CreatedBy: Bobi, CreatedAt: 20260718 T 023934, By: Bobi, Tags: [TLDone, Dev], Estimation: , RemTime: }
     Details:
       - why: 
       - so if it's Folder, Folder
@@ -334,11 +350,14 @@
     EstTODO .Update:
       Id: Update
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014357, By: Bobi} 
-      EstTODO .Engine:
+      EstTODO .Engine of update:
+        Id: Engine
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 163142, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 3-Average}        
-      EstTODO .RowDeletingBehavior:
+      EstTODO .RowDeletingBehavior at update:
+        Id: RowDeletingBehavior
         +: {CreatedBy: Bobi, CreatedAt: 20260703 T 014415, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 3-Average}
-      EstTODO .CreateMissingItems:
+      EstTODO .Create Missing Items:
+        Id: CreateMissingItems
         +: {CreatedBy: Bobi, CreatedAt: 20260710 T 015548, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Done .Where finish:
       Done .Engine:
@@ -370,7 +389,7 @@
     .Updgrades:
       EstTODO .Automatic aligning of CSV columns:      
         +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
-      EstTODO .IDHIERARCHY(n) as column value:
+      Done .IDHIERARCHY(n) as column value:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162617, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 4-High}
         Details:
 
@@ -386,7 +405,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi}
       Details:
         Takes a full second to load the current Management.Public workspace; will be slow.
-      EstTODO .Exclude folders starting with a dot as a temporary measure:
+      InProgress .Exclude folders starting with a dot as a temporary measure:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161800, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 4-High}        
       EstTODO .Introduce some config for ignore list:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161825, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 2-Low}        
@@ -494,7 +513,7 @@
     InProgress .Create a daily process now that we have queries:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana]}
       Done .Create baseline:
-        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
+        +: {CreatedBy: Bobi, CreatedAt: 20260717 T 154444, By: [Bobi, Hana], Tags: [TLDone], Estimation: 20, RemTime: 20, Importance: 7-OMG!!!}
         Result:        
           Goals:            
             - on top of the existing standup process, we want to see a prioritized task list from which we can select what tasks we're planning to work on next:
@@ -528,7 +547,7 @@
                     - improve the processes (or, create Tasks for it)
               - update the site with the changes
       OnGoing .Fine tune the process:
-        +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana], Tags: [TL]}
+        +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260829, Importance: 2-Low}
     Blocked .Create a process about uploading things to the site:
@@ -536,35 +555,35 @@
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
     Done .Book badminton court:
-      +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 0, Importance: 3-Average}
     Done .Schedule meetup event:
-      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: , Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TLDone, Private], Estimation: , RemTime: , Importance: 3-Average}
       
      
       
     Done .Hana to experiment with the query:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TL, Private], Estimation: , RemTime: }
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TLDone, Private], Estimation: , RemTime: }
       Details:
         - example is in Bobi's workspace (the before1stposttasks one)
         - filter to "TL" tag        
     Done .Hana to reply to eliza:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TL, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TLDone, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
     Done .Order protein:
-      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TL, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TLDone, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
       Result:
         - beef protein was not a good idea... we'll see. Collagen source if no answer
     Done .Follow up on my question about protein:
-      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
+      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
     Done .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     Done .Airbnb things:
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
       Done .Guide about how to press buttons:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TL, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TLDone, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
       Done .Entrance door stickers:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
         Details:
           - to close:
             - close the door
@@ -574,11 +593,19 @@
             - put the key horizontally
             - turn once counterclockwise    
     OnGoing .Chores:
-      Done .Pay the electricity bill:
+      OnGoing .Pay the electricity bill:
         +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [TL, Private], Estimation: 5, RemTime: 5, Importance: 4-High}
       OnGoing .Bubbles:
         Done .Bubbles at 20260725:
-          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High }                
-
+          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TLDone, Private], Estimation: 90, RemTime: 90, Importance: 4-High }                
+  .Infrastructure:
+    Done .Set up Delli5:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122450, By: Bobi, Tags: [TLDone], Estimation: 300, RemTime: 0, Importance: 5-VeryHigh}
+    EstTODO .Set up Delli3:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122417, By: Bobi, Tags: [TL], Estimation: 240, RemTime: 120, Importance: 4-High}
+    EstTODO .Set up the myRaiffeisen app on the Pixel:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122636, By: Bobi, Tags: [TL, Personal], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+      
+      
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

@@ -598,6 +598,14 @@
       OnGoing .Bubbles:
         Done .Bubbles at 20260725:
           +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High }                
-
+  .Infrastructure:
+    Done .Set up Delli5:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122450, By: Bobi, Tags: [TLDone], Estimation: 300, RemTime: 0, Importance: 5-VeryHigh}
+    EstTODO .Set up Delli3:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122417, By: Bobi, Tags: [TL], Estimation: 240, RemTime: 120, Importance: 4-High}
+    EstTODO .Set up the myRaiffeisen app on the Pixel:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122636, By: Bobi, Tags: [TL, Personal], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+      
+      
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

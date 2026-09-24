@@ -32,28 +32,28 @@
         - I want to register myself there
         Doctor: see the chatgpt conversation (the woman in Ferenc ter 1)
       BlockedBy: the lipoprotein results
-    InProgress .Prepare for GP:
-      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
+    Done .Prepare for GP:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [TLDone, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
       Workspace:
         - Find and print labs
-      TODO .Find lab results:
+      Done .Find lab results:
         Details:
           - Hana to do her task first
-      TODO .Fill in the forms:
+      Done .Fill in the forms:
         Details:
           - 3 forms
-      TODO .Print:
+      Done .Print:
         Details:
           - 3 forms
           - lab results
-      NEXT .Send in an email:
+      Done .Send in an email:
         Details:
         - 3 forms
         - lab results
         - copies of 3 documents
         - confirmation if it's Thursday at 3
-    NEXT .Attend GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
+    Done .Attend GP appointment:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
     NEXT .Do the admin:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}      
   Done .Cleanup TL tasks:

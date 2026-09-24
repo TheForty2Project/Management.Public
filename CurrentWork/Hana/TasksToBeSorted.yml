@@ -34,12 +34,13 @@ Done .Process the below into outreach ideas:
   Done .Bobi to review outreah ideas:
     +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TLDone], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
-Done .collect the lab results into one folder:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 40, Importance: 6-Extreme}
+EstTODO .collect the lab results into one folder:
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 20, Importance: 6-Extreme}
   Details:
     - Into the management.HanaBobi repo
   Comments:
-    Bobi: I remember there was some folder somewhere into which we put these, with the passwords; 
+    - Bobi: I remember there was some folder somewhere into which we put these, with the passwords;
+    - Bobi: Checked, but only mine are there. Please do yours as well - including either putting the password into the filenames or saving the pdfs without password. 
   Results:
     - Lab result Folder are saved in BobiHana repository
     - Lab result Folder are saved in Google Drive

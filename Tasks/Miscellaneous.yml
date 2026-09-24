@@ -347,14 +347,16 @@ Id: Misc
         - anything else?
         - consider that you need to have 1-3 days "feeling well" state before going, so maybe friday? Not after weekend because weekend is cheat days
         - Compare with KisRutin - does it have egfr and what does nagyrutin have extra, do we need it
-    EstTODO .Kidney functions:
+    Done .Kidney functions:
       +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140147 }
-      Blocked .Research and decide about kidney ultrasound:
+      Done .Research and decide about kidney ultrasound:
         +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
         Workspace:
           - egfr improved in the meantime - to ~65 - but creatinine was still high. Waiting for the cystatin-c
         DependsOn: Cystatin-c results
-      NEXT .Book the appointment if decided:
+        Result:
+          No need, the cystatin-c shows good condition
+      Cancelled .Book the appointment if decided:
         +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [TL, Private ], Estimation: 15, RemTime: 15, Importance: 3-Average }
     Blocked .Schedule testing afer receiving Sudan Money:
       +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [TL, Private ], Estimation:, RemTime:, Importance: 3-Average }

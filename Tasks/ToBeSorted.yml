@@ -425,7 +425,12 @@
       Details:
         Timeboxed!
         If need more time, create a new task for it
-      
-      
+
+TODO .Create a Requirement about automatic SR selection:
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+  
+TODO .Create a Requirement about "Task sink":
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+  
     
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

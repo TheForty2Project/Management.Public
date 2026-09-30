@@ -606,11 +606,88 @@
     EstTODO .Set up the myRaiffeisen app on the Pixel:
       +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122636, By: Bobi, Tags: [TL, Personal], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       
+  InProgress .Meeting:
+    +: {CreatedBy: Bobi, CreatedAt: 20260928 T 135001, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    Details:
+      Goal is: agreement about the points what Hana should be covering during the calls
+    Workspace:
+      Points:
+        Baba and what's fair:
+          Point about Baba:
+            - Money given to him for the shop by mama - no return:
+              - The shop was mostly bought from mama's money (20k dirhams 25 years ago, so 42k today's money = 11500 USD); afaik 75%
+            - Baba exploited everyone, cared about himself and his money mostly and shamelessly:
+              - The "kidnapping" of Tuta:
+                - She was taken from Bulgaria to Sudan against the will of the mother
+                - Name change to prevent her mother from reaching her
+                - No financial support to Tuta - the family even kicking Yasser (friend of Tuta's mother) out when appearing with gifts to the 4 year old Tuta  
+              - Never contributed to costs:
+                - Bulgaria family: no support after he left them
+                - UAE family: vast majority of costs (utilities, rent, food, school supplies, clothes, tuition fees) on Baba, contributing only occassionally (20%)
+              - Spent all his money on businesses - which failed because he didn't pay the employees, costs, etc. - and on these properties in Sudan
+            - How he is shamelessly doing it still:
+              - \Going on the streets and saying "Tuta doesn't give me food and medicine"
+              - the scene he made in front of the consule 3 times ("Tuta is stealing my money")
+              - the poop smearing with Tuta right after he cried to Hana that "he feels guilty that everyone is helping him" 
+            - Even his university degree is fake - confirmed by batchmates, a relative and by the ministry of education + foreign affairs
+          Summary:
+            Character:
+              - He is expert in exploiting people, no shame, caused tremendous harm to people around him, faked his whole life caring about himself only, no matter how much he hurt others (see Tuta's kidnapping). He most probably believes his own lies - he doesn't remember the bad stuff he did, the beatings, the lies. A true and dangerous narcissist.
+            What's fair:
+              - He's still "the father", he can't be just thrown to the streets even if he keeps smearing the poop and telling everyone that the people caring about him torture him
+              - So:
+                  Workspace:
+                    What would be fair is to make Baba take responsiblity finally - but this will not happen. So:
+                    What would be fair(ish) scenario 1:
+                      Points:
+                        - 75% of shop money goes to 2 sisters (Hana, Hiba)
+                        - Rest divided into 4, equally (Baba, Tuta, Hana, Hiba)
+                        - Baba's share is used to care about him - knowing that when it runs out, the girls (whoever has the money) will use their money in the end to care about him - because he's the father.
+                      If 100k USD and shop is 50k out of it:
+                        Shop:
+                          - (50*0.75) = 37.5k USD to Hana + Hiba
+                        Rest:
+                          - (100-37.5)/4 = 15.625 USD divided into 4 (Baba + Tuta + Hana + Hiba)
+                      Evaluation:
+                        - Cons: little goes to Tuta + Baba
+                        - Pros: most fair
+                    What would be "Baba would probably agree" - but doesn't deserve scenario 2: 
+                      Points:
+                        - 25% to Baba daily costs:
+                        - 25% for investment:
+                          - to be used for buying a property for Tuta's family + passive income. Profits and benefits should be going to Tuta
+                        - 16.6% three sisters each:
+                      If 100k USD:
+                        - 25k USD Baba daily costs
+                        - 25k USD Investment
+                        - 16.6k USD each sister
+                      Evaluation:
+                        - Cons:
+                          - not fair - as Baba would continue to have power, use the money from people he exploited, Tuta would still need to take care of him
+                          - little goes to Tuta + sisters 
+                    What we could see working:
+                      Points:
+                        - Tuta continues to take care of Baba (using a caretaker) BUT she also :
+                          - IF IT COMFORTS BABA, a contract can be written that Tuta needs to take care of Baba in return for Tuta receiving the money from selling the properties
+                        - 25% investment - proceedings go to Tuta's family
+                        - 30% for daily costs of Baba + Tuta's family
+                        - 45% Hana + Hiba (22.5% Hana, 22.5% Hiba)
+                      If 100k USD:
+                        25k USD: \"Baba" - but Tuta is handling the money (so hidden in the technicalities, like it needs to be transferred to Tuta's account but used to cover the daily costs of Baba - like rent, food, medicines)
+                        30k USD: Investment for Baba - but profits and benefits should be going to Tuta (everything should be on Tuta's name due to "inheritance" reasons)
+                        22.5K + 22.5K USD: Hana + Hiba
+                      Evaluation:
+                        - Baba is taken care of
+                        - Tuta + family taken care of; most money goes to them
+                        - Hana + Hiba is closer to "fair"
+
+
+
   InProgress .create and hold a meeting about Hana-Totas Plan for Robi:
     +: {CreatedBy: Hana, CreatedAt: 20260927 T 175513, By: Hana, Tags: [TL], Estimation:20 , RemTime: , Importance: 5-VeryHigh}
     Details:
       Outcome of the meeting should be:
-        - agreement 
+        -  
       Points to be covered:
 
       Situation:
@@ -642,23 +719,21 @@
                       - that every part of the family are in stable condition we dont need to be rich now
                       - that every part of the family has a role in facilitating this life (everyone works)
                       - That things need to clear between the participants ( family ) in a formal way to reduce any misundertanding and problems from within the participants and outside ( Farah Family)
-                      - Every particpant will have their fare share based on their contribution and formal agreement
+                      - Every particpant will have their fair share based on their contribution and formal agreement
                       - Lawyer/system is a possibilty to protect each fairshare
               - The mistakes that we went through the first sell:
-
-
-                - The money should not be stagnant and should be  
+                - The money should not be stagnant and should be converted to a stable currency asap
             Investor: 
               Ahmed Silver:
                 - Family member connection
                 - wide connections in Sudan
                 - can sell or rent the properties through his connections
                 - He sold our first part of the house
-                - he is the ex of tota and father of Hala
+                - he is the ex of tuta and father of Hala
               George:
                 - From Egypt connection
                 - lent Tota money in egypt
-                - have connectionin the shop area
+                - have connection in the shop area
                 - less trusted than Ahmed
                 - knowledge on the shop worth in the market
             Plans:
@@ -668,10 +743,147 @@
                 - The division of the profit:
                 - Requirement of selling:
                   - formal Papers of sell to facilitate the transfer of money to all
-                  - agreement for all members of the family that includes Ahmed (father of Hala), Robert (Hanas Partner)
+                  - agreement for all members of the family that includes Ahmed (father of Hala - Business man/investor), Robert (Hanas Partner -Process and System specialist )
                 
+      Situation/Chatgpt:
+    Workspace:
+      Hana:
+        Overall_goal:
+          - Use Baba's properties to provide a decent and stable life for the whole family.
+          - Prioritize Baba's rights, wellbeing, and long-term needs.
+          - Aim for financial stability rather than immediate wealth.
+        Proposed_distribution:
+          Status: To be discussed and agreed upon with the family, including Baba.
+          Four_shares:
+            Baba:
+              Share: A larger portion.
+              Proposed_use:
+                Investment: Half of his share.
+                Monthly_allowance_and_care: The other half.
+            Three_sisters:
+              Share: Smaller individual portions.
+              Possible_uses:
+                - Individual plans and investments.
+                - Voluntary investment partnerships between sisters.
 
-            
+        Selling_Babas_properties:
+          Requirements:
+            Fairness:
+              Discussion: All arrangements should be discussed with the family, including Baba.
+
+              Mamas_contribution:
+                - Clarify and document Mama's contribution to the shop and house from Baba
+                - The reference to three-quarters of Mama's money needs clarification from baba
+                - Record Baba's acknowledgment of her contribution.
+              Babas_security:
+                - Set aside funds for Baba's wellbeing and daily living expenses.
+                - Include medication, elderly care, nursing support, and other needs.
+                - Discuss any business investment involving his money with the family.
+              Sisters_shares:
+                - Agree on how the remaining funds will be divided among the three sisters.
+                - Allow each sister to develop her own plans.
+                - Allow voluntary partnerships under clear agreements.
+            Safety_and_documentation:
+              - Prepare formal sale documents to support and facilitate money transfers.
+              - Document the agreed distribution, responsibilities, and payment arrangements.
+              - Consider involving a lawyer to formalize and protect agreed rights.
+
+          Background_and_shared_intentions:
+            Shared_goals:
+              Participants:
+                - Hana
+                - Tota
+                - Ahmed
+              Purpose:
+                - Use Baba's currently unused properties to improve the family's living conditions.
+                - Prioritize Baba's rights while creating stability for everyone.
+
+            Origin_of_the_idea:
+              Proposed_by: Hana.
+              First_discussion:
+                - The idea began while Baba was still in Sudan.
+                - It was raised around the time Baba went to Zainab and Tota arranged for him to go to the uncle.
+              Later_discussion:
+                - The idea was discussed again when Baba was in Egypt, and Tota agreed with it.
+                - Hana explained that caring for Baba would require money, time, and emotional effort.
+                - This concern reflected the experience of caring for Mama and previous experiences with Baba's behavior.
+
+            Guiding_principles:
+              - Use the properties to fund medical care, allowances, and investments.
+              - Work toward stability for every family member.
+              - Each participant should have a clear role and contribute to making the plan work.
+              - Put arrangements in writing to reduce misunderstandings within the family and with others, including Farah's family.
+              - Distinguish existing property rights from compensation or shares proposed for participants' contributions.
+              - Agree formally on each participant's role and any contribution-based entitlement.
+              - Consider legal support and a clear management process to protect agreed arrangements.
+
+          Lessons_from_the_first_sale:
+            Status: To be completed during the discussion.
+            Points_to_review:
+              - What went wrong during or after the first sale?
+              - How were the proceeds received, distributed, and used?
+              - What should be done differently in the next sale?
+            Unfinished_note:
+              - Clarify how the money should be allocated and managed so that it serves the agreed goals.
+
+          Potential_contacts_and_roles:
+            Ahmed_Silver:
+              Background:
+                - Has a family connection.
+                - Is Tota's former partner and Hala's father.
+                - Is a businessman and investor.
+              Relevant_experience:
+                - Has an extensive network in Sudan.
+                - Can help find buyers or tenants through his contacts.
+                - Helped sell the first portion of the house.
+
+            George:
+              Background:
+                - A contact connected to Egypt.
+                - Previously lent Tota money in Egypt.
+              Relevant_experience:
+                - Has contacts in the shop's area.
+                - Has knowledge of the shop's possible market value.
+              Trust:
+                - The family currently has greater trust in Ahmed than in George.
+
+            Robert:
+              Background:
+                - Hana's partner.
+                - Process and systems specialist.
+              Proposed_role:
+                - Help structure the process, responsibilities, and documentation.
+
+          Plan:
+            - Clarify contributions, ownership, and the family's proposed arrangements.
+            - Agree on the conditions for selling the properties.
+            - Agree on the distribution of net sale proceeds.
+            - Use the allocated funds for care, living expenses, and agreed investment plans.
+
+          Family_meeting:
+            Participants:
+              - Baba
+              - The three sisters
+              - Ahmed
+              - Robert
+            Topics_and_expected_outcomes:
+              Distribution:
+                - Discuss Mama's contribution.
+                - Agree on Baba's allocation and the sisters' proposed shares.
+                - Distinguish sale proceeds from profit and account for sale expenses.
+              Sale_requirements:
+                - Identify the formal documents needed for the sale and money transfers.
+                - Agree on who may negotiate, approve, and complete the sale.
+              Family_agreement:
+                - Record the agreed rights, roles, responsibilities, and payment arrangements.
+                - Define Ahmed's and Robert's roles and authority.
+                - Identify matters requiring legal review.
+              Next_steps:
+                - Record unresolved questions.
+                - Assign tasks and deadlines.
+                - Schedule a follow-up meeting.
+      
+        
 
 
 

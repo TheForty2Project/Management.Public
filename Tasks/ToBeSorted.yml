@@ -31,7 +31,6 @@
         - driving license
         - I want to register myself there
         Doctor: see the chatgpt conversation (the woman in Ferenc ter 1)
-      BlockedBy: the lipoprotein results
     Done .Prepare for GP:
       +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [TLDone, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
       Workspace:
@@ -54,12 +53,17 @@
         - confirmation if it's Thursday at 3
     Done .Attend GP appointment:
       +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
-    NEXT .Do the admin:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}      
+    InProgress .Do the admin:
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      Done .Upload the documents:
+        Result:
+          - https://chatgpt.com/share/6ab548e9-ff78-83eb-bdbc-6bfdac1aca8f
+          - downloaded the "igazolas" to: \Management.HanaBobi\!SubProjects\HanaRobiPersonal\Miscellaneous\Robi_Jogositvany_hosszabbitas_ven_nyilatkozat_20260924_175650351521_4wG.pdf
+      
   Done .Cleanup TL tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 125235, By: Bobi, Tags: [TLDone], Estimation: 30, RemTime: 0, Importance: 6-Extreme}    
   InProgress .Create baseline (daily/weekly) schedule as of 20260824:
-    +: {CreatedBy: Bobi, CreatedAt: 20260824 T 130945, By: Bobi}
+    +: {CreatedBy: Bobi,  CreatedAt: 20260824 T 130945, By: Bobi}
     Details:
       Include:        
         Work:

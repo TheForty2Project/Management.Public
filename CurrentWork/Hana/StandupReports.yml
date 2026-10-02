@@ -295,6 +295,9 @@ SR_NEXT_Hana:
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 21m, "", 20260914 T 2154 ]
     - -->CurrentWork\Hana\Schedules\.."Schedule and estimate activity for the next 10 days".."Activity schedule 23-31 Sep"<: [ 25m, "", 20260924 T 181601 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."create and hold a meeting about Hana-Totas Plan for Robi"<: [ 0m, "", 20260927 T 181947 ]
+    - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder"<: [ 5m, "", 20261002 T 130946 ]
+    - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder".."Transfering Hanas lab results to BobiHana repository"<: [ 78m, "", 20261002 T 131454 ]
+
   Next:
     - th mobility of next week
     - The food 3 plain days

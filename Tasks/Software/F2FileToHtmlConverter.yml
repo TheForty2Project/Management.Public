@@ -153,7 +153,7 @@
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
       OnHold .Add "Commit message"-like feature:
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 2-Low}
         MaintenanceTasks:
           Done .Have an implementation plan and provide estimation:
             Id: ImprEstimation

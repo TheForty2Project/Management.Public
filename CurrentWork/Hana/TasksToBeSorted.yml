@@ -35,7 +35,7 @@ Done .Process the below into outreach ideas:
     +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TLDone], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
 Done .collect the lab results into one folder:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 20, Importance: 6-Extreme}
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TLDone, Health, Private], Estimation: 40, RemTime: 20, Importance: 6-Extreme}
   Details:
     - Into the management.HanaBobi repo
   Comments:
@@ -46,10 +46,10 @@ Done .collect the lab results into one folder:
     - Lab result Folder are saved in Google Drive
     - Lab Results are printed for the physician
   Done .Transfering Hanas lab results to BobiHana repository:
-    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TL, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}  
+    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TLDone, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}  
     Notes: I couldnt figure out the passqord for year 2023 lab results and below
   Done .Transfering Hanas lab results to GoogleDrive:
-    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TL, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}
+    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TLDone, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}
     Notes: I couldnt figure out the passqord for year 2023 lab results and below
 EstTODO .Collect money transferred to Baba, Tuta, Hiba:
   +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 2-Low}

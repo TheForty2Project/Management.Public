@@ -34,7 +34,7 @@
     Tasks:
       -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
 
-.RePlSt202609:
+.RePlSt20260903:
   Participants: [Hana]
   StartTime: 20260903 132500
   EndTime: 
@@ -62,9 +62,11 @@
           - 1: Health log has been recorded despite no work day
           - 2: minimal Ds
           - 3: Recovery day 20260828
+  Notes:
+    - This is only Hana collecting her stuff - so no meeting happened
 
 .RePlSt20260918:
-  Participants: [Hana]
+  Participants: [Hana, Bobi]
   StartTime: 20260918 130300
   EndTime: 
   Workspace:
@@ -93,9 +95,22 @@
           - Hana has regular breakfasts          
 
       Changes we need to do:
+  Notes:
+    - This was just started; we copied the previous stuff, added a few points but abandoned
 
-  Result:
-    
+RePlSt20260930:
+  Participants: [Bobi, Hana]
+  StartTime: 20260930 T 181742
+  Workspace:
+    - This is a "special" one - kind of long time nothing, we need to start working again
+    - Goals:
+      - Where are we?:
+        - Next goals
+        - Next most important tasks:
+        - What changed since last time
+    - 
+  Notes:
+    - Bobi: At the moment I just created this; let's see if we continue.
         
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

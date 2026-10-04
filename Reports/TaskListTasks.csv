@@ -1,5 +1,5 @@
 #.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-10-02T12:26:56.686Z}
+#  +: {CreatedBy: undefined, CreatedAt: 2026-10-03T23:05:58.806Z}
 #  QueryDescriptionLink: -->\..TaskListTasks<
 #  QueryDescription: 
 #    Type: QueryDescription
@@ -16,12 +16,12 @@
 #      SkipFoldersAndFiles: false
 #      SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 #  Log: 
-#    - Created at 2026-10-02T12:26:56.686Z; Added / Updated / Deleted: 59 / 0 / 0
+#    - Created at 2026-10-03T23:05:58.807Z; Added / Updated / Deleted: 59 / 0 / 0
 Status    , Importance, Estimation, By          , RemTime, Summary                                                                       , Tags                 , IdLink                                                                                                                                                                                                                                     , DependsOn
 EstTODO   , 6-Extreme ,         15, "Bobi, Hana",      15, Do the reprioritization baseline                                              , TL                   , "-->Tasks\ToBeSorted\..Tasks20260922..""Reprioritize the Tasks""..""Do the reprioritization baseline""<"                                                                                                                                   , 
 EstTODO   , 6-Extreme ,         20, "Bobi, Hana",      20, Revise the salad process 20260922                                             , "TL, Private"        , "-->CurrentWork\Hana\Personal\..SaladPRocess..""Revise the salad process 20260922""<"                                                                                                                                                      , 
-EstTODO   , 6-Extreme ,         40, Hana        ,      20, collect the lab results into one folder                                       , "TL, Health, Private", "-->CurrentWork\Hana\TasksToBeSorted\..""collect the lab results into one folder""<"                                                                                                                                                       , 
 EstTODO   , 6-Extreme ,         60, Hana        ,      60, Activity schedule 23-31 Sep                                                   , "TL, Private"        , "-->CurrentWork\Hana\Schedules\..""Schedule and estimate activity for the next 10 days""..""Activity schedule 23-31 Sep""<"                                                                                                                , 
+Done      , 6-Extreme ,         40, Hana        ,      20, collect the lab results into one folder                                       , "TL, Health, Private", "-->CurrentWork\Hana\TasksToBeSorted\..""collect the lab results into one folder""<"                                                                                                                                                       , 
 OnHold    , 5-VeryHigh,        240, Bobi        ,     240, Work out the DM comparison outreach idea                                      , "Before1stPost, TL"  , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach..""Work out the DM comparison outreach idea""<"                                                                                                                   , 
 NEXT      , 5-VeryHigh,         30, "Hana, Bobi",      30, Showcase health log                                                           , "TL, Private, Health", "-->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Showcase health log""<"                                                                                                  , 
 InProgress, 5-VeryHigh,         90, Bobi        ,      90, Have a value/effort rating system and apply it on the Requirements + Tasks    , "Before1stPost, TL"  , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin..""Have the (development) Tasks worked out (on which I'm planning to work on)""..""Have a value/effort rating system and apply it on the Requirements + Tasks""<", 

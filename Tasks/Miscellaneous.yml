@@ -350,7 +350,7 @@ Id: Misc
     Done .Kidney functions:
       +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140147 }
       Done .Research and decide about kidney ultrasound:
-        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TL, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140251, By: Hana, Tags: [TLDone, Private ], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh }
         Workspace:
           - egfr improved in the meantime - to ~65 - but creatinine was still high. Waiting for the cystatin-c
         DependsOn: Cystatin-c results

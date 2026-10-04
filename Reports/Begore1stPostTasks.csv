@@ -1,21 +1,21 @@
-#.<ReportHeader>: 
-#  +: {CreatedBy: undefined, CreatedAt: 2026-10-03T23:10:27.980Z}
+#.<ReportHeader>:
+#  +: {CreatedBy: undefined,CreatedAt: 2026-10-03T23:10:27.980Z}
 #  QueryDescriptionLink: -->\..Before1stPostTasks<
-#  QueryDescription: 
+#  QueryDescription:
 #    Type: QueryDescription
-#    Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
-#    From: 
+#    Select: [Status,Importance,Estimation,By,RemTime,Summary,Tags,IDLINK as IdLink,DependsOn]
+#    From:
 #      - -->CurrentWork\Bobi\<
 #      - -->CurrentWork\Hana\<
 #      - -->Tasks\<
 #    OutputFile: Reports\Begore1stPostTasks.csv
-#    OrderBy: [Importance desc, Status desc, By, RemTime]
-#    Where: 
+#    OrderBy: [Importance desc,Status desc,By,RemTime]
+#    Where:
 #      TaggedBy: [Before1stPost]
 #      LeavesOnly: false
 #      SkipFoldersAndFiles: false
-#      SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
-#  Log: 
+#      SkipUnder: [-->Tasks\Archive\<,-->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
+#  Log:
 #    - Created at 2026-10-03T23:10:27.980Z; Added / Updated / Deleted: 24 / 0 / 0
 Status    , Importance, Estimation, By          , RemTime, Summary                                                                   , Tags                    , IdLink                                                                                                                                                                                                                                     , DependsOn
 OnHold    , 5-VeryHigh, 240       , Bobi        , 240    , Work out the DM comparison outreach idea                                  , "Before1stPost, TL"     , "-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach..""Work out the DM comparison outreach idea""<"                                                                                                                   , 

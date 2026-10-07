@@ -111,6 +111,19 @@ RePlSt20260930:
     - 
   Notes:
     - Bobi: At the moment I just created this; let's see if we continue.
-        
 
+RePlSt20261007:
+  Participants: [Bobi, Hana]
+  StartTime: 20261007 T 133500
+  Workspace:
+    Topics:
+      Health related questions:
+        - how is our health
+        - check garmin stress result for both
+        - Food intake of the week 
+        - Activities of the week
+        - productiviy of the week
+        
+      How to improve the negatives:
+        - We need to log the mood and important events food and drugs 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

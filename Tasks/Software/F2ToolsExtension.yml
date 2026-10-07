@@ -303,9 +303,8 @@ OnGoing .Task administration:
                     - 
 
 
-                  - if (linkType === LinkTypes.Id):
-                      linkPartValue = currentItem.GetPropertyValue("Id") !== undefined ? currentItem.Id
-                  ? value of the Id property : value of the Summary property
+                  - if (linkType === LinkTypes.Id): |
+                      linkPartValue = currentItem.GetPropertyValue("Id") !== undefined ? currentItem.Id ? value of the Id property : value of the Summary property
 
               - If the Item's "ItemRepresentationType" is ItemRepresentationType.Folder or File:
       Details:

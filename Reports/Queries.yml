@@ -2,6 +2,7 @@
 
 .TaskListTasks:
   Type: QueryDescription
+  Summary: Current tasks - implemented (as a temporary measure) as Tasks tagged with "TL"
   Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
@@ -17,7 +18,8 @@
 
 .DevTasks:
   Type: QueryDescription
-  Select: [TypeId, Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Summary: Development tasks
+  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<    
@@ -31,12 +33,13 @@
 
 .Before1stPostTasks:
   Type: QueryDescription
+  Summary: The tasks we need to complete before we show ourselves to the public
   Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
     - -->Tasks<
-  OutputFile: Reports\Begore1stPostTasks.csv
+  OutputFile: Reports\Before1stPostTasks.csv
   OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
     TaggedBy: [Before1stPost]
@@ -44,6 +47,21 @@
     SkipFoldersAndFiles: false
     SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 
+.TaskListDoneTasks:
+  Type: QueryDescription
+  Summary: Tasks done
+  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\<
+    - -->CurrentWork\Hana\<
+    - -->Tasks<
+  OutputFile: Reports\Archive\TaskListDoneTasks.csv
+  OrderBy: [Importance desc, Status desc, By, RemTime]
+  Where:     
+    TaggedBy: [TLDone]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+    SkipUnder: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

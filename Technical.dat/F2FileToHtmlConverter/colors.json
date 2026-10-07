@@ -1,0 +1,542 @@
+{
+  "keywords": [
+    {
+      "color": "#ff0000",
+      "keywords": [
+        "0-New"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#e04300",
+      "keywords": [
+        "1-SomeProgress"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#ddcb03",
+      "keywords": [
+        "2-HighLevel"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#0aefff",
+      "keywords": [
+        "3-Detailing"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#478e6c",
+      "keywords": [
+        "4-AlmostDone"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#00ff08",
+      "keywords": [
+        "5-Done"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#2b6827",
+      "keywords": [
+        "6-Reviewed"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#69916d",
+      "keywords": [
+        "7-Mature"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#ffffff",
+      "keywords": [
+        "8-Gandalf"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#ababab",
+      "keywords": [
+        "Ideally",
+        "Could"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#57cb7e",
+      "keywords": [
+        "Should"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#c2f410",
+      "keywords": [
+        "Must"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#fb00ff",
+      "keywords": [
+        "Blocked",
+        "NEXT",
+        "Rejected"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#d48b0c",
+      "keywords": [
+        "Ongoing"
+      ],
+      "exact": true,
+      "case": false
+    },
+    {
+      "color": "#86668a",
+      "keywords": [
+        "OnHold"
+      ],
+      "exact": true,
+      "case": false
+    },
+    {
+      "color": "#a3b8a3",
+      "keywords": [
+        "Cancelled"
+      ],
+      "exact": true,
+      "case": false
+    },
+    {
+      "color": "#a8a82a",
+      "keywords": [
+        "Paused",
+        "Accepted"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#f76402",
+      "keywords": [
+        "InProgress",
+        "Fixing",
+        "Retesting"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#038901",
+      "keywords": [
+        "Done",
+        "Fixed"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#000000",
+      "keywords": [
+        "Closed"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#80f2f2",
+      "keywords": [
+        "Status:",
+        "Estimation:",
+        "Est:",
+        "Result:",
+        "By:",
+        "WorkLog:",
+        "Responsible:",
+        "Notes:",
+        "ForReq:",
+        "ForRequirement:",
+        "DependsOn:",
+        "PreviousStatuses:",
+        "Workspace:",
+        "ScheduledAt:",
+        "Dependencies:",
+        "Tags:",
+        "ReqReq:",
+        "RequiresRequirement:",
+        "Tasks:",
+        "Content:",
+        "Stories:",
+        "Importance:",
+        "ForArea:",
+        "Milestones:",
+        "RequirementType:",
+        "CurrentValue:",
+        "RemTime:",
+        "Title:",
+        "Maturity:",
+        "Content:",
+        "CancelReason"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#000000",
+      "keywords": [
+        "0-Dont",
+        " 0-Zero"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#5e5e5e",
+      "keywords": [
+        "1-VeryLow"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#ababab",
+      "keywords": [
+        "2-Low",
+        ": Ideally",
+        ": Could"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#58b9e9",
+      "keywords": [
+        "3-Average",
+        ": Should"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#96c864",
+      "keywords": [
+        "4-High",
+        ": Must"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#ffc864",
+      "keywords": [
+        "5-VeryHigh"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#fb6a6a",
+      "keywords": [
+        "6-ASAP",
+        "6-Extreme"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#ff0000",
+      "keywords": [
+        "7-NOW!!!",
+        " 7-OMG!!!"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#05ffc1",
+      "keywords": [
+        "-Tasks-"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#80f2f2",
+      "keywords": [
+        "F2FileDescriptor:",
+        "NameSpace:",
+        "Namespace:",
+        "namespace:",
+        "Using:",
+        "using:",
+        "Inherits:",
+        "Fields:",
+        "Properties:",
+        "Methods:",
+        "Members:",
+        "Type:",
+        "Type!:",
+        "ItemType:",
+        "Mandatory:",
+        "IsDefault:",
+        "IsList:",
+        "Id:",
+        "Summary:",
+        "Details:",
+        "Parts:",
+        "+:",
+        "CreatedBy:",
+        "CreatedAt:",
+        "DefaultTypes:",
+        "Entitlements:",
+        "Comments:",
+        "BelongsTo:",
+        "ItemFlags:",
+        "ClassDescriptionFlags:",
+        "Flags:",
+        "IsFlags:"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#a38d1f",
+      "keywords": [
+        "new:",
+        "  new ",
+        "enum ",
+        "class ",
+        "namespace "
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#4d4c4c",
+      "keywords": [
+        "LowPrio",
+        "Postponed"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#f280f2",
+      "keywords": [
+        "char",
+        " string",
+        "integer",
+        "bool",
+        "boolean",
+        "float",
+        "DateTime",
+        "Duration",
+        " IdString",
+        "F2Link",
+        "InternalId"
+      ],
+      "exact": false,
+      "case": false
+    },
+    {
+      "color": "#ff0000",
+      "keywords": [
+        "TODO",
+        "New",
+        "RetestFail"
+      ],
+      "exact": true,
+      "case": true
+    },    
+    {
+      "color": "#fa3e00",
+      "keywords": [
+        "EstTODO"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#f302f7",
+      "keywords": [
+        "DraftTODO"
+      ],
+      "exact": true,
+      "case": true
+    },
+
+    {
+      "color": "#c0e0e0",
+      "keywords": [
+        "<-Workspace-:"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#023b06",
+      "keywords": [
+        "RetestSuccess"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#e369fc",
+      "keywords": [
+        "Scheduled"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#e19000",
+      "keywords": [
+        "Drafting"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#ad6501",
+      "keywords": [
+        ": Draft",
+        "{Draft",
+        "Draft}",
+        "  Draft "
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#804000",
+      "keywords": [
+        ": Reviewed",
+        "{Reviewed",
+        "Reviewed}",
+        "Reviewed"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#0084ff",
+      "keywords": [
+        "ReadyForDev",
+        "Estimated"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#a805ff",
+      "keywords": [
+        ": Developing",
+        "{Developing",
+        "Developing}",
+        "InDev",
+        ": InDev",
+        "{InDev",
+        "InDev}"
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#0edd7c",
+      "keywords": [
+        "ReadyForQA",
+        "Implemented"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#66ff00",
+      "keywords": [
+        "InQA"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#51907b",
+      "keywords": [
+        "BugFixing"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#009407",
+      "keywords": [
+        "QAPassed"
+      ],
+      "exact": true,
+      "case": true
+    },
+    {
+      "color": "#000000",
+      "keywords": [
+        ": Closed",
+        "{Closed",
+        ".Closed}",
+        " Closed "
+      ],
+      "exact": false,
+      "case": true
+    },
+    {
+      "color": "#8e808e",
+      "keywords": [
+        "StandardItem",
+        "Item",
+        "User",
+        "ClassDescription",
+        "PropertyDescription",
+        "Enumeration",
+        "Folder",
+        "Task",
+        "WorkLog",
+        ": Bug",
+        "TestCase",
+        ": Requirement",
+        "Milestone",
+        "UseCase",
+        " StandupReport",
+        "StandupWasEntry",
+        "StandupWasEntryDetails",
+        "StandupNextEntry",
+        "StandupNextEntryDetails",
+        "StandupMeetingMinutes",
+        ": Article"
+      ],
+      "exact": false,
+      "case": true
+    }
+  ]
+  }

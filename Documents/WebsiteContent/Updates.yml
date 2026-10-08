@@ -1,1 +1,43 @@
-Updates about the project
++: {Type: Folder, DefaultTypes: [SiteUpdateNotes]}
+Summary:
+  Description of updates - what changed - in the Deepdive section
+Notes:
+  - purpose is to show the progress
+  - Dates are in ISO format (YYYY-MM-DD)
+  - At the moment these are on file level; Item level is later - we need the facilities first.
+
+2026-10-08:
+  Summary:
+    - First major update after a pause (in updating the site) for a few months  
+  Files:
+    Modified:
+    - CurrentWork/Bobi/TasksToBeSorted.html
+    - CurrentWork/Bobi/Workspace.html
+    - CurrentWork/Hana/TasksToBeSorted.html
+    - CurrentWork/Hana/Workspace.html
+    - LearnToDive/Overview.html
+    - TheAbyss/BusinessClasses.html
+    - TheAbyss/Documents/F2YamlSpecification/F2Yaml.html
+    - TheAbyss/Documents/Requirements/F2FinanceHelper.html
+    - TheAbyss/Documents/Requirements/F2ToolsExtension.html
+    - TheAbyss/Documents/Requirements/TheF2Tool.html
+    - TheAbyss/Documents/Requirements/Website.html
+    - TheAbyss/MeetingMinutes/Plannings.html
+    - TheAbyss/System/Types.html
+    - TheAbyss/Tasks/Documents.html
+    - TheAbyss/Tasks/Management.html
+    - TheAbyss/Tasks/Processes.html
+    - TheAbyss/Tasks/PublicRelations.html
+    - TheAbyss/Tasks/Software/F2ToolsExtension.html
+    - TheAbyss/Tasks/Software/TheF2Tool.html
+    - TheAbyss/Tasks/Website.html
+    Added:
+    - CurrentWork/Bobi/StandupReports.html
+    - CurrentWork/Hana/StandupReports.html
+    - TheAbyss/Reports/Archive/OCWSPhase1.html
+    - TheAbyss/Reports/Archive/TaskListDoneTasks.html
+    - TheAbyss/Reports/Before1stPostTasks.html
+    - TheAbyss/Reports/DevTasks.html
+    - TheAbyss/Reports/TaskListTasks.html
+    - TheAbyss/Tasks/Software/F2FileToHtmlConverter.html
+    

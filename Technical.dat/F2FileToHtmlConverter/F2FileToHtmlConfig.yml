@@ -12,6 +12,8 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Hana
 - SourceFilePath:                                                 ..\..\CurrentWork\Hana\TasksToBeSorted.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Hana
+- SourceFilePath:                                                 ..\..\CurrentWork\Hana\StandupReports.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Hana
 - SourceFilePath:                                                          ..\..\BusinessClasses.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\
 - SourceFilePath:                                                          ..\..\Documents\F2YamlSpecification\F2Yaml.yml
@@ -70,7 +72,6 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
 - SourceFilePath:                                                          ..\..\Tasks\Software\F2FileToHtmlConverter.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
-  
   
 - SourceFilePath:          ..\..\Documents\WebsiteContent\Summary.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read

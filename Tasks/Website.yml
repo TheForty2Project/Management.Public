@@ -1667,7 +1667,7 @@ Done .Back to original:
       Workspace:
         - Enable the menu item
         - Fix the converter configuration
-    EstTODO .Create the site update process and do it once:
+    Done .Create the site update process and do it once:
       Id: CreateProcess
       +: {CreatedBy: Bobi, CreatedAt: 20261004 T 200235, By: [Bobi], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       Details:
@@ -1683,9 +1683,28 @@ Done .Back to original:
             .DATE:
               Summary:
               Files:
-                - 
+                Modified:
+                  - 
+                Added:
+                  - 
         Steps:
-    EstTODO .Go through the current files in the repository and update the f2filetohtmlconfig with any new ones to include:
+          - Run the converter:
+            1 - generate the files:
+              1: go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
+              2: type "f2filetohtml.exe" and press enter
+              3: check if no errors - if errors, try to fix them and redo from step 2
+            2 - write the update entry:
+              0: Add a new entry to the Documents\WebsiteContent\Updates.yml; update the date, fill in the summary
+              1: in total commander, right click on the "theforty2project.org" folder and select git commit
+              2: if there are new files, add them by checking the checkboxes in front of them (or by pressing on the "All" to check all files)
+              3: right click on the file list and click on "copy to clipboard\relative paths"
+              4: 
+                paste it to a notepad++ file and by using the multi-row select (press ALT while selecting with the mouse) select the parts of the paths up until and including "DeepDive" and replace them with a "-" so that:
+                  this: "content/Read/DeepDive/TheAbyss/Documents.html"
+                  becomes: "- TheAbyss/Documents.html"
+              5: paste the results into the "Modified" and "Added" sections of the update
+            3: re-run the file generation (step 1)
+    EstTODO .Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include:
       +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 4-High}
       Details:
         Steps:
@@ -1693,7 +1712,9 @@ Done .Back to original:
           - add an entry to the config (Technical.dat\F2FileToHtmlConverter\F2FileToHtmlConfig.yml)
           - add the entry to the app.js in the theforty2project.org repository
           - test it:
-            - 
+            - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
+            - type "f2filetohtml.exe" and press enter
+            - check if no errors - if errors, try to fix them
          
     NEXT .Document the process:
       Id: DocumentProcess

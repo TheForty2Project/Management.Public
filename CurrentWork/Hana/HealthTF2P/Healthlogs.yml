@@ -4718,9 +4718,7 @@ HanaHOSLog20260918:
     - Walk: 2 km
   .Work: 
     - Replst
-    - Health log
-
-  
+    - Health log 
 BobiHOSLOG20260918:
   .Morning:
     Wake up really weel
@@ -4733,6 +4731,75 @@ BobiHOSLOG20260918:
     - Bobi wanted to smoke 
     - Stated that stop smoking doesnt help with his SIBO
     - mentioned later after coming back home that this is because of his biorythm
+
+
+BobiHOSLog20261009:
+  .Stress1008: 27
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 77
+    Duration: 6h 40m
+    WakeTime: 8:44
+  .Morning:
+    Mood: 4/5
+    Poop: Type 3
+    Food: Rice pancake+Fruits+Coffee
+    Movement: Walk
+  .Afternoon:
+    Mood: 5/5
+    Sex: Yes
+    Food: 
+      Main: Rice, Fish(hering pepper), pork balls
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+    Movement: Strength 250kc
+    Food: 
+    Body Battery:
+HanaHOSLog20261009:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        6:00:   Oatmeal, Banana
+      Movement: Strength (upper and mid back, rotator cuff activation, core)
+      Food2: 
+        09:15: Protein shake 
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 3/5
+      Sex: Yes
+      Food: 
+        Main: Rice, Fish(hering pepper), pork balls
+        Dessert: cake,Pudding
+    .Evening:
+      Movement: Walk
+      Food: Decaf coffee, Protein
+      Body Battery: 
+      Sleep Hygiene:
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 Notes To be done:
   - Legend for numeration

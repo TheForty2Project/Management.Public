@@ -6,6 +6,14 @@ Notes:
   - Dates are in ISO format (YYYY-MM-DD)
   - At the moment these are on file level; Item level is later - we need the facilities first.
 
+2026-10-09:
+  Summary: Progress with website update process (-->Tasks\Website\..Improvements..UpdatesSection..CreateProcess<)
+  Files:
+    Modified:
+      - TheAbyss/Tasks/Website.html
+    Added:
+
+
 2026-10-08:
   Summary:
     - First major update after a pause (in updating the site) for a few months  
@@ -40,4 +48,3 @@ Notes:
     - TheAbyss/Reports/DevTasks.html
     - TheAbyss/Reports/TaskListTasks.html
     - TheAbyss/Tasks/Software/F2FileToHtmlConverter.html
-    

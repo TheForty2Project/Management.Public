@@ -424,11 +424,12 @@
     +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203301}
     Done .Tag the Done ones with TLDone:
       +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203345, By: Bobi, Tags: [TLDone], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
-    EstTODO .Do the reprioritization baseline:
+    InProgress .Do the reprioritization baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260923 T 005021, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 6-Extreme}
       Details:
         Timeboxed!
         If need more time, create a new task for it
+      Done .Reprioritization of Before1stPostTasks:
 
 TODO .Create a Requirement about automatic SR selection:
   +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}

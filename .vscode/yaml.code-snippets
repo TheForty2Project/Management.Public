@@ -12,6 +12,17 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+  "SiteUpdate":{
+    "prefix": "siteupdate",
+    "description": "Outputs a SiteUpdateNotes",
+    "body": [
+      "$CURRENT_YEAR-$CURRENT_MONTH-$CURRENT_DATE:", 
+      "  Summary: $0",
+      "  Files:",
+      "    Modified:",
+      "    Added:",      
+    ]
+  },
 	"BobiCreatedByAt": {
 		"prefix": "bcreated",
 		"description": "Outputs an Additional Properties line with usual fields",

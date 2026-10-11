@@ -194,7 +194,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 5-VeryHigh}
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
-      InProgress .Work out the script/screenplay:
+      OnHold .Work out the script/screenplay:
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
         Details:
           - a textual description about the animation content
@@ -267,7 +267,7 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TLDone], Estimation: 10, RemTime: 10}
         Result: https://chatgpt.com/share/6a68f66b-aeb4-83eb-9790-5cafe1d3e21c
 
-      NEXT .Implement animation:
+      OnHold .Implement animation:
         +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
   .ToBeSorted:
     EstTODO .Item identification in Where to use item.IsDescendantOf(item:_ IF2YamlWorkspaceItem):

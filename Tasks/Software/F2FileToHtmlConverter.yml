@@ -102,7 +102,7 @@
           +: {CreatedBy: Bobi, CreatedAt: 20260112 T 203858, By: Bobi, Tags: [CSVDONE], Estimation: "60", RemTime: "0"}
         InProgress .See what can be done to support the empty lines; if easy, do it: 
           Id: Implement
-          +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "120", RemTime: "60", Importance: 2-Low}
+          +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163818, By: Bobi, Tags: [Before1stPost, TL], Estimation: "120", RemTime: "60", Importance: 2-Low}
           Details:
             - It can be done seemingly, relatively easy (2h)
       Done .Fix the non-scalar as a sequence entry folding issue:
@@ -112,7 +112,7 @@
       EstTODO .Merge the project into the F2Tool solution:
         +: {CreatedBy: Bobi, CreatedAt: 20260414 T 194910, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "30"}
       EstTODO .Detect and convert urls:
-        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "60", RemTime: "60", Importance: 2-Low}
+        +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130338, By: Bobi, Tags: [Before1stPost, TL], Estimation: "60", RemTime: "60", Importance: 2-Low}
         Details:
           - check first - 
           - email addresses
@@ -122,7 +122,7 @@
       EstTODO .Update the colors to the current VS Code theme:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [Before1stPost, TL], Estimation: "15", RemTime: "15", Importance: 1-VeryLow}
       EstTODO .Detect and convert f2yaml links:
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [CSVDONE, Before1stPost], Estimation: "90", RemTime: "90", Importance: 5-VeryHigh}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [Before1stPost, TL], Estimation: "90", RemTime: "90", Importance: 5-VeryHigh}
         MaintenanceTasks:
           Done .Have an implementation plan and improve estimation:
             Id: ImprEstimation
@@ -153,7 +153,7 @@
         Done .Include coloring:
           +: {CreatedBy: Bobi, CreatedAt: 20260418 T 205117, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}        
       OnHold .Add "Commit message"-like feature:
-        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 2-Low}
+        +: {CreatedBy: Bobi, CreatedAt: 20260522 T 205511, By: Bobi, Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 0-Dont}
         MaintenanceTasks:
           Done .Have an implementation plan and provide estimation:
             Id: ImprEstimation

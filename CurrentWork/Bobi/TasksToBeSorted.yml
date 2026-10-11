@@ -166,7 +166,7 @@
       EstTODO .Update the Requirements according to the current implementation:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 3-Average}
       Done .Create Dev tasks report:
-        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [Before1stPost, TLDone], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
+        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [TLDone, Before1stPost], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
       InProgress .Have a value/effort rating system and apply it on the Requirements + Tasks:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141253, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 5-VeryHigh}
         Details:
@@ -189,13 +189,13 @@
               - Due to csv report generation technical reasons, the same value should be copied to the Task implementing the Requirement
   .Outreach:
     OnHold .Create the baseline posts from the ideas:
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60}
+      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200931, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 0-Dont}
     OnHold .Work out the DM comparison outreach idea:
-      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151109, By: Bobi, Tags: [Before1stPost, TL], Estimation: 240, RemTime: 240, Importance: 0-Dont}
       Details:
         This one: -->Documents\PublicRelations\..OutReachIdeas.."Animation about hierarchical vs computed dm"<
       OnHold .Work out the script/screenplay:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151328, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 0-Dont}
         Details:
           - a textual description about the animation content
         Workspace:
@@ -264,11 +264,11 @@
                   - 2 levels
                   - 16 nodes at the bottom
       Done .Investigate about how we can do the animation/graphics:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [Before1stPost, TLDone], Estimation: 10, RemTime: 10}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 151454, By: [Hana, Bobi], Tags: [TLDone, Before1stPost], Estimation: 10, RemTime: 10}
         Result: https://chatgpt.com/share/6a68f66b-aeb4-83eb-9790-5cafe1d3e21c
 
       OnHold .Implement animation:
-        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90}
+        +: {CreatedBy: Bobi, CreatedAt: 20260711 T 153600, By: [Bobi, Hana], Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 0-Dont}
   .ToBeSorted:
     EstTODO .Item identification in Where to use item.IsDescendantOf(item:_ IF2YamlWorkspaceItem):
       +: {CreatedBy: Bobi, CreatedAt: 20260808 T 195923, By: Bobi, Tags: [Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
@@ -555,35 +555,35 @@
       DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
     Done .Book badminton court:
-      +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 0, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [Private, TLDone], Estimation: 10, RemTime: 0, Importance: 3-Average}
     Done .Schedule meetup event:
-      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [TLDone, Private], Estimation: , RemTime: , Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [Private, TLDone], Estimation: , RemTime: , Importance: 3-Average}
       
      
       
     Done .Hana to experiment with the query:
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [TLDone, Private], Estimation: , RemTime: }
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [Private, TLDone], Estimation: , RemTime: }
       Details:
         - example is in Bobi's workspace (the before1stposttasks one)
         - filter to "TL" tag        
     Done .Hana to reply to eliza:      
-      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [TLDone, Private], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260717 T 161852, By: Hana, Tags: [Private, TLDone], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
     Done .Order protein:
-      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [TLDone, Private], Estimation: 15, RemTime: 0, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200259, By: Bobi, Tags: [Private, TLDone], Estimation: 15, RemTime: 0, Importance: 4-High}
       Result:
         - beef protein was not a good idea... we'll see. Collagen source if no answer
     Done .Follow up on my question about protein:
-      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
+      +: {CreatedBy: Bobi, CreatedAt: 20260719 T 014855, By: Bobi, Tags: [Private, TLDone], Estimation: 10, RemTime: 10, Importance: 2-Low, ScheduledAt: 20260720}
     Done .Check the registration around gas picture meter:
-      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+      +: {CreatedBy: Hana, CreatedAt: 20260717 T 162134, By: Bobi, Tags: [Private, TLDone], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
       Details:
         Check Robi's messages with anyu
     Done .Airbnb things:
       +: {CreatedBy: Hana, CreatedAt: 20260717 T 162209, By: Hana}
       Done .Guide about how to press buttons:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [TLDone, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183019, By: Hana, Tags: [Private, TLDone], Estimation: 15, RemTime: 15, Importance: 3-Average}
       Done .Entrance door stickers:
-        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20260717 T 183049, By: Hana, Tags: [Private, TLDone], Estimation: 20, RemTime: 20, Importance: 3-Average}
         Details:
           - to close:
             - close the door
@@ -594,20 +594,20 @@
             - turn once counterclockwise    
     OnGoing .Chores:
       OnGoing .Pay the electricity bill:
-        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [TL, Private], Estimation: 5, RemTime: 5, Importance: 4-High}
+        +: {CreatedBy: Bobi, CreatedAt: 20260725 T 144008, By: Bobi, Tags: [Private, TL], Estimation: 5, RemTime: 5, Importance: 4-High}
       OnGoing .Bubbles:
         Done .Bubbles at 20260725:
-          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [TLDone, Private], Estimation: 90, RemTime: 90, Importance: 4-High }                
+          +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143951, By: [Bobi, Hana], Tags: [Private, TLDone], Estimation: 90, RemTime: 90, Importance: 4-High }                
   .Infrastructure:
     Done .Set up Delli5:
       +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122450, By: Bobi, Tags: [TLDone], Estimation: 300, RemTime: 0, Importance: 5-VeryHigh}
-    EstTODO .Set up Delli3:
-      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122417, By: Bobi, Tags: [TL], Estimation: 240, RemTime: 120, Importance: 4-High}
+    Done .Set up Delli3:
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122417, By: Bobi, Tags: [TLDone], Estimation: 240, RemTime: 120, Importance: 4-High}
     EstTODO .Set up the myRaiffeisen app on the Pixel:
-      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122636, By: Bobi, Tags: [TL, Personal], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260923 T 122636, By: Bobi, Tags: [Private, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
       
-  InProgress .Meeting:
-    +: {CreatedBy: Bobi, CreatedAt: 20260928 T 135001, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+  Done .Meeting:
+    +: {CreatedBy: Bobi, CreatedAt: 20260928 T 135001, By: Bobi, Tags: [Private, TLDone], Estimation: , RemTime: , Importance: 3-Average}
     Details:
       Goal is: agreement about the points what Hana should be covering during the calls
     Workspace:
@@ -683,8 +683,8 @@
 
 
 
-  InProgress .create and hold a meeting about Hana-Totas Plan for Robi:
-    +: {CreatedBy: Hana, CreatedAt: 20260927 T 175513, By: Hana, Tags: [TL], Estimation:20 , RemTime: , Importance: 5-VeryHigh}
+  Done .create and hold a meeting about Hana-Totas Plan for Robi:
+    +: {CreatedBy: Hana, CreatedAt: 20260927 T 175513, By: Hana, Tags: [Private, TLDone], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
     Details:
       Outcome of the meeting should be:
         -  

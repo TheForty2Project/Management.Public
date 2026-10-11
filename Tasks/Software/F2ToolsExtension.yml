@@ -637,7 +637,7 @@ OnGoing .Task administration:
         Done .SkipUnder:
     EstTODO .Parse report CSV:
       Id: ParseReport
-      +: {CreatedBy: Bobi, CreatedAt: 20260903 T 005713, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260903 T 005713, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Requirement: 
         - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..Update<
         - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<

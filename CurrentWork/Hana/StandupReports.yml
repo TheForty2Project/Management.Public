@@ -299,13 +299,13 @@ SR_20261009_Hana:
     - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder".."Transfering Hanas lab results to BobiHana repository"<: [ 78m, "", 20261002 T 131454 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Decide about how to handle the updates section on the site"<: [ 15m, "", 20261005 T 140858 ]
 
-
   Next:
     - th mobility of next week
     - The food 3 plain days
     - -->Tasks\Website\..Improvements..CreateRoadmap..""Decide:_ how should we handle history?""<
-
 SR_NEXT_Hana:
   Was:
+    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 30m, "", 20261009 T 202844 ]
+    
   Next:
-  
+    - null

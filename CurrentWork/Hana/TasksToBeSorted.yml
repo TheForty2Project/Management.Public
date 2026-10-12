@@ -12,10 +12,10 @@ EstTODO .Set up Codex in VS Code for Hana:
 
 EstTODO .Learn TypeScript basics:
   +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150000, By: [Hana, Bobi]}
-  EstTODO .Find a TS tutorial:
-    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
-  NEXT .Create TS tutorial tasks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10, Importance: 3-Average}
+  EstTODO .TS:_ Find a TS tutorial:
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150045, By: [Hana, Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 2-Low}
+  NEXT .TS:_ Create TS tutorial tasks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260724 T 150135, By: [Hana], Tags: [TL], Estimation: 10, RemTime: 10, Importance: 2-Low}
     Details:
       - create tasks about processing the tutorial - e.g. chapter based or something (on Robis work)
       - DO NOT OVERSPEND THIS TASK - so aim for 5 mins and only create the first batch
@@ -35,7 +35,7 @@ Done .Process the below into outreach ideas:
     +: {CreatedBy: Hana, CreatedAt: 20260727 T 200751, By: Bobi, Tags: [TLDone], Estimation: 0, RemTime: 0, Importance: 3-Average}          
   
 Done .collect the lab results into one folder:
-  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [TL, Health, Private], Estimation: 40, RemTime: 20, Importance: 6-Extreme}
+  +: {CreatedBy: Hana, CreatedAt: 20260726 T 144109, By: Hana, Tags: [Health, TLDone, Private], Estimation: 40, RemTime: 20, Importance: 6-Extreme}
   Details:
     - Into the management.HanaBobi repo
   Comments:
@@ -46,21 +46,21 @@ Done .collect the lab results into one folder:
     - Lab result Folder are saved in Google Drive
     - Lab Results are printed for the physician
   Done .Transfering Hanas lab results to BobiHana repository:
-    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TL, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}  
+    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [Health, TLDone, Private], Estimation: 20 , RemTime: , Importance: 3-Average}  
     Notes: I couldnt figure out the passqord for year 2023 lab results and below
   Done .Transfering Hanas lab results to GoogleDrive:
-    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [TL, Health, Private], Estimation: 20 , RemTime: , Importance: 3-Average}
+    +: {CreatedBy: Hana, CreatedAt: 20261002 T 131351, By: Hana, Tags: [Health, TLDone, Private], Estimation: 20 , RemTime: , Importance: 3-Average}
     Notes: I couldnt figure out the passqord for year 2023 lab results and below
 EstTODO .Collect money transferred to Baba, Tuta, Hiba:
-  +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [TL, Private], Estimation: 60, RemTime: 60, Importance: 2-Low}
+  +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195708, By: Bobi, Tags: [Private, TL], Estimation: 60, RemTime: 60, Importance: 2-Low}
   Details:
     - What we talked about Friday (20260731)
     - How much money Hiba got from mama and how much you got - including university payment, drug rehab, anythingelse
 Cancelled .Research and plan about Hashimoto disease:
-  +: {CreatedBy: Hana, CreatedAt: 20260826 T 205942, By: Hana, Tags: [TLDone, Health], Estimation: 30 , RemTime: 30 , Importance: 4-High}
+  +: {CreatedBy: Hana, CreatedAt: 20260826 T 205942, By: Hana, Tags: [Health, TLDone], Estimation: 30 , RemTime: 30 , Importance: 4-High}
   CancelReason: not needed
 Deleted .Research and plan about kodney ultrasound:
-  +: {CreatedBy: Hana, CreatedAt: 20260826 T 210104, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 3-Average}
+  +: {CreatedBy: Hana, CreatedAt: 20260826 T 210104, By: Hana, Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 3-Average}
   Comments:
     - Bobi: this is duplicate (-->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Kidney functions".."Research and decide about kidney ultrasound"<)
   

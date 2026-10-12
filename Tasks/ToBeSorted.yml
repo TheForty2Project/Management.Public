@@ -4,7 +4,7 @@
   InProgress .Driving licence:
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164541}
     Done .Check and plan driving licence renewal:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 164600, By: Bobi, Tags: [Private, TLDone], Estimation: 20, RemTime: 10, Importance: 5-VeryHigh}
       Details:
         - Check the email
         - Probably find a doctor
@@ -14,16 +14,16 @@
         - Book an appointment with the MD (Ferenc ter 1)
         - Do it.
     Done .Print the eyesight paper and test:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 154858, By: Bobi, Tags: [TLDone, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 154858, By: Bobi, Tags: [Private, TLDone], Estimation: 30, RemTime: 30, Importance: 4-High}
       Details:
         - Ask chatgpt for one
         - Print (+ what Hana wants to be printed)
       Result:
         - Did it on the screen; it's ok (right eye better than left; better with the glasses.)
     Cancelled .If my eyesight is bad, find and go to a doctor:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 120, RemTime: 120, Importance: 4-High}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [Private, TLDone], Estimation: 120, RemTime: 120, Importance: 4-High}      
     Done .Book a GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 10, RemTime: 10, Importance: 6-Extreme}
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [Private, TLDone], Estimation: 10, RemTime: 10, Importance: 6-Extreme}
       Details:
         Include:
         - my lipid shit
@@ -32,7 +32,7 @@
         - I want to register myself there
         Doctor: see the chatgpt conversation (the woman in Ferenc ter 1)
     Done .Prepare for GP:
-      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [TLDone, Private], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 161507, By: Bobi, Tags: [Private, TLDone], Estimation: 60, RemTime: 60, Importance: 6-Extreme}
       Workspace:
         - Find and print labs
       Done .Find lab results:
@@ -52,9 +52,9 @@
         - copies of 3 documents
         - confirmation if it's Thursday at 3
     Done .Attend GP appointment:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TLDone, Private], Estimation: 90, RemTime: 90, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [Private, TLDone], Estimation: 90, RemTime: 90, Importance: 4-High}
     InProgress .Do the admin:
-      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [TL, Private], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20260831 T 155024, By: Bobi, Tags: [Private, TL], Estimation: 30, RemTime: 30, Importance: 4-High}
       Done .Upload the documents:
         Result:
           - https://chatgpt.com/share/6ab548e9-ff78-83eb-bdbc-6bfdac1aca8f
@@ -376,21 +376,21 @@
           - 
         Work follow up on Task list:
           -Responsibilities should be divided on the team to check the task list bidaily maybe?
-      EstTODO .Review what is in the workspace:
-        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [TL, Health], Estimation: 25, RemTime: 25 , Importance: 4-High}
-    EstTODO .Review and work out with Bobi:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Hana, Bobi], Tags: [TL, Health], Estimation: 30, RemTime: 30, Importance: 4-High}      
+      EstTODO .NegativeEvents:_ Review what is in the workspace:
+        +: {CreatedBy: Hana, CreatedAt: 20260829 T 215431, By: Hana, Tags: [Health, TL], Estimation: 25, RemTime: 25 , Importance: 4-High}
+    EstTODO .NegativeEvents:_ Review and work out with Bobi:
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143255, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 4-High}      
   InProgress .Research and buy psylocibin:
     Done .Research:
-      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [TLDone, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
+      +: {CreatedBy: Bobi, CreatedAt: 20260824 T 133415, By: Bobi, Tags: [Private, TLDone], Estimation: 20, RemTime: 20, Importance: 2-Low}
       Details:
         - How safe it is to buy the spores
       Result:
         - Mostly safe, safer than a grow kit.
         - Grow kit _might_ be problematic
         - Details: https://chatgpt.com/share/6a95f4db-2b78-83eb-aa69-7c0f3d2969e3
-    EstTODO .Try to find spores and buy if found:
-      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 232335, By: Hana, Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    EstTODO .Psyloc:_ Try to find spores and buy if found:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 232335, By: Hana, Tags: [Private, TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
       Details:
         see the above result!
   InProgress .Hana domains blocking on phone:
@@ -423,18 +423,28 @@
   InProgress .Reprioritize the Tasks:
     +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203301}
     Done .Tag the Done ones with TLDone:
-      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203345, By: Bobi, Tags: [TL], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
-    EstTODO .Do the reprioritization baseline:
+      +: {CreatedBy: Bobi, CreatedAt: 20260922 T 203345, By: Bobi, Tags: [TLDone], Estimation: 20, RemTime: 20, Importance: 5-VeryHigh}
+    InProgress .Do the reprioritization baseline:
       +: {CreatedBy: Bobi, CreatedAt: 20260923 T 005021, By: [Bobi, Hana], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 6-Extreme}
       Details:
         Timeboxed!
         If need more time, create a new task for it
+      Done .Reprioritization of Before1stPostTasks:
 
-TODO .Create a Requirement about automatic SR selection:
-  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+EstTODO .Create a Requirement about automatic SR selection:
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+  Details:
+    - two settings:
+      - which file
+      - what's the default name of the SR
+    - unless "specify standup report" is issued, the above is used
   
-TODO .Create a Requirement about "Task sink":
-  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+EstTODO .Create a Requirement about "Task sink":
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+  Details:
+    - command for specifying a file
+    - command for going there; before the "EOF" tag; save the previous location
+    - command for going back
   
     
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

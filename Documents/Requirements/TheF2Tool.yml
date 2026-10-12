@@ -304,8 +304,8 @@ Comments:
                         "2025-07-25 00:00"
                     MyComplexProp:
                       =>: |
-                        return "alma"
-                      : alma
+                        return "alma":
+                          alma
       Estimated ."Everything is an Item" concept:
         Estimation: 
           =: 18h

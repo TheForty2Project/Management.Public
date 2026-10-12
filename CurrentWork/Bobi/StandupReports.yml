@@ -475,6 +475,12 @@ SR_NEXT_Bobi:
     - -->Tasks\ToBeSorted\..Tasks20260824.."Driving licence".."Prepare for GP".."Fill in the forms"<: [ 20m, "", 20260923 T 143029 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Driving licence".."Prepare for GP".."Find lab results"<: [ 20m, "", 20260923 T 143049 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Driving licence".."Prepare for GP"<: [ 40m, "", 20260923 T 202220 ]
-    
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".MaintenanceTasks.."Create subtasks"<: [ 44m, "", 20261004 T 202036 ]
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Decide about how to handle the updates section on the site"<: [ 15m, "", 20261005 T 140858 ]
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Implement it on the site"<: [ 15m, "", 20261005 T 141235 ]
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Create the site update process and do it once"<: [ 45m, "", 20261005 T 203223 ]
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Schedule the execution of it"<: [ 3m, "", 20261009 T 135932 ]
+    - -->Tasks\ToBeSorted\..Tasks20260922.."Reprioritize the Tasks".."Do the reprioritization baseline"<: [ 53m, "", 20261009 T 140218 ]
+
   Next:
     - null

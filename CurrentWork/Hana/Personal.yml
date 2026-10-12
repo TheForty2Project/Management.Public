@@ -9,7 +9,7 @@ Done .Review finances 20260620:
 .Finances:      
   +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
   Done .Create the requirements:
-    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [TLDone, Private], Estimation: 30, RemTime: 30, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162811, By: [Bobi, Hana], Tags: [Private, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}
     Workspace:
       UCs:
         - Can (and when can) we buy something?
@@ -21,7 +21,7 @@ Done .Review finances 20260620:
         - Analysis of past spent: 3-Average
         - Forecast: 3-Average
   Done .Create implementation plan:
-    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [TLDone, Private], Estimation: , RemTime: , Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162843, By: [Bobi, Hana], Tags: [Private, TLDone], Estimation: , RemTime: , Importance: 3-Average}
     Workspace:
       - Current assets:
           - a separate tab
@@ -42,9 +42,9 @@ Done .Review finances 20260620:
     Details:
       Location: https://docs.google.com/spreadsheets/d/1fj5P1hBfTbZudjPE_JYLQ1arp-aIuFRqAXV8oukriEA/edit?usp=sharing  
     Done .Baseline:
-      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201809, By: [Hana], Tags: [TLDone, Private], Estimation: 60, RemTime: 0}
+      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201809, By: [Hana], Tags: [Private, TLDone], Estimation: 60, RemTime: 0}
     Done .CSV imports and analysis:
-      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Hana, Bobi], Tags: [TLDone, Private], Estimation: 120, RemTime: 120, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260725 T 201549, By: [Hana, Bobi], Tags: [Private, TLDone], Estimation: 120, RemTime: 120, Importance: 3-Average}
       Details:
         - have some idea
         - discuss it with Bobi
@@ -55,24 +55,24 @@ Done .Review finances 20260620:
   Done .Schedule showcase, showcase and get feedback:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656}
     Done . Schedule Finances to 20260801:
-      +: {CreatedBy: Hana, CreatedAt: 20260728 T 151830, By: Hana, Tags: [TLDone, Private], Estimation: 4 , RemTime: 4 , Importance: 3-Average}
+      +: {CreatedBy: Hana, CreatedAt: 20260728 T 151830, By: Hana, Tags: [Private, TLDone], Estimation: 4 , RemTime: 4 , Importance: 3-Average}
       Comments:
         - [Bobi, 20260825, "The meeting didn't happen"]
     Done . Schedule Finances showcase:
-      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 141110, By: Hana, Tags: [TLDone, Private], Estimation: 4, RemTime: 4, Importance: 3-Average}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260825 T 141110, By: Hana, Tags: [Private, TLDone], Estimation: 4, RemTime: 4, Importance: 3-Average}      
     Done . have the meeting and finalize the possible structure:
-      +: {CreatedBy: Hana, CreatedAt: 20260730 T 135914, By: Hana, Tags: [TLDone, Private], Estimation: 15, RemTime: 15, Importance: 3-Average}        
-  NEXT .Action the feedbacks:
-    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 3-Average}
-  EstTODO .Schedule a Task about updating Finances every Saturday:
-    +: {CreatedBy: Bobi, CreatedAt: 20260726 T 144655, By: [Hana], Tags: [TL, Private], Estimation: 10, RemTime: 10, Importance: 2-Low}
+      +: {CreatedBy: Hana, CreatedAt: 20260730 T 135914, By: Hana, Tags: [Private, TLDone], Estimation: 15, RemTime: 15, Importance: 3-Average}        
+  Cancelled .Action the feedbacks:
+    +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [Private, TLDone], Estimation: 20, RemTime: 20, Importance: 3-Average}
+  Cancelled .Schedule a Task about updating Finances every Saturday:
+    +: {CreatedBy: Bobi, CreatedAt: 20260726 T 144655, By: [Hana], Tags: [Private, TLDone], Estimation: 10, RemTime: 10, Importance: 2-Low}
 
 
 #Health:
 OnHold .Schedule Bobis Lab:
   +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
   Done .Blood and urine:
-    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132809, By: [Hana], Tags: [TLDone, Private], Estimation: 15 , RemTime: 15, Importance: 4-High}
+    +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132809, By: [Hana], Tags: [Private, TLDone], Estimation: 15 , RemTime: 15, Importance: 4-High}
     Details:    
       - \"nagy rutin" (includes iron + cbc)
       - thyroid (TSH + usual + my special anti thyroid immune cells something)
@@ -83,24 +83,22 @@ OnHold .Schedule Bobis Lab:
       - DNA fragmentation
       - count
     EstTODO .Research first:
-      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [Private, TL], Estimation: 20, RemTime: 20, Importance: 2-Low}
       Details:
         - check what can be done if the results are bad
         - what are the options (price)
     NEXT .Do it:
-      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 2-Low}
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 132838, By: [Hana], Tags: [Private, TL], Estimation: 20, RemTime: 20, Importance: 2-Low}
   TODO .Genetics test:
     +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana]}
     Details:
     EstTODO .Research genetics test:
-      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana], Tags: [TL, Private], Estimation: 25, RemTime: 25, Importance: 2-Low}
+      +: {CreatedBy: Bobi, CreatedAt: 20260720 T 133156, By: [Hana], Tags: [Private, TL], Estimation: 25, RemTime: 25, Importance: 2-Low}
       Details:
         - check what we need - so what genes we should include
         - what are the options (price)
-    TODO .Do genetics test:
-
 #Ds:
-TODO .Create a process to handle Salad:
+OnGoing .Create a process to handle Salad:
   Id: SaladPRocess
   Done .First iteration:    
     Result:
@@ -111,8 +109,8 @@ TODO .Create a process to handle Salad:
       Done .Salad locked inside the computer:
       Done .Salad locked with timer locked:
       Done .Verified by the 2 parties:
-  EstTODO .Revise the salad process 20260922:
-    +: {CreatedBy: Bobi, CreatedAt: 20260922 T 205541, By: [Bobi, Hana], Tags: [TL, Private], Estimation: 20, RemTime: 20, Importance: 6-Extreme}
+  Cancelled .Revise the salad process 20260922:
+    +: {CreatedBy: Bobi, CreatedAt: 20260922 T 205541, By: [Bobi, Hana], Tags: [Private, TL], Estimation: 20, RemTime: 20, Importance: 0-Dont}
     Details:
       - immediate actions
       - lock period
@@ -191,13 +189,13 @@ Done .Create explanation to Agi about the nervous system:
 
 #Airbnb:
 Done .Buy Earplugs for the Airbnb guests:
-  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [TLDone, Private, Airbnb], Estimation: 15, RemTime: 15, Importance: 2-Low}
+  +: {CreatedBy: Hana, CreatedAt: 20260621 T 003057, By: Hana, Tags: [Private, TLDone, Airbnb], Estimation: 15, RemTime: 15, Importance: 2-Low}
   Details:
     - Decide what from where
     - If DM "normal" then put it on Bobi's OI shopping list
     - DO NOT SPEND MORE TIME ON THIS THAN THE ESTIMATED
 Done .Reply to Changli:
-  +: {CreatedBy: Bobi, CreatedAt: 20260729 T 141212, By: Hana, Tags: [TLDone, Private], Estimation: , RemTime: , Importance: 5-VeryHigh}
+  +: {CreatedBy: Bobi, CreatedAt: 20260729 T 141212, By: Hana, Tags: [Private, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
   
 
 

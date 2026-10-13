@@ -4733,13 +4733,13 @@ BobiHOSLOG20260918:
     - mentioned later after coming back home that this is because of his biorythm
 
 
-BobiHOSLog20261009:
-  .Stress1008: 27
+BobiHOSLog20261012:
+  .Stress1011: 27
   .Sleep:
     Notes: Sleep score obtained from Garmin Application
-    Score: 77
-    Duration: 6h 40m
-    WakeTime: 8:44
+    Score: 79
+    Duration: 6h 39m
+    WakeTime: 9:41
   .Morning:
     Mood: 4/5
     Poop: Type 3
@@ -4747,15 +4747,257 @@ BobiHOSLog20261009:
     Movement: Walk
   .Afternoon:
     Mood: 5/5
-    Sex: Yes
     Food: 
-      Main: Rice, Fish(hering pepper), pork balls
+      Main: Rice, Fish ( with paprika (warning) + Olive oil)
       Dessert: cake,Pudding,Fruits
   .Evening:
-    Movement: Strength 250kc
+    Work:
+      Time: 17:30 
+      Topic: Health Analysis and health log discussion ( Anita, Bobi, Hana)
+    Movement: 
+      Time: 21:50
+      Type: Walk
     Food: 
     Body Battery:
-HanaHOSLog20261009:
+HanaHOSLog20261012:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        Time: 6:00
+        Food: Oatmeal, Banana
+      Movement: 
+        Time: 07:00
+        Type: Walk 
+        Time2: 07:30
+        Type2: Gym
+        Link: https://drive.google.com/file/d/1FppKgN75gnDQBFGeSABl3S9G4qd9o9Yo/view?usp=sharing
+      Food2: 
+        10:00:  Cake
+    .Afternoon:
+      Mood: 3/5
+      Food: 
+        Main: Rice, Fish ( with paprika (warning) + Olive oil)
+        Dessert: cake,Pudding,Fruits
+      Movement: 
+        Time: 16:00
+        Type: Walk 
+    .Evening:
+      Work: 
+        Time: 17:30 
+        Topic: Health Analysis and health log discussion ( Anita, Bobi, Hana)
+      Food: 
+        Time: 19:30
+        Type: Rice and tomato sauce
+      Movement: 
+        Time: 21:50
+        Type: Walk
+      Body Battery: 25
+      Sleep Hygiene:
+        - Walk 
+        - Shower 
+        - Collagen + mint tea
+        - Work preparation
+        - Sleep
+AnitaHOSLog20261012:
+  .Sleep:
+    Duration: 4 hours
+  .Morning:
+    Food: 
+      Time: 06:00
+      Food: Rice, Boiled Egg, Coffee
+    Mood: 
+      Time: 07:00
+      Score: 3/5
+      Notes: Lack of sleep
+    Movement: 
+      Time: 07:00
+      Type: Walk 
+      Time2: 07:30
+      Type2: Gym
+      Link: https://drive.google.com/file/d/1FppKgN75gnDQBFGeSABl3S9G4qd9o9Yo/view?usp=sharing
+    Movement2: 
+      Time: 09:50
+      Activity: House cleaning
+  .Afternoon:
+    Mood: 
+    Food: 
+      Time: 
+      Notes: 
+      Main: 
+  .Evening:
+    Work:
+        Time: 17:30 
+        Topic: Health Analysis and health log discussion ( Anita, Bobi, Hana)
+    Mood: 
+    Food:
+      Time: 08:30
+      Food: Cake, Strawberry, Vanilla Puding
+
+
+
+
+BobiHOSLog20261013:
+  .Stress1012: 29
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 91
+    Duration: 7h 33m
+    WakeTime: 9:54
+  .Morning:
+    Mood: 2/5
+    Poop: 
+    Food: 
+    Movement: Walk
+  .Afternoon:
+    Mood: 
+      Time: 13:11
+      Score: 2/5
+      Notes: Low mood. Gasses trapped
+    Movement: 
+      - Run
+    Food: 
+      Time: 14:30
+      Notes: Since there are gasses, no fiber for today
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+    Movement: 
+    Food: 
+    Body Battery:
+HanaHOSLog20261013:
+    .Stress1012: 25
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Morning Observation: 
+        - Face puffy
+      Score: 80
+      Duration: 6h 34m
+      WakeTime: 07:14
+    .Morning:
+      Mood: 3/5
+      Food: 
+        Time: 7:30
+        Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+      Drugs:
+        Time: 07:50
+        Type: Nicotine patch
+      Poop: 
+        Time: 08:00
+        Bristol Score: Type 4
+        Notes: First type 4 in 3 days
+      Movement: 
+        Time: 09:50
+        Activity: Walk
+      Poop2:
+        Time: 10:30
+        Bristol Score: Type 5
+        Notes: Literally looks like poop emoji     
+      Food2: 
+        Time: 10:54
+        Food: Small Piece of cake.
+      MOvement: 
+        Time: 11:20
+        Type: Walk
+      Drug2: 
+        Time: 12:00
+        Type: Kratom
+      
+
+
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 4/5
+      Food: 
+        Time: 14:30
+        Notes: Follow Robi Plan
+        Main: Rice, Breast turkey, 
+        Dessert: cake,Pudding,Fruits
+    .Evening:
+      Movement: 
+      Food: 
+      Body Battery: 
+      Sleep Hygiene:
+AnitaHOSLog20261013:
+  .Morning:
+    Mood: 
+    Food: 
+      Time: 
+      Food: 
+    Poop: 
+      Time: 
+      Bristol Score: 
+      Notes:
+    Movement: 
+      Time: 
+      Activity: 
+  .Afternoon:
+    Mood: 
+    Food: 
+      Time: 
+      Notes: 
+      Main: 
+      Dessert: 
+  .Evening:
+    Mood: 
+    Food:
+
+
+BobiHOSLog20261014:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+HanaHOSLog20261014:
     .Stress1008: 20
     .Sleep:
       Notes: Sleep score obtained from Garmin Application
@@ -4782,7 +5024,34 @@ HanaHOSLog20261009:
       Food: Decaf coffee, Protein
       Body Battery: 
       Sleep Hygiene:
-      
+AnitaHOSLog20261014:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        6:00:   Oatmeal, Banana
+      Movement: Strength (upper and mid back, rotator cuff activation, core)
+      Food2: 
+        09:15: Protein shake 
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 3/5
+      Sex: Yes
+      Food: 
+        Main: Rice, Fish(hering pepper), pork balls
+        Dessert: cake,Pudding
+    .Evening:
+      Movement: Walk
+      Food: Decaf coffee, Protein
+      Body Battery: 
+      Sleep Hygiene:
+
 
 To be prioritized tomorrow:
   TODO .Review health logs for yesterday for Bobi, Hana and Anita:

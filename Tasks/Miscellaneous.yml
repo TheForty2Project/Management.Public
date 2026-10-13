@@ -235,15 +235,337 @@ Id: Misc
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TLDone, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
         Result:
           - Showcase healthLog is on Aug 1
-      EstTODO .Prepare for health-log showcase:
+      Done .Prepare for health-log showcase:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
-      NEXT .Showcase health log:
+        WorkSpace:
+          Intro:
+            The HelthLog combines the two major principles of our HOS:
+              - Timeline first: Recording what happened, when it happened, and the state of that moment.
+              - State transitions (Later phase): Observation whether an event or intervention was followed by a change in our physical or cognitive state.
+            
+          Details: 
+              HumanOperatingSystem:
+
+                Principle:
+                  PrimaryStructure: Timeline
+                  Description: 
+                    Record human experiences chronologically.
+                    Each entry represents an event, state, decision,
+                    or intervention at a particular time.
+
+                    Categories are properties of timeline entries,
+                    not separate storage structures.
+
+                  CoreModel: 
+                    StateBefore -> Event -> StateAfter -> StateTransition
+
+                  Goal: 
+                    Understand how events influence physical,
+                    cognitive, and emotional states over time.
+                    Identify patterns, test hypotheses, and improve decisions.
+
+                Timeline:
+
+                  Organization:
+                    - Morning
+                    - Afternoon
+                    - Evening
+
+                  CommonProperties:
+                    Time: "HH:MM"
+                    Type: null
+                    Notes: null
+
+                  EventTypes:
+
+                    1_State:
+                      Description: 
+                        A record of human's physical, emotional,
+                        and cognitive condition at a specific moment.
+                        Recommended at least three times daily (morning, afternoon, evening)
+
+                      Properties:
+                        Mood: null              # 1-10
+                        ThinkingQuality: null   # 1-10
+                        Motivation: null        # 1-10
+                        PhysicalEnergy: null    # 1-10
+                        BodyBattery: null       # Garmin estimate, 0-100
+                        Rumination: null        # Low / Medium / High
+                        Notes: null
+
+                    2_Sleep:
+                      Description: 
+                        Records sleep quantity, quality, and recovery.
+                        Usually recorded after waking.
+
+                      Properties:
+                        Duration: null
+                        SleepScore: null
+                        BedTime: null
+                        WakeTime: null
+                        BodyBattery: null
+                        Notes: null
+
+                    3_Food:
+                      Description: 
+                        Records food and drinks consumed.
+                        Useful for studying energy, cognition,
+                        digestion, and post-meal symptoms.
+
+                      Properties:
+                        Food: null
+                        Quantity: null
+                        Notes: null
+
+                    4_SupplementationMedicationDrugs:
+                      Description: 
+                        Records substances taken and their dosages.
+                        Helps identify possible associations with
+                        changes in physical or cognitive state.
+
+                      Properties:
+                        Name: null
+                        Dosage: null
+                        Unit: null
+                        Notes: null
+
+                    5_Digestion:
+                      Description: 
+                        Records bowel movements and digestive symptoms.
+                        Useful for identifying patterns involving food,
+                        movement, stress, and gastrointestinal function.
+
+                      Properties:
+                        Bristol: null          # 1-7
+                        Bloating: null         # 0-10
+                        AbdominalPain: null    # 0-10
+                        Notes: null
+
+                    6_Movement:
+                      Description: 
+                        Records physical activity, including walking,
+                        running, strength training, mobility, and sports.
+
+                      Properties:
+                        Activity: null
+                        Duration: null
+                        Intensity: null        # Easy / Moderate / Hard
+                        Notes: null
+
+                    7_Work:
+                      Description: 
+                        Records productive activities and cognitive demands.
+                        Useful for connecting brain state with performance.
+
+                      Properties:
+                        Activity: null
+                        Duration: null
+                        Focus: null            # 1-10
+                        Productivity: null     # 1-10
+                        Notes: null
+
+                    8_LifeEvent:
+                      Description: 
+                        Records meaningful environmental, social,
+                        or psychological experiences that may influence
+                        the human state.
+
+                      Properties:
+                        Event: null
+                        EmotionalImpact: null  # -5 to +5
+                        Notes: null
+
+                    9_Decision:
+                      Description: 
+                        Records deliberate choices intended to achieve
+                        a goal or change the current state.
+
+                      Properties:
+                        CurrentState: null
+                        DesiredState: null
+                        Options: []
+                        ChosenAction: null
+                        ExpectedOutcome: null
+                        Notes: null
+
+                    10_Intervention:
+                      Description: 
+                        Records an intentional action taken to influence
+                        a specific state or symptom.
+                        Unlike a general event, it has an explicit purpose.
+
+                      Properties:
+                        Action: null
+                        Target: null
+                        Duration: null
+                        ExpectedEffect: null
+                        Notes: null
+
+                    11_Outcome:
+                      Description: 
+                        Records the observed result of an action,
+                        decision, or intervention.
+
+                      Properties:
+                        RelatedEventID: null
+                        ObservedChange: null
+                        DesiredOutcomeAchieved: null
+                        Notes: null
+
+                    12_PhysicalSymptoms:
+                      Description: 
+                        Records observable physical changes and symptoms.
+                        Helps identify recurring patterns and possible
+                        relationships with nutrition, digestion, menstrual
+                        cycles, recovery, and laboratory results.
+
+                        Physical observations are not sufficient to
+                        diagnose anemia or other medical conditions.
+
+                      Properties:
+
+                        Skin:
+                          Acne: null              # None / Mild / Moderate / Severe
+                          Dryness: null           # 0-10
+                          ColorChange: null
+                          Rash: null
+
+                        Face:
+                          Puffiness: null         # 0-10
+                          Location: null          # Eyes / Cheeks / Whole face
+
+                        Eyes:
+                          ScleraColor: null       # White / Yellowish / Other
+                          InnerEyelidColor: null  # Pink / Pale / Other
+                          Puffiness: null         # 0-10
+
+                        Nails:
+                          Color: null
+                          Brittleness: null       # 0-10
+                          Ridges: null
+                          ShapeChange: null
+
+                        Abdomen:
+                          Bloating: null          # 0-10
+                          Distension: null        # 0-10
+                          Pain: null              # 0-10
+                          Location: null
+
+                        General:
+                          Fatigue: null           # 0-10
+                          Dizziness: null
+                          ColdSensitivity: null
+                          Bruising: null
+                          Swelling: null
+
+                        Notes: null
+
+                    13_MenstrualCycle:
+                      Description: 
+                        Records menstrual cycle timing, bleeding,
+                        and associated physical and psychological symptoms.
+                        Helps investigate individual relationships between
+                        cycle changes, cognition, digestion, mood,
+                        exercise performance, and recovery. This event type can be recorder every week
+
+                      Properties:
+
+                        Cycle:
+                          Day: null               # Day 1 = first day of menstrual bleeding
+                          Phase: null             # Menstrual / Follicular / Ovulatory / Luteal
+                          PhaseEstimated: null    # true / false
+
+                        Bleeding:
+                          Flow: null              # None / Spotting / Light / Moderate / Heavy
+                          Color: null
+                          Clots: null
+
+                        PhysicalSymptoms:
+                          Cramps: null            # 0-10
+                          BreastTenderness: null  # 0-10
+                          Bloating: null          # 0-10
+                          Headache: null          # 0-10
+                          Fatigue: null           # 0-10
+
+                        PsychologicalSymptoms:
+                          MoodChange: null
+                          Irritability: null      # 0-10
+                          Anxiety: null           # 0-10
+
+                        Notes: null
+                Analysis (Next Phase):
+
+                  StateTransitions:
+                    Description: 
+                      Compare states before and after events.
+                      Temporal association does not establish causation.
+
+                  Patterns:
+                    Description: 
+                      Identify repeated relationships across timeline entries.
+
+                  Hypotheses:
+                    Description: 
+                      Generate testable explanations for observed patterns.
+
+                  Experiments:
+                    Description: 
+                      Test hypotheses using repeated measurements
+                      and controlled comparisons where possible.
+
+                  Predictions:
+                    Description: 
+                      Estimate likely future states or outcomes
+                      based on accumulated evidence.
+
+                  PersonalKnowledge:
+                    Description: 
+                      Store conclusions supported by repeated observations
+                      and experiments, including their uncertainty.
+
+                  DecisionEngine:
+                    Description: 
+                      Use current state, desired state, predictions,
+                      and personal knowledge to select useful actions.
+
+                LearningLoop:
+                  - Timeline
+                  - StateTransitions
+                  - Patterns
+                  - Hypotheses
+                  - Experiments
+                  - Predictions
+                  - PersonalKnowledge
+                  - DecisionEngine
+                  - Action
+                  - Timeline
+
+              What we should apply for this month for each entry: 
+                Event type: 
+                  - State:
+                  - Sleep:
+                  - Food:
+                  - SupMedDrg:
+                  - Digestion:
+                  - Movement:
+                  - Work:
+                  - Physical Symptoms:
+                  - Menstrual cycle (every week):
+
+      TODO .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        TODO .Schedule Showcase Health log meeting with Robi:
+          +: {CreatedBy: Hana, CreatedAt: 20261013 T 185416, By: Hana, Tags: [TL], Estimation: 5, RemTime: 5, Importance: 5-VeryHigh}
+        NEXT .Have the meeting:
+          +: {CreatedBy: Hana, CreatedAt: 20261013 T 185625, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          
       NEXT .Action the feedback items:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [ Hana ], Tags: [ TL, Private, Health ] }
+      NEXT .Showcase Health Log to Anita:
+
   OnGoing .Create food schedule for the next week:
     Details:
       - Fish 3x a week

@@ -244,11 +244,9 @@ Id: Misc
           Intro:
             The HelthLog combines the two major principles of our HOS:
               - Timeline first: Recording what happened, when it happened, and the state of that moment.
-              - State transitions (Later phase): Observation whether an event or intervention was followed by a change in our physical or cognitive state.
-            
+              - State transitions (Later phase): Observation whether an event or intervention was followed by a change in our physical or cognitive state.  
           Details: 
               HumanOperatingSystem:
-
                 Principle:
                   PrimaryStructure: Timeline
                   Description: 
@@ -266,7 +264,6 @@ Id: Misc
                     Understand how events influence physical,
                     cognitive, and emotional states over time.
                     Identify patterns, test hypotheses, and improve decisions.
-
                 Timeline:
 
                   Organization:
@@ -530,7 +527,6 @@ Id: Misc
                     Description: 
                       Use current state, desired state, predictions,
                       and personal knowledge to select useful actions.
-
                 LearningLoop:
                   - Timeline
                   - StateTransitions
@@ -543,7 +539,7 @@ Id: Misc
                   - Action
                   - Timeline
 
-              What we should apply for this month for each entry: 
+              What we should apply for the first month for each entry: 
                 Event type: 
                   - State:
                   - Sleep:
@@ -554,7 +550,40 @@ Id: Misc
                   - Work:
                   - Physical Symptoms:
                   - Menstrual cycle (every week):
+          Template:
+            HOSLog20261013:
+            Morning:
+              - Time: "07:00"
+                Type: State
+                Mood: 6
+                ThinkingQuality: 5
+                Motivation: 4
+                PhysicalEnergy: 7
+                BodyBattery: 85
 
+              - Time: "07:30"
+                Type: Food
+                Food: Oatmeal and eggs
+                Notes: Breakfast
+
+              - Time: "08:15"
+                Type: Movement
+                Activity: Walking
+                Duration: 25min
+                Intensity: Easy
+
+              - Time: "08:50"
+                Type: State
+                Mood: 7
+                ThinkingQuality: 7
+                Motivation: 7
+                PhysicalEnergy: 7
+
+              - Time: "09:00"
+                Type: Work
+                Activity: Software development
+                Duration: 90min
+                Focus: 8
       TODO .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         TODO .Schedule Showcase Health log meeting with Robi:

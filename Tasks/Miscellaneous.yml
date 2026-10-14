@@ -229,21 +229,21 @@ Id: Misc
                 Details: W, M, K, C, V, etc.
               Levels Intensity:
                 Details: The effects of it - how much it was felt
-    TODO .Showcase health-log to Bobi:
+    InProgress .Showcase health-log to Bobi:
       +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TLDone, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [Health, TLDone], Estimation: 10, RemTime: 10, Importance: 3-Average }
         Result:
           - Showcase healthLog is on Aug 1
       EstTODO .Prepare for health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
       NEXT .Showcase health log:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [Health, TL ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
       NEXT .Action the feedback items:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [ Hana ], Tags: [ TL, Private, Health ] }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [ Hana ], Tags: [Health, TL ] }
   OnGoing .Create food schedule for the next week:
     Details:
       - Fish 3x a week
@@ -265,7 +265,7 @@ Id: Misc
         - Boiled Carrots
         - White rice
   EstTODO .Analysis of the month of June and July:
-    +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [ TL, Private ], Estimation: 60, RemTime: 60, Importance: 3-Average }
+    +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:
       - Analysis of the month of June and July:
           - is there a correlation in between number of calories burnt and bad mood the next day?

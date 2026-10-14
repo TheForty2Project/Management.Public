@@ -4843,7 +4843,7 @@ AnitaHOSLog20261012:
 
 
 
-BobiHOSLog20261013:
+BobiHOSLog20261013 incomplete:
   .Stress1012: 29
   .Sleep:
     Notes: Sleep score obtained from Garmin Application
@@ -4854,16 +4854,32 @@ BobiHOSLog20261013:
     Mood: 2/5
     Poop: 
     Food: 
-    Movement: Walk
+  .Movement: Walk
   .Afternoon:
-    Mood: 
+    Mood:
       Time: 13:11
-      Score: 2/5
+      Score: 1/5
       Notes: Low mood. Gasses trapped
     Movement: 
-      - Run
+      - Run (Unsuccesful)
+    Mood2: 
+      Time2: 15:00
+      Score2: 0/5
+      Warning: FIGHT
+      Notes: 
+        Body condition: Inability to walk
+        Mind Condition: Obvious bad thoughts
+        Event1: Massage was requested, Hana gave a massage. 
+        Trigger: Hana mentioned that she tries to stay away from bad moods
+        Event2: Robi was about to exit the house 
+        Trigger2: Hana asked if Robi has the W box
+        Event3: Had a fight in the entrance of the house 
+        Trigger3: Robi said that Hana does not care about him 
+        Event4: Revenge thoughts. Hana taking the knife 
+        Change of events: Hana thought this has been going for 8 years. We should work. Hana heads to Library for work by walking
+
     Food: 
-      Time: 14:30
+      Time: Skipped afternoon Lunch
       Notes: Since there are gasses, no fiber for today
       Main: Rice, Breast turkey, 
       Dessert: cake,Pudding,Fruits
@@ -4914,11 +4930,15 @@ HanaHOSLog20261013:
         10:00:  Rice Pancake
     .Afternoon:
       Mood: 4/5
+      Work: Health Logging - -->CurrentWork\Hana\HealthTF2P\Healthlogs\.HanaHOSLog20261013..Afternoon.Work<
       Food: 
         Time: 14:30
-        Notes: Follow Robi Plan
+        Notes: Follow Robi food Plan
         Main: Rice, Breast turkey, 
-        Dessert: cake,Pudding,Fruits
+        Dessert: cake,Pudding,Fruits 2 spoons
+      Movement: 
+        Time: 16:05
+        Type: Walk
     .Evening:
       Movement: 
       Food: 
@@ -4927,26 +4947,39 @@ HanaHOSLog20261013:
 AnitaHOSLog20261013:
   .Morning:
     Mood: 
+      Time: 
+      Score:
+    Supplementation/Medication:
+      Time: 
+      Name: 
+      Dosage:
     Food: 
       Time: 
-      Food: 
+      Food:
+      Notes: 
     Poop: 
       Time: 
-      Bristol Score: 
+      Bristol : 
       Notes:
     Movement: 
       Time: 
       Activity: 
+      Notes:
   .Afternoon:
     Mood: 
+      Time: 
+      Score:
     Food: 
       Time: 
+      Food:
       Notes: 
-      Main: 
-      Dessert: 
+    Movement: 
+    Work: 
   .Evening:
     Mood: 
     Food:
+    Movement: 
+    Work:
 
 
 BobiHOSLog20261014:
@@ -5054,9 +5087,9 @@ AnitaHOSLog20261014:
 
 
 To be prioritized tomorrow:
-  TODO .Review health logs for yesterday for Bobi, Hana and Anita:
-  TODO .Prepare cake for Anita and count the calorie intake :
-  TODO .Prepare the menu for tomorrow:
+  Done .Review health logs for yesterday for Bobi, Hana and Anita:
+  Done .Prepare cake for Anita and count the calorie intake :
+  Done .Prepare the menu for tomorrow:
   TODO .Share schedule with Anita:
     TODO .Create workout activity schedule:
       TODO .Include past week activity
@@ -5067,7 +5100,17 @@ To be prioritized tomorrow:
       - Prepare the right food for 2nd day muscle repair and regenaration
       - Have a good rest. No extreme exercise today.
   TODO .Go through VSC installation process:
+  Done .Preparation of Health log showcae:
+  InProgress .Schedule Health log showcase meeting with Robi:
+  NEXT .Schecule Health Log show case with Anita:
+    Notes: Possible time to show case 20261017
 
+
+
+
+  combines the two major principles of our HOS:
+1. Timeline first: Record what happened, when it happened, and your state at that moment.
+2. State transitions: Observe whether an event or intervention was followed by a change in your physical or cognitive state.
 
 
 

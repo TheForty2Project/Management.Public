@@ -229,10 +229,10 @@ Id: Misc
                 Details: W, M, K, C, V, etc.
               Levels Intensity:
                 Details: The effects of it - how much it was felt
-    TODO .Showcase health-log to Bobi:
+    InProgress .Showcase health-log to Bobi:
       +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [ TLDone, Private, Health ], Estimation: 10, RemTime: 10, Importance: 3-Average }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [Health, TLDone], Estimation: 10, RemTime: 10, Importance: 3-Average }
         Result:
           - Showcase healthLog is on Aug 1
       Done .Prepare for health-log showcase:
@@ -240,9 +240,9 @@ Id: Misc
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
-        WorkSpace:
+        Workspace:
           Intro:
-            The HelthLog combines the two major principles of our HOS:
+            The HealthLog combines the two major principles of our HOS:
               - Timeline first: Recording what happened, when it happened, and the state of that moment.
               - State transitions (Later phase): Observation whether an event or intervention was followed by a change in our physical or cognitive state.  
           Details: 
@@ -271,146 +271,165 @@ Id: Misc
                     - Afternoon
                     - Evening
 
-                  CommonProperties:
-                    Time: "HH:MM"
-                    Type: null
-                    Notes: null
+                  class .EventLogBase:
+                    TimeStamp .Time:
+                    string .Summary:
+                    string .Notes:
 
-                  EventTypes:
+                  class .SystemState:
+                    Inherits: EventLogBase
+                    Summary: 
+                      A record of human's physical, emotional,
+                      and cognitive condition at a specific moment.
+                      Recommended at least three times daily (morning, afternoon, evening)
+                    OneToTen .Mood:
+                    OneToTen .ThinkingQuality:
+                    OneToTen .Motivation:
+                    OneToTen .PhysicalEnergy:
+                    integer .BodyBattery:
+                      Summary: Garmin estimate; 1-100
+                    ZeroToFive .Rumination:                            
 
-                    1_State:
-                      Description: 
-                        A record of human's physical, emotional,
-                        and cognitive condition at a specific moment.
-                        Recommended at least three times daily (morning, afternoon, evening)
+                  class .Sleep:
+                    Inherits: EventLogBase
+                    Summary: 
+                      Records sleep quantity, quality, and recovery.
+                      Usually recorded after waking.
+                    TimeStamp .BedTime:
+                    Duration .Duration:
+                    OneToHundred .SleepScore:
+                      Summary:
+                        Garmin sleep score
+                    TimeStamp .WakeTime:                        
+                    integer .BodyBattery:
+                      Summary:
+                        Garmin body battery                      
 
-                      Properties:
-                        Mood: null              # 1-10
-                        ThinkingQuality: null   # 1-10
-                        Motivation: null        # 1-10
-                        PhysicalEnergy: null    # 1-10
-                        BodyBattery: null       # Garmin estimate, 0-100
-                        Rumination: null        # Low / Medium / High
-                        Notes: null
+                  class .Food:
+                    Inherits: EventLogBase
+                    Summary: 
+                      Records food and drinks consumed.
+                      Useful for studying energy, cognition,
+                      digestion, and post-meal symptoms.
 
-                    2_Sleep:
-                      Description: 
-                        Records sleep quantity, quality, and recovery.
-                        Usually recorded after waking.
+                    string .MealDescription:
+                    OneToThree .Quantity:
+                      Summary: |
+                        1: Small, 2: medium, 3: large                      
 
-                      Properties:
-                        Duration: null
-                        SleepScore: null
-                        BedTime: null
-                        WakeTime: null
-                        BodyBattery: null
-                        Notes: null
+                  class .Drugs:
+                    Inherits: EventLogBase                  
+                    Description: 
+                      Records substances taken and their dosages.
+                      Helps identify possible associations with
+                      changes in physical or cognitive state.
 
-                    3_Food:
-                      Description: 
-                        Records food and drinks consumed.
-                        Useful for studying energy, cognition,
-                        digestion, and post-meal symptoms.
+                    Properties:
+                      string .Name: 
+                      string .Dosage: 
+                      string .Unit:                       
 
-                      Properties:
-                        Food: null
-                        Quantity: null
-                        Notes: null
+                  class .Digestion:
+                    Inherits: EventLogBase                  
+                    Summary: 
+                      Records bowel movements and digestive symptoms.
+                      Useful for identifying patterns involving food,
+                      movement, stress, and gastrointestinal function.
 
-                    4_SupplementationMedicationDrugs:
-                      Description: 
-                        Records substances taken and their dosages.
-                        Helps identify possible associations with
-                        changes in physical or cognitive state.
+                    OneToSeven .Bristol: 
+                    ZeroToFive .Bloating:
+                    ZeroToFive .AbdominalPain:
+                    ZeroToFive .Flatulence:
+                    ZeroToFive .Belching:
+                    
 
-                      Properties:
-                        Name: null
-                        Dosage: null
-                        Unit: null
-                        Notes: null
+                  class .Movement:
+                    Inherits: EventLogBase                  
+                    Summary: 
+                      Records physical activity, including:
+                        Sports: walking, running, strength training, mobility
+                        Physical work: cleaning, gardening, caryying heavy stuff                        
 
-                    5_Digestion:
-                      Description: 
-                        Records bowel movements and digestive symptoms.
-                        Useful for identifying patterns involving food,
-                        movement, stress, and gastrointestinal function.
+                    string .Activity:
+                    Duration .Duration:
+                    OneToThree .Intensity:
+                      Summary: Easy / Moderate / Hard
 
-                      Properties:
-                        Bristol: null          # 1-7
-                        Bloating: null         # 0-10
-                        AbdominalPain: null    # 0-10
-                        Notes: null
+                  class .Work:
+                    Inherits: EventLogBase                  
+                    Summary:
+                      Records productive activities and cognitive demands.
+                      Useful for connecting brain state with performance.
 
-                    6_Movement:
-                      Description: 
-                        Records physical activity, including walking,
-                        running, strength training, mobility, and sports.
+                    string .ActivityDesc:
+                    Duration .Duration:
+                    OneToFive .Focus:
+                      Summary:
+                        1: like a puppy / like someone who's being poked constantly
+                        5: super interested, people can talk around me; the "flow state"
+                    OneToFive .MindPower:
+                      Summary:
+                        how easy it is to solve a standard problem:
+                          1: simple bureaucracy (e.g. paying bills) is problematic
+                          5: give me the tough math problems
 
-                      Properties:
-                        Activity: null
-                        Duration: null
-                        Intensity: null        # Easy / Moderate / Hard
-                        Notes: null
-
-                    7_Work:
-                      Description: 
-                        Records productive activities and cognitive demands.
-                        Useful for connecting brain state with performance.
-
-                      Properties:
-                        Activity: null
-                        Duration: null
-                        Focus: null            # 1-10
-                        Productivity: null     # 1-10
-                        Notes: null
-
-                    8_LifeEvent:
-                      Description: 
+                  class .LifeEvent:
+                    Inherits: EventLogBase                  
+                    Summary: 
+                      Details:
                         Records meaningful environmental, social,
                         or psychological experiences that may influence
                         the human state.
+                      E.g.: fights, deep talks, SWAT team appearing downstairs
 
-                      Properties:
-                        Event: null
-                        EmotionalImpact: null  # -5 to +5
-                        Notes: null
+                    string .EventDescription: null
+                    MinusFiveToFive .EmotionalImpact:
+                      Summary:
+                        -5: very negative; remembering it makes you cry/assume fetal position; e.g. the hiding in the mortuary case
+                        -1: slightly negative; e.g. lashing out, then 5 minutes staying apart and then it's fine
+                        1: slightly positive; e.g. good Serious Sam 3 session, good talk 
+                        5: very positive; remembering it makes you smile for a long time
+                    Notes: null
 
-                    9_Decision:
-                      Description: 
-                        Records deliberate choices intended to achieve
-                        a goal or change the current state.
+                  # class .Decision:
+                  #   Summary: 
+                  #     Details:
+                  #       Records deliberate choices intended to achieve
+                  #       a goal or change the current state.
+                  #     e.g.:
 
-                      Properties:
-                        CurrentState: null
-                        DesiredState: null
-                        Options: []
-                        ChosenAction: null
-                        ExpectedOutcome: null
-                        Notes: null
+                  #   Properties:
+                  #     string .CurrentState:
+                  #     string .DesiredState:
+                  #     string[] .Options:
+                  #     string .ChosenAction:
+                  #     string .ExpectedOutcome:
 
-                    10_Intervention:
-                      Description: 
-                        Records an intentional action taken to influence
-                        a specific state or symptom.
-                        Unlike a general event, it has an explicit purpose.
+                  # class .Intervention:
+                  #   Summary: 
+                  #     Details:
+                  #       Records an intentional action taken to influence
+                  #       a specific state or symptom.
+                  #       Unlike a general event, it has an explicit purpose.
+                  #     E.g.:
 
-                      Properties:
-                        Action: null
-                        Target: null
-                        Duration: null
-                        ExpectedEffect: null
-                        Notes: null
+                  #   Properties:
+                  #     Action: null
+                  #     Target: null
+                  #     Duration: null
+                  #     ExpectedEffect: null
+                  #     Notes: null
 
-                    11_Outcome:
-                      Description: 
-                        Records the observed result of an action,
-                        decision, or intervention.
+                  #   11_Outcome:
+                  #     Description: 
+                  #       Records the observed result of an action,
+                  #       decision, or intervention.
 
-                      Properties:
-                        RelatedEventID: null
-                        ObservedChange: null
-                        DesiredOutcomeAchieved: null
-                        Notes: null
+                  #     Properties:
+                  #       RelatedEventID: null
+                  #       ObservedChange: null
+                  #       DesiredOutcomeAchieved: null
+                  #       Notes: null
 
                     12_PhysicalSymptoms:
                       Description: 
@@ -584,6 +603,8 @@ Id: Misc
                 Activity: Software development
                 Duration: 90min
                 Focus: 8
+          Scenarios:
+            
       TODO .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         TODO .Schedule Showcase Health log meeting with Robi:
@@ -616,7 +637,7 @@ Id: Misc
         - Boiled Carrots
         - White rice
   EstTODO .Analysis of the month of June and July:
-    +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [ TL, Private ], Estimation: 60, RemTime: 60, Importance: 3-Average }
+    +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:
       - Analysis of the month of June and July:
           - is there a correlation in between number of calories burnt and bad mood the next day?

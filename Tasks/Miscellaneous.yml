@@ -612,11 +612,11 @@ Id: Misc
                 Duration: 90min
                 Focus: 8
 
-      InProgress .Showcase health log:
+      Done .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
           we're working into the above task          
-        EstTODO .Finish creating classes:
+        InProgress .Finish creating classes:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Details:
             - The last part is left
@@ -643,7 +643,18 @@ Id: Misc
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
           
           
-      NEXT .Showcase Health Log to Anita:
+      InProgress .Showcase Health Log to Anita:
+        +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana, Tags: [Health,TL], Estimation:90, RemTime:90 , Importance: 5-VeryHigh}
+        InProgress .Take a video of the showcasing health log:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health,TL], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
+        NEXT .Schedule meeting with Anita:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht,TL], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
+        NEXT .Showcase HealthLog to Anita:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana,Anita], Tags: [Healht, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          
+          
+        
+        
 
   OnGoing .Create food schedule for the next week:
     Details:

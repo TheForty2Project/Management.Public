@@ -121,7 +121,7 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260420 T 203155, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
       EstTODO .Update the colors to the current VS Code theme:
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [Before1stPost, TL], Estimation: "15", RemTime: "15", Importance: 1-VeryLow}
-      EstTODO .Detect and convert f2yaml links:
+      InProgress .Detect and convert f2yaml links:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [Before1stPost, TL], Estimation: "90", RemTime: "90", Importance: 5-VeryHigh}
         MaintenanceTasks:
           Done .Have an implementation plan and improve estimation:
@@ -142,6 +142,12 @@
                 Extra feature: 
                   - verifies them - do they point to somewhere:
                     - if not, displays report about the ones not pointing; each link and all the file locations where this "broken" link can be found with col+row 
+        TODO .In GenerateId() support for multiple prefixes:
+          Details:
+            so like TODO 5-High .MyShit:
+        Workspace:
+          So what's with summary and Id support, plus properties... need to (partially?) parse the yaml into Items...:
+
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "45"}
       Done .Implement CSV converting feature:

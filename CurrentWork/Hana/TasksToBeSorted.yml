@@ -5,8 +5,8 @@ EstTODO .Review the requirements currently in "Draft" status:
 Done .Review 2 reports (before1stpostTasks, TasklistTasks):
   +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TLDone], Estimation: , RemTime: }  
 
-EstTODO .Set up Codex in VS Code for Hana:
-  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 145308, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
+Done .Set up Codex in VS Code for Hana:
+  +: {CreatedBy: Bobi, CreatedAt: 20260724 T 145308, By: [Bobi, Hana], Tags: [TLDone], Estimation: 20, RemTime: 0, Importance: 3-Average}
   Details:
     - ask chatgpt
 

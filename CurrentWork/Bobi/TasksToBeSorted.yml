@@ -550,17 +550,14 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163510, By: [Bobi, Hana]}
       Scheduled .After a few days of doing and fine-tuning, move the process to the processes:
         +: {CreatedBy: Bobi, CreatedAt: 20260718 T 201051, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, ScheduledAt: 20260829, Importance: 2-Low}
-    Blocked .Create a process about uploading things to the site:
-      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TL], Estimation: 20, RemTime: 20, Importance: 3-Average}
-      DependsOn: -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
+    Cancelled .Create a process about uploading things to the site:
+      +: {CreatedBy: Bobi, CreatedAt: 20260718 T 200746, By: [Bobi, Hana], Tags: [TLDone], Estimation: 20, RemTime: 0, Importance: 3-Average}
+      CancelReason: this includes the process creation as well:_ -->.\Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
   .Personal:
     Done .Book badminton court:
       +: {CreatedBy: Bobi, CreatedAt: 20260731 T 195607, By: Bobi, Tags: [Private, TLDone], Estimation: 10, RemTime: 0, Importance: 3-Average}
     Done .Schedule meetup event:
       +: {CreatedBy: Bobi, CreatedAt: 20260803 T 133051, By: Bobi, Tags: [Private, TLDone], Estimation: , RemTime: , Importance: 3-Average}
-      
-     
-      
     Done .Hana to experiment with the query:
       +: {CreatedBy: Bobi, CreatedAt: 20260717 T 224510, By: Bobi, Tags: [Private, TLDone], Estimation: , RemTime: }
       Details:

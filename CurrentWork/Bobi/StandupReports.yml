@@ -481,6 +481,7 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Create the site update process and do it once"<: [ 45m, "", 20261005 T 203223 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Schedule the execution of it"<: [ 3m, "", 20261009 T 135932 ]
     - -->Tasks\ToBeSorted\..Tasks20260922.."Reprioritize the Tasks".."Do the reprioritization baseline"<: [ 53m, "", 20261009 T 140218 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 0m, "", 20261016 T 011230 ]
 
   Next:
     - null

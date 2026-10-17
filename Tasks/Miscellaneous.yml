@@ -301,7 +301,7 @@ Id: Misc
                       Summary:
                         Garmin sleep score
                     TimeStamp .WakeTime:                        
-                    integer .BodyBattery:
+                    OneToHundred .BodyBattery:
                       Summary:
                         Garmin body battery                      
 
@@ -431,23 +431,29 @@ Id: Misc
                   #       DesiredOutcomeAchieved: null
                   #       Notes: null
 
-                    12_PhysicalSymptoms:
-                      Description: 
-                        Records observable physical changes and symptoms.
-                        Helps identify recurring patterns and possible
-                        relationships with nutrition, digestion, menstrual
-                        cycles, recovery, and laboratory results.
+                  class .PhysicalSymptoms:
+                    Summary:
+                      Records observable physical changes and symptoms.
+                      Helps identify recurring patterns and possible
+                      relationships with nutrition, digestion, menstrual
+                      cycles, recovery, and laboratory results.
 
-                        Physical observations are not sufficient to
-                        diagnose anemia or other medical conditions.
+                      Physical observations are not sufficient to
+                      diagnose anemia or other medical conditions.
+                    SkinCondition .Skin:
+                    FaceCondintion .Face:
+                    EyeCondition .Eyes:
+                    NailCondition .Nails:
+                    AbdomenCondition .Abdomen:
+                    GeneralCondition .General:                    
 
-                      Properties:
-
-                        Skin:
-                          Acne: null              # None / Mild / Moderate / Severe
-                          Dryness: null           # 0-10
-                          ColorChange: null
-                          Rash: null
+                  class .SkinCondition:
+                    integer .Acne:
+                      Summary: How many NEW ones appeared
+                    OneToThree .Dryness:
+                      Summary: One - good; Two - dry; Three - very dry
+                    bool .Paleness:
+                    bool .Rash:
 
                         Face:
                           Puffiness: null         # 0-10
@@ -506,12 +512,6 @@ Id: Misc
                           Headache: null          # 0-10
                           Fatigue: null           # 0-10
 
-                        PsychologicalSymptoms:
-                          MoodChange: null
-                          Irritability: null      # 0-10
-                          Anxiety: null           # 0-10
-
-                        Notes: null
                 Analysis (Next Phase):
 
                   StateTransitions:
@@ -570,8 +570,16 @@ Id: Misc
                   - Physical Symptoms:
                   - Menstrual cycle (every week):
           Template:
-            HOSLog20261013:
-            Morning:
+            HOSLog20261013_1:
+              Morning:         
+              - <State>:     
+                  Time: "07:00"
+                  Mood: 6
+                  ThinkingQuality: 5
+                  Motivation: 4
+                  PhysicalEnergy: 7
+                  BodyBattery: 85
+
               - Time: "07:00"
                 Type: State
                 Mood: 6
@@ -603,17 +611,38 @@ Id: Misc
                 Activity: Software development
                 Duration: 90min
                 Focus: 8
-          Scenarios:
-            
-      TODO .Showcase health log:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
-        TODO .Schedule Showcase Health log meeting with Robi:
-          +: {CreatedBy: Hana, CreatedAt: 20261013 T 185416, By: Hana, Tags: [TL], Estimation: 5, RemTime: 5, Importance: 5-VeryHigh}
-        NEXT .Have the meeting:
-          +: {CreatedBy: Hana, CreatedAt: 20261013 T 185625, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+
+      InProgress .Showcase health log:
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        Workspace:
+          we're working into the above task          
+        EstTODO .Finish creating classes:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}          
+          Details:
+            - The last part is left
+            - enumerations
+        Done .Create class for SummaryLog:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Bobi, Hana], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}          
+          Result:
+            class .SummaryMorningLog:
+              Inherits: EventLogBase
+              SystemState .MorningState:
+              OneToHundred .SleepScore:
+                Summary:
+                  Garmin sleep score
+              OneToSeven .Bristol:
+              string .SuspectedReasons:
+                Summary: what can be the reasons that the mood/etc is that good/bad
+              string .OtherNotables:
+                Summary: other notable things - things which were not ordinary, that we think it could affect things, etc.
+      EstTODO .Action the feedback items:
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana]}
+        EstTODO .Create snippets for the Items:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
+        EstTODO .Move the classes to BusinessClasses.yml:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
           
-      NEXT .Action the feedback items:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [ Hana ], Tags: [ TL, Private, Health ] }
+          
       NEXT .Showcase Health Log to Anita:
 
   OnGoing .Create food schedule for the next week:

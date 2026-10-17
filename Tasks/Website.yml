@@ -1625,7 +1625,7 @@ Done .Back to original:
         Details:
           Include:
             - F2FileToHtmlConfig edit            
-  EstTODO .Create Updates section containing the commit-message-like updates:
+  InProgress .Create Updates section containing the commit-message-like updates:
     Id: UpdatesSection
     +: {CreatedBy: Bobi, CreatedAt: 20260517 T 145146, By: Bobi}
     MaintenanceTasks:
@@ -1738,14 +1738,13 @@ Done .Back to original:
           - test it:
             - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
             - type "f2filetohtml.exe" and press enter
-            - check if no errors - if errors, try to fix them
-         
+            - check if no errors - if errors, try to fix them         
     EstTODO .Document the process:
       Id: DocumentProcess
       +: {CreatedBy: Bobi, CreatedAt: 20261004 T 200041, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Details:
         - Run the process once by Hana
-        - Create a Process Description about it
+        - Create a ProcessDescription about it
     Done .Schedule the execution of it:
       Id: ScheduleExecution
       +: {CreatedBy: Bobi, CreatedAt: 20261004 T 200526, By: Bobi, Tags: [TLDone, Before1stPost], Estimation: 5, RemTime: 5, Importance: 5-VeryHigh}

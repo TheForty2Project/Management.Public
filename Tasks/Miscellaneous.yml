@@ -605,11 +605,11 @@ Id: Misc
                 Focus: 8
           Scenarios:
             
-      TODO .Showcase health log:
+      Done .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [ Hana, Bobi ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
-        TODO .Schedule Showcase Health log meeting with Robi:
+        Done .Schedule Showcase Health log meeting with Robi:
           +: {CreatedBy: Hana, CreatedAt: 20261013 T 185416, By: Hana, Tags: [TL], Estimation: 5, RemTime: 5, Importance: 5-VeryHigh}
-        NEXT .Have the meeting:
+        Done .Have the meeting:
           +: {CreatedBy: Hana, CreatedAt: 20261013 T 185625, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
           
       NEXT .Action the feedback items:
@@ -728,11 +728,12 @@ Id: Misc
           No need, the cystatin-c shows good condition
       Cancelled .Book the appointment if decided:
         +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [Private, TLDone ], Estimation: 15, RemTime: 15, Importance: 3-Average }
-    Blocked .Schedule testing afer receiving Sudan Money:
+    Done .Schedule testing afer receiving Sudan Money:
       +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [Private, TL ], Estimation:, RemTime:, Importance: 3-Average }
       Details:
         - Extra tests for conception (see the google sheet)
         - Abdominal complaints (Hasi panaszok csomag) package (49k)
+    
 .Schedules:
   Done .Schedule Health Analysis (Live):
     +: { CreatedBy: Hana, CreatedAt: 20260609 T 142824, By: Hana, Tags: [], Estimation: 40m, RemTime: 40m }

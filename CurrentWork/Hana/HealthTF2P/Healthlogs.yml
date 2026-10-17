@@ -4826,19 +4826,18 @@ AnitaHOSLog20261012:
       Time: 09:50
       Activity: House cleaning
   .Afternoon:
-    Mood: 
+    Mood: 4/5
     Food: 
-      Time: 
-      Notes: 
-      Main: 
+      Time: 14:30
+      Main: soup (with the cubes u gave me (i split them in 3 portions) and plain rice
   .Evening:
     Work:
         Time: 17:30 
         Topic: Health Analysis and health log discussion ( Anita, Bobi, Hana)
-    Mood: 
+    Mood: 4/5 
     Food:
       Time: 08:30
-      Food: Cake, Strawberry, Vanilla Puding
+      Food: Cake, Strawberry, Vanilla Puding, the rice + fish and tomato sauce (and an evening tea after)
 
 
 
@@ -4941,45 +4940,44 @@ HanaHOSLog20261013:
         Type: Walk
     .Evening:
       Movement: 
-      Food: 
+        Type: Walk
+      Food:
+        Time: 20:30
+        Food: Rice with soup, little cake with pudding and berries 
       Body Battery: 
       Sleep Hygiene:
 AnitaHOSLog20261013:
   .Morning:
+    Sleep:
+      Duration: 6 hours
     Mood: 
-      Time: 
-      Score:
-    Supplementation/Medication:
-      Time: 
-      Name: 
-      Dosage:
+      Time: 9:00
+      Score: 4/5
     Food: 
-      Time: 
-      Food:
+      Time: 9:50
+      Food: rice, 2 boiled eggs, coffee
       Notes: 
-    Poop: 
-      Time: 
-      Bristol : 
-      Notes:
-    Movement: 
-      Time: 
-      Activity: 
-      Notes:
   .Afternoon:
     Mood: 
-      Time: 
-      Score:
+      Time: 13:00
+      Score: 3/5
     Food: 
-      Time: 
-      Food:
-      Notes: 
-    Movement: 
+      Time: 13:00
+      Food: soup, rice and cooked baby spinach with cooked cold cuts (2)
+      Notes: felt really good after
+    Movement:  working 6 hours (standing + serving people 
     Work: 
   .Evening:
-    Mood: 
     Food:
-    Movement: 
-    Work:
+      Time: 18:20
+      Food: 2 cubes of cakes
+    Mood:
+      Score: 2/5
+      Note: Feeling a bit sick
+    Movement: 60 mon walk
+    Food2:
+      Time: 21:50
+      Food: soup you gave me yesterday with rice and 2 cubes of the cake with frozen strawberries and a little bit of krémes por
 
 
 BobiHOSLog20261014:

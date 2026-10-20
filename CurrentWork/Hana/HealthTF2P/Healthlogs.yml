@@ -5083,6 +5083,576 @@ AnitaHOSLog20261014:
       Body Battery: 
       Sleep Hygiene:
 
+BobiHOSLog20261015:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+HanaHOSLog20261015:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        6:00:   Oatmeal, Banana
+      Movement: Strength (upper and mid back, rotator cuff activation, core)
+      Food2: 
+        09:15: Protein shake 
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 3/5
+      Sex: Yes
+      Food: 
+        Main: Rice, Fish(hering pepper), pork balls
+        Dessert: cake,Pudding
+    .Evening:
+      Movement: Walk
+      Food: Decaf coffee, Protein
+      Body Battery: 
+      Sleep Hygiene:
+AnitaHOSLog20261015:
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 
+      Duration: 5
+      waketime: 
+  - <Food>:
+    Time: 06:25
+    Meal Descripton: 2 Boiled eggs, rice with oats and ginger, 1 Banana, coffee 
+    Quantity: 2 
+  - <State>:
+    Time: 
+    Mood: 3/5 (8)
+    Notes: A bit in a rush 
+  - <Movement>:
+    Time: 07:00
+    ActivityDesc: Walk| 2.5km| Normafa
+    SkinCondition: 
+      Number: 1
+      Notes: Location L forehead, around the hair line,
+    Bloating: 
+
+  Afternoon:
+  - <State>:
+    Time: 
+    Mood: 2/5
+    Notes: Very very tired
+  - <Food>:
+    Time: 13:20
+    MealDescr: Soup from the cubes, cooke baby spinach, handful of pasta, 
+  - <Work>:
+    Time: 15:30 - 17:00
+    Activity Desc: Uni
+    Notes: Barely kept my eye open
+
+  
+  Evening: 
+    - <Food>:
+      Time: 18:00
+      MealDescr: 2 cubes f cake, pudding, frozen strawberry
+    - <State>:
+      Mood: 5/5
+    - <Food>:
+      Time: 21:00
+      Meal Descr: Protein Yogurt from Aldi
+    - <Movement>:
+      Time: 18:30
+      Activity Desc: Run
+  
+
+
+BobiHOSLog20261016:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+HanaHOSLog20261016:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        6:00:   Oatmeal, Banana
+      Movement: Strength (upper and mid back, rotator cuff activation, core)
+      Food2: 
+        09:15: Protein shake 
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 3/5
+      Sex: Yes
+      Food: 
+        Main: Rice, Fish(hering pepper), pork balls
+        Dessert: cake,Pudding
+    .Evening:
+      Movement: Walk
+      Food: Decaf coffee, Protein
+      Body Battery: 
+      Sleep Hygiene:
+AnitaHOSLog20261016 complete:
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 
+      Duration: 5
+      waketime: 
+  - <Food>:
+    Time: 06:25
+    Meal Descripton: 2 Boiled eggs, rice with oats and ginger, 1 Banana, coffee 
+    Quantity: 2 
+  - <State>:
+    Time: 
+    Mood: 4/5 (8)
+    Notes: A bit in a rush 
+  - <Physical Symptoms>:
+    Time: 07:00
+    SkinCondition: 
+      Number: 1
+      Notes: Location L forehead, around the hair line,
+    Bloating: 1
+  - <Menstrual cycle>:
+    Day: 1
+  - <Work>:
+    Time: 08:30 - 12:20
+    ActivityDesc: Uni
+  - <Food>:
+    Time: 10:00
+    Meal Desc: Coffee Latte (regular milk)
+
+  Afternoon:
+  - <State>:
+    Time: 
+    Mood: 4/5
+    Notes: a bit tired
+  - <Movement>: 
+    Time: 12:20 - 13:05
+    Activity Descr: Walk
+  - <Food>:
+    Time: 13:20
+    MealDescr: Soup from the cubes, cooke baby spinach, handful of pasta, cooked cold cuts, 4 mini mozarella, protein shake
+  - <Work>:
+    Time: 13:40 - 17:00
+    Activity Desc:
+  - <Movement>:
+    Time: 30 
+    Activity Des: Walk
+  
+  Evening: 
+  - <State>:
+    Mood: 1
+    Notes: Feeling Anxious, Sad, Dissapointed
+  - <Food>:
+      Time: 21:00
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+  
+
+
+BobiHOSLog20261017:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+HanaHOSLog20261017complete:
+  Morning:         
+    - <Sleep>:     
+        Bedtime: 
+        Duration: 
+        Sleepscore: 
+        waketime: 
+    - <Food>:
+      Time: 08:07
+      Meal Descripton: Oatmeal, Egg, Jam, Strawberries
+      Quantity: 1
+    - <Movement>:
+      Time: 08:40
+      Activity Desc: Cleaning the 2 rooms and bathroom
+    - <Work>:
+      Time: 09:30
+      Activity Descr: Health Logs and milestones
+   
+
+  Afternoon:
+  - <Food>:
+    Time: 15:30
+    Meal Desc: Rice, Beef balls, Tomato sauce
+  - <State>:
+    Time: 16:40
+    Mood: 3
+    Notes: The burst of impulsivity wants to be out (shouting, blaming, crying)
+    Rumination: 5 
+  - <Decision>:
+    Time: 17:00
+    Current State: Want to fight 
+    Desired State: Control and feel the emotion inside
+    Chosen Action: Walk
+    Expected outcome: Calmness and return back to work
+  - <Work>:
+    Time: 14:30 - 16:00
+    Activity Description: Continuation of psychology event
+  - <Food>:
+    Time: 16:30
+    Meal Descr: Cappuccino
+
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Food>:
+      Time: 22:30
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+AnitaHOSLog20261017 complete:
+  Morning:         
+  - <Sleep>:     
+      Bedtime: "07:00"
+      Duration: 3
+      Sleepscore: 
+      waketime: 
+  - <Food>:
+    Time: "07:00"
+    Meal Descripton: 2 Boiled eggs, rice with oats and ginger, 1 Banana (0.5), coffee with almond milk,
+    Quantity: 2 
+  - <State>:
+    Time: 07:30
+    Mood: Sleepy, sad, dissapointed, excited, anxious
+  - <Work>:
+    Time: 07:45 -10:20
+    Activity Descr: Coaching Figure skating
+    Time2: 10:30 - 13:00
+    Activity Descr2: Psychology event
+
+  Afternoon:
+  - <Food>:
+    Time: 13:30
+    Meal Desc: Soup from the Cubes, Rice noodles, tomato sauce
+  - <Work>:
+    Time: 14:30 - 16:00
+    Activity Description: Continuation of psychology event
+  - <Food>:
+    Time: 16:30
+    Meal Descr: Cappuccino
+
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Food>:
+      Time: 22:30
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+  
+BobiHOSLog20261018:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+HanaHOSLog20261018:
+    .Stress1008: 20
+    .Sleep:
+      Notes: Sleep score obtained from Garmin Application
+      Score: 71
+      Duration: 5h 51m
+      WakeTime: 5:44
+    .Morning:
+      Mood: 4/5
+      Poop: Type 6
+      Food: 
+        6:00:   Oatmeal, Banana
+      Movement: Strength (upper and mid back, rotator cuff activation, core)
+      Food2: 
+        09:15: Protein shake 
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 3/5
+      Sex: Yes
+      Food: 
+        Main: Rice, Fish(hering pepper), pork balls
+        Dessert: cake,Pudding
+    .Evening:
+      Movement: Walk
+      Food: Decaf coffee, Protein
+      Body Battery: 
+      Sleep Hygiene:
+AnitaHOSLog20261018:
+  Morning:         
+  - <Sleep>:     
+      Bedtime: "07:00"
+      Duration: 3
+      Sleepscore: 
+      waketime: 
+  - <Food>:
+    Time: "07:00"
+    Meal Descripton: 2 Boiled eggs, rice with oats and ginger, 1 Banana (0.5), coffee with almond milk,
+    Quantity: 2 
+  - <State>:
+    Time: 07:30
+    Mood: Sleepy, sad, dissapointed, excited, anxious
+  - <Work>:
+    Time: 07:45 -10:20
+    Activity Descr: Coaching Figure skating
+    Time2: 10:30 - 13:00
+    Activity Descr2: Psychology event
+
+  Afternoon:
+  - <Food>:
+    Time: 13:30
+    Meal Desc: Soup from the Cubes, Rice noodles, tomato sauce
+  - <Work>:
+    Time: 14:30 - 16:00
+    Activity Description: Continuation of psychology event
+  - <Food>:
+    Time: 16:30
+    Meal Descr: Cappuccino
+
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Food>:
+      Time: 22:30
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+  
+BobiHOSLog20261019:
+  Morning:         
+    - SummaryMorningLogTemp:
+        Morning state:
+          - agitated (and bloated) in the evening
+          - long, but burpy/farty sleep
+          - farting in the morning; low energy
+        Suspected reasons:
+          - lots of veggies
+          - (maybe) underbaked cake
+          - slightly oily/heavy food (salmon)
+        Notable events:
+          - gym (1h) + run (3km)
+    - <SummaryMorningLog>:
+        MorningState:
+          Mood: 
+          ThinkingQuality: 
+          Motivation:
+          PhysicalEnergy:
+          BodyBattery:
+          Rumination:
+        SleepScore:
+        Bristol:
+        SuspectedReasons:
+        OtherNotables:
+    - <Food>:
+      Time: 08:07
+      Meal Descripton: Oatmeal, Egg, Jam, Strawberries
+      Quantity: 1
+    - <Movement>:
+      Time: 08:40
+      Activity Desc: Cleaning the 2 rooms and bathroom
+    - <Work>:
+      Time: 09:30
+      Activity Descr: Health Logs and milestones
+  Afternoon:
+  - <Food>:
+    Time: 15:30
+    Meal Desc: Rice, Beef balls, Tomato sauce
+  - <State>:
+    Time: 16:40
+    Mood: 3
+    Notes: The burst of impulsivity wants to be out (shouting, blaming, crying)
+    Rumination: 5 
+  - <Decision>:
+    Time: 17:00
+    Current State: Want to fight 
+    Desired State: Control and feel the emotion inside
+    Chosen Action: Walk
+    Expected outcome: Calmness and return back to work
+  - <Work>:
+    Time: 14:30 - 16:00
+    Activity Description: Continuation of psychology event
+  - <Food>:
+    Time: 16:30
+    Meal Descr: Cappuccino
+
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Food>:
+      Time: 22:30
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+
+
+
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:

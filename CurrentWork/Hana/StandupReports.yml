@@ -315,4 +315,9 @@ SR_20261018_Hana:
 
 SR_NEXT_Hana:
   Was:
+  - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 60m, "", 20261020 ]
+
+
   Next:
+  - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
+  - Need task creation; Create legend to the enums under classes

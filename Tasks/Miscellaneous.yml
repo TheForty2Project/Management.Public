@@ -280,16 +280,26 @@ Id: Misc
                   class .SystemState:
                     Inherits: EventLogBase
                     Summary: 
-                      A record of human's physical, emotional,
-                      and cognitive condition at a specific moment.
-                      Recommended at least three times daily (morning, afternoon, evening)
+                      Details:
+                        A record of human's physical, emotional,
+                        and cognitive condition at a specific moment.
+                        Recommended at least three times daily (morning, afternoon, evening)
+                      Example:  
+                        <SystemState>:
+                          Mood: 
+                          ThinkingQuality:
+                          Motivation:
+                          PhysicalEnergy:
+                          BodyBattery:
+                          Rumination:
                     OneToTen .Mood:
                     OneToTen .ThinkingQuality:
                     OneToTen .Motivation:
                     OneToTen .PhysicalEnergy:
                     integer .BodyBattery:
                       Summary: Garmin estimate; 1-100
-                    ZeroToFive .Rumination:                            
+                    ZeroToFive .Rumination:
+
 
                   class .Sleep:
                     Inherits: EventLogBase
@@ -588,8 +598,7 @@ Id: Misc
                   PhysicalEnergy: 7
                   BodyBattery: 85
 
-              - Time: "07:00"
-                Type: State
+              - <>Time: "07:00"
                 Mood: 6
                 ThinkingQuality: 5
                 Motivation: 4
@@ -643,6 +652,21 @@ Id: Misc
                 Summary: what can be the reasons that the mood/etc is that good/bad
               string .OtherNotables:
                 Summary: other notable things - things which were not ordinary, that we think it could affect things, etc.
+              Summary:
+                Example:
+                  <SummaryMorningLog>:
+                    MorningState:
+                      Mood: 
+                      ThinkingQuality: 
+                      Motivation:
+                      PhysicalEnergy:
+                      BodyBattery:
+                      Rumination:
+                    SleepScore:
+                    Bristol:
+                    SuspectedReasons:
+                    OtherNotables:
+                      
       EstTODO .Action the feedback items:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana]}
         EstTODO .Go through the previous classes and add any missing to the new ones:
@@ -674,7 +698,7 @@ Id: Misc
             - Go through the previous ones
             - How would Anita be doing her part
         Scheduled .Showcase HealthLog to Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Healht, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
           ScheduledAt: 20261019 T 140000
           Details:
             on a call? Ideally here though.

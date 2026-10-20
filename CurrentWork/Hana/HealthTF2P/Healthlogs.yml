@@ -5548,6 +5548,57 @@ BobiHOSLog20261018:
         Food: Decaf coffee, Protein
         Body Battery: 
         Sleep Hygiene:
+HanaHOSLog20261018:
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 12:30
+      Duration: 7h 44m
+      Sleepscore: 86
+      waketime: 9:07
+  - <Food>:
+    Time: 9:40
+    Meal Descripton: Rice, Oats, Omelet, Coffee
+    Quantity: Half Bowl ( Didnt Finish)
+  - <State>:
+    Time: 10:00
+    Mood: 4/5
+  - <Digestion>:
+    Time: 10:00
+    Bristol: 2
+    Belching: 1
+  - <Movement>:
+      Time: 10:45
+      Activity: Walk
+      Duration: 10 min
+      Intensity: Easy
+  - <Work>:
+    Time: 11:00
+    Activity Descr: HealthLog Data Entry
+  Afternoon:
+  - <Movement>:
+    Time: 12:30
+    Activity: Run
+    Duration: 1:06
+    Intensity: Moderate
+  - <Food>:
+    Time: 14:30
+    Meal Desc: Ginger Soup, Rice, Canned fish Hering, Rice Pancake and chocolate 10g
+    Quantity: Moderate
+  - <Work>:
+    Time: 16:00
+    Activity Description: Health log continuation
+  - <Movement>:
+    Time: 17:30
+    Activity: Bouldering
+    Duration: 
+    Intensity:
+    
+  Evening: 
+  - <State>:
+    Mood: 
+  - <Food>:
+      Time:
+      Meal Descr:
 AnitaHOSLog20261018:
   Morning:         
   - <Sleep>:     
@@ -5711,7 +5762,7 @@ AnitaHOSLog20261019 complete:
     Duration: 15 min
 
 
-HanaHOSLog20261020 (incomplete):
+HanaHOSLog20261020 (complete):
   <SummaryMorningLog>:
     MorningState:
         Mood: 3/5
@@ -5768,13 +5819,23 @@ HanaHOSLog20261020 (incomplete):
     Activity: Bouldering
     Duration: 
     Intensity:
-    
-  Evening: 
   - <State>:
-    Mood: 
+    Mood: 4/5
+    ThinkingQuality: 3/5
+    Motivation: 2/5
+    PhysicalEnergy: 4/5
+    Notes: I was very nervoius and anxious going to Flow. I wanted to go back home before reaching the cashier but my luck made the casheir call me and Szabi appearing. I had to go through it
+  Evening: 
   - <Food>:
-      Time:
-      Meal Descr:
+    Time: 20:00
+    Meal Desc: rice nood;es. tuna. some hering, tomato soup, tea with spices
+    Time2: 21;40
+    Meal Desc2: small piece of cake
+  - <Work>:
+    Time: 22:00
+    Activity Desc: Health Logs
+  - <State>:
+    Mood: 3
 BobiHOSLog20261020 (incomplete):
   <SummaryMorningLog>:
     MorningState:
@@ -5826,14 +5887,16 @@ BobiHOSLog20261020 (incomplete):
   - <Food>:
     Time: 
     Meal Descr: 
-
+  - 
   Evening: 
   - <State>:
-    Mood: 
-  - <Food>:
-      Time:
-      Meal Descr:
-
+    Mood: 3
+  - <Movement>:
+      Time: 19:00
+      Activity: Gym
+      Duration: 27:26
+      Intensity: Moderate
+AnitaHOSLog20261020 (no Data):
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:

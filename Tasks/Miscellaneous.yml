@@ -115,11 +115,11 @@ Id: Misc
     +: { CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [ CSVDONE ], Estimation: 60, RemTime: 0 }
     Result: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.HealthLog20260606Hana<
   OnGoing .Do health log and daily reviews:
-    +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ CSVDONE ] }
+    +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }
     Details:
       - analyse Health through Garmin data
       - review exercise schedule
-      - stream it
+      - stream it    
   OnGoing .Do weekly health related planning:
     +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
     Details:
@@ -217,6 +217,7 @@ Id: Misc
               Levels .Farting:
               Levels .Headache:
               Levels .Hornyness:
+              Levels .MusicEnjoyment:
             class .ExerciseLog:
               Inherits: LogEntry
               string .Category:
@@ -452,7 +453,6 @@ Id: Misc
                       diagnose anemia or other medical conditions.
                     SkinCondition .Skin: 
                     FaceCondintion .Face:
-                    EyeCondition .Eyes:
                     NailCondition .Nails:
                     AbdomenCondition .Abdomen:
                     GeneralCondition .General:                    
@@ -465,33 +465,35 @@ Id: Misc
                     bool .Paleness:
                     bool .Rash:
 
-                  class .Face:
+                  class .FaceCondition:
                     OnetoThree .Puffiness: 
                       Summary: One - Normal; Two - Slight Puffy; Three - Very Puffy
-                    String .Location: 
+                    string .Location: 
                       Summary:  Eyes / Cheeks / Whole face
 
-                  class .Nails:
-                    String .Color: 
-                    String .Ridges:
-                    String .ShapeChange: 
+                  class .NailCondition:
+                    string .Color:
+                    string .Ridges:
+                    string .ShapeChange: 
 
-                  class .Abdomen:
+                  class .AbdomenCondition:
                     OneToThree .Bloating: 
                       Summary: One - Normal; Two - Bloated; Three - Pregnant bloated
                     OneToFive .Pain:
                       Summary: One - No pain; Two - Slightly painful; Five - unbearable pain; 
                     string .Location: 
 
-                  class .General:
+                  class .GeneralCondition:
                     OneToThree .Fatigue: 
                       Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
                     OneToThree .Dizziness:
                       Summary: One - Light Dizzness; Two - Medium Dizziness cant stand ; Three - High Dizziness with sense of vomiting 
                     OneToThree .ColdSensitivity:
                       Summary: One - Mild sensation of cold; Two - Moderate cold discomfort; Three - Sever cold sensation with shivering
-                    String .Bruising: 
-                    String .Swelling: 
+                    string .Bruising:
+                      Summary: the location if so
+                    string .Swelling:
+                      Summary: the location if so
 
                   class .MenstrualCycle:
                     Description: 
@@ -501,29 +503,33 @@ Id: Misc
                       cycle changes, cognition, digestion, mood,
                       exercise performance, and recovery. This event type can be recorder every week
 
-                    Cycle:
-                      Day: null               # Day 1 = first day of menstrual bleeding
-                      OneTwoFour .Phase:
-                        Summary: One - Menstrual; Two - Follicular; Three - Ovulatory; Four - Luteal
-                      Bool .PhaseEstimated: 
-                    Bleeding:
-                      OneToFive .Flow: 
-                        Summary: One - None; Two - Spotting; Three - Light; Four - Moderate; Five - Heavy 
-                      string .Color: 
-                      string .Clots: 
+                    CycleInfo .Cycle:
+                    BleedingInfo .Bleeding:                    
+                    MenstruationSymptoms .Symptoms:
+                  
+                  class .CycleInfo:
+                    integer .Day:               # Day 1 = first day of menstrual bleeding
+                    MenstrualPhase .Phase:
+                      Summary: Menstrual; Follicular; Ovulatory; Four - Luteal                      
 
-                    PhysicalSymptoms:
-                      OneToThreeCramps: 
-                        Summary: One - some pain; Two - Uncomfortable pain; Three - Unbearable Pain
-                      Bool .BreastTenderness: 
-                        String .Location: 
-                      OneToThree .Bloating: 
-                        Summary: One - Normal; Two - Bloated; Three - Pregnant bloated
-                      OneToThree .Headache: 
-                        Summary: One - Light Headach; Two - Medium Headache Uncomfortable; Three - Painful Headache 
-                      OneToThreeFatigue: 
-                        Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
-                  #Question to Robi how do we categorize the subclasses? Line 494-515
+                  class .BleedingInfo:
+                    ZeroToFive .Flow: 
+                      Summary: Zero - None; One - Spotting; Two - Light; Three - Moderate; Four - Heavy; Five - Worryingly much
+                    string .Color:
+                    bool .Clots: 
+
+                  class .MenstruationSymptoms:
+                    ZeroToThree .Cramps: 
+                      Summary: Zero - no pain; One - some pain; Two - Uncomfortable pain; Three - Unbearable Pain
+                    bool .BreastTenderness:                      
+                    ZeroToThree .Bloating: 
+                      Summary: Zero - none; One - might a little; Two - Bloated; Three - Pregnant bloated
+                    ZeroToFive .Headache: 
+                      Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm gonna die
+                    ZeroToThree .Fatigue: 
+                      Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
+
+
                 Analysis (Next Phase):
 
                   StateTransitions:
@@ -623,11 +629,11 @@ Id: Misc
                 Duration: 90min
                 Focus: 8
 
-      Done .Showcase health log:
+      InProgress .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
           we're working into the above task          
-        Done .Finish creating classes:
+        InProgress .Finish creating classes:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Details:
             - The last part is left
@@ -637,7 +643,7 @@ Id: Misc
           Result:
             class .SummaryMorningLog:
               Inherits: EventLogBase
-              SystemState .MorningState:
+              SystemState .MorningState: 
               OneToHundred .SleepScore:
                 Summary:
                   Garmin sleep score
@@ -663,32 +669,53 @@ Id: Misc
                       
       EstTODO .Action the feedback items:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana]}
+        EstTODO .Go through the previous classes and add any missing to the new ones:
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 134901, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+          Details:
+            Like hornyness, music enjoyment          
         EstTODO .Create snippets for the Items:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
         EstTODO .Move the classes to BusinessClasses.yml:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
           
-          
+      EstTODO .Create health-log recording process:
+        +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135141, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+        Details:
+          - When and how to take the summary log (ideally in the morning while Robi is taking his breakfast)
+          - How to handle the "detailed" ones - where to put, in what format, how to migrate to the "proper" place
+          - What should be the "proper place"          
+      
+        
       InProgress .Showcase Health Log to Anita:
-        +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana, Tags: [Health,TL], Estimation:90, RemTime:90 , Importance: 5-VeryHigh}
+        +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana}
         Done .Take a video of the showcasing health log:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health,TL], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
-        TODO .Schedule meeting with Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht,TL], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
-        NEXT .Showcase HealthLog to Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana,Anita], Tags: [Healht, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health, TL], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
+        Done .Schedule meeting with Anita:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht, TL], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
+        EstTODO .Prepare for health-log showcase to Anita:
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135412, By: [Hana, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
+          Details:
+            - Go through the previous ones
+            - How would Anita be doing her part
+        Scheduled .Showcase HealthLog to Anita:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Healht, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          ScheduledAt: 20261019 T 140000
+          Details:
+            on a call? Ideally here though.
           
           
         
         
 
-  OnGoing .Create food schedule for the next week:
+  OnGoing .Create food and activity schedule:
+    Id: CreateMealSchedule
     Details:
       - Fish 3x a week
       - One vegeterian day for Hana
       - Take into consideration the time of month for menstrual cycle
       - Focus on Robis Health
-    20260914:
+    Done .20260914:
+      Result:
       - Breakfast: 
         - Oatmeal 
         - Boiled Egg
@@ -702,6 +729,20 @@ Id: Misc
         - Spinach and mixed green salad
         - Boiled Carrots
         - White rice
+    EstTODO .Week 43:
+      +: {CreatedBy: Bobi, CreatedAt: 20261018 T 133048, By: Bobi, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      Id: W43
+      Details:
+        - Make it
+        - Have it reviewed by Bobi 
+      TODO .Food:
+        Workspace:
+          - The food 3 plain days        
+      TODO .Activity:
+        Workspace:
+          - sh mobility of next week
+      NEXT .Have it reviewed by Bobi:
+      NEXT .Taskifying:
   EstTODO .Analysis of the month of June and July:
     +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:

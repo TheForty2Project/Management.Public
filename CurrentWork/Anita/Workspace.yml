@@ -1,1 +1,23 @@
-Testing:
+Testing2:
+  ShoppingList:
+    - Apple:
+      - Red
+      - Green
+    - Banana: |
+        - asdfasdf
+        asdfasgtr4: aasdfasd: asdfasdf:
+         
+    - Bread
+  ShoppingList2: [Apple, Banana, Bread]
+
+Testing3: {ShoppingList: [Apple, Banana, Bread] , ShoppingList2: [Apple, Banana, Bread]}
+
+Scribblings:
+  Shortcuts:
+    ctrl+shift+p: 
+      Description: access to the VS Code command palette
+      Commands:
+        Generate F2Yaml Id Link: generates an f2link, puts it into your clipboard
+        Follow the F2Yaml link: follows the link
+        f2tools.reports.Execute: Executes the query 
+    alt+space: displays Launchy dialog

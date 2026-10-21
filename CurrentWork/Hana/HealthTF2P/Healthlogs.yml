@@ -5257,7 +5257,7 @@ BobiHOSLog20261016:
       Main: Rice, Breast turkey, 
       Dessert: cake,Pudding,Fruits
   .Evening:
-HanaHOSLog20261016:
+HanaHOSLog20261016 complete:
     .Stress1008: 20
     .Sleep:
       Notes: Sleep score obtained from Garmin Application
@@ -5389,7 +5389,7 @@ BobiHOSLog20261017:
       Main: Rice, Breast turkey, 
       Dessert: cake,Pudding,Fruits
   .Evening:
-HanaHOSLog20261017complete:
+HanaHOSLog20261017 complete:
   Morning:         
     - <Sleep>:     
         Bedtime: 
@@ -5548,7 +5548,7 @@ BobiHOSLog20261018:
         Food: Decaf coffee, Protein
         Body Battery: 
         Sleep Hygiene:
-HanaHOSLog20261018:
+HanaHOSLog20261018 complete:
   Morning:         
   - <Sleep>:     
       Bedtime: 12:30
@@ -5992,6 +5992,217 @@ AnitaHOSLog20261020 (Complete):
       Meal Descripton: lemonade without any syrup/sugar
       Quantity: 
 
+HanaHOSLog20261021 (incomplete):
+  <SummaryMorningLog>:
+    MorningState:
+        Mood: 3/5
+        ThinkingQuality: 3/5
+        Motivation: 5/5
+        PhysicalEnergy: 3/5
+        BodyBattery:  71
+        Rumination: 0   
+    SleepScore: 71
+    Bristol: 4
+    SuspectedReasons: Sleeping late and eating much
+    OtherNotables: Had Kratom 
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 01:27
+      Duration: 6h 30m
+      Sleepscore: 71
+      waketime: 8:16 
+  - <Food>:
+    Time: 9:40
+    Meal Descripton: Rice, Oats, Omelet, cake,Coffee
+    Quantity: Half Bowl ( Didnt Finish)
+  - <State>:
+    Time: 10:00
+    Mood: 3/5
+    Notes: Droggy and tired
+  - <Digestion>:
+    Time: 10:00
+    Bristol: 4
+  - <Movement>:
+    Time: 11:45
+    Activity: Airbnb Cleaning
+    Duration: 20m
+    Intensity: Easy
+    Time2: 11:45
+    Activity2: Walk
+    Duration2: 1 hour
+    Intensity2: Moderate
+    Notes2: carrying Laundry 
+  Afternoon:
+  - <Work>:
+    Time: 13:00
+    Activity Descr: HealthLog Data Entry
+  - <Food>:
+    Time: 14:30
+    Meal Desc: Rice noodles, Fish Hering with Mustard, duck Pate, some Feta cheese
+    Quantity: Moderate
+  - <Movement>:
+      Time: 15:00
+      Activity: Walk
+      Duration: 30m
+      Intensity: Easy
+      Notes: After Meal Walk
+  - <Work>:
+    Time: 16:00
+    Activity Description: Health log continuation
+  Evening: 
+  - <Food>:
+    Time: 20:00
+    Meal Desc: rice nood;es. tuna. some hering, tomato soup, tea with spices
+    Time2: 21;40
+    Meal Desc2: small piece of cake
+  - <Work>:
+    Time: 22:00
+    Activity Desc: Health Logs
+  - <State>:
+    Mood: 3
+  - <Food>:
+    Time: 12:00
+    Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
+    Quantity: 1.5 Dl of batter, 2 dl pudding, 10
+BobiHOSLog20261021 (incomplete):
+  <SummaryMorningLog>:
+    MorningState:
+        Mood: 4/5
+        ThinkingQuality: 
+        Motivation: 5/5
+        PhysicalEnergy: 3/5
+        BodyBattery:  81
+        Rumination: 0   
+    SleepScore: 86
+    Bristol: 3 to 5
+    SuspectedReasons: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.BobiHOSLog20261019.Morning<
+    OtherNotables: velo 5x, Kratom 2x
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 02:36
+      Duration: 6h 1m
+      Sleepscore: 63 
+      waketime: 09:24
+  - <Food>:
+    Time: 11:00
+    Meal Descripton: Pancake, Pudding, blueberries 
+    Quantity: 1.5 Dl of batter, 2 dl pudding, 10
+  - <State>:
+    Time: 11:30
+    Mood: 4
+  - <Movement>:
+      Time: 12:00
+      Activity: Walk
+      Time2: 13:30
+      Activity2: Run
+      Duration: 27:26
+      Intensity: Moderate
+  - <Work>:
+    Time: 16:14
+    Activity Descr: 
+  Afternoon:
+  - <Movement>:
+    Time: 12:30
+    Activity: Run
+    Duration: 
+    Intensity: 
+  - <Food>:
+    Time: 
+    Meal Desc: 
+  - <Work>:
+    Time: 
+    Activity Description: 
+  - <Food>:
+    Time: 
+    Meal Descr: 
+  - 
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Movement>:
+      Time: 19:00
+      Activity: Gym
+      Duration: 27:26
+      Intensity: Moderate
+  - <Drugs>:
+    Time: 23:00
+    Name: Ktatom
+    Dosage: 1.8
+    Unit: g
+    Time2: 12:00
+    Name2: W
+    Dosage2: 0.20 
+    Unit2: g
+  - <Food>:
+    Time: 12:00
+    Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
+    Quantity: 1 chocolate, 150ml. 2 pieces
+  - <Work>:
+    Time: 12:42
+    Activity Descr:  
+AnitaHOSLog20261021 (inComplete):
+  <SummaryMorningLog>:
+    MorningState:
+        Mood: 3/5
+        ThinkingQuality: 3/5
+        Motivation: 5/5
+        PhysicalEnergy: 3/5
+        BodyBattery:  81
+        Rumination: 0   
+        SleepScore: 
+        Bristol:
+        SuspectedReasons: 
+    Morning:         
+    - <Sleep>:     
+        Bedtime: 
+        Duration: 6 hours
+        Sleepscore: 
+        waketime: 
+    - <Food>:
+      Time: 07:15
+      Meal Descripton: 2 boiled eggs, rice with oats and ginger, 0,25 cooked apple, 1 banana, coffee with almond milk,  latte with green bean milk
+      Quantity: 
+    - <State>:
+      Time: 10:00
+      Mood: 2/5
+      Notes: cortisol level 9999999999, face red and burning, wanting to cry but cannot
+    - <Movement>:
+        Time: 10:00-10:30
+        Activity: Walk
+        Duration: 30 min
+        Intensity: Easy
+    - <State>:
+        Time: 10:40
+        Mood: 1/5
+    Afternoon:
+      - <Movement>:
+        Time: 12:30-13:40
+        Activity: Run
+        Duration: 1.10
+        Intensity: Moderate
+      - <Food>:
+        Time: 14:50
+        Meal Desc:  rice noodles, 1/2 soup from the cubes, canned tuna in tomato sauce, 1 tablespoon of hummus
+        Quantity: Moderate
+      - <Work>:
+        Time: 15:30-18:00
+        Activity Description:     
+      - <State>:
+        Mood: 3/5  
+    Evening: 
+    - <Food>:
+      Time: 18:30
+      Meal Desc: 1 bread, 2 tablespoons of hummus, one tomato, 1 tablespoon of sour scream
+    - <LifeEvent>:
+      Time: 20:00
+      Notes: Meeting with Uni friends
+    - <Movement>:
+      Time: 
+      Activity Desc: Walk
+    - <Food>:
+      Time: 
+      Meal Descripton: lemonade without any syrup/sugar
+      Quantity: 
 
 
 

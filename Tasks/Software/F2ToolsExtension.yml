@@ -805,7 +805,7 @@ OnGoing .Task administration:
           PAR: 20m
           Normal: 40m
           Explanation: expecting trouble, otherwise easy-peasy (simple string replace back and forth)  
-  OnGoing .Publication to marketplace:
+  OnGoing .Publication to marketplace:  
     Details:
       Process: -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace<
     Done .Write initial changelog.md:
@@ -825,8 +825,11 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260429 T 000248, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V3.0.1:
       Done .Package and publish:
-    Done .Package and add to repo V3.1.1:      
+    Done .Package and add to repo V3.1.1:          
       +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
+    Done .Package and add to repo V3.1.2:
+      +: {CreatedBy: Bobi, CreatedAt: 20261021 T 232016, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 4-High}
+      
       
 
 .Bugs:
@@ -1384,9 +1387,11 @@ OnGoing .Task administration:
     FixVersion: 3.1.1
     Comments:
       - [Bobi, 20260825, "Bug is probably around caching - and maybe some await is the solution"]
-  InProgress .F2Link contains "ERROR" if the top level key does not start with a dot:        
-    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 2-Low}
+  OnHold .F2Link contains "ERROR" if the top level key does not start with a dot:        
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
     Version: 3.1.0
+    Details:
+      This is with the "new" f2link generator (used for CSV report generation)
     Comments:
       - [Bobi, 20260825, "It's a user error not to start the key with a dot (most of the times) so low prio."]
   Fixed .The file name part in F2Link does not get generated for certain Items:

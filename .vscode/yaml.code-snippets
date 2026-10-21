@@ -142,7 +142,7 @@
 	"SystemState": {
 		"prefix": "LogState",
 		"body": [
-			"SystemState:",
+			"<SystemState>:",
 			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
 			"  Mood: ${1:3}",
 			"  ThinkingQuality: ${2:3}",
@@ -158,7 +158,7 @@
 	"Sleep": {
 		"prefix": "LogSleep",
 		"body": [
-			"Sleep:",
+			"<Sleep>:",
 			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
 			"  BedTime: ${1:00:00}",
 			"  Duration: ${2:8h}",
@@ -173,19 +173,19 @@
 	"Food": {
 		"prefix": "LogFood",
 		"body": [
-			"Food:",
+			"<Food>:",
 			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  MealDescription: ${1:}",
-			"  Quantity: ${2:2}",
-			"  Summary: ${3:}",
-			"  Notes: ${4:}"
+			"  MealDescription: $1",
+			"  Quantity: $2",
+			"  Summary: $3",
+			"  Notes: $4"
 		],
 		"description": "Food"
 	},
 	"Drugs": {
 		"prefix": "LogDrugs",
 		"body": [
-			"Drugs:",
+			"<Drugs>:",
 			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
 			"  Name: ${1:}",
 			"  Dosage: ${2:}",

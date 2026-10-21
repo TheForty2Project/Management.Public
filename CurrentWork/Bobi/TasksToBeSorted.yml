@@ -400,22 +400,23 @@
         - in ItemLists we should store F2Links as well
       ImplPlan:
         - we supposedly just store it that way + when retrieving, handling this case as well.        
-    EstTODO .Optimize parsing of the workspace:
+    Done .Optimize parsing of the workspace:
       Id: OptimiseParsing
       +: {CreatedBy: Bobi, CreatedAt: 20260626 T 024751, By: Bobi}
       Details:
         Takes a full second to load the current Management.Public workspace; will be slow.
-      InProgress .Exclude folders starting with a dot as a temporary measure:
+      Cancelled .Exclude folders starting with a dot as a temporary measure:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161800, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10, Importance: 4-High}        
-      EstTODO .Introduce some config for ignore list:
-        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161825, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 2-Low}        
-      NEXT .Measure speed after the folder exclusions:
+      Done .Introduce some config for ignore list:
+        +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161825, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 2-Low}
+      Done .Measure speed after the folder exclusions:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161935, By: Bobi, Tags: [F2Tools, Dev], Estimation: 5, RemTime: 5, Importance: 3-Average}        
-      Blocked .Code optimisation first round - if necessary:
+      Cancelled .Code optimisation first round - if necessary:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 161835, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
         DependsOn: -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items.."Optimize parsing of the workspace".."Measure speed after the folder exclusions"<
         Details:
           Only do it if required; probably not though.
+        CancelReason: It's not necessary.
     TODO .Implement class description support:
       +: {CreatedBy: Bobi, CreatedAt: 20260702 T 005321, By: Bobi}
       EstTODO .Implement ClassDescription concept:

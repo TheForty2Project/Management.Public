@@ -19,7 +19,7 @@
 .DevTasks:
   Type: QueryDescription
   Summary: Development tasks
-  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2), Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<    

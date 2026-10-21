@@ -339,9 +339,9 @@
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013645, By: Bobi, Tags: , Estimation: 15, RemTime: 15}
       Done .Summary line:
         +: {CreatedBy: Bobi, CreatedAt: 20260713 T 154918, By: Bobi}
-    EstTODO .QueryDescription parsing from CSV header:
+    Done .QueryDescription parsing from CSV header:
       Id: CSVHeaderParsing
-      +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162718, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}      
+      +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162718, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 0, Importance: 3-Average}      
     EstTODO .Write Back:
       Id: WriteBack
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 030200, By: Bobi, Tags: , Estimation: 180, RemTime: 180}

@@ -493,4 +493,7 @@ SR_20261020_Bobi:
 
 SR_NEXT_Bobi:
   Was:
+    - -->Tasks\Software\F2ToolsExtension\.."Task administration"<: [ 4m, "", 20261021 T 135455 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."QueryDescription parsing from CSV header"<: [ 103m, "", 20261021 T 135900 ]
   Next:
+    - null

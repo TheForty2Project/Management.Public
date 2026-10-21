@@ -13,7 +13,7 @@ OnGoing .General management:
     OnGoing .Prepare:
       +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143419, By: Bobi}      
       Id: RePlStPrep
-    OnGoing .Part icipate:
+    OnGoing .Participate:
       +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143419, By: Bobi}
       Id: RePlStParticipate
   OnGoing .Standup related:

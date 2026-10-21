@@ -5761,10 +5761,6 @@ AnitaHOSLog20261019 complete:
     Activity Description: TF2P Intro, Environment Setup, Yaml explanation
     Duration: 3.25 hours
     Focus: 5
-
-  Evening: 
-  - <State>:
-    Mood: 3
   - <Food>:
     Time: 19:30
     Meal Desc:  soup from the cubes (1/2), rice noodles, tomato sauce, canned herings in sauce, 1 bread and 1 teaspoon of hummus
@@ -5772,6 +5768,7 @@ AnitaHOSLog20261019 complete:
     Time:
     Activity Desc: Walk
     Duration: 15 min
+ 
 
 
 HanaHOSLog20261020 (complete):
@@ -5926,7 +5923,7 @@ BobiHOSLog20261020 (incomplete):
     Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
     Quantity: 1 chocolate, 150ml. 2 pieces
   - <Work>:
-    Time: 12:42
+    Time: 00:42
     Activity Descr:  
 AnitaHOSLog20261020 (Complete):
   <SummaryMorningLog>:

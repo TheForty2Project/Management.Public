@@ -94,7 +94,7 @@ namespace Barba.Types:
           - it's estimated how long it would take to finish the task
           - in larger tasks you should only start working on a task (ideally...) after it reached this status
     .InProgress:
-        Details: the task is 
+        Details: the task is in progress (being worked on)
     .Done:
     .CurrentFocus:
       Details:
@@ -158,6 +158,13 @@ namespace Barba.Types:
       Closed:
       OnHold:
   
+  enum ZeroToThree:
+    Members:
+      Zero:
+      One:
+      Two:
+      Three:
+
   enum Levels:
     Members:
       0-Zero:
@@ -170,19 +177,19 @@ namespace Barba.Types:
       7-OMG:
 
   enum BristolPoopika:
-    .Type1:
+    .1-HardLumps:
       Details: Separate hard lumps like nuts
-    .Type2: 
+    .2-LumpySausage: 
       Details: Sausage-Shaped but lumpy
-    .Type3:
+    .3-CrackedSausage:
       Details: Like a sausage but crackon the surface
-    .Type4:
+    .4-Cable:
       Details: Like sausage or snake, smooth and soft
-    .Type5:
+    .5-PoopEmoji:
       Details: Soft Blobs with clear cut edges
-    .Type6:
+    .6-KrumpliFozelek:
       Details: Fluffy pieces with Ragged edges, a mushy stool
-    .Type7:
+    .7-WateryNoSolids:
       Details: Watery no soild pieces
     
   class TestCase:

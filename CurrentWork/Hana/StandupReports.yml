@@ -298,16 +298,36 @@ SR_20261009_Hana:
     - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder"<: [ 5m, "", 20261002 T 130946 ]
     - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder".."Transfering Hanas lab results to BobiHana repository"<: [ 78m, "", 20261002 T 131454 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Decide about how to handle the updates section on the site"<: [ 15m, "", 20261005 T 140858 ]
-
   Next:
-    - th mobility of next week
-    - The food 3 plain days
     - -->Tasks\Website\..Improvements..CreateRoadmap..""Decide:_ how should we handle history?""<
-SR_NEXT_Hana:
+
+SR_20261018_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 30m, "", 20261009 T 202844 ]
     - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 65m, "", 20261013 T 202842 ]
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi"<: [ 94m, "", 20261013 T 172342 ]
-    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<: [ 45m, "", 20261017  ]
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<: [ 45m, "", 20261017 ]
   Next:
-    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi"<
+    - -->Tasks\Miscellaneous\..Health..CreateMealSchedule..W43<
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items"<
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Create health-log recording process"<
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
+
+SR_20261021_Hana:
+  Was:
+
+    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 150m, "logs for 4days ", 20261020 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 20m, "", 20261021 T 180136 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20261021 T 181118 ]
+
+  Next:
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Go through the previous classes and add any missing to the new ones"<
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
+    - Need task creation; Assign meanings to the individual enum values
+  AOIB:
+    - Snippets was created for Anita
+    - Standup Report file was created to Anita
+    - Explain StandUp process to Anita
+    - Explain Task list to Anita
+    - 

@@ -468,7 +468,7 @@ SR_20260903_Bobi:
   Next:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<
 
-SR_NEXT_Bobi:
+SR_20261020_Bobi:
   Was:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Have a value/effort rating system and apply it on the Requirements + Tasks"<: [ 20m, "", 20260905 T 231710 ]
     - -->Tasks\ToBeSorted\..Tasks20260922.."Reprioritize the Tasks".."Tag the Done ones with TLDone"<: [ 40m, "", 20260922 T 203419 ]
@@ -481,7 +481,29 @@ SR_NEXT_Bobi:
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Create the site update process and do it once"<: [ 45m, "", 20261005 T 203223 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Schedule the execution of it"<: [ 3m, "", 20261009 T 135932 ]
     - -->Tasks\ToBeSorted\..Tasks20260922.."Reprioritize the Tasks".."Do the reprioritization baseline"<: [ 53m, "", 20261009 T 140218 ]
-    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 0m, "", 20261016 T 011230 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 30m, "", 20261016 T 011230 ]
 
   Next:
-    - null
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."QueryDescription parsing from CSV header"<
+    - buy: proteinco email, dextrose, straps
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: 
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items..OptimiseParsing.."Exclude folders starting with a dot as a temporary measure"<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings"..CSVHeaderParsing<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
+    - -->Tasks\Software\F2ToolsExtension\..Bugs..""F2Link contains ""ERROR"" if the top level key does not start with a dot""<    
+
+SR_20261021_Bobi:
+  Was:
+    - -->Tasks\Software\F2ToolsExtension\.."Task administration"<: [ 14m, "", 20261021 T 135455 ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."QueryDescription parsing from CSV header"<: [ 103m, "", 20261021 T 135900 ]
+    - buy: proteinco email, dextrose, straps
+  Next:
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: 
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items..OptimiseParsing.."Exclude folders starting with a dot as a temporary measure"<:
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings"..CSVHeaderParsing<:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<:
+    - -->Tasks\Software\F2ToolsExtension\..Bugs..""F2Link contains ""ERROR"" if the top level key does not start with a dot""<:
+
+SR_NEXT_Bobi:
+  Was:
+  Next:

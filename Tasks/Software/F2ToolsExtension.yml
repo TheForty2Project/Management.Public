@@ -465,6 +465,12 @@ OnGoing .Task administration:
       Details:
         - Fix the configuration mess
         - Load the configuration 
+    TODO .Refactor the ImportFromYamlNode and related:
+      +: {CreatedBy: Bobi, CreatedAt: 20261021 T 135605, By: Bobi, Tags: [Dev, F2Tools], Estimation: , RemTime: , Importance: 3-Average}
+      Details:
+        - instead of processedPropertyIds, check whether there's an entry already in the this.PropertyValuesById
+        - there should be only ImportFromYamlNode - remove the "fromScalarMapPair", etc.
+        - IsValid should return bool
       
   OnGoing .Create proper basic Item structures library:    
     +: {CreatedBy: Bobi, CreatedAt: 20260602 T 211650, By: Bobi, Tags: , Estimation: 120, RemTime: 0}

@@ -94,7 +94,7 @@ namespace Barba.Types:
           - it's estimated how long it would take to finish the task
           - in larger tasks you should only start working on a task (ideally...) after it reached this status
     .InProgress:
-        Details: the task is 
+        Details: the task is in progress (being worked on)
     .Done:
     .CurrentFocus:
       Details:

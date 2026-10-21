@@ -138,81 +138,167 @@
 		],
 		"description": "A Standup Report"
 	},
-	"MealLogEntry": {
-		"prefix": "LogMeal",
+	
+	"SystemState": {
+		"prefix": "LogState",
 		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Description: $1",
-			"  HungerBefore:  ${2:2-Low}",
-			"  HungerAfter: ${3:2-Low}",
-			"  Amount: ${4:2-Low}"
+			"SystemState:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Mood: ${1:3}",
+			"  ThinkingQuality: ${2:3}",
+			"  Motivation: ${3:3}",
+			"  PhysicalEnergy: ${4:3}",
+			"  BodyBattery: ${5:50}",
+			"  Rumination: ${6:0}",
+			"  Summary: ${7:}",
+			"  Notes: ${8:}"
 		],
-		"description": "MealLogEntry"
+		"description": "SystemState"
 	},
-	"MoodLogEntry": {
-		"prefix": "LogMood",
-		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  PeriodLengthInHrs: $1",
-			"  Irritability:  ${2:2-Low}",
-			"  Drowsiness:: ${3:2-Low}",
-			"  Foggyness: ${4:2-Low}",
-			"  TummyGassesFeel: ${5:2-Low}",
-			"  Bloatedness: ${6:2-Low}",
-			"  Farting: ${7:2-Low}",
-			"  Headache: ${8:2-Low}",
-			"  Hornyness: ${9:2-Low}"
-		],
-		"description": "MoodLogEntry"
-	},
-
-	"PoopikaEntry": {
-		"prefix": "LogPoop",
-		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Type: $1",
-		
-		],
-		"description": "PoopLogEntry"
-	},
-
-	"ExerciseLogEntry": {
-		"prefix": "LogExercise",
-		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Category: $1",
-			"  GarminLink:  $2",
-			
-		],
-		"description": "ExerciseLogEntry"
-
-	},
-
-	"DLogEntry": {
-		"prefix": "LogD",
-		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  NotableThings: $1",
-		],
-		"description": "DLogEntry"
-	},
-
-	"SupplementLogEntry": {
-		"prefix": "LogSupplement                   ",
-		"body": [
-			"Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  What: $1",
-		],
-		"description": "SupplementLogEntry"
-	},
-
-	"SleepLogEntry": {
+	"Sleep": {
 		"prefix": "LogSleep",
 		"body": [
-			"SleepTime: $1",
-			"  GarminLink: $2",
-			"  Score: $3",
+			"Sleep:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  BedTime: ${1:00:00}",
+			"  Duration: ${2:8h}",
+			"  SleepScore: ${3:80}",
+			"  WakeTime: ${4:08:00}",
+			"  BodyBattery: ${5:80}",
+			"  Summary: ${6:}",
+			"  Notes: ${7:}"
 		],
-		"description": "SleepLogEntry"	
+		"description": "Sleep"
+	},
+	"Food": {
+		"prefix": "LogFood",
+		"body": [
+			"Food:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  MealDescription: ${1:}",
+			"  Quantity: ${2:2}",
+			"  Summary: ${3:}",
+			"  Notes: ${4:}"
+		],
+		"description": "Food"
+	},
+	"Drugs": {
+		"prefix": "LogDrugs",
+		"body": [
+			"Drugs:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Name: ${1:}",
+			"  Dosage: ${2:}",
+			"  Unit: ${3:mg}",
+			"  Summary: ${4:}",
+			"  Notes: ${5:}"
+		],
+		"description": "Drugs"
+	},
+	"Digestion": {
+		"prefix": "LogDigestion",
+		"body": [
+			"Digestion:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Bristol: ${1:4}",
+			"  Bloating: ${2:0}",
+			"  AbdominalPain: ${3:0}",
+			"  Flatulence: ${4:0}",
+			"  Belching: ${5:0}",
+			"  Summary: ${6:}",
+			"  Notes: ${7:}"
+		],
+		"description": "Digestion"
+	},
+	"Movement": {
+		"prefix": "LogMovement",
+		"body": [
+			"Movement:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Activity: ${1:}",
+			"  Duration: ${2:30m}",
+			"  Intensity: ${3:2}",
+			"  Summary: ${4:}",
+			"  Notes: ${5:}"
+		],
+		"description": "Movement"
+	},
+	"Work": {
+		"prefix": "LogWork",
+		"body": [
+			"Work:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  ActivityDesc: ${1:}",
+			"  Duration: ${2:60m}",
+			"  Focus: ${3:3}",
+			"  MindPower: ${4:3}",
+			"  Summary: ${5:}",
+			"  Notes: ${6:}"
+		],
+		"description": "Work"
+	},
+	"LifeEvent": {
+		"prefix": "LogLifeEvent",
+		"body": [
+			"LifeEvent:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  EventDescription: ${1:}",
+			"  EmotionalImpact: ${2:0}",
+			"  Summary: ${3:}",
+			"  Notes: ${4:}"
+		],
+		"description": "LifeEvent"
+	},
+	"PhysicalSymptoms": {
+		"prefix": "LogPhysicalSymptoms",
+		"body": [
+			"PhysicalSymptoms:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Skin:",
+			"    Acne: ${1:0}",
+			"    Dryness: ${2:1}",
+			"    Paleness: ${3:false}",
+			"    Rash: ${4:false}",
+			"  Face:",
+			"    Puffiness: ${5:1}",
+			"    Location: ${6:None}",
+			"  Nails:",
+			"    Color: ${7:Normal}",
+			"    Ridges: ${8:None}",
+			"    ShapeChange: ${9:None}",
+			"  Abdomen:",
+			"    Bloating: ${10:1}",
+			"    Pain: ${11:1}",
+			"    Location: ${12:None}",
+			"  General:",
+			"    Fatigue: ${13:1}",
+			"    Dizziness: ${14:1}",
+			"    ColdSensitivity: ${15:1}",
+			"    Bruising: ${16:None}",
+			"    Swelling: ${17:None}",
+			"  Summary: ${18:}",
+			"  Notes: ${19:}"
+		],
+		"description": "PhysicalSymptoms"
+	},
+	"MenstrualCycle": {
+		"prefix": "LogMenstrualCycle",
+		"body": [
+			"MenstrualCycle:",
+			"  Cycle:",
+			"    Day: ${1:1}",
+			"    Phase: ${2:Menstrual}",
+			"  Bleeding:",
+			"    Flow: ${3:0}",
+			"    Color: ${4:None}",
+			"    Clots: ${5:false}",
+			"  Symptoms:",
+			"    Cramps: ${6:0}",
+			"    BreastTenderness: ${7:false}",
+			"    Bloating: ${8:0}",
+			"    Headache: ${9:0}",
+			"    Fatigue: ${10:0}"
+		],
+		"description": "MenstrualCycle"
 	}
 }

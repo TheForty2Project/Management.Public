@@ -1,53 +1,53 @@
++: { Type: Folder, DefaultTypes: [ Task, Folder ] }
 
-
-
-<SummaryMorningLog>:
-  MorningState:
-    Mood: 3/5
-    ThinkingQuality: 3/5
-    Motivation: 5/5
-    PhysicalEnergy: 3/5
-    BodyBattery:  81
-    Rumination: 0 
-  SleepScore: 86
-  Bristol: 2
-  SuspectedReasons: Kratom and Chocolate ingestion 20261019
-  OtherNotables:
-    
-  Morning:         
-  - <Sleep>:     
-      Bedtime: 
-      Duration: 
-      Sleepscore: 
-      waketime: 
-  - <Food>:
-    Time: 
-    Meal Descripton:
-    Quantity: 
-  - <State>:
-    Time:
-    Mood: 
-  - <Work>:
-    Time: 
-    Activity Descr: 
-    Time2: 
-    Activity Descr2: 
-  Afternoon:
-  - <Food>:
-    Time: 
-    Meal Desc: 
-  - <Work>:
-    Time: 
-    Activity Description: 
-  - <Food>:
-    Time: 
-    Meal Descr: 
-  Evening: 
-  - <State>:
-    Mood: 
-  - <Food>:
+HealthLogStandardTemplate:
+  <SummaryMorningLog>:
+    MorningState:
+      Mood: 3/5
+      ThinkingQuality: 3/5
+      Motivation: 5/5
+      PhysicalEnergy: 3/5
+      BodyBattery:  81
+      Rumination: 0 
+    SleepScore: 86
+    Bristol: 2
+    SuspectedReasons: Kratom and Chocolate ingestion 20261019
+    OtherNotables:
+      
+    Morning:         
+    - <Sleep>:     
+        Bedtime: 
+        Duration: 
+        Sleepscore: 
+        waketime: 
+    - <Food>:
+      Time: 
+      Meal Descripton:
+      Quantity: 
+    - <State>:
       Time:
-      Meal Descr:
+      Mood: 
+    - <Work>:
+      Time: 
+      Activity Descr: 
+      Time2: 
+      Activity Descr2: 
+    Afternoon:
+    - <Food>:
+      Time: 
+      Meal Desc: 
+    - <Work>:
+      Time: 
+      Activity Description: 
+    - <Food>:
+      Time: 
+      Meal Descr: 
+    Evening: 
+    - <State>:
+      Mood: 
+    - <Food>:
+        Time:
+        Meal Descr:
 
 
 Details of Classes of Health Log (Properties we can choose from and it's description):
@@ -113,7 +113,6 @@ Details of Classes of Health Log (Properties we can choose from and it's descrip
               integer .BodyBattery:
                 Summary: Garmin estimate; 1-100
               ZeroToFive .Rumination:
-
 
             class .Sleep:
               Inherits: EventLogBase

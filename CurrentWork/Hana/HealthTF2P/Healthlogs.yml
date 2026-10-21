@@ -6203,8 +6203,22 @@ AnitaHOSLog20261021 (inComplete):
 
 
 
+Food:
+  Time: 230418  
+  MealDescription:      
+  Quantity: 2g
+  Summary: s gag
+  Notes: g s
 
-
+  Digestion:
+    Time: 230729
+    Bristol: 4
+    Bloating: 0
+    AbdominalPain: 0
+    Flatulence: 0
+    Belching: 0
+    Summary: 
+    Notes: 
 
 
 

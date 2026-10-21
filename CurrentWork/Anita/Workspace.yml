@@ -1,1 +1,17 @@
-Testing:
+Notes:
+  Work process:
+    - Have a Task - create it in your TasksToBeSorted
+    - Specify standup report:
+      - If it does not already exist, create an "SR_NEXT_Anita" entry in your STandupReports.yml, like:
+          SR_NEXT_Anita:
+      - Specify standup report:
+          - Go to your standup entry (the cursor should be on it)
+          - Press "Ctrl+shift+P" to get the "command palette"
+          - Find the "Specify Standup report" command
+      - Start timer on the task you work on:
+          - Go to your task you're plannign to work on (the cursor should be on it)
+          - Press "Ctrl+shift+P" to get the "command palette"
+          - Find the "Start timer on Task" command
+      - Stop timer on the task when you finished:          
+          - Press "Ctrl+shift+P" to get the "command palette"
+          - Find the "Stop timer on Task" command

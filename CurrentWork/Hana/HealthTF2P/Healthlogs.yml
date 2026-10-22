@@ -5850,6 +5850,8 @@ HanaHOSLog20261020 (complete):
     Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
     Quantity: 1.5 Dl of batter, 2 dl pudding, 10
 BobiHOSLog20261020 (incomplete):
+  Notes: smoked one puff in the afternoon. 
+  contributed to : the next 2 days was bad  
   <SummaryMorningLog>:
     MorningState:
         Mood: 4/5
@@ -5989,7 +5991,7 @@ AnitaHOSLog20261020 (Complete):
       Meal Descripton: lemonade without any syrup/sugar
       Quantity: 
 
-HanaHOSLog20261021 (incomplete):
+HanaHOSLog20261021 (Complete):
   <SummaryMorningLog>:
     MorningState:
         Mood: 3/5
@@ -6049,19 +6051,28 @@ HanaHOSLog20261021 (incomplete):
   Evening: 
   - <Food>:
     Time: 20:00
-    Meal Desc: rice nood;es. tuna. some hering, tomato soup, tea with spices
-    Time2: 21;40
-    Meal Desc2: small piece of cake
+    Meal Desc: rice noodles, tomato sauce, one egg ( microwaved), Feta cheese
+  - <Movement>:
+    Time: 21:00
+    Activity: walk and stairs 2x
+    Duration: 30m
+    Intensity: 2
+    Summary: 
+    Notes: 
   - <Work>:
     Time: 22:00
-    Activity Desc: Health Logs
+    Activity Desc: Health Logs snippets
   - <State>:
     Mood: 3
   - <Food>:
     Time: 12:00
-    Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
-    Quantity: 1.5 Dl of batter, 2 dl pudding, 10
+    Meal Descripton: Milk with dextrose
+    Quantity: 150 ml
 BobiHOSLog20261021 (incomplete):
+  Notes to be added: 
+    - Whole day very farty and bloated and irritable 
+    - Ate dinner and the fart starting to go at night
+    - 
   <SummaryMorningLog>:
     MorningState:
         Mood: 4/5
@@ -6118,7 +6129,7 @@ BobiHOSLog20261021 (incomplete):
     Mood: 3
   - <Movement>:
       Time: 19:00
-      Activity: Gym
+      Activity: Run
       Duration: 27:26
       Intensity: Moderate
   - <Drugs>:
@@ -6137,91 +6148,180 @@ BobiHOSLog20261021 (incomplete):
   - <Work>:
     Time: 12:42
     Activity Descr:  
-AnitaHOSLog20261021 (inComplete):
-  <SummaryMorningLog>:
-    MorningState:
-        Mood: 3/5
-        ThinkingQuality: 3/5
-        Motivation: 5/5
-        PhysicalEnergy: 3/5
-        BodyBattery:  81
-        Rumination: 0   
-        SleepScore: 
-        Bristol:
-        SuspectedReasons: 
+AnitaHOSLog20261021 (Complete):
     Morning:         
     - <Sleep>:     
         Bedtime: 
-        Duration: 6 hours
+        Duration: 5.5 
         Sleepscore: 
         waketime: 
     - <Food>:
-      Time: 07:15
-      Meal Descripton: 2 boiled eggs, rice with oats and ginger, 0,25 cooked apple, 1 banana, coffee with almond milk,  latte with green bean milk
-      Quantity: 
+      Time: 07:30
+      Meal Descripton: 2 boiled eggs, rice with oats and ginger, 1 banana, coffee with almond milk
+    - <Digestion>:
+      Time: 103501
+      Bristol: 5
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
     - <State>:
-      Time: 10:00
-      Mood: 2/5
+      Time: 
+      Mood: 4/5
       Notes: cortisol level 9999999999, face red and burning, wanting to cry but cannot
-    - <Movement>:
-        Time: 10:00-10:30
-        Activity: Walk
-        Duration: 30 min
-        Intensity: Easy
-    - <State>:
-        Time: 10:40
-        Mood: 1/5
     Afternoon:
-      - <Movement>:
-        Time: 12:30-13:40
-        Activity: Run
-        Duration: 1.10
-        Intensity: Moderate
       - <Food>:
-        Time: 14:50
-        Meal Desc:  rice noodles, 1/2 soup from the cubes, canned tuna in tomato sauce, 1 tablespoon of hummus
-        Quantity: Moderate
+        Time: 12:40
+        Meal Desc:  1 boiled egg, 2 bread, 2 tablespoon hummus
+      - <Movement>:
+        Time: 
+        Activity: walk
+        Duration: 15m
+        Intensity: 
+        Summary: 
+        Notes: 
+      - <Food2>:
+        Time: 
+        Meal Desc:  Coffee with almond milk
       - <Work>:
-        Time: 15:30-18:00
-        Activity Description:     
+        Time: 11:30-15:30
+        Activity Description:  Statistics and TF2P   
       - <State>:
         Mood: 3/5  
     Evening: 
     - <Food>:
-      Time: 18:30
-      Meal Desc: 1 bread, 2 tablespoons of hummus, one tomato, 1 tablespoon of sour scream
-    - <LifeEvent>:
-      Time: 20:00
-      Notes: Meeting with Uni friends
-    - <Movement>:
+      Time: 18:00
+      Meal Desc: Rice Noodles, 0.5 cube soup, tomato sauce, canned tuna in tomato sauce
+    - <Work>:
+      Time: 18:15 -19:15
+      Activity type: TF2P (standup and )
+    - <Work2>:
+      Time: 20:00 - 24:00
+      Activity type: statistics and TF2P
+    - <Food2>:
       Time: 
+      Meal Descripton: 2 bread, 2 table spoon of sour cream 
+    
+
+HanaHOSLog20261022 incomplete:
+  Morning:
+    <Sleep>:
+      Time: 100755
+      BedTime: 12:47
+      Duration: 6h 18m
+      SleepScore: 75
+      WakeTime: 07:30
+      BodyBattery: 84
+      Summary: despite it was short sleep It was continues
+      Notes: 
+    <Movement>:
+      Time: 0730 -0840
+      Activity: cleaning and folding clothes
+      Duration: 1.10m
+      Intensity: 1
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 08:20
+      Name: Creatine, cirolline, Taurine
+      Dosage: g, 1, 0.5
+      Unit: g
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 0840-0915  
+      MealDescription: oats, corn, egg, Bao, Coffee   
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Drug2s>:
+      Time: 09:50
+      Name: Velo
+      Dosage: 1
+      Unit:
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 10:00
+      Bristol: 4
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+    <Movement2>:
+      Time: 10:30-11:30
+      Activity: Walk ( Laundry Lidl)
+      Duration: 
+      Intensity: moderate
+      Time2: 11:30-11:50
+      Activity2: Walk
+      Summary: 
+      Notes: 
+  Afternoon: 
+    <Food>:
+      Time: 122226
+      MealDescription: mogyoros choco lidl
+      Quantity: 1
+      Summary: 
+      Notes:
+    <Movement>:
+      Time: 12:50
       Activity Desc: Walk
-    - <Food>:
-      Time: 
-      Meal Descripton: lemonade without any syrup/sugar
-      Quantity: 
-
-
-
-Food:
-  Time: 230418  
-  MealDescription:      
-  Quantity: 2g
-  Summary: s gag
-  Notes: g s
-
-  Digestion:
-    Time: 230729
-    Bristol: 4
-    Bloating: 0
-    AbdominalPain: 0
-    Flatulence: 0
-    Belching: 0
-    Summary: 
-    Notes: 
-
-
-
+    <Digestion>:
+      Time: 1310
+      Bristol: 4
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 1
+      Belching: 0
+      Summary: 
+      Notes:
+    <Drugs>:
+      Time: 1330
+      Name: Kratom
+      Dosage: 
+      Unit: mg
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 22:00
+      Activity Desc: Health Logs    
+BobiHOSLog20261022:
+  Morning:
+    <Sleep>:
+      Time:   
+      BedTime: 12:51
+      Duration: 7h 43m
+      SleepScore: 82
+      WakeTime: 09:03
+      BodyBattery: 98
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 08:20
+      Name: Creatine, cirolline, Taurine, Velo
+      Dosage: g, 1, 0.5
+      Unit: g
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 10:20  
+      MealDescription: RiceWheat Pancake, Coffee, Pudding
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 10:00
+      Bristol: 4 - 5
+      Bloating: 2
+      AbdominalPain: 0
+      Flatulence: 1 
+      Belching: 1
+    < Movement>:
+      Time: Walk
+      Activity Desc: 
 
 
 

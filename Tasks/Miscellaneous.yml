@@ -629,11 +629,11 @@ Id: Misc
                 Duration: 90min
                 Focus: 8
 
-      InProgress .Showcase health log:
+      Done .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
           we're working into the above task          
-        InProgress .Finish creating classes:
+        Done .Finish creating classes:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Details:
             - The last part is left

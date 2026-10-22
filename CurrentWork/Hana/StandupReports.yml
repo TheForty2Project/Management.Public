@@ -319,7 +319,6 @@ SR_20261021_Hana:
     - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 150m, "logs for 4days ", 20261020 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 20m, "", 20261021 T 180136 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 303m, "and explaining standup process", 20261021 T 181118 ]
-    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
 
   Next:
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<
@@ -332,3 +331,10 @@ SR_20261021_Hana:
     - Explain StandUp process to Anita
     - Explain Task list to Anita
     - Explain merge to Anita
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 22m, "", 20261022 T 1514 ]
+    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Move the classes to BusinessClasses.yml"<: [ 22m, "", 20261022 T 155128 ]
+  NExt:
+  AOIB:

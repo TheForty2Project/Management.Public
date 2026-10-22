@@ -6205,7 +6205,7 @@ AnitaHOSLog20261021 (Complete):
       Meal Descripton: 2 bread, 2 table spoon of sour cream 
     
 
-HanaHOSLog20261022 incomplete:
+HanaHOSLog20261022 (incomplete):
   Morning:
     <Sleep>:
       Time: 100755
@@ -6288,7 +6288,7 @@ HanaHOSLog20261022 incomplete:
     <Work>:
       Time: 22:00
       Activity Desc: Health Logs    
-BobiHOSLog20261022:
+BobiHOSLog20261022 (incomplete):
   Morning:
     <Sleep>:
       Time:   
@@ -6322,10 +6322,6 @@ BobiHOSLog20261022:
     < Movement>:
       Time: Walk
       Activity Desc: 
-
-
-
-
 
 
 

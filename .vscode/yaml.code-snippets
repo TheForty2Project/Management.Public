@@ -143,15 +143,15 @@
 		"prefix": "LogState",
 		"body": [
 			"<SystemState>:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Mood: ${1:3}",
-			"  ThinkingQuality: ${2:3}",
-			"  Motivation: ${3:3}",
-			"  PhysicalEnergy: ${4:3}",
-			"  BodyBattery: ${5:50}",
-			"  Rumination: ${6:0}",
-			"  Summary: ${7:}",
-			"  Notes: ${8:}"
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE",
+			"  Mood: $1",
+			"  ThinkingQuality: $2",
+			"  Motivation: $3",
+			"  PhysicalEnergy: $4",
+			"  BodyBattery: $5",
+			"  Rumination: $6",
+			"  Summary: $7",
+			"  Notes: $8"
 		],
 		"description": "SystemState"
 	},
@@ -159,14 +159,14 @@
 		"prefix": "LogSleep",
 		"body": [
 			"<Sleep>:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE",
 			"  BedTime: ${1:00:00}",
-			"  Duration: ${2:8h}",
-			"  SleepScore: ${3:80}",
-			"  WakeTime: ${4:08:00}",
-			"  BodyBattery: ${5:80}",
-			"  Summary: ${6:}",
-			"  Notes: ${7:}"
+			"  Duration: $2",
+			"  SleepScore: $3",
+			"  WakeTime: $4",
+			"  BodyBattery: $5",
+			"  Summary: $6",
+			"  Notes: $7"
 		],
 		"description": "Sleep"
 	},
@@ -174,7 +174,7 @@
 		"prefix": "LogFood",
 		"body": [
 			"<Food>:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE",
 			"  MealDescription: $1",
 			"  Quantity: $2",
 			"  Summary: $3",
@@ -186,118 +186,118 @@
 		"prefix": "LogDrugs",
 		"body": [
 			"<Drugs>:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Name: ${1:}",
-			"  Dosage: ${2:}",
-			"  Unit: ${3:mg}",
-			"  Summary: ${4:}",
-			"  Notes: ${5:}"
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
+			"  Name: $1",
+			"  Dosage: $2",
+			"  Unit: $3",
+			"  Summary: $4",
+			"  Notes: $5"
 		],
 		"description": "Drugs"
 	},
 	"Digestion": {
 		"prefix": "LogDigestion",
 		"body": [
-			"Digestion:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Bristol: ${1:4}",
-			"  Bloating: ${2:0}",
-			"  AbdominalPain: ${3:0}",
-			"  Flatulence: ${4:0}",
-			"  Belching: ${5:0}",
-			"  Summary: ${6:}",
-			"  Notes: ${7:}"
+			"<Digestion>:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
+			"  Bristol: $1",
+			"  Bloating: $2",
+			"  AbdominalPain: $3",
+			"  Flatulence: $4",
+			"  Belching: $5",
+			"  Summary: $6",
+			"  Notes: $7"
 		],
 		"description": "Digestion"
 	},
 	"Movement": {
 		"prefix": "LogMovement",
 		"body": [
-			"Movement:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  Activity: ${1:}",
-			"  Duration: ${2:30m}",
-			"  Intensity: ${3:2}",
-			"  Summary: ${4:}",
-			"  Notes: ${5:}"
+			"<Movement>:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
+			"  Activity: $1",
+			"  Duration: $2",
+			"  Intensity: $3",
+			"  Summary: $4",
+			"  Notes: $5"
 		],
 		"description": "Movement"
 	},
 	"Work": {
 		"prefix": "LogWork",
 		"body": [
-			"Work:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  ActivityDesc: ${1:}",
-			"  Duration: ${2:60m}",
-			"  Focus: ${3:3}",
-			"  MindPower: ${4:3}",
-			"  Summary: ${5:}",
-			"  Notes: ${6:}"
+			"<Work>:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
+			"  ActivityDesc: $1",
+			"  Duration: $2",
+			"  Focus: $3",
+			"  MindPower: $4",
+			"  Summary: $5",
+			"  Notes: $6"
 		],
 		"description": "Work"
 	},
 	"LifeEvent": {
 		"prefix": "LogLifeEvent",
 		"body": [
-			"LifeEvent:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
-			"  EventDescription: ${1:}",
-			"  EmotionalImpact: ${2:0}",
-			"  Summary: ${3:}",
-			"  Notes: ${4:}"
+			"<LifeEvent>:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
+			"  EventDescription: $1",
+			"  EmotionalImpact: $2",
+			"  Summary: $3",
+			"  Notes: $4"
 		],
 		"description": "LifeEvent"
 	},
 	"PhysicalSymptoms": {
 		"prefix": "LogPhysicalSymptoms",
 		"body": [
-			"PhysicalSymptoms:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$CURRENT_SECOND",
+			"<PhysicalSymptoms>:",
+			"  Time: $CURRENT_HOUR$CURRENT_MINUTE$",
 			"  Skin:",
-			"    Acne: ${1:0}",
-			"    Dryness: ${2:1}",
-			"    Paleness: ${3:false}",
-			"    Rash: ${4:false}",
+			"    Acne: $1",
+			"    Dryness: $2",
+			"    Paleness: $3",
+			"    Rash: $4",
 			"  Face:",
-			"    Puffiness: ${5:1}",
-			"    Location: ${6:None}",
+			"    Puffiness: $5",
+			"    Location: $6",
 			"  Nails:",
-			"    Color: ${7:Normal}",
-			"    Ridges: ${8:None}",
-			"    ShapeChange: ${9:None}",
+			"    Color: $7",
+			"    Ridges: $8",
+			"    ShapeChange: $9",
 			"  Abdomen:",
-			"    Bloating: ${10:1}",
-			"    Pain: ${11:1}",
-			"    Location: ${12:None}",
+			"    Bloating: $10",
+			"    Pain: $11",
+			"    Location: $12",
 			"  General:",
-			"    Fatigue: ${13:1}",
-			"    Dizziness: ${14:1}",
-			"    ColdSensitivity: ${15:1}",
-			"    Bruising: ${16:None}",
-			"    Swelling: ${17:None}",
-			"  Summary: ${18:}",
-			"  Notes: ${19:}"
+			"    Fatigue: $13",
+			"    Dizziness: $14",
+			"    ColdSensitivity: $15",
+			"    Bruising: $16",
+			"    Swelling: $17",
+			"  Summary: $18",
+			"  Notes: $19"
 		],
 		"description": "PhysicalSymptoms"
 	},
 	"MenstrualCycle": {
 		"prefix": "LogMenstrualCycle",
 		"body": [
-			"MenstrualCycle:",
+			"<MenstrualCycle>:",
 			"  Cycle:",
-			"    Day: ${1:1}",
-			"    Phase: ${2:Menstrual}",
+			"    Day: $1",
+			"    Phase: $2",
 			"  Bleeding:",
-			"    Flow: ${3:0}",
-			"    Color: ${4:None}",
-			"    Clots: ${5:false}",
+			"    Flow: $3",
+			"    Color: $4",
+			"    Clots: $5",
 			"  Symptoms:",
-			"    Cramps: ${6:0}",
-			"    BreastTenderness: ${7:false}",
-			"    Bloating: ${8:0}",
-			"    Headache: ${9:0}",
-			"    Fatigue: ${10:0}"
+			"    Cramps: $6",
+			"    BreastTenderness: $7",
+			"    Bloating: $8",
+			"    Headache: $9",
+			"    Fatigue: $10"
 		],
 		"description": "MenstrualCycle"
 	}

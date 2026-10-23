@@ -327,5 +327,24 @@
         - Knowledge of the lymphatic system and Facsia
       - Be fast and precise in movements and eventually thinking:
         - Increase agility (maybe prerequest of 4 plyometric exercises?)
+.Workouts Analysis:
+  TODO .Analyse previous runs: 
+    WorkSpace: 
+      20261028:
+        Plans: 
+          Tempo 
+      20261025:
+        Plans:
+          Long run low aerobic ( 10km)
+      20261020Run:
+        Distance: 7.78
+        Training Effect: Tempo(High Aerobic)
+        Avg Pace: 8:33/km
+        Duration: 1:06
+      20261018:
+        Distance: 7.76
+        Training Effect: Base (Low Aerobic)
+        Avg Pace: 7:26 /km
+        Duration: 57:43
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

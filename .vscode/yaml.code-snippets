@@ -159,11 +159,10 @@
 		"prefix": "LogSleep",
 		"body": [
 			"<Sleep>:",
-			"  Time: $CURRENT_HOUR$CURRENT_MINUTE",
 			"  BedTime: ${1:00:00}",
-			"  Duration: $2",
-			"  SleepScore: $3",
-			"  WakeTime: $4",
+      "  WakeTime: ${2:00:00}",
+			"  Duration: $3",
+			"  SleepScore: $4",
 			"  BodyBattery: $5",
 			"  Summary: $6",
 			"  Notes: $7"

@@ -6205,7 +6205,7 @@ AnitaHOSLog20261021 (Complete):
       Meal Descripton: 2 bread, 2 table spoon of sour cream 
     
 
-HanaHOSLog20261022 (incomplete):
+HanaHOSLog20261022 (Complete):
   Morning:
     <Sleep>:
       Time: 100755
@@ -6284,20 +6284,38 @@ HanaHOSLog20261022 (incomplete):
       Dosage: 
       Unit: mg
       Summary: 
-      Notes: 
+      Notes:      
+    <Food2>:
+      Time: 16:00
+      MealDescription: Rice Noodles,Egg, few Hering pepper, cube soup
+      Quantity: high
+      Summary: 
+      Notes: I ate relatively a lot. I was very hungry
+  Evening: 
     <Work>:
       Time: 22:00
-      Activity Desc: Health Logs 
-       
+      Activity Desc: Health Logs  
+    <Food>:
+      Time: 23:00
+      MealDescription: Protein milk, Dextrose 
+      Quantity: one cup
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 2309
+      Name: W
+      Dosage: one joint 
+      Unit: 
+      Summary: 
+      Notes:     
 BobiHOSLog20261022 (incomplete):
   Morning:
     <Sleep>:
-      Time:   
-      BedTime: 12:51
-      Duration: 7h 43m
-      SleepScore: 82
-      WakeTime: 09:03
-      BodyBattery: 98
+      BedTime: 02:27
+      WakeTime: 09:28
+      Duration: 6h 14m
+      SleepScore: 54
+      BodyBattery: 34
       Summary: 
       Notes: 
     <Drugs>:
@@ -6309,7 +6327,7 @@ BobiHOSLog20261022 (incomplete):
       Notes: 
     <Food>:
       Time: 10:20  
-      MealDescription: RiceWheat Pancake, Coffee, Pudding
+      MealDescription: Cake, Coffee, Pudding
       Quantity: moderate
       Summary: 
       Notes: 
@@ -6323,8 +6341,101 @@ BobiHOSLog20261022 (incomplete):
     < Movement>:
       Time: Walk
       Activity Desc: 
+  Afternoon: 
+    <Work>:
+      Time: 13:00
+      ActivityDesc: Airbnb things 
+      Duration: 
+      Focus: 1
+      MindPower: 1 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 16:00
+      MealDescription: cake, pudding, strawberries 
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    
+HanaHOSLog20261023 (incomplete):
+  Morning:
+    <Sleep>:
+      Time: 12:35
+      BedTime: 12:35
+      Duration: 
+      SleepScore: 63
+      WakeTime: 6:14
+      BodyBattery: 65 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 07:15
+      Activity: Core activation warm up, Rotator cuff activation, Upper Mid Back strength, Deltoid STrength
+      Duration: 2h15m
+      Intensity: Moderate
+      Summary: Please see -->CurrentWork\Hana\HealthTF2P\Exercises\.."Schedule of workouts".."Schedule Workouts and events".."Schedule strength"<
+      Notes: 
+    <Work>:
+      Time: 11:00
+      ActivityDesc: Work with Anita 
+      Duration: 1.5
+      Focus: moderate
+      MindPower: Low
+      Summary: 
+      Notes: 
+  Afternoon:  
+    <Food>:
+      Time: 13:00
+      MealDescription: Rice, Oats, a little Hering fish, omelet, Yogurt
+      Quantity: high
+      Summary: 
+      Notes: 
+    <Sleep>:
+      BedTime: 15:30
+      WakeTime: 16:30
+      Duration: 1 hour
+      SleepScore: na
+      BodyBattery: na
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 16:00
+      MealDescription: cake with pudidng and strawberry 
+      Quantity: 1.5 bowl
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 17:30
+      Activity: Walk
+      Duration: 5 mins
+      Intensity: light
+      Summary: 
+      Notes: 
+  Evening:
+    <Work>:
+      Time: 15:30
+      ActivityDesc: Health;og
+      Duration: 
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 1912
+      MealDescription: 
+      Quantity: 
+      Summary: 
+      Notes:
+    <Drugs>:
+      Time: 1913$
+      Name: 
+      Dosage: 
+      Unit: 
+      Summary: 
+      Notes:  
 
-ahgdKHÉUéé:
+
+
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:

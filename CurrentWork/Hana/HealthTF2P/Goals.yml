@@ -1,28 +1,31 @@
 +: { Type: Folder, AllowedTypes: [ Task, Folder ] }
-Body composition:
-  - check the old googlesheet body measurement
-Speed:
-  - check the garmin running data
-  - to increase the quality of my thought processes - speed = faster thinking
-  - Agility
-Strength:
-  - Upper:
-    - Hand Stand
-  - weights every session currently at 25 upper
-Pregnancy:
-  - What to acheive from physical perspective to properly bare a child
-Consistency:
-  - Record each session and analyse 
-  - have people check your records and follow what your progresses and regresses
-Knowledge:
-  - more knowledge about the body processes
-Skin tightness:
-  - Collagen and hyaloric
-Mobility:
+Physical:
+  Body composition:
+    - check the old googlesheet body measurement
+  Speed:
+    - check the garmin running data
+    - to increase the quality of my thought processes - speed = faster thinking
+    - Agility
+  Strength:
+    - Upper:
+      - Hand Stand
+    - weights every session currently at 25 upper
+  Pregnancy:
+    - What to acheive from physical perspective to properly bare a child
+  Consistency:
+    - Record each session and analyse 
+    - have people check your records and follow what your progresses and regresses
+  Knowledge:
+    - more knowledge about the body processes
+  Skin tightness:
+    - Collagen and hyaloric
+  Mobility:
   - Details: research more on how to open hip fully
   - Hip mobility
   - SH Mobility
-
+HOS: 
+  - Explore the promt that takes the data from garmin to HOS (explored-possible- check HOS project in chat gpt)
+  
 
 
 

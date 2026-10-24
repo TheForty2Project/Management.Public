@@ -141,18 +141,38 @@ Tasks to be continue and to be tasked (imp):
   - -->CurrentWork\Hana\Schedules\..ScheduleCreationNotes.Schedule.TrainingAndRecovery.Activities.Recovery<
 
 
-
-Prepare things to Subotica: 
-  Food: 
-    To Buy: 
-      - Coconut milk
-      - Cubes
-      - smoked canned fish
-    To Bring:
-      - Rice noodles
-      - Herbs:
-        - Oregano 
-        - Turmeric
-      - Yellow Lentils
-    
+Schedules: 
+  Days: 
+    - Sat, Sun, Mon, Tues morning
+  Robi:
+    What are the mandatory tasks per day: 
+      Food: 
+        Breakfast: 
+          - Cake
+          - Pudding
+          - Rice Pancake 
+          - cofee
+          - Pills ( Kholestrin and the other one)
+        Lunch: 
+          - Steam rice
+          - Canned fish 
+          - Tomato Sauce
+          - Soup
+        Dinner: 
+          - cake     
+      Mobility: 
+        - Daily Morning Walk 
+        - Run 
+        - Gym
+        - Evening Walk 
+      Drugs: 
+        - Cholestrin 
+        - Other drug ( cholestrol)
+        - C and W
+        - Kratom
+        - Velo
+      Sleep:
+        Details: 
+          not more than 02:30
+          8 hours of sleep 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

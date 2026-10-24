@@ -6308,7 +6308,7 @@ HanaHOSLog20261022 (Complete):
       Unit: 
       Summary: 
       Notes:     
-BobiHOSLog20261022 (incomplete):
+BobiHOSLog20261022 (Incomplete):
   Morning:
     <Sleep>:
       BedTime: 02:27
@@ -6338,7 +6338,7 @@ BobiHOSLog20261022 (incomplete):
       AbdominalPain: 0
       Flatulence: 1 
       Belching: 1
-    < Movement>:
+    <Movement>:
       Time: Walk
       Activity Desc: 
   Afternoon: 
@@ -6356,8 +6356,37 @@ BobiHOSLog20261022 (incomplete):
       Quantity: moderate
       Summary: 
       Notes: 
-    
-HanaHOSLog20261023 (incomplete):
+  Evening: 
+    - <Movement>:
+      Time: 1800
+      Activity: Walk
+      Duration: 2 hours
+      Intensity: 1
+      Summary: 
+      Notes: 
+    - <Drugs>:
+      Time: 21:00
+      Name: C
+      Dosage: 0.4
+      Unit: g
+      Summary: 
+      Notes: 
+    - <Movement2>:
+      Time: 21:00
+      Activity: Walk
+      Duration: 2 h
+      Intensity: 1
+      Summary: 
+      Notes:  
+      Time2: 23:00
+      Name2: W
+      Dosage2: 0.4
+      Unit2: g
+      Summary2: 
+      Notes2:  
+
+   
+HanaHOSLog20261023 (Complete):
   Morning:
     <Sleep>:
       Time: 12:35
@@ -6414,28 +6443,126 @@ HanaHOSLog20261023 (incomplete):
   Evening:
     <Work>:
       Time: 15:30
-      ActivityDesc: Health;og
-      Duration: 
-      Focus: 
-      MindPower: 
+      ActivityDesc: Healthlog
+      Duration: 10
+      Focus: 2
+      MindPower: 1
       Summary: 
       Notes: 
     <Food>:
-      Time: 1912
-      MealDescription: 
-      Quantity: 
+      Time: 07:30
+      MealDescription: Cake, chicken burger, green tea
+      Quantity: 1, 1
       Summary: 
       Notes:
+    <Movement>:
+      Time: 20:40
+      Activity: Walk
+      Duration: 60
+      Intensity: 1
+      Summary: 
+      Notes: 
     <Drugs>:
-      Time: 1913$
-      Name: 
-      Dosage: 
+      Time: 21:00
+      Name: C, W
+      Dosage: 0.3, 0.5
+      Unit: g
+      Summary: 
+      Notes: Felt very sick upon sleeping. Luteal phase 
+  Notes&Summary: 
+    - Luteal Phase 24
+    - Morning felt tired, Ease up on the movement time, then felt tired again after gym. 
+    - Work felt very difficult
+    - Thoughts all directs me to resting 
+    - Took C
+BobiHOSLog20261023 (no data):
+  
+HanaHOSLog20261024 (incomplete):
+  Morning:
+    <MenstrualCycle>:
+      Cycle:
+        Day: 24
+        Phase: Luteal
+      Symptoms: 
+        Bloating: 2
+        Headache: yes
+        Fatigue: yes
+    <Sleep>:
+      BedTime: 12:57
+      WakeTime: 07:39
+      Duration: 6h 24
+      SleepScore: 72
+      BodyBattery: 38
+      Summary: 
+      Notes: despite the short hours of sleep and D injestion sleep went well
+    <Movement>:
+      Time: 09:00
+      Activity: Cleaning and cooking
+      Duration: 3 h
+      Intensity: light
+      Summary: 
+      Notes: the activity was light. But I felt very heavy that made it feel like a moderate activity
+  Afternoon:
+    <Movement>:
+      Time: 12:45
+      Activity: walk
+      Duration: 30
+      Intensity: moderate
+      Summary: 
+      Notes: carrying heavy bags for the trip to Subotica
+    <Food>:
+      Time: 12:00
+      MealDescription: Rice, tomato sauce
+      Quantity: 8 spoons
+      Summary: 
+      Notes: 
+BobiHOSLog20261024 (incomplete):
+  Morning: 
+    <Sleep>:
+      BedTime: 01:06
+      WakeTime: 10:58
+      Duration: 9h 20m
+      SleepScore: 80
+      BodyBattery: 58
+      Summary: 
+      Notes: high stress the day before. Took C and W, Sleep get better from 57 to 80.
+    <Food>:
+      Time: 11:15
+      MealDescription: Water, Coffee, citrolline, Creatine, 
+      Quantity: low
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 11:20
+      Name: Velo
+      Dosage: 1
       Unit: 
       Summary: 
-      Notes:  
-
-
-
+      Notes: 
+    <Digestion>:
+      Time: 11:00
+      Bristol: 4
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0 
+      Summary: 
+      Notes:
+    <Food2>:
+      Time: 11:20
+      MealDescription:  cake, oancake, pudding
+      Quantity: moderate
+      Summary: 
+      Notes: 
+  Afternoon:  
+    <Movement>:
+      Time: 12:45
+      Activity: Walk
+      Duration: 30 m
+      Intensity: moderate at start, light at the end
+      Summary: 
+      Notes: 
+  Evening:
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:

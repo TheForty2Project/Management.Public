@@ -1,9 +1,16 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-TODO .Watch the video we recorded on Monday:
+Done .Watch the video we recorded on Monday:
   +: {CreatedBy: Anita, CreatedAt: 20261021 T 184812, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-  
-  
+Done .Understanding how the TaskToBeSorted part works:
+  +: {CreatedBy: Anita, CreatedAt: 20261021 T 230508, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+Done .Understanding how the SYNC function works:
+  +: {CreatedBy: Anita, CreatedAt: 20261021 T 233753, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+TODO .Learn how to log my own healthlog stuff: 
+  +: {CreatedBy: Anita, CreatedAt: 20261021 T 233830, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+TODO .Learn how to create links:
+  +: {CreatedBy: Anita, CreatedAt: 20261023 T 002354, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+ 
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

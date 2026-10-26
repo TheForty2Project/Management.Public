@@ -6477,7 +6477,7 @@ HanaHOSLog20261023 (Complete):
     - Took C
 BobiHOSLog20261023 (no data):
   
-HanaHOSLog20261024 (incomplete):
+HanaHOSLog20261024 (Complete):
   Morning:
     <MenstrualCycle>:
       Cycle:
@@ -6516,9 +6516,16 @@ HanaHOSLog20261024 (incomplete):
       Quantity: 8 spoons
       Summary: 
       Notes: 
+  Evevning: 
+    <Food>:
+      Time: 01:00
+      MealDescription: Milk, protein, dextrose 
+      Quantity: one cup
+      Summary: 
+      Notes: 
 BobiHOSLog20261024 (incomplete):
   Morning: 
-    <Sleep>:
+    - <Sleep>:
       BedTime: 01:06
       WakeTime: 10:58
       Duration: 9h 20m
@@ -6526,20 +6533,20 @@ BobiHOSLog20261024 (incomplete):
       BodyBattery: 58
       Summary: 
       Notes: high stress the day before. Took C and W, Sleep get better from 57 to 80.
-    <Food>:
+    - <Food>:
       Time: 11:15
       MealDescription: Water, Coffee, citrolline, Creatine, 
       Quantity: low
       Summary: 
       Notes: 
-    <Drugs>:
+    - <Drugs>:
       Time: 11:20
       Name: Velo
       Dosage: 1
       Unit: 
       Summary: 
       Notes: 
-    <Digestion>:
+    - <Digestion>:
       Time: 11:00
       Bristol: 4
       Bloating: 0
@@ -6548,7 +6555,7 @@ BobiHOSLog20261024 (incomplete):
       Belching: 0 
       Summary: 
       Notes:
-    <Food2>:
+    - <Food2>:
       Time: 11:20
       MealDescription:  cake, oancake, pudding
       Quantity: moderate
@@ -6563,6 +6570,130 @@ BobiHOSLog20261024 (incomplete):
       Summary: 
       Notes: 
   Evening:
+
+
+HanaHOSLog20261025 (Complete):
+  Morning: 
+    <Sleep>:
+      BedTime: 2:20
+      WakeTime: 9:08
+      Duration: 6h 37m
+      SleepScore: 69
+      BodyBattery: +57
+      Summary: 
+      Notes: No REM, woke up tired. I was turning most of the time. Peed once. Fatigue from travelling. Had a sharp stomach pain by 04:00 lasted few mins
+    <Food>:
+      Time: 10:00
+      MealDescription: Coffe with Milk
+      Quantity: 1 cup
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 10:30
+      MealDescription: Egg, Pancake, tomato, and big coffee 
+      Quantity: moderate
+      Summary: 
+      Notes: 
+        - felt tired, 
+        - Maybe I stimulated the sympathetic nervous system with coffee and 2 puff of smoke
+    <Digestion>:
+      Time: 11:30
+      Bristol: 2
+      Bloating: 3
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 1
+      Summary: 
+      Notes: really small poop and some farts after it. Felth there are some stuck poop. constipation:(
+  Afternoon: 
+    <Movement>:
+      Time: 13:00
+      Activity: Run
+      Duration: 2 hours
+      Intensity: moderate (Low Aerobic)
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 16:30
+      ActivityDesc: TF2P work with Anita
+      Duration: one hour
+      Focus: 1
+      MindPower: 1 
+      Summary: 
+      Notes: worked on Anitas questions ( TB detailed)
+    <Food>:
+      Time: 16:40
+      MealDescription: Rice + meat balls
+      Quantity: moderate
+      Summary: 
+      Notes: shouldve had soup at start, at th end of the day there was some bloating (Some onion on the meat) 
+  Evening: 
+    <LifeEvent>:
+      Time: 2222$
+      EventDescription: Church, Lake look like Kornish, Anitas Religion, election, Anitas car plate number, grocery, talking to the Anitas family, Anita look like my partner in crime in childhood. Anita talking good things about me to her family. 
+      EmotionalImpact: Very fulfilling and warming. I think I got overwhelmed at the end that I became numb. I still need to think it through ( physical condition and tiredness can contribute)
+      Summary: 
+      Notes: Looked at the pictures taken today. Its so unreal. Thank you for our universes. 
+Bobi HOSLog20261025 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 1:46
+      WakeTime: 10:27
+      Duration: 8h 16m
+      SleepScore: 89
+      BodyBattery: +91
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Movement>:
+      Time: 13:00
+      Activity: Walk
+      Duration: 18:47
+      Intensity: seems hard
+      Summary: for 0.88 km Robi took him 18:47 m
+      Notes: No movement till 19:00
+  Evening:    
+    <Movement>:
+      Time: 19:00
+      Activity: walk
+      Duration: 7:35
+      Intensity: 
+      Summary: 
+      Notes: seems he went to buy alcohol
+    <Movement2>:
+      Time: 19:44
+      Activity: Walk
+      Duration: 13:18
+      Intensity: seems like a difficult one
+      Summary: 
+      Notes: Bought alcohol
+    
+
+
+
+
+  Notes:
+    - No gym 
+    - Feeling down, see Whatsapp
+    - No kratom ( see whatsapp)
+    - Started alcohol ( to be asked how many)
+    -  
+
+  
+    
+
+HanaOSLog20261026 (incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 10:53
+      WakeTime: 06:20
+      Duration: 7h 9m
+      SleepScore: 77
+      BodyBattery: +43
+      Summary: 
+      Notes: I woke up at 01:00 and stayed awake till 02:15. Restless Momentss was 54 moments
+ 
+BobiHOSLog20261026 (incomplete):
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:
@@ -6583,6 +6714,9 @@ To be prioritized tomorrow:
   InProgress .Schedule Health log showcase meeting with Robi:
   NEXT .Schecule Health Log show case with Anita:
     Notes: Possible time to show case 20261017
+
+  To Ask Robi:
+    Can we remove the - in the list of properties under the value?
 
 
 

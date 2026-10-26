@@ -6692,7 +6692,93 @@ HanaOSLog20261026 (incomplete):
       BodyBattery: +43
       Summary: 
       Notes: I woke up at 01:00 and stayed awake till 02:15. Restless Momentss was 54 moments
- 
+    <PhysicalSymptoms>:
+      Time: 06:00
+      Abdomen: 
+        Bloating: 3
+        Pain: 2
+        Location: at umbilical button
+      General:
+        Fatigue: 2
+        Dizziness: 0
+        ColdSensitivity: 2
+        Bruising: 0
+        Swelling: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 08:15
+      MealDescription: Oatmeal, rice, boiled egg, tea 
+      Quantity: moderate 
+      Summary: 
+      Notes: tummy still ache a little
+    <Movement>:
+      Time: 09:00
+      Activity: Functional lower exercise
+      Duration: 1.15
+      Intensity: moderate
+      Summary: 
+      Notes:  had a smelly fart Felt better after it
+  Afternoon:
+    <Movement>:
+      Time: 10:00
+      Activity: walk
+      Duration: 20
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 12:30
+      MealDescription: rice, coconut milk with pumpkin and tofu 
+      Quantity: moderate
+      Summary: 
+      Notes: still farty 
+    <Movement2>:
+      Time: 14:30
+      Activity: cleaning, massage, baking
+      Duration: 2 hours
+      Intensity: moderate
+      Summary: 
+      Notes: body started to give up
+    <LifeEvent>:
+      Time: 16:50 - 18:30
+      EventDescription: 
+        - meeting Anitas dad in the garage and his colleagues
+        - meeting Anitas dad french friend (he is funny)
+      EmotionalImpact: 
+        - It was nice seeing Atillas face when we gave him the cake:). 
+        - nice seeing 2 loyal friends
+        - super heavy, big rock on chest feeling, cryin
+      Summary: 
+        Need a recovery day
+  Evevning:
+    <Movement>:
+      Time: walk
+      Activity: walk
+      Duration: 1 hr
+      Intensity: easy
+      Summary: 
+      Notes: needed the walk after heav
+    <LifeEvent>:
+      Time: 19:30
+      EventDescription: Talking about heavy emotional baggae about our life ( mother of Anita and Hanas life) 
+      EmotionalImpact:  Super heavy, big rock on chest feeling, cryin
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 20:15
+      MealDescription: Rice, cevapcic, ajvar, chili, sweet cooked milk
+      Quantity: moderate
+      Summary: 
+      Notes: felt good while eating it. Felt very heavy later on. Thinking quality is lower
+    <Movement2>:
+      Time: 22:30
+      Activity: preparing going to Budapest
+      Duration: 2 hours
+      Intensity: easy
+      Summary: 
+      Notes: 
+    
 BobiHOSLog20261026 (incomplete):
 
 To be prioritized tomorrow:

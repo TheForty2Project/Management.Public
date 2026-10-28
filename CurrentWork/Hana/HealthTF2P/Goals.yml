@@ -24,21 +24,198 @@ Physical:
   - Hip mobility
   - SH Mobility
 HOS: 
-  - Explore the promt that takes the data from garmin to HOS (explored-possible- check HOS project in chat gpt)
-  
+  Movement Goals:
+    WorkSpace:
+    Anita:
+      PushUp:
+        Goal: Improve synchronization and muscle balance
+        Action:
+          - Identify weaker side:
+            Assessment:
+              Movement:
+                StandardPushUp:
+                  Repetitions:
+                  RightSideDropsFirst:
+                  LeftSideDropsFirst:
+                  HipRotation:
+                  ScapularWinging:
+                  Notes:
+                Muscles:
+                PectoralisMajor:
+                  Test: Single-arm cable chest press
+                  Right:
+                  Left:
 
+                Triceps:
+                  Test: Single-arm cable triceps extension
+                  Right:
+                  Left:
 
+                AnteriorDeltoid:
+                  Test: Single-arm shoulder flexion
+                  Right:
+                  Left:
 
-Tasks:
-  - research more on how to open hip fully
-  - research the process of press to hand stand
-  - 
+                SerratusAnterior:
+                  Test: Wall push-up plus
+                  Right:
+                  Left:
 
+                LowerTrapezius:
+                  Test: Prone Y raise
+                  Right:
+                  Left:
 
+                RotatorCuff:
+                  Test: Side-lying external rotation
+                  Right:
+                  Left:
 
+                RectusAbdominis:
+                  Test: Plank
+                  Duration:
 
+                Obliques:
+                  Test: Side plank
+                  Right:
+                  Left:
 
+                GluteusMaximus:
+                  Test: Single-leg glute bridge
+                  Right:
+                  Left:
+            Analysis:
+              WeakestMuscle:
+              LargestLeftRightDifference:
+              MovementCompensation:
+              PriorityExercise:
+              ReassessmentDate:
+                    - Improve movement coordination
+      FatLoss:
+        Running: 2x per week
+        DailyActivity:
+          - Use stairs instead of elevator
+        Diet:
+          - Track calories
+          - Determine calorie deficit and weekly weight loss target
+        StressEating:
+          Trigger: Being home alone with triggering person
+          Strategies:
+            - Set communication boundaries
+            - Call Hana or Anita for support
+            - Walk after stressful situations
+      Achilles:
+        Goal: Strengthen Achilles tendon
+        Action:
+          Progressive calf strengthening:
+            Goal: Improve tendon strength and elasticity
+            Strengthening:
+              Phase1:
+                Exercise: Double-leg calf raises
+                Sets: 3
+                Reps: 12-15
+              Phase2:
+                Exercise: Single-leg calf raises
+                Sets: 3
+                Reps: 8-12
+              Phase3:
+                Exercises:
+                  - Weighted standing calf raises
+                  - Seated bent-knee calf raises
+                Sets: 3-4
+                Reps: 6-10
+              Phase4:
+                Exercises:
+                  - Double-leg pogo hops
+                  - Single-leg hops
+                Sets: 2-3
+                Contacts: 10-20
+              Frequency: 2-3x per week, does not need gym
+          Tracking:
+            LeftReps:
+            RightReps:
+            Weight:
+            PainLevel:
+            NextMorningStiffness:
+                  - Gradually introduce plyometrics
 
+    Hana:
+      MuscleGrowth:
+        Action:
+          - Progressive overload
+          - Increase repetitions or weights
+          - HIIT
+          - Protein after gym
+
+      Running:
+        Goal: Improve speed and endurance
+        Frequency:
+          Current: 2x per week
+          November: 3x per week
+        Action:
+          - Analyze Garmin running data
+
+      BodyComposition:
+        Action:
+          - Review previous Google Sheets measurements
+          - Track muscle and fat changes
+
+      CognitivePerformance:
+        Goal: Improve thinking speed and quality
+        Action:
+          - Research cognitive processing
+          - Improve decision-making speed
+
+      Agility:
+        Goal: Improve speed and coordination
+
+      Strength:
+        UpperBody:
+          - Handstand progression
+          - Increase weights
+          - Track current 25 weight baseline
+
+      Pregnancy:
+        Goal: Improve physical readiness for pregnancy
+        Research:
+          - Strength and cardiovascular fitness
+          - Pelvic floor health
+          - Nutrition and recovery
+
+      Skin:
+        Goal: Improve skin elasticity
+        Research:
+          - Collagen
+          - Hyaluronic acid
+
+      Mobility:
+        Hip:
+          - Improve range of motion
+          - Research hip mobility
+        Shoulder:
+          - Improve mobility and stability
+
+      Knowledge:
+        Goal: Understand body processes
+        Topics:
+          - Exercise physiology
+          - Biomechanics
+          - Nutrition
+          - Recovery
+
+    Shared:
+      Nutrition:
+        - Evaluate protein supplementation after gym
+
+      Consistency:
+        - Record every training session
+        - Analyze progress and regressions
+        - Share records for accountability
+
+      Review:
+        Daily: Record training
+        Weekly: Evaluate consistency and recovery
+        Monthly: Review progress and adjust goals
 
 
 

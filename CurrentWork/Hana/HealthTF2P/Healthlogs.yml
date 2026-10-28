@@ -6682,7 +6682,7 @@ Bobi HOSLog20261025 (Incomplete):
   
     
 
-HanaOSLog20261026 (incomplete):
+HanaOSLog20261026 (Complete):
   Morning:
     <Sleep>:
       BedTime: 10:53
@@ -6777,9 +6777,50 @@ HanaOSLog20261026 (incomplete):
       Duration: 2 hours
       Intensity: easy
       Summary: 
-      Notes: 
-    
+      Notes:     
 BobiHOSLog20261026 (incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 12:37
+      WakeTime: 09:28
+      Duration: 8h 16m
+      SleepScore: 82
+      BodyBattery: 100
+      Summary: 
+      Notes:
+  Afternoon:  
+    <Movement>:
+      Time: 12:31
+      Activity: walk
+      Duration: 
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Movement2>:
+      Time: 14:18
+      Activity: Run
+      Duration: 20:55
+      Intensity: 
+      Summary: 
+      Notes: 
+
+HanaOSLog20261026 (incomplete):
+  Morning: 
+    <Sleep>:
+      BedTime: 00:38
+      WakeTime: 06:04
+      Duration: 5h 23m
+      SleepScore: 62
+      BodyBattery: 53
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 07:42 -12:27
+      Activity: no movement - travel 
+      Duration: 
+      Intensity: 
+      Summary: 
+      Notes: 
 
 To be prioritized tomorrow:
   Done .Review health logs for yesterday for Bobi, Hana and Anita:
@@ -6795,19 +6836,17 @@ To be prioritized tomorrow:
       - Worked out hard today.
       - Prepare the right food for 2nd day muscle repair and regenaration
       - Have a good rest. No extreme exercise today.
-  TODO .Go through VSC installation process:
+  Done .Go through VSC installation process:
   Done .Preparation of Health log showcae:
-  InProgress .Schedule Health log showcase meeting with Robi:
-  NEXT .Schecule Health Log show case with Anita:
+  Done .Schedule Health log showcase meeting with Robi:
+   .Schecule Health Log show case with Anita:
+  Done .Schecule Health Log show case with Anita:
     Notes: Possible time to show case 20261017
 
   To Ask Robi:
     Can we remove the - in the list of properties under the value?
 
-
-
-
-  combines the two major principles of our HOS:
+Done .Combines the two major principles of our HOS:
 1. Timeline first: Record what happened, when it happened, and your state at that moment.
 2. State transitions: Observe whether an event or intervention was followed by a change in your physical or cognitive state.
 

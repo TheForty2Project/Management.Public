@@ -97,6 +97,9 @@ OnHold .Schedule Bobis Lab:
       Details:
         - check what we need - so what genes we should include
         - what are the options (price)
+  EstTODO .Schedule lipid panel:
+    +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151029, By: [Hana], Tags: [Private, TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+    
 #Ds:
 OnGoing .Create a process to handle Salad:
   Id: SaladPRocess

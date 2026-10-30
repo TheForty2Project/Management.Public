@@ -1728,10 +1728,10 @@ Done .Back to original:
               - check the updates (and optionally, the files which got update - do they still look ok, are there any issues?)
           5: commit and sync the changes in theforty2project.org repo by using the previously opened commit dialog AFTER PRESSING F5
     EstTODO .Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include:
-      +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
       Details:
         Steps:
-          - go through the repository and find any files which should be on the site - but are not yet          
+          - go through the repository and find any files which should be on the site - but are not yet  
           - ideally first just collect the list of files somewhere and then have it reviewed with Robi
           - add an entry to the config (Technical.dat\F2FileToHtmlConverter\F2FileToHtmlConfig.yml)
           - add the entry to the app.js in the theforty2project.org repository
@@ -1739,6 +1739,20 @@ Done .Back to original:
             - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
             - type "f2filetohtml.exe" and press enter
             - check if no errors - if errors, try to fix them         
+    EstTODO .Go through the files mirrored to the site and see what Items should be removed:
+      +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151855, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 4-High}
+      EstTODO .Collect the Items for review:
+        +: {CreatedBy: Bobi, CreatedAt: 20261030 T 152004, By: Hana, Estimation: 60}
+        Details:
+          - DO NOT OVERSPEND
+          - Any "super private" things
+          - Cleanups required - e.g. move things, reorganization, etc.
+      NEXT .Review it with Bobi:
+        +: {CreatedBy: Bobi, CreatedAt: 20261030 T 152019, By: [Bobi, Hana]}        
+        Details:
+          Including how we should handle private things - separate repo? Separate files + reports in the same repo?
+      NEXT .Finalize:
+        +: {CreatedBy: Bobi, CreatedAt: 20261030 T 152034, By: [Bobi, Hana]}        
     EstTODO .Document the process:
       Id: DocumentProcess
       +: {CreatedBy: Bobi, CreatedAt: 20261004 T 200041, By: Bobi, Tags: [TL], Estimation: 30, RemTime: 30, Importance: 3-Average}

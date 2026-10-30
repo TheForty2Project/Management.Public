@@ -341,5 +341,7 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<
     - -->Tasks\Miscellaneous\..Health.."Health planning"<
     - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<
-
+    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
+    - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
+    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the files mirrored to the site and see what Items should be removed""<
   AOIB:

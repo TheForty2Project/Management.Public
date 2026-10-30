@@ -488,18 +488,18 @@ namespace Barba.Types:
 
 .HealthLogClasses:
   class .Food:
-          Inherits: EventLogBase
-          Summary: 
-            Records food and drinks consumed.
-            Useful for studying energy, cognition,
-            digestion, and post-meal symptoms.
+    Inherits: EventLogBase
+    Summary: 
+      Records food and drinks consumed.
+      Useful for studying energy, cognition,
+      digestion, and post-meal symptoms.
 
-          string .MealDescription:
-          OneToThree .Quantity:
-            Summary: |
-              1: Small, 2: medium, 3: large                      
+    string .MealDescription:
+    OneToThree .Quantity:
+      Summary: |
+        1: Small, 2: medium, 3: large                      
   class .Drugs:
-    Inherits: EventLogBase                  
+    Inherits: EventLogBase
     Description: 
       Records substances taken and their dosages.
       Helps identify possible associations with
@@ -581,39 +581,39 @@ namespace Barba.Types:
     NailCondition .Nails:
     AbdomenCondition .Abdomen:
     GeneralCondition .General:                    
-    class .SkinCondition:
+  class .SkinCondition:
     integer .Acne:
       Summary: How many NEW ones appeared
     OneToThree .Dryness:
       Summary: One - good; Two - dry; Three - very dry
     bool .Paleness:
     bool .Rash:
-    class .FaceCondition:
+  class .FaceCondition:
     OnetoThree .Puffiness: 
       Summary: One - Normal; Two - Slight Puffy; Three - Very Puffy
     string .Location: 
       Summary:  Eyes / Cheeks / Whole face
-    class .NailCondition:
-      string .Color:
-      string .Ridges:
-      string .ShapeChange: 
-    class .AbdomenCondition:
-      OneToThree .Bloating: 
-        Summary: One - Normal; Two - Bloated; Three - Pregnant bloated
-      OneToFive .Pain:
-        Summary: One - No pain; Two - Slightly painful; Five - unbearable pain; 
-      string .Location: 
-    class .GeneralCondition:
-      OneToThree .Fatigue: 
-        Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
-      OneToThree .Dizziness:
-        Summary: One - Light Dizzness; Two - Medium Dizziness cant stand ; Three - High Dizziness with sense of vomiting 
-      OneToThree .ColdSensitivity:
-        Summary: One - Mild sensation of cold; Two - Moderate cold discomfort; Three - Sever cold sensation with shivering
-      string .Bruising:
-        Summary: the location if so
-      string .Swelling:
-        Summary: the location if so
+  class .NailCondition:
+    string .Color:
+    string .Ridges:
+    string .ShapeChange: 
+  class .AbdomenCondition:
+    OneToThree .Bloating: 
+      Summary: One - Normal; Two - Bloated; Three - Pregnant bloated
+    OneToFive .Pain:
+      Summary: One - No pain; Two - Slightly painful; Five - unbearable pain; 
+    string .Location: 
+  class .GeneralCondition:
+    OneToThree .Fatigue: 
+      Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
+    OneToThree .Dizziness:
+      Summary: One - Light Dizzness; Two - Medium Dizziness cant stand ; Three - High Dizziness with sense of vomiting 
+    OneToThree .ColdSensitivity:
+      Summary: One - Mild sensation of cold; Two - Moderate cold discomfort; Three - Sever cold sensation with shivering
+    string .Bruising:
+      Summary: the location if so
+    string .Swelling:
+      Summary: the location if so
   class .MenstrualCycle:
     Description: 
       Records menstrual cycle timing, bleeding,

@@ -256,7 +256,7 @@ Id: Misc
         Result:
           - Showcase healthLog is on Aug 1
       Done .Prepare for health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [ TL, Private, Health ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [Health, Private, TLDone], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
@@ -648,14 +648,18 @@ Id: Misc
                 Duration: 90min
                 Focus: 8
       Done .Showcase health log:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
           we're working into the above task          
         Done .Finish creating classes:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}          
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Details:
             - The last part is left
             - enumerations
+          Cancelled .Do the enumerations as well:
+            +: {CreatedBy: Bobi, CreatedAt: 20261023 T 112528, By: [Hana], Tags: [TLDone], Estimation: , RemTime: , Importance: 3-Average}
+            CancelReason: it's not important            
+            Status: Cancelled
         Done .Create class for SummaryLog:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Bobi, Hana], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Result:
@@ -692,9 +696,11 @@ Id: Misc
           Details:
             Like hornyness, music enjoyment          
         Done .Create snippets for the Items:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
-        Done .Move the classes to BusinessClasses.yml:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
+        InProgress .Move the classes to BusinessClasses.yml:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+          Workspace:
+            - Eventlogbase is missing
           
       EstTODO .Create health-log recording process:
         +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135141, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
@@ -704,19 +710,19 @@ Id: Misc
           - What should be the "proper place"          
       
         
-      InProgress .Showcase Health Log to Anita:
+      Done .Showcase Health Log to Anita:
         +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana}
         Done .Take a video of the showcasing health log:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health, TL], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health, TLDone], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
         Done .Schedule meeting with Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht, TL], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
-        EstTODO .Prepare for health-log showcase to Anita:
-          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135412, By: [Hana, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht, TLDone], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
+        Done .Prepare for health-log showcase to Anita:
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135412, By: [Hana, Bobi], Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 3-Average}
           Details:
             - Go through the previous ones
             - How would Anita be doing her part
-        Scheduled .Showcase HealthLog to Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+        Done .Showcase HealthLog to Anita:
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
           ScheduledAt: 20261019 T 140000
           Details:
             on a call? Ideally here though.
@@ -819,7 +825,7 @@ Id: Misc
       Cancelled .Book the appointment if decided:
         +: { CreatedBy: Bobi, CreatedAt: 20260825 T 140315, By: Bobi, Tags: [Private, TLDone ], Estimation: 15, RemTime: 15, Importance: 3-Average }
     Done .Schedule testing afer receiving Sudan Money:
-      +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [Private, TL ], Estimation:, RemTime:, Importance: 3-Average }
+      +: { CreatedBy: Hana, CreatedAt: 20260825 T 135505, By: Hana, Tags: [Private, TLDone ], Estimation:, RemTime:, Importance: 3-Average }
       Details:
         - Extra tests for conception (see the google sheet)
         - Abdominal complaints (Hasi panaszok csomag) package (49k)

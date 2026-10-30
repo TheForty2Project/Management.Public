@@ -47,46 +47,82 @@ Id: Misc
       Details: Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 .Health:
-  InProgress .Health planning W20260608:
+  InProgress .Health planning:
     +: { CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi }
-    Details: Food Gym Dandar Bath - Thursday?
-    Workspace:
-      Food:
-        Tuesday-Friday: Afrikai harcsa Chicken breast w sauces Luncheon meat with boc choy Chicken soup Pork soup
-      Supplements:
-        Details: -->..."Hana to make supplements plan"<
-        WorkSpace:
-          Supplement plan:
-            After waking up:
-              - L-Glutamin 5g
-              - L- Citrolline 2g
-              - 5HTP pill
-            Breakfast:
-              - Omega 3 1 pill
-            Lunch:
-              - Omega 3 1 pill
-              - Creatine 5 g
-            Dinner:
-              - L-Glutamin 5 g
-              - Collagen 5g
-              - NAC 1 pill
-      Gym: Target is every day
-      Cardio: One day run, then hiit, then rest
-    Done .Hana to make supplements plan:
-      +: { CreatedBy: Bobi, CreatedAt: 20260608 T 221507, By: Hana }
-      Details:
-        About each supplement:
-          Id:
-          Quantity:
-          When:
-            Details: at what time of the day, before/after meals, etc.
-          Benefits:
-        Group them if possible - such as "morning", "before meal", etc.:
-        Per person:
-    InProgress .Hana to schedule it own in google Calendar:
-      +: { CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [ CSVTODO ], Estimation: 30m, RemTime: 30m }
-      Done .Activity has been scheduled in (hanakovacs42@gmail.com) calendar:
-      Done .Schedule supplements:
+    Requirement: 
+      - To be scheduled in google calendar
+      - To be done live in Discord and eventually twitch within the 2nd or 3rd week of Nov
+      - To be reviewd by the memebers prefarably morning and evening
+    Health log data entry and exercise plan:
+      OnGoing .Monthly:
+        Details: 
+          Summary of previosu month helath log
+          Summary of previous exercise planning and implementation
+      Ongoing .Weekly:
+        OnGoing .Do weekly health related planning:
+          +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
+          Details:
+            
+              OnGoing .Schedule Health Analysis sessions:
+              Details:
+                Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
+              Results:
+                20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
+              InProgress .Analyse Health Data:
+                +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ CSVTODO ], Estimation: 180m, RemTime: 180m }        
+      Ongoing .Daily:
+        OnGoing .Do health log and daily reviews:
+          +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }
+          Details:
+            - analyse Health through Garmin data
+            - review exercise schedule
+            - stream it 
+          Schedule:
+            - Prefarbly morning and evening. 
+            - To be reviewed by:
+              - Morning - Anita 
+              - Evevning - Bobi 
+      OnGoing .Hana to schedule it own in google Calendar:
+        +: { CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [ CSVTODO ], Estimation: 30m, RemTime: 30m }
+    Diet:
+       OnGoing .Create food and activity schedule:
+        Id: CreateMealSchedule
+        Details:
+          - Fish 3x a week
+          - One vegeterian day for Hana
+          - Take into consideration the time of month for menstrual cycle
+          - Focus on Robis Health
+        Done .20260914:
+          Result:
+          - Breakfast: 
+            - Oatmeal 
+            - Boiled Egg
+            - Spinach
+            - Mushroom
+            - Avocado
+          - Brunch:
+            - Banana shake with lil protein
+          - Lunch:
+            - Chicken breast
+            - Spinach and mixed green salad
+            - Boiled Carrots
+            - White rice
+        EstTODO .Week 43:
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 133048, By: Bobi, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+          Id: W43
+          Details:
+            - Make it
+            - Have it reviewed by Bobi 
+          TODO .Food:
+            Workspace:
+              - The food 3 plain days        
+          TODO .Activity:
+            Workspace:
+              - sh mobility of next week
+          NEXT .Have it reviewed by Bobi:
+          NEXT .Taskifying:
+  
+  
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: { CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [ Bobi Hana ], Tags: [ CSVDONE ], Estimation: "60", RemTime: "60" }
     Details:
@@ -111,32 +147,15 @@ Id: Misc
           - Walk after - how much it helps
           - Eating on "starved" state:
               - sugar spike?
-  Done .Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.:
-    +: { CreatedBy: Hana, CreatedAt: 20260421 T 174216, By: Hana, Tags: [ CSVDONE ], Estimation: 60, RemTime: 0 }
-    Result: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.HealthLog20260606Hana<
-  OnGoing .Do health log and daily reviews:
-    +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }
-    Details:
-      - analyse Health through Garmin data
-      - review exercise schedule
-      - stream it    
-  OnGoing .Do weekly health related planning:
-    +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
-    Details:
-      Perform the followings:
-        InProgress .Analyse Health Data:
-          +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ CSVTODO ], Estimation: 180m, RemTime: 180m }
-        OnGoing .Schedule Health Analysis sessions:
-          Details:
-            Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
-          Results:
-            20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
+ 
+ 
+  
         TODO .Schedule exercises and include baba in the morning after waking up and evening before sleeping:
           Details:
             - We can start preschedule for a week period
             - Include goals what we want to acheive in a month, 3 month, 6 month
         TODO .Schedule body measurement:
-  InProgress .Create health-log tracking requirements:
+  Done .Create health-log tracking requirements:
     +: { CreatedBy: Bobi, CreatedAt: 20260608 T 192920, By: Bobi }
     Details:
       - Collect the use cases - what do we want to use them for; don't do it too formally though
@@ -155,7 +174,7 @@ Id: Misc
               - Anything "worth mentioning" - so there should be a field for this
               - Drugs:
                   - Both supplements and non-supplements
-    InProgress .Collect initial ideas:
+    Done .Collect initial ideas:
       +: { CreatedBy: Bobi, CreatedAt: 20260609 T 143822, By: [ Bobi, Hana ], Estimation: 15m, Remaining: 15 }
       Workspace:
         What we want with all this data collection:
@@ -230,7 +249,7 @@ Id: Misc
                 Details: W, M, K, C, V, etc.
               Levels Intensity:
                 Details: The effects of it - how much it was felt
-    InProgress .Showcase health-log to Bobi:
+    OnGoing .Showcase health-log to Bobi:
       +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [Health, TLDone], Estimation: 10, RemTime: 10, Importance: 3-Average }
@@ -628,7 +647,6 @@ Id: Misc
                 Activity: Software development
                 Duration: 90min
                 Focus: 8
-
       Done .Showcase health log:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
@@ -707,43 +725,8 @@ Id: Misc
         
         
 
-  OnGoing .Create food and activity schedule:
-    Id: CreateMealSchedule
-    Details:
-      - Fish 3x a week
-      - One vegeterian day for Hana
-      - Take into consideration the time of month for menstrual cycle
-      - Focus on Robis Health
-    Done .20260914:
-      Result:
-      - Breakfast: 
-        - Oatmeal 
-        - Boiled Egg
-        - Spinach
-        - Mushroom
-        - Avocado
-      - Brunch:
-        - Banana shake with lil protein
-      - Lunch:
-        - Chicken breast
-        - Spinach and mixed green salad
-        - Boiled Carrots
-        - White rice
-    EstTODO .Week 43:
-      +: {CreatedBy: Bobi, CreatedAt: 20261018 T 133048, By: Bobi, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
-      Id: W43
-      Details:
-        - Make it
-        - Have it reviewed by Bobi 
-      TODO .Food:
-        Workspace:
-          - The food 3 plain days        
-      TODO .Activity:
-        Workspace:
-          - sh mobility of next week
-      NEXT .Have it reviewed by Bobi:
-      NEXT .Taskifying:
-  EstTODO .Analysis of the month of June and July:
+ 
+  Cancelled .Analysis of the month of June and July:
     +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:
       - Analysis of the month of June and July:
@@ -783,7 +766,7 @@ Id: Misc
             location: https://medicover-genetics.com/wp-content/uploads/2025/01/Medicover_Genetics_Reproductive-Portfolio_250124.pdf
             Est Price: 250k-350k per person
     Done .Add it to the budget sheet:
-    Done .Schedule Bobi's lipid panel:
+    EstTODO .Schedule Bobi's lipid panel:
       +: { CreatedBy: Bobi, CreatedAt: 20260824 T 133907, By: Hana, Tags: [ TLDone, Private ], Estimation: 30, RemTime: 0, Importance: 5-VeryHigh }
       Details:
         - "Nagy rutin"

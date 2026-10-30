@@ -336,5 +336,9 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 22m, "", 20261022 T 1514 ]
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Move the classes to BusinessClasses.yml"<: [ 22m, "", 20261022 T 155128 ]
-  NExt:
+  NEXT:
+    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<
+    - -->Tasks\Miscellaneous\..Health.."Health planning"<
+    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<
+
   AOIB:

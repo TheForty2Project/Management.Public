@@ -331,17 +331,27 @@ SR_20261021_Hana:
     - Explain StandUp process to Anita
     - Explain Task list to Anita
     - Explain merge to Anita
-    
-SR_NEXT_Hana:
+
+SR_20261030_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 22m, "", 20261022 T 1514 ]
     - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Move the classes to BusinessClasses.yml"<: [ 22m, "", 20261022 T 155128 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 0m, "", 20261030 T 211908 ]
   NEXT:
-    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<
+
     - -->Tasks\Miscellaneous\..Health.."Health planning"<
-    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<
+  
     - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
     - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
     - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the files mirrored to the site and see what Items should be removed""<
   AOIB:
+
+
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 91m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
+    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
+
+  Next:
+    - null

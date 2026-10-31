@@ -6523,55 +6523,6 @@ HanaHOSLog20261024 (Complete):
       Quantity: one cup
       Summary: 
       Notes: 
-BobiHOSLog20261024 (incomplete):
-  Morning: 
-    - <Sleep>:
-      BedTime: 01:06
-      WakeTime: 10:58
-      Duration: 9h 20m
-      SleepScore: 80
-      BodyBattery: 58
-      Summary: 
-      Notes: high stress the day before. Took C and W, Sleep get better from 57 to 80.
-    - <Food>:
-      Time: 11:15
-      MealDescription: Water, Coffee, citrolline, Creatine, 
-      Quantity: low
-      Summary: 
-      Notes: 
-    - <Drugs>:
-      Time: 11:20
-      Name: Velo
-      Dosage: 1
-      Unit: 
-      Summary: 
-      Notes: 
-    - <Digestion>:
-      Time: 11:00
-      Bristol: 4
-      Bloating: 0
-      AbdominalPain: 0
-      Flatulence: 0
-      Belching: 0 
-      Summary: 
-      Notes:
-    - <Food2>:
-      Time: 11:20
-      MealDescription:  cake, oancake, pudding
-      Quantity: moderate
-      Summary: 
-      Notes: 
-  Afternoon:  
-    <Movement>:
-      Time: 12:45
-      Activity: Walk
-      Duration: 30 m
-      Intensity: moderate at start, light at the end
-      Summary: 
-      Notes: 
-  Evening:
-
-
 HanaHOSLog20261025 (Complete):
   Morning: 
     <Sleep>:
@@ -6634,55 +6585,7 @@ HanaHOSLog20261025 (Complete):
       EmotionalImpact: Very fulfilling and warming. I think I got overwhelmed at the end that I became numb. I still need to think it through ( physical condition and tiredness can contribute)
       Summary: 
       Notes: Looked at the pictures taken today. Its so unreal. Thank you for our universes. 
-Bobi HOSLog20261025 (Incomplete):
-  Morning:
-    <Sleep>:
-      BedTime: 1:46
-      WakeTime: 10:27
-      Duration: 8h 16m
-      SleepScore: 89
-      BodyBattery: +91
-      Summary: 
-      Notes: 
-  Afternoon:
-    <Movement>:
-      Time: 13:00
-      Activity: Walk
-      Duration: 18:47
-      Intensity: seems hard
-      Summary: for 0.88 km Robi took him 18:47 m
-      Notes: No movement till 19:00
-  Evening:    
-    <Movement>:
-      Time: 19:00
-      Activity: walk
-      Duration: 7:35
-      Intensity: 
-      Summary: 
-      Notes: seems he went to buy alcohol
-    <Movement2>:
-      Time: 19:44
-      Activity: Walk
-      Duration: 13:18
-      Intensity: seems like a difficult one
-      Summary: 
-      Notes: Bought alcohol
-    
-
-
-
-
-  Notes:
-    - No gym 
-    - Feeling down, see Whatsapp
-    - No kratom ( see whatsapp)
-    - Started alcohol ( to be asked how many)
-    -  
-
-  
-    
-
-HanaOSLog20261026 (Complete):
+HanaHOSLog20261026 (Complete):
   Morning:
     <Sleep>:
       BedTime: 10:53
@@ -6778,42 +6681,16 @@ HanaOSLog20261026 (Complete):
       Intensity: easy
       Summary: 
       Notes:     
-BobiHOSLog20261026 (incomplete):
-  Morning:
-    <Sleep>:
-      BedTime: 12:37
-      WakeTime: 09:28
-      Duration: 8h 16m
-      SleepScore: 82
-      BodyBattery: 100
-      Summary: 
-      Notes:
-  Afternoon:  
-    <Movement>:
-      Time: 12:31
-      Activity: walk
-      Duration: 
-      Intensity: easy
-      Summary: 
-      Notes: 
-    <Movement2>:
-      Time: 14:18
-      Activity: Run
-      Duration: 20:55
-      Intensity: 
-      Summary: 
-      Notes: 
-
-HanaOSLog20261026 (incomplete):
+HanaOSLog20261027 (Complete):
   Morning: 
     <Sleep>:
       BedTime: 00:38
       WakeTime: 06:04
       Duration: 5h 23m
       SleepScore: 62
-      BodyBattery: 53
+      BodyBattery: +40
       Summary: 
-      Notes: 
+      Notes: Sleeping in new place 
     <Movement>:
       Time: 07:42 -12:27
       Activity: no movement - travel 
@@ -6821,51 +6698,362 @@ HanaOSLog20261026 (incomplete):
       Intensity: 
       Summary: 
       Notes: 
-
-To be prioritized tomorrow:
-  Done .Review health logs for yesterday for Bobi, Hana and Anita:
-  Done .Prepare cake for Anita and count the calorie intake :
-  Done .Prepare the menu for tomorrow:
-  TODO .Share schedule with Anita:
-    TODO .Create workout activity schedule:
-      TODO .Include past week activity
-    TODO .Create schedule for food:
-  InProgress .Upload activity files Biweekly to drive:   
-  TODO .Have activity and Food plan with Robi:
-    Notes:
-      - Worked out hard today.
-      - Prepare the right food for 2nd day muscle repair and regenaration
-      - Have a good rest. No extreme exercise today.
-  Done .Go through VSC installation process:
-  Done .Preparation of Health log showcae:
-  Done .Schedule Health log showcase meeting with Robi:
-   .Schecule Health Log show case with Anita:
-  Done .Schecule Health Log show case with Anita:
-    Notes: Possible time to show case 20261017
-
-  To Ask Robi:
-    Can we remove the - in the list of properties under the value?
-
-Done .Combines the two major principles of our HOS:
-1. Timeline first: Record what happened, when it happened, and your state at that moment.
-2. State transitions: Observe whether an event or intervention was followed by a change in your physical or cognitive state.
-
-
-
-
-
-
-
-
-
-
-
-
+    <Food>:
+      Time: 07:40
+      MealDescription: Oats, coffee, cheese bread
+      Quantity: low
+      Summary: 
+      Notes: 
+      Time2: 11:30
+      MealDescription2: Oatmeal, Ivar and Boiled egg
+      Quantity2: low
+      Summary2: 
+      Notes2: 
+  Afternoon:
+    <Food>:
+      Time: 14:30
+      MealDescription: a lot of chocolates then lunch Rice, ivar, fish, soup
+      Quantity: moderate
+      Summary: 
+      Notes: lots of craving
+    <Digestion>:
+      Time: 15:00
+      Bristol: 4
+      Bloating: 1
+      AbdominalPain: 0
+      Flatulence: 1
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Sleep>:
+      BedTime: 15:30
+      WakeTime: 17:00
+      Duration: 1.5hr
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: Its a nap, Garmin does not record nap
+    <Digestion2>:
+      Time: 17:00
+      Bristol: 4
+      Bloating: 1
+      AbdominalPain: 0
+      Flatulence: 1
+      Belching: 0
+      Summary: 
+      Notes: 
+   
+  Evening:
+    <Digestion>:
+      Time: 20:00
+      Bristol: 4
+      Bloating: 1
+      AbdominalPain: 0
+      Flatulence: 1
+      Belching: 0
+      Summary: 
+      Notes: 
+   
+    <Drugs>:
+      Time: 22:17
+      Name: W
+      Dosage: one joint 
+      Unit: 
+      Summary: 
+      Notes: 
+HanaHOSLog20261028 incomplete:
+  Morning: 
+    <Sleep>:
+      BedTime: 12:09 
+      WakeTime: 7:55 
+      Duration: 7h 33m
+      SleepScore: 63
+      BodyBattery: +36
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 
+      MealDescription: oatmeal, Coffee
+      Quantity: little
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 10:25
+      Activity: Run
+      Duration: 8m
+      Intensity: easy
+      Summary: 
+      Notes: only 1 km
+  Afternoon:
+    <Food>:
+      Time: 12:40
+      MealDescription: coconut milk with  pumpkin and greem beans
+      Quantity: moderate
+      Summary: 
+      Notes: Enjoyed eating very much
+    <Movement>:
+      Time: 13:30
+      Activity: taking heavy luggae downstairs
+      Duration: 5 m
+      Intensity: moderate 
+      Summary: 
+      Notes: I sweat
+    <Food2>:
+      Time: 14:00
+      MealDescription: cake in the cake shop downstais
+      Quantity: 
+      Summary: 
+      Notes: had snacks with Anyu and Apu downstairs, forced eating eww cake
+    <Work>:
+      Time: 15:30
+      ActivityDesc: analysis and summary of previous exercises
+      Duration: 1.5 hr
+      Focus: 2
+      MindPower: 2
+      Summary: 
+      Notes: productive wrk with Anita
+  Evening:   
+    <Food>:
+      Time: 18:00
+      MealDescription: Rice noodles, Smoked fish (oily), Hering 
+      Quantity: High
+      Summary: 
+      Notes: ate relatively alot 
+    <Movement>:
+      Time: 19:00
+      Activity: small walk tram and westend mall
+      Duration: 1.5 hr
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <PhysicalSymptoms>:
+      Time: 21:00
+      Abdomen:
+        Bloating: 3
+        Pain: 3
+        Location: mis of stomach
+      Summary: 
+      Notes: ate fatty food for lunch and dinner, Ate a lot for dinner and in fast phase
+HanaHOSLog20261029 (complete):
+  Morning: 
+    <Sleep>:
+      BedTime: 12:12
+      WakeTime: 6:08
+      Duration: 5h 56m 
+      SleepScore: 70
+      BodyBattery: +38
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 07:00
+      MealDescription: healthy cake, tea
+      Quantity: moderate
+      Summary: 
+      Notes:   
+    <Movement>:
+      Time: 10:57
+      Activity: HIIT
+      Duration: 21m
+      Intensity: moderate
+      Summary: 
+      Notes: Tired after
+  Afternoon: 
+    <Food>:
+      Time: 15:00
+      MealDescription: Rice, turkey with tomato sauce 
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 15:30
+      Activity: Sex
+      Duration: 
+      Intensity: 
+      Summary: 
+      Notes: pain low abdomen and unstable mood ( cry, laugh, irritibality)
+    <Sleep>:
+      BedTime: 16:00
+      WakeTime: 19:00
+      Duration: 3h
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: Nap
+  Evevning: 
+    <Food>:
+      Time: 19:00
+      MealDescription: healthy cake, tea 
+      Quantity: 2 pieces
+      Summary: 
+      Notes: no apetite , very tired
+    <Movement>:
+      Time: 9:00 PM
+      Activity: walk 
+      Duration: 1:23
+      Intensity: easy
+      Summary: 
+      Notes: 5.17 km, walk with Anita
+    <Drugs>:
+      Time: 23:00
+      Name: W
+      Dosage: 0.5 
+      Unit: joint 
+      Summary: 
+      Notes: 
+HanaHOSLog20261030 (Complete):
+  Morning: 
+    <Sleep>:
+      BedTime: 12:17
+      SleepTime: 12:40
+      WakeTime: 09:40
+      Duration: 8h 35m
+      SleepScore: 88
+      BodyBattery: +63
+      Summary: 
+      Notes: Despite the good score My body was aching really bad, also ate chocolate right before bed 
+    <PhysicalSymptoms>:
+      Time: 09:40
+      General:
+        Fatigue: 3
+        Dizziness: 0
+        ColdSensitivity: 0
+        Bruising: 0
+        Swelling: 3
+      Face:
+        Puffiness: 3
+        Location: 
+      Notes: Felt really bad in the morning. 
+    <Food>:
+      Time: 10:00
+      MealDescription: Egg, Oats, milk with sugar, plazma biscuits (4)
+      Quantity: moderate
+      Summary: 
+      Notes:   
+    <Movement>:
+      Time: 11:00
+      Activity: Cleaning
+      Duration: 1hr
+      Intensity: moderate
+      Summary: 
+      Notes: general cleaning of the 2 rooms, bathrrom and the hallway
+  Afternoon: 
+    <Movement>:
+      Time: 12:30
+      Activity: Run
+      Duration: 28m
+      Intensity: moderate
+      Summary: 
+      Notes: run and walked
+    <Work>:
+      Time: 2216$
+      ActivityDesc: health file organizatio
+      Duration: 1 hr
+      Focus: 2
+      MindPower: 2
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 15:00
+      MealDescription: rice, canned fish, soup
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Movement2>:
+      Time: 18:00
+      Activity: gym Upper activation
+      Duration: 1 hr
+      Intensity: moderate
+      Summary: 
+      Notes: 
+  Evening:
+    <Work>:
+      Time: 21:00
+      ActivityDesc: health log and some reviews
+      Duration: 1
+      Focus: 1
+      MindPower: 2
+      Summary: 
+      Notes: was cut by talking to a guest
+HanaHOSLog20261031Incomplete:
+  Morning:
+    <MenstrualCycle>:
+      Cycle:
+        Day: 31
+        Phase: Luteal
+      Notes: Increase cravings ( chocolates)
+    <Sleep>:
+      BedTime: 12:00
+      SleepTime: 12:34
+      WakeTime: 00:00
+      Duration: 6h 57m
+      SleepScore: 78
+      BodyBattery: +44
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 08:30
+      MealDescription: Oats, Egg, Almond milk and coffee, 4 biscuits with chocolate
+      Quantity: 2spoons, 1.5, 300ml, 4
+      Summary: 
+      Notes: Increase cravings
+    <Movement>:
+      Time: 11:30
+      Activity: HIIT
+      Duration: 25 min
+      Intensity: Moderate
+      Summary: 
+      Notes: Felt good after 
+  Afternoon:
+    <Drugs>:
+      Time: 13:30
+      Name: Kratom
+      Dosage: 0.5
+      Unit: g
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 1356
+      ActivityDesc: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<
+      Duration: 
+      Focus: 2
+      MindPower: 2
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 15:00
+      Activity: Core exercise Meli
+      Duration: 
+      Intensity: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 1404
+      MealDescription: 
+      Quantity: 
+      Summary: 
+      Notes: 
+  Evening:
+    <Movement>:
+      Time: 1404$
+      Activity: walk
+      Duration: 1 h 
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 18:15
+      ActivityDesc: continuation of tasks
+      Duration: 
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 
 
 
 
 
 Notes To be done:
+  - Add Sleep Time to 
   - Legend for numeration
   - Include stool score and type
   - Include Sexual activity and thoughts

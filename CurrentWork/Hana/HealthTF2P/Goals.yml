@@ -98,6 +98,64 @@ HOS:
         Diet:
           - Track calories
           - Determine calorie deficit and weekly weight loss target
+          - Workspace: 
+            WeightLossPlan:
+              Profile:
+                Age: 23
+                Sex: Female
+                Height: 170 # cm
+                CurrentWeight: 80 # kg
+                BMI: 27.7
+                BMR: 1587 # kcal/day
+
+              Goal:
+                WeeklyWeightLoss: 0.4-0.6 # kg
+                DailyCalorieDeficit: 400-500 # kcal
+                RecommendedRate: 0.5 # kg/week
+
+              CalorieRequirements:
+                Sedentary:
+                  Maintenance: 1905
+                  WeightLossTarget: 1400-1500
+                LightlyActive:
+                  Maintenance: 2182
+                  WeightLossTarget: 1650-1750
+                ModeratelyActive:
+                  Maintenance: 2460
+                  WeightLossTarget: 1900-2000
+                VeryActive:
+                  Maintenance: 2738
+                  WeightLossTarget: 2200-2300
+
+              Diet:
+                AssumedActivity: LightlyActive
+                DailyCalories: 1700
+                Macronutrients:
+                  Protein: 128 # g/day
+                  Fat: 60 # g/day
+                  Carbohydrates: 162 # g/day
+
+              ExpectedProgress:
+                Week0: 80 # kg
+                Week4: 78
+                Week8: 76
+                Week12: 74
+                Week16: 72
+
+              Monitoring:
+                WeighIn: 3-7 times/week
+                Measurement: Morning, same conditions
+                Evaluation: WeeklyAverage
+                ReviewFrequency: Every 2-3 weeks
+                Adjustment:
+                  Calories: 100-150 # kcal/day
+                  Condition: If weight trend differs from goal
+                Notes:
+                  - Weight loss is not always linear
+                  - Menstrual cycle can affect water retention
+                  - Prioritize muscle preservation
+                  - Adjust calories based on actual activity
+
         StressEating:
           Trigger: Being home alone with triggering person
           Strategies:

@@ -515,8 +515,15 @@ SR_20261023_Bobi:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<:
 
 
-SR_NEXT_Bobi:
+SR_20261030_Bobi:
   Was:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 30m, "", 20261028 T 131749 ]
+  Next:
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<:
+
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 48m, "", 20261030 T 210522 ]
   Next:
     - null

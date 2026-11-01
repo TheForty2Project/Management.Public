@@ -917,3 +917,67 @@ BobiHOSLog20261031(Incomplete):
       MindPower: 
       Summary: 
       Notes: 
+
+Month of Nov:
+  Goals:
+   - Reviewing Health logs of the memeber in the evening
+   - Discussing the process of loging in case 42242 was not able to record the data
+  Logs:
+    42241-20261101 incomplete:
+      Morning: 
+        <Sleep>:
+          BedTime: 11:45
+          SleepTime: 2:18 
+          WakeTime: 9:56
+          Duration: 6h 42m
+          SleepScore: 66
+          BodyBattery: +51
+          Summary: 
+          Notes: slept on couch before going to bed
+        <Food>:
+          Time: 10:00
+          MealDescription:  lemonwater, glutamine, creatine, citrolline
+          Quantity: one small spoon, 2,5g, 2,5g, 2g
+          Summary: 
+          Notes: 
+        <Digestion>:
+          Time: 10:30
+          Bristol: 4 then little 4
+          Bloating: 1
+          AbdominalPain: 
+          Flatulence: 1
+          Belching: 0
+          Summary: 
+          Notes: 
+        <Food2>:
+          Time: 10:10
+          MealDescription: rice pancake, pudding and mixed fruits
+          Quantity: moderate
+          Summary: 
+          Notes:  
+        <Movement>:
+          Time: 10:30
+          Activity: walk, 10 pull ups (sexy back)
+          Duration: 20 m
+          Intensity: easy
+          Summary: 
+          Notes: 
+      Afternoon: 
+        <Drugs>:
+          Time: 13:00
+          Name: Kratom
+          Dosage: 1.9
+          Unit: g
+          Summary: 
+          Notes: 
+        <Work>:
+          Time: 13:00
+          ActivityDesc: -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<
+          Duration: 
+          Focus: 3
+          MindPower: 3 
+          Summary: 
+          Notes: the analysis gave me controlled dopamine for continuing the work flow 
+      Evening:
+
+

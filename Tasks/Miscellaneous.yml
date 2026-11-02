@@ -109,7 +109,7 @@ Id: Misc
               InProgress .Analyse Week44:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:             
-              Done .Analyse Week45:
+              InProgress .Analyse Week45:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:
                   - Prepare muscles for threshold running
@@ -183,6 +183,7 @@ Id: Misc
                     - Cossack Squat need improvements check video
                     - For Hana: during OLRDeadlift neck should follow the course of the spine (dont look up)
                     - Duration: 2 hours
+                    - Target Muscle: 
                   Friday 20261106T06:00:
                     Notes:
                     Exercises:
@@ -207,7 +208,7 @@ Id: Misc
                     Monday:
                     Friday:
                 EstTODO .Analyse Week45:
-                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: [Hana, Anita], Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
                   Details: 
                     Monday:
                     Friday:

@@ -471,7 +471,7 @@ AnitaHOSLog20261027 (Incomplete):
       Quantity: big
       Summary: 
       Notes: binge, cannot controle myself even though I was aware of the situation. After I felt like I'll black out, after 2 hours my bloating and discomfort went down
-AnitaHOSLog20261028  (Incomplete):
+AnitaHOSLog20261028 (Incomplete):
   Morning:
     <Sleep>:
       BedTime: 02:15
@@ -539,7 +539,7 @@ AnitaHOSLog20261028  (Incomplete):
       Quantity: bigger
       Summary: 
       Notes: the vanilia pudding was for pleasure and stress relief, I was already full
-AnitaHOSLog20261029  (Incomplete):
+AnitaHOSLog20261029 (Incomplete):
   Morning:
     <Sleep>:
       BedTime: 3:15
@@ -605,9 +605,312 @@ AnitaHOSLog20261029  (Incomplete):
       Quantity: 
       Summary: 
       Notes: 
-AnitaHOSLog20261030  (Incomplete):
-AnitaHOSLog20261031  (Incomplete):
-AnitaHOSLog20261101  (Incomplete):
+AnitaHOSLog20261030 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 2:00
+      WakeTime: 6:55
+      Duration: 5
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: felt really tired
+    <Digestion>:
+      Time: 7:15
+      Bristol: 4
+      Bloating: 0
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 7:35
+      MealDescription: cooked rice with oats and ginger, 2 boiled eggs, 1 banana, coffee with almond milk and sweetener
+      Quantity: 90 g rice, 2 tablespoons of oats, 120 g banana, 50 ml almond milk
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 8:30-10:00
+      Activity: gym, upper body (serratus anterior, big back muscle groups, chest, deltoids, biceps and traps), core activation, hanging
+      Duration: 1,5
+      Intensity: mid
+      Summary: 
+      Notes: felt really good after
+    <Food2>:
+      Time: 10:15
+      MealDescription: protein shake, chocolate
+      Quantity: 
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Food>:  
+      Time: 15:45
+      MealDescription: 1/2 soup from the cubes, 50 g rice noodles, 0,5 cooked tomato, 3 tablsespoons of cooked chickpeas, 1 toast bread, 25 g sour cream
+      Quantity: bigger than usual
+      Summary: 
+      Notes: felt unfoncortably full
+    <Food2>:
+      Time: 11:55
+      MealDescription: BioTechUSA vegan protein bar
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: working, serving people
+      Activity: mid
+      Duration: 6
+      Intensity: mid
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 20:15
+      MealDescription: 1/2 soup form the cubes, 60 g rice noodles, 1 tablespoons of cooked chickpeas, canned fish
+      Quantity: 
+      Summary: 
+      Notes: felt full and bloated
+    <Food2>:
+      Time: 20:30
+      MealDescription: 2 toast bread with 55 g sour cream
+      Quantity: 
+      Summary: 
+      Notes: emotional eating
+    <Movement>:
+      Time: 18:05
+      Activity: walking
+      Duration: 1 hour
+      Intensity: low
+      Summary: 
+      Notes: felt good, cleared my head
+    <Movement2>:
+      Time: 21:15-00:45
+      Activity: salsa
+      Duration: 3 hours
+      Intensity: high
+      Summary: 
+      Notes: intense movement, intense sweating (there were no air conditioning), my legs were heavy but mentally felt amazing
+AnitaHOSLog20261031 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 2:45
+      WakeTime: 8:00
+      Duration: 5
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 1712$
+      Bristol: 0
+      Bloating: 0
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 8:45
+      MealDescription: cooked rice with oats and ginger, 2 boiled eggs, 1 banana, cinnamon, coffee with almond milk and sweetener
+      Quantity: 100 g rice, 2 tablespoons of oats, 110 g banana, 100 ml almond milk
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Food>:
+      Time: 15:55
+      MealDescription: 1/2 soup from the cubes, 40 g rice noodles, 0,5 cooked tomato, 2 tablespoons of chickpeas
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 12:00-20:00
+      Activity: serving people, stairs
+      Duration: 8 hours
+      Intensity: mid
+      Summary: 
+      Notes: felt  dizzy
+  Evening: 
+   <Food>:
+     Time: 18:15
+     MealDescription: 2 almond macrons
+     Quantity: 
+     Summary: 
+     Notes: 
+   <Movement>:
+     Time: 20:00-21:00
+     Activity: walking
+     Duration: 1 hour
+     Intensity: low
+     Summary: 
+     Notes: cleared my head
+  <Food2>:
+      Time: 22:00
+      MealDescription: canned fish, 2 toast bread, 60 g sour cream, pastry Hana gave me with tofu and mushrooms
+      Quantity: big
+      Summary: 
+      Notes: emotional eating
+AnitaHOSLog20261101 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 3:45
+      WakeTime: 9:35
+      Duration: 6
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 9:55
+      Bristol: 5
+      Bloating: 0
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 11:00
+      MealDescription: cooked rice with oats, 2 boiled eggs, 1 banana, coffee with almond milk and sweetener
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 10:30
+      Activity: walking
+      Duration: 25 minutes
+      Intensity: low
+      Summary: 
+      Notes: cleared my head
+  Afternoon:
+    <Food>: 
+      Time: 16:30
+      MealDescription: latte with almond milk
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+    Time: 15:00
+    Bristol: 5
+    Bloating: 0
+    AbdominalPain: 0 
+    Flatulence: 0
+    Belching: 0
+    Summary: 
+    Notes: 
+    <Work>:
+      Time: 16:10-19:00
+      ActivityDesc: reading papers for a project, creating a presentation
+      Duration: 3 hours
+      Focus: high
+      MindPower: high
+      Summary: 
+      Notes: 
+  Evening: 
+    <Movement>: 
+      Time: 19:00-20:00
+      Activity: walking
+      Duration: 1 hours
+      Intensity: low
+      Summary: 
+      Notes: cleared my head
+    <Food>:
+      Time: 22:30
+      MealDescription: canned fish, 2 toast bread, 40 g sour cream, full package of humus
+      Quantity: 
+      Summary: 
+      Notes: emotional eating (humus) 
+42333_20261102_Incomplete:
+  Morning:
+    <Sleep>:
+      BedTime: 00:35
+      SleepTime: 00:40
+      WakeTime: 6:05
+      Duration: 5,5 hours
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time: 6:40
+      MealDescription: cooked oats with oats, 2 boiled eggs, 1 banana, coffee with almond milk and sweetener
+      Quantity: 90 g rice, 2 tablespoons of oats, 120 g banana, 50 ml almond milk
+      Summary:
+      Notes: ate in a rush, discomfort in my stomach
+    <Movement>:
+      Time: 7:15
+      Activity: core activation, lower body strenght with bodyweight, plyometrics 
+      Duration: 1,5 hours
+      Intensity: mid
+      Summary:
+      Notes:
+    <Digestion>:
+      Time:
+      Bristol:
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:
+    <Food2>:
+      Time: 10:05
+      MealDescription: protein shake 
+      Quantity: 
+      Summary: 
+      Notes: felt good and energised after
+  Afternoon:
+    <Work>:
+      Time: 11:55-12:35
+      ActivityDesc: summarizing our progress in Oct and plans for the new month
+      Duration: 40 mins
+      Focus: high
+      MindPower: low
+      Summary:
+      Notes:
+    <Sleep>:
+      BedTime: 13:40
+      WakeTime: 14:05
+      Duration: 25 mins
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: my friend woke me up when she tried to lock out the door, I was afraid, I did not expecteed her today
+    <Food>:
+      Time: 15:55
+      MealDescription: canned fish, 1/2 cube soup, 70 g rice noodles
+      Quantity:
+      Summary:
+      Notes: no appetite, forced myself to finish it, felt bloated after
+    <Work2>:
+      Time: 16:45-17:45
+      ActivityDesc: healthlogs
+      Duration: 1 hour
+      Focus: high
+      MindPower: high
+      Summary: 
+      Notes: took way too much time
+  Evening:
+    <Food>:
+      Time: 1745
+      MealDescription: 
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 1745$
+      Activity: 
+      Duration: 
+      Intensity: 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
 
 
   

@@ -1,0 +1,617 @@
++: { Type: Folder, AllowedTypes: [ Task, Folder ] }
+
+AnitaHOSLog20261021 (Complete):
+  Morning:         
+    - <Sleep>:     
+        Bedtime: 
+        Duration: 5.5 
+        Sleepscore: 
+        waketime: 
+    - <Food>:
+      Time: 07:30
+      Meal Descripton: 2 boiled eggs, rice with oats and ginger, 1 banana, coffee with almond milk
+    - <Digestion>:
+      Time: 8:00
+      Bristol: 5
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    - <State>:
+      Time: 
+      Mood: 4/5
+      Notes: cortisol level 9999999999, face red and burning, wanting to cry but cannot
+  Afternoon:
+      - <Food>:
+        Time: 12:40
+        Meal Desc:  1 boiled egg, 2 bread, 2 tablespoon hummus
+      - <Movement>:
+        Time: 
+        Activity: walk
+        Duration: 15m
+        Intensity: 
+        Summary: 
+        Notes: 
+      - <Food2>:
+        Time: 
+        Meal Desc:  Coffee with almond milk
+      - <Work>:
+        Time: 11:30-15:30
+        Activity Description:  Statistics and TF2P   
+      - <State>:
+        Mood: 3/5  
+  Evening: 
+    - <Food>:
+       Time: 18:00
+       Meal Desc: Rice Noodles, 0.5 cube soup, tomato sauce, canned tuna in tomato sauce
+    - <Work>:
+       Time: 18:15 -19:15
+       Activity type: TF2P (standup and )
+    - <Work2>:
+       Time: 20:00 - 24:00
+       Activity type: statistics and TF2P
+    - <Food2>:
+       Time: 
+       Meal Descripton: 2 bread, 2 table spoon of sour cream 
+AnitaHOSLog20261022 (Incomplete): 
+    Morning:
+    <Sleep>:
+      Time:
+      BedTime: 00:20
+      Duration: 7 hours
+      SleepScore: 
+      WakeTime: 8:30
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+       Time: 9:45
+       Bristol: 5
+       Bloating: 0
+       AbdominalPain: 0
+       Flatulence: 0
+       Belching: 0
+       Summary: 
+       Notes: 
+    <Food>:
+       Time: 9:15
+       MealDescription: cooked rice with oats and ginger, one banana, 2 boiled eggs, coffee with almond milk
+       Quantity: 4 tablespoons of rice, 120 g banana, 50 ml almond milk
+       Summary: 
+       Notes: 
+    <Work>:
+      Time: 
+        ActivityDesc: rewatching the vc video
+        Duration: 80 mins
+        Focus: understanding the fundamentals
+        MindPower: high
+        Summary: 
+        Notes: 
+    Afternoon:
+      - <Food>:
+        Time: 14:20
+        MealDescription: latte with regular milk
+        Quantity: 0,5 l
+        Summary: 
+        Notes: felt dizzy after, felt a strong discomfort in my stomach area
+      - <Food2>:
+        Time: 15:45
+        MealDescription: 1/2 cube soup, rice noodles and 1 peeled, cooked tomato
+        Quantity: 
+        Summary: 
+        Notes: 
+      - <Work2>:
+        Time: 12:00-20:00
+        ActivityDesc: serving people
+        Duration: 8 hours
+        Focus: high
+        MindPower: high
+        Summary: 
+        Notes: 
+    Evening:   
+    - <Food>:
+        Time: 21:40
+        MealDescription: 1/2 cube soup, rice noodles, canned hering, 2 boiled eggs, tomato sauce
+        Quantity: 
+        Summary: 
+        Notes:
+    - <Movement>:
+        Time: 20:15-21:15
+        Activity: walk
+        Duration: 1 hour
+        Intensity: mid
+        Summary: 
+        Notes: 
+    - <Work3>:
+        Time: 23:00-24:00
+        ActivityDesc: finishind watching the vc video
+        Duration: 1 hours
+        Focus: hard
+        MindPower: low
+        Summary: 
+        Notes:      
+AnitaHOSLog20261023 (Incomplete):
+  Morning:
+    - <Sleep>:
+       Time: 1200
+       BedTime: 00:50
+       Duration: 5h
+       SleepScore: 
+       WakeTime: 6:05 
+       BodyBattery: 
+       Summary: short 
+       Notes: 
+    - <Digestion>:
+       Time: 1438$
+       Bristol: 0
+       Bloating: 0
+       AbdominalPain: 0
+       Flatulence: 0
+       Belching: 0
+       Summary: 
+       Notes: 
+    - <Food>:
+       Time: 6:30
+       MealDescription: cooked rice with oats and ginger, 1 banana, coffee with almond 
+       Quantity: 4 tablespoons of rice, 0,5 tablespoon oats, 120 g banana, 100 ml milk
+       Summary: 
+       Notes: wasn't that hungry
+    - <Movement>:
+       Time: 7:30-10:00
+       Activity: gym exercises, upper body, core activation
+       Duration: 2,5 hours
+       Intensity: mid
+       Summary: 
+       Notes: 
+    - <Food2>:
+       Time: 10:00
+       MealDescription: protein shake (chocolate)
+       Quantity: 0,5 l
+       Summary: 
+       Notes: 
+    - <Digestion>:
+       Time: 0
+       Bristol: 0
+       Bloating: bloated
+       AbdominalPain: 0 
+       Flatulence: 0
+       Belching: 0
+       Summary: 
+       Notes: 
+  Afternoon: 
+    - <Food>: 
+       MealDescription: 1/2 coup soup with rice noodles, 0,5 tomato, hering in tomato sauce, 2 boiled egg
+       Time: 13:00
+       Quantity: 
+       Summary: 
+       Notes: I felt really heavy and bloated after, because I ate in a rush
+    - <Movement>:
+       Time: 14:00-20:15
+       Activity: serving people at work
+       Duration: 6 hours
+       Intensity: mid
+       Summary: 
+       Notes: felt  good, my heaviness gone
+    - <Movement2>:
+       Time: 20:15
+       Activity: walking
+       Duration: 1 hour
+       Intensity: light
+       Summary: 
+       Notes: felt really well menatlly and physically after
+  Evening:
+    - <Food>: 
+       Time: 22:30
+       MealDescription: 1 cube soup, rice noodles, 0,5 tomato, canned hering, 1 boiled egg and one big cube of cake with kérmes and strawberries
+       Quantity: 
+       Summary: 
+       Notes: felt  fulfilled and good
+    - <Food2>:
+      Time: 21:15
+      MealDescription: cooked rice, 4 cold cut, 2 boiled eggs, plazma cakes (3)
+      Quantity: bit overeated (old patterns), stressed bc of the border situation with Hana
+      Summary: 
+      Notes: 
+AnitaHOSLog20261024 (Incomplete):
+  Morning: 
+    <Sleep>:
+      BedTime: 2:30
+      WakeTime: 6:05
+      Duration: 3,5 
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 7:30
+      MealDescription: cooked rice with oats and ginger, 2 boiled eggs, 1 banana, coffee with almond milk amd sweetener
+      Quantity: 4 tablespoons of rice, 120 g banana, 50 ml almond milk
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 8:15
+      Bristol: type 4
+      Bloating: yes
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 10:00-12:30
+      Activity: hiking
+      Duration: 2,5
+      Intensity: mid
+      Summary: 
+      Notes: 
+  Afternoon: 
+    <Food>: 
+      Time: 14:55
+      MealDescription: tomato soup with basil, rice and coffe with almond milk before
+      Quantity: small 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 14:00-14:55
+      ActivityDesc: vc
+      Duration: 55 min
+      Focus: mid
+      MindPower: mid
+      Summary: 
+      Notes: 
+    <Food>2:
+      Time: 17:10
+      MealDescription: 1/2 cube of cake
+      Quantity: 
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 21:00
+      MealDescription: cooked rice, 2 boiled eggs, 4 cold cuts, remaining tomato soup and rice
+      Quantity: bigger
+      Summary: emoional eating, felt super full after
+      Notes: 
+    <Food2>:
+      Time: 1:30
+      MealDescription: oat and corn bar with chocolate
+      Quantity: 
+      Summary: 
+      Notes: 
+AnitaHOSLog20261025 (Incomplete): 
+  Morning:
+    <Sleep>:
+      BedTime: 2:50
+      WakeTime: 10:00
+      Duration: 7
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 11:15
+      MealDescription: rice flour pancakes, 2 boiled eggs, goat cheese, tomatoes in olive oil, coffee with almond milk and sweetener
+      Quantity: 
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Food>:
+      Time: 12:45
+      MealDescription: black coffee with sweatener
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 13:00
+      Activity: running and walking
+      Duration: 3 hours
+      Intensity: high
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 16:15
+      MealDescription: 2 boiled eggs, 4 cold cuts, cooked rice, 2 meatballs
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 16:15-17:15
+      ActivityDesc: vc, babysitting, future plans 
+      Duration: 1 hour
+      Focus: mid
+      MindPower: mid
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 16:45
+      Bristol: 5
+      Bloating: yes
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 20:30
+      MealDescription: red lentil soup with salted pretzel sticks, 2 meatballs (pork) and plazma cakes (3 tablespoons) mixed with water
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 21:10-21:55
+      ActivityDesc: healthlogs
+      Duration: 45 mins
+      Focus: high
+      MindPower: high 
+      Summary: 
+      Notes:  
+AnitaHOSLog20261026 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 23:45
+      WakeTime: 6:35
+      Duration: 7
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 8:15
+      MealDescription: cooked rice with basil, cooked oats, tomato in olive oil, 2 boiled eggs, leftover red lentils, coffee with sweetener
+      Quantity: bigger than usual
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 8:00
+      Bristol: 5
+      Bloating: yes
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 8:55-10:15
+      Activity: lower body strength, functional lower body, plyometrics, core activation
+      Duration: 1,5
+      Intensity: higher
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Food>:
+      Time: 13:00
+      MealDescription: 4 tablespoons of cooked rice with basil, 0,75 baked hake, 4 tablespoons of pumpkin and tofu cooked in coconut cream, Vietnamise ginger soup
+      Quantity: double than usual
+      Summary: 
+      Notes: felt triggered, discfomfort in my tummy area, bloated
+    <Food2>:
+      Time: 15:00
+      MealDescription: 6 bites of rice flour cake, 2 tablespoons of apricot jam with almonds, 4 tablespoons of melted chocolate, Imlek protein chocolate shake
+      Quantity: 
+      Summary: 
+      Notes: random snacking, cravings
+  Evening:
+    <Food>:
+      Time: 21:15
+      MealDescription: 3 tablespoons of the coconut, pumpkin and tofu mixture, 4 mini ćevap, 5 tabslespoons of rice, 3 tablespoons of ajvar, one cup of boiled milk with sugar
+      Quantity: bigger than usual
+      Summary: 
+      Notes: felt very nostalgic eating it, it was very heartwarming that my dad made this dinner for us with love, but at the same time felt really anxious and triggered, because I spent some time with my mom and we covered hard topics with Hana during our walk (my mom, my usual responses to her, not getting over it, death, my grandmas death)
+    <Food2>:
+      Time: 21:45
+      MealDescription: one biscuit, 1 teaspoon of apricot jam
+      Quantity: 
+      Summary: 
+      Notes: triggered, like I was my past self who lived there and the only relief was the food - but I could think about it more clearly and objectively, recognised the old patterns and asked Hana to make sure, I'm not binging
+    <Movement>:
+      Time: 19:00-20:30
+      Activity: walk
+      Duration: 1,5
+      Intensity: light
+      Summary: 
+      Notes: the cold was amazing, the autumn feeling was heartwarming, but the topics were hard for me
+AnitaHOSLog20261027 (Incomplete): 
+  Morning:
+    <Sleep>:
+      BedTime: 00:35
+      WakeTime: 6:05
+      Duration: 5,5
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 
+      Bristol: 0 
+      Bloating: 0
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 7:10
+      MealDescription: 4 tablespoons of cooked oats, 1 banana, 2 boiled eggs
+      Quantity: enough
+      Summary: 
+      Notes: wasn't hungry, ate it anyway, discomfort in my stomach area afterwards 
+  Afternoon:
+    <Food>:
+      Time: 11:30
+      MealDescription: pastry with cheese, latte with grean bean milk, chai latte with oat milk
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 11:45
+      ActivityDesc: working on health logs
+      Duration: 30 min
+      Focus: high
+      MindPower: high 
+      Summary: 
+    <Food2>:
+      Time: 16:00
+      MealDescription: pastry with poppy seeds, green tea
+      Quantity: 
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 20:30
+      MealDescription: 1/2 cub soup, rice noodles, 0,5 tomato cooked, 3 tablespoons of chickpeas cooked
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 21:30
+      MealDescription: 4 toast bread, 2 Imlek chocolate protein shake, 1 tablespoon of vanila pudding in water
+      Quantity: big
+      Summary: 
+      Notes: binge, cannot controle myself even though I was aware of the situation. After I felt like I'll black out, after 2 hours my bloating and discomfort went down
+AnitaHOSLog20261028  (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 02:15
+      WakeTime: 8:05
+      Duration: 6
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 10:30
+      MealDescription: 3 tablespoons of cooked rice with oast, 2 boiled eggs, 1 banana, black coffee with sweetener 
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 11:30
+      MealDescription: coffee with almond milk and sweetener 
+      Quantity: 
+      Summary: 
+      Notes: discomfort in my tummy
+    <Digestion>:
+      Time: 8:55
+      Bristol: 3
+      Bloating: yes
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 12:00-13:20
+      ActivityDesc: planning friends workoutplan
+      Duration: 1,5
+      Focus: high
+      MindPower: high
+      Summary: 
+      Notes:
+    <Movement>:
+      Time: 11:30
+      Activity: walk
+      Duration: 15 min
+      Intensity: light
+      Summary: 
+      Notes:  
+  Afternoon:
+    <Food>:
+      Time: 17:15
+      MealDescription: 1/2 soup from the cubes, rice noodles, canned fish in mustard and smoked, canned fish in oil
+      Quantity: 
+      Summary: 
+      Notes: felt a discomfort in my tummy after, bloated
+    <Work>:
+      Time: 15:45-17:15
+      ActivityDesc: gym summary, goals
+      Duration: 1,5
+      Focus: mid
+      MindPower: mid
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>: 
+      Time: 22:10
+      MealDescription: 1/2 soup from the cubes, rice noodles, canned fish, 0,5 tomatoes, 3 tablespoons of chickpeas, vanilia pudding in almond milk with frozen strawberries
+      Quantity: bigger
+      Summary: 
+      Notes: the vanilia pudding was for pleasure and stress relief, I was already full
+AnitaHOSLog20261029  (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 3:15
+      WakeTime: 6:05
+      Duration: 2,5
+      SleepScore: 
+      BodyBattery: 
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 6:25
+      Bristol: 6
+      Bloating: 0
+      AbdominalPain: 0 
+      Flatulence: 0
+      Belching: 0
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 7:30
+      MealDescription: protein shake
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 7:20:8:20
+      Activity: walk
+      Duration: 1
+      Intensity: low
+      Summary: 
+      Notes: felt better and more energised after
+    <Food2>:
+      Time: 9:00
+      MealDescription: 110 g cooked rice, 20 g cooked oats, 2 boiled eggs, 1 eggyolk, 110 g banana, coffee with 100 ml almond milk
+      Quantity: 
+      Summary: 
+      Notes: ate in a rush, bloating after
+  Afternoon:
+    <Movement>:
+      Time: 11:00-14:00
+      Activity: walking
+      Duration: 3
+      Intensity: mid
+      Summary: 
+      Notes: 
+    <Movement2>:
+      Time: 14:40-15:40
+      Activity: walk
+      Duration: 1
+      Intensity: mid
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 16:45
+      MealDescription: 1/2 soup from the cubes, rice noodles, 0,5 cooked tomato, 3 tablespoons of cooked chickpeas, canned fish
+      Quantity: 
+      Summary: 
+      Notes: bloating after 30 min
+  Evening:
+    <Food>:
+      Time: 1721
+      MealDescription: 
+      Quantity: 
+      Summary: 
+      Notes: 
+AnitaHOSLog20261030  (Incomplete):
+AnitaHOSLog20261031  (Incomplete):
+AnitaHOSLog20261101  (Incomplete):
+
+
+  
+
+  
+
+     

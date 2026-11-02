@@ -356,7 +356,8 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 5m, " creating new format and snippet for the month of Nov", 20261031 T 134306 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members"<: [ 2m, "", 20261101 T 153336 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly"."Development Tasks".."Create snippet for the whole log for each member"<: [ 20m, "", 20261101 T 155447 ]
-    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 7m, "", 20261102 T 115956 ]
-    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members".."Month of Nov - 20261102T12:00-13:00"<: [ 0m, "", 20261102 T 120859 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 29m, "", 20261102 T 115956 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members".."Month of Nov - 20261102T12:00-13:00"<: [ 60m, "", 20261102 T 120859 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
   Next:
     - null

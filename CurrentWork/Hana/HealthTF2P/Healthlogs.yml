@@ -6445,58 +6445,81 @@ Month of Nov:
 42333_20261102_Incomplete:
   Morning:
     <Sleep>:
-      BedTime: 
-      SleepTime:
-      WakeTime:
-      Duration:
-      SleepScore:
-      BodyBattery:
+      BedTime: 11:00
+      SleepTime: 11:13
+      WakeTime: 5:50
+      Duration: 6h 
+      SleepScore: 74
+      BodyBattery: +40
       Summary:
-      Notes:
+      Notes: 
+    <SystemState>:
+      Time: 06:00
+      Mood: Tired
+      ThinkingQuality: 2
+      Motivation: 2
+      PhysicalEnergy: 1 
+      BodyBattery: 
+      Rumination: 0
+      Summary: 
+      Notes: 
+    <PhysicalSymptoms>:
+      Time: 1710$
+      Skin:
+        Acne: 1 acne
+      Face:
+        Puffiness: 3
+        Location: WholeFace
+      General:
+        Fatigue: 2
+      Summary: 
+      Notes: Looked at my face in the mirror it was very puffy
     <Food>:
-      Time:
-      MealDescription:
-      Quantity:
+      Time: 06:15
+      MealDescription: Oats, Egg, Rice, Lentils
+      Quantity: few
       Summary:
-      Notes:
+      Notes: 
     <Movement>:
-      Time:
-      Activity:
-      Duration:
-      Intensity:
-      Summary:
-      Notes:
-    <Digestion>:
-      Time:
-      Bristol:
-      Bloating:
-      AbdominalPain:
-      Flatulence:
-      Belching:
-      Summary:
-      Notes:
-  Afternoon:
-    <Drugs>:
-      Time:
-      Name:
-      Dosage:
-      Unit:
+      Time: 07:00
+      Activity: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse weekly Health Data".."Analyse Week45"<
+      Duration: 2 hr
+      Intensity: Moderate
       Summary:
       Notes:
     <Work>:
-      Time:
-      ActivityDesc:
-      Duration:
-      Focus:
-      MindPower:
+      Time: 11:00
+      ActivityDesc: Process creation and health log data entry
+      Duration: 2
+      Focus: 2
+      MindPower: 2 
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Work>:
+      Time: 12:00
+      ActivityDesc: Process creation and health log data entry
+      Duration: 2
+      Focus: 1
+      MindPower: 1
       Summary:
       Notes:
     <Food>:
-      Time:
-      MealDescription:
-      Quantity:
-      Summary:
-      Notes:
+      Time: 15:00
+      MealDescription: Rice, Lentils, Fish, Biscuots with milk, Coffee
+      Quantity: Moderate
+    <Digestion>:
+      Time: 16:30
+      Bristol: 4
+      Bloating: 2
+    <Work2>:
+      Time: 16:00
+      ActivityDesc: health log and uploading videos 
+      Duration: 
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 
     <Movement>:
       Time:
       Activity:

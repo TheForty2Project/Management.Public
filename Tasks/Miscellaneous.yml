@@ -62,11 +62,9 @@ Id: Misc
           +: {CreatedBy: Hana, CreatedAt: 20261101 T 151142, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
           Result: 
           Done .Month of Nov - 20261102T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
-          
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}   
           EstTODO .Month of Dec - 20261202T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
-            
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}   
         Development Tasks:
           Done .Log Automation:
             +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
@@ -80,36 +78,150 @@ Id: Misc
             Details: 
               - Instead of loading each property eg <Sleep> or timeline category (morning, afternoon, evevning) create the whole log and modification can happen after. 
               - To save time.
-          EstTODO .To be reviewed by members:
+          InProgress .To be reviewed by members:
             +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}     
       Ongoing .Weekly:
-        OnGoing .Do weekly health related planning:
-          +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
-          
-          OnGoing .Schedule Health Analysis sessions:
-            Details:
-              Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
-            Results:
-            Done .20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
-            TODO .Week44 Analysis:
-              +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
-              Details: 
-                - Scheduled for 20261102     
-            EstTODO .Week45 Analysis:
-              +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+        .Exercise:
+          .Muscle Resistance:
+            OnGoing .Schedule the analysis of resistance ex:
               Details:
-                - Scheduled for 20261114
-            Note:
-              - Explore twitch and add the schedules to Twitch calendar
-              - mid of Nov
-          InProgress .Analyse weekly Health Data:
-            +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ TL, Health ], Estimation: 180m, RemTime: 180m }   
-            Details: 
-              - Go through the exercise pic and videos in google drive - 
-              - Go through VSC exercise program
-          EstTODO .Review Analysis:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 121209, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-            
+                Make sure you add the schedule on Google and Garmin calendar 
+              Results:
+              Done .20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
+              Done .Schedule Week44:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+              Done .Schedule Week45:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              EstTODO .Schedule Week46:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              EstTODO .Schedule Week47:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              EstTODO .Schedule Week48:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              Note:
+                - Explore twitch and add the schedules to Twitch calendar
+                - mid of Nov - Week 47
+            InProgress .Analyse weekly Health Data:
+              +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ TL, Health ], Estimation: 180m, RemTime: 180m }   
+              Details: 
+                - Upload the exercise pic and videos in google drive 
+                - Report Exercices
+              InProgress .Analyse Week44:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                Details:             
+              Done .Analyse Week45:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                Details:
+                  - Prepare muscles for threshold running
+                  - Incorporate functional exercises
+                  - Assess muscle strength and stability
+                Ex Report:
+                  Monday20261102T07:15:
+                    Notes:
+                      - Bodyweight training
+                      - Preparation for threshold run on 20261103T07:00
+                    Exercises:
+                      - CoreActivation:
+                        Notes: Avoid abdominal doming
+                        Reference: https://www.youtube.com/watch?v=BjS9sfYZOYg
+                        Anita:
+                          TVAActivation:
+                            Muscles: Transverse abdominis
+                            Duration: 1m
+                          SingleLegHipRaise:
+                            Muscles: Glutes, hamstrings, hip stabilizers
+                            RightSupport: 80° hip flexion, left leg raise, 6 reps, clicking 6/6
+                            LeftSupport: 80° hip flexion, right leg raise, 8 reps, no issues             - 
+                        Hana:
+                          TVAActivation:
+                            Muscles: Transverse abdominis
+                            Duration: 1m
+                          SingleLegHipRaise:
+                            Muscles: Glutes, hamstrings, hip stabilizers
+                            RightSupport: 80° hip flexion, left leg raise, 10 reps, no issues
+                            LeftSupport: 80° hip flexion, right leg raise, 10 reps, no issues  
+                      - Squats 4 Variations:
+                        Notes: Added Posterior and Anterior Tibialis strengthening ex ( hill raise after the squats)
+                        Anita:
+                          - Standard Squat: 15 reps| 3sets
+                          - Sumo Squats: 15 reps| 3sets
+                          - Narrow-Stance Squats: 15 reps| 3sets
+                          - Cossack Squat (Lateral Squat): 8 reps | 2 sets
+                        Hana:
+                          - Standard Squat: 15 reps| 3sets
+                          - Sumo Squats: 15 reps| 3sets
+                          - Narrow-Stance Squats: 15 reps| 3sets
+                          - Cossack Squat (Lateral Squat): 8 reps | 2 sets
+                      - Lunges:
+                        Notes: combined front and back lunges together. 
+                        Anita:
+                          - Front and Back: 12reps|2 sets
+                        Hana:
+                          - Front and Back: 12reps|2 sets
+                      - Jumps:
+                        Anita:
+                          - One leg: 12?
+                          - Coordination: In and Out jumps 24
+                          - Side jump one leg: 12
+                        Hana:                   
+                          - One leg: 12?
+                          - Coordination: In and Out jumps 24
+                          - Side jump one leg: 12
+                      - One Leg Romanian dead lift without weights:
+                        Anita:
+                          - 12 reps|2 sets
+                        Hana:
+                          - 12 reps|2 sets
+                    Uploads: 
+                      Exercises: https://drive.google.com/drive/folders/1nzd0V6f_qIKfXJ4DKoaHFQVOhDOviEVv?usp=sharing
+                      Measurements:
+                        Photos: https://drive.google.com/drive/folders/1eGv8v6Fs0PmyvApx1Q4_kqmNgQsXdm0M?usp=sharing
+                        Measurement Data: https://docs.google.com/document/d/1TXtLfw_KHLzr2cW_72bb5eusuvH-Bifef4E0rT_MWNs/edit?tab=t.0
+                    Summary:
+                    - Reserach more on Hip Clicking
+                    - New Squat variation suggested by Anita (for next Moday)
+                    - Cossack Squat need improvements check video
+                    - For Hana: during OLRDeadlift neck should follow the course of the spine (dont look up)
+                    - Duration: 2 hours
+                  Friday 20261106T06:00:
+                    Notes:
+                    Exercises:
+                    Uploads:
+                      Exercises: 
+                      Measurements:
+                        Photos: 
+                        Measurement Data: 
+              EstTODO .Analyse Week46:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              EstTODO .Analyse Week47:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+              EstTODO .Analyse Week48:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                Result:
+            EstTODO .Review Analysis:
+              +: {CreatedBy: Hana, CreatedAt: 20261102 T 121209, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+              Results:
+                EstTODO .Analyse Week44:
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                  Details: 
+                    Monday:
+                    Friday:
+                EstTODO .Analyse Week45:
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                  Details: 
+                    Monday:
+                    Friday:
+                EstTODO .Analyse Week46:
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                EstTODO .Analyse Week47:
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                EstTODO .Analyse Week48:
+          .Running: 
+            20261103T06:00:
+              Type: Threshold Run
+              Duration: 30 m 
+              Garmin Link:
+              Track: https://www.youtube.com/watch?v=tm3IP8BNDD0
       Ongoing .Daily:
         OnGoing .Do health log and daily reviews:
           +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }
@@ -125,8 +237,6 @@ Id: Misc
         EstTODO .Do Health Log Review:
           +: {CreatedBy: Hana, CreatedAt: 20261102 T 121508, By: [Bobi, Anita], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
           
-      OnGoing .Hana to schedule it on in google Calendar:
-        +: { CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [ CSVTODO ], Estimation: 30m, RemTime: 30m }
     Diet:
        OnGoing .Create food and activity schedule:
         Id: CreateMealSchedule
@@ -904,3 +1014,4 @@ reviews:
     - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 4m, "", 20260913 T 213445 ]
   Next:
     - null
+Tuesday 20261106T06:00:

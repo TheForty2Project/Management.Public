@@ -1009,9 +1009,3 @@ Id: Misc
       +: { CreatedBy: Bobi, CreatedAt: 20260609 T 143837, By: [ Hana, Bobi ] }
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)
-reviews:
-  Was:
-    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 4m, "", 20260913 T 213445 ]
-  Next:
-    - null
-Tuesday 20261106T06:00:

@@ -1,0 +1,919 @@
+BobiHOSLog20261012:
+  .Stress1011: 27
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 79
+    Duration: 6h 39m
+    WakeTime: 9:41
+  .Morning:
+    Mood: 4/5
+    Poop: Type 3
+    Food: Rice pancake+Fruits+Coffee
+    Movement: Walk
+  .Afternoon:
+    Mood: 5/5
+    Food: 
+      Main: Rice, Fish ( with paprika (warning) + Olive oil)
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+    Work:
+      Time: 17:30 
+      Topic: Health Analysis and health log discussion ( Anita, Bobi, Hana)
+    Movement: 
+      Time: 21:50
+      Type: Walk
+    Food: 
+    Body Battery:
+BobiHOSLog20261013 incomplete:
+  .Stress1012: 29
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 91
+    Duration: 7h 33m
+    WakeTime: 9:54
+  .Morning:
+    Mood: 2/5
+    Poop: 
+    Food: 
+  .Movement: Walk
+  .Afternoon:
+    Mood:
+      Time: 13:11
+      Score: 1/5
+      Notes: Low mood. Gasses trapped
+    Movement: 
+      - Run (Unsuccesful)
+    Mood2: 
+      Time2: 15:00
+      Score2: 0/5
+      Warning: FIGHT
+      Notes: 
+        Body condition: Inability to walk
+        Mind Condition: Obvious bad thoughts
+        Event1: Massage was requested, Hana gave a massage. 
+        Trigger: Hana mentioned that she tries to stay away from bad moods
+        Event2: Robi was about to exit the house 
+        Trigger2: Hana asked if Robi has the W box
+        Event3: Had a fight in the entrance of the house 
+        Trigger3: Robi said that Hana does not care about him 
+        Event4: Revenge thoughts. Hana taking the knife 
+        Change of events: Hana thought this has been going for 8 years. We should work. Hana heads to Library for work by walking
+
+    Food: 
+      Time: Skipped afternoon Lunch
+      Notes: Since there are gasses, no fiber for today
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+    Movement: 
+    Food: 
+    Body Battery:
+
+
+
+        10:00:  Rice Pancake
+    .Afternoon:
+      Mood: 4/5
+      Work: Health Logging - -->CurrentWork\Hana\HealthTF2P\Healthlogs\.HanaHOSLog20261013..Afternoon.Work<
+      Food: 
+        Time: 14:30
+        Notes: Follow Robi food Plan
+        Main: Rice, Breast turkey, 
+        Dessert: cake,Pudding,Fruits 2 spoons
+      Movement: 
+        Time: 16:05
+        Type: Walk
+    .Evening:
+      Movement: 
+        Type: Walk
+      Food:
+        Time: 20:30
+        Food: Rice with soup, little cake with pudding and berries 
+      Body Battery: 
+      Sleep Hygiene:
+BobiHOSLog20261014:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+BobiHOSLog20261015:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+BobiHOSLog20261016:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+BobiHOSLog20261017:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+BobiHOSLog20261018:
+  .Stress1012: 25
+  .Sleep:
+    Notes: Sleep score obtained from Garmin Application
+    Score: 80
+    Duration: 6h 34m
+    WakeTime: 07:14
+  .Morning:
+    Mood: 3/5
+    Food: 
+      Time: 7:30
+      Food: Oatmeal, one spoon Strawberry jam, one plum, strawberries 3 pieces
+    Drugs:
+      Time: 07:50
+      Type: Nicotine patch
+    Poop: 
+      Time: 08:00
+      Bristol Score: Type 4
+      Notes: First type 4 in 3 days
+    Movement: 
+      Time: 09:50
+      Activity: Walk
+    Poop2:
+      Time: 10:30
+      Bristol Score: Type 5
+      Notes: Literally looks like poop emoji     
+    Food2: 
+      Time: 10:54
+      Food: Small Piece of cake.
+    MOvement: 
+      Time: 11:20
+      Type: Walk
+    Drug2: 
+      Time: 12:00
+      Type: Kratom
+    
+
+
+      10:00:  Rice Pancake
+  .Afternoon:
+    Mood: 4/5
+
+    Food: 
+      Time: 14:30
+      Notes: Follow Robi Plan
+      Main: Rice, Breast turkey, 
+      Dessert: cake,Pudding,Fruits
+  .Evening:
+  HanaHOSLog20261018:
+      .Stress1008: 20
+      .Sleep:
+        Notes: Sleep score obtained from Garmin Application
+        Score: 71
+        Duration: 5h 51m
+        WakeTime: 5:44
+      .Morning:
+        Mood: 4/5
+        Poop: Type 6
+        Food: 
+          6:00:   Oatmeal, Banana
+        Movement: Strength (upper and mid back, rotator cuff activation, core)
+        Food2: 
+          09:15: Protein shake 
+          10:00:  Rice Pancake
+      .Afternoon:
+        Mood: 3/5
+        Sex: Yes
+        Food: 
+          Main: Rice, Fish(hering pepper), pork balls
+          Dessert: cake,Pudding
+      .Evening:
+        Movement: Walk
+        Food: Decaf coffee, Protein
+        Body Battery: 
+        Sleep Hygiene:
+BobiHOSLog20261019:
+  Morning:         
+    - SummaryMorningLogTemp:
+        Morning state:
+          - agitated (and bloated) in the evening
+          - long, but burpy/farty sleep
+          - farting in the morning; low energy
+        Suspected reasons:
+          - lots of veggies
+          - (maybe) underbaked cake
+          - slightly oily/heavy food (salmon)
+        Notable events:
+          - gym (1h) + run (3km)
+    - <SummaryMorningLog>:
+        MorningState:
+          Mood: 
+          ThinkingQuality: 
+          Motivation:
+          PhysicalEnergy:
+          BodyBattery:
+          Rumination:
+        SleepScore:
+        Bristol:
+        SuspectedReasons:
+        OtherNotables:
+    - <Food>:
+      Time: 08:07
+      Meal Descripton: Oatmeal, Egg, Jam, Strawberries
+      Quantity: 1
+    - <Movement>:
+      Time: 08:40
+      Activity Desc: Cleaning the 2 rooms and bathroom
+    - <Work>:
+      Time: 09:30
+      Activity Descr: Health Logs and milestones
+  Afternoon:
+  - <Food>:
+    Time: 15:30
+    Meal Desc: Rice, Beef balls, Tomato sauce
+  - <State>:
+    Time: 16:40
+    Mood: 3
+    Notes: The burst of impulsivity wants to be out (shouting, blaming, crying)
+    Rumination: 5 
+  - <Decision>:
+    Time: 17:00
+    Current State: Want to fight 
+    Desired State: Control and feel the emotion inside
+    Chosen Action: Walk
+    Expected outcome: Calmness and return back to work
+  - <Work>:
+    Time: 14:30 - 16:00
+    Activity Description: Continuation of psychology event
+  - <Food>:
+    Time: 16:30
+    Meal Descr: Cappuccino
+
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Food>:
+      Time: 22:30
+      Meal Descr: Soup from the cubes, rice noodles, 2 boiled egg, tomato sauce, 2 cubes of cake, 2 teaspoonn kremes por, frozen strawberries, Ginger tea
+BobiHOSLog20261020 (incomplete):
+  Notes: smoked one puff in the afternoon. 
+  contributed to : the next 2 days was bad  
+  <SummaryMorningLog>:
+    MorningState:
+        Mood: 4/5
+        ThinkingQuality: 
+        Motivation: 5/5
+        PhysicalEnergy: 3/5
+        BodyBattery:  81
+        Rumination: 0   
+    SleepScore: 86
+    Bristol: 3 to 5
+    SuspectedReasons: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.BobiHOSLog20261019.Morning<
+    OtherNotables: velo 5x, Kratom 2x
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 02:36
+      Duration: 6h 1m
+      Sleepscore: 63 
+      waketime: 09:24
+  - <Food>:
+    Time: 11:00
+    Meal Descripton: Pancake, Pudding, blueberries 
+    Quantity: 1.5 Dl of batter, 2 dl pudding, 10
+  - <State>:
+    Time: 11:30
+    Mood: 4
+  - <Movement>:
+      Time: 12:00
+      Activity: Walk
+      Time2: 13:30
+      Activity2: Run
+      Duration: 27:26
+      Intensity: Moderate
+  - <Work>:
+    Time: 16:14
+    Activity Descr: 
+  Afternoon:
+  - <Movement>:
+    Time: 12:30
+    Activity: Run
+    Duration: 
+    Intensity: 
+  - <Food>:
+    Time: 
+    Meal Desc: 
+  - <Work>:
+    Time: 
+    Activity Description: 
+  - <Food>:
+    Time: 
+    Meal Descr: 
+  - 
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Movement>:
+      Time: 19:00
+      Activity: Gym
+      Duration: 27:26
+      Intensity: Moderate
+  - <Drugs>:
+    Time: 23:00
+    Name: Ktatom
+    Dosage: 1.8
+    Unit: g
+    Time2: 12:00
+    Name2: W
+    Dosage2: 0.20 
+    Unit2: g
+  - <Food>:
+    Time: 12:00
+    Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
+    Quantity: 1 chocolate, 150ml. 2 pieces
+  - <Work>:
+    Time: 00:42
+    Activity Descr:  
+BobiHOSLog20261021 (incomplete):
+  Notes to be added: 
+    - Whole day very farty and bloated and irritable 
+    - Ate dinner and the fart starting to go at night
+    - 
+  <SummaryMorningLog>:
+    MorningState:
+        Mood: 4/5
+        ThinkingQuality: 
+        Motivation: 5/5
+        PhysicalEnergy: 3/5
+        BodyBattery:  81
+        Rumination: 0   
+    SleepScore: 86
+    Bristol: 3 to 5
+    SuspectedReasons: -->CurrentWork\Hana\HealthTF2P\Healthlogs\.BobiHOSLog20261019.Morning<
+    OtherNotables: velo 5x, Kratom 2x
+  Morning:         
+  - <Sleep>:     
+      Bedtime: 02:36
+      Duration: 6h 1m
+      Sleepscore: 63 
+      waketime: 09:24
+  - <Food>:
+    Time: 11:00
+    Meal Descripton: Pancake, Pudding, blueberries 
+    Quantity: 1.5 Dl of batter, 2 dl pudding, 10
+  - <State>:
+    Time: 11:30
+    Mood: 4
+  - <Movement>:
+      Time: 12:00
+      Activity: Walk
+      Time2: 13:30
+      Activity2: Run
+      Duration: 27:26
+      Intensity: Moderate
+  - <Work>:
+    Time: 16:14
+    Activity Descr: 
+  Afternoon:
+  - <Movement>:
+    Time: 12:30
+    Activity: Run
+    Duration: 
+    Intensity: 
+  - <Food>:
+    Time: 
+    Meal Desc: 
+  - <Work>:
+    Time: 
+    Activity Description: 
+  - <Food>:
+    Time: 
+    Meal Descr: 
+  - 
+  Evening: 
+  - <State>:
+    Mood: 3
+  - <Movement>:
+      Time: 19:00
+      Activity: Run
+      Duration: 27:26
+      Intensity: Moderate
+  - <Drugs>:
+    Time: 23:00
+    Name: Ktatom
+    Dosage: 1.8
+    Unit: g
+    Time2: 12:00
+    Name2: W
+    Dosage2: 0.20 
+    Unit2: g
+  - <Food>:
+    Time: 12:00
+    Meal Descripton: chocolate, Chocolate and Vanilla pudding, cake
+    Quantity: 1 chocolate, 150ml. 2 pieces
+  - <Work>:
+    Time: 12:42
+    Activity Descr:  
+BobiHOSLog20261022 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 02:27
+      WakeTime: 09:28
+      Duration: 6h 14m
+      SleepScore: 54
+      BodyBattery: 34
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 08:20
+      Name: Creatine, cirolline, Taurine, Velo
+      Dosage: g, 1, 0.5
+      Unit: g
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 10:20  
+      MealDescription: Cake, Coffee, Pudding
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Digestion>:
+      Time: 10:00
+      Bristol: 4 - 5
+      Bloating: 2
+      AbdominalPain: 0
+      Flatulence: 1 
+      Belching: 1
+    <Movement>:
+      Time: Walk
+      Activity Desc: 
+  Afternoon: 
+    <Work>:
+      Time: 13:00
+      ActivityDesc: Airbnb things 
+      Duration: 
+      Focus: 1
+      MindPower: 1 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 16:00
+      MealDescription: cake, pudding, strawberries 
+      Quantity: moderate
+      Summary: 
+      Notes: 
+  Evening: 
+    - <Movement>:
+      Time: 1800
+      Activity: Walk
+      Duration: 2 hours
+      Intensity: 1
+      Summary: 
+      Notes: 
+    - <Drugs>:
+      Time: 21:00
+      Name: C
+      Dosage: 0.4
+      Unit: g
+      Summary: 
+      Notes: 
+    - <Movement2>:
+      Time: 21:00
+      Activity: Walk
+      Duration: 2 h
+      Intensity: 1
+      Summary: 
+      Notes:  
+      Time2: 23:00
+      Name2: W
+      Dosage2: 0.4
+      Unit2: g
+      Summary2: 
+      Notes2:  
+BobiHOSLog20261023 (no data):
+BobiHOSLog20261024 (incomplete):
+  Morning: 
+    - <Sleep>:
+      BedTime: 01:06
+      WakeTime: 10:58
+      Duration: 9h 20m
+      SleepScore: 80
+      BodyBattery: 58
+      Summary: 
+      Notes: high stress the day before. Took C and W, Sleep get better from 57 to 80.
+    - <Food>:
+      Time: 11:15
+      MealDescription: Water, Coffee, citrolline, Creatine, 
+      Quantity: low
+      Summary: 
+      Notes: 
+    - <Drugs>:
+      Time: 11:20
+      Name: Velo
+      Dosage: 1
+      Unit: 
+      Summary: 
+      Notes: 
+    - <Digestion>:
+      Time: 11:00
+      Bristol: 4
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0 
+      Summary: 
+      Notes:
+    - <Food2>:
+      Time: 11:20
+      MealDescription:  cake, oancake, pudding
+      Quantity: moderate
+      Summary: 
+      Notes: 
+  Afternoon:  
+    <Movement>:
+      Time: 12:45
+      Activity: Walk
+      Duration: 30 m
+      Intensity: moderate at start, light at the end
+      Summary: 
+      Notes: 
+  Evening:
+Bobi HOSLog20261025 (Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 1:46
+      WakeTime: 10:27
+      Duration: 8h 16m
+      SleepScore: 89
+      BodyBattery: +91
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Movement>:
+      Time: 13:00
+      Activity: Walk
+      Duration: 18:47
+      Intensity: seems hard
+      Summary: for 0.88 km Robi took him 18:47 m
+      Notes: No movement till 19:00
+  Evening:    
+    <Movement>:
+      Time: 19:00
+      Activity: walk
+      Duration: 7:35
+      Intensity: 
+      Summary: 
+      Notes: seems he went to buy alcohol
+    <Movement2>:
+      Time: 19:44
+      Activity: Walk
+      Duration: 13:18
+      Intensity: seems like a difficult one
+      Summary: 
+      Notes: Bought alcohol
+    
+
+
+
+
+  Notes:
+    - No gym 
+    - Feeling down, see Whatsapp
+    - No kratom ( see whatsapp)
+    - Started alcohol ( to be asked how many)
+    -  
+BobiHOSLog20261026 (incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 12:37
+      WakeTime: 09:28
+      Duration: 8h 16m
+      SleepScore: 82
+      BodyBattery: 100
+      Summary: 
+      Notes:
+  Afternoon:  
+    <Movement>:
+      Time: 12:31
+      Activity: walk
+      Duration: 
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Movement2>:
+      Time: 14:18
+      Activity: Run
+      Duration: 20:55
+      Intensity: 
+      Summary: 
+      Notes: 
+BobiHOSLog20261027:
+BobiHOSlog20261030 (complete):
+  Morning:
+    <Food>:
+      Time: 10;30
+      MealDescription: cake, ith pudding and fruits
+      Quantity: large
+      Summary: 
+      Notes:  
+    <Movement>:
+      Time: 11:00
+      Activity: Walk
+      Duration: 30
+      Intensity: easy
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Movement>:
+      Time: 13:00
+      Activity: Run
+      Duration: 15
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 13:30
+      Name: Kratom
+      Dosage: 2.6
+      Unit: g
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 14:00
+      ActivityDesc: stand up and some planning
+      Duration: 30
+      Focus: 2
+      MindPower: 2 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 15:00
+      MealDescription: rice, canned fish, soup, turkey balls
+      Quantity: moderate
+      Summary: 
+      Notes: 
+  Evening:    
+    <Movement>:
+      Time: 18:00
+      Activity: Gym
+      Duration: 1 hr
+      Intensity: easy
+      Summary: 
+      Notes: 
+    <Drugs>:
+      Time: 20:21
+      Name: Kratom
+      Dosage: 1.9
+      Unit: g
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 21:00
+      ActivityDesc: Standup
+      Duration: 10 m
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 22:00
+      MealDescription: cake,pudidng, mixed fruits
+      Quantity: medium
+      Summary: 
+      Notes: 
+  Notes: 
+    - better than 2 days ago Less farts No crying
+BobiHOSLog20261031(Incomplete):
+  Morning:
+    <Sleep>:
+      BedTime: 
+      SleepTime: 02:55
+      WakeTime: 10:15
+      Duration: 6h 53m
+      SleepScore: 80
+      BodyBattery: +68
+      Summary: 
+      Notes: woke up in a good mood
+    <Food>:
+      Time: 08:30
+      MealDescription: Cake with Pudding and fruits
+      Quantity: 2 bowls
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 11:30
+      Activity: Walk
+      Duration: 25 min
+      Intensity: Moderate
+      Summary: 
+      Notes: Felt good after 
+  Afternoon:
+    <Drugs>:
+      Time: 14:30
+      Name: Kratom
+      Dosage: 1.9
+      Unit: g
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 1356
+      ActivityDesc: -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<
+      Duration: 
+      Focus: 2
+      MindPower: 2
+      Summary: 
+      Notes: 
+    <Food>:
+      Time: 15:50
+      MealDescription: rice, turkey with tomato, pudding, mixxed fruits
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 16:45
+      Activity: walk
+      Duration: 1 h
+      Intensity: easy
+      Summary: 
+      Notes: 
+  Evening:
+    <Drugs>:
+      Time: 14:30
+      Name: Kratom
+      Dosage: 1.9
+      Unit: g
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 1848
+      ActivityDesc: continuation for link recognition 
+      Duration: 
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 

@@ -1011,74 +1011,112 @@ Month of Nov:
           Duration: 1hr
           Summary: 
           Notes: 
-    42242_20261102 incomplete:
+    42242_20261101_incomplete:
       Morning:
         <Sleep>:
-          BedTime:
-          SleepTime:
-          WakeTime:
-          Duration:
-          SleepScore:
-          BodyBattery:
+          BedTime: 2:27 
+          SleepTime: 2:27 
+          WakeTime: 10:28
+          Duration: 8h 0m
+          SleepScore: 91
+          BodyBattery: +77
           Summary:
-          Notes:
+          Notes: woke up ok at start but was very bad later. ( zombie )
         <Food>:
-          Time:
-          MealDescription:
-          Quantity:
-          Summary:
-          Notes:
-        <Movement>:
-          Time:
-          Activity:
-          Duration:
-          Intensity:
+          Time: 10:50
+          MealDescription: Rice Pancake
+          Quantity: moderate
           Summary:
           Notes:
         <Digestion>:
-          Time:
-          Bristol:
-          Bloating:
-          AbdominalPain:
-          Flatulence:
-          Belching:
-          Summary:
-          Notes:
-      Afternoon:
-        <Drugs>:
-          Time:
-          Name:
-          Dosage:
-          Unit:
+          Time: 11:00
+          Bristol: 4
           Summary:
           Notes:
         <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+          Time: 12:00
+          ActivityDesc: health process description 
+          Duration: 5m
+          Focus: 0
+          MindPower: 0 
+          Summary: 
+          Notes: Wasnt able to participate in the meeting rescheduled to the next day20261103
+        <SystemState>:
+          Time: 12:00
+          Mood: very bad
+          ThinkingQuality: 2
+          Motivation: 2
+          PhysicalEnergy: 0 
+          BodyBattery: 0
+          Rumination: 0
+          Summary: 
+          Notes: 
+        <Movement>:
+          Time: 12:10
+          Activity: walk
+          Duration: 1 hr
+          Intensity: hard
+          Summary: 
+          Notes:   
+      
+      Afternoon:
+        <Drugs>:
+          Time: 13:30
+          Name: Kratom
+          Dosage: 1.8
+          Unit: g
+          Summary:
+          Notes:
+        <SystemState>:
+          Time: 2201
+          Mood: good ( able to converse)
+          ThinkingQuality: 2
+          Motivation: 2
+          PhysicalEnergy: 2
+          BodyBattery: 2
+          Rumination: 0
+          Summary: 
+          Notes: 
+        <Work>:
+          Time: 13:00
+          ActivityDesc: Bug Fixes , follow link feature
+          Duration: 3
+          Focus: 2
+          MindPower: 2
           Summary:
           Notes:
         <Food>:
-          Time:
-          MealDescription:
-          Quantity:
+          Time: 16:00
+          MealDescription: Rice, Fish, Soup
+          Quantity: moderate
           Summary:
           Notes:
         <Movement>:
-          Time:
-          Activity:
-          Duration:
-          Intensity:
+          Time: 15:30
+          Activity: Walk
+          Duration: 30m
+          Intensity: easy
           Summary:
           Notes:
       Evening:
         <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
+          Time: 18:30
+          ActivityDesc: Bug fixes
+          Duration: 
           Focus:
           MindPower:
           Summary:
           Notes:
+        <Food>:
+          Time: 2202
+          MealDescription: rice, fish with egg, some indian sauce and potato 
+          Quantity: moderate
+          Summary: 
+          Notes: 
+        <Movement>:
+          Time: 21:00
+          Activity: run
+          Duration: 
+          Intensity: easy
+          Summary: 
+          Notes: 

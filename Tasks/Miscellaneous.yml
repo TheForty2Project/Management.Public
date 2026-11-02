@@ -697,7 +697,7 @@ Id: Misc
           Details:
             - Go through the previous ones
             - How would Anita be doing her part
-        Scheduled .Showcase HealthLog to Anita:
+        CurrentFocus .Showcase HealthLog to Anita:
           +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
           ScheduledAt: 20261019 T 140000
           Details:

@@ -6515,27 +6515,48 @@ Month of Nov:
     <Work2>:
       Time: 16:00
       ActivityDesc: health log and uploading videos 
-      Duration: 
-      Focus: 
-      MindPower: 
+      Duration:  2h
+      Focus: 1
+      MindPower: 1
       Summary: 
       Notes: 
     <Movement>:
-      Time:
-      Activity:
-      Duration:
-      Intensity:
+      Time: 18":30
+      Activity: walk
+      Duration: 5m
+      Intensity: easy
       Summary:
       Notes:
   Evening:
     <Work>:
-      Time:
-      ActivityDesc:
-      Duration:
-      Focus:
-      MindPower:
+      Time: 19:30
+      ActivityDesc: Hungarian language and continuation of tasks
+      Duration: 
+      Focus: 1
+      MindPower: 1
       Summary:
       Notes:
+    <Food>:
+      Time: 20:30
+      MealDescription: Rice, boiled potato, Indian soup (mae by guest), 2 bicuits, greentea
+      Quantity: moderate
+      Summary: 
+      Notes: 
+    <Work2>:
+      Time: 21:00
+      ActivityDesc: misc video and health log data entry
+      Duration: 2h
+      Focus: 
+      MindPower: 
+      Summary: 
+      Notes: 
+    <SleepHygiene>:
+      preparing tomorrows task:
+      Smoke: 
+      Hot shower:
+      Reading book:
+      Bed time:
+
 
 
 

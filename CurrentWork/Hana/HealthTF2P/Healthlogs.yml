@@ -4720,7 +4720,7 @@ HanaHOSLog20260918:
     - Replst
     - Health log 
 
-Month of OCT:
+Month of Oct:
   Logs:
     HanaHOSLog20261012:
         .Stress1008: 20
@@ -5924,383 +5924,383 @@ Month of OCT:
           MindPower: 
           Summary: 
           Notes: 
-  Summary of OCT:  
-  HOSMonthlyReview:
-  Period: 2026-10
-  Person: Hana
+  Summary of Oct:  
+    HOSMonthlyReview:
+    Period: 2026-10
+    Person: 42242
 
-  DataSource:
-    - October HOS daily logs
-    - Health discussions
-    - HOS template and snippet development
+    DataSource:
+      - October HOS daily logs
+      - Health discussions
+      - HOS template and snippet development
 
-  DataQuality:
-    Coverage: Partial
-    LoggedPeriod: 2026-10-12 to 2026-10-31
-    MissingDates:
-      - 2026-10-19
-    IncompleteDates:
-      - 2026-10-28
-      - 2026-10-31
-    Issues:
-      - Repeated entries on October 14-16
-      - Possible duplicate activities on October 18 and 20
-      - Inconsistent timestamps and measurement scales
-      - Missing StateAfter observations
-    Notes: 
-      Findings are descriptive, not proof of causation.
+    DataQuality:
+      Coverage: Partial
+      LoggedPeriod: 2026-10-12 to 2026-10-31
+      MissingDates:
+        - 2026-10-19
+      IncompleteDates:
+        - 2026-10-28
+        - 2026-10-31
+      Issues:
+        - Repeated entries on October 14-16
+        - Possible duplicate activities on October 18 and 20
+        - Inconsistent timestamps and measurement scales
+        - Missing StateAfter observations
+      Notes: 
+        Findings are descriptive, not proof of causation.
 
-  HealthSummary:
-    <Sleep>:
-      AverageScore: 73
-      AverageDuration: 6h39m
-      Note: Approximate values excluding repeated records
-      Observations:
-        - Sleep frequently below 7 hours
-        - Variable recovery scores
-        - Fatigue despite high sleep scores
-        - Short sleep during travel
-        - Daytime naps during periods of fatigue
-      NotableEvents:
-        - Date: 2026-10-23
-          SleepScore: 63
-          Observation: Fatigue and reduced mental performance
-        - Date: 2026-10-27
-          SleepScore: 62
-          Duration: 5h23m
-          Observation: Sleeping in a new place
-        - Date: 2026-10-30
-          SleepScore: 88
-          Duration: 8h35m
-          Symptoms:
-            - Body aching
-            - Fatigue
-            - Facial puffiness
-      Hypotheses:
-        - Sleep duration may influence cognitive performance
-        - Travel may disrupt recovery
-        - Garmin scores may not fully reflect subjective recovery
-    <Digestion>:
-      Observations:
-        - Variable Bristol stool types
-        - Episodes of constipation
-        - Abdominal bloating
-        - Belching and flatulence
-        - Occasional abdominal pain
-        - Relief after passing gas
-      NotableEvents:
-        - Date: 2026-10-12
-          Bristol: 6
+    HealthSummary:
+      <Sleep>:
+        AverageScore: 73
+        AverageDuration: 6h39m
+        Note: Approximate values excluding repeated records
+        Observations:
+          - Sleep frequently below 7 hours
+          - Variable recovery scores
+          - Fatigue despite high sleep scores
+          - Short sleep during travel
+          - Daytime naps during periods of fatigue
+        NotableEvents:
+          - Date: 2026-10-23
+            SleepScore: 63
+            Observation: Fatigue and reduced mental performance
+          - Date: 2026-10-27
+            SleepScore: 62
+            Duration: 5h23m
+            Observation: Sleeping in a new place
+          - Date: 2026-10-30
+            SleepScore: 88
+            Duration: 8h35m
+            Symptoms:
+              - Body aching
+              - Fatigue
+              - Facial puffiness
+        Hypotheses:
+          - Sleep duration may influence cognitive performance
+          - Travel may disrupt recovery
+          - Garmin scores may not fully reflect subjective recovery
+      <Digestion>:
+        Observations:
+          - Variable Bristol stool types
+          - Episodes of constipation
+          - Abdominal bloating
+          - Belching and flatulence
+          - Occasional abdominal pain
+          - Relief after passing gas
+        NotableEvents:
+          - Date: 2026-10-12
+            Bristol: 6
 
-        - Date: 2026-10-13
-          Bristol: [4, 5]
+          - Date: 2026-10-13
+            Bristol: [4, 5]
 
-        - Date: 2026-10-18
-          Bristol: 2
-          Belching: 1
+          - Date: 2026-10-18
+            Bristol: 2
+            Belching: 1
 
-        - Date: 2026-10-22
-          Bristol: 4
-          Bloating: 0
-          AbdominalPain: 0
+          - Date: 2026-10-22
+            Bristol: 4
+            Bloating: 0
+            AbdominalPain: 0
 
-        - Date: 2026-10-25
-          Bristol: 2
-          Bloating: 3
-          Notes: Constipation sensation
+          - Date: 2026-10-25
+            Bristol: 2
+            Bloating: 3
+            Notes: Constipation sensation
 
-        - Date: 2026-10-26
-          Bloating: 3
-          AbdominalPain: 2
-          Notes: Felt better after passing gas
+          - Date: 2026-10-26
+            Bloating: 3
+            AbdominalPain: 2
+            Notes: Felt better after passing gas
 
-        - Date: 2026-10-27
-          Bristol: 4
-          Bloating: 1
+          - Date: 2026-10-27
+            Bristol: 4
+            Bloating: 1
 
-        - Date: 2026-10-28
-          Bloating: 3
-          AbdominalPain: 3
-          Notes: Discomfort after a large meal
-      Hypotheses:
-        - Meal size may influence bloating
-        - Food composition may influence digestion
-        - Stress may influence gastrointestinal symptoms
-        - Menstrual phase may influence bowel function
-      ResearchGoals:
-        - Compare meals with digestive symptoms
-        - Track Bristol score consistently
-        - Investigate food quantity and symptom severity
-        - Compare symptoms across menstrual phases
-    <MenstrualCycle>:
-      Observations:
-        - Late-cycle fatigue
-        - Increased chocolate cravings
-        - Bloating
-        - Headaches
-        - Emotional variability
-        - Lower abdominal discomfort
-      NotableEvents:
-        - Date: 2026-10-24
-          Phase: Luteal
-          CycleDay: 24
-          Symptoms:
-            Bloating: 2
-            Headache: true
-            Fatigue: true
+          - Date: 2026-10-28
+            Bloating: 3
+            AbdominalPain: 3
+            Notes: Discomfort after a large meal
+        Hypotheses:
+          - Meal size may influence bloating
+          - Food composition may influence digestion
+          - Stress may influence gastrointestinal symptoms
+          - Menstrual phase may influence bowel function
+        ResearchGoals:
+          - Compare meals with digestive symptoms
+          - Track Bristol score consistently
+          - Investigate food quantity and symptom severity
+          - Compare symptoms across menstrual phases
+      <MenstrualCycle>:
+        Observations:
+          - Late-cycle fatigue
+          - Increased chocolate cravings
+          - Bloating
+          - Headaches
+          - Emotional variability
+          - Lower abdominal discomfort
+        NotableEvents:
+          - Date: 2026-10-24
+            Phase: Luteal
+            CycleDay: 24
+            Symptoms:
+              Bloating: 2
+              Headache: true
+              Fatigue: true
 
-        - Date: 2026-10-29
-          Symptoms:
-            - Lower abdominal pain
-            - Emotional variability
-            - Fatigue
-
-        - Date: 2026-10-30
-          Symptoms:
-            - Fatigue
-            - Swelling
-            - Facial puffiness
-
-        - Date: 2026-10-31
-          Phase: Luteal
-          CycleDay: 31
-          Symptoms:
-            - Increased chocolate cravings
-      Hypotheses:
-        - Late-cycle hormonal changes may affect energy
-        - Menstrual phase may influence cravings
-        - Menstrual phase may influence digestion
-      ResearchGoals:
-        - Track symptoms across multiple cycles
-        - Compare sleep and recovery by cycle phase
-        - Compare cravings and mood by cycle phase
-    <Movement>:
-      Activities:
-        Running:
-          Dates:
-            - 2026-10-18
-            - 2026-10-20
-            - 2026-10-25
-            - 2026-10-28
-            - 2026-10-30
-          Note: October 20 may duplicate October 18
-        StrengthTraining:
-          Dates:
-            - 2026-10-14
-            - 2026-10-15
-            - 2026-10-16
-            - 2026-10-23
-            - 2026-10-26
-            - 2026-10-30
-        HIIT:
           - Date: 2026-10-29
-            Duration: 21m
-            StateAfter: Tired
+            Symptoms:
+              - Lower abdominal pain
+              - Emotional variability
+              - Fatigue
+
+          - Date: 2026-10-30
+            Symptoms:
+              - Fatigue
+              - Swelling
+              - Facial puffiness
 
           - Date: 2026-10-31
-            Duration: 25m
-            StateAfter: Felt good
-        Bouldering:
-          Dates:
-            - 2026-10-18
-            - 2026-10-20
-          Note: Possible duplicated entry
-        Walking:
-          Frequency: Frequent
-          Context:
-            - After meals
-            - Emotional regulation
-            - Recovery
-            - Daily transportation
-            - Household activities
-      Observations:
-        - Consistent movement habits
-        - Variety of training modalities
-        - Variable post-exercise fatigue
-        - Some sessions occurred during low-energy periods
-      Hypotheses:
-        - Sleep may influence exercise recovery
-        - Menstrual phase may influence perceived exertion
-        - Accumulated activity may contribute to fatigue
-      ResearchGoals:
-        - Compare StateBefore and StateAfter exercise
-        - Track next-day recovery
-        - Monitor training load
-        - Assess running and strength progression
-    <MentalAndCognitiveHealth>:
-      Observations:
-        - Emotional stress
-        - Rumination
-        - Impulsivity
-        - Variable motivation
-        - Reduced thinking quality during fatigue
-        - Positive emotional experiences
-        - Emotional heaviness following difficult conversations
-      NotableEvents:
-        - Date: 2026-10-17
-          StateBefore:
-            Mood: 3
-            Rumination: 5
-            EmotionalState:
-              - Impulsivity
-              - Desire to argue
-              - Desire to cry
+            Phase: Luteal
+            CycleDay: 31
+            Symptoms:
+              - Increased chocolate cravings
+        Hypotheses:
+          - Late-cycle hormonal changes may affect energy
+          - Menstrual phase may influence cravings
+          - Menstrual phase may influence digestion
+        ResearchGoals:
+          - Track symptoms across multiple cycles
+          - Compare sleep and recovery by cycle phase
+          - Compare cravings and mood by cycle phase
+      <Movement>:
+        Activities:
+          Running:
+            Dates:
+              - 2026-10-18
+              - 2026-10-20
+              - 2026-10-25
+              - 2026-10-28
+              - 2026-10-30
+            Note: October 20 may duplicate October 18
+          StrengthTraining:
+            Dates:
+              - 2026-10-14
+              - 2026-10-15
+              - 2026-10-16
+              - 2026-10-23
+              - 2026-10-26
+              - 2026-10-30
+          HIIT:
+            - Date: 2026-10-29
+              Duration: 21m
+              StateAfter: Tired
 
-          Decision:
-            DesiredState: Calmness
-            ChosenAction: Walk
-            ExpectedOutcome:
+            - Date: 2026-10-31
+              Duration: 25m
+              StateAfter: Felt good
+          Bouldering:
+            Dates:
+              - 2026-10-18
+              - 2026-10-20
+            Note: Possible duplicated entry
+          Walking:
+            Frequency: Frequent
+            Context:
+              - After meals
               - Emotional regulation
-              - Return to work
-
-          StateAfter: null
-          Notes: Outcome not recorded
-
-        - Date: 2026-10-25
-          Event: Positive social and family experiences
-          EmotionalImpact:
-            - Fulfillment
-            - Warmth
-            - Emotional overwhelm
-
-        - Date: 2026-10-26
-          Event: Difficult emotional conversations
-          EmotionalImpact:
-            - Crying
-            - Emotional heaviness
-            - Need for recovery
-      Hypotheses:
-        - Emotional stress may influence physical energy
-        - Stress may influence eating behavior
-        - Walking may help emotional regulation
-        - Sleep may influence thinking quality
-      ResearchGoals:
-        - Record emotional triggers
-        - Measure StateAfter interventions
-        - Compare rumination before and after walking
-        - Investigate stress and eating patterns
-
-  HOSDevelopment:
-
-    Goal: 
-      Develop a structured system for understanding
-      how events influence human states over time.
-
-    CoreModel:
-      - StateBefore
-      - Event
-      - StateAfter
-      - StateTransition
-
-    Timeline:
-      - Morning
-      - Afternoon
-      - Evening
-
-    OctoberMilestones:
-      - Period: Early October
-        Achievement: Daily narrative logging
-        Features:
-          - Sleep
-          - Food
-          - Movement
-          - Mood
-          - Digestion
-
-      - Period: Mid October
-        Achievement: State and decision modeling
-        Features:
-          - ThinkingQuality
-          - Motivation
-          - PhysicalEnergy
+              - Recovery
+              - Daily transportation
+              - Household activities
+        Observations:
+          - Consistent movement habits
+          - Variety of training modalities
+          - Variable post-exercise fatigue
+          - Some sessions occurred during low-energy periods
+        Hypotheses:
+          - Sleep may influence exercise recovery
+          - Menstrual phase may influence perceived exertion
+          - Accumulated activity may contribute to fatigue
+        ResearchGoals:
+          - Compare StateBefore and StateAfter exercise
+          - Track next-day recovery
+          - Monitor training load
+          - Assess running and strength progression
+      <MentalAndCognitiveHealth>:
+        Observations:
+          - Emotional stress
           - Rumination
-          - DesiredState
-          - ChosenAction
+          - Impulsivity
+          - Variable motivation
+          - Reduced thinking quality during fatigue
+          - Positive emotional experiences
+          - Emotional heaviness following difficult conversations
+        NotableEvents:
+          - Date: 2026-10-17
+            StateBefore:
+              Mood: 3
+              Rumination: 5
+              EmotionalState:
+                - Impulsivity
+                - Desire to argue
+                - Desire to cry
 
-      - Period: October 21-23
-        Achievement: VS Code snippet development
-        Features:
-          - Reusable event templates
-          - Timestamp fields
-          - Summary and Notes fields
-          - Structured YAML entries
+            Decision:
+              DesiredState: Calmness
+              ChosenAction: Walk
+              ExpectedOutcome:
+                - Emotional regulation
+                - Return to work
 
-      - Period: October 24-31
-        Achievement: Expanded health observations
-        Features:
-          - MenstrualCycle
-          - PhysicalSymptoms
-          - Digestive severity
-          - Subjective recovery
-          - LifeEvent
+            StateAfter: null
+            Notes: Outcome not recorded
 
-    Improvements:
-      - Standardize event names
-      - Standardize timestamps
-      - Standardize measurement scales
-      - Validate missing fields
-      - Detect duplicated records
-      - Automate monthly summaries
-      - Record StateAfter consistently
+          - Date: 2026-10-25
+            Event: Positive social and family experiences
+            EmotionalImpact:
+              - Fulfillment
+              - Warmth
+              - Emotional overwhelm
 
-  MonthlyFindings:
-    Positive:
-      - Consistent interest in health monitoring
-      - Frequent physical activity
-      - Improved emotional awareness
-      - Development of structured health logging
-      - Better documentation of physical symptoms
+          - Date: 2026-10-26
+            Event: Difficult emotional conversations
+            EmotionalImpact:
+              - Crying
+              - Emotional heaviness
+              - Need for recovery
+        Hypotheses:
+          - Emotional stress may influence physical energy
+          - Stress may influence eating behavior
+          - Walking may help emotional regulation
+          - Sleep may influence thinking quality
+        ResearchGoals:
+          - Record emotional triggers
+          - Measure StateAfter interventions
+          - Compare rumination before and after walking
+          - Investigate stress and eating patterns
 
-    Challenges:
-      - Inconsistent sleep duration
-      - Variable recovery
-      - Digestive discomfort
-      - Late-cycle fatigue and cravings
-      - Emotional stress
-      - Incomplete event outcome tracking
+    HOSDevelopment:
 
-    KeyHypotheses:
-      - Sleep quality and duration influence energy
-      - Digestive symptoms may be related to meal patterns
-      - Menstrual phase may influence physical and emotional states
-      - Exercise response depends partly on recovery
-      - Emotional events may affect eating and cognitive performance
+      Goal: 
+        Develop a structured system for understanding
+        how events influence human states over time.
 
-  NovemberGoals:
+      CoreModel:
+        - StateBefore
+        - Event
+        - StateAfter
+        - StateTransition
 
-    Sleep:
-      - Improve sleep consistency
-      - Track subjective recovery alongside Garmin scores
-      - Compare sleep with next-day energy
+      Timeline:
+        - Morning
+        - Afternoon
+        - Evening
 
-    Digestion:
-      - Track meals and digestive symptoms
-      - Record Bristol score
-      - Investigate bloating triggers
+      OctoberMilestones:
+        - Period: Early October
+          Achievement: Daily narrative logging
+          Features:
+            - Sleep
+            - Food
+            - Movement
+            - Mood
+            - Digestion
 
-    MenstrualCycle:
-      - Track symptoms throughout the cycle
-      - Compare cravings, fatigue and mood
-      - Identify recurring patterns
+        - Period: Mid October
+          Achievement: State and decision modeling
+          Features:
+            - ThinkingQuality
+            - Motivation
+            - PhysicalEnergy
+            - Rumination
+            - DesiredState
+            - ChosenAction
 
-    Movement:
-      - Monitor training load
-      - Track recovery after exercise
-      - Compare fatigue before and after workouts
+        - Period: October 21-23
+          Achievement: VS Code snippet development
+          Features:
+            - Reusable event templates
+            - Timestamp fields
+            - Summary and Notes fields
+            - Structured YAML entries
 
-    MentalHealth:
-      - Identify emotional triggers
-      - Track rumination
-      - Evaluate walking as an intervention
-      - Record StateAfter emotional events
+        - Period: October 24-31
+          Achievement: Expanded health observations
+          Features:
+            - MenstrualCycle
+            - PhysicalSymptoms
+            - Digestive severity
+            - Subjective recovery
+            - LifeEvent
 
-    HOS:
-      - Standardize YAML structure
-      - Improve data completeness
-      - Develop automated monthly analysis
-      - Identify relationships between events and states
+      Improvements:
+        - Standardize event names
+        - Standardize timestamps
+        - Standardize measurement scales
+        - Validate missing fields
+        - Detect duplicated records
+        - Automate monthly summaries
+        - Record StateAfter consistently
 
-  MonthlyConclusion:
+    MonthlyFindings:
+      Positive:
+        - Consistent interest in health monitoring
+        - Frequent physical activity
+        - Improved emotional awareness
+        - Development of structured health logging
+        - Better documentation of physical symptoms
+
+      Challenges:
+        - Inconsistent sleep duration
+        - Variable recovery
+        - Digestive discomfort
+        - Late-cycle fatigue and cravings
+        - Emotional stress
+        - Incomplete event outcome tracking
+
+      KeyHypotheses:
+        - Sleep quality and duration influence energy
+        - Digestive symptoms may be related to meal patterns
+        - Menstrual phase may influence physical and emotional states
+        - Exercise response depends partly on recovery
+        - Emotional events may affect eating and cognitive performance
+
+    NovemberGoals:
+
+      Sleep:
+        - Improve sleep consistency
+        - Track subjective recovery alongside Garmin scores
+        - Compare sleep with next-day energy
+
+      Digestion:
+        - Track meals and digestive symptoms
+        - Record Bristol score
+        - Investigate bloating triggers
+
+      MenstrualCycle:
+        - Track symptoms throughout the cycle
+        - Compare cravings, fatigue and mood
+        - Identify recurring patterns
+
+      Movement:
+        - Monitor training load
+        - Track recovery after exercise
+        - Compare fatigue before and after workouts
+
+      MentalHealth:
+        - Identify emotional triggers
+        - Track rumination
+        - Evaluate walking as an intervention
+        - Record StateAfter emotional events
+
+      HOS:
+        - Standardize YAML structure
+        - Improve data completeness
+        - Develop automated monthly analysis
+        - Identify relationships between events and states
+
+    MonthlyConclusion:
     Summary: 
       October marked the transition from basic health
       logging toward a structured Human Operating System.
@@ -6321,18 +6321,21 @@ Month of Nov:
       - Include bed time and sleep time 
       - Include sleep Hygiene at the end of the logs
       - 7 to 8 hours of sleep
-    Log Automation:
+    TODO .Log Automation:
       - Create an ID for each member:
         Details: 
           - to be published in the website
         Hana:   42242
         Bobi:   42241
         Anita:  42333
-    Create process for Logging:
-      - Morning to be reviewed by Anita
-      - Evevning to be reviewed by Robi
-      - Create a task for reviewers
-      - Create a task for process description
+    TODO .Create process for Logging:
+      +: {CreatedBy: Hana, CreatedAt: 20261101 T 144754, By: Hana, Tags: [TL, Health], Estimation:10 , RemTime:10 , Importance: 5-VeryHigh}
+    
+      Details:
+        - Morning to be reviewed by Anita
+        - Evevning to be reviewed by Robi
+        - Create a task for reviewers
+        - Create a task for process description
   Logs:
     42242-20261101:
       Morning: 
@@ -6383,7 +6386,159 @@ Month of Nov:
           MindPower: 3 
           Summary: 
           Notes: the analysis gave me controlled dopamine for continuing the work flow 
+        <Food>:
+          Time: 16:00
+          MealDescription: Rice, fish, Lentils, rice cake, chocolate pudding 
+          Quantity: moderate
+          Summary: 
+          Notes: felt lighter than previous days ( the heaviness after lunch)
+        <Movement>:
+          Time: 17:00
+          Activity: cleaning and some lower ex
+          Duration: 1 hr
+          Intensity: easy
+          Summary: 
+          Notes: 
       Evening:
+        <Work>:
+          Time: 18:15
+          ActivityDesc: creating new format and snippet for the month of Nov
+          Duration: 30m
+          Focus: 2
+          MindPower: 2 
+          Summary: 
+          Notes: 
+        <Movement>:
+          Time: 18:50
+          Activity: Walk
+          Duration: 1hr
+          Intensity: easy
+          Summary: 
+          Notes: 
+        <Drugs>:
+          Time: 20:00
+          Name: W
+          Dosage: 0.77
+          Unit: g
+          Summary: 
+          Notes: 
+        <LifeEvent>:
+          Time: 20:00
+          EventDescription: went for candle lighting under the tree
+          EmotionalImpact: Heavy an light in the same time
+          Summary: 
+          Notes:  felt alone as a female. I wanted to hear mamas voice, her hug, her smell. So many childhood memories activated
+        <Food>:
+          Time: 21:15
+          MealDescription: Chocolates,; 0.5 twix,0.5 Tobleron, 0.5, 0.5 kitkat, 0.5 banana chocolate, 1.5 nutella biscuit, 20 pcs wasabi peanut, one protein dextrose
+          Quantity: a LOT
+          Summary: 
+          Notes: First period ( very messy ) cravings, Mamas event ( candle)
+        <SleepHygiene>:
+          Time: 22:00
+          Activity: some stretches, and bad diet
+          Duration: 1hr
+          Summary: 
+          Notes: 
+
+
+42333_20261102_Incomplete:
+  Morning:
+    <Sleep>:
+      BedTime: 
+      SleepTime:
+      WakeTime:
+      Duration:
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+    <Digestion>:
+      Time:
+      Bristol:
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:
+  Afternoon:
+    <Drugs>:
+      Time:
+      Name:
+      Dosage:
+      Unit:
+      Summary:
+      Notes:
+    <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+    <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+  Evening:
+    <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

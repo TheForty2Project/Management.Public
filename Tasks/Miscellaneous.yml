@@ -47,7 +47,7 @@ Id: Misc
       Details: Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 .Health:
-  InProgress .Health planning:
+  Ongoing .Health planning:
     +: { CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi }
     Requirement: 
       - To be scheduled in google calendar
@@ -56,20 +56,60 @@ Id: Misc
     Health log data entry and exercise plan:
       OnGoing .Monthly:
         Details: 
-          Summary of previosu month helath log
+          Summary of previous month helath log
           Summary of previous exercise planning and implementation
+        Done .Schedule health log recent development meeting with the members: 
+          +: {CreatedBy: Hana, CreatedAt: 20261101 T 151142, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          Result: 
+          Done .Month of Nov - 20261102T12:00-13:00:
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+          
+          EstTODO .Month of Dec - 20261202T12:00-13:00:
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+            
+        Development Tasks:
+          Done .Log Automation:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
+            Details: 
+              - Create an ID for each member - to be published in the website::
+                Hana:   42242
+                Bobi:   42241
+                Anita:  42333 (to be reviewed)
+          Done .Create snippet for the whole log for each member:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154802, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
+            Details: 
+              - Instead of loading each property eg <Sleep> or timeline category (morning, afternoon, evevning) create the whole log and modification can happen after. 
+              - To save time.
+          EstTODO .To be reviewed by members:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}     
       Ongoing .Weekly:
         OnGoing .Do weekly health related planning:
           +: { CreatedBy: Bobi, CreatedAt: 20260504 T 135831, By: Bobi, Tags: [ CSVDONE ], Estimation:, RemTime: }
-          Details:
-            
-              OnGoing .Schedule Health Analysis sessions:
+          
+          OnGoing .Schedule Health Analysis sessions:
+            Details:
+              Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
+            Results:
+            Done .20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
+            TODO .Week44 Analysis:
+              +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+              Details: 
+                - Scheduled for 20261102     
+            EstTODO .Week45 Analysis:
+              +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
               Details:
-                Basically performing the -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"< and creating schedule for the next week:
-              Results:
-                20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
-              InProgress .Analyse Health Data:
-                +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ CSVTODO ], Estimation: 180m, RemTime: 180m }        
+                - Scheduled for 20261114
+            Note:
+              - Explore twitch and add the schedules to Twitch calendar
+              - mid of Nov
+          InProgress .Analyse weekly Health Data:
+            +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ TL, Health ], Estimation: 180m, RemTime: 180m }   
+            Details: 
+              - Go through the exercise pic and videos in google drive - 
+              - Go through VSC exercise program
+          EstTODO .Review Analysis:
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 121209, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+            
       Ongoing .Daily:
         OnGoing .Do health log and daily reviews:
           +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }
@@ -82,7 +122,10 @@ Id: Misc
             - To be reviewed by:
               - Morning - Anita 
               - Evevning - Bobi 
-      OnGoing .Hana to schedule it own in google Calendar:
+        EstTODO .Do Health Log Review:
+          +: {CreatedBy: Hana, CreatedAt: 20261102 T 121508, By: [Bobi, Anita], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+          
+      OnGoing .Hana to schedule it on in google Calendar:
         +: { CreatedBy: Hana, CreatedAt: 20260610 T 135521, By: Hana, Tags: [ CSVTODO ], Estimation: 30m, RemTime: 30m }
     Diet:
        OnGoing .Create food and activity schedule:
@@ -121,8 +164,6 @@ Id: Misc
               - sh mobility of next week
           NEXT .Have it reviewed by Bobi:
           NEXT .Taskifying:
-  
-  
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: { CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [ Bobi Hana ], Tags: [ CSVDONE ], Estimation: "60", RemTime: "60" }
     Details:
@@ -726,12 +767,6 @@ Id: Misc
           ScheduledAt: 20261019 T 140000
           Details:
             on a call? Ideally here though.
-          
-          
-        
-        
-
- 
   Cancelled .Analysis of the month of June and July:
     +: { CreatedBy: Bobi, CreatedAt: 20260803 T 185126, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average }
     Details:
@@ -753,7 +788,7 @@ Id: Misc
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   Done .Work out a blood pressure increasing training protocol with ChatGPT:
     +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [Health, TLDone, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
-  OnGoing .Schedule lab test and doctor appointments:
+  Done .Schedule lab test and doctor appointments:
     +: { CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana }
 
     Done .Research lab test for both Robert and Hana:

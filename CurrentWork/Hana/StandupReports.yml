@@ -341,7 +341,7 @@ SR_20261030_Hana:
   NEXT:
 
     - -->Tasks\Miscellaneous\..Health.."Health planning"<
-  
+
     - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
     - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
     - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the files mirrored to the site and see what Items should be removed""<
@@ -350,8 +350,13 @@ SR_20261030_Hana:
 
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 91m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 103m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
     - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
-
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly"<: [ 20m, "", 20261101 T 135713 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 5m, " creating new format and snippet for the month of Nov", 20261031 T 134306 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members"<: [ 2m, "", 20261101 T 153336 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly"."Development Tasks".."Create snippet for the whole log for each member"<: [ 20m, "", 20261101 T 155447 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 7m, "", 20261102 T 115956 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members".."Month of Nov - 20261102T12:00-13:00"<: [ 0m, "", 20261102 T 120859 ]
   Next:
     - null

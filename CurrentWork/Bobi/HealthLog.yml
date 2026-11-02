@@ -923,7 +923,7 @@ Month of Nov:
    - Reviewing Health logs of the memeber in the evening
    - Discussing the process of loging in case 42242 was not able to record the data
   Logs:
-    42241-20261101 incomplete:
+    42241-20261101 (complete):
       Morning: 
         <Sleep>:
           BedTime: 11:45
@@ -979,5 +979,106 @@ Month of Nov:
           Summary: 
           Notes: the analysis gave me controlled dopamine for continuing the work flow 
       Evening:
-
-
+        <Movement>:
+          Time: 18:50
+          Activity: Walk
+          Duration: 1hr
+          Intensity: easy
+          Summary: 
+          Notes: 
+        <Drugs>:
+          Time: 20:00
+          Name: W
+          Dosage: 0.77
+          Unit: g
+          Summary: 
+          Notes: 
+        <LifeEvent>:
+          Time: 20:00
+          EventDescription: went for candle lighting under the tree
+          EmotionalImpact: Heavy an light in the same time
+          Summary: 
+          Notes:  felt alone as a female. I wanted to hear mamas voice, her hug, her smell. So many childhood memories activated
+        <Food>:
+          Time: 21:15
+          MealDescription: Chocolates,; 0.5 twix,0.5 Tobleron, 0.5, 0.5 kitkat, 0.5 banana chocolate, 1.5 nutella biscuit, 20 pcs wasabi peanut, one protein dextrose
+          Quantity: a LOT
+          Summary: 
+          Notes: First period ( very messy ) cravings, Mamas event ( candle)
+        <SleepHygiene>:
+          Time: 22:00
+          Activity: some stretches, and bad diet
+          Duration: 1hr
+          Summary: 
+          Notes: 
+    42242_20261102 incomplete:
+      Morning:
+        <Sleep>:
+          BedTime:
+          SleepTime:
+          WakeTime:
+          Duration:
+          SleepScore:
+          BodyBattery:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+        <Digestion>:
+          Time:
+          Bristol:
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes:
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:

@@ -136,7 +136,7 @@ HOS:
                   Carbohydrates: 162 # g/day
 
               ExpectedProgress:
-                Week0: 80 # kg
+                Week0: 80 # kg estimated ( need to weigh)
                 Week4: 78
                 Week8: 76
                 Week12: 74
@@ -153,8 +153,8 @@ HOS:
                 Notes:
                   - Weight loss is not always linear
                   - Menstrual cycle can affect water retention
-                  - Prioritize muscle preservation
-                  - Adjust calories based on actual activity
+                  - Prioritize muscle preservation (protein and strength training)
+                  - Adjust calories based on actual activity (gym day - more protein, run day - more carbs)
 
         StressEating:
           Trigger: Being home alone with triggering person

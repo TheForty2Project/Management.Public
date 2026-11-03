@@ -6337,7 +6337,7 @@ Month of Nov:
         - Create a task for reviewers
         - Create a task for process description
   Logs:
-    42242-20261101:
+    42242-20261101_Complete:
       Morning: 
         <Sleep>:
           BedTime: 11:45
@@ -6440,124 +6440,210 @@ Month of Nov:
           Duration: 1hr
           Summary: 
           Notes: 
-
-
-42333_20261102_Incomplete:
-  Morning:
-    <Sleep>:
-      BedTime: 11:00
-      SleepTime: 11:13
-      WakeTime: 5:50
-      Duration: 6h 
-      SleepScore: 74
-      BodyBattery: +40
-      Summary:
-      Notes: 
-    <SystemState>:
-      Time: 06:00
-      Mood: Tired
-      ThinkingQuality: 2
-      Motivation: 2
-      PhysicalEnergy: 1 
-      BodyBattery: 
-      Rumination: 0
-      Summary: 
-      Notes: 
-    <PhysicalSymptoms>:
-      Time: 1710$
-      Skin:
-        Acne: 1 acne
-      Face:
-        Puffiness: 3
-        Location: WholeFace
-      General:
-        Fatigue: 2
-      Summary: 
-      Notes: Looked at my face in the mirror it was very puffy
-    <Food>:
-      Time: 06:15
-      MealDescription: Oats, Egg, Rice, Lentils
-      Quantity: few
-      Summary:
-      Notes: 
-    <Movement>:
-      Time: 07:00
-      Activity: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse weekly Health Data".."Analyse Week45"<
-      Duration: 2 hr
-      Intensity: Moderate
-      Summary:
-      Notes:
-    <Work>:
-      Time: 11:00
-      ActivityDesc: Process creation and health log data entry
-      Duration: 2
-      Focus: 2
-      MindPower: 2 
-      Summary: 
-      Notes: 
-  Afternoon:
-    <Work>:
-      Time: 12:00
-      ActivityDesc: Process creation and health log data entry
-      Duration: 2
-      Focus: 1
-      MindPower: 1
-      Summary:
-      Notes:
-    <Food>:
-      Time: 15:00
-      MealDescription: Rice, Lentils, Fish, Biscuots with milk, Coffee
-      Quantity: Moderate
-    <Digestion>:
-      Time: 16:30
-      Bristol: 4
-      Bloating: 2
-    <Work2>:
-      Time: 16:00
-      ActivityDesc: health log and uploading videos 
-      Duration:  2h
-      Focus: 1
-      MindPower: 1
-      Summary: 
-      Notes: 
-    <Movement>:
-      Time: 18":30
-      Activity: walk
-      Duration: 5m
-      Intensity: easy
-      Summary:
-      Notes:
-  Evening:
-    <Work>:
-      Time: 19:30
-      ActivityDesc: Hungarian language and continuation of tasks
-      Duration: 
-      Focus: 1
-      MindPower: 1
-      Summary:
-      Notes:
-    <Food>:
-      Time: 20:30
-      MealDescription: Rice, boiled potato, Indian soup (mae by guest), 2 bicuits, greentea
-      Quantity: moderate
-      Summary: 
-      Notes: 
-    <Work2>:
-      Time: 21:00
-      ActivityDesc: misc video and health log data entry
-      Duration: 2h
-      Focus: 
-      MindPower: 
-      Summary: 
-      Notes: 
-    <SleepHygiene>:
-      preparing tomorrows task:
-      Smoke: 
-      Hot shower:
-      Reading book:
-      Bed time:
-
-
+    42242_20261102_Complete:
+      Morning:
+        <Sleep>:
+          BedTime: 11:00
+          SleepTime: 11:13
+          WakeTime: 5:50
+          Duration: 6h 
+          SleepScore: 74
+          BodyBattery: +40
+          Summary:
+          Notes: 
+        <SystemState>:
+          Time: 06:00
+          Mood: Tired
+          ThinkingQuality: 2
+          Motivation: 2
+          PhysicalEnergy: 1 
+          BodyBattery: 
+          Rumination: 0
+          Summary: 
+          Notes: 
+        <PhysicalSymptoms>:
+          Time: 1710$
+          Skin:
+            Acne: 1 acne
+          Face:
+            Puffiness: 3
+            Location: WholeFace
+          General:
+            Fatigue: 2
+          Summary: 
+          Notes: Looked at my face in the mirror it was very puffy
+        <Food>:
+          Time: 06:15
+          MealDescription: Oats, Egg, Rice, Lentils
+          Quantity: few
+          Summary:
+          Notes: 
+        <Movement>:
+          Time: 07:00
+          Activity: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse weekly Health Data".."Analyse Week45"<
+          Duration: 2 hr
+          Intensity: Moderate
+          Summary:
+          Notes:
+        <Work>:
+          Time: 11:00
+          ActivityDesc: Process creation and health log data entry
+          Duration: 2
+          Focus: 2
+          MindPower: 2 
+          Summary: 
+          Notes: 
+      Afternoon:
+        <Work>:
+          Time: 12:00
+          ActivityDesc: Process creation and health log data entry
+          Duration: 2
+          Focus: 1
+          MindPower: 1
+          Summary:
+          Notes:
+        <Food>:
+          Time: 15:00
+          MealDescription: Rice, Lentils, Fish, Biscuots with milk, Coffee
+          Quantity: Moderate
+        <Digestion>:
+          Time: 16:30
+          Bristol: 4
+          Bloating: 2
+        <Work2>:
+          Time: 16:00
+          ActivityDesc: health log and uploading videos 
+          Duration:  2h
+          Focus: 1
+          MindPower: 1
+          Summary: 
+          Notes: 
+        <Movement>:
+          Time: 18":30
+          Activity: walk
+          Duration: 5m
+          Intensity: easy
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time: 19:30
+          ActivityDesc: Hungarian language and continuation of tasks
+          Duration: 
+          Focus: 1
+          MindPower: 1
+          Summary:
+          Notes:
+        <Food>: 
+          Time: 20:30
+          MealDescription: Rice, boiled potato, Indian soup (made by guest), 2 bicuits, greentea
+          Quantity: moderate
+          Summary: 
+          Notes: Very Spicy (can inflame the guts)
+        <Work2>:
+          Time: 21:00
+          ActivityDesc: misc video and health log data entry
+          Duration: 2h
+          Focus: 
+          MindPower: 
+          Summary: 
+          Notes: 
+        <SleepHygiene>:
+          preparing tomorrows task: Yes
+          Smoke: Yes 3 puffs
+          Hot shower: No
+          Reading book: No
+          Bed time: 11:00
+    42242_20261103_Incomplete:
+      Morning:
+        <Sleep>:
+          BedTime: 11:00
+          SleepTime: 11:39
+          WakeTime: 5:30
+          Duration: 6h 29m
+          SleepScore: 79
+          BodyBatterygained: +50
+          Summary:
+          Notes: Abdmonial and leg pain 
+        <Movement>:
+          Time: 05:45
+          Activity: stretches, jumps, lunges
+          Duration: 10m
+          Intensity: easy
+          Summary: 
+          Notes: thought the intensity is easy but it was really difficult to stretch and somehow it is felth like heavy intensity
+        <Food>:
+          Time: 07:00
+          MealDescription: oatmeal, protein milk biscuit por
+          Quantity: low
+          Summary:
+          Notes:
+        <Sleep2>:
+          BedTime: 07:00
+          WakeTime: 11:00
+          Duration: 4 hr
+          SleepScore: 
+          BodyBattery: 
+          Summary: 
+          Notes: nap          
+        <Food2>:
+          Time: 11:15
+          MealDescription: Rice, Curry Sauce, 
+          Quantity: low
+          Summary: 
+          Notes: 
+        <Digestion>:
+          Time: 12:00
+          Bristol: 4
+          Bloating: 3
+          AbdominalPain:
+          Flatulence: 3
+          Belching:
+          Summary:
+          Notes:
+      Afternoon:
+        <Work>:
+          Time: 12:00
+          ActivityDesc: process creation for health section
+          Duration: 30m
+          Focus: 1
+          MindPower: 1
+          Summary:
+          Notes: Couldnt listen to Robi. Super tensed
+        <Food>:
+          Time: 14:00
+          MealDescription: rice with cumin, pork meat with tomato, boiled spinach
+          Quantity: low
+          Summary:
+          Notes:
+        <Digestion>:
+          Time: 15:00
+          Bristol: 4
+          Bloating: 1
+          Flatulence: 3
+      Evening:
+        <Movement>:
+          Time: 18:00
+          Activity: Krav Maga
+          Duration: 1.5
+          Intensity: moderate
+          Summary: 
+          Notes: Farting in the gym. losing energy at the end. Couldnt focus
+        <Work>:
+          Time: 21:00
+          ActivityDesc: health log and task preparation
+          Duration: 30
+          Focus: 1
+          MindPower: 0
+          Summary:
+          Notes: 
+        <Drugs>:
+          Time: 22:00
+          Name: W. Melatonin, 5 HTP
+          Dosage: 0.04 , 2, 
+          Unit: g
+          Summary: 
+          Notes: W is getting less and less
 
 
 

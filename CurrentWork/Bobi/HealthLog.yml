@@ -1011,7 +1011,7 @@ Month of Nov:
           Duration: 1hr
           Summary: 
           Notes: 
-    42242_20261101_incomplete:
+    42241_20261102_incomplete:
       Morning:
         <Sleep>:
           BedTime: 2:27 
@@ -1057,8 +1057,7 @@ Month of Nov:
           Duration: 1 hr
           Intensity: hard
           Summary: 
-          Notes:   
-      
+          Notes:         
       Afternoon:
         <Drugs>:
           Time: 13:30

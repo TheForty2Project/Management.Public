@@ -1004,7 +1004,7 @@ Month of Nov:
           MealDescription: Chocolates,; 0.5 twix,0.5 Tobleron, 0.5, 0.5 kitkat, 0.5 banana chocolate, 1.5 nutella biscuit, 20 pcs wasabi peanut, one protein dextrose
           Quantity: a LOT
           Summary: 
-          Notes: First period ( very messy ) cravings, Mamas event ( candle)
+          Notes: 
         <SleepHygiene>:
           Time: 22:00
           Activity: some stretches, and bad diet
@@ -1119,3 +1119,75 @@ Month of Nov:
           Intensity: easy
           Summary: 
           Notes: 
+
+    42241_20261104_Incomplete:
+      Morning:
+        <Sleep>:
+          BedTime:
+          SleepTime:
+          WakeTime:
+          Duration:
+          SleepScore:
+          BodyBattery:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+        <Digestion>:
+          Time:
+          Bristol:
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes:
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:

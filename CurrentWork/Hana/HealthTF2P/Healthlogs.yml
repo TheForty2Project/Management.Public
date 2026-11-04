@@ -6318,6 +6318,7 @@ Month of Nov:
   Goals:
     <Sleep>:
       - Target is 23:00 or earlier for sleeping time by the end of Nov
+      - 7 to 8 hours of good sleep
       - Include bed time and sleep time 
       - Include sleep Hygiene at the end of the logs
       - 7 to 8 hours of sleep
@@ -6554,7 +6555,7 @@ Month of Nov:
           Hot shower: No
           Reading book: No
           Bed time: 11:00
-    42242_20261103_Incomplete:
+    42242_20261103_Complete:
       Morning:
         <Sleep>:
           BedTime: 11:00
@@ -6644,8 +6645,93 @@ Month of Nov:
           Unit: g
           Summary: 
           Notes: W is getting less and less
-
-
+        <LifeEvent>:
+          Time: 22:15
+          EventDescription: Hana and Robi talks about the day and plans for tomorrow
+          EmotionalImpact: very positive, we kind of missed each other. 
+          Summary: Despite we live together we are busy working we dont have much tie for each other.
+          Notes: keep progressing Organizing our tasks
+        <SleepHygiene>:
+          preparing tomorrows task: Yes
+          Smoke: Yes 3 puffs
+          Drugs: Melatonin 2g, 5HTP 100mg
+          Hot shower: No
+          Reading book: No
+          Bed time: 11:45
+    42242_20261104_Incomplete:
+        Morning:
+          <Sleep>:
+            BedTime: 11:45
+            SleepTime: 12:20
+            WakeTime: 9:01
+            Duration: 8h 21m
+            SleepScore: 83
+            BodyBattery gained: +56
+            Summary:
+            Notes: longer sleep, no alarm, better thinking quality
+          <SystemState>:
+            Time: 09:00
+            Mood: 3
+            ThinkingQuality: 3 
+            Motivation: 3
+            PhysicalEnergy: 3 
+            BodyBattery: 
+            Rumination: 1
+            Summary: 
+            Notes: best wake up in one week i think (closed eye, open eye 8 hours leter . beter mood)
+          <Food>:
+            Time: 09:30
+            MealDescription: Oats, Poached egg, some mango
+            Quantity: 4 spoon, 1, 50g, coffee with milk+ almond + sweetener
+            Summary:
+            Notes: 
+          <Digestion>:
+            Time: 10:00
+            Bristol: 4 leaning a bit to 3
+            Bloating: 0
+            AbdominalPain: 0
+            Flatulence: 1
+            Belching:
+            Summary:
+            Notes: it was a clean poopika
+          <Work>:
+            Time: 10:30
+            ActivityDesc: Health log
+            Duration: 30m
+            Focus: 2
+            MindPower: 2 
+            Summary: 
+            Notes: 
+        Afternoon:
+          <Food>:
+            Time: 12:00
+            MealDescription: Rice, pork meat with tomato, Spinach
+            Quantity: moderate
+            Summary:
+            Notes:
+          <Movement>:
+            Time: 12:30
+            Activity: Walk
+            Duration: 4 hr
+            Intensity: easy
+            Summary:
+            Notes: Walked with Anyu
+          <Drugs>:
+            Time: 17:00
+            Name: Kratom
+            Dosage: 0.5
+            Unit: g
+            Summary: 
+            Notes:  It didnt work         
+        Evening:
+          <Work>: 
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
 
 
 
@@ -6674,6 +6760,7 @@ Month of Nov:
 
 Notes To be done:
   - Add Sleep Time to 
+  - Add Body battery gained in sleep property
   - Legend for numeration
   - Include stool score and type
   - Include Sexual activity and thoughts

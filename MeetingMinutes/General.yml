@@ -1,3 +1,5 @@
++: {Type: Folder, DefaultTypes: [Folder, MeetingMinutes]}
+
 FoodMeetingWithAnita:
   Workspace:
     Useful links:
@@ -42,5 +44,36 @@ FoodMeetingWithAnita:
             - loads of sucrose
             - fibers
          
+HealthLogProcessReview:
+  Participants: [Bobi, Hana]
+  StartTime: 20261103 T 134200
+  EndTime: 20261103 T 145000
+  Result:
+    Tasks:
+      TODO .Define missing + fix EventLogBase classes:
+        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+        Details:
+          - Define the missing EventLogBase classes, such as:
+            - SystemState
+            - Sleep
+            - EventLogBase?
+            - etc - go through and check whether each has one
+            - I think there are a few left in Miscellaneous (e.g. SystemState is there)
+          - Fix existing ones:
+            - inheritance
+            - review the values used vs. what's defined and update the definition if necessary
+          - Changes:
+            - BodyBattery in Sleep should be "BodyBatteryGain"
+      TODO .Update the hos vs code snippets:
+        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+        Details:
+        TODO .Entries inside should be lists (so add a dash in front of them):
+        TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
+          Details:
+            such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
+        TODO .Add SystemState to each part of the day:
+
         
-    Health log cooperation:
+
+                
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -6442,9 +6442,10 @@ Month of Nov:
           Notes: 
 
 
-42333_20261102_Incomplete:
-  Morning:
-    <Sleep>:
+42242_20261102_Incomplete:
+  Type: DailyHealthLog
+  .Morning:
+  - <Sleep>:
       BedTime: 11:00
       SleepTime: 11:13
       WakeTime: 5:50
@@ -6453,7 +6454,7 @@ Month of Nov:
       BodyBattery: +40
       Summary:
       Notes: 
-    <SystemState>:
+  - <SystemState>:
       Time: 06:00
       Mood: Tired
       ThinkingQuality: 2
@@ -6463,8 +6464,8 @@ Month of Nov:
       Rumination: 0
       Summary: 
       Notes: 
-    <PhysicalSymptoms>:
-      Time: 1710$
+  - <PhysicalSymptoms>:
+      Time: 1710
       Skin:
         Acne: 1 acne
       Face:
@@ -6474,20 +6475,20 @@ Month of Nov:
         Fatigue: 2
       Summary: 
       Notes: Looked at my face in the mirror it was very puffy
-    <Food>:
+  - <Food>:
       Time: 06:15
       MealDescription: Oats, Egg, Rice, Lentils
       Quantity: few
       Summary:
       Notes: 
-    <Movement>:
+  - <Movement>:
       Time: 07:00
       Activity: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse weekly Health Data".."Analyse Week45"<
       Duration: 2 hr
       Intensity: Moderate
       Summary:
       Notes:
-    <Work>:
+  - <Work>:
       Time: 11:00
       ActivityDesc: Process creation and health log data entry
       Duration: 2
@@ -6496,7 +6497,7 @@ Month of Nov:
       Summary: 
       Notes: 
   Afternoon:
-    <Work>:
+  - <Work>:
       Time: 12:00
       ActivityDesc: Process creation and health log data entry
       Duration: 2
@@ -6504,15 +6505,15 @@ Month of Nov:
       MindPower: 1
       Summary:
       Notes:
-    <Food>:
+  - <Food>:
       Time: 15:00
       MealDescription: Rice, Lentils, Fish, Biscuots with milk, Coffee
       Quantity: Moderate
-    <Digestion>:
+  - <Digestion>:
       Time: 16:30
       Bristol: 4
       Bloating: 2
-    <Work2>:
+  - <Work>:
       Time: 16:00
       ActivityDesc: health log and uploading videos 
       Duration:  2h
@@ -6520,7 +6521,7 @@ Month of Nov:
       MindPower: 1
       Summary: 
       Notes: 
-    <Movement>:
+  - <Movement>:
       Time: 18":30
       Activity: walk
       Duration: 5m

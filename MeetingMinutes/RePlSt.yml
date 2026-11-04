@@ -1,4 +1,4 @@
-+: {Type: Folder, DefaultTypes: [Folder, Task]}
++: {Type: Folder, DefaultTypes: [Folder, MeetingMinutes]}
 
 .RePlSt20260826:
   Participants: [Bobi, Hana]

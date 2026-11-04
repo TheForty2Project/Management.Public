@@ -819,7 +819,7 @@ AnitaHOSLog20261101 (Incomplete):
       Quantity: 
       Summary: 
       Notes: emotional eating (humus) 
-42333_20261102_Incomplete:
+42333_20261102_Complete:
   Morning:
     <Sleep>:
       BedTime: 00:35
@@ -845,11 +845,11 @@ AnitaHOSLog20261101 (Incomplete):
       Notes:
     <Digestion>:
       Time:
-      Bristol:
-      Bloating:
-      AbdominalPain:
-      Flatulence:
-      Belching:
+      Bristol: 0
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
       Summary:
       Notes:
     <Food2>:
@@ -891,18 +891,143 @@ AnitaHOSLog20261101 (Incomplete):
       Notes: took way too much time
   Evening:
     <Food>:
-      Time: 1745
-      MealDescription: 
+      Time: 22:10
+      MealDescription: lentil soup, 50 g tofu, 2 toast bread, 2 tablespoons of sour cream, 1/2 pudding in almnd milk and frozen strwaberries on top
+      Quantity: big
+      Summary: 
+      Notes: after the pudding felt really full
+    <Movement>:
+      Time: 19:20-20:20
+      Activity: walking
+      Duration: 1 hour
+      Intensity: low
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 22:50-23:40
+      ActivityDesc: understanding the Miscellaneous folder
+      Duration: 50 mins
+      Focus: low
+      MindPower: low
+      Summary:
+      Notes:
+42333_20261103_Complete:
+  Morning:
+    <Sleep>:
+      BedTime: 00:40
+      SleepTime: 00:45
+      WakeTime: 8:15
+      Duration: 7
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time: 8:50
+      MealDescription: cooked rice, cooked oats with ginger, 2 boiled eggs, 1 banana, coffee with almond milk and sweetener
+      Quantity: enough
+      Summary:
+      Notes:
+    <Digestion>:
+      Time: 9:30
+      Bristol: 5
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary:
+      Notes:
+  Afternoon:
+    <Work>:
+      Time: 13:00
+      ActivityDesc: Uni class
+      Duration: 3 hours
+      Focus: low
+      MindPower: low
+      Summary:
+      Notes:
+    <Food>:
+      Time: 12:15
+      MealDescription: 1/2 cube soup, 60 g rice noodles, canned hering
+      Quantity: mid
+      Summary:
+      Notes:
+    <Food2>:
+      Time: 17:30
+      MealDescription: 3 toast bread, 3 tablespoons of sour cream, coffee and 1 piece of dark chocolate
       Quantity: 
       Summary: 
       Notes: 
+  Evening:
     <Movement>:
-      Time: 1745$
-      Activity: 
-      Duration: 
-      Intensity: 
+      Time: 18:15
+      Activity: run
+      Duration: 1,5 hours
+      Intensity: mid
+      Summary: 
+      Notes:
+    <Food>:
+     Time: 21:30
+     MealDescription: protein oats, protein shake, 20 blueberries, 120 g hummusz 
+     Quantity: mid
+     Summary: 
+     Notes:  
+42333_20261104_Incomplete:
+  Morning:
+    <Sleep>:
+      BedTime: 23:50
+      SleepTime: 00:00
+      WakeTime: 7:05
+      Duration: 7
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time: 7:50
+      MealDescription: 65 g cooked rice,  60 g cooked oats with ginger, 2 boiled eggs (90 g), 140 g banana, coffee with 40 ml almond milk and sweetener
+      Quantity: mid
+      Summary:
+      Notes:
+    <Digestion>:
+      Time:
+      Bristol:
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:
+    <Work>:
+      Time: 9:00
+      ActivityDesc: uni class
+      Duration: 3 hours
+      Focus: mid
+      MindPower: low
       Summary: 
       Notes: 
+  Afternoon:
+    <Work>:
+      Time: 12:00
+      ActivityDesc: Uni tests and uni classes
+      Duration: 5
+      Focus: mid
+      MindPower: mid
+      Summary:
+      Notes:
+    <Food>:
+      Time: 12:30
+      MealDescription: coffee with almond/rice milk
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 15:20
+      MealDescription: 1/2 cube soup, 70 g rice noodles, 20 g tofu
+      Quantity: fair
+      Summary:
+      Notes:
+  Evening:
     <Work>:
       Time:
       ActivityDesc:
@@ -911,6 +1036,12 @@ AnitaHOSLog20261101 (Incomplete):
       MindPower:
       Summary:
       Notes:
+    <Food>:
+      Time: 17:50
+      MealDescription: 3 toast bread, 45 g hummusz, 35 g sour cream, canned hering
+      Quantity: mid
+      Summary: 
+      Notes: Robi is beautiful
 
 
   

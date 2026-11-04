@@ -4,7 +4,7 @@ namespace Barba.Types:
   Comments:
     - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. The term 'Barba' is a homage to the children cartoon 'BarbaPapa'"]
 
-  class Task:
+  class .Task:
     Inherits: StandardItem
     Properties:
       TaskStatusEnum Status:
@@ -71,7 +71,7 @@ namespace Barba.Types:
         Notes:
           Replacing the <-Workspace- "extension property" as at the moment these types of properties will be supported in much later phases only (if at all)
           
-  class WorkLog:
+  class .WorkLog:
     Properties:
       - User Performer:
           Mandatory: true
@@ -84,7 +84,7 @@ namespace Barba.Types:
           That is: [username, spentTime, optionalActivityDescription, optionalStartTime]
           Example: [bobi, 10m, "writing this", 20250115 T 2015]
 
-  enum TaskStatusEnum:
+  enum .TaskStatusEnum:
     .DraftTODO:
         Details: the initial status.
     .TODO:
@@ -122,7 +122,7 @@ namespace Barba.Types:
     .Closed:
         Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
 
-  class Bug:
+  class .Bug:
     Inherits: Task
     Properties:
       BugStatus BugStatus:
@@ -145,7 +145,7 @@ namespace Barba.Types:
         string ExpectedResult:
         string Steps:
 
-  enum BugStatus:
+  enum .BugStatus:
     Members:
       New:
       Accepted:
@@ -158,14 +158,14 @@ namespace Barba.Types:
       Closed:
       OnHold:
   
-  enum ZeroToThree:
+  enum .ZeroToThree:
     Members:
       Zero:
       One:
       Two:
       Three:
 
-  enum Levels:
+  enum .Levels:
     Members:
       0-Zero:
       1-VeryLow:
@@ -176,7 +176,7 @@ namespace Barba.Types:
       6-Extreme:
       7-OMG:
 
-  enum BristolPoopika:
+  enum .BristolPoopika:
     .1-HardLumps:
       Details: Separate hard lumps like nuts
     .2-LumpySausage: 
@@ -192,7 +192,7 @@ namespace Barba.Types:
     .7-WateryNoSolids:
       Details: Watery no soild pieces
     
-  class TestCase:
+  class .TestCase:
     Inherits: StandardItem
     Properties:
       Requirement Requirement:
@@ -243,19 +243,19 @@ namespace Barba.Types:
               Id: CurrentValue
               Type: integer  
 
-  class Milestone:
+  class .Milestone:
     Inherits: Requirement
     Properties:
       Task[] Tasks:
         Summary: Tasks need to be completed to complete a Milestone
         
-  enum RequirementType:
+  enum .RequirementType:
     Members:
       Requirement:
         IsDefault: true
       MileStone:
 
-  enum RequirementStatusEnum:
+  enum .RequirementStatusEnum:
     Members:
       New: 
           Summary: Initial Status
@@ -332,7 +332,7 @@ namespace Barba.Types:
                 Id: Closed
                 Summary: Everything is done around the feature.
     
-  class Area:
+  class .Area:
     Summary: Describes an Area in which the project needs to progress - such as F2Tool capability level, number of members or resources, process development level
     Inherits: StandardItem
     Properties:
@@ -341,7 +341,7 @@ namespace Barba.Types:
         IsDefault: true
       Milestone[] Milestones:
 
-  class UseCase:
+  class .UseCase:
     Inherits: StandardItem
     Properties:
       UseCaseStatusEnum UCStatus:
@@ -357,7 +357,7 @@ namespace Barba.Types:
       UCFlow[] AlternateFlows:
         IsDefault: true
 
-  enum UseCaseStatusEnum:
+  enum .UseCaseStatusEnum:
     Members:
       0-New:
       1-SomeProgress:
@@ -371,26 +371,26 @@ namespace Barba.Types:
         Summary:
           this is a magically good state, a UC made by a simple human should not be able to reach this
 
-  class UCFlows:    
+  class .UCFlows:    
     Properties:
       UCFlow Main:
       UCFlow[] Alternate:
         IsDefault: true
 
-  class UCFlow:
+  class .UCFlow:
     Inherits: StandardItem
     Properties:
       UCStep[] Steps:
         Summary: The steps to be taken by the actor(s)
 
-  class UCStep:
+  class .UCStep:
     Inherits: StandardItem
     Summary: The textual description of a step in a flow of an UseCase
     Properties:
       UCStep[] Steps:
         IsDefault: true   
 
-  class StandupReport:
+  class .StandupReport:
     Inherits: StandardItem
     Properties:
       StandupWasEntry[] Was:
@@ -400,7 +400,7 @@ namespace Barba.Types:
       string[] AOIB:
         Details: any other important business worth mentioning - like "I won't be available in the afternoon", "I need a discussion about something"
 
-  class StandupWasEntry:
+  class .StandupWasEntry:
     Inherits: Item
     Properties:
       F2Link Link:
@@ -418,7 +418,7 @@ namespace Barba.Types:
           Example:
             -->Tasks\Management\..Administration<: [42m, "Cleanups", 20260422 T 1304]
   
-  class StandupNextEntry:
+  class .StandupNextEntry:
     Inherits: Item
     Properties:
       F2Link Link:
@@ -434,7 +434,7 @@ namespace Barba.Types:
           Example:
             -->Tasks\Management\..Administration<: [30m, "plan and start it"]
 
-  class StandupMeetingMinutes:    
+  class .StandupMeetingMinutes:    
     Inherits: StandardItem
     Properties:
       User ScrumMaster:
@@ -443,7 +443,7 @@ namespace Barba.Types:
       DateTime NextStandupPlannedAt:
       User NextStandupScrumMaster:
 
-  class Article:
+  class .Article:
     Inherits: StandardItem
     Properties:
       string Title:
@@ -453,10 +453,10 @@ namespace Barba.Types:
         IsDefault: true
       ArticleMaturity Maturity:
 
-  class Notes:
+  class .Notes:
     Inherits: Article
   
-  enum ArticleMaturity:
+  enum .ArticleMaturity:
     Members:
     .0-New:
     .1-SomeProgress:
@@ -468,7 +468,7 @@ namespace Barba.Types:
     .7-Mature:
     .8-Gandalf:
 
-  class ProcessDescription:
+  class .ProcessDescription:
     Inherits: StandardItem
     Properties:
       string[] Actors:
@@ -476,7 +476,7 @@ namespace Barba.Types:
       ProcessStep[] Steps:
         IsDefault: true
 
-  class ProcessStep:
+  class .ProcessStep:
     Inherits: StandardItem
     Properties:
       string Actor:
@@ -487,6 +487,12 @@ namespace Barba.Types:
         IsDefault: true
 
 .HealthLogClasses:
+  class .DailyHealthLog:
+    Inherits: StandardItem
+    Properties:    
+      EventLogBase[] .Morning:
+      EventLogBase[] .Afternoon:
+      ...:
   class .Food:
     Inherits: EventLogBase
     Summary: 
@@ -615,7 +621,7 @@ namespace Barba.Types:
     string .Swelling:
       Summary: the location if so
   class .MenstrualCycle:
-    Description: 
+    Summary: 
       Records menstrual cycle timing, bleeding,
       and associated physical and psychological symptoms.
       Helps investigate individual relationships between
@@ -626,27 +632,33 @@ namespace Barba.Types:
     BleedingInfo .Bleeding:                    
     MenstruationSymptoms .Symptoms:
   
-    class .CycleInfo:
-      integer .Day:               # Day 1 = first day of menstrual bleeding
-      MenstrualPhase .Phase:
-        Summary: Menstrual; Follicular; Ovulatory; Four - Luteal                      
+  class .CycleInfo:
+    integer .Day:
+      Summary: Day 1 = first day of menstrual bleeding
+    MenstrualPhase .Phase:      
 
-    class .BleedingInfo:
-      ZeroToFive .Flow: 
-        Summary: Zero - None; One - Spotting; Two - Light; Three - Moderate; Four - Heavy; Five - Worryingly much
-      string .Color:
-      bool .Clots: 
+  enum MenstrualPhase:  
+    .Menstrual:
+    .Follicular:
+    .Ovulatory:
+    .Luteal:
 
-    class .MenstruationSymptoms:
-      ZeroToThree .Cramps: 
-        Summary: Zero - no pain; One - some pain; Two - Uncomfortable pain; Three - Unbearable Pain
-      bool .BreastTenderness:                      
-      ZeroToThree .Bloating: 
-        Summary: Zero - none; One - might a little; Two - Bloated; Three - Pregnant bloated
-      ZeroToFive .Headache: 
-        Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm gonna die
-      ZeroToThree .Fatigue: 
-        Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
+  class .BleedingInfo:
+    ZeroToFive .Flow: 
+      Summary: Zero - None; One - Spotting; Two - Light; Three - Moderate; Four - Heavy; Five - Worryingly much
+    string .Color:
+    bool .Clots: 
+
+  class .MenstruationSymptoms:
+    ZeroToThree .Cramps: 
+      Summary: Zero - no pain; One - some pain; Two - Uncomfortable pain; Three - Unbearable Pain
+    bool .BreastTenderness:                      
+    ZeroToThree .Bloating: 
+      Summary: Zero - none; One - might a little; Two - Bloated; Three - Pregnant bloated
+    ZeroToFive .Headache: 
+      Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm gonna die
+    ZeroToThree .Fatigue: 
+      Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
           
     # Next Phase 
     # class .Decision:

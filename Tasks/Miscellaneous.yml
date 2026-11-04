@@ -841,27 +841,30 @@ Id: Misc
                     SuspectedReasons:
                     OtherNotables:
                       
-      EstTODO .Action the feedback items:
+      InProgress .Action the feedback items:
         +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155118, By: [Hana]}
         EstTODO .Go through the previous classes and add any missing to the new ones:
-          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 134901, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 134901, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
           Details:
             Like hornyness, music enjoyment          
         Done .Create snippets for the Items:
           +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
-        InProgress .Move the classes to BusinessClasses.yml:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+        Done .Move the classes to BusinessClasses.yml:
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TLDone], Estimation: 15, RemTime: 15, Importance: 3-Average}
           Workspace:
             - Eventlogbase is missing
           
       EstTODO .Create health-log recording process:
-        +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135141, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+        +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135141, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
         Details:
-          - When and how to take the summary log (ideally in the morning while Robi is taking his breakfast)
+          Provide answers to these questions:          
           - How to handle the "detailed" ones - where to put, in what format, how to migrate to the "proper" place
-          - What should be the "proper place"          
-      
-        
+          - What should be the "proper place"
+          - How should we do the reviews - who does what when, what are the steps during review (what should be checked)
+          - Who and how should verify that people are doing their parts (candidate:_ Hana)
+          Have them reviewed:
+          Put them into ProcessDescription(s) after review:
+
       Done .Showcase Health Log to Anita:
         +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana}
         Done .Take a video of the showcasing health log:

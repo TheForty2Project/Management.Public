@@ -144,7 +144,7 @@
 		"body": [
 			"<SystemState>:",
 			"  Time: $CURRENT_HOUR$CURRENT_MINUTE",
-			"  Mood: $1",
+			"  Mood: ${1:#Low, Medium, High}",
 			"  ThinkingQuality: $2",
 			"  Motivation: $3",
 			"  PhysicalEnergy: $4",
@@ -155,7 +155,10 @@
 		],
 		"description": "SystemState"
 	},
-	"Sleep": {
+
+
+
+  "Sleep": {
 		"prefix": "LogSleep",
 		"body": [
 			"<Sleep>:",

@@ -1021,7 +1021,7 @@ Month of Nov:
           SleepScore: 91
           BodyBattery: +77
           Summary:
-          Notes: woke up ok at start but was very bad later. ( zombie )
+          Notes: woke up ok at start but was zombie mode later
         <Food>:
           Time: 10:50
           MealDescription: Rice Pancake
@@ -1046,7 +1046,7 @@ Month of Nov:
           Mood: very bad
           ThinkingQuality: 2
           Motivation: 2
-          PhysicalEnergy: 0 
+          PhysicalEnergy: 0
           BodyBattery: 0
           Rumination: 0
           Summary: 

@@ -6724,15 +6724,23 @@ Month of Nov:
             Summary: 
             Notes:  It didnt work         
         Evening:
+          <Drugs>:
+            Time: 20:00
+            Name: C2
+            Dosage: 0.01, 0.4
+            Unit: g
+            Summary: 
+            Notes: Productive talks about the Health system. (It was not recorded)
           <Work>: 
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
+            Time: 23:13
+            ActivityDesc: Health log entering data
+            Duration: 10m
+            Focus: 1
+            MindPower: 1
             Summary:
-            Notes:
-
+            Notes: on the effect of W
+        
+          
 
 
 

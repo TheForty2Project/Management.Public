@@ -47,6 +47,29 @@ Id: Misc
       Details: Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 .Health:
+  TODO .Define missing + fix EventLogBase classes:
+      +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+      Details:
+        - Define the missing EventLogBase classes, such as:
+          - SystemState
+          - Sleep
+          - EventLogBase?
+          - etc - go through and check whether each has one
+          - I think there are a few left in Miscellaneous (e.g. SystemState is there)
+        - Fix existing ones:
+          - inheritance
+          - review the values used vs. what's defined and update the definition if necessary
+        - Changes:
+          - BodyBattery in Sleep should be "BodyBatteryGain"
+  TODO .Update the hos vs code snippets:
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+    Details:
+    TODO .Entries inside should be lists (so add a dash in front of them):
+    TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
+      Details:   
+        such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
+    TODO .Add SystemState to each part of the day:
+
   Ongoing .Health planning:
     +: { CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi }
     Requirement: 
@@ -236,45 +259,7 @@ Id: Misc
               - Morning - Anita 
               - Evevning - Bobi 
         EstTODO .Do Health Log Review:
-          +: {CreatedBy: Hana, CreatedAt: 20261102 T 121508, By: [Bobi, Anita], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-          
-    Diet:
-       OnGoing .Create food and activity schedule:
-        Id: CreateMealSchedule
-        Details:
-          - Fish 3x a week
-          - One vegeterian day for Hana
-          - Take into consideration the time of month for menstrual cycle
-          - Focus on Robis Health
-        Done .20260914:
-          Result:
-          - Breakfast: 
-            - Oatmeal 
-            - Boiled Egg
-            - Spinach
-            - Mushroom
-            - Avocado
-          - Brunch:
-            - Banana shake with lil protein
-          - Lunch:
-            - Chicken breast
-            - Spinach and mixed green salad
-            - Boiled Carrots
-            - White rice
-        EstTODO .Week 43:
-          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 133048, By: Bobi, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
-          Id: W43
-          Details:
-            - Make it
-            - Have it reviewed by Bobi 
-          TODO .Food:
-            Workspace:
-              - The food 3 plain days        
-          TODO .Activity:
-            Workspace:
-              - sh mobility of next week
-          NEXT .Have it reviewed by Bobi:
-          NEXT .Taskifying:
+          +: {CreatedBy: Hana, CreatedAt: 20261102 T 121508, By: [Bobi, Anita], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}      
   TODO .Create an an analysis about the effects of consuming various sugars:
     +: { CreatedBy: Bobi, CreatedAt: 20260417 T 122654, By: [ Bobi Hana ], Tags: [ CSVDONE ], Estimation: "60", RemTime: "60" }
     Details:

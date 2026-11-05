@@ -6658,7 +6658,7 @@ Month of Nov:
           Hot shower: No
           Reading book: No
           Bed time: 11:45
-    42242_20261104_Incomplete:
+    42242_20261104_Complete:
         Morning:
           <Sleep>:
             BedTime: 11:45
@@ -6738,8 +6738,42 @@ Month of Nov:
             Focus: 1
             MindPower: 1
             Summary:
-            Notes: on the effect of W
+            Notes: on the effect of W and C
+          <Food>:
+            Time: 23:15
+            MealDescription: 2 square of choco, warm lemon glutamin detrose water
+            Quantity: 2 g, 800 ml
+            Summary: 
+            Notes: No cravings, needed Sugar for fast energy (thinking)
+          <LifeEvent>:
+            Time: 23:15
+            EventDescription: 
+              - life talk with Bobi, what happened in the last month and what are the short term goals for this month and rest of the year. 
+              - Appreciating our new friends ( Szabi, Anita, Agi, Istvan, Gordon, the possible polish coach)
+              - Health system goals, requirement and plans
+            EmotionalImpact: Very positive, We missed these talks 
+            Summary: 
+            Notes: 
+              - C intake should be recorded after episodes of disorganized thinking, with the quantity controlled according to the intended goal of intake. 
+              - Plans should be made before buying C and should be portioned to the intended goal intake 
+              - Rest of the C should be locked preferable outside the house
+          <Movement>:
+            Time: 23:30 - 01:00
+            Activity: Sex
+            Duration: 1.5 hr
+            Intensity: moderate
+            Summary: 
+            Notes: Good drive from both, under C2. healthy climax
+          <SleepHygiene>:
+            preparing tomorrows task: Yes
+            Smoke: none
+            Drugs: none
+            Hot shower: No
+            Reading book: No
+            Bed time: 01:00
         
+
+
           
 
 

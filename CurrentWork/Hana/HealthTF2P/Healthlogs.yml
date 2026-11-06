@@ -6771,7 +6771,77 @@ Month of Nov:
             Hot shower: No
             Reading book: No
             Bed time: 01:00
-        
+    42242_20261105_Incomplete:
+      Morning:
+        <Sleep>:
+          BedTime:
+          SleepTime:
+          WakeTime:
+          Duration:
+          SleepScore:
+          BodyBattery:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+        <Digestion>:
+          Time:
+          Bristol:
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes:
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:    
 
 
           

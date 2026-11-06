@@ -509,6 +509,10 @@ namespace Barba.Types:
     Description: 
       Records substances taken and their dosages.
       Helps identify possible associations with
+      
+
+
+      jhglyg
       changes in physical or cognitive state.
 
     Properties:

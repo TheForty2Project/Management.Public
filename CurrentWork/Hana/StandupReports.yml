@@ -348,7 +348,7 @@ SR_20261030_Hana:
   AOIB:
 
 
-SR_NEXT_Hana:
+SR_20261105_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 103m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
     - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
@@ -361,3 +361,24 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
   Next:
     - null
+SR_NEXT_Hana:
+  Was:
+
+  NEXT:
+    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Define missing + fix EventLogBase classes"<
+    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<
+    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<
+    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Add SystemState to each part of the day"<
+    - Diet 
+    - Exercise data yyyymmdd:
+      Reports:
+        username:
+          Was:
+    
+          Next:
+    
+          AOIB:
+    
+      Meeting Minutes:
+        Duration:
+        Topics:

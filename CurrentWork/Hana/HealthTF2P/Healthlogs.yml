@@ -6322,14 +6322,14 @@ Month of Nov:
       - Include bed time and sleep time 
       - Include sleep Hygiene at the end of the logs
       - 7 to 8 hours of sleep
-    TODO .Log Automation:
+    Done .Log Automation:
       - Create an ID for each member:
         Details: 
           - to be published in the website
         Hana:   42242
         Bobi:   42241
         Anita:  42333
-    TODO .Create process for Logging:
+    Done .Create process for Logging:
       +: {CreatedBy: Hana, CreatedAt: 20261101 T 144754, By: Hana, Tags: [TL, Health], Estimation:10 , RemTime:10 , Importance: 5-VeryHigh}
     
       Details:
@@ -6771,33 +6771,119 @@ Month of Nov:
             Hot shower: No
             Reading book: No
             Bed time: 01:00
-    42242_20261105_Incomplete:
+    42242_20261106_Complete:
       Morning:
-        <Sleep>:
-          BedTime:
-          SleepTime:
-          WakeTime:
-          Duration:
-          SleepScore:
+        - <Sleep>:
+          BedTime: 11:30
+          SleepTime: 12:07
+          WakeTime: 5:40 
+          Duration: 5h 11m
+          SleepScore: 51
           BodyBattery:
           Summary:
+          Notes: NO REM
+        - <Food>:
+          Time: 05:50
+          MealDescription: protein, coffee and dextrose
+          Quantity: one portion
+          Summary: 
           Notes:
-        <Food>:
-          Time:
-          MealDescription:
-          Quantity:
+        - <Movement>:
+          Time: 06:15
+          Activity: Basic Core Activation, Rotator cuff, Deltoids, Serratus Ant
+          Duration: 1.5 hr
+          Intensity: easy
           Summary:
-          Notes:
+          Notes: short sleep affected the exercise performance. No concentration on the eccentric nor concentric part
+        - <Food>:
+          Time: 08:00
+          MealDescription: Oats, Egg, Goat cheese, sour dough
+          Quantity:  modererate
+          Summary: 
+          Notes: 
+        - <Digestion>:
+          Time: 08:30
+          Bristol: 5
+          Bloating: 0
+          AbdominalPain: 0
+          Flatulence: 1
+          Belching: 0
+          Summary:
+          Notes: poop emoji
+      Afternoon:
+        - <Work>:
+          Time: 12:00
+          ActivityDesc: Language
+          Duration: 1.5
+          Focus: 2
+          MindPower: 2
+          Summary:
+          Notes: I thought I would be zombie. Surprised I was able to go through the class
+        - <Food>:
+          Time: 14:00
+          MealDescription: Rice noodles, sertes ball, soup
+          Quantity: light
+          Summary:
+          Notes: 
+      Evening:
+        - <Work>:
+          Time: 18:50
+          ActivityDesc: health log analysis and schedule review
+          Duration:  2h
+          Focus: 1
+          MindPower: 1
+          Summary: 
+          Notes: ZOmbie
+        - <Digestion>:
+          Time: 19:30
+          Bristol: 5
+          Bloating: 
+          AbdominalPain: 
+          Flatulence: 
+          Belching: 
+          Summary: 
+          Notes: smelly hihi
+        - <Drugs>:
+          Time: 20:48
+          Name: W
+          Dosage: 0.17
+          Unit: g
+          Summary: 
+          Notes: 
+        - <sleepHygiene>:
+          preparing tomorrows task: Yes
+          Smoke: 0.17
+          Drugs: none
+          Hot shower: No
+          Reading book: No
+          Bed time: 21:30
+    42242_20261107_Incomplete:
+      Morning:
+        <Sleep>:
+        BedTime: 21:30
+        SleepTime: 10:20
+        WakeTime: 09:33
+        Duration: 11h 0m
+        SleepScore: 82
+        BodyBattery: +75
+        Summary:
+        Notes: Highest body battery
+        <Food>:
+          Time: 09:30
+          MealDescription: Oats, Ivar, biscuit with milk, one piece sourdoug bread with goat cheese
+          Quantity: moderate
+          Summary: 
+          Notes: felt energized
         <Movement>:
-          Time:
-          Activity:
-          Duration:
-          Intensity:
+          Time: 10:00
+          Activity: Cleaning 2 rooms and bathroom, Squats and pull ups
+          Duration: 2 hr
+          Intensity: easy
           Summary:
           Notes:
         <Digestion>:
-          Time:
-          Bristol:
+          Time: 10:30
+          Bristol: 5
           Bloating:
           AbdominalPain:
           Flatulence:
@@ -6805,16 +6891,25 @@ Month of Nov:
           Summary:
           Notes:
       Afternoon:
-        <Drugs>:
-          Time:
-          Name:
-          Dosage:
-          Unit:
-          Summary:
-          Notes:
+        <LifeEvent>:
+          Time: 12:30
+          EventDescription: 
+            Details: 
+              - Argument with Bobi. Bobi thought that I didnt want to participate in the project. Solved the misunderstanding and talked it through
+              - Misunderstanding:
+                Hana: connect standup task to calendar. To organize my time better
+                Bobi: Hana does not want to work on TF2P tasks
+              - Pyhsical condition: 
+                Bobi: Woke up zombie like 
+                Hana: Woke up repfreshed
+          EmotionalImpact: 
+            Bobi: Seemed irritated and fear from working alone
+            Hana: stressed once heard Bobis frustrated voice. Calmed down and thought about the what is the end possible end results for 2 scenarios. Me fighting back or me cooperating. Chose cooperating since I really want us to work efficiently ( I hope so)
+          Summary: All good now
+          Notes:  
         <Work>:
-          Time:
-          ActivityDesc:
+          Time: 12:00
+          ActivityDesc: Health log date entry
           Duration:
           Focus:
           MindPower:
@@ -6841,21 +6936,86 @@ Month of Nov:
           Focus:
           MindPower:
           Summary:
-          Notes:    
+          Notes:
+    Week 46 Analysis:
+      Week: 2026-W45
+      Period: 2026-11-01_to_2026-11-07
+      DataStatus:
+        Missing: [2026-11-05]
+        Incomplete: [2026-11-07]
+        SleepTimestampsNeedValidation: true
+      Sleep:
+        AverageReportedDuration: 7h31m
+        AverageSleepScore: 74.3
+        BestRecovery:
+          Date: 2026-11-07
+          BodyBatteryGain: 75
+        LowestSleepScore:
+          Date: 2026-11-06
+          Score: 51
+        Hypothesis: >
+          Better sleep recovery is associated with
+          improved morning cognitive and physical state.
+      Cognition:
+        HighestRecordedFocus: 3
+        LowestRecordedMindPower: 0
+        Observations:
+          - Low focus during several afternoon and evening sessions
+          - Poor exercise concentration after short sleep
+          - Structured language class remained manageable
+        Hypothesis: 
+          Recovery and task structure may influence
+          cognitive performance.
+      Digestion:
+        BristolProgression: [2, 4, 4, 3-4, 5, 5]
+        MaximumRecordedBloating: 3
+        Observations:
+          - Constipation at beginning of week
+          - Gas during Krav Maga
+          - Softer stools later in week
+        Hypothesis: 
+          Digestive symptoms may affect exercise
+          comfort and concentration.
+      EmotionalRegulation:
+        Events:
+          - Date: 2026-11-01
+            Trigger: Grief memories
+            Response: Emotional distress
+            AssociatedEvent: High sweet-food consumption
+          - Date: 2026-11-03
+            Trigger: Conversation with Robi
+            Outcome: Positive emotional connection
+          - Date: 2026-11-04
+            Trigger: Shared planning and life conversation
+            Outcome: Positive emotional connection
+          - Date: 2026-11-07
+            Trigger: Misunderstanding with Robi
+            InitialState: Stress
+            Decision: Cooperation and communication
+            Outcome: Conflict resolved
+      SubstanceTracking:
+        Status: RequiresStandardization
+        Issues:
+          - Ambiguous W and C2 labels
+          - Inconsistent dose units
+          - Potential confounding of sleep and cognition
+      NextWeekGoals:
+        - Consistent SystemState measurements
+        - Improve sleep data accuracy
+        - Compare work focus before and after tasks
+        - Monitor digestion around exercise
+        - Record emotional StateTransitions
+        - Standardize substance records
+        - Track menstrual symptoms
 
 
-          
 
 
 
 
 
 
-
-
-
-
-
+                                                                                                       
 
 
 

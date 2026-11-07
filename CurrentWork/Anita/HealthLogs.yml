@@ -972,7 +972,7 @@ AnitaHOSLog20261101 (Incomplete):
      Quantity: mid
      Summary: 
      Notes:  
-42333_20261104_Incomplete:
+42333_20261104_Complete:
   Morning:
     <Sleep>:
       BedTime: 23:50
@@ -1029,11 +1029,11 @@ AnitaHOSLog20261101 (Incomplete):
       Notes:
   Evening:
     <Work>:
-      Time:
-      ActivityDesc:
-      Duration:
-      Focus:
-      MindPower:
+      Time: 19:00
+      ActivityDesc: uni tests
+      Duration: 40 min
+      Focus: mid
+      MindPower: mid
       Summary:
       Notes:
     <Food>:
@@ -1041,6 +1041,169 @@ AnitaHOSLog20261101 (Incomplete):
       MealDescription: 3 toast bread, 45 g hummusz, 35 g sour cream, canned hering
       Quantity: mid
       Summary: 
+    <Movement>:
+      Time: 20:00
+      Activity: walk
+      Duration: 1 hour
+      Intensity: low
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 21:30
+      MealDescription: rice flour protein pancakes, 25 g krémes por, 25 g blueberries
+      Quantity: 
+      Summary: 
+      Notes: 
+42333_20261105_Complete:
+  Morning:
+    <Sleep>:
+      BedTime: 00:35
+      SleepTime: 00:40
+      WakeTime: 7:15
+      Duration: 6,5
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time: 8:30
+      MealDescription: 70g cooked rice, 60g cooked oats with ginger, 140g banana, 2 boiled eggs, coffee with 30 ml almond milk
+      Quantity:
+      Summary:
+      Notes:
+    <Digestion>:
+      Time:
+      Bristol:
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:
+    <Work>:
+      Time: 10:00
+      ActivityDesc: uni class
+      Duration: 1,5
+      Focus: mid
+      MindPower: mid
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Work>: 
+      Time: 13:30
+      ActivityDesc: uni class
+      Duration: 3 hours
+      Focus: mid
+      MindPower: mid
+      Summary:
+      Notes:
+    <Food>:
+      Time: 12:30
+      MealDescription: 1/2 soup cubes, 60g rice noodles, 30 g tofu
+      Quantity:
+      Summary:
+      Notes:
+    <Food2>:
+      Time: 13:15
+      MealDescription: 60g rice flour pancakes, 25g kérmes por, 25g blueberries, latte with almon/rice milk
+      Quantity: 
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 18:00
+      MealDescription: 2 toast bread, 120g humus, 1 tablespoon of sour cream, rice porridge
+      Quantity: big
+      Summary: 
+      Notes: was very hungry
+    <Movement>:
+      Time: 18:45
+      Activity: treshold run
+      Duration: 35 min
+      Intensity: high
+      Summary: 
+      Notes: 
+    <Food2>:
+      Time: 21:30
+      MealDescription: 3 meatballs, 1 toast bread, canned fish, 200 ml milk
+      Quantity: 
+      Summary: 
+      Notes: craving pork meatballs, humus and milk in the past 2 days
+42333_20261106_Complete:
+  Morning:
+    <Sleep>:
+      BedTime: 00:00
+      SleepTime: 00:20
+      WakeTime: 5:05
+      Duration: 4,5
+      SleepScore:
+      BodyBattery:
+      Summary:
+      Notes:
+    <Food>:
+      Time: 5:45
+      MealDescription: 70g rice, 110g banana, 90g boiled eggs, 100ml almond milk latte
+      Quantity: fair
+      Summary:
+      Notes:
+    <Movement>:
+      Time: 6:15
+      Activity: gym
+      Duration: 1,5
+      Intensity: mid
+      Summary:
+      Notes: core activation, deep back muscles, surface muscles, arms
+    <Digestion>:
+      Time:
+      Bristol: 0
+      Bloating: 0
+      AbdominalPain: 0
+      Flatulence: 0
+      Belching: 0
+      Summary: 0
+    <Work>:
+      Time: 9:00
+      ActivityDesc: uni class
+      Duration: 3,5 hours
+      Focus: mid
+      MindPower: mid
+      Summary: 
+      Notes: 
+  Afternoon:
+    <Food>: 
+      Time: 12:15
+      MealDescription: 6 meatballs (20g each), 1 tablespoons of tomato sauce, cappuccino
+      Quantity:
+      Summary:
+      Notes:
+    <Food2>:
+      Time: 16:30
+      MealDescription: 3 toast bread, 80g humus, canned hering in tomato sauce, flat white
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Movement>:
+      Time: 17:30
+      Activity: walk
+      Duration: 30 min
+      Intensity: low
+      Summary: 
+      Notes: 
+  Evening:
+    <Food>:
+      Time: 21:00
+      MealDescription: 1/2 cube soup, 60g cooked rice noodles, 0,5 cooked tomato, 35g tofu, 60g krémes with 35g protein, 35g blueberries, 20g strawberries
+      Quantity: 
+      Summary: 
+      Notes: 
+    <Work>:
+      Time: 23:30
+      ActivityDesc: analyzing current physical state
+      Duration: 45 min
+      Focus: mid
+      MindPower: low 
+      Summary: 
+      Notes: 
 
 
   

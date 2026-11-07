@@ -1013,7 +1013,7 @@ Month of Nov:
           Notes: 
     42241_20261102_incomplete:
       Morning:
-        <Sleep>:
+        - <Sleep>:
           BedTime: 2:27 
           SleepTime: 2:27 
           WakeTime: 10:28
@@ -1022,18 +1022,18 @@ Month of Nov:
           BodyBattery: +77
           Summary:
           Notes: woke up ok at start but was zombie mode later
-        <Food>:
+        - <Food>:
           Time: 10:50
           MealDescription: Rice Pancake
           Quantity: moderate
           Summary:
           Notes:
-        <Digestion>:
+        - <Digestion>:
           Time: 11:00
           Bristol: 4
           Summary:
           Notes:
-        <Work>:
+        - <Work>:
           Time: 12:00
           ActivityDesc: health process description 
           Duration: 5m
@@ -1041,7 +1041,7 @@ Month of Nov:
           MindPower: 0 
           Summary: 
           Notes: Wasnt able to participate in the meeting rescheduled to the next day20261103
-        <SystemState>:
+        - <SystemState>:
           Time: 12:00
           Mood: very bad
           ThinkingQuality: 2
@@ -1051,7 +1051,7 @@ Month of Nov:
           Rumination: 0
           Summary: 
           Notes: 
-        <Movement>:
+        - <Movement>:
           Time: 12:10
           Activity: walk
           Duration: 1 hr
@@ -1059,14 +1059,14 @@ Month of Nov:
           Summary: 
           Notes:         
       Afternoon:
-        <Drugs>:
+        - <Drugs>:
           Time: 13:30
           Name: Kratom
           Dosage: 1.8
           Unit: g
           Summary:
           Notes:
-        <SystemState>:
+        - <SystemState>:
           Time: 2201
           Mood: good ( able to converse)
           ThinkingQuality: 2
@@ -1076,7 +1076,7 @@ Month of Nov:
           Rumination: 0
           Summary: 
           Notes: 
-        <Work>:
+        - <Work>:
           Time: 13:00
           ActivityDesc: Bug Fixes , follow link feature
           Duration: 3
@@ -1084,13 +1084,13 @@ Month of Nov:
           MindPower: 2
           Summary:
           Notes:
-        <Food>:
+        - <Food>:
           Time: 16:00
           MealDescription: Rice, Fish, Soup
           Quantity: moderate
           Summary:
           Notes:
-        <Movement>:
+        - <Movement>:
           Time: 15:30
           Activity: Walk
           Duration: 30m
@@ -1098,7 +1098,7 @@ Month of Nov:
           Summary:
           Notes:
       Evening:
-        <Work>:
+        - <Work>:
           Time: 18:30
           ActivityDesc: Bug fixes
           Duration: 
@@ -1106,23 +1106,23 @@ Month of Nov:
           MindPower:
           Summary:
           Notes:
-        <Food>:
+        - <Food>:
           Time: 2202
           MealDescription: rice, fish with egg, some indian sauce and potato 
           Quantity: moderate
           Summary: 
           Notes: 
-        <Movement>:
+        - <Movement>:
           Time: 21:00
           Activity: run
           Duration: 
           Intensity: easy
           Summary: 
           Notes: 
-
     42241_20261107_Incomplete:
+      Notes: Recovery day
       Morning:
-        <Sleep>:
+        - <Sleep>:
           BedTime: 12:40
           SleepTime: 12:58
           WakeTime: 10:05
@@ -1131,51 +1131,53 @@ Month of Nov:
           BodyBattery: 
           Summary: +76
           Notes: woke up ok. Got grumpy after few hours
-        <Food>:
-          Time: 10:30 
-          MealDescription: Rice Pancake, 
-          Quantity:
-          Summary:
-          Notes:
-        <Movement>:
-          Time:
-          Activity:
-          Duration:
-          Intensity:
-          Summary:
-          Notes:
-        <Digestion>:
-          Time:
-          Bristol:
+        - <Digestion>:
+          Time: 09:30
+          Bristol: 4
           Bloating:
           AbdominalPain:
           Flatulence:
           Belching:
           Summary:
-          Notes:
-      Afternoon:
-        <Drugs>:
-          Time:
-          Name:
-          Dosage:
-          Unit:
+          Notes: thin inflamed type 4
+        - <Food>:
+          Time: 10:30 
+          MealDescription: Rice Pancake, pudding, coffee
+          Quantity: moderate
           Summary:
-          Notes:
-        <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+          Notes: started to feel zombie 
+      Afternoon:   
+        - <LifeEvent>:
+          Time: 12:30
+          EventDescription: 
+            Details: 
+              - Argument with Bobi. Bobi thought that I didnt want to participate in the project. Solved the misunderstanding and talked it through
+              - Misunderstanding:
+                Hana: connect standup task to calendar. To organize my time better
+                Bobi: Hana does not want to work on TF2P tasks
+              - Pyhsical condition: 
+                Bobi: Woke up zombie like 
+                Hana: Woke up repfreshed
+          EmotionalImpact: 
+            Bobi: Seemed irritated and fear from working alone
+            Hana: stressed once heard Bobis frustrated voice. Calmed down and thought about the what is the end possible end results for 2 scenarios. Me fighting back or me cooperating. Chose cooperating since I really want us to work efficiently ( I hope so)
+          Summary: All good now
+          Notes:  Conflict has been resolved
+        - <Movement>:
+          Time: 12:30
+          Activity: Walk
+          Duration: 30m
+          Intensity: difficult
           Summary:
-          Notes:
-        <Food>:
-          Time:
-          MealDescription:
-          Quantity:
+          Notes: Calmer
+        - <Drugs>:
+          Time: 14:00
+          Name: Kratom
+          Dosage: 2.0
+          Unit: g
           Summary:
-          Notes:
-        <Movement>:
+          Notes: 
+        - <Movement>:
           Time:
           Activity:
           Duration:
@@ -1183,12 +1185,19 @@ Month of Nov:
           Summary:
           Notes:
       Evening:
-        <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+        - <Movement>:
+          Time: 18:30
+          Activity: walk in gym
+          Duration: 20m
+          Intensity: difficult
+          Summary: 
+          Notes: farts trapped, feeling bad
+        - <Work>:
+          Time: 20:50
+          ActivityDesc: website review
+          Duration: 30m
+          Focus: 2
+          MindPower: 2
           Summary:
           Notes:
 

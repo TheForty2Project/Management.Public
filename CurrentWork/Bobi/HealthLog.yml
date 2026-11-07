@@ -1120,20 +1120,20 @@ Month of Nov:
           Summary: 
           Notes: 
 
-    42241_20261104_Incomplete:
+    42241_20261107_Incomplete:
       Morning:
         <Sleep>:
-          BedTime:
-          SleepTime:
-          WakeTime:
-          Duration:
-          SleepScore:
-          BodyBattery:
-          Summary:
-          Notes:
+          BedTime: 12:40
+          SleepTime: 12:58
+          WakeTime: 10:05
+          Duration: 9h 0m
+          SleepScore: 86
+          BodyBattery: 
+          Summary: +76
+          Notes: woke up ok. Got grumpy after few hours
         <Food>:
-          Time:
-          MealDescription:
+          Time: 10:30 
+          MealDescription: Rice Pancake, 
           Quantity:
           Summary:
           Notes:
@@ -1191,3 +1191,10 @@ Month of Nov:
           MindPower:
           Summary:
           Notes:
+
+
+
+
+
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

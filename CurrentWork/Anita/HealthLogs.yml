@@ -1205,145 +1205,144 @@ AnitaHOSLog20261101 (Incomplete):
       Summary: 
       Notes: 
 Week46Analysis:
-  
-HOS_Analysis:
-  Week: 2026-W45
-  Period: 2026-11-02 to 2026-11-06
-  Days: 5
+  HOS_Analysis:
+    Week: 2026-W45
+    Period: 2026-11-02 to 2026-11-06
+    Days: 5
 
-  Profile:
-    Weight: 79 kg
-    TargetWeight: 72 kg
-    Goal: Fat loss while preserving muscle
-    MenstrualPhase: Menstration
+    Profile:
+      Weight: 79 kg
+      TargetWeight: 72 kg
+      Goal: Fat loss while preserving muscle
+      MenstrualPhase: Menstration
 
-  Sleep:
-    Average: 6.1 hours
-    Recommended: 7-9 hours
-    Shortest: 4.5 hours (Nov 6)
-    Observation:
-      - Insufficient sleep on 3 of 5 nights
-      - High physical workload despite short sleep
-      - Possible accumulated fatigue
-    Action:
-      - Improve sleep consistency
-      - Monitor BodyBattery and resting heart rate
-      - Reduce training intensity after poor sleep
-
-  PhysicalActivity:
-    TotalDuration: 7h 35m
-    Activities:
-      - Strength training
-      - Core activation
-      - Plyometrics
-      - Moderate running
-      - Threshold running
-      - Walking
-    Observation:
-      - Good variety of training
-      - High training load relative to sleep
-      - Nov 6 gym session followed Nov 5 threshold run
-    Action:
-      - Prioritize recovery
-      - Track muscle soreness and perceived exertion
-      - Adjust intensity according to recovery
-
-  CognitivePerformance:
-    TotalWorkStudy: 22h 55m
-    Observation:
-      - Focus and MindPower do not always correlate
-      - High focus possible despite low MindPower
-      - Low MindPower during some late-night sessions
-      - Afternoon improvement observed after rest on Nov 2
-    Hypothesis:
-      - Sleep and accumulated fatigue may affect MindPower
-      - Rest may improve cognitive performance
-    Action:
-      - Track mental fatigue before and after work
-      - Record task difficulty
-      - Use consistent Focus and MindPower scales
-
-  Nutrition:
-    FoodEntries: 18
-    Observation:
-      - Repeated meals containing rice, oats, eggs and fish
-      - Long intervals between some meals
-      - Strong hunger before large evening meal on Nov 5
-      - Cravings for meatballs, hummus and milk
-      - Large meal 45 minutes before threshold run
-    CalorieEstimation:
-      BMR: 1570 kcal/day
-      Maintenance: 2434 kcal/day
-      TargetIntake: 1900-2100 kcal/day
-      ProteinTarget: 140 g/day
-      ExpectedWeightLoss: 1.3-2.1 kg/month
-      Note: Estimates require adjustment using weight trends
-    LutealPhase:
+    Sleep:
+      Average: 6.1 hours
+      Recommended: 7-9 hours
+      Shortest: 4.5 hours (Nov 6)
       Observation:
-        - Appetite may increase
-        - Temporary water retention may affect weight
+        - Insufficient sleep on 3 of 5 nights
+        - High physical workload despite short sleep
+        - Possible accumulated fatigue
       Action:
-        - Monitor hunger and fullness
-        - Allow flexibility on demanding training days
-        - Compare weight at similar menstrual phases
+        - Improve sleep consistency
+        - Monitor BodyBattery and resting heart rate
+        - Reduce training intensity after poor sleep
 
-  Digestion:
-    Observation:
-      - Nov 2 breakfast eaten quickly caused discomfort
-      - Nov 2 afternoon meal followed by bloating
-      - Nov 2 evening pudding caused strong fullness
-      - Nov 3 Bristol type 5
-    Hypothesis:
-      - Meal size and eating speed may affect symptoms
-    Action:
-      - Record symptoms before and after meals
-      - Track eating speed and meal quantity
-      - Separate missing data from zero symptoms
+    PhysicalActivity:
+      TotalDuration: 7h 35m
+      Activities:
+        - Strength training
+        - Core activation
+        - Plyometrics
+        - Moderate running
+        - Threshold running
+        - Walking
+      Observation:
+        - Good variety of training
+        - High training load relative to sleep
+        - Nov 6 gym session followed Nov 5 threshold run
+      Action:
+        - Prioritize recovery
+        - Track muscle soreness and perceived exertion
+        - Adjust intensity according to recovery
 
-  RelationshipsToInvestigate:
-    - SleepDuration vs MindPower
-    - SleepDuration vs ExerciseRecovery
-    - MealTiming vs Hunger
-    - MealSize vs Bloating
-    - MenstrualPhase vs Appetite
-    - TrainingLoad vs SleepQuality
-    - WorkDuration vs MentalFatigue
+    CognitivePerformance:
+      TotalWorkStudy: 22h 55m
+      Observation:
+        - Focus and MindPower do not always correlate
+        - High focus possible despite low MindPower
+        - Low MindPower during some late-night sessions
+        - Afternoon improvement observed after rest on Nov 2
+      Hypothesis:
+        - Sleep and accumulated fatigue may affect MindPower
+        - Rest may improve cognitive performance
+      Action:
+        - Track mental fatigue before and after work
+        - Record task difficulty
+        - Use consistent Focus and MindPower scales
 
-  DataQuality:
-    Issues:
-      - Missing SleepScore and BodyBattery
-      - Inconsistent sleep duration calculations
-      - Missing digestive observations
-      - Ambiguous Bristol value of 0
-      - Inconsistent food quantities
-      - Undefined Focus and MindPower scales
-    Improvements:
-      - Use null for missing values
-      - Standardize rating scales
-      - Record cooked vs uncooked food weights
-      - Record hunger before and after meals
-      - Track exercise recovery indicators
+    Nutrition:
+      FoodEntries: 18
+      Observation:
+        - Repeated meals containing rice, oats, eggs and fish
+        - Long intervals between some meals
+        - Strong hunger before large evening meal on Nov 5
+        - Cravings for meatballs, hummus and milk
+        - Large meal 45 minutes before threshold run
+      CalorieEstimation:
+        BMR: 1570 kcal/day
+        Maintenance: 2434 kcal/day
+        TargetIntake: 1900-2100 kcal/day
+        ProteinTarget: 140 g/day
+        ExpectedWeightLoss: 1.3-2.1 kg/month
+        Note: Estimates require adjustment using weight trends
+      LutealPhase:
+        Observation:
+          - Appetite may increase
+          - Temporary water retention may affect weight
+        Action:
+          - Monitor hunger and fullness
+          - Allow flexibility on demanding training days
+          - Compare weight at similar menstrual phases
 
-  Priorities:
-    1: Improve sleep duration and consistency
-    2: Balance training load with recovery
-    3: Maintain moderate calorie deficit
-    4: Preserve muscle through protein and strength training
-    5: Investigate digestion and meal timing
-    6: Improve HOS measurement consistency
+    Digestion:
+      Observation:
+        - Nov 2 breakfast eaten quickly caused discomfort
+        - Nov 2 afternoon meal followed by bloating
+        - Nov 2 evening pudding caused strong fullness
+        - Nov 3 Bristol type 5
+      Hypothesis:
+        - Meal size and eating speed may affect symptoms
+      Action:
+        - Record symptoms before and after meals
+        - Track eating speed and meal quantity
+        - Separate missing data from zero symptoms
 
-  OverallSummary:
-    PhysicalActivity: High
-    CognitiveWorkload: High
-    SleepRecovery: Needs improvement
-    Nutrition: Requires more consistent tracking
-    Digestion: Occasional discomfort
-    MainConcern: Recovery relative to physical and cognitive workload
-    MainGoal: Sustainable fat loss with muscle preservation
+    RelationshipsToInvestigate:
+      - SleepDuration vs MindPower
+      - SleepDuration vs ExerciseRecovery
+      - MealTiming vs Hunger
+      - MealSize vs Bloating
+      - MenstrualPhase vs Appetite
+      - TrainingLoad vs SleepQuality
+      - WorkDuration vs MentalFatigue
+
+    DataQuality:
+      Issues:
+        - Missing SleepScore and BodyBattery
+        - Inconsistent sleep duration calculations
+        - Missing digestive observations
+        - Ambiguous Bristol value of 0
+        - Inconsistent food quantities
+        - Undefined Focus and MindPower scales
+      Improvements:
+        - Use null for missing values
+        - Standardize rating scales
+        - Record cooked vs uncooked food weights
+        - Record hunger before and after meals
+        - Track exercise recovery indicators
+
+    Priorities:
+      1: Improve sleep duration and consistency
+      2: Balance training load with recovery
+      3: Maintain moderate calorie deficit
+      4: Preserve muscle through protein and strength training
+      5: Investigate digestion and meal timing
+      6: Improve HOS measurement consistency
+
+    OverallSummary:
+      PhysicalActivity: High
+      CognitiveWorkload: High
+      SleepRecovery: Needs improvement
+      Nutrition: Requires more consistent tracking
+      Digestion: Occasional discomfort
+      MainConcern: Recovery relative to physical and cognitive workload
+      MainGoal: Sustainable fat loss with muscle preservation
 
 
-  
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)    
 
-  
+    
 
-     
+      

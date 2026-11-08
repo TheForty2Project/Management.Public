@@ -6857,7 +6857,7 @@ Month of Nov:
           Hot shower: No
           Reading book: No
           Bed time: 21:30
-    42242_20261107_Incomplete:
+    42242_20261107_Complete:
       Morning:
         <Sleep>:
         BedTime: 21:30
@@ -6929,14 +6929,108 @@ Month of Nov:
           Summary:
           Notes:
       Evening:
+        <Movement>:
+          Time: 18:40
+          Activity: Base run and ant tibialis strengthening
+          Duration: 30m
+          Intensity: easy
+          Summary: 
+          Notes: a good workout 
         <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+          Time: 21:30
+          ActivityDesc: -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"< and Healthlog
+          Duration: 1.5 h
+          Focus: 1
+          MindPower: 2
           Summary:
-          Notes:
+          Notes: Was able to grasp information
+    42242_20261108_Incomplete:
+      42242_20261108_Incomplete:
+        Morning:
+          - <Sleep>:
+            BedTime: 11:50
+            SleepTime: 12:18
+            WakeTime: 7:22
+            Duration: 7h 3m
+            SleepScore: 79
+            BodyBattery:
+            Summary:
+            Notes: Continues, Complete REM and Deep
+          - <Food>:
+            Time: 08:30
+            MealDescription: Egg with Basil, Oatmeal, goat cheese, Rosehip tea, Coffee
+            Quantity: 1, 4 dry spoons, 3g
+            Summary:
+            Notes: 
+          - <Digestion>:
+            Time: 09:10
+            Bristol: 5
+            Bloating: 
+            AbdominalPain: 
+            Flatulence: 
+            Belching: 
+            Summary: 
+            Notes: it was easy and nice
+          - <Movement>:
+            Time: 09:15
+            Activity: cleaning, folding dry clothes, cooking
+            Duration: 20
+            Intensity: easy
+            Summary: 
+            Notes: 
+          - <Work>:
+            Time: 10:00
+            ActivityDesc: review of hl files
+            Duration: 
+            Focus: 
+            MindPower: 
+            Summary: 
+            Notes: 
+          - <Movement>:
+            Time:
+            Activity:
+            Duration:
+            Intensity:
+            Summary:
+            Notes:
+        Afternoon:
+          <Drugs>:
+            Time:
+            Name:
+            Dosage:
+            Unit:
+            Summary:
+            Notes:
+          <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+          <Food>:
+            Time:
+            MealDescription:
+            Quantity:
+            Summary:
+            Notes:
+          <Movement>:
+            Time:
+            Activity:
+            Duration:
+            Intensity:
+            Summary:
+            Notes:
+        Evening:
+          <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
     Week 46 Analysis:
       Week: 2026-W45
       Period: 2026-11-01_to_2026-11-07

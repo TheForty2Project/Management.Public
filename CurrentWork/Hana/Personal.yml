@@ -1,5 +1,26 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
 # Finances:
+InProgress .Review finance week46:
+  +: {CreatedBy: Hana, CreatedAt: 20261108 T 152553, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-High}
+  Details:
+    Expected Expenses:
+      - Grocery: 3000 * 7
+      - Krav Maga: 5000 * 2
+      - Bouldering: 8000
+      - Szeged: 10000
+      - Washing: 3600
+      - Boxing gloves 15000
+      - groin protector: 4000
+      - Sharpening blade: 3000
+      - Bag: 3000
+      - Others: 10000
+      - Total: 87608
+    Expected income:
+      - Airbnb: 
+        -  149000
+  TODO .To be reviewed by Bobi:
+    +: {CreatedBy: Hana, CreatedAt: 20261108 T 213841, By: Hana, Tags: [TL, Private], Estimation: 10 , RemTime:10 , Importance: 3-Average}
+    Result:
 Done .Review finances 20260620:
   +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
   Done .Schedule meeting for Finance:
@@ -97,8 +118,8 @@ OnHold .Schedule Bobis Lab:
       Details:
         - check what we need - so what genes we should include
         - what are the options (price)
-  EstTODO .Schedule lipid panel:
-    +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151029, By: [Hana], Tags: [Private, TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+  Done .Schedule lipid panel:
+    +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151029, By: [Hana], Tags: [Private, TLDone], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
     
 #Ds:
 OnGoing .Create a process to handle Salad:

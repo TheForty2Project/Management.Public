@@ -5831,6 +5831,27 @@ Month of Nov:
           EmotionalImpact: The need and urge to cut myself. I wasnt expecting that these subject could affect Robi in his bad physical condition. Need the talk
           Summary: 
           Notes: One step forward, too many step backwards
+        - <Drugs>:
+          Time: 1546$
+          Name: W
+          Dosage: 0.16 
+          Unit: g
+          Summary: 
+          Notes: To get myself out of blaming and continue working
+        - <Food>:
+          Time: 1545
+          MealDescription: boiled egg, rice, fish hering (1.5 spoon),biscuts 80g
+          Quantity: moderate
+          Summary: 
+          Notes: 
+        - <Work>:
+          Time: 1544$
+          ActivityDesc: Finances
+          Duration: 0.5
+          Focus: 
+          MindPower: 
+          Summary: 
+          Notes: 
 
       Evening:
         <Work>:
@@ -5935,8 +5956,8 @@ Month of Nov:
 
 
 Notes To be done:
-  - Add Sleep Time to 
-  - Add Body battery gained in sleep property
+  - Done Add Sleep Time to 
+  - Done Add Body battery gained in sleep property
   - Legend for numeration
   - Include stool score and type
   - Include Sexual activity and thoughts

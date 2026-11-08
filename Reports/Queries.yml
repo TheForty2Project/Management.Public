@@ -63,5 +63,20 @@
     SkipFoldersAndFiles: false
     SkipUnder: [-->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 
+.HealthTasks:
+  Type: QueryDescription
+  Summary: Current tasks - implemented (as a temporary measure) as Tasks tagged with "TL"
+  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\<
+    - -->CurrentWork\Hana\<
+    - -->Tasks<
+  OutputFile: Reports\TaskListTasks.csv
+  OrderBy: [Tags, Importance desc, Status desc, By, RemTime]
+  Where:     
+    TaggedBy: [Health]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+    SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

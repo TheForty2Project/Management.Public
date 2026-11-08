@@ -30,67 +30,70 @@ HOS:
       PushUp:
         Goal: Improve synchronization and muscle balance
         Action:
-          - Identify weaker side:
-            Assessment:
-              Movement:
-                StandardPushUp:
-                  Repetitions:
-                  RightSideDropsFirst:
-                  LeftSideDropsFirst:
-                  HipRotation:
-                  ScapularWinging:
-                  Notes:
-                Muscles:
-                PectoralisMajor:
-                  Test: Single-arm cable chest press
-                  Right:
-                  Left:
+          TODO .Assess push up muscles:
+            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205555, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+            
+            Movement:
+              StandardPushUp:
+                Repetitions:
+                RightSideDropsFirst:
+                LeftSideDropsFirst:
+                HipRotation:
+                ScapularWinging:
+                Notes:
+              Muscles:
+              PectoralisMajor:
+                Test: Single-arm cable chest press
+                Right:
+                Left:
 
-                Triceps:
-                  Test: Single-arm cable triceps extension
-                  Right:
-                  Left:
+              Triceps:
+                Test: Single-arm cable triceps extension
+                Right:
+                Left:
 
-                AnteriorDeltoid:
-                  Test: Single-arm shoulder flexion
-                  Right:
-                  Left:
+              AnteriorDeltoid:
+                Test: Single-arm shoulder flexion
+                Right:
+                Left:
 
-                SerratusAnterior:
-                  Test: Wall push-up plus
-                  Right:
-                  Left:
+              SerratusAnterior:
+                Test: Wall push-up plus
+                Right:
+                Left:
 
-                LowerTrapezius:
-                  Test: Prone Y raise
-                  Right:
-                  Left:
+              LowerTrapezius:
+                Test: Prone Y raise
+                Right:
+                Left:
 
-                RotatorCuff:
-                  Test: Side-lying external rotation
-                  Right:
-                  Left:
+              RotatorCuff:
+                Test: Side-lying external rotation
+                Right:
+                Left:
 
-                RectusAbdominis:
-                  Test: Plank
-                  Duration:
+              RectusAbdominis:
+                Test: Plank
+                Duration:
 
-                Obliques:
-                  Test: Side plank
-                  Right:
-                  Left:
+              Obliques:
+                Test: Side plank
+                Right:
+                Left:
 
-                GluteusMaximus:
-                  Test: Single-leg glute bridge
-                  Right:
-                  Left:
-            Analysis:
-              WeakestMuscle:
-              LargestLeftRightDifference:
-              MovementCompensation:
-              PriorityExercise:
-              ReassessmentDate:
-                    - Improve movement coordination
+              GluteusMaximus:
+                Test: Single-leg glute bridge
+                Right:
+                Left:
+          TODO .Analyse the data below:
+            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205854, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+            
+            WeakestMuscle:
+            LargestLeftRightDifference:
+            MovementCompensation:
+            PriorityExercise:
+            ReassessmentDate:
+                  - Improve movement coordination
       FatLoss:
         Running: 2x per week
         DailyActivity:

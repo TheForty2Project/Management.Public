@@ -266,6 +266,12 @@ Id: Misc
                     - Core
                     - Squats
                     - Hangs
+                    - Push ups for Hana Assisted push up for Anita
+                  - TODO .Assessment of Core, Pushup and hangs:
+                    +: {CreatedBy: Hana, CreatedAt: 20261108 T 205343, By: [Hana, Anita], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                    Details:
+                      Please see
+
                 Exercise Report:
                   Monday20261109T07:00:
                     Focus: Lower body strength and functional stability
@@ -467,7 +473,6 @@ Id: Misc
               Notes: 
                 - Individual run (Anita Szabadka)
                 - Thursday Threshold Run
-
       Ongoing .Daily:
         OnGoing .Do health log and daily reviews:
           +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }

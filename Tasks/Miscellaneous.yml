@@ -132,13 +132,13 @@ Id: Misc
               InProgress .Analyse Week44:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:             
-              InProgress .Analyse Week45:
+              Done .Analyse Week45:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:
                   - Prepare muscles for threshold running
                   - Incorporate functional exercises
                   - Assess muscle strength and stability
-                Ex Report:
+                Exercise Report:
                   Monday20261102T07:15:
                     Notes:
                       - Bodyweight training
@@ -207,16 +207,229 @@ Id: Misc
                     - For Hana: during OLRDeadlift neck should follow the course of the spine (dont look up)
                     - Duration: 2 hours
                     - Target Muscle: 
-                  Friday 20261106T06:00:
-                    Notes:
+                  Friday 20261106T06:00:                   
+                      Notes: Upper body strength, shoulder stability, core activation
+                      Exercises:
+                        - CoreActivation:
+                            Notes: Usual 2-3 exercises
+                        - RotatorCuff:
+                            Equipment: Cable
+                            Anita: 2 exercises | 12-15 reps | 2 sets
+                            Hana: 2 exercises | 12-15 reps | 2 sets
+                        - ScapularPushUps:
+                            Target: Serratus anterior
+                            Anita: 12 reps | 3 sets
+                            Hana: 12 reps | 3 sets
+                        - DeadHangs:
+                            Anita: 5 sec | 3 sets
+                            Hana: 10-15 sec | 3 sets
+                        - BackExtension:
+                            Equipment: Roman chair
+                            Both: 10-12 reps | 3 sets
+                        - PushUps:
+                            Notes: Serratus anterior activation
+                            Anita: 10 reps | 3 sets
+                            Hana: 12 reps | 3 sets
+                        - SingleArmCableRows:
+                            Both: 10-12 reps | 3 sets
+                        - LateralRaises:
+                            Both: 10 reps | 3 sets | 2-3 kg
+                        - BicepsCurls:
+                            Both: 10 reps | 3 sets | 10-15 kg
+                        - TricepsPushdowns:
+                            Both: 10 reps | 3 sets | 15 kg
+                      Summary:
+                        Duration: 1.5 h
+                        TargetMuscles: Core, rotator cuff, serratus anterior, back, chest, shoulders, biceps, triceps
+                        Observations: both tired early morning ex
+                        Improvements: more sleep
+                      Uploads:
+                        Exercises: https://drive.google.com/drive/folders/1WB5GsOrCMEl9YqSh1GZ8XOQLr_n_HZ6o?usp=sharing
+                Summary: 
+                  - Increase the quality of video taking
+                  - Bring the Laptop with you to the gym and work from there
+                  - Create daily exercise for repeated exercises:
+                    TODO .create daily exercise for Week 46 and 47:
+                      +: {CreatedBy: Hana, CreatedAt: 20261108 T 113724, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+                      Workspace:
+                        Core activation 10m
+                        Squats 3 variation 3 set and 10 reps
+                        Hangs 5 to 60 sec            
+              CurrentFocus .Analyse Week46:
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                Details:
+                  - Focus on stability and routine
+                  - Focus on sleep and recovery before and after the ex
+                  - Daily exercise:
+                    - Core
+                    - Squats
+                    - Hangs
+                Exercise Report:
+                  Monday20261109T07:00:
+                    Focus: Lower body strength and functional stability
                     Exercises:
-                    Uploads:
-                      Exercises: 
+                      - Barbell Squat:
+                          Sets: 3
+                          Reps: 10-12
+                          Muscles: Quadriceps, glutes, core
+                          Variation: Dumbbell squat
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Romanian Deadlift:
+                          Sets: 3
+                          Reps: 10
+                          Muscles: Hamstrings, glutes, spinal erectors
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Lunges:
+                          Sets: 3
+                          Reps: 10
+                          Muscles: Quadriceps, glutes, hamstrings
+                          Variations: [Forward, Reverse, Torso Rotation, Knee Drive, Pulses]
+                          Load: Bodyweight or weighted
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Hip Thrust:
+                          Sets: 3
+                          Reps: 12
+                          Muscles: Gluteus maximus
+                          Optional: Every 2-3 weeks
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Step-Up or Bulgarian Split Squat:
+                          Sets: 3
+                          Reps: 10-12
+                          Muscles: Quadriceps, glutes, hip stabilizers
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Cable Hip Abduction:
+                          Sets: 3
+                          Reps: 10-12
+                          Muscles: Gluteus medius, gluteus minimus
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Standing Hip Flexion:
+                          Sets: 3
+                          Reps: 8-10
+                          Muscles: Iliopsoas, rectus femoris
+                          Equipment: Cable or resistance band
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Straight-Knee Calf Raise:
+                          Sets: 2
+                          Reps: 12
+                          Muscles: Gastrocnemius
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                      - Tibialis Raise:
+                          Sets: 2
+                          Reps: 12
+                          Muscles: Tibialis anterior
+                          Notes and Observation:
+                            Anita:
+                            Hana:
+                    Uploads: 
+                      Exercises: https://drive.google.com/drive/folders/1yiq5SHWt_4Hs0TvJ_dbr5yDpIdwxail9?usp=drive_link
                       Measurements:
                         Photos: 
-                        Measurement Data: 
-              EstTODO .Analyse Week46:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                        Measurement Data:
+                    Summary:
+                  Friday 20261113T06:00:                   
+                      Focus: Upper body strength and shoulder stability
+                      Exercises:
+                        - Rotator Cuff Activation:
+                            Sets: 2
+                            Reps: 15
+                            Muscles: Rotator cuff
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Serratus Anterior Activation:
+                            Sets: 2
+                            Reps: 15
+                            Muscles: Serratus anterior
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Assisted Pull-Up:
+                            Sets: 3
+                            Reps: 10
+                            Muscles: Latissimus dorsi, biceps, upper back
+                            Variation: Other pull-up variations
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Push-Up:
+                            Sets: 3
+                            Reps: 10-12
+                            Muscles: Pectoralis major, triceps, anterior deltoid, serratus anterior
+                            Variations: [Floor, Incline]
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Single-Arm Cable Row:
+                            Sets: 3
+                            Reps: 10
+                            Muscles: Latissimus dorsi, rhomboids, trapezius, biceps
+                            Notes: Per side
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Lateral Raise:
+                            Muscles: Lateral deltoid
+                            Equipment: Cable or dumbbell
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Front Raise:
+                            Muscles: Anterior deltoid
+                            Equipment: Dumbbell
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Biceps Curl:
+                            Muscles: Biceps brachii, brachialis
+                            Equipment: Cable
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Triceps Pushdown:
+                            Muscles: Triceps brachii
+                            Equipment: Cable
+                            Variation: Dips
+                            Notes: Adapt for elbow comfort
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Suitcase Carry:
+                            Duration: 20-30s
+                            Muscles: Obliques, quadratus lumborum, grip, shoulder stabilizers
+                            Notes: Per side
+                            Notes and Observation:
+                            Anita:
+                            Hana:
+                        - Dead Hang:
+                            Sets: 2-3
+                            Muscles: Forearm grip, shoulder stabilizers
+                            Notes and Observation:
+                            Anita:
+                            Hana:                    
+                      Summary:
+                        Duration: 
+                        TargetMuscles: 
+                        Observations: 
+                        Improvements: 
+                      Uploads:
+                        Exercises: https://drive.google.com/drive/folders/12w8ojaSywi9vvmkW2wdQdMOFoniN-nw8?usp=drive_link
+                Summary:                
               EstTODO .Analyse Week47:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
               EstTODO .Analyse Week48:

@@ -363,22 +363,6 @@ SR_20261105_Hana:
     - null
 SR_NEXT_Hana:
   Was:
-
-  NEXT:
-    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Define missing + fix EventLogBase classes"<
-    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<
-    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<
-    - -->MeetingMinutes\General\.HealthLogProcessReview.Result.Tasks.."Update the hos vs code snippets".."Add SystemState to each part of the day"<
-    - Diet 
-    - Exercise data yyyymmdd:
-      Reports:
-        username:
-          Was:
-    
-          Next:
-    
-          AOIB:
-    
-      Meeting Minutes:
-        Duration:
-        Topics:
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 0m, "", 20261108 T 104302 ]
+  Next:
+    - null

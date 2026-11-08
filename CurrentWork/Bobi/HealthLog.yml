@@ -1194,78 +1194,77 @@ Month of Nov:
           Summary:
           Notes:
     42241_20261108_Incomplete:
-      42241_20261108_Incomplete:
-        Morning:
-          - <Sleep>:
-            BedTime: 3:14 
-            SleepTime: 3:14 
-            WakeTime: 10:27 
-            Duration: 
-            SleepScore: 72
-            BodyBattery: +62
-            Summary:
-            Notes: Woke up in a nice mood
-          - <Food>:
-            Time: 10:30
-            MealDescription: coffee, lemon water, Createine, Citrolline, glutamin
-            Quantity: 
-            Summary:
-            Notes:
-          - <Digestion>:
-            Time: 10:30
-            Bristol: 4
-            Bloating:
-            AbdominalPain:
-            Flatulence:
-            Belching:
-            Summary:
-            Notes:
-          - <Movement>:
-            Time: 1052$
-            Activity: 
-            Duration: 
-            Intensity: 
-            Summary: 
-            Notes:  
+      Morning:
+        - <Sleep>:
+          BedTime: 3:14 
+          SleepTime: 3:14 
+          WakeTime: 10:27 
+          Duration: 
+          SleepScore: 72
+          BodyBattery: +62
+          Summary:
+          Notes: Woke up in a nice mood
+        - <Food>:
+          Time: 10:30
+          MealDescription: coffee, lemon water, Createine, Citrolline, glutamin
+          Quantity: 
+          Summary:
+          Notes:
+        - <Digestion>:
+          Time: 10:30
+          Bristol: 4
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes:
+        - <Movement>:
+          Time: 1052$
+          Activity: 
+          Duration: 
+          Intensity: 
+          Summary: 
+          Notes:  
 
-        Afternoon:
-          <Drugs>:
-            Time:
-            Name:
-            Dosage:
-            Unit:
-            Summary:
-            Notes:
-          <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
-          <Food>:
-            Time:
-            MealDescription:
-            Quantity:
-            Summary:
-            Notes:
-          <Movement>:
-            Time:
-            Activity:
-            Duration:
-            Intensity:
-            Summary:
-            Notes:
-        Evening:
-          <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
 
 
 

@@ -363,6 +363,7 @@ SR_20261105_Hana:
     - null
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 0m, "", 20261108 T 104302 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 10m, "", 20261108 T 104302 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"<: [ 131m, "", 20261108 T 105344 ]
   Next:
     - null

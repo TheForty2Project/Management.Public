@@ -105,7 +105,7 @@ Id: Misc
             +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}     
       Ongoing .Weekly:
         .Exercise:
-          .Muscle Resistance:
+          .Muscle Strength:
             OnGoing .Schedule the analysis of resistance ex:
               Details:
                 Make sure you add the schedule on Google and Garmin calendar 
@@ -115,8 +115,10 @@ Id: Misc
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
               Done .Schedule Week45:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
-              EstTODO .Schedule Week46:
+              Done .Schedule Week46:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                Results: 
+                  Schedule applied in google Calendar
               EstTODO .Schedule Week47:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
               EstTODO .Schedule Week48:
@@ -459,6 +461,13 @@ Id: Misc
               Duration: 30 m 
               Garmin Link:
               Track: https://www.youtube.com/watch?v=tm3IP8BNDD0
+            20261110T07:00:
+              Notes: Tuesday easy run
+            20261112T18:00:
+              Notes: 
+                - Individual run (Anita Szabadka)
+                - Thursday Threshold Run
+
       Ongoing .Daily:
         OnGoing .Do health log and daily reviews:
           +: { CreatedBy: Bobi, CreatedAt: 20260428 T 131144, By: Hana, Tags: [ ] }

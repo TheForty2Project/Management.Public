@@ -1219,6 +1219,12 @@ Month of Nov:
           Belching:
           Summary:
           Notes:
+        - <Food>:
+          Time: 11:06
+          MealDescription: Rice pancake, frozen fruits, pudding, coffee
+          Quantity: 
+          Summary: 
+          Notes: 
         - <Movement>:
           Time: 1052$
           Activity: 

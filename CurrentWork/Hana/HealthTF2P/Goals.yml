@@ -278,7 +278,67 @@ HOS:
         Weekly: Evaluate consistency and recovery
         Monthly: Review progress and adjust goals
 
+      Preparing for Ice6skating:
+        TODO .Go through the exercises of muscle preparation for ice skating:
+          +: {CreatedBy: Hana, CreatedAt: 20261109 T 171620, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-High}
+          Workspace:
+            Repetitions: 8
+            Cue: Allow shoulder blades to move
 
+            OnIce:
+              - Begin with supported soft knee bends and weight shifts
+              - Practise small steps and easy glides
+              - Learn stopping and getting up with guidance before increasing speed
+              - Avoid holding arms rigidly for long periods
+              - Take breaks before balance deteriorates
+
+            PreparationSessions:
+              Frequency: 1-2 light sessions on nonconsecutive days
+              Rounds: 1 if detrained; otherwise up to 2
+              Rest: 30-60 seconds as needed
+              Effort: Familiar pain-free movements; finish with repetitions in reserve
+              Exercises:
+                - {Name: Chair squat, Repetitions: '10-15'}
+                - {Name: Glute bridge, Repetitions: 15}
+                - {Name: Supported lateral step and return, Repetitions: '8 per side'}
+                - {Name: Gentle pillow squeeze between knees, Repetitions: 12, Hold: '8 seconds'}
+                - {Name: Supported calf raise, Repetitions: '10-12'}
+                - {Name: Standing knee lift, Repetitions: '8-10 per side'}
+                - {Name: Bird dog, Repetitions: '10 per side', Hold: '3 seconds'}
+                - {Name: Single-leg balance, Sets: 2, Hold: '20 seconds per side'}
+              Note: Movement rehearsal, not a hard strength workout
+
+            AfterSkating:
+              CoolDown: Walk easily for 3-5 minutes after removing skates
+              OptionalStretching:
+                Hold: 20-30 seconds
+                Sets: 1-2 per side
+                Cues: No bouncing or pushing into pain
+                Stretches:
+                  Calf: Wall stretch with straight knee for gastrocnemius, slightly bent knee for soleus
+                  Quadriceps: Supported standing heel-to-buttock stretch without back arching
+                  HipFlexors: Supported padded half-kneeling pelvic tuck and gentle forward shift
+                  Glutes: Supine figure-four stretch
+                  Adductors: Comfortable wide-stance lateral weight shift
+                  Hamstrings: Heel on low support, soft knee, hinge from hips
+              Note: Stretching may help flexibility but does not reliably prevent delayed muscle soreness
+
+            Safety:
+              - Stop for sharp pain, dizziness, or loss of control
+              - Use well-fitting skates, gloves, and a suitable helmet
+              - Follow rink rules
+
+            Sources:
+              - 'Chang et al. Hip adductor muscle function in forward skating (2009): https://pubmed.ncbi.nlm.nih.gov/19891199/'
+              - 'Lower limb muscle activation patterns in ice hockey skating: https://pubmed.ncbi.nlm.nih.gov/34930101/'
+              - 'Lumbopelvic hip complex screening in elite figure skaters: https://pmc.ncbi.nlm.nih.gov/articles/PMC9387377/'
+              - 'AAOS rotator cuff FAQ: https://orthoinfo.aaos.org/en/diseases--conditions/rotator-cuff-tears-frequently-asked-questions/'
+              - 'American Heart Association warm up and cool down: https://www.heart.org/en/healthy-living/fitness/fitness-basics/warm-up-cool-down'
+              - 'Cochrane stretching and muscle soreness: https://pubmed.ncbi.nlm.nih.gov/21735398/'
+              - 'US Figure Skating beginner equipment: https://www.usfigureskating.org/sites/default/files/media-files/lets%20get%20started.pdf'
+              - 'StatPearls hip joint anatomy: https://www.ncbi.nlm.nih.gov/books/NBK470555/'
+
+          
 
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

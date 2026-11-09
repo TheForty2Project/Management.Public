@@ -1578,7 +1578,7 @@ Done .Back to original:
         Details:
           - Simply add a link (with some text) to the Overview section
           - Ensure and test that git is set up in a way that it's "read-only" for the public
-    EstTODO .As a Github repo:
+    OnHold .As a Github repo:
       +: {CreatedBy: Bobi, CreatedAt: 20260523 T 001712, By: Bobi, Tags: [CSVTODO], Estimation: 60, RemTime: 60}
       Details:
         - basically some "header" for each yaml/page OR a link to the GitHub. Need to decide how it would be the best.
@@ -1586,11 +1586,33 @@ Done .Back to original:
     Id: FoldAll
     EstTODO .Try with a codex prompt:
       Id: Codex
-      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "20", RemTime: "20"}
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153012, By: Bobi, Tags: [Before1stPost, TL], Estimation: "20", RemTime: "20"}
       Details:
         Make sure that any change can be rolled back easily - so test it properly before building on it.
-    NEXT .If the previous didn't work bug-free, do it manually:
-      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [CSVDONE, OCWSPhase2], Estimation: "120", RemTime: "120"}
+    NEXT .If the previous didn't work bug-free, do it manually:    
+      +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [Before1stPost, TL], Estimation: "120", RemTime: "120"}
+    .Go through the DeepDive site and collect things to be upgraded:
+    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210020, By: Bobi, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+    Workspace:
+      TODO .Add some space after the colon after the map keys:
+        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210556, By: Bobi}
+      TODO .Fold/unfold buttons should be on the left hand side (like in VS Code):
+        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210633, By: Bobi}
+      Done .Update the link colors:
+        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210751, By: Bobi}
+        Details:
+          current CustomColoring setting for f2links
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls and email addresses"<:
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Detect and convert links inside text"<:
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Follow local links"<:
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<:
+      TODO .Left hand side sizing issues:
+        Details:
+          Currently the left hand side indentation is inconsistent, also, there's a horizonal scrollbar; this should be fixed.
+        
+        
+        
+    
   Cancelled .Manually convert the urls in the NonDD pages to html links:
     Id: ManualHtmlLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130443, By: Hana, Tags: [CSVDONE], Estimation: "30", RemTime: "30", Mst: }    
@@ -1658,8 +1680,8 @@ Done .Back to original:
               2026-10-05:
                 Summary: Progress with Updates section
                 Files:
-                  - -->Tasks\Website\
-                  - -->PErsonsal\Bobi\StandupReports
+                  - -->Tasks\Website\<
+                  - -->PErsonsal\Bobi\StandupReports<
       Result:
         - we're going with the basic - so information is summary, date and list of files, rendered as a standard yaml, so no need to design anything, just set it up.
     Done .Implement it on the site:
@@ -1883,6 +1905,8 @@ Done .Back to original:
     +: {CreatedBy: Bobi, CreatedAt: 20260525 T 150539, By: Bobi}    
     EstTODO .Update the colors of the non-generated pages:
       +: {CreatedBy: Bobi, CreatedAt: 20260525 T 151321, By: Bobi, Tags: [Before1stPost, TL], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+      Details: |
+        "Default Dark" theme
     .-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Update the colors to the current VS Code theme"<:
   OnGoing .Work out user journeys on the site:
     +: {CreatedBy: Bobi, CreatedAt: 20260523 T 002049, By: Bobi, Tags: [CSVTODO]}

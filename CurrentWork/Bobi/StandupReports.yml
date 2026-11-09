@@ -526,5 +526,9 @@ SR_NEXT_Bobi:
   Was:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 48m, "", 20261030 T 210522 ]
     - -->Tasks\ToBeSorted\.."Review Health log process"<: [ 63m, "", 20261103 T 134310 ]
+    - -->Tasks\Website\..Improvements.."Go through the DeepDive site and collect things to be upgraded"<: [ 42m, "", 20261107 T 210314 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Detect and convert links inside CSV"<: [ 20m, "", 20261108 T 001806 ]
+    - -->Tasks\Website\..Improvements.."Add Fold All and Unfold ALl buttons".Workspace.."Update the link colors"<: [ 20m, "", 20261108 T 002357 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Create a summar report at the end about the links"<: [ 60m, "", 20261108 T 005710 ]
   Next:
     - null

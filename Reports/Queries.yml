@@ -3,7 +3,7 @@
 .TaskListTasks:
   Type: QueryDescription
   Summary: Current tasks - implemented (as a temporary measure) as Tasks tagged with "TL"
-  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(5), Summary, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<

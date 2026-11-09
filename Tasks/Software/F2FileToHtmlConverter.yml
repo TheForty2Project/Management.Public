@@ -175,14 +175,18 @@
         TODO .Follow local links:
           Details:
             Like -->..MyId..MyChildId<
-        TODO .Fix links:
+        InProgress .Fix links:
           Details:
             Anything which do not point anywhere
+        Accepted .Cant find anchor for valid links:
+          Type: Bug
+          +: {CreatedBy: Bobi, CreatedAt: 20261109 T 173428, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}          
+          Details: |
+            d:\_TF2P\Management.Public\Tasks\Software\F2ToolsExtension.yml, Type: CantFindAnchor, Row: 569, Col: 22, Link: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
       TODO .Detect and convert urls and email addresses:
         +: {CreatedBy: Bobi, CreatedAt: 20261107 T 211231, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}        
       Done .Create a summar report at the end about the links:
-        +: {CreatedBy: Bobi, CreatedAt: 20261108 T 005056, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-        
+        +: {CreatedBy: Bobi, CreatedAt: 20261108 T 005056, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}        
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "45"}
       Done .Implement CSV converting feature:

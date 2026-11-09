@@ -67,8 +67,7 @@ OnGoing .General management:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
           Details:
             - Move the Tasks to their correct locations AND leave links pointing
-            - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
-        -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:  
+            - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location) 
   OnGoing .Reports:
     Done .Create report about total spent time per task and per day per worker up until 20260413 meh:
       +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}

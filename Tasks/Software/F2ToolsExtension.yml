@@ -21,7 +21,7 @@ OnGoing .Task administration:
     Estimation:
       - 1h: PAR time
       - 12h: normal time
-    DependsOn: -->Tasks\Software\F2ToolsExtension\.Tasks.."Create the F2ToolsExtension"<
+    DependsOn: -->Tasks\Software\F2ToolsExtension\..Tasks.."Create the F2ToolsExtension"<
     ForRequirement: -->Documents\Requirements\F2ToolsExtension\.."Extract F2Yaml Link in F2ToolsExtension"<
     Details:
       - Add the functionality as specified in the Requirement
@@ -1303,24 +1303,10 @@ OnGoing .Task administration:
     Version: 2.0.25
     FixVersion:
     Area: TimeTracking
-    Severity: 2-Low
+    Severity: 1-VeryLow
     Details:
-      On these links:
-        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Create schedules".."Fine tune daily schedule during the trial week"<
-        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks.."Create schedules".."Create streaming schedule"<
-      The Planning20260428 meeting note currently:
-        .Planning20260428:
-          Participants: [Bobi, Hana]    
-          StartTime: 20260428 T 1240
-          EndTime: 20260428 T 1344
-          Details:
-            Task is $@-->Tasks\Management\.."Big replanning after OCWSPhase1"<@$
-          Result:
-            Tasks created:
-              - -->Tasks\Management\.."Plan the next Milestones"<
-              - -->Tasks\Management\.."Create schedules"<        
-              - -->Tasks\Management\.."Create "daily administration" schedule for Hana"<                
-              - -->Tasks\PublicRelations\.."Create outreach plan"<      
+      On these links (note that "Workspace.Tasks" do not exists under the planning meeting):
+        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks<        
 
   New .Unable to follow links where a summary part ends with dot:
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 145730, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}

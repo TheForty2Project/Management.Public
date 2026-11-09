@@ -348,7 +348,7 @@ SR_20261030_Hana:
   AOIB:
 
 
-SR_NEXT_Hana:
+SR_20261105_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 103m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
     - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
@@ -359,5 +359,12 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 808m, "", 20261102 T 115956 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly".."Schedule health log recent development meeting with the members".."Month of Nov - 20261102T12:00-13:00"<: [ 60m, "", 20261102 T 120859 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
+  Next:
+    - null
+SR_NEXT_Hana:
+  Was:
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 10m, "", 20261108 T 104302 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"<: [ 131m, "", 20261108 T 105344 ]
+    - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 40m, "", 20261108 T 154741 ]
   Next:
     - null

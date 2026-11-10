@@ -48,7 +48,7 @@ Id: Misc
 
 .Health:
   EstTODO .Define missing + fix EventLogBase classes:
-    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: 60, RemTime: 60, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
     Details:
       - Define the missing EventLogBase classes, such as:
         - SystemState
@@ -62,7 +62,7 @@ Id: Misc
       - Changes:
         - BodyBattery in Sleep should be "BodyBatteryGain"
   EstTODO .Update the hos vs code snippets:
-    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
     Details:
     TODO .Entries inside should be lists (so add a dash in front of them):
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
@@ -71,7 +71,7 @@ Id: Misc
     TODO .Add SystemState to each part of the day:
 
   EstTODO .Move the health related things under the HealthManagement subproject:
-    +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [TL, Health], Estimation: 20, RemTime: 20, Importance: 4-High}
+    +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [Health, TL], Estimation: 20, RemTime: 20, Importance: 4-High}
     Details:
       - TIMEBOXED - so don't perfect the structure! Use digital notes - handwriting is slow, you don't have time!
       - make sure that f2yaml rules are kept - if unsure, ask Robi      
@@ -91,9 +91,9 @@ Id: Misc
           +: {CreatedBy: Hana, CreatedAt: 20261101 T 151142, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
           Result: 
           Done .Month of Nov - 20261102T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}   
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
           EstTODO .Month of Dec - 20261202T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}   
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
         Development Tasks:
           Done .Log Automation:
             +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
@@ -103,12 +103,12 @@ Id: Misc
                 Bobi:   42241
                 Anita:  42333 (to be reviewed)
           Done .Create snippet for the whole log for each member:
-            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154802, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154802, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
             Details: 
               - Instead of loading each property eg <Sleep> or timeline category (morning, afternoon, evevning) create the whole log and modification can happen after. 
               - To save time.
           InProgress .To be reviewed by members:
-            +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 5-VeryHigh}     
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}     
       Ongoing .Weekly:
         .Exercise:
           .Muscle Strength:
@@ -118,31 +118,31 @@ Id: Misc
               Results:
               Done .20260624: https://connect.garmin.com/app/calendar June 25 to Jun29
               Done .Schedule Week44:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
               Done .Schedule Week45:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
               Done .Schedule Week46:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 Results: 
                   Schedule applied in google Calendar
               EstTODO .Schedule Week47:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
               EstTODO .Schedule Week48:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
               Note:
                 - Explore twitch and add the schedules to Twitch calendar
                 - mid of Nov - Week 47
             InProgress .Analyse weekly Health Data:
-              +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ TL, Health ], Estimation: 180m, RemTime: 180m }   
+              +: { CreatedBy: Hana, CreatedAt: 20260621 T 004355, By: Hana, Tags: [ Health, TL ], Estimation: 180m, RemTime: 180m }   
               Details: 
                 - Upload the exercise pic and videos in google drive 
                 - Report Exercices
               InProgress .Analyse Week44:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 Details:             
               Done .Analyse Week45:
                 Type: ExerciseTask
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 Details:
                   - Prepare muscles for threshold running
                   - Incorporate functional exercises
@@ -265,7 +265,7 @@ Id: Misc
                         Squats 3 variation 3 set and 10 reps
                         Hangs 5 to 60 sec            
               CurrentFocus .Analyse Week46:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 Details:
                   - Focus on stability and routine
                   - Focus on sleep and recovery before and after the ex
@@ -275,7 +275,7 @@ Id: Misc
                     - Hangs
                     - Push ups for Hana Assisted push up for Anita
                   - TODO .Assessment of Core, Pushup and hangs:
-                    +: {CreatedBy: Hana, CreatedAt: 20261108 T 205343, By: [Hana, Anita], Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                    +: {CreatedBy: Hana, CreatedAt: 20261108 T 205343, By: [Hana, Anita], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                     Details:
                       Please see
 
@@ -446,27 +446,27 @@ Id: Misc
                         Exercises: https://drive.google.com/drive/folders/12w8ojaSywi9vvmkW2wdQdMOFoniN-nw8?usp=drive_link
                 Summary:                
               EstTODO .Analyse Week47:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
               EstTODO .Analyse Week48:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 Result:
             EstTODO .Review Analysis:
               +: {CreatedBy: Hana, CreatedAt: 20261102 T 121209, By: Anita, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
               Results:
                 EstTODO .Analyse Week44:
-                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                   Details: 
                     Monday:
                     Friday:
                 EstTODO .Analyse Week45:
-                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: [Hana, Anita], Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: [Hana, Anita], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                   Details: 
                     Monday:
                     Friday:
                 EstTODO .Analyse Week46:
-                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 EstTODO .Analyse Week47:
-                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                  +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
                 EstTODO .Analyse Week48:
           .Running: 
             20261103T06:00:
@@ -623,11 +623,11 @@ Id: Misc
     OnGoing .Showcase health-log to Bobi:
       +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154540 }
       Done .Schedule health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [Health, TLDone], Estimation: 10, RemTime: 10, Importance: 3-Average }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154612, By: [ Hana ], Tags: [TLDone, Health], Estimation: 10, RemTime: 10, Importance: 3-Average }
         Result:
           - Showcase healthLog is on Aug 1
       Done .Prepare for health-log showcase:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [Health, Private, TLDone], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 154650, By: [ Hana ], Tags: [TLDone, Health, Private], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Details:
           - what can you use it for - collect use cases ("I want to have answer to question x so I go and check this and that")
           - how can you improve it - how to do it quicker, what data to use instead of what, queries, scripts, etc.
@@ -1019,11 +1019,11 @@ Id: Misc
                 Duration: 90min
                 Focus: 8
       Done .Showcase health log:
-        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+        +: { CreatedBy: Bobi, CreatedAt: 20260727 T 155010, By: [Hana, Bobi], Tags: [TLDone, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
         Workspace:
           we're working into the above task          
         Done .Finish creating classes:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}          
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Hana], Tags: [TLDone, Health], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Details:
             - The last part is left
             - enumerations
@@ -1032,7 +1032,7 @@ Id: Misc
             CancelReason: it's not important            
             Status: Cancelled
         Done .Create class for SummaryLog:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Bobi, Hana], Tags: [Health, TLDone], Estimation: 30, RemTime: 30, Importance: 3-Average}          
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 155933, By: [Bobi, Hana], Tags: [TLDone, Health], Estimation: 30, RemTime: 30, Importance: 3-Average}          
           Result:
             class .SummaryMorningLog:
               Inherits: EventLogBase
@@ -1067,9 +1067,9 @@ Id: Misc
           Details:
             Like hornyness, music enjoyment          
         Done .Create snippets for the Items:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 150501, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
         Done .Move the classes to BusinessClasses.yml:
-          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [Health, TLDone], Estimation: 15, RemTime: 15, Importance: 3-Average}
+          +: {CreatedBy: Bobi, CreatedAt: 20261017 T 151404, By: Hana, Tags: [TLDone, Health], Estimation: 15, RemTime: 15, Importance: 3-Average}
           Workspace:
             - Eventlogbase is missing
           
@@ -1087,16 +1087,16 @@ Id: Misc
       Done .Showcase Health Log to Anita:
         +: {CreatedBy: Hana, CreatedAt: 20261017 T 192215, By: Hana}
         Done .Take a video of the showcasing health log:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [Health, TLDone], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192345, By: Hana, Tags: [TLDone, Health], Estimation: 20 , RemTime: , Importance: 5-VeryHigh}
         Done .Schedule meeting with Anita:
           +: {CreatedBy: Hana, CreatedAt: 20261017 T 192425, By: Hana, Tags: [Healht, TLDone], Estimation: 2 , RemTime: , Importance: 5-VeryHigh}
         Done .Prepare for health-log showcase to Anita:
-          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135412, By: [Hana, Bobi], Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 3-Average}
+          +: {CreatedBy: Bobi, CreatedAt: 20261018 T 135412, By: [Hana, Bobi], Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 3-Average}
           Details:
             - Go through the previous ones
             - How would Anita be doing her part
         Done .Showcase HealthLog to Anita:
-          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [Health, TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          +: {CreatedBy: Hana, CreatedAt: 20261017 T 192505, By: [Hana, Anita], Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
           ScheduledAt: 20261019 T 140000
           Details:
             on a call? Ideally here though.
@@ -1120,7 +1120,7 @@ Id: Misc
     Result:
       - see https://chatgpt.com/share/6a65fa1e-7ae8-83eb-9713-c27c89e6130e
   Done .Work out a blood pressure increasing training protocol with ChatGPT:
-    +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [Health, TLDone, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
+    +: { CreatedBy: Bobi, CreatedAt: 20260728 T 163452, By: Hana, Tags: [TLDone, Health, Private ], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh }
   Done .Schedule lab test and doctor appointments:
     +: { CreatedBy: Hana, CreatedAt: 20260806 T 172328, By: Hana }
 

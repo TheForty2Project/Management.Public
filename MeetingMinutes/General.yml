@@ -51,7 +51,7 @@ HealthLogProcessReview:
   Result:
     Tasks:
       TODO .Define missing + fix EventLogBase classes:
-        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
+        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
         Details:
           - Define the missing EventLogBase classes, such as:
             - SystemState
@@ -65,7 +65,7 @@ HealthLogProcessReview:
           - Changes:
             - BodyBattery in Sleep should be "BodyBatteryGain"
       TODO .Update the hos vs code snippets:
-        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+        +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 4-High}
         Details:
         TODO .Entries inside should be lists (so add a dash in front of them):
         TODO .Add a default value to each property-value where the values are from an enum, detailing the options:

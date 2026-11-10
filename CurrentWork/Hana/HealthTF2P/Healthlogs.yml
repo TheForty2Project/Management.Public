@@ -5145,7 +5145,7 @@ Month of Nov:
         Bobi:   42241
         Anita:  42333
     Done .Create process for Logging:
-      +: {CreatedBy: Hana, CreatedAt: 20261101 T 144754, By: Hana, Tags: [TL, Health], Estimation:10 , RemTime:10 , Importance: 5-VeryHigh}
+      +: {CreatedBy: Hana, CreatedAt: 20261101 T 144754, By: Hana, Tags: [Health, TL], Estimation:10 , RemTime:10 , Importance: 5-VeryHigh}
     
       Details:
         - Morning to be reviewed by Anita

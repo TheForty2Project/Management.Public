@@ -31,7 +31,7 @@ HOS:
         Goal: Improve synchronization and muscle balance
         Action:
           TODO .Assess push up muscles:
-            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205555, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205555, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 4-High}
             
             Movement:
               StandardPushUp:
@@ -86,7 +86,7 @@ HOS:
                 Right:
                 Left:
           TODO .Analyse the data below:
-            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205854, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+            +: {CreatedBy: Hana, CreatedAt: 20261108 T 205854, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 4-High}
             
             WeakestMuscle:
             LargestLeftRightDifference:

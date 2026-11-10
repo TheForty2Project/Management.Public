@@ -661,6 +661,11 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 180}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
       DependsOn: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
+    InProgress .Implement IdHierarchy:
+      +: {CreatedBy: Bobi, CreatedAt: 20261110 T 142317, By: Bobi, Tags: [Dev, F2Tools], Estimation: 80, RemTime: 20, Importance: 3-Average}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..ReportEnhancements..BasicSelectFunctions..Functions.."IdHiearchy"<
+      Notes:
+        Currently the link format is left only (so instead of parent.child, child->parent)
   InProgress .F2Link class based F2Link handling:
     Id: F2LinkClass
     +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi}
@@ -812,13 +817,13 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 191500, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
     Done .Write initial readme.md:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
     EstTODO .Create proper readme:
-      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 90}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."ReadMe"<
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [F2Tools, Dev], Estimation: 90, RemTime: 90}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
     EstTODO .Create License:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [CSVDONE], Priority: 3-Average, Estimation: 60, RemTime: 60}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs.."License"<
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [F2Tools, Dev], Priority: 3-Average, Estimation: 60, RemTime: 60}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialLicense<
     Done .V2.0.25:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
     Done .V2.0.26:

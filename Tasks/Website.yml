@@ -1591,25 +1591,29 @@ Done .Back to original:
         Make sure that any change can be rolled back easily - so test it properly before building on it.
     NEXT .If the previous didn't work bug-free, do it manually:    
       +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [Before1stPost, TL], Estimation: "120", RemTime: "120"}
-    Done .Go through the DeepDive site and collect things to be upgraded:
-    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210020, By: Bobi, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
-    Result:
-      TODO .Add some space after the colon after the map keys:
-        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210556, By: Bobi}
-      TODO .Fold/unfold buttons should be on the left hand side (like in VS Code):
-        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210633, By: Bobi}
-      Done .Update the link colors:
-        +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210751, By: Bobi}
-        Details:
-          current CustomColoring setting for f2links
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls and email addresses"<:
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Detect and convert links inside text"<:
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Follow local links"<:
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<:
-      TODO .Left hand side sizing issues:
-        Details:
-          Currently the left hand side indentation is inconsistent, also, there's a horizonal scrollbar; this should be fixed.
-        
+  Done .Go through the DeepDive site and collect things to be upgraded:
+  +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210020, By: Bobi, Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 3-Average}
+  Result:
+    -->Tasks\Website\..Improvements.."Add some space after the colon after the map keys"<:    
+    -->Tasks\Website\..Improvements.."Fold/unfold buttons should be on the left hand side (like in VS Code)"<:
+    -->Tasks\Website\..Improvements.."Update the link colors"<:
+    -->Tasks\Website\..Improvements.."Left hand side sizing issues"<:
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls and email addresses"<:
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Detect and convert links inside text"<:
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Follow local links"<:
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<:
+  TODO .Add some space after the colon after the map keys:
+    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210556, By: Bobi, Tags: [Before1stPost, TL]}
+  TODO .Fold/unfold buttons should be on the left hand side (like in VS Code):
+    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210633, By: Bobi, Tags: [Before1stPost, TL]}
+  Done .Update the link colors:
+    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210751, By: Bobi, Tags: [Befire1stPost, TLDone]}
+    Details:
+      current CustomColoring setting for f2links
+  Accepted .Left hand side sizing issues:    
+    +: {Type: Bug, CreatedBy: Bobi, CreatedAt: 20261110 T 141010, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    Details:
+      Currently the left hand side indentation is inconsistent, also, there's a horizonal scrollbar; this should be fixed.          
         
         
     

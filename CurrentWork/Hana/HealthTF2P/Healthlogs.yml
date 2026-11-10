@@ -5931,7 +5931,89 @@ Month of Nov:
         - Record emotional StateTransitions
         - Standardize substance records
         - Track menstrual symptoms
-
+    42242_20261110_Incomplete:
+      Morning:
+        - <Sleep>:
+          BedTime:  9:40 
+          SleepTime: 9:40 
+          WakeTime:  9:40 
+          Duration:  11h 56m
+          SleepScore: 84
+          BodyBatteryGained: +61
+          Summary: 
+          Notes: 
+        - <Food>:
+          Time: 10:30
+          MealDescription: 2 Biscuits, coffee with milk
+          Quantity: low
+          Summary:
+          Notes: no appetite
+        - <Movement>:
+          Time: 11
+          Activity: Squats, core activation. lunges forward and back wards, jumps 2 legs and 1 leg
+          Duration: 40m
+          Intensity: easy
+          Summary:
+          Notes: concentrating on muscles  activation and which muscle is sore
+      Afternoon:
+        - <Work>:
+          Time: 12:30
+          ActivityDesc: meeting on workflow analysis, Health Process
+          Duration: 3 h
+          Focus: 2
+          MindPower: 2
+          Summary: 
+          Notes: 
+        - <Digestion>:
+          Time: 13:00
+          Bristol: 4
+          Bloating: 0
+          AbdominalPain: 0
+          Flatulence: 0
+          Belching: 0
+          Summary:
+          Notes: easy one blup
+        - <Drugs>: 
+          Time: 13:00
+          Name: Kratom
+          Dosage: 0.7
+          Unit: g
+          Summary:
+          Notes: later I had a meltdown @ 08:00 5 hours later
+        - <Food>:
+          Time: 15:00
+          MealDescription: Rice, cooked fish, soup with veggies
+          Quantity: moderate
+          Summary: 
+          Notes: 
+        - <Movement>:
+          Time: 17:30
+          Activity: walking and small jogging
+          Duration: 1 h
+          Intensity: easy
+          Summary:
+          Notes: felt like fainting at the end of the run. (No proper breakfast and Kratom)
+      Evening:
+        <Food>:
+          Time: 1806
+          MealDescription: biscuits
+          Quantity: 2
+          Summary: 
+          Notes: Very tensed
+        <LifeEvent>:
+          Time: 18:30
+          EventDescription:  meltdown
+          EmotionalImpact: overwhelmed with allthe tasks and mamas memory and the ability to take care of myself, Robi, Anita and loved ones
+          Summary: 
+          Notes: calmed by Robi
+        <Work>:
+          Time: 
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
 
 
 

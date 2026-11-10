@@ -301,6 +301,49 @@ Done .Create "daily administration" schedule for Hana:
   Result:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
 
+Done .Scheduling meeting about general workflow analysis for week 46:
+  +: {CreatedBy: Hana, CreatedAt: 20261109 T 172153, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+  Details:
+    - Anaysis of tasks estimations for theek of 46
+    - milestones
+    - categorization of tasks based on its goal
+  Result:
+    - Bobi: After morning run
+    - Done .Schesuled in google calendar: 
+    
+Done .Replan work method and schedules 20261110:
+  +: {CreatedBy: Hana, CreatedAt: 20261110 T 140636, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+  Workspace:
+    Time estimation before completion: 
+      Before first post: 1605m - 26 h 
+      Health: 400m - 6h
+      Other Task list: 428m - 7 h
+      Health log: Special case suppose to be 10 min per day 
+    Time consumption for week 46:
+      - Before first post: 26/3 weeks till week 49 1.5 hours per day that is 7.5 for this week
+      - Health 6 h fpr this week
+      - 10 to 20 m per day
+      - Language: 1 to 2 hour per day
+  Result:
+    Hana needs to work on 4 streams:
+      - Hungarian language: 1 hr/day
+      - Health analysis: 2 hr/week
+      - Before1stPost: 1-3 hr/day
+      - Other tasks: 1 hr/day
+      - Health log: 15 mins/day      
+    Robi needs to work on:
+      - Next most important tasks - non-dev: 2-3 hr/day
+      - Next most important tasks - dev: 2-3 hr/day
+    We should have a short replst every day:
+      - Re-prioritization included
+      - Ideally prepared before the day:
+          For Robi: during the night work
+          For Hana: 
+      - Held after Lidl (+ morning run):
+    Summary:
+      Hana: 3-5 hours of computer work / day
+      Bobi: 4-6 hours of computer work / day
+  
 #Website:
 Done .OCWSPhase1:
   Id: OCWSPhase1

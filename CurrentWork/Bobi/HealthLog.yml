@@ -2433,7 +2433,20 @@ Month of Nov:
           MindPower:
           Summary:
           Notes:      
-
-
+    SummaryMorningLogs:
+      - 20261110:
+          Time: 20261110 T 1554
+          MorningState: 
+            Mood: Ok - bit down but enjoying music
+            ThinkingQuality: good
+            Motivation: moderate
+            PhysicalEnergy: good
+            BodyBattery: no data - watch was not working
+            Rumination:      
+          SleepScore: no data - watch was not working
+          Bristol: sausage, but thin
+          SuspectedReasons:
+            - 2 days of c + fights
+            - eating only very easy to digest food the previous day (puddings + little )
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

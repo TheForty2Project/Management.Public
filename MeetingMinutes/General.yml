@@ -71,38 +71,7 @@ HealthLogProcessReview:
         TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
           Details:
             such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
-        TODO .Add SystemState to each part of the day:
-
-Done .Scheduling meeting about general workflow analysis for week 46:
-  +: {CreatedBy: Hana, CreatedAt: 20261109 T 172153, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
-  Details:
-    - Anaysis of tasks estimations for theek of 46
-    - milestones
-    - categorization of tasks based on its goal
-  Result:
-    - Bobi: After morning run
-    - Done .Schesuled in google calendar: 
-InProgress .Preparing for general workflowAbalysis:
-  +: {CreatedBy: Hana, CreatedAt: 20261110 T 140636, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
-  Workspace:
-    Time estimation before completion: 
-      Before first post: 1605m - 26 h 
-      Health: 400m - 6h
-      Other Task list: 428m - 7 h
-      Health log: Special case suppose to be 10 min per day 
-    Time consumption for week 46:
-      - Before first post: 26/3 weeks till week 49 1.5 hours per day that is 7.5 for this week
-      - Health 6 h fpr this week
-      - 10 to 20 m per day
-      - Language: 1 to 2 hour per day
-
-    
-
-TODO .Scheduling finance meeting for week 46:
-  +: {CreatedBy: Hana, CreatedAt: 20261109 T 172417, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-  Details: -->CurrentWork\Hana\Personal\.."Review finance week46"<
-
-          
+        TODO .Add SystemState to each part of the day:         
 
                 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

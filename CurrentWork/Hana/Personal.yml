@@ -1,32 +1,5 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
 # Finances:
-InProgress .Review finance week46:
-  +: {CreatedBy: Hana, CreatedAt: 20261108 T 152553, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-High}
-  Details:
-    Expected Expenses:
-      - Grocery: 3000 * 7
-      - Krav Maga: 5000 * 2
-      - Bouldering: 8000
-      - Szeged: 10000
-      - Washing: 3600
-      - Boxing gloves 15000
-      - groin protector: 4000
-      - Sharpening blade: 3000
-      - Bag: 3000
-      - Others: 10000
-      - Total: 87608
-    Expected income:
-      - Airbnb: 
-        -  149000
-  TODO .To be reviewed by Bobi:
-    +: {CreatedBy: Hana, CreatedAt: 20261108 T 213841, By: Hana, Tags: [TL, Private], Estimation: 10 , RemTime:10 , Importance: 3-Average}
-    Result:
-Done .Review finances 20260620:
-  +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  Done .Schedule meeting for Finance:
-    +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
-  Done .Review Bobi Tax issue:
-    +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
 .Finances:      
   +: {CreatedBy: Bobi, CreatedAt: 20260717 T 162400, By: Bobi}
   Done .Create the requirements:
@@ -87,9 +60,51 @@ Done .Review finances 20260620:
     +: {CreatedBy: Bobi, CreatedAt: 20260725 T 143656, By: [Hana], Tags: [Private, TLDone], Estimation: 20, RemTime: 20, Importance: 3-Average}
   Cancelled .Schedule a Task about updating Finances every Saturday:
     +: {CreatedBy: Bobi, CreatedAt: 20260726 T 144655, By: [Hana], Tags: [Private, TLDone], Estimation: 10, RemTime: 10, Importance: 2-Low}
+  Done .Review finance week46:
+    +: {CreatedBy: Hana, CreatedAt: 20261108 T 152553, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 4-High}
+    Details:
+      Expected Expenses:
+        - Grocery: 3000 * 7
+        - Krav Maga: 5000 * 2
+        - Bouldering: 8000
+        - Szeged: 10000
+        - Washing: 3600
+        - Boxing gloves: 15000
+        - groin protector: 4000
+        - Sharpening blade: 3000
+        - Bag: 3000
+        - Others: 10000
+        - Utilities:
+        - Internet:
+        - Health tax:
+        - Total: 87608 + last 3
+      Expected income:
+        - Airbnb: 
+          -  149000
+    Done .To be reviewed by Bobi:
+      +: {CreatedBy: Hana, CreatedAt: 20261108 T 213841, By: Hana, Tags: [TL, Private], Estimation: 10 , RemTime:10 , Importance: 3-Average}      
+  Done .Review finances 20260620:
+    +: {CreatedBy: Hana, CreatedAt: 20260620 T 213319, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    Done .Schedule meeting for Finance:
+      +: {CreatedBy: Hana, CreatedAt: 20260622 T 214158, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+    Done .Review Bobi Tax issue:
+      +: {CreatedBy: Hana, CreatedAt: 20260620 T 213406, By: Hana, Tags: [CSVTODO], Estimation: 0m, RemTime: 0m}
+  EstTODO .Check and pay the current utility bills 20261110:
+    +: {CreatedBy: Bobi, CreatedAt: 20261110 T 144421, By: [Hana, Bobi], Tags: [Private, TL], Estimation: 20, RemTime: 20, Importance: 6-Extreme}
+    Details:
+      - Including noting down the accesses and passwords
+      - Electricity
+      - Gas
+      - Internet
+      - Health tax
+  EstTODO .Investigate about common cost:
+    +: {CreatedBy: Bobi, CreatedAt: 20261110 T 145012, By: [Bobi], Tags: [Private, TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+    
 
 
 #Health:
+EstTODO .Call the doctor for another set of cholesterol pills:
+  +: {CreatedBy: Bobi, CreatedAt: 20261110 T 144612, By: Bobi, Tags: [Private, TL], Estimation: , RemTime: , Importance: 6-Extreme}
 OnHold .Schedule Bobis Lab:
   +: {CreatedBy: Hana, CreatedAt: 20260718 T 160444, By: Hana}  
   Done .Blood and urine:

@@ -47,22 +47,22 @@ Id: Misc
       Details: Work into -->Documents\Requirements\F2ToolsExtension\..TextOutput<
 
 .Health:
-  TODO .Define missing + fix EventLogBase classes:
-      +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
-      Details:
-        - Define the missing EventLogBase classes, such as:
-          - SystemState
-          - Sleep
-          - EventLogBase?
-          - etc - go through and check whether each has one
-          - I think there are a few left in Miscellaneous (e.g. SystemState is there)
-        - Fix existing ones:
-          - inheritance
-          - review the values used vs. what's defined and update the definition if necessary
-        - Changes:
-          - BodyBattery in Sleep should be "BodyBatteryGain"
-  TODO .Update the hos vs code snippets:
-    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 4-High}
+  EstTODO .Define missing + fix EventLogBase classes:
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 135502, By: Hana, Tags: [TL, Health], Estimation: 60, RemTime: 60, Importance: 3-Average}
+    Details:
+      - Define the missing EventLogBase classes, such as:
+        - SystemState
+        - Sleep
+        - EventLogBase?
+        - etc - go through and check whether each has one
+        - I think there are a few left in Miscellaneous (e.g. SystemState is there)
+      - Fix existing ones:
+        - inheritance
+        - review the values used vs. what's defined and update the definition if necessary
+      - Changes:
+        - BodyBattery in Sleep should be "BodyBatteryGain"
+  EstTODO .Update the hos vs code snippets:
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [TL, Health], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
     Details:
     TODO .Entries inside should be lists (so add a dash in front of them):
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
@@ -70,13 +70,19 @@ Id: Misc
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
     TODO .Add SystemState to each part of the day:
 
+  EstTODO .Move the health related things under the HealthManagement subproject:
+    +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [TL, Health], Estimation: 20, RemTime: 20, Importance: 4-High}
+    Details:
+      - TIMEBOXED - so don't perfect the structure! Use digital notes - handwriting is slow, you don't have time!
+      - make sure that f2yaml rules are kept - if unsure, ask Robi      
+    
   Ongoing .Health planning:
     +: { CreatedBy: Bobi, CreatedAt: 20260608 T 191459, By: Bobi }
     Requirement: 
       - To be scheduled in google calendar
       - To be done live in Discord and eventually twitch within the 2nd or 3rd week of Nov
       - To be reviewd by the memebers prefarably morning and evening
-    Health log data entry and exercise plan:
+    .Health log data entry and exercise plan:
       OnGoing .Monthly:
         Details: 
           Summary of previous month helath log
@@ -114,15 +120,15 @@ Id: Misc
               Done .Schedule Week44:
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
               Done .Schedule Week45:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
               Done .Schedule Week46:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Results: 
                   Schedule applied in google Calendar
               EstTODO .Schedule Week47:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
               EstTODO .Schedule Week48:
-                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL,Health], Estimation: , RemTime: , Importance: 3-Average}
+                +: {CreatedBy: Hana, CreatedAt: 20261102 T 132410, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
               Note:
                 - Explore twitch and add the schedules to Twitch calendar
                 - mid of Nov - Week 47
@@ -135,6 +141,7 @@ Id: Misc
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114827, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:             
               Done .Analyse Week45:
+                Type: ExerciseTask
                 +: {CreatedBy: Hana, CreatedAt: 20261102 T 114919, By: Hana, Tags: [TL, Health], Estimation: , RemTime: , Importance: 3-Average}
                 Details:
                   - Prepare muscles for threshold running

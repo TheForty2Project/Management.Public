@@ -533,6 +533,8 @@ SR_NEXT_Bobi:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<: [ 39m, "", 20261109 T 171330 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Cant find anchor for valid links"<: [ 25m, "", 20261109 T 175547 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Have an ignore list about f2links which should not be processed"<: [ 60m, "", 20261110 T 140730 ]
-    - -->Tasks\Management\.."General management".."Task Administration"<: [ 15m, "", 20261110 T 142552 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 42m, "", 20261110 T 142552 ]
+    - -->CurrentWork\Hana\Personal\..Finances.."Review finance week46"<: [ 10m, "", 20261110 T 145241 ]
+    - -->Tasks\Management\.."Replan work method and schedules 20261110"<: [ 70m, "", 20261110 T 151809 ]
   Next:
     - null

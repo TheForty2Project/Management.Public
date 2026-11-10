@@ -1,0 +1,22 @@
++: { Type: Folder, AllowedTypes: [ Task, Folder ] }
+.Running:
+  - Oct 8:
+    Distance: 4.62
+    Type: Base (Low Aerobic)
+  - Oct 15:
+    Note: Add the picture to garmin
+    Distance: 7.85
+    Type: Base (Low Aerobic)
+  - Oct 20:
+    Note: Route like the 1st run
+    Distance: 7.78 km
+    Type: Base (Low Aerobic)
+  - Oct 25:
+    DistanceAnita:
+      7.16: Base (Low Aerobic) 
+      3.07: Base Tempo (High Aerobic) 
+    DistanceHana:
+      7.16: Base (Low Aerobic) 
+      1.88: Base (Low Aerobic)
+  
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

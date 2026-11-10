@@ -6091,13 +6091,20 @@ Month of Nov:
           Summary: 
           Notes: calmed by Robi
         <Work>:
-          Time: 
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+          Time: 19:00
+          ActivityDesc: see standup
+          Duration: 3 hrs
+          Focus: 2
+          MindPower: 2
           Summary:
-          Notes:
+          Notes: 
+        <SleepHygiene>:
+            preparing tomorrows task: Yes
+            Smoke: none
+            Drugs: none
+            Hot shower: No
+            Reading book: No
+            Bed time: 01:00
 
 
 

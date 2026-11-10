@@ -365,6 +365,7 @@ SR_NEXT_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 10m, "", 20261108 T 104302 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"<: [ 131m, "", 20261108 T 105344 ]
-    - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 40m, "", 20261108 T 154741 ]
+    - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 2826m, "", 20261108 T 154741 ]
+    - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis"<: [ 0m, "", 20261110 T 141414 ]
   Next:
     - null

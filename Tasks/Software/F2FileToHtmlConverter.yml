@@ -175,14 +175,28 @@
         TODO .Follow local links:
           Details:
             Like -->..MyId..MyChildId<
-        TODO .Fix links:
+        Done .Fix links:
           Details:
             Anything which do not point anywhere
+        Rejected .Cant find anchor for valid links:
+          Type: Bug
+          +: {CreatedBy: Bobi, CreatedAt: 20261109 T 173428, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}          
+          Details: |
+            d:\_TF2P\Management.Public\Tasks\Software\F2ToolsExtension.yml, Type: CantFindAnchor, Row: 569, Col: 22, Link: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+          Result:
+            Error in the Item (duplicate Summary)
+        TODO .Follow links containing properties:
+          +: {CreatedBy: Bobi, CreatedAt: 20261109 T 181626, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: }
+          Details: |
+            Such as:
+              d:\_TF2P\Management.Public\Documents\F2YamlSpecification\F2Yaml.yml, Type: CantFindAnchor, Row: 885, Col: 13, Link: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks.."Taskify and estimate".CreatedBy<
+        Done .Have an ignore list about f2links which should not be processed:
+          +: {CreatedBy: Bobi, CreatedAt: 20261109 T 183224, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+          
       TODO .Detect and convert urls and email addresses:
         +: {CreatedBy: Bobi, CreatedAt: 20261107 T 211231, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}        
       Done .Create a summar report at the end about the links:
-        +: {CreatedBy: Bobi, CreatedAt: 20261108 T 005056, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-        
+        +: {CreatedBy: Bobi, CreatedAt: 20261108 T 005056, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}        
       Done .Cleanups:
         +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185129, By: Bobi, Tags: [CSVDONE], Estimation: "45", RemTime: "45"}
       Done .Implement CSV converting feature:

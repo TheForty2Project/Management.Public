@@ -8,6 +8,9 @@ OnGoing .General management:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
     Details:
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
+    Blocked .Fix links based on the converter report 20261110:
+      +: {CreatedBy: Bobi, CreatedAt: 20261110 T 141746, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 4-High}
+      DependsOn: -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<  
   OnGoing .RePlSt:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143337, By: Bobi}
     OnGoing .Prepare:
@@ -67,8 +70,7 @@ OnGoing .General management:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163727, By: Hana, Tags: , Estimation: 30, RemTime: 30}
           Details:
             - Move the Tasks to their correct locations AND leave links pointing
-            - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location)
-        -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Re-create OCWSPhase1 CSV"<:  
+            - Fix the links already pointing to the Tasks in it (search-all to the summary and re-create the link to the right location) 
   OnGoing .Reports:
     Done .Create report about total spent time per task and per day per worker up until 20260413 meh:
       +: {CreatedBy: Bobi, CreatedAt: 20260413 T 232840, By: [Bobi, Hana]}

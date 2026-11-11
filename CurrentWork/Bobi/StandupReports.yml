@@ -537,5 +537,6 @@ SR_NEXT_Bobi:
     - -->CurrentWork\Hana\Personal\..Finances.."Review finance week46"<: [ 10m, "", 20261110 T 145241 ]
     - -->Tasks\Management\.."Replan work method and schedules 20261110"<: [ 75m, "", 20261110 T 151809 ]
     - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 0m, "", 20261110 T 191243 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Implement IdHierarchy"<: [ 14m, "", 20261111 T 012558 ]
   Next:
     - null

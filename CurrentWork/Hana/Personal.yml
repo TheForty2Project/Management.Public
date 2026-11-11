@@ -97,8 +97,10 @@
       - Gas
       - Internet
       - Health tax
-  EstTODO .Investigate about common cost:
+  Done .Investigate about common cost:
     +: {CreatedBy: Bobi, CreatedAt: 20261110 T 145012, By: [Bobi], Tags: [Private, TL], Estimation: 15, RemTime: 15, Importance: 5-VeryHigh}
+    Result:
+      anyu will send the account number
     
 
 

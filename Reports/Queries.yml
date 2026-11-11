@@ -3,7 +3,7 @@
 .TaskListTasks:
   Type: QueryDescription
   Summary: Current tasks - implemented (as a temporary measure) as Tasks tagged with "TL"
-  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(5), Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
@@ -16,10 +16,26 @@
     SkipFoldersAndFiles: false
     SkipUnder: [-->Tasks\Archive\<, -->CurrentWork\Bobi\TestMaterial\ReportGenTest\<]
 
+.TLAndDevTasks:
+  Type: QueryDescription
+  Summary: TaskList + Dev tasks
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
+  From: 
+    - -->CurrentWork\Bobi\TasksToBeSorted<
+    - -->CurrentWork\Hana\TasksToBeSorted<
+    - -->Tasks<
+  OutputFile: Reports\TLAndDevTasks.csv
+  OrderBy: [Status desc, Importance desc, By, RemTime]
+  Where:     
+    TaggedBy: [Dev, TL]
+    LeavesOnly: false
+    SkipFoldersAndFiles: false
+
+
 .DevTasks:
   Type: QueryDescription
   Summary: Development tasks
-  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2), Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<    
@@ -34,7 +50,7 @@
 .Before1stPostTasks:
   Type: QueryDescription
   Summary: The tasks we need to complete before we show ourselves to the public
-  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
@@ -50,7 +66,7 @@
 .TaskListDoneTasks:
   Type: QueryDescription
   Summary: Tasks done
-  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
@@ -66,7 +82,7 @@
 .HealthTasks:
   Type: QueryDescription
   Summary: Tasks tagged by Health
-  Select: [Status, Importance, Estimation, By, RemTime, Summary, Tags, IDLINK as IdLink, DependsOn]
+  Select: [Status, Importance, Estimation, By, RemTime, IDHIERARCHY(2) as Description, Tags, IDLINK as IdLink, DependsOn]
   From: 
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<

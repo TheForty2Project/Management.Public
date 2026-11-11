@@ -70,7 +70,7 @@ Id: Misc
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
     TODO .Add SystemState to each part of the day:
 
-  EstTODO .Move the health related things under the HealthManagement subproject:
+  Paused .Move the health related things under the HealthManagement subproject:
     +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [Health, TL], Estimation: 20, RemTime: 20, Importance: 4-High}
     Details:
       - TIMEBOXED - so don't perfect the structure! Use digital notes - handwriting is slow, you don't have time!

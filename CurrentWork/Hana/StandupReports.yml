@@ -367,5 +367,14 @@ SR_NEXT_Hana:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"<: [ 131m, "", 20261108 T 105344 ]
     - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 60m, "", 20261108 T 154741 ]
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis"<: [ 120m, "", 20261110 T 141414 ]
+    - -->Tasks\Miscellaneous\..Health.."Move the health related things under the HealthManagement subproject"<: [ 15m, "", 20261110 T 201219 ]
   Next:
-    - null
+    - -->Tasks\Miscellaneous\..Health.."Move the health related things under the HealthManagement subproject"<
+    - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<
+    - Language Grammar
+    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<
+    - -->Tasks\Miscellaneous\..Health..""Update the hos vs code snippets""<
+    - -->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Create health-log recording process""<
+  AOIB: 
+    - Create a sleep hygiene property

@@ -1124,15 +1124,16 @@ Drafting .QueryDescription based report generation enhancements:
             - if the value is not a number or empty, it is skipped (or, 0 is used insted as value)
           UseCases:
             - for displaying the total estimation of the child tasks next to each ancestor
-      InDev .IdHiearchy:
+      Implemented .IdHiearchy:
         +: {CreatedBy: Bobi, CreatedAt: 20260813 T 021327, By: Bobi}
         Tasks:
           -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Implement IdHierarchy"<
         Details:
           Signature: IdHierarchy(depth:_ number):_ string
           Returns: 
-            - n-part Id hierarchy, top-down, separator is "->" - like for n=2 CurrentId->Parent1Id->Parent2Id
+            - n-part Id hierarchy, bottom-up (from child to parent), separator is "->" - like for n=3 CurrentId->Parent1Id->Parent2Id
             - parts are generated the same way as for an F2Link (using Summary or Type if there's no Id property + numbering in case of conflicts)
+            - quotations around summaries are removed
           Parameters:
             - depth: how many elements the link should contain - so how many ancestor Ids
           Notes:          

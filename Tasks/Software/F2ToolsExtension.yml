@@ -661,11 +661,9 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 015742, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 180}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..WriteBack<
       DependsOn: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
-    InProgress .Implement IdHierarchy:
+    Done .Implement IdHierarchy:
       +: {CreatedBy: Bobi, CreatedAt: 20261110 T 142317, By: Bobi, Tags: [Dev, F2Tools], Estimation: 80, RemTime: 20, Importance: 3-Average}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..ReportEnhancements..BasicSelectFunctions..Functions.."IdHiearchy"<
-      Notes:
-        Currently the link format is left only (so instead of parent.child, child->parent)
   InProgress .F2Link class based F2Link handling:
     Id: F2LinkClass
     +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi}
@@ -1389,8 +1387,8 @@ OnGoing .Task administration:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 134116, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Version: 3.1.0
     FixVersion: 3.1.1
-  Accepted .Unknown prefixes for Bugs:
-    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+  Fixed .Unknown prefixes for Bugs:
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Version: 3.1.1    
     Details:
       - Fixed is definitely missing, others probably as well

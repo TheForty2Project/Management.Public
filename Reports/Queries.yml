@@ -25,7 +25,7 @@
     - -->CurrentWork\Hana\TasksToBeSorted<
     - -->Tasks<
   OutputFile: Reports\TLAndDevTasks.csv
-  OrderBy: [Status desc, Importance desc, By, RemTime]
+  OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
     TaggedBy: [Dev, TL]
     LeavesOnly: false

@@ -23,6 +23,12 @@ SR_20261102_Anita:
     - null
 SR_20261103_Anita:
   Was:
-    - -->CurrentWork\Anita\TasksToBeSorted\.."Write down the weekly exercise plan"<: [ 0m, "", 20261103 T 113005 ]
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Write down the weekly exercise plan"<: [ 35m, "", 20261103 T 113005 ]
   Next:
     - null
+SR_20261107_Anita:
+  Was:
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Plan for week 46"<: [ 67m, "", 20261107 T 224954 ]
+SR_20261109_Anita:
+  Was:
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Research functional exercises"<: [ 80m, "", 20261109 T 174925 ]

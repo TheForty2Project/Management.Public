@@ -6015,7 +6015,7 @@ Month of Nov:
           BodyBatteryGained: +48
           Summary:
           Notes:        
-    42242_20261110_Incomplete:
+    42242_20261110_Complete:
       Morning:
         - <Sleep>:
           BedTime:  9:40 
@@ -6100,12 +6100,81 @@ Month of Nov:
           Notes: 
         <SleepHygiene>:
             preparing tomorrows task: Yes
-            Smoke: none
+            Smoke: Yes
             Drugs: none
-            Hot shower: No
+            Hot shower: Yes
             Reading book: No
-            Bed time: 01:00
-
+            Bed time: 11:00
+    42242_20261111_Incomplete:
+      Morning:
+        <Sleep>:
+          BedTime: 11:00
+          SleepTime: 11:33
+          WakeTime: 4:00
+          Duration: 4.5
+          SleepScore: 44
+          BodyBatteryGained: +36
+          Summary:
+          Notes: I couldnt sleep after the muscle cramps. Had total of 5 muscle cramps
+        <Work>:
+          Time: 05:30
+          ActivityDesc: Magyar Nyelv 
+          Duration: 0.5 h
+          Focus: 1
+          MindPower: 1
+          Summary: 
+          Notes: 
+        <Food>:
+          Time: 08:30
+          MealDescription: Oats, rice. egg miso soup, toasts and goat cheese, 2 biscuits
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time: 09:30
+          Activity: Launfru walk
+          Duration: 1h
+          Intensity: moderate
+          Summary:
+          Notes: 10 kg laundry
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time: 12:00
+          ActivityDesc: See standup
+          Duration: 
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
 
 
 

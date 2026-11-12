@@ -2448,5 +2448,76 @@ Month of Nov:
           SuspectedReasons:
             - 2 days of c + fights
             - eating only very easy to digest food the previous day (puddings + little )
-
+    42241_20261111_Incomplete:
+      Morning:
+        <Sleep>: 
+          BedTime:
+          SleepTime: 4:15
+          WakeTime: 10:58
+          Duration: 6h 20m
+          SleepScore: 73
+          BodyBatteryGained: +50
+          Summary:
+          Notes:
+        <Digestion>:
+          Time: 11:30
+          Bristol: 3 then 4
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes: thin better than yesterday. The 2nd poopika was better
+        <Food>:
+          Time: 12:00
+          MealDescription: wheat Pancake, pudding and mixed fruits
+          Quantity: moderate
+          Summary:
+          Notes: 
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+        
+      Afternoon:
+        <Drugs>:
+          Time:
+          Name:
+          Dosage:
+          Unit:
+          Summary:
+          Notes:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
+        <Food>:
+          Time:
+          MealDescription:
+          Quantity:
+          Summary:
+          Notes:
+        <Movement>:
+          Time:
+          Activity:
+          Duration:
+          Intensity:
+          Summary:
+          Notes:
+      Evening:
+        <Work>:
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

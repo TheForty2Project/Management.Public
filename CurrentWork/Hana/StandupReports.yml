@@ -361,22 +361,32 @@ SR_20261105_Hana:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"..Exercise.."Muscle Resistance".."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
   Next:
     - null
-SR_NEXT_Hana:
+SR_20261112_Hana:
   Was:
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<: [ 10m, "", 20261108 T 104302 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Weekly"<: [ 131m, "", 20261108 T 105344 ]
     - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 60m, "", 20261108 T 154741 ]
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis"<: [ 120m, "", 20261110 T 141414 ]
     - -->Tasks\Miscellaneous\..Health.."Move the health related things under the HealthManagement subproject"<: [ 15m, "", 20261110 T 201219 ]
-    - -->Tasks\Miscellaneous\..Health.."Health planning".."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 10m, "", 20261111 T 120800 ]
+    - -->Tasks\Miscellaneous\..Health.."Health planning".."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 24m, "", 20261111 T 120800 ]
     - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<: [ 28m, "", 20261111 T 141710 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 0m, "", 20261112 T 123735 ]
+    - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20261112 T 123747 ]
+    - - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<: [ 20m, "", 20261111 ]
   Next:
-    - -->Tasks\Miscellaneous\..Health.."Move the health related things under the HealthManagement subproject"<
-    - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<
-    - Language Grammar
-    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
+    -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<
     - -->Tasks\Miscellaneous\..Health..""Update the hos vs code snippets""<
     - -->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Create health-log recording process""<
+    - Language grammar structuring
+   
   AOIB:
     - Create a sleep hygiene property
+    - Whenever we do the same task it update the same task date and not ctreating a new entry. Discussion
+SR_NEXT_Hana:
+  Was:
+
+  NEXT:
+   
+  AOIB:
+     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis: Update the task in management

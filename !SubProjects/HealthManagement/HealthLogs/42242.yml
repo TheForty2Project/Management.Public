@@ -6132,49 +6132,54 @@ Month of Nov:
           Notes:
         <Movement>:
           Time: 09:30
-          Activity: Launfru walk
+          Activity: Laundry walk
           Duration: 1h
           Intensity: moderate
           Summary:
           Notes: 10 kg laundry
       Afternoon:
-        <Drugs>:
-          Time:
-          Name:
-          Dosage:
-          Unit:
+        <Drugs>: 
+          Time: 13:00
+          Name: Kratom
+          Dosage: 0.5
+          Unit: g
           Summary:
-          Notes:
+          Notes: used it for initiating work. Was able to plan for the day
         <Work>:
           Time: 12:00
           ActivityDesc: See standup
-          Duration: 
-          Focus:
-          MindPower:
+          Duration: 1.5
+          Focus: 1
+          MindPower: 1
           Summary:
-          Notes:
+          Notes: 
         <Food>:
-          Time:
-          MealDescription:
-          Quantity:
+          Time: 15:00
+          MealDescription: biscuit with milk
+          Quantity: moderate
           Summary:
-          Notes:
-        <Movement>:
-          Time:
-          Activity:
-          Duration:
-          Intensity:
-          Summary:
-          Notes:
+          Notes: craving state for the day and no proper food
       Evening:
-        <Work>:
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+        <Drugs>:
+          Time: 18:00
+          Name: W
+          Dosage: 0.17 and 0.19
+          Unit: g
+          Summary: 
+          Notes: things went messy from here. Cravings and messy thoughts. Need to control intake
+          Result: W has been ekpt inside the box till the next night 21:00
+        <Work>: 
+          Time: 18:30
+          ActivityDesc: 
+            - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<
+            - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
+          Duration: 1.5 h
+          Focus: 1
+          MindPower: 1
           Summary:
-          Notes:
+          Notes: Messy, I was able to go through different files and skim though milestones. 
+        
+
 
 
 

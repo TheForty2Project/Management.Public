@@ -1765,8 +1765,9 @@ Done .Back to original:
             - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
             - type "f2filetohtml.exe" and press enter
             - check if no errors - if errors, try to fix them      
-      Workspace:
-        TODO .List the file that can be published in DeepDive:
+
+      Done .List the file that can be published in DeepDive:
+        Result:
           - SubProjects: 
             Health section:
               Health log - Hana
@@ -1781,8 +1782,8 @@ Done .Back to original:
           - Business Classes 
           - Under Documents Publishable articles | Note: it should be reviewed before publishing.. 
           - Website content  
-        TODO .Review it with Bobi:
-          +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+      TODO .Review it with Bobi:
+        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
           
     EstTODO .Go through the files mirrored to the site and see what Items should be removed:
       +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151855, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 4-High}

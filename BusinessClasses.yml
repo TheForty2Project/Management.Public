@@ -659,7 +659,18 @@ namespace Barba.Types:
       Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm gonna die
     ZeroToThree .Fatigue: 
       Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
-          
+
+  class .SleepHygiene:
+    Inherits: EventLogBase
+    Summary: 
+      Record activities before sleeping which are important for Sleep quality 
+  <SleepHygiene>:
+            preparing tomorrows task: Yes
+            Smoke: none
+            Drugs: none
+            Hot shower: No
+            Reading book: No
+            Bed time: 01:00        
     # Next Phase 
     # class .Decision:
     #   Summary: 

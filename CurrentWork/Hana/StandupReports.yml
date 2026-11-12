@@ -381,6 +381,8 @@ SR_20261112_Hana:
 SR_NEXT_Hana:
   Was:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Move the health related things under the HealthManagement subproject"<: [ 83m, "", 20261112 T 193250 ]
+    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 11m, "", 20261112 T 202204 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<: [ 0m, "", 20261112 T 202251 ]
 
   NEXT:
 

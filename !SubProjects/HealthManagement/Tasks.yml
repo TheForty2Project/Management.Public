@@ -390,12 +390,13 @@
   Done .Move the health related things under the HealthManagement subproject:
     +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [Health, TL], Estimation: 20, RemTime: 20, Importance: 4-High}
     Details:
+      - Duration: 83m
       - TIMEBOXED - so don't perfect the structure! Use digital notes - handwriting is slow, you don't have time!
       - make sure that f2yaml rules are kept - if unsure, ask Robi
   EstTODO .Update the hos vs code snippets:
     +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
     Details:
-    TODO .Entries inside should be lists (so add a dash in front of them):
+    CurrentFocus .Entries inside should be lists (so add a dash in front of them):
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
       Details:   
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      

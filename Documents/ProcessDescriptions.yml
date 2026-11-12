@@ -259,7 +259,7 @@
                             MessageText: "I'll murder you!!!! You madafaggers."
             .CreateMMEntry:
               Summary: 
-                - PM creates a -->Barba.Types\."namespace Barba.Types"."class StandupMeetingMinutes"< entry into the -->Meetings\Standups\< file
+                - PM creates a -->Barba.Types\."namespace Barba.Types"."class StandupMeetingMinutes"< entry into the -->MeetingMinutes\Standups\< file
                 - PM analyses the previous standups and based on this, fills the meeting minutes
               Pseudocode:
                 - =new Barba.Types.StandupMeetingMinutes:

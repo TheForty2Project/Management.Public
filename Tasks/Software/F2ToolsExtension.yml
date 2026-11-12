@@ -527,7 +527,7 @@ OnGoing .Task administration:
     +: {CreatedBy: Bobi, CreatedAt: 20260422 T 121219, By: Bobi, Tags: [CSVDONE], Estimation: 30, RemTime: 30}
     Requirement: -->Documents\Requirements\F2ToolsExtension\.."Time tracking should generate Id based F2Links, not Summary ones."<
     Comments:
-      - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\.Bugs.."Can't start timer on an F2Link containing Ids"<
+      - Bobi: Take note that there's a bug around the same subject:_ -->Tasks\Software\F2ToolsExtension\..Bugs.."Can't start timer on an F2Link containing Ids"<
     MaintenanceTasks:
       Done .Provide initial estimate:
         Id: Estimate
@@ -913,7 +913,7 @@ OnGoing .Task administration:
       - QA: Bobi
         Version: 2.0.17
         Severity: 4-High
-        Details: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+        Details: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
 
   Fixed .Misleading error message when Stopping Timer on Task without Starting one:
     QA: Bobi
@@ -1043,8 +1043,8 @@ OnGoing .Task administration:
       Severity: 3-Average
       Version: 2.0.14
       Details:
-        - Tested with -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
-        - It works with the summary link: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<
+        - Tested with -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
+        - It works with the summary link: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work, giving the error "Cannot read properties of undefined (reading 'length')":
     QA: [ Hana, Bobi ]
@@ -1052,8 +1052,8 @@ OnGoing .Task administration:
     Severity: 4-High
     Area: CSV
     Details:
-      - Extracted: -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules"< follow link does not work on this one.
-      - And neither on this one: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules"<
+      - Extracted: -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules"< follow link does not work on this one.
+      - And neither on this one: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work (on a link which might not be supported), giving the error "Cannot read properties of undefined (reading 'length')":
     QA: Bobi
@@ -1085,7 +1085,7 @@ OnGoing .Task administration:
     Version: 2.0.14
     Severity: 4-High
     Area: LinkFollowing
-    Details: -->DocsAndArticles\Specifications\YamlToHtmlConversion\.Content< 
+    Details: -->Documents\Specifications\YamlToHtmlConversion\.Content< 
     Retest:
       - QA: Bobi
         Version: 2.0.17
@@ -1098,8 +1098,8 @@ OnGoing .Task administration:
     Severity: 4-High
     Area: LinkFollowing
     Details:
-      - -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
-      - (neither with correctly placed dot: -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<)
+      - -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+      - (neither with correctly placed dot: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<)
 
   OnHold .Follow link leads to the wrong place:
     +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235257, By: Gaurav, Tags: [  ] }
@@ -1133,7 +1133,7 @@ OnGoing .Task administration:
     Steps:
       - Open F2Yaml.yml in a VS Code without workspace
       - Ensure that the Root Path is set (for me it's "d:\_TF2P\Management\")
-      - Issue the Extract ID Link command on -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
+      - Issue the Extract ID Link command on -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
       - Errors:
           - The link generated is -->ocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf< - so no "D" 
           - Displays the error: "No workspace found"
@@ -1206,7 +1206,7 @@ OnGoing .Task administration:
     Comments:
       - [Bobi, 20260423 T 2153, "This feature is not implemented yet."]
 
-  Fixed .During Id link generation the value of the "Summary" field is used instead of the "Id" field:
+  Fixed .During Id link generation the value of the 'Summary' field is used instead of the 'Id' field:
     +: {CreatedBy: Bobi, CreatedAt: 20250917 T 152232, By: Bobi, Tags: [CSVDONE]}
     QA: Bobi
     Version: 2.0.24
@@ -1309,16 +1309,16 @@ OnGoing .Task administration:
     Severity: 1-VeryLow
     Details:
       On these links (note that "Workspace.Tasks" do not exists under the planning meeting):
-        - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428.Workspace.Tasks<        
+        - -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428.Workspace.Tasks<        
 
-  New .Unable to follow links where a summary part ends with dot:
+  Rejected .Unable to follow links where a summary part ends with dot:
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 145730, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
     Details:
       Example:      
-        MyItem.:
-          -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to follow links where a summary part ends with dot".Details.Example.MyItem.< 
+        MyItem.:          
+          -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."< 
 
-  New .Unable to create new task from an existing task within the same SR "SR_20260608_Hana":
+  New .Unable to create new task from an existing task within the same SR 'SR_20260608_Hana':
     +: {CreatedBy: Hana, CreatedAt: 20260609 T 215850, By: Bobi, Tags: [Dev, F2Tools], Estimation: 0m, RemTime: 0m}
     QA: Bobi
     Version: 2.0.26
@@ -1344,7 +1344,7 @@ OnGoing .Task administration:
     +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
   Accepted .If a map key is a number, it can't parse it as an Id:
     +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
-  Fixed .Error:_ "This command only works with YAML files":
+  Fixed .Error:_ This command only works with YAML files:
     +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20}
     Details:
       - when starting a timer on a task, even though it starts it, still, displays the message in the title
@@ -1376,7 +1376,7 @@ OnGoing .Task administration:
     FixVersion: 3.1.1
     Comments:
       - [Bobi, 20260825, "Bug is probably around caching - and maybe some await is the solution"]
-  OnHold .F2Link contains "ERROR" if the top level key does not start with a dot:        
+  OnHold .F2Link contains 'ERROR' if the top level key does not start with a dot:        
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
     Version: 3.1.0
     Details:

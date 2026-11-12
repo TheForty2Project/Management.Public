@@ -1,0 +1,64 @@
+
+.Movement:
+  .Weekly:
+    Details: 
+      - Movement Management - Weekly Analysis and Exercise Creation:
+        Within HOS, Movement Management is divided into two main activities: Weekly Exercise Analysis and Exercise Creation.
+      - The purpose:
+        - Is to systematically evaluate physical performance, identify areas for improvement, and develop or adjust exercise routines based on individual progress, physical condition, and training goals.
+        - Investigate how improvements in physical fitness influence cognitive performance,particularly mental calculation, concentration, working memory, and thinking quality.
+    Result:
+      1. Weekly Exercise Analysis:
+        A total of 3 hours per week is allocated to reviewing and analyzing exercise performance:
+          - Strength Training: 2 hours per week, preferably immediately after training sessions, to review exercise technique, muscular performance, stability, and areas requiring improvement.
+          - Running: 30 minutes after each run, twice per week (1 hour total), to evaluate cardiovascular performance, running efficiency, heart rate, training intensity, recovery, and subjective observations.
+      2. Exercise Creation:
+        - Based on the weekly analysis, exercises are selected, modified, or developed to address identified weaknesses, improve physical performance, and support individual training goals.
+        - This continuous cycle of Exercise → Observation → Analysis → Adjustment aims to optimize physical fitness while investigating its relationship with cognitive performance, including concentration, mental calculation, and thinking quality.
+    ExpectedOutcome:
+      - Develop an evidence-informed exercise routine that improves physical performance while supporting cognitive efficiency, mental clarity,and overall human functioning.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .Health log data entry and exercise plan:
+      OnGoing .Monthly:
+        Details: 
+          Summary of previous month helath log
+          Summary of previous exercise planning and implementation
+        Done .Schedule health log recent development meeting with the members: 
+          +: {CreatedBy: Hana, CreatedAt: 20261101 T 151142, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
+          Result: 
+          Done .Month of Nov - 20261102T12:00-13:00:
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
+          EstTODO .Month of Dec - 20261202T12:00-13:00:
+            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
+        Development Tasks:
+          Done .Log Automation:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
+            Details: 
+              - Create an ID for each member - to be published in the website::
+                Hana:   42242
+                Bobi:   42241
+                Anita:  42333 (to be reviewed)
+          Done .Create snippet for the whole log for each member:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154802, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
+            Details: 
+              - Instead of loading each property eg <Sleep> or timeline category (morning, afternoon, evevning) create the whole log and modification can happen after. 
+              - To save time.
+          InProgress .To be reviewed by members:
+            +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}     
+     
+
+<EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

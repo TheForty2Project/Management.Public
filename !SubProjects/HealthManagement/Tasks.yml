@@ -396,7 +396,7 @@
   EstTODO .Update the hos vs code snippets:
     +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [Health, TL], Estimation: 30, RemTime: 30, Importance: 5-VeryHigh}
     Details:
-    CurrentFocus .Entries inside should be lists (so add a dash in front of them):
+    Done .Entries inside should be lists (so add a dash in front of them):
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
       Details:   
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      

@@ -637,7 +637,7 @@ OnGoing .Task administration:
       Done .Filter by the Where property:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 20}
-        DependsOn: -->...BasicExecute<
+        DependsOn: -->..BasicExecute<
         Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..Filter<
         Done .Engine and majority:
         Done .SkipUnder:
@@ -725,7 +725,7 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 15}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
       Details:
-        On top of $@-->...ReplaceMarkedToLink<@$:
+        On top of $@-->..ReplaceMarkedToLink<@$:
         - to generate a new link for each link:
           - keep the part up until the 2 links (newly generated, old) match
           - the rest is the part from the generated (Id based)                  
@@ -746,7 +746,7 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260728 T 150737, By: Bobi}
     Blocked .Placeholder for verifying that this is solved after F2Link rewrite:
       +: {CreatedBy: Bobi, CreatedAt: 20260728 T 203235, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 10, Importance: 3-Average}
-      DependsOn: -->..."ItemManager based F2Link following"<          
+      DependsOn: -->.."ItemManager based F2Link following"<          
   InProgress .Support for local f2links:
     Id: LocalLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 023353, By: Bobi, Estimation: 90, RemTime: 90}

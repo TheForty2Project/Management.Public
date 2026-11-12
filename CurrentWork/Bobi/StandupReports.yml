@@ -522,7 +522,7 @@ SR_20261030_Bobi:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<:
 
 
-SR_NEXT_Bobi:
+SR_20261112_Bobi:
   Was:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 48m, "", 20261030 T 210522 ]
     - -->Tasks\ToBeSorted\.."Review Health log process"<: [ 63m, "", 20261103 T 134310 ]
@@ -536,8 +536,17 @@ SR_NEXT_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 42m, "", 20261110 T 142552 ]
     - -->CurrentWork\Hana\Personal\..Finances.."Review finance week46"<: [ 10m, "", 20261110 T 145241 ]
     - -->Tasks\Management\.."Replan work method and schedules 20261110"<: [ 75m, "", 20261110 T 151809 ]
-    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 0m, "", 20261110 T 191243 ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 15m, "", 20261110 T 191243 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Implement IdHierarchy"<: [ 14m, "", 20261111 T 012558 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unknown prefixes for Bugs"<: [ 10m, "", 20261111 T 020707 ]
+  Next:
+    - -->Tasks\Management\..General..TaskAdmin.."Fix links based on the converter report 20261110".."Do first round and see how it works"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"
+    - 
+
+SR_NEXT_Bobi:
+  Was:
+    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 4m, "", 20261112 T 125324 ]
+    - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110"<: [ 0m, "", 20261112 T 125701 ]
   Next:
     - null

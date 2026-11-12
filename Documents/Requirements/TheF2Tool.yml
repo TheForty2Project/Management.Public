@@ -788,8 +788,8 @@ Comments:
           Details: Arithmetic, Statistical, etc.
         Estimated .Basic - loop, if, expressions:
           ReqReq: 
-            - -->~\.Minimal - only functions<
-            - -->~\.Basic functions<
+            - -->.."Minimal - only functions"<
+            - -->.."Basic function implementation<
           Estimation: 
             3d:
               <-Note-: Use the implementation in FrstPpl
@@ -1023,7 +1023,7 @@ Comments:
           - In general, the logs are expected to be used continuously - so for version history, analyses, automatic learning, etc.
           - Optionally - if it's not hard - it is configurable on an Item or at least Itemtype level.
       Estimated .Full Event Log:
-        ReqReq: -->~\Full Change Log<
+        ReqReq: -->.."Full Change Log"<
         Estimation:
           4h:
             <-Notes-: Hook at the command execution 
@@ -1266,7 +1266,7 @@ Comments:
           Details:
             \"GetItem" command, accepting an Id, returning the yaml representation of the Item.
       Estimated .GetItem Basic:
-        ReqReq: -->~\.Minimal GetItem<
+        ReqReq: -->.."Minimal GetItem"<
         Estimation:
           3h:
             <-Note-: Timebox. Do not immplement another query engine here.
@@ -1331,7 +1331,7 @@ Comments:
             Details: 
               - C# style string escape (so backlash ) 
           Estimated .NewLine support:
-            ReqReq: -->~\.Multiline Console Text Editor<
+            ReqReq: -->.."Multiline Console Text Editor"<
             Estimation:
               1h:
                 <--Note-: I think we get it with the ReqReq.      
@@ -1356,8 +1356,8 @@ Comments:
             6h:
               <-Note-: Finding a way for storing in the context and handling this during interpretation and execution
           ReqReq: 
-          - -->~\Process Context support<
-          - -->~\Workspaces<
+          - -->.."Process Context support"<
+          - -->.."Workspaces"<
           Details:
             - The commandline is F2Lang interpreted.
             - One can store values - Items, ItemLists, etc. - in "local" variables
@@ -1450,7 +1450,7 @@ Comments:
             - One edits the Items in the files and then instructs the tool to process it - like the "commit" and "sync" commands in Git.
         Details:
           Workspace descriptor Item:
-            There's a workspace descriptor Item -->~Barba.Types.WorkspaceDescription<, describing:
+            There's a workspace descriptor Item -->Barba.Types.WorkspaceDescription<, describing:
               - a file structure organized into folders
               - where files contain Items (parts), Queries (and their results) and commands
           Files and folders:
@@ -1576,7 +1576,7 @@ Comments:
               - Displays the Items changed
               - Pulls
       Estimated .Git-like Commit-Push-Pull:
-        ReqReq: -->~\..Basic<
+        ReqReq: -->..Basic<
         Estimation:
           8h:
             <-Note-: Including the engine on the server side - so we need to accept these "commits" and store data about them.

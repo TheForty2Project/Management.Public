@@ -1060,7 +1060,7 @@ Done .Notes:
                   - Sequence entries:
                     - if the entry is an Item
                     - but - at the moment - not if the entry is not an Item:
-                      - sequence notation - so like -->...Tasks.SubTasks[2]< pointing to the 3rd member of the SubTasks list - might be supported at later phases.                  
+                      - sequence notation - so like -->..Tasks.SubTasks[2]< pointing to the 3rd member of the SubTasks list - might be supported at later phases.                  
               - The user can specify whether they want an "Id" or a "Summary" based link:
                 - Id (or not specified): the Id property is used for generating the F2LinkParts but if it's empty, we fall back to the Summary (and then to Type)
                 - Summary: the Summary property is used for generating the F2LinkParts but if it's empty, we fall back to the Id (and then to Type)

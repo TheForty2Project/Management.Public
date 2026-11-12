@@ -8,9 +8,15 @@ OnGoing .General management:
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
     Details:
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
-    Blocked .Fix links based on the converter report 20261110:
-      +: {CreatedBy: Bobi, CreatedAt: 20261110 T 141746, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 4-High}
-      DependsOn: -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<  
+    InProgress .Fix links based on the converter report 20261110:
+      +: {CreatedBy: Bobi, CreatedAt: 20261110 T 141746, By: [Hana, Bobi]}
+      InProgress .Do first round and see how it works:
+        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125730, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+        Details:
+          Fix a bunch, collect tasks and see what strategy we should be using
+      Blocked .Finish the rest:
+        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125837, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
+        DependsOn: -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<  
   OnGoing .RePlSt:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143337, By: Bobi}
     OnGoing .Prepare:

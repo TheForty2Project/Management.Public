@@ -6105,7 +6105,7 @@ Month of Nov:
             Hot shower: Yes
             Reading book: No
             Bed time: 11:00
-    42242_20261111_Incomplete:
+    42242_20261111_Complete:
       Morning:
         <Sleep>:
           BedTime: 11:00
@@ -6178,7 +6178,77 @@ Month of Nov:
           MindPower: 1
           Summary:
           Notes: Messy, I was able to go through different files and skim though milestones. 
-        
+    42242_20261112_Incomplete:
+      Morning:
+        <Sleep>:
+          BedTime: 22:00
+          SleepTime: 22:14
+          WakeTime: 9:41
+          Duration: 11h 12m
+          SleepScore: 82
+          BodyBatteryGained:  +70
+          Summary:
+          Notes: woke up in a bad mood. 
+        <Food>:
+          Time: 10:30
+          MealDescription: milk and turmeric
+          Quantity: one cup
+          Summary:
+          Notes: No appetite
+        <Movement>:
+          Time: 10:30
+          Activity: cleaning, front and back lunges, 
+          Duration: 50m
+          Intensity: easy
+          Summary:
+          Notes:    
+      Afternoon:
+        <Digestion>:
+          Time: 13:00
+          Bristol: 3
+          Bloating:
+          AbdominalPain:
+          Flatulence:
+          Belching:
+          Summary:
+          Notes: some sulfur smell
+        <Drugs>:
+          Time: 14:00
+          Name: K
+          Dosage: 0.5
+          Unit: g
+          Summary:
+          Notes:
+        <Work>:
+          Time: 13:00
+          ActivityDesc:
+          Duration: 1 h
+          Focus: 2
+          MindPower: 2
+          Summary:
+          Notes: standup and follow link meeting
+        <Food>:
+          Time: 15:00
+          MealDescription: Rice, canned fish, soup, 3 spoons of mixed lentil
+          Quantity: moderate
+          Summary:
+          Notes: I wasnt craving for anything after
+        <Movement>:
+          Time: 15:30
+          Activity: walking and some leg strengthening ( farmer dead lift, lunges, squats)
+          Duration: 1h
+          Intensity:
+          Summary:
+          Notes: went to sharpen the skates, drop down strenghtening 12 kg to 6 to bodyweight
+      Evening:
+        <Work>: 
+          Time:
+          ActivityDesc:
+          Duration:
+          Focus:
+          MindPower:
+          Summary:
+          Notes:   
 
 
 

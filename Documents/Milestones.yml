@@ -14,7 +14,7 @@
   +: {Type: Folder, DefaultTypes: [Milestone, Folder]}
   ReadyForDev .Basic Website (OCWSPhase2):
     Id: MstBasicOCWebsite
-    Area: -->...Areas..Website< 
+    Area: -->..Areas..Website< 
     Details:
       - The original concept website containing all the basic features we planned originally
       - No "I want to work" support yet for the public

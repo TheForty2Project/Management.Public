@@ -53,7 +53,7 @@
         - StreamingTargetIsReached():
             Roughly:
             - IF (:
-                - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                - -->.."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
                 - AND we have at least 4 scheduled ones per week
                 - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
             - ): 
@@ -244,7 +244,7 @@ Done .Create outreach plan:
                 Areas and panels:
                   Categorize our work into areas (like Website, F2Tools dev, Management and admin, etc.):
                     - consider including non-work topics as well (like our evening talks)
-                    - ideas: -->...CreateOutreachPlan.."Create first draft".Result."streaming seems worth pursuing".topics<
+                    - ideas: -->..CreateOutreachPlan.."Create first draft".Result."streaming seems worth pursuing".topics<
                   Create Panels:
                   Reference these Areas/panels in the stream description:
                 Create clips:
@@ -271,7 +271,7 @@ Done .Create outreach plan:
                     - StreamingTargetIsReached():
                         Roughly:
                         - IF (:
-                            - -->..."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                            - -->.."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
                             - AND we have at least 4 scheduled ones per week
                             - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
                         - ): 
@@ -291,7 +291,7 @@ Done .Create outreach plan:
               -->Tasks\PublicRelations\..CreateOutreachPlan.."Create first draft".Result."we should be exploring the outreach ideas one by one"<
     Done .Taskify/Itemize the results of the previous Task:
       +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163156, By: [Bobi, Hana], Estimation: 90, RemTime: 0}
-      Details: So this -->...CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result<
+      Details: So this -->..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result<
       Result:
         Tasks created:
           Areas and panels:

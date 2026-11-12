@@ -434,7 +434,7 @@
       +: {CreatedBy: Bobi, CreatedAt: 20261012 T 135130, By: Bobi, Tags: [TLDone], Estimation: , RemTime: , Importance: 3-Average}          
 
 EstTODO .Create a Requirement about automatic SR selection:
-  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181601, By: [Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
   Details:
     - two settings:
       - which file
@@ -442,7 +442,7 @@ EstTODO .Create a Requirement about automatic SR selection:
     - unless "specify standup report" is issued, the above is used
   
 EstTODO .Create a Requirement about "Task sink":
-  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
+  +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, By: [Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
   Details:
     - command for specifying a file
     - command for going there; before the "EOF" tag; save the previous location

@@ -657,7 +657,7 @@ InDev .QueryDescription based CSV report generation:
           Mandatory: true
           Details: 
             - the Id-s of the properties to include in the report or keywords (instructing the generator to insert special values), and (optionally) the column name to use in the CSV, the two separated by the "as" keyword (and spaces in front-after)
-            - special keywords: -->...SelectPropertySpecialValues<
+            - special keywords: -->..SelectPropertySpecialValues<
             - same as the "SELECT" part of an SQL query
             - such as: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn, EMPTY as Notes]
             - Special keywords
@@ -685,7 +685,7 @@ InDev .QueryDescription based CSV report generation:
           Summary: if true, during write-back operation the Items which do not exist get created - i.e. if the link does not point anywhere
         bool .AddSyncResultColumn:
           DefaultValue: true
-          Summary: adds a -->~..SelectPropertySpecialValues..SYNCRESULT< column when writing back/updating (if it's not already present in the Select part)
+          Summary: adds a -->..SelectPropertySpecialValues..SYNCRESULT< column when writing back/updating (if it's not already present in the Select part)
         string .OutputFile:
           DefaultValue: the current path (where the file containing the QueryDescription is) + filename with extension ".csv" (or if exists, adds a not-existing number in a bracket)
           Details: 
@@ -741,7 +741,7 @@ InDev .QueryDescription based CSV report generation:
       .CommentOut:
         Summary: the row is commented out
       .DoNothing:
-        Summary: the row is kept as-is but marked as -->~..SyncResultValues..DeletedRow< if the -->~..SelectPropertySpecialValues..SYNCRESULT< column is present
+        Summary: the row is kept as-is but marked as -->..SyncResultValues..DeletedRow< if the -->..SelectPropertySpecialValues..SYNCRESULT< column is present
     class .ReportHeader:
       Inherits: Item
       Properties:
@@ -776,7 +776,7 @@ InDev .QueryDescription based CSV report generation:
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<    
     Details:
       Executes the query in the QueryDescription item under the cursor
-      When the user issues the $@-->...ExecuteQuery<@$ command, verifies and executes the query, then displays summary.
+      When the user issues the $@-->..ExecuteQuery<@$ command, verifies and executes the query, then displays summary.
     Implemented .Verifies query:  
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..Verify<      
       Details:                
@@ -887,7 +887,7 @@ InDev .QueryDescription based CSV report generation:
     Summary:
       if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select property, writes the changes FROM the csv to the Items
     Details:
-      - Triggered by the -->...RegistersCommands..WriteBack< command.   
+      - Triggered by the -->..RegistersCommands..WriteBack< command.   
       - IF (NOT (the cursor is in a csv file)):
           displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
       - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.CSVHeader<@$
@@ -945,7 +945,7 @@ InDev .Various F2Link related upgrades:
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks..ReplaceMarkedToIdLink<
       Details:
       - Command is: "F2Tools.F2Links.ReplaceToIdLink: Replace marked f2links or ones pointing to this key to IdLinks"
-      - Same as $@-->...ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
+      - Same as $@-->..ReplaceMarkedTo<@$ but uses the same IdLink at all places (and uses the current Item as the marked one if there was none marked)        
   ReadyForDev .Make F2Links handle 2 or more property values preceding summary in headers:
     Id: MorePrefix
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..MorePrefix<
@@ -959,9 +959,9 @@ InDev .Various F2Link related upgrades:
     Task: -->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks<
     +: {CreatedBy: Bobi, CreatedAt: 20260520 T 014718, By: Bobi}
     Summary:
-      Support for links which only contain the last part of the full path (F2LocalLink in the F2Links in BachusNaurForm.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->...F2LinkUpgrades.."Support for local f2links".Summary<          
+      Support for links which only contain the last part of the full path (F2LocalLink in the F2Links in BachusNaurForm.BNF). Finding the target is only the current file, walking up on the parents of the containing yaml element and searching their siblings (and their children) for a matching pattern. Example (such as pointing to this): -->..F2LinkUpgrades.."Support for local f2links".Summary<          
     Details:        
-      Update -->...ReplaceLinks< to support this as well
+      Update -->..ReplaceLinks< to support this as well
     Workspace:
       - F2Links class now supports parsing local links
   InDev .Support for filepath-only F2Links:

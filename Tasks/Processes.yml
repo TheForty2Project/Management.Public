@@ -249,7 +249,7 @@ Summary:
                 - where should we click basically in which application in what order for what type of streaming                  
           What to do during streaming:
             Include: 
-              Performing this Task: -->...Streaming..Activities.."Standup or Summary at the beginning and end"<
+              Performing this Task: -->..Streaming..Activities.."Standup or Summary at the beginning and end"<
     OnGoing .Updates:
       +: {CreatedBy: Bobi, CreatedAt: 20260525 T 215538, By: [Bobi, Hana]}
       

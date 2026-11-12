@@ -6241,14 +6241,37 @@ Month of Nov:
           Summary:
           Notes: went to sharpen the skates, drop down strenghtening 12 kg to 6 to bodyweight
       Evening:
-        <Work>: 
-          Time:
-          ActivityDesc:
-          Duration:
-          Focus:
-          MindPower:
+        - <Work>: 
+          Time: 18:00
+          ActivityDesc: continuation 
+          Duration: 2 h
+          Focus: 2
+          MindPower: 2
           Summary:
-          Notes:   
+          Notes:  forced myself working by being live on Twitch
+        - <Food>:
+          Time: 2012
+          MealDescription: rice, tuna, lentil, pudding and biscuit
+          Quantity: moderate
+          Summary: 
+          Notes: Didnt continue the biscuit (yeeey), craving was lessened
+        - <Work>:
+          Time: 2013$
+          ActivityDesc: 
+          Duration: 
+          Focus: 
+          MindPower: 
+          Summary: 
+          Notes: 
+        - <SleepHygiene>:
+            preparing tomorrows task: Yes
+            Smoke: Yes
+            Drugs: none
+            Hot shower: Yes
+            Reading book: No
+            Bed time: 
+
+
 
 
 

@@ -69,7 +69,7 @@ OnGoing .General management:
       InProgress .Planning 20260328:
         +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163750, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
         Details:
-            See at -->Meetings\Plannings\.MeetingNotes..Planning20260328<          
+            See at -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260328<          
         Done .Hold the meeting:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 163733, By: [Hana, Bobi], Tags: , Estimation:, RemTime:}
         Done .Process the results:
@@ -302,7 +302,7 @@ OnGoing .Create and fine tune schedules:
   Blocked .Create streaming schedule:
     +: {CreatedBy: Bobi, CreatedAt: 20260425 T 133106, By: [Bobi, Hana], Tags: [CSVDONE], Estimation:, RemTime:}
     BlockedBy: we need some data about what we can _actually_ do - like a few days of keeping our schedules
-Done .Create "daily administration" schedule for Hana:
+Done .Create 'daily administration' schedule for Hana:
   +: {CreatedBy: Bobi, CreatedAt: 20260428 T 130640, By: Bobi, Tags: [CSVDONE], Estimation: 15, RemTime: 0}
   Result:
     Created -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses..DoDailyAdmin<
@@ -413,7 +413,7 @@ Done .Big replanning after OCWSPhase1:
       - Ideally:
         - There are nice graphs (burndown, scope creep, velocity/period, etc.)
   Result:
-    First part: see at $@-->MeetingMinutes\Plannings\.MeetingNotes..Planning20260428<@$
+    First part: see at $@-->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428<@$
   Done .Clean up and move the Tasks in the Workspace of this Task:
     +: {CreatedBy: Bobi, CreatedAt: 20260425 T 130852, By: Hana, Tags: [CSVDONE], Estimation:, RemTime:}
     Details:

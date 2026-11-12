@@ -437,7 +437,7 @@ Done .Notes:
 
   # .Concepts:
   #   Summary:
-  #     In general, Items behave very similarly to objects in OOP languages, also, we're trying to use similar terminology here, so if you're familiar with OOP concepts then you can jump to the $@-->DocsAndArticles\Specifications\F2Yaml\.."F2Yaml.MVP Rules"..Concepts.."Differences from OOP languages"<@$ section
+  #     In general, Items behave very similarly to objects in OOP languages, also, we're trying to use similar terminology here, so if you're familiar with OOP concepts then you can jump to the $@-->Documents\Specifications\F2Yaml\.."F2Yaml.MVP Rules"..Concepts.."Differences from OOP languages"<@$ section
   #   .Similarities to OOP languages:
   #     .Referencing:
   #       Summary: Items can reference each-other in a way that one of their properties can hold a value which refers to another item - either through specifying its location or its unique id
@@ -597,7 +597,7 @@ Done .Notes:
       #       Details:
       #         Overview:
       #           - Headers contain the value of one or more distinguished property of the Item. By default the system supports Type as header for all items, Id as header for StandardItems-s and by defining header formats in the ClassDescription, one can create their own.
-      #           - if the entry is a scalar, then the "new" keyword must be followed by the values as per -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining Items"..WithHeader..CustomHeader<
+      #           - if the entry is a scalar, then the "new" keyword must be followed by the values as per -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".."F2Yaml syntax".."Defining Items"..WithHeader..CustomHeader<
       #           - if the entry is a map, then the key must start with the "new" keyword, optionally followed by values and the value is a map containing entries with IdString-s as keys
       #       .TypeAsHeader:
       #         Details:
@@ -727,7 +727,7 @@ Done .Notes:
           +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}
           Details:
             Summary:
-              An ItemReference inside the pre-postfix. See the -->DocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or F2Links"..ItemReference< for item reference syntax.
+              An ItemReference inside the pre-postfix. See the -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or F2Links"..ItemReference< for item reference syntax.
             Prefix:
               Variant1: "->"
               Variant2: "-->"

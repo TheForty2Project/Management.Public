@@ -15,7 +15,7 @@ SR_20260409_Hana:
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create Management task list reports"<: [ 11m, "", 20260401 T 210810 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 90m, "", 20260402 T 093736 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260403"<: [ 4m, "", 20260403 T 075801 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename "Support" to something less confusing".."Try finding something better than "Support us""<: [ 10m, "", 20260403 T 081218 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename 'Support' to something less confusing".."Try finding something better than 'Support us'"<: [ 10m, "", 20260403 T 081218 ]
     - -->Tasks\Management\.."OCWSPhase1".."Cleanup workspace".."Hana"<: [ 22m, "", 20260403 T 132212 ]
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links"<: [ 142m, "", 20260403 T 215949 ]
   Next:
@@ -63,7 +63,7 @@ SR_20260421_Hana:
 SR_20260428_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 38m, "", 20260421 T 173647 ]
-    - -->Tasks\Management\..""General management""..""Task list reports (CSV)""..""Maintenance""..""SyncAt20260422""<: [ 18m, "", 20260422 T 122905 ]
+    - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260422"<: [ 18m, "", 20260422 T 122905 ]
     - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv".."SyncAt20260422"<: [ 103m, "", 20260422 T 131030 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260425"<: [ 11m, "", 20260425 T 071437 ]
     - -->Tasks\Management\.."General management".."Standup related".."Process the Workhours.csv"<: [ 17m, "", 20260425 T 075410 ]
@@ -119,7 +119,7 @@ SR_20260608_Hana:
         - 
 SR_20260615_Hana:
   Was:
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."Unable to create a new existing SR under the same date "SR_20260608_Hana""<: [ 30m, "", 20260609 T 220933 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to create a new existing SR under the same date 'SR_20260608_Hana'"<: [ 30m, "", 20260609 T 220933 ]
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260610 T 150211 ]
     - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 18m, "", 20260612 T 150211 ]
 
@@ -263,10 +263,10 @@ SR_20260727_Hana:
 
   Next:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach.."Work out the DM comparison outreach idea".."Implement"<
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin..""Create a daily process now that we have queries""..""Fine tune the process""<
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a daily process now that we have queries".."Fine tune the process"<
     - -->Tasks\Miscellaneous\..Health.."Schedule and estimate activity for the next 10 days".."Activity schedule 03-13 Aug"<
     - -->Tasks\Miscellaneous\..Health.."Analysis of the month of June and July"<
-    - -->CurrentWork\Hana\TasksToBeSorted\..""Learn TypeScript basics""..""Create TS tutorial tasks""<
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Learn TypeScript basics".."Create TS tutorial tasks"<
 
 SR_20260826_Hana:
   Was:
@@ -299,7 +299,7 @@ SR_20261009_Hana:
     - -->CurrentWork\Hana\TasksToBeSorted\.."collect the lab results into one folder".."Transfering Hanas lab results to BobiHana repository"<: [ 78m, "", 20261002 T 131454 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Decide about how to handle the updates section on the site"<: [ 15m, "", 20261005 T 140858 ]
   Next:
-    - -->Tasks\Website\..Improvements..CreateRoadmap..""Decide:_ how should we handle history?""<
+    - -->Tasks\Website\..Improvements..CreateRoadmap.."Decide:_ how should we handle history?"<
 
 SR_20261018_Hana:
   Was:
@@ -342,9 +342,9 @@ SR_20261030_Hana:
 
     - -->Tasks\Miscellaneous\..Health.."Health planning"<
 
-    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<
     - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
-    - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the files mirrored to the site and see what Items should be removed""<
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the files mirrored to the site and see what Items should be removed"<
   AOIB:
 
 
@@ -373,7 +373,12 @@ SR_20261112_Hana:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 5m, "", 20261112 T 123735 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 36m, "", 20261112 T 123747 ]
     - - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<: [ 20m, "", 20261111 ]
-  Next: -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"< - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"< - -->Tasks\Miscellaneous\..Health..""Update the hos vs code snippets""< - -->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Create health-log recording process""< - Language grammar structuring
+  Next: 
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"< 
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"< 
+    - -->Tasks\Miscellaneous\..Health..""Update the hos vs code snippets""< 
+    - -->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Create health-log recording process""< 
+    - Language grammar structuring
 
   AOIB:
     - Create a sleep hygiene property

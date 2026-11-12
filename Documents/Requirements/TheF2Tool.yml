@@ -255,10 +255,11 @@ Comments:
                 Events can be subscribed/unsubscribed to/from.
                 There's an engine keeping track of the subscribers and handling the calls.
             Estimated .List events - Add, etc.:
+              Id: ListEvents
               Estimation: 2h
               Details: Lists should have default events to which one can subscribe. Including RefAsBelongsTo (so reverse).
             Estimated .Something is referencing the current Item:
-              ReqReq: -->.List events<
+              ReqReq: -->..ListEvents<
               Estimation: 3h
               Details: 
                 - So "Item A is about to be referenced by Item B's MyProperty Property". No extras; a function call in which one can throw exception in the worst case. 
@@ -422,7 +423,7 @@ Comments:
           - The engine + the most important few, timeboxed.
           - Including rendering and parsing for each.
       Estimated .Nice:
-        ReqReq: -->.Minimal<
+        ReqReq: -->..Basic<
         Estimation: 4d
         Summary:
           - Expect like 40 options for Basic.
@@ -657,6 +658,7 @@ Comments:
       Details:
         Project creation, architecture building, starting it, building the hello world version.
       Implemented .Project creation, basic architecture, governor:
+        Id: ProjectCreation
         Details: |
           As in title. Including IOC, Governor creation. 
         <-Task-:
@@ -667,7 +669,7 @@ Comments:
                 - PAR time: 5m
             WorkLog: {15m, Bobi, "Including concept changes while implementing"}
       Implemented .Governor:
-        ReqReq: -->.Project creation...<
+        ReqReq: -->..ProjectCreation<
         Details:
           Governor concept: $@Requirements..F2Tool..F2Core..Technical Architecture.Experimental Starter and Governor based architecture.Summary@$
         .Basic:
@@ -789,7 +791,7 @@ Comments:
         Estimated .Basic - loop, if, expressions:
           ReqReq: 
             - -->.."Minimal - only functions"<
-            - -->.."Basic function implementation<
+            - -->.."Basic function implementation"<
           Estimation: 
             3d:
               <-Note-: Use the implementation in FrstPpl

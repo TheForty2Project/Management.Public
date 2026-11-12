@@ -7,8 +7,7 @@ Done .Initial Website:
   Done .Transfer and/or create access for Shadow for the tf2p.org website infrastructure:
     +: { CreatedBy: Bobi, CreatedAt: 20250329T1836, By: Bobi}
     Id: AccessToCloudflare
-    Estimation: 2h
-    ForRequirement: -->BusinessAnalysis\Requirements..Requirements..Website - tf2p dot org..Infrastructure..Basic< 
+    Estimation: 2h    
     Done Access to the password storage:
     <-Workspace-:
     WorkLog:
@@ -364,7 +363,7 @@ Done .Back to original:
         -->Tasks\Website\..Websitephase1.."Deepdive section development"<:
         -->Tasks\Website\..Improvements..JoinMission.."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo"<:
         -->Tasks\Website\..Websitephase1.."Redesign the website Version 2"<:
-        -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided"<:
+        -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the 'Building fair systems through Collaboration' to the one we decided"<:
       Include:
         - old engine with new design
         - revised content
@@ -419,7 +418,7 @@ Done .Back to original:
           - videos
         Todos:
           TODO .Move the top menu items to the left:
-          TODO .Remove the "TF2P" text:
+          TODO .Remove the 'TF2P' text:
           TODO .Redesign the main site to black:
           TODO .Remove the fucking animationshits:
             Details:
@@ -763,9 +762,9 @@ Done .Back to original:
             +: {CreatedBy: Bobi, CreatedAt: 20260328 T 155827, By: [Bobi, Hana], Tags: [OCWSPhase1]}
             Details:
               Just some text explaining what will be here
-            Done .Rename "Support" to something less confusing:
+            Done .Rename 'Support' to something less confusing:
               +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154321, By: [Hana, Bobi]}
-              Done .Try finding something better than "Support us":
+              Done .Try finding something better than 'Support us':
                 +: {CreatedBy: Bobi, CreatedAt: 20260328 T 154433, By: Hana, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
                 WorkSpace:
                   Other names:
@@ -1067,11 +1066,11 @@ Done .Back to original:
     Done .Shadow site todos:
       +: {Id: ShadowsSite, CreatedBy: Bobi, CreatedAt: 20250819, By: Bobi, Tags: [OCWSPhase1]}
       Done .Revise the homepage:
-      Done .Change the "Building fair systems through Collaboration" to the one we decided:
+      Done .Change the 'Building fair systems through Collaboration' to the one we decided:
         +: {CreatedBy: Bobi, CreatedAt: 20250819 T 161509, By: everyone, Tags: [CSVDONE], Priority: 5-VeryHigh}
         Details:
           - To "Work optimally and share fairly through computed management".
-          - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided"<
+          - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the 'Building fair systems through Collaboration' to the one we decided"<
         Done .Change it in the title bar:
           +: {CreatedBy: Bobi, CreatedAt: 20260328 T 162004, By: Bobi, Tags: [CSVDONE], Estimation: 30, RemTime: 0}
       Done .Integrate Shadow's site with the Deepdive one:
@@ -1096,7 +1095,7 @@ Done .Back to original:
         +: {CreatedBy: Bobi, CreatedAt: 20260402 T 163406, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
         Importance: Could
         Estimation: 10m
-      Done .Remove the "TF2P" text:
+      Done .Remove the 'TF2P' text:
         +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: "5", RemTime: "0"}
         Importance: Must    
     Done .Go live:
@@ -1685,7 +1684,7 @@ Done .Back to original:
                 Summary: Progress with Updates section
                 Files:
                   - -->Tasks\Website\<
-                  - -->PErsonsal\Bobi\StandupReports<
+                  - -->CurrentWork\Bobi\StandupReports<
       Result:
         - we're going with the basic - so information is summary, date and list of files, rendered as a standard yaml, so no need to design anything, just set it up.
     Done .Implement it on the site:
@@ -1816,7 +1815,7 @@ Done .Back to original:
       Result:
         - first is tonight
         - then every morning after Hana wakes up (and if questions, she can ask it while I'm having the breakfast)
-    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add "Commit message"-like feature"<:
+    -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add 'Commit message'-like feature"<:
     NEXT .Update the process after automation: 
       Id: UpdateAfterAutomation
       +: {CreatedBy: Bobi, CreatedAt: 20261004 T 201405, By: Bobi, Tags: [TL], Estimation: 15, RemTime: 15, Importance: 4-High}

@@ -1,6 +1,6 @@
 SR_20260401_Bobi:
   Was:
-    - -->Meetings\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Merge the Tasks (I was working on) with the original set"<: [ 25m, "", 20260328 T 224725 ]
+    - -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Merge the Tasks (I was working on) with the original set"<: [ 25m, "", 20260328 T 224725 ]
     - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Hold the meeting"<: [ 10m, "Hairs", 20260328 T 225958 ]
     - -->Tasks\Management\.."OCWSPhase1".."Provide estimations"<: [ 10m, "", 20260330 T 000146 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Move anything else".."Move the F2FileToHtmlConverter related tasks"<: [ 45m, "Including updating the site + converter + cleanups", 20260330 T 003955 ]
@@ -11,7 +11,7 @@ SR_20260401_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 6m, "", 20260401 T 101536 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 51m, "", 20260401 T 102129 ]
   Next:
-    - -->MeetingMinutes\Plannings\.MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 30m (timeboxed) ]
+    - -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260328.Result."Tasks to be created"."In management".."Provide estimations"<: [ 30m (timeboxed) ]
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Phase1"<: [ 30m ]
     - Not decided yet...:
 
@@ -21,11 +21,11 @@ SR_20260409_Bobi:
     - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 44m, "", 20260401 T 111533 ]
     - That reorganizing the meetings task:
     - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Relearn how to edit Shadow's site"<: [ 20m, "", 20260401 T 233017 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Remove the "TF2P" text"<: [ 10m, "", 20260401 T 235921 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the "Building fair systems through Collaboration" to the one we decided".."Change it in the title bar"<: [ 10m, "", 20260401 T 235952 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Remove the 'TF2P' text"<: [ 10m, "", 20260401 T 235921 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution"..ShadowsSite.."Change the 'Building fair systems through Collaboration' to the one we decided".."Change it in the title bar"<: [ 10m, "", 20260401 T 235952 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance".."SyncAt20260402"<: [ 65m, "", 20260402 T 160118 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site"..CreateYamls..Leaves..LearnToDive.."Overview".."Finalize and release"<: [ 12m, "", 20260402 T 204841 ]
-    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename "Support" to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
+    - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create SupportUs page".."Rename 'Support' to something less confusing".."Rename it"<: [ 10m, "", 20260403 T 133213 ]
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"< [ 80m, "", 20260403 T 234912 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<: [ 90m, "", 20260406 T 114946 ]
     - -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Implement"..NonDD.."Create Watch page".."Review".."Figure out the content - without the links"<: [ 80m, "With Hana", 20260407 T 200000 ]
@@ -34,7 +34,7 @@ SR_20260409_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 30m, "", 20260409 T 151122 ]
   Next:
     - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Fix the non-scalar as a sequence entry folding issue"<:
-    - -->Tasks\Software\F2FileToHtmlConverter\..""F2FileToHtmlConverter""..""Development""..""SecondPhase""..""Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well""..""See what can be done to support the empty lines; if easy, do it""<:
+    - -->Tasks\Software\F2FileToHtmlConverter\.."F2FileToHtmlConverter".."Development".."SecondPhase".."Try Updating the BarbaF2YamlHtmlConverter to generate empty lines as well".."See what can be done to support the empty lines; if easy, do it"<:
     - -->Tasks\Website\.."Back to original"..Intermediate..CreateSite.."Implement"..NonDD.."Create the Big Summary page AND remove unnecessary menu items"<
     - -->Tasks\Website\..Improvements..CreateYamls..LearnToDiveSyntax<
     - -->Tasks\Website\.."Bugs".."Fix scrolling bug"<
@@ -105,7 +105,7 @@ SR_20260421_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ "Anything emerging during cleanups" ]
     - -->Tasks\Miscellaneous\.."BusinessAnalysis"<: [ "Anything emerging during cleanups" ]
     - -->Tasks\Management\.."Plan and prepare Twitch streaming first phase"<:
-    - -->Tasks\Software\F2ToolsExtension\.Bugs<: [ "Fixing a bunch of 'easy' ones" ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs<: [ "Fixing a bunch of 'easy' ones" ]
 
 SR_20260429_Bobi:
   Was:
@@ -114,20 +114,20 @@ SR_20260429_Bobi:
     - -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<: [ 41m, "", 20260422 T 120445 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 33m, "", 20260422 T 120532 ]
     - -->Tasks\Miscellaneous\.."IT".."Environment configuration"<: [ 16m, "Fixing repository issues", 20260423 T 223949 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During CSV Generation if the value of a property is not a string, it fails"<: [ 43m, "", 20260423 T 215405 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During CSV Generation extra fields are added"<: [ 30m, "", 20260423 T 234916 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."During CSV Generation if the value of a property is not a string, it fails"<: [ 43m, "", 20260423 T 215405 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."During CSV Generation extra fields are added"<: [ 30m, "", 20260423 T 234916 ]
     - -->Tasks\Processes\..Technical.."Publishing the F2Tool extension to VS Code MarketPlace"<: [ 111m, "", 20260424 T 121927 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial changelog"<: [ 25m, "", 20260424 T 191512 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."Write initial readme.md"<: [ 65m, "", 20260424 T 232411 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 10m, "", 20260424 T 115600 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.25"<: [ 30m, "", 20260424 T 233251 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 126m, "", 20260425 T 010751 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."During Id link generation the value of the 'Summary' field is used instead of the 'Id' field"<: [ 126m, "", 20260425 T 010751 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 2m, "", 20260425 T 012000 ]
     - -->Tasks\Management\.."Big replanning after OCWSPhase1"<: [ 116m, "", 20260425 T 123634 ]
     - -->Tasks\Management\.."Create schedules"<: [ 22m, "", 20260425 T 183628 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."During Id link generation the value of the "Summary" field is used instead of the "Id" field"<: [ 13m, "", 20260428 T 235042 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."During Id link generation the value of the 'Summary' field is used instead of the 'Id' field"<: [ 13m, "", 20260428 T 235042 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Some fiddling with the code + process update", 20260429 T 000259 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [ 20m, "", 20260429 T 003000 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."The value of Id field is not taken into account if it's inside the additional properties part"<: [ 20m, "", 20260429 T 003000 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 3m, "", 20260429 T 144147 ]
     - -->Tasks\Software\F2ToolsExtension\.Tasks.."Publication to marketplace".."V2.0.26"<: [ 20m, "Investigating deployment issues", 20260430 T 115000 ]
   Next:
@@ -173,13 +173,13 @@ SR_20260526_Bobi:
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Taskify and estimate"<: [ 28m, "", 20260522 T 013410 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".MaintenanceTasks.."Have an implementation plan and improve estimation"<: [ 18m, "", 20260522 T 202127 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 3m, "", 20260522 T 205442 ]
-    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add "Commit message"-like feature".."Decide:_ how should we handle the whole thing"<: [ 10m, "", 20260522 T 205705 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add 'Commit message'-like feature".."Decide:_ how should we handle the whole thing"<: [ 10m, "", 20260522 T 205705 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 10m, "", 20260523 T 001100 ]
     - -->Tasks\Website\..Improvements.."Work out user journeys on the site".."Create baseline"<: [ 50m, "", 20260523 T 002248 ]
     - -->Tasks\Website\..Improvements.."Create content yamls".."The Abyss:_ Finish F2Yaml specification".MaintenanceTasks.."Estimate"<: [ 27m, "", 20260523 T 223743 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 22m, "", 20260524 T 205542 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 28m, "", 20260524 T 211742 ]
-    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add "Commit message"-like feature".MaintenanceTasks.."Have an implementation plan and provide estimation"<: [ 6m, "", 20260524 T 212037 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Add 'Commit message'-like feature".MaintenanceTasks.."Have an implementation plan and provide estimation"<: [ 6m, "", 20260524 T 212037 ]
     - -->Tasks\PublicRelations\..CreateOutreachPlan..Improve<: [ 12m, "", 20260525 T 145109 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 6m, "", 20260525 T 150442 ]
     - -->Tasks\Management\.."Plan the next Milestones".."Work out the OCWSPhase2 milestone"<: [ 85m, "", 20260525 T 150442 ]
@@ -348,7 +348,7 @@ SR_20260619_Bobi:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 11m, "", 20260618 T 150259 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."F2Link generation through F2YamlWorkspaceItem".MaintenanceTasks.."Create Implementation plan"<: [ 11m, "", 20260618 T 153500 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".MaintenanceTasks.."Create Implementation plan for Basic Query Execution"<: [ 78m, "", 20260618 T 154600 ]
-    - -->Management.Public\Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 10m, "", 20260619 T 025005 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings".."Store yaml representation information in F2YamlWorkspaceItem-s baseline"<: [ 10m, "", 20260619 T 025005 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute<: [ 30m, 20260619 T 030005 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 8m, "", 20260619 T 145542 ]
   Next:
@@ -417,7 +417,7 @@ SR_20260726_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Finances".."Create implementation plan"<: [ 15m, "", 20260722 T 162036 ]
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<: [ 5m, "", 20260722 T 163137 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."After a command - e.g. start timer on task - the cursor goes to the output window"<: [ 10m, "", 20260723 T 020644 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Bugs.."Error:_ "This command only works with YAML files""<: [ 15m, "", 20260723 T 020958 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."Error:_ This command only works with YAML files"<: [ 15m, "", 20260723 T 020958 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 12m, "", 20260725 T 144726 ]
   Next:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)"<:
@@ -450,9 +450,9 @@ SR_20260826_Bobi:
     - -->Tasks\Software\F2ToolsExtension\.."Task administration"<: [ 40m, "", 20260825 T 202021 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Report needs to be generated twice for the changes to be taken into account"<: [ 29m, "", 20260825 T 203008 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."The file name part in F2Link does not get generated for certain Items"<: [ 30m, "", 20260825 T 203008 ]
-    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "", 20260825 T 203008 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains 'ERROR' if the top level key does not start with a dot"<: [ 20m, "", 20260825 T 203008 ]
   Next:
-    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 20m, "Finishing what I started", 20260825 T 203008 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains 'ERROR' if the top level key does not start with a dot"<: [ 20m, "Finishing what I started", 20260825 T 203008 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.1"<
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<
@@ -460,7 +460,7 @@ SR_20260826_Bobi:
 
 SR_20260903_Bobi:
   Was:
-    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 50m, "Can't be fixed without type support" ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains 'ERROR' if the top level key does not start with a dot"<: [ 50m, "Can't be fixed without type support" ]
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.1"<: [ 20m ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Create Dev tasks report"<: [ 10m, "", 20260902 T 132336 ]
@@ -490,7 +490,7 @@ SR_20261020_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items..OptimiseParsing.."Exclude folders starting with a dot as a temporary measure"<
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings"..CSVHeaderParsing<:
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<
-    - -->Tasks\Software\F2ToolsExtension\..Bugs..""F2Link contains ""ERROR"" if the top level key does not start with a dot""<
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains 'ERROR' if the top level key does not start with a dot"<
 
 SR_20261021_Bobi:
   Was:
@@ -502,13 +502,13 @@ SR_20261021_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items..OptimiseParsing.."Exclude folders starting with a dot as a temporary measure"<:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings"..CSVHeaderParsing<:
     - -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..ParseReport<:
-    - -->Tasks\Software\F2ToolsExtension\..Bugs..""F2Link contains ""ERROR"" if the top level key does not start with a dot""<:
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains 'ERROR' if the top level key does not start with a dot"<:
 
 
 SR_20261023_Bobi:
   Was:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items..OptimiseParsing<: [ 12m, "", 20261021 T 225525 ]
-    - -->Tasks\Software\F2ToolsExtension\.Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 10m, "", 20261021 T 231746 ]
+    - -->Tasks\Software\F2ToolsExtension\..Bugs.."F2Link contains "ERROR" if the top level key does not start with a dot"<: [ 10m, "", 20261021 T 231746 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Package and add to repo V3.1.2"<: [ 15m, "", 20261021 T 232041 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ 60m, "", 20261023 T 110905 ]
   Next:
@@ -539,14 +539,17 @@ SR_20261112_Bobi:
     - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 15m, "", 20261110 T 191243 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation".."Implement IdHierarchy"<: [ 14m, "", 20261111 T 012558 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unknown prefixes for Bugs"<: [ 10m, "", 20261111 T 020707 ]
+    - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110"<: [ 21m, "", 20261112 T 125701 ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 15m, "", 20261112 T 125324 ]
   Next:
     - -->Tasks\Management\..General..TaskAdmin.."Fix links based on the converter report 20261110".."Do first round and see how it works"<
-    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"
-    - 
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ "Any important ones coming out; reprioritization; admin" ]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Move the Tasks from the ToBeSorted to their correct place"<
+    - Review health log
 
 SR_NEXT_Bobi:
   Was:
-    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 4m, "", 20261112 T 125324 ]
-    - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110"<: [ 0m, "", 20261112 T 125701 ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 36m, "", 20261112 T 130427 ]
   Next:
     - null

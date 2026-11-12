@@ -1,6 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
-MeetingNotes:
+.MeetingNotes:
   .Planning20260328:
     Participants: [Bobi, Hana]
     StartTime: 20260328 T 1505
@@ -22,7 +22,7 @@ MeetingNotes:
       Tasks created:
         - -->Tasks\Management\.."Plan the next Milestones"<
         - -->Tasks\Management\..CreateSchedules<       
-        - -->Tasks\Management\.."Create "daily administration" schedule for Hana"<                
+        - -->Tasks\Management\.."Create 'daily administration' schedule for Hana"<                
         - -->Tasks\PublicRelations\.."Create outreach plan"<      
         
 

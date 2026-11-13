@@ -546,7 +546,7 @@ SR_20261112_Bobi:
     - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"<
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links"<: [ "Any important ones coming out; reprioritization; admin" ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Move the Tasks from the ToBeSorted to their correct place"<
-    - Review health log
+    - -->!SubProjects\HealthManagement\Tasks..DailyHealthLogDataEntry.."Do Health Log Review"<
 
 SR_NEXT_Bobi:
   Was:

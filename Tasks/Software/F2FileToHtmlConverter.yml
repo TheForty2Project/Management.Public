@@ -16,7 +16,7 @@
   OnGoing .Task administration:
     Id: TaskAdmin
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 201447}           
-  InProgress .Development:
+  OnGoing .Development:
     Id: Dev
     Done .ZerothPhase:
       Closed .Create initial version:

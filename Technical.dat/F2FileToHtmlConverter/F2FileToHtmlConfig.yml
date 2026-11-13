@@ -1,6 +1,10 @@
 CustomColoringJSONPath: colors.json
-SourceFolder: ..\..\
 OutputFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss
+WorkspaceRoot: ..\..\
+WebsiteRoot: https://deepdive.tf2p.org/read/DeepDive/
+WebsiteRootFSFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\
+F2LinkReportOutputFolder: ..\..\..\F2LinkReports\
+
 Files:
 - SourceFilePath:                                                 ..\..\CurrentWork\Bobi\Workspace.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Bobi
@@ -14,8 +18,20 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Hana
 - SourceFilePath:                                                 ..\..\CurrentWork\Hana\StandupReports.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Hana
+- SourceFilePath:                                                 ..\..\CurrentWork\Anita\Workspace.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Anita
+- SourceFilePath:                                                 ..\..\CurrentWork\Anita\TasksToBeSorted.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Anita
+- SourceFilePath:                                                 ..\..\CurrentWork\Anita\StandupReports.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\CurrentWork\Anita  
 - SourceFilePath:                                                          ..\..\BusinessClasses.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\
+- SourceFilePath:                                                          ..\..\Documents\Milestones.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents  
+- SourceFilePath:                                                          ..\..\Documents\ProcessDescriptions.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents    
+- SourceFilePath:                                                          ..\..\Documents\PublicRelations.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents        
 - SourceFilePath:                                                          ..\..\Documents\F2YamlSpecification\F2Yaml.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents\F2YamlSpecification
 - SourceFilePath:                                                          ..\..\Documents\Requirements\TheF2Tool.yml 
@@ -26,8 +42,12 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents\Requirements
 - SourceFilePath:                                                          ..\..\Documents\Requirements\F2FinanceHelper.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Documents\Requirements
+- SourceFilePath:                                                          ..\..\MeetingMinutes\General.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes  
 - SourceFilePath:                                                          ..\..\MeetingMinutes\Plannings.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
+- SourceFilePath:                                                          ..\..\MeetingMinutes\RePlSt.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes  
 - SourceFilePath:                                                          ..\..\MeetingMinutes\StandupReports.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
 - SourceFilePath:                                                          ..\..\MeetingMinutes\Retrospectives.yml 
@@ -38,12 +58,14 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
 - SourceFilePath:                                                          ..\..\Reports\TaskListTasks.csv 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
-  #ColumnNames: [Status, Estimation,By, RemTime, IdLink]
 - SourceFilePath:                                                          ..\..\Reports\DevTasks.csv 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\Reports\Before1stPostTasks.csv 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
-  #ColumnNames: [Status, Estimation,By, RemTime, IdLink]  
+- SourceFilePath:                                                          ..\..\Reports\HealthTasks.csv 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
+- SourceFilePath:                                                          ..\..\Reports\TLAndDevTasks.csv 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\System\Types.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\System
 - SourceFilePath:                                                          ..\..\System\Types\Processes.yml 
@@ -56,6 +78,10 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\System\Types  
 - SourceFilePath:                                                          ..\..\Tasks\PublicRelations.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\
+- SourceFilePath:                                                          ..\..\Tasks\Miscellaneous.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\
+- SourceFilePath:                                                          ..\..\Tasks\ToBeSorted.yml
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\  
 - SourceFilePath:                                                          ..\..\Tasks\Documents.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\
 - SourceFilePath:                                                          ..\..\Tasks\Management.yml
@@ -72,6 +98,10 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
 - SourceFilePath:                                                          ..\..\Tasks\Software\F2FileToHtmlConverter.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
+- SourceFilePath:                                                          ..\..\!SubProjects\HealthManagement\Tasks.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement
+  
+  
   
 - SourceFilePath:          ..\..\Documents\WebsiteContent\Summary.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read
@@ -115,4 +145,88 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\System\
 - SourceFilePath:               ..\..\Documents\WebsiteContent\DeepDive\TheAbyss\Tasks\Software.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks
-
+  
+IgnoreF2Links:
+- -->"Summary of an Item"..Blah<
+- -->..MyTask.SubTasks..MySubTask1< -->..MyTask..MySubTask1<
+- -->..MyItem.MyItemProperty..MyAnotherItem.LinkToThis< -->..MyItem.MyItemProperty.LinkToThis<
+- -->Bobi<
+- -->Hana<
+- -->Applecollection.MySpecialApple<
+- -->Root..MyProject..MyItem<
+- -->Root..MyProject..MyTask.MyProperty<
+- -->Root..MyProject..MyTask<
+- -->\..MyItem.ItemListProperty..Blah<
+- -->\..MyItem.ItemListProperty..Blah(1)<
+- -->Tasks\Software\F2ToolsExtension\..MyItem.MyItemListProperty..MySubItemId.MySubItemProp.."SubSub Item Summary"<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<Task>(0).LinkToThis1<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
+- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..<Task>.LinkToThis9<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..MyTask.LinkToThis9<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty.."My Task".LinkToThis9<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2..LinkToThis10<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2..MyTask.LinkToThis10<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty2.."My Task".LinkToThis10<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3.."My Task".LinkToThis11<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
+- -->Banana<
+- -->Root..Projects..Barba..Types<
+- -->Root..System..Types..Task<
+- -->Example.QueryDescription.MyItemListProp..OneItem..Blah.MyTargetProp<
+- -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<
+- -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<
+- -->Example.QueryDescription.MyItemListProp..Bumm<
+- -->MyFile1\..ItemA<
+- -->MyFile2\..ItemA..ItemB<
+- -->MyFile1\..ItemA..ItemB<
+- -->Root..System..Types<
+- -->Root..SomeItem<
+- -->Root..SomeItem<
+- -->Root..SomeItem<
+- -->Root<
+- -->Root.SomeItem<
+- -->Root<
+- -->Root.SomeItem<
+- -->Root.MyProject.OtherTask<
+- -->Link.To.Task< 
+- -->MyFunctionCall()<
+- -->MyFunctionCall()<
+- -->RootItem..MyProject..MyItem<
+- -->F2Tool..System..Users< 
+- -->Root..SomeItem<
+- -->Root..SomeItem<
+- -->\..MyItem.ItemListProperty..Blah<
+- -->\..MyItem.ItemListProperty..Blah(1)<
+- -->MyItem."My Key 1".MyKey2<
+- -->Recruitment\JobDescriptions\.".Seniority classification for CSharp".Content<
+- -->BusinessClasses\."namespace Barba.Types"."enum TaskStatusEnum"< 
+- -->DocsAndArticles\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+- -->!PublicWorkspaces\Hana\PlanningMeeting20250830\.."Planning and Retrospective".."PlanningMeeting20250830".Workspace.."Review milestones"<
+- -->Backlog\Backlog\..PublicRelations.Recruitment.RecruitmentPhase1.."Advertise the job description in different platform"< 
+- -->Backlog\Backlog\..PublicRelations..Recruitment..RecruitmentPhase1.."Advertise the job description in different platform"<
+- -->Backlog\Development\..Processes..PM.VerifyAndImprove.Baseline<
+- -->Tasks\Processes\..Members.."Initial Interview".."Baseline"<
+- -->CurrentWork\Bobi\TestMaterial\<

@@ -240,6 +240,17 @@
   EstTODO .Month of Dec - 20261202T12:00-13:00:
     +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [Health, TL], Estimation:60 , RemTime:60, Importance: 3-Average}   
 .GeneralHealthTasks:
+  InProgress .Review Health log process:
+  +: {CreatedBy: Bobi, CreatedAt: 20261103 T 134310, By: [Bobi, Hana], Tags: [Health, TL], Estimation: 30, RemTime: 29, Importance: 5-VeryHigh}
+  Details:
+    Meeting minutes under: -->MeetingMinutes\General\.HealthLogProcessReview<
+  WorkSpace:
+    Health Log proceSs:
+      -   
+  Done .Create tasks and notes:
+  TODO .Move the tasks to their correct places:
+    +: {CreatedBy: Bobi, CreatedAt: 20261103 T 144759, By: Hana, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
+    
   Done .Move the health related things under the HealthManagement subproject:
     +: {CreatedBy: Bobi, CreatedAt: 20261110 T 154500, By: Hana, Tags: [Health, TL], Estimation: 20, RemTime: 20, Importance: 4-High}
     Details:

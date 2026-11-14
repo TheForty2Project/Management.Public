@@ -176,21 +176,7 @@ namespace Barba.Types:
       6-Extreme:
       7-OMG:
 
-  enum .BristolPoopika:
-    .1-HardLumps:
-      Details: Separate hard lumps like nuts
-    .2-LumpySausage: 
-      Details: Sausage-Shaped but lumpy
-    .3-CrackedSausage:
-      Details: Like a sausage but crackon the surface
-    .4-Cable:
-      Details: Like sausage or snake, smooth and soft
-    .5-PoopEmoji:
-      Details: Soft Blobs with clear cut edges
-    .6-KrumpliFozelek:
-      Details: Fluffy pieces with Ragged edges, a mushy stool
-    .7-WateryNoSolids:
-      Details: Watery no soild pieces
+  
     
   class .TestCase:
     Inherits: StandardItem
@@ -513,7 +499,7 @@ namespace Barba.Types:
 
     Properties:
       string .Name: 
-      string .Dosage: 
+      Integer .Dosage: 
       string .Unit:                       
   class .Digestion:
     Inherits: EventLogBase                  
@@ -523,10 +509,80 @@ namespace Barba.Types:
       movement, stress, and gastrointestinal function.
 
     OneToSeven .Bristol: 
+
+  enum .BristolPoopika:
+    .1-HardLumps:
+      Details: Separate hard lumps like nuts
+    .2-LumpySausage: 
+      Details: Sausage-Shaped but lumpy
+    .3-CrackedSausage:
+      Details: Like a sausage but crackon the surface
+    .4-Cable:
+      Details: Like sausage or snake, smooth and soft
+    .5-PoopEmoji:
+      Details: Soft Blobs with clear cut edges
+    .6-KrumpliFozelek:
+      Details: Fluffy pieces with Ragged edges, a mushy stool
+    .7-WateryNoSolids:
+      Details: Watery no soild pieces
+
     ZeroToFive .Bloating:
+  enum .Bloating:
+    .0-Zero:
+      Details: No Bloating
+    .1-One:
+      Details: 
+    .2-Two:
+      Details:
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details:
+
     ZeroToFive .AbdominalPain:
+  enum .AbdominalPain:
+    .0-Zero:
+      Details: 
+    .1-One:
+      Details: 
+    .2-Two:
+      Details:
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details:
     ZeroToFive .Flatulence:
-    ZeroToFive .Belching:    
+  enum .Flatulence:
+    .0-Zero:
+      Details: 
+    .1-One:
+      Details: 
+    .2-Two:
+      Details:
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details:
+    ZeroToFive .Belching:   
+  enum .Belching: 
+    .0-Zero:
+      Details: 
+    .1-One:
+      Details: 
+    .2-Two:
+      Details:
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details:
   class .Movement:
     Inherits: EventLogBase                  
     Summary: 
@@ -547,14 +603,37 @@ namespace Barba.Types:
     string .ActivityDesc:
     Duration .Duration:
     OneToFive .Focus:
-      Summary:
-        1: like a puppy / like someone who's being poked constantly
-        5: super interested, people can talk around me; the "flow state"
+  enum .Focus:
+    .0-Zero:
+      Details: Inability to work, in front of the computer but not able to grasp the task
+    .1-One:
+      Details: like a puppy / like someone who's being poked constantly
+    .2-Two:
+      Details: 
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details: super interested, people can talk around me; the "flow state"
     OneToFive .MindPower:
       Summary:
         how easy it is to solve a standard problem:
           1: simple bureaucracy (e.g. paying bills) is problematic
           5: give me the tough math problems
+  enum .MindPower:
+    .0-Zero:
+      Details: 
+    .1-One:
+      Details: 
+    .2-Two:
+      Details: 
+    .3-Three:
+      Details:
+    .4-Four:
+      Details:
+    .5-Five:
+      Details: super interested, pe
   class .LifeEvent:
     Inherits: EventLogBase                  
     Summary: 
@@ -640,7 +719,7 @@ namespace Barba.Types:
   enum MenstrualPhase:  
     .Menstrual:
     .Follicular:
-    .Ovulatory:
+    .Fertile:
     .Luteal:
 
   class .BleedingInfo:
@@ -656,7 +735,7 @@ namespace Barba.Types:
     ZeroToThree .Bloating: 
       Summary: Zero - none; One - might a little; Two - Bloated; Three - Pregnant bloated
     ZeroToFive .Headache: 
-      Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm gonna die
+      Summary: Zero - none; One - Light, coming/going; Two - Medium Headache Uncomfortable; Three - Painful (hard to concentrate); Four - migraine (I can't do anything meaningful); Five - I'm going to die
     ZeroToThree .Fatigue: 
       Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
 

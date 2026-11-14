@@ -6351,6 +6351,7 @@ Month of Nov:
             Hot Shower: no
             ReadingBook: no
             BedTime: 23:00
+            Notes: Burping before waking up and Robi massaging my tummy
     42242_20261114_Incomplete:
       Morning:
         - <MenstrualCycle>:
@@ -6386,53 +6387,60 @@ Month of Nov:
           Focus: 
           MindPower: 
           Summary: 
+          Notes: worked on the train
+        - <Movement>:
+          Time: 08:30
+          Activity: walking 
+          Duration: 30
+          Intensity: 
+          Summary: 
+          Notes: Szeged walking
+        - <Food>:
+          Time: 09:00
+          MealDescription: kifli with cheese and donut 
+          Quantity: 0.5 kihli, choco donut
+          Summary: 
+          Notes: 
+        - <Work>:
+          Time: 10:30
+          ActivityDesc: See standup 
+          Duration: 50 m
+          Focus: 2
+          MindPower: 2 
+          Summary: 
           Notes: 
       Afternoon:
-        - <Drugs>:
-            Time:
-            Name:
-            Dosage:
-            Unit:
-            Summary:
-            Notes:
+        - <Movement>:
+          Time: 12:15
+          Activity: walk
+          Duration: 
+          Intensity: 
+          Summary: 
+          Notes: szeged walk back to train
         - <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
+            Time: 12:40
+            ActivityDesc: see standup
+            Duration: 1.5 h
+            Focus: 1
+            MindPower: 1
             Summary:
-            Notes:
+            Notes: started to feel the heavines of no sleep
         - <Food>:
-            Time:
-            MealDescription:
+            Time: 16:30
+            MealDescription: chocolate, rice and tomato sauce, rice pancake
             Quantity:
             Summary:
-            Notes:
-        - <Movement>:
-            Time:
-            Activity:
-            Duration:
-            Intensity:
-            Summary:
-            Notes:
-      Evening:
+            Notes: startesd to be messy, speech is messy
         - <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
-        - <SleepHygiene>:
-           Preparing Next Day Task:
-           Smoke:
-           Drugs:
-           Hot Shower:
-           ReadingBook:
-           BedTime:
-
+          Time: 1741$
+          ActivityDesc: standup
+          Duration: 15
+          Focus: 1
+          MindPower: 1
+          Summary: 
+          Notes: healthlogs
+      Evening:
+        
 
 
 

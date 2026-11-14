@@ -2532,5 +2532,89 @@ Month of Nov:
           - heavy food 2 days ago (fish which made me nauseatic)
           - my general state from 3-4 days ago settting the stage for my digestion
     
+42241_20261114_Incomplete:
+  Morning:
+    - <MorningState>:
+       Mood: 
+       ThinkingQuality:
+       Motivation:
+       PhysicalEnergy:
+       BodyBattery:
+       Rumination:
+       SleepScore:
+       Bristol:
+       SuspectedReasons:
+       Notes on last evening: 
+    - <Sleep>:
+      BedTime:
+      SleepTime:
+      WakeTime:
+      Duration:
+      SleepScore:
+      BodyBatteryGained:
+      Summary:
+      Notes:
+    - <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    - <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+    - <Digestion>:
+      Time:
+      Bristol:
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:
+  Afternoon:
+    - <Drugs>:
+      Time:
+      Name:
+      Dosage:
+      Unit:
+      Summary:
+      Notes:
+    - <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+    - <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    - <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+  Evening:
+    - <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
 
+        
+            
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

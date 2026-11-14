@@ -6178,7 +6178,7 @@ Month of Nov:
           MindPower: 1
           Summary:
           Notes: Messy, I was able to go through different files and skim though milestones. 
-    42242_20261112_Incomplete:
+    42242_20261112_Complete:
       Morning:
         <Sleep>:
           BedTime: 22:00
@@ -6251,10 +6251,10 @@ Month of Nov:
           Notes:  forced myself working by being live on Twitch
         - <Food>:
           Time: 2012
-          MealDescription: rice, tuna, lentil, pudding and biscuit
+          MealDescription: rice, tuna, lentil, pudding and biscuit, then at 10:00 I ate chocolate pudding
           Quantity: moderate
           Summary: 
-          Notes: Didnt continue the biscuit (yeeey), craving was lessened
+          Notes: Didnt continue the biscuit (yeeey), craving was lessened 
         - <Work>:
           Time: 2013$
           ActivityDesc: 
@@ -6270,8 +6270,168 @@ Month of Nov:
             Hot shower: Yes
             Reading book: No
             Bed time: 
-
-
+    42242_20261113_Complete:
+      Morning:
+        - <MenstrualCycle>:
+            Cycle:
+              Day: 13
+              Phase: Fertile
+        - <Sleep>:
+            BedTime:  23:00
+            SleepTime: 23:09
+            WakeTime: 09:03
+            Duration: 9h 6m
+            SleepScore: 83
+            BodyBatteryGained: +58
+            Summary:  You had long, deep sleep. Sleep like this is critical for boosting your immune system and repairing your body.
+            Notes: woke up very runminated and anxious. maybe due eating before sleeping
+        - <Food>:
+            Time: rice pancake, Yogurt, boiled egg
+            MealDescription:
+            Quantity:
+            Summary:
+            Notes:
+        - <Work>:
+          Time: 10:00
+          ActivityDesc: Language
+          Duration: 1.5 h
+          Focus: 2
+          MindPower: 2
+          Summary: 
+          Notes: was able to study under pressure... hmmm
+        - <Digestion>:
+            Time: 11:45
+            Bristol: 3
+            Bloating: 0
+            AbdominalPain: 0
+            Flatulence: 0
+            Belching: 0
+            Summary:
+            Notes: felt terrible after poopika. 30 mins later I felt better
+      Afternoon:
+        - <Work>:
+            Time: 12:00
+            ActivityDesc: Language course
+            Duration: 2 hours
+            Focus: 2
+            MindPower: 2
+            Summary:
+            Notes: Was able to grasp concepts. mutual transfer of knowldege was made. Class was a good one.
+        - <Food>:
+            Time: 14:45
+            MealDescription: Soup, Rice, pulled pork, tomato, biscuits and tea
+            Quantity: moderate
+            Summary:
+            Notes:
+        - <Movement>:
+            Time: 17:00
+            Activity: Gym upper strength
+            Duration: 1.5 h
+            Intensity: easy
+            Summary:
+            Notes: mainly upper strength. focused on repitition more than weights. weights used 25 kg
+      Evening:
+        - <Food>:
+          Time: 07:00
+          MealDescription: Rice, 1 boied egg, soup
+          Quantity: moderate
+          Summary: 
+          Notes: No food was ingested after
+        - <Movement>:
+          Time: 21:00
+          Activity: walk
+          Duration: 20 min
+          Intensity: moderate
+          Summary: 
+          Notes: carrying laundry
+        - <SleepHygiene>:
+            Preparing Next Day Task: yes
+            Smoke: yes 3 puff
+            Drugs: no
+            Hot Shower: no
+            ReadingBook: no
+            BedTime: 23:00
+    42242_20261114_Incomplete:
+      Morning:
+        - <MenstrualCycle>:
+            Cycle:
+              Day: 14
+              Phase: Fertile
+        - <Sleep>:
+            BedTime: 23:00
+            SleepTime: 23:30
+            WakeTime: 03:45
+            Duration: 4
+            SleepScore: n/a
+            BodyBatteryGained: n/a
+            Summary:
+            Notes: Garmin didnt detect my sleep. It was either 3.5 or 4 hours ( worse in Nov). Though I felt good, no food and proper sleep the night before
+        - <Food>:
+            Time: 04:30
+            MealDescription: Pancake, oatmeal, mixed fruits
+            Quantity: moderate
+            Summary:
+            Notes: 
+        - <Movement>:
+            Time: 05:20
+            Activity: walk
+            Duration: 10 m
+            Intensity: easy
+            Summary:
+            Notes: going to the train station
+        - <Work>:
+          Time: 05:40
+          ActivityDesc: see standup
+          Duration: 
+          Focus: 
+          MindPower: 
+          Summary: 
+          Notes: 
+      Afternoon:
+        - <Drugs>:
+            Time:
+            Name:
+            Dosage:
+            Unit:
+            Summary:
+            Notes:
+        - <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+        - <Food>:
+            Time:
+            MealDescription:
+            Quantity:
+            Summary:
+            Notes:
+        - <Movement>:
+            Time:
+            Activity:
+            Duration:
+            Intensity:
+            Summary:
+            Notes:
+      Evening:
+        - <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+        - <SleepHygiene>:
+           Preparing Next Day Task:
+           Smoke:
+           Drugs:
+           Hot Shower:
+           ReadingBook:
+           BedTime:
 
 
 

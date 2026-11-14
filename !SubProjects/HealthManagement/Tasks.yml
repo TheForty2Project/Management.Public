@@ -253,7 +253,10 @@
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
       Details:   
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
-    TODO .Add SystemState to each part of the day:
+    Done .Add SystemState to each part of the day:
+      +: {CreatedBy: Hana, CreatedAt: 20261114 T 103804, By: Hana, Tags: [Health, TLDone], Estimation: 5, RemTime:5 , Importance: 3-Average}
+      Results:
+        SystemState has been added to Morning, Afternoon and evening
   Done .Log Automation:
             +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
             Details: 

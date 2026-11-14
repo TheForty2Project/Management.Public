@@ -389,9 +389,14 @@ SR_NEXT_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 12m, "", 20261112 T 202204 ]
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<: [ 0m, "", 20261112 T 202251 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 16m, "", 20261114 T 06:00 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Entries inside should be lists (so add a dash in front of them)"<: [ 0m, "Added Morning state to 24421 HOS logs", 20261114 T 07:00 ]
+    - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Schedule the analysis of resistance ex".."Schedule Week47"<: [ 51m, "", 20261114 T 070155 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add SystemState to each part of the day"<: [ 0m, "", 20261114 T 102900 ]
   NEXT:
 
   AOIB:
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis: Update the task in management
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
+
+

@@ -1,6 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task, Bug]}
 
-EstTODO .Review the requirements currently in "Draft" status:
+EstTODO .Review the requirements currently in 'Draft' status:
   +: {CreatedBy: Bobi, CreatedAt: 20260521 T 011246, By: Hana, Tags: [TL], Estimation: 40, RemTime: 40, Importance: 3-Average}
 Done .Review 2 reports (before1stpostTasks, TasklistTasks):
   +: {CreatedBy: Hana, CreatedAt: 20260723 T 154755, By: Hana, Tags: [TLDone], Estimation: , RemTime: }  

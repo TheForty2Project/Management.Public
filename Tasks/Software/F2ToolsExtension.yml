@@ -562,11 +562,11 @@ OnGoing .Task administration:
     Done .Executes query (basic):
       Id: Execute
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [Dev, F2Tools]}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute<
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery<
       Done .Verifies query:
         Id: Verify
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 0}
-        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<
         ImplPlan: |
           TryGetQueryDescriptionUnderTheCursor:
             - Get the document and the cursor position
@@ -576,8 +576,8 @@ OnGoing .Task administration:
         Id: BasicExecute
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 0}
         Requirement: 
-          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..BasicExecute<
-          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..ShowSummary<
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..BasicExecute<
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..ShowSummary<
         ImplPlan:
           - Done the following architectural changes:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
@@ -638,7 +638,7 @@ OnGoing .Task administration:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 20}
         DependsOn: -->..BasicExecute<
-        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..Filter<
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery..Filter<
         Done .Engine and majority:
         Done .SkipUnder:
     EstTODO .Parse report CSV:
@@ -913,7 +913,7 @@ OnGoing .Task administration:
       - QA: Bobi
         Version: 2.0.17
         Severity: 4-High
-        Details: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+        Details: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
 
   Fixed .Misleading error message when Stopping Timer on Task without Starting one:
     QA: Bobi
@@ -1043,8 +1043,8 @@ OnGoing .Task administration:
       Severity: 3-Average
       Version: 2.0.14
       Details:
-        - Tested with -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
-        - It works with the summary link: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules"<
+        - Tested with -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
+        - It works with the summary link: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work, giving the error "Cannot read properties of undefined (reading 'length')":
     QA: [ Hana, Bobi ]
@@ -1052,8 +1052,8 @@ OnGoing .Task administration:
     Severity: 4-High
     Area: CSV
     Details:
-      - Extracted: -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules"< follow link does not work on this one.
-      - And neither on this one: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules"<
+      - Extracted: -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"< follow link does not work on this one.
+      - And neither on this one: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules"<
 
   Fixed .Follow Link command does not work (on a link which might not be supported), giving the error "Cannot read properties of undefined (reading 'length')":
     QA: Bobi
@@ -1098,8 +1098,8 @@ OnGoing .Task administration:
     Severity: 4-High
     Area: LinkFollowing
     Details:
-      - -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
-      - (neither with correctly placed dot: -->Documents\Specifications\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<)
+      - -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"< 
+      - (neither with correctly placed dot: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<)
 
   OnHold .Follow link leads to the wrong place:
     +: { CreatedBy: Bobi, CreatedAt: 20250811 T 235257, By: Gaurav, Tags: [  ] }
@@ -1133,7 +1133,7 @@ OnGoing .Task administration:
     Steps:
       - Open F2Yaml.yml in a VS Code without workspace
       - Ensure that the Root Path is set (for me it's "d:\_TF2P\Management\")
-      - Issue the Extract ID Link command on -->Documents\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
+      - Issue the Extract ID Link command on -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
       - Errors:
           - The link generated is -->ocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf< - so no "D" 
           - Displays the error: "No workspace found"

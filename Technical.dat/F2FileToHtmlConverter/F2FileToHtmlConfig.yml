@@ -204,12 +204,7 @@ IgnoreF2Links:
 - -->MyFile1\..ItemA..ItemB<
 - -->Root..System..Types<
 - -->Root..SomeItem<
-- -->Root..SomeItem<
-- -->Root..SomeItem<
 - -->Root<
-- -->Root.SomeItem<
-- -->Root<
-- -->Root.SomeItem<
 - -->Root.MyProject.OtherTask<
 - -->Link.To.Task< 
 - -->MyFunctionCall()<
@@ -231,3 +226,6 @@ IgnoreF2Links:
 - -->Tasks\Processes\..Members.."Initial Interview".."Baseline"<
 - -->CurrentWork\Bobi\TestMaterial\<
 - -->Tasks\Management\..Administration<
+- -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<
+- -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."<
+- -->Tasks\Archive\<

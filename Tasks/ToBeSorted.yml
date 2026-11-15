@@ -441,7 +441,7 @@ EstTODO .Create a Requirement about automatic SR selection:
       - what's the default name of the SR
     - unless "specify standup report" is issued, the above is used
   
-EstTODO .Create a Requirement about "Task sink":
+EstTODO .Create a Requirement about 'Task sink':
   +: {CreatedBy: Bobi, CreatedAt: 20260927 T 181907, By: [Bobi], Tags: [TL], Estimation: 15, RemTime: 15, Importance: 3-Average}
   Details:
     - command for specifying a file

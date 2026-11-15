@@ -798,7 +798,7 @@ InDev .QueryDescription based CSV report generation:
         - ELSE RETURN: queryDescription      
     Implemented .Basic query execution:
       Id: BasicExecute
-      ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<
+      ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<      
       Details:
         - var queryDescription: result of $@-->..Execute.."Verifies query"<@$      
@@ -883,7 +883,7 @@ InDev .QueryDescription based CSV report generation:
   ReadyForDev .Writes back from output:
     Id: WriteBack
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..WriteBack<
-    ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<
+    ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<
     Summary:
       if the cursor is on a Query (either in a yaml file or in the CSV file as comment) which contains F2Links in its Select property, writes the changes FROM the csv to the Items
     Details:
@@ -891,7 +891,7 @@ InDev .QueryDescription based CSV report generation:
       - IF (NOT (the cursor is in a csv file)):
           displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
       - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.CSVHeader<@$
-      - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<@$
+      - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<@$
       - IF (NOT (queryDescription.Select.Any(isF2Link)):
           displays error message: "The Select property must contain F2Links (IDLINK or SUMMARYLINK)"
       - parses the csv into a headerId[columnNo] and csvCellsInLines[rowNo][columnNo] arrays

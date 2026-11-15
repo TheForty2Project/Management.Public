@@ -1752,7 +1752,7 @@ Done .Back to original:
               - if the changes do not seem to appear: menu/delete browsing data.../delete cached images and files
               - check the updates (and optionally, the files which got update - do they still look ok, are there any issues?)
           5: commit and sync the changes in theforty2project.org repo by using the previously opened commit dialog AFTER PRESSING F5
-    EstTODO .Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include:
+    InProgress .Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include:
       +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
       Details:
         Steps:
@@ -1764,8 +1764,8 @@ Done .Back to original:
             - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
             - type "f2filetohtml.exe" and press enter
             - check if no errors - if errors, try to fix them      
-
       Done .List the file that can be published in DeepDive:
+        +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: , RemTime: , Importance: 3-Average}        
         Result:
           - SubProjects: 
             Health section:
@@ -1781,9 +1781,19 @@ Done .Back to original:
           - Business Classes 
           - Under Documents Publishable articles | Note: it should be reviewed before publishing.. 
           - Website content  
-      TODO .Review it with Bobi:
-        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}
-          
+      Done .Review it with Bobi:
+        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: , RemTime: , Importance: 3-Average}
+      EstTODO .Add to app.js, test, deploy:
+        Id: AddToAppJs
+        +: {CreatedBy: Bobi, CreatedAt: 20261115 T 151552, By: [Bobi], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 4-High}
+        Details:
+          - add the entry to the app.js in the theforty2project.org repository
+          - test it:
+            - go to the Management.Public repository's Technical.dat/F2FileToHtmlConverter folder in Total Commander, type "cmd" and press enter
+            - type "f2filetohtml.exe" and press enter
+            - check if no errors (apart from f2link related errors - that's a different task) - if errors, try to fix them
+          - deploy it live
+          - test it
     EstTODO .Go through the files mirrored to the site and see what Items should be removed:
       +: {CreatedBy: Bobi, CreatedAt: 20261030 T 151855, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 120, RemTime: 120, Importance: 4-High}
       EstTODO .Collect the Items for review:

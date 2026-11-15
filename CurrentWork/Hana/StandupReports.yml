@@ -2,9 +2,9 @@ SR_20260401_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Hold the meeting"<: [ 90m, "", 20260328 T 15:10 ]
     - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Creation".."Create OCWSPhase1 task list reports"<: [ 156m, "", 20260330 T 174652 ]
-    - -->Tasks\Management\.."General management".."Standup related".."Preparation"<: [ 51m, "", 20260401 T 102129 ]
+    - -->Tasks\Management\..General..Standup..Prepare<: [ 51m, "", 20260401 T 102129 ]
   Next:
-    - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Hold planning meetings periodically".."20260328".."Process the results"<: [ 70m ]
+    - -->Tasks\Management\.."General management".."Planning related".."Hold periodically".."Planning 20260328".."Process the results"<: [ 70m ]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."Create Management CSV"< [90m]
     - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."SyncAt20260401"<: [ 30m ]
 
@@ -146,8 +146,7 @@ SR_20260617_Hana:
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 6m, "", 20260617 T 145957 ]
 
   Next:
-    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]
-    - -->Tasks\Management\.." Review the belongs to section in F2yaml.yml"<:
+    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 0m, "", 20260617 T 145400 ]    
     - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 0m, "", 20260617 T 145349 ]
 SR_20260619_Hana:
   Was:
@@ -182,7 +181,6 @@ SR_20260621_Hana:
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620"<:
     - -->Tasks\Miscellaneous\.."Health".."Family problem Solving".."Collect the milestones of Sudan selling opportunity"<
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Analyse Health Data"<
-    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi for fixing the stand up process".."Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<"<
   AOIB:
     - -->Tasks\Management\.."General management".."Schedule meetings".."Schedule RePlSt within the week"<
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<
@@ -201,7 +199,7 @@ SR_20260622_Hana:
   Next:
 
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<
-    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi for fixing the stand up process".."Remind Bobi and myself about the streaming"<-->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<"<
+    - -->Tasks\Management\.."General management".."Remind and follow up with participants"< .."Remind Bobi for fixing the stand up process".."Remind Bobi and myself about the streaming"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<:
@@ -372,7 +370,7 @@ SR_20261112_Hana:
     - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<: [ 28m, "", 20261111 T 141710 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 5m, "", 20261112 T 123735 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 36m, "", 20261112 T 123747 ]
-    - - -->Tasks\Website\..Improvements..UpdatesSection..""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""<: [ 20m, "", 20261111 ]
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<: [ 20m, "", 20261111 ]
   Next:
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<

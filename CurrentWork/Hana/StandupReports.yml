@@ -392,6 +392,7 @@ SR_NEXT_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add SystemState to each part of the day"<: [ 11m, "", 20261114 T 102900 ]
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add a default value to each property-value where the values are from an enum, detailing the options"<: [ 60m, "not yet done, need to ask for clarification", 20261114 T 104033 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 15m, "", 20261112 T 202204 ]
+    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ m, "", 20261115 T  ]
   NEXT:
 
   AOIB:

@@ -6352,7 +6352,7 @@ Month of Nov:
             ReadingBook: no
             BedTime: 23:00
             Notes: Burping before waking up and Robi massaging my tummy
-    42242_20261114_Incomplete:
+    42242_20261114_Complete:
       Morning:
         - <MenstrualCycle>:
             Cycle:
@@ -6440,8 +6440,132 @@ Month of Nov:
           Summary: 
           Notes: healthlogs
       Evening:
-        
-
+        <Food>:
+          Time: 17:30
+          MealDescription: pudding
+          Quantity: low
+          Summary: 
+        <SleepHygiene>:
+          Preparing Next Day Task: no
+          Smoke: yes
+          Drugs: no
+          Hot Shower: yes
+          ReadingBook: no
+          BedTime: 09:30
+    42242_20261115_Incomplete:
+      Morning:
+        - <SystemState>:
+           Time: 09:10
+           ThinkingQuality: 2  
+           Motivation: 5
+           PhysicalEnergy: 5 
+           BodyBattery: 
+           Rumination: 0
+           Summary: 
+           Notes: 
+        - <MenstrualCycle>:
+            Cycle: 
+              Day: 15
+              Phase: Ovulation
+        - <Sleep>:
+            BedTime: 09:30
+            SleepTime: 10:54
+            WakeTime: 10:54
+            Duration: 10h 1m
+            SleepScore:
+            BodyBatteryGained:  +75
+            Summary:
+            Notes:
+        - <Food>:
+            Time: 10:00
+            MealDescription: milk coffee
+            Quantity: 1 cup
+            Summary:
+            Notes:
+        - <Movement>:
+            Time: 10:30
+            Activity: core, squats, lunges, farmer carry, deadlift (12 kg)
+            Duration: 1h
+            Intensity: easy
+            Summary:
+            Notes:
+        - <Digestion>:
+            Time: 11:00
+            Bristol: 3
+            Bloating: 0
+            AbdominalPain: 0
+            Flatulence: 0
+            Belching:
+            Summary:
+            Notes:
+        -  <Food>:
+            Time: 11:30
+            MealDescription: oats, tomato sauce and hard cheese
+            Quantity: moderate
+            Summary: 
+            Notes:  
+      Afternoon:
+        - <SystemState>:
+            Time: 1515
+            ThinkingQuality: 
+            Motivation: 
+            PhysicalEnergy: 
+            BodyBattery: 
+            Rumination: 
+            Summary: 
+            Notes: 
+        - <Drugs>:
+            Time:
+            Name:
+            Dosage:
+            Unit:
+            Summary:
+            Notes:
+        - <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+        - <Food>:
+            Time:
+            MealDescription:
+            Quantity:
+            Summary:
+            Notes:
+        - <Movement>:
+            Time:
+            Activity:
+            Duration:
+            Intensity:
+            Summary:
+            Notes:
+      Evening:
+        - <SystemState>:
+            Time: 1515
+            ThinkingQuality: 
+            Motivation: 
+            PhysicalEnergy: 
+            BodyBattery: 
+            Rumination: 
+            Summary: 
+            Notes: 
+        - <Work>:
+            Time:
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+        - <SleepHygiene>:
+            Preparing Next Day Task:
+            Drugs:
+            Hot Shower:
+            ReadingBook:
+            BedTime:
 
 
 

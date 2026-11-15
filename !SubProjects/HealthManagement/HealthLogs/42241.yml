@@ -2520,4 +2520,110 @@ Month of Nov:
           MindPower:
           Summary:
           Notes:
+    20261112:
+      Notes:
+        - constipation today
+        - up until the evening no farts
+        - very slow walking speed, depressed, close to crying up until like 8pm
+        - couldn't train in the gm
+        - was able to work - but low mood
+        - possible reasons for the bad stuff:
+          - w yesterday, starting at 14:00
+          - heavy food 2 days ago (fish which made me nauseatic)
+          - my general state from 3-4 days ago settting the stage for my digestion
+    20261113:
+      Notes:
+        - lots of poop getting softer and softer. 11am
+        - Rice pancake for breakfast
+        - pulled pork and rice for lunch
+        - gym evening
+        - good feeling
+        - rice pancake with pudding
+    
+42241_20261114_Incomplete:
+  Morning:
+    - <MorningState>:
+       Mood: low
+       ThinkingQuality: 1
+       Motivation: 1
+       PhysicalEnergy: 1
+       BodyBattery: 
+       Rumination:
+       SleepScore: 84
+       Bristol: 4thin
+       SuspectedReasons: Pulled Pork lunch. this might caused the burping at night. Hana was burping too 
+       Notes on last evening: burps on bed time @ 03:00
+    - <Sleep>:
+      BedTime: 
+      SleepTime: 2:51
+      WakeTime: 10:29
+      Duration: 7h 26m
+      SleepScore: 84
+      BodyBatteryGained:  +54
+      Summary:
+      Notes: feeling bad
+    - <Digestion>:
+      Time: 11:00
+      Bristol: 4
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes: 1 rounds. at 17:30 small thin ones
+    - <Food>:
+      Time:  11:30
+      MealDescription: Pancake with wheat and rice, pudding
+      Quantity: med
+      Summary:
+      Notes:
+  Afternoon:
+    - <Digestion>:
+      Time: 12:30
+      Bristol: 4
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes: thin ones ( inflamation)
+    - <Drugs>:
+      Time: 14:00
+      Name: Kratom
+      Dosage: 2 
+      Unit: g
+
+    - <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+    - <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    - <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+  Evening:
+    - <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+
+        
+            
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

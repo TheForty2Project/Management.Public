@@ -1,6 +1,6 @@
 +: {Type: Folder, DefaultTypes: [Folder, MeetingMinutes]}
 
-FoodMeetingWithAnita:
+.FoodMeetingWithAnita:
   Workspace:
     Useful links:
       https://www.monashfodmap.com/about-fodmap-and-ibs/high-and-low-fodmap-foods/
@@ -44,7 +44,7 @@ FoodMeetingWithAnita:
             - loads of sucrose
             - fibers
          
-HealthLogProcessReview:
+.HealthLogProcessReview:
   Participants: [Bobi, Hana]
   StartTime: 20261103 T 134200
   EndTime: 20261103 T 145000

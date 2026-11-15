@@ -16,7 +16,7 @@
   OnGoing .Task administration:
     Id: TaskAdmin
     +: {CreatedBy: Bobi, CreatedAt: 20260825 T 201447}           
-  InProgress .Development:
+  OnGoing .Development:
     Id: Dev
     Done .ZerothPhase:
       Closed .Create initial version:
@@ -182,7 +182,7 @@
           Type: Bug
           +: {CreatedBy: Bobi, CreatedAt: 20261109 T 173428, By: Bobi, Tags: [TL], Estimation: , RemTime: , Importance: 3-Average}          
           Details: |
-            d:\_TF2P\Management.Public\Tasks\Software\F2ToolsExtension.yml, Type: CantFindAnchor, Row: 569, Col: 22, Link: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+            d:\_TF2P\Management.Public\Tasks\Software\F2ToolsExtension.yml, Type: CantFindAnchor, Row: 569, Col: 22, Link: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<
           Result:
             Error in the Item (duplicate Summary)
         TODO .Follow links containing properties:

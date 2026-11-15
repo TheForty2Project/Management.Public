@@ -1,6 +1,5 @@
 SR_20261023_Anita:
-  Was:
-    - -->CurrentWork\Anita\TasksToBeSorted\.."Feed the cats"<: [ 48m, "", 20261021 T 185335 ]
+  Was:    
     - -->CurrentWork\Anita\TasksToBeSorted\.."Understanding how the TaskToBeSorted part works"<: [ 42m, "", 20261021 T 232029 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Watch the video we recorded on Monday"<: [ 121m, "", 20261022 T 091605 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Learn how to create links"<: [ 5m, "", 20261023 T 114112 ]
@@ -8,7 +7,7 @@ SR_20261023_Anita:
   Next:
 SR_NEXT_Anita:
   Was:
-    - -->Tasks\Miscellaneous\..Health.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Showcase HealthLog to Anita"<: [ 27m, "", 20261023 T 115643 ]
+    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Showcase HealthLog to Anita"<: [ 27m, "", 20261023 T 115643 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Learn how to log my own healthlog stuff"<: [ 19m, "", 20261024 T 183047 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Make up for the healthlogs"<: [ 26m, "", 20261102 T 181448 ]
   Next:

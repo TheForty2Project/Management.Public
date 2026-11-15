@@ -1,0 +1,194 @@
+Link, IssueType, No
+"-->Tasks\Miscellaneous\..""Health""..""Do health log and daily reviews""<",CantFindAnchor,21
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""QueryDescription based CSV report generation"".MaintenanceTasks..""Create Implementation plan for Basic Query Execution""<",LinkWithPropId,8
+"-->Tasks\Miscellaneous\..""Health""..""Do weekly health related planning""<",CantFindAnchor,7
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Refactorings""..""F2Link generation through F2YamlWorkspaceItem"".MaintenanceTasks..""Create Implementation plan""<",LinkWithPropId,6
+-->Tasks\Archive\<,CantFindFilePath,5
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Daily""<",InvalidLink,4
+"-->Tasks\Miscellaneous\..""Health""..""Health planning W20260608""<",CantFindAnchor,4
+"-->Tasks\Miscellaneous\..""Health""..""Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity.""<",CantFindAnchor,4
+"-->CurrentWork\Hana\TasksToBeSorted\..""Create snippets for HealthLogs templates""<",CantFindAnchor,3
+"-->Tasks\Miscellaneous\..Health..""Do health log and daily reviews""<",CantFindAnchor,3
+"-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..""Verifies query""<",CantFindAnchor,3
+"-->Tasks\Miscellaneous\..""Health""..""Do weekly health related planning"".Details.""Perform the followings""..""Analyse Health Data""<",InvalidLink,2
+"-->Tasks\ToBeSorted\..""Create a Requirement about ""Task sink""""<",InvalidLink,2
+"-->CurrentWork\Hana\TasksToBeSorted\..""Review the requirements currently in ""Draft"" status""<",InvalidLink,2
+"-->Documents\Specifications\F2Yaml\..""F2Tool MVP rules""."".F2Yaml syntax""<",InvalidLink,2
+"-->!SubProjects\HealthManagement\ExerciseReport\ResistanceTraining\..""Month of Nov"".""Monday 07:00""<",InvalidLink,2
+"-->!SubProjects\HealthManagement\ExerciseReport\ResistanceTraining\..""Month of Nov"".""Friday 06:00""<",InvalidLink,2
+"-->Tasks\Management\..""General management""..""Reports""..""Create report about total spent time per task and per day per worker up until 20260413 meh""..""Create Reports""<",CantFindAnchor,2
+"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal..""Finances""..""Create the requirements""<",CantFindAnchor,2
+"-->CurrentWork\Hana\Personal\..""Buy Earplugs for the Airbnb guests""<",CantFindFilePath,2
+"-->CurrentWork\Hana\Personal\..Finances..""Review finance week46""<",CantFindFilePath,2
+"-->Tasks\Miscellaneous\..""Health""..""Create health-log tracking requirements""<",CantFindAnchor,2
+"-->Tasks\Management\.."" Review the belongs to section in F2yaml.yml""<",CantFindAnchor,2
+"-->Tasks\Miscellaneous\..""Health""..""Family problem Solving""..""Collect the milestones of Sudan selling opportunity""<",CantFindAnchor,2
+"-->CurrentWork\Hana\Personal\..""Review finances 20260620""..""Schedule meeting for Finance""<",CantFindFilePath,2
+"-->CurrentWork\Hana\Personal\..Finances..""Implement it""..""CSV imports and analysis""<",CantFindFilePath,2
+"-->Tasks\Miscellaneous\..Health..""Schedule lab test and doctor appointments""..""Schedule Bobi's lipid panel""<",CantFindAnchor,2
+"-->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol..""Create rules baseline""<",LinkWithPropId,2
+"-->CurrentWork\Hana\Schedules\..""Schedule and estimate activity for the next 10 days""..""Activity schedule 23-31 Sep""<",CantFindFilePath,2
+"-->CurrentWork\Hana\Personal\..Finances..""Check and pay the current utility bills 20261110""<",CantFindFilePath,2
+"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""Update the hos vs code snippets""..""Entries inside should be lists (so add a dash in front of them)""<",CantFindAnchor,2
+"-->Tasks\Miscellaneous\..Health..""Schedule lab test and doctor appointments""..""Research about Hashimoto and LDL and SIBO connection""<",CantFindAnchor,2
+"-->Tasks\Software\F2ToolsExtension\..Tasks..Refactorings..""F2Link generation through F2YamlWorkspaceItem"".MaintenanceTasks..""Create Implementation plan""<",LinkWithPropId,2
+"-->Tasks\Software\F2ToolsExtension\..Tasks..MorePrefix.MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,2
+"-->Tasks\Software\F2ToolsExtension\..Tasks..LocalLinks.MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,2
+-->..BasicExecute<,CantFindAnchor,2
+"-->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,2
+"-->..""ItemManager based F2Link following""<",CantFindAnchor,2
+"-->Documents\Specifications\F2Yaml\..""F2Tool MVP rules""<",CantFindFilePath,2
+"-->Documents\F2YamlSpecification\F2Yaml\.""3-Detailing Must .F2Yaml.MVP Rules Sketch"".""3-Detailing Must .F2Yaml syntax detailed"".""1-SomeProgress Must .Item references or F2Links""..F2Link.Tasks..F2LinkMainProblems<",InvalidLink,1
+--><,InvalidLink,1
+"-->Tasks\Miscellaneous..""Health""..""Health planning W20260608""<",InvalidLink,1
+"-->Tasks\Management\..""General management""..""Remind and follow up with participants""..""Remind Bobi for fixing the stand up process""..""Remind Bobi the stand up process fixing -->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""5-VeryHigh Coding Streaming""..""Create a streaming process for Bobi tonight (5th Annivarsary)""<",InvalidLink,1
+"-->Tasks\Management\..""General management""..""Remind and follow up with participants""..""Remind Bobi for fixing the stand up process""..""Remind Bobi and myself about the streaming""<-->CurrentWork\Hana\StandupReports\.SR_20260622_Hana<""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..""Health""..""Do weekly health related planning"".Details.""Perform the followings""..""Schedule body measurement""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly""..""Schedule health log recent development meeting with the members""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly"".""Development Tasks""..""Create snippet for the whole log for each member""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Daily""..""Do health log and daily reviews""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly""..""Schedule health log recent development meeting with the members""..""Month of Nov - 20261102T12:00-13:00""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Weekly""..Exercise..""Muscle Resistance""..""Analyse Week45""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Weekly""<",InvalidLink,1
+"-->Tasks\Website\..Improvements..UpdatesSection..""""Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include""""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""""Update the hos vs code snippets""""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""""Create health-log tracking requirements""""..""""Showcase health-log to Bobi""""..""""Create health-log recording process""""<",InvalidLink,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Rename ""Support"" to something less confusing""..""Rename it""<",InvalidLink,1
+"-->Tasks\Website\..""Back to original""..Intermediate..ShadowsSite..""Change the ""Building fair systems through Collaboration"" to the one we decided""..""Change it in the title bar""<",InvalidLink,1
+"-->Tasks\Website\..""Back to original""..Intermediate..ShadowsSite..""Remove the ""TF2P"" text""<",InvalidLink,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Rename ""Support"" to something less confusing""..""Try finding something better than ""Support us""""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""5-VeryHigh Reddit""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""4-High Contact certain people""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""4-High Music listener of the same taste of music""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""4-High Promote the F2Tools extension as a management tool""<",InvalidLink,1
+"-->Documents\PublicRelations\..OutReachIdeas.""5-VeryHigh Talks about Logic (what we started)""<",InvalidLink,1
+"-->..CreateOutreachPlan..""Create first draft"".Result.""streaming seems worth pursuing"".topics<",InvalidLink,1
+"-->Tasks\PublicRelations\..CreateOutreachPlan..""Create first draft"".Result.""we should be exploring the outreach ideas one by one""<",InvalidLink,1
+"-->CurrentWork\Hana\Personal\.""NegativeEventProtocol for Bobi and Hana""<",InvalidLink,1
+"-->Documents\F2YamlSpecification\F2Yaml\.""3-Detailing Must .F2Yaml.MVP Rules Sketch"".""3-Detailing Must .F2Yaml syntax detailed"".""4-AlmostDone Must .Item references or F2Links""<",InvalidLink,1
+"-->Documents\F2YamlSpecification\F2Yaml\.""3-Detailing Must .F2Yaml.MVP Rules Sketch""<",InvalidLink,1
+"-->Documents\F2YamlSpecification\F2Yaml\.""3-Detailing Must .F2Yaml.MVP Rules Sketch"".""4-AlmostDone Must .Overview"".""4-AlmostDone Must .Summary""<",InvalidLink,1
+"-->Documents\F2YamlSpecification\F2Yaml\.""3-Detailing Must .F2Yaml.MVP Rules Sketch"".""3-Detailing Must .F2Yaml syntax detailed""<",InvalidLink,1
+"-->Tasks\Software\TheF2Tool\.""DraftTODO BasicOrMVPPlus""..Services..DecideIfWeNeedChangeItem<",InvalidLink,1
+"-->Tasks\Software\F2ToolsExtension\..Bugs..""Unable to follow links where a summary part ends with dot"".Details.Example.""MyItem.""<",InvalidLink,1
+-->CurrentWork\Bobi\TestMaterial\<,CantFindFilePath,1
+-->Tasks\Software\F2ToolsExtension\..Tasks..StopTTAtShutdown.MaintenanceTasks..Estimate<,LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Time tracking should generate Id based F2Links, not Summary ones"".MaintenanceTasks..""Provide initial estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Proper escaping in Summary part of F2Links"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Proper Text output support"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Support for filepath-only F2Links"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Support for local f2links"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Make F2Links handle 2 or more property values preceding summary in headers"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Replacing F2Links"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""QueryDescription based CSV report generation"".MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Detect and convert f2yaml links"".MaintenanceTasks..""Have an implementation plan and improve estimation""<",LinkWithPropId,1
+"-->Tasks\Website\..Improvements..""Create content yamls""..""The Abyss:_ Finish F2Yaml specification"".MaintenanceTasks..""Estimate""<",LinkWithPropId,1
+"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Add 'Commit message'-like feature"".MaintenanceTasks..""Have an implementation plan and provide estimation""<",LinkWithPropId,1
+"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..""CommitAndSync""<",CantFindAnchor,1
+"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal..""Finances""..""Create implementation plan""<",CantFindAnchor,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..""Publication to marketplace""..""V3.0.1""..""Package and publish""<",CantFindAnchor,1
+"-->Tasks\ToBeSorted\.Tasks20260824..""Cleanup TL tasks""<",LinkWithPropId,1
+"-->Tasks\Website\..Improvements..""Create Updates section containing the commit-message-like updates"".MaintenanceTasks..""Create subtasks""<",LinkWithPropId,1
+"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""Review Health log process""<",CantFindAnchor,1
+"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..""Development""..""SecondPhase""..""Detect and convert f2yaml links""..""Detect and convert links inside CSV""<",CantFindAnchor,1
+"-->Tasks\Management\..""General management""..""Standup related""..""Preparation""<",CantFindAnchor,1
+"-->Tasks\Management\..""Management Tasks OCWSPhase1""..""Hold planning meetings periodically""..""20260328""..""Process the results""<",CantFindAnchor,1
+"-->Tasks\Management\..""Management Tasks OCWSPhase1""..""Migration of tasks to CSV""..""Periodic syncs of Tasks-CSV""..""SyncAt20260401""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Manually create the yaml links""<",CantFindAnchor,1
+"-->Tasks\Management\..Health..""Schedule exercises and include baba in the morning after waking up and evening before sleeping""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Family problem Solving""<",CantFindAnchor,1
+"-->Tasks\Software\F2ToolsExtension\..Bugs..""Unable to create a new existing SR under the same date 'SR_20260608_Hana'""<",CantFindAnchor,1
+"-->CurrentWork\Hana\Personal\..""Review finances 20260620""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Finances""..""Create implementation plan""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""<",CantFindFilePath,1
+"-->Tasks\Miscellaneous\..""Health""..""Create food schedule for the next week""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Schedule and estimate activity for a week""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule and estimate activity for a week""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Research kidney-saving protocol""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule lab test appointments""..""Research lab test for both Robert and Hana""<",CantFindAnchor,1
+"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach..""Work out the DM comparison outreach idea""..""Implement""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule and estimate activity for the next 10 days""..""Activity schedule 03-13 Aug""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Analysis of the month of June and July""<",CantFindAnchor,1
+"-->CurrentWork\Hana\TasksToBeSorted\..""Learn TypeScript basics""..""Create TS tutorial tasks""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule lab test and doctor appointments""..""Schedule Hana's NagyRutin""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Do weekly health related planning""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Create food schedule for the next week""<",CantFindAnchor,1
+-->Tasks\Miscellaneous\..Health..CreateMealSchedule..W43<,CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""<",CantFindAnchor,1
+"-->CurrentWork\Hana\Personal\..""Review finance week46""<",CantFindFilePath,1
+"-->MeetingMinutes\General\..""Preparing for general workflowAbalysis""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Move the health related things under the HealthManagement subproject""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..""Daily""..""Do health log and daily reviews""<",CantFindAnchor,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks..""Taskify and estimate"".CreatedBy<",LinkWithPropId,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks..""Taskify and estimate""<",LinkWithPropId,1
+-->..MyItem.ItemListProperty..Blah<,LinkWithPropId,1
+-->..MyItem.ItemListProperty..Blah(1)<,LinkWithPropId,1
+"-->..""Process Context support""<",CantFindAnchor,1
+"-->Documents\ProcessDescriptions\..""Process Descriptions""..StandupProcess..ManualStandupPreparation..CreateSRItem..""Fill in its properties""<",CantFindAnchor,1
+-->..SelectPropertySpecialValues<,CantFindAnchor,1
+-->Documents\F2YamlSpecification\BachusNaurForms.bnf\<,CantFindFilePath,1
+"-->..F2LinkUpgrades..""Support for local f2links"".Summary<",LinkWithPropId,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create the Big Summary page AND remove unnecessary menu items""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Create content about what will be here""..""Finalize and publish""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Contact page""..""Implement, finalize and publish""..""Final touches and generation""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Watch page""..""Finalize and publish""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Contact page""..""Implement, finalize and publish""..""Provide the links into the document""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Contact page""..""Review it""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Create content about what will be here""..""Work it out""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Watch page""..Review..Content<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Create content about what will be here""..""Create baseline ideas""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Watch page""..Baseline<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create Watch page""..Review..Links<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase2""..""SupportUs page""..""BuyUsACoffee""..""Set up the account""..""Add the payment info""..""Fight it through with fucking support and solve the issue""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move my PublicWorkspace""..""Implement""..""Move the current PublicWorkspace and Tasks for both of us""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move my PublicWorkspace""..""Implement""..""Modify app.js""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move my PublicWorkspace""..""Implement""..""Modify the generator config""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move my PublicWorkspace""..""Implement""..""Update the description""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move my PublicWorkspace""..""Implement""..""Generate, check and fix""<",CantFindAnchor,1
+"-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..CreateYamls..Leaves..""The Abyss""..""Move anything else""..""Move .vscode folder""<",CantFindAnchor,1
+"-->CurrentWork\Hana\Schedules\..ScheduleSwitzerland..""Search for and then if not found, buy Garmin charging cable""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Reply to Changli""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""..""Schedule lipid panel""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Schedules\..ScheduleSwitzerland..""Agree with Tomi on the gym times""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Schedules\..ScheduleSwitzerland..""Schedule some badminton""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""..""Blood and urine""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Create implementation plan""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Create the requirements""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Schedules\..ScheduleSwitzerland..""Hana to check Anyu's notebook""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Schedule showcase, showcase and get feedback"".."" have the meeting and finalize the possible structure""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Schedule showcase, showcase and get feedback"".."" Schedule Finances to 20260801""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Schedule showcase, showcase and get feedback"".."" Schedule Finances showcase""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Action the feedbacks""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Schedules\..""Schedule and estimate activity for the next 10 days""..""Activity schedule 03-13 Aug""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Schedule a Task about updating Finances every Saturday""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Implement it""..Baseline<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Call the doctor for another set of cholesterol pills""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Investigate about common cost""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""..""Sperm lab""..""Do it""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""..""Sperm lab""..""Research first""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..""Schedule Bobis Lab""..""Genetics test""..""Research genetics test""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..SaladPRocess..""Revise the salad process 20260922""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Personal\..Finances..""Review finance week46""..""To be reviewed by Bobi""<",CantFindFilePath,1
+-->Tasks\Archive\PublicRelations\<,CantFindFilePath,1
+"-->Documents\PublishableArticles\DecisionFormalization\..""Overview""<",CantFindFilePath,1
+-->Documents\PublishableArticles\LogicalThinkingAndItsFormalization\..HighLevel.Type<,LinkWithPropId,1
+-->Documents\PublishableArticles\ThePathOfImprovingDecisionMaking\.ThePathOfImprovingDecisionMaking..HighLevel<,LinkWithPropId,1
+"-->CurrentWork\Hana\Schedules\..Schedule20260718..""Create a schedule for Saturday""<",CantFindFilePath,1
+"-->CurrentWork\Hana\Schedules\..""Schedule Template month of September and Oct""<",CantFindFilePath,1
+-->CurrentWork\Hana\Schedules\..Shedules..Schedule20260826<,CantFindFilePath,1
+-->Documents\Milestones\..Milestones..PublicPhs1<,CantFindAnchor,1
+"-->Documents\ProcessDescriptions\..""Point and Achievement System""<",CantFindAnchor,1
+"-->Documents\ProcessDescriptions\..""Process Descriptions""..WorkProcesses..""General Management Duties""..""Holding Standup""<",CantFindAnchor,1
+"-->..Streaming..Activities..""Standup or Summary at the beginning and end""<",CantFindAnchor,1
+-->Documents\PublishableArticles\SummaryArticle\<,CantFindFilePath,1
+-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute<,CantFindAnchor,1
+-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..BasicExecute<,CantFindAnchor,1
+-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..ShowSummary<,CantFindAnchor,1
+-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..Filter<,CantFindAnchor,1
+-->Documents\Specifications\YamlToHtmlConversion\.Content<,LinkWithPropId,1
+-->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428.Workspace.Tasks<,LinkWithPropId,1
+-->!SubProjects\HealthManagement\Documents\HealthLog\..HealthLogDataEntry<,CantFindFilePath,1
+-->!SubProjects\HealthManagement\Documents\Movement\..Movement..Weekly.Details<,LinkWithPropId,1
+-->MeetingMinutes\General\.HealthLogProcessReview<,LinkWithPropId,1

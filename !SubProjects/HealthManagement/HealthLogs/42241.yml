@@ -2540,7 +2540,10 @@ Month of Nov:
         - good feeling
         - rice pancake with pudding
     
-42241_20261114_Incomplete:
+42241_20261114_Complete:
+  Note: 
+    only rice cake with pudding and mixed fruits was eaten this day 
+    2 g per period so 6 g of K per day. Verified by 42241
   Morning:
     - <MorningState>:
        Mood: low
@@ -2592,7 +2595,98 @@ Month of Nov:
       Name: Kratom
       Dosage: 2 
       Unit: g
-
+    - <Food>:
+      Time: 16:00
+      MealDescription: rice pancake
+      Quantity: moderate
+      Summary:
+      Notes:
+    - <Movement>: 
+      Time: 18:00
+      Activity: walk
+      Duration: 30
+      Intensity:
+      Summary:
+      Notes:  see Garmin for walk activity
+  Evening:
+    - <Work>:
+      Time: 21:30
+      ActivityDesc: continuation of follow link bugs
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:
+42241_20261115_Incomplete:
+  Morning:
+    - <SystemState>:
+        Time: 1559
+        ThinkingQuality: 
+        Motivation: 
+        PhysicalEnergy: 
+        BodyBattery: 
+        Rumination: 
+        Summary: 
+        Notes: 
+    - <MorningState>:
+       Mood: 
+       ThinkingQuality:
+       Motivation:
+       PhysicalEnergy:
+       BodyBattery:
+       Rumination:
+       SleepScore:
+       Bristol:
+       SuspectedReasons:
+       Notes on last evening: 
+    - <Sleep>:
+      BedTime:  3:35
+      SleepTime: 3:35
+      WakeTime: 11:16
+      Duration: 7h 23m
+      SleepScore:  83
+      BodyBatteryGained: +66
+      Summary:
+      Notes:
+    - <Digestion>:
+      Time:
+      Bristol: 2
+      Bloating:
+      AbdominalPain:
+      Flatulence:
+      Belching:
+      Summary:
+      Notes:  constipation, from 2 days ago with the pulled porl ( collagen and fats reduces motility)
+    - <Food>:
+      Time: 11:30
+      MealDescription: pancake rice with pudding and mixed fruits
+      Quantity: moderate
+      Summary:
+      Notes:
+    - <Movement>:
+      Time: 11:45
+      Activity: walk
+      Duration: 20m
+      Intensity:
+      Summary:
+      Notes:
+  Afternoon:
+    - <SystemState>:
+        Time: 
+        ThinkingQuality: 
+        Motivation: 
+        PhysicalEnergy: 
+        BodyBattery: 
+        Rumination: 
+        Summary: 
+        Notes: 
+    - <Drugs>:
+      Time:
+      Name:
+      Dosage:
+      Unit:
+      Summary:
+      Notes:
     - <Work>:
       Time:
       ActivityDesc:
@@ -2615,6 +2709,15 @@ Month of Nov:
       Summary:
       Notes:
   Evening:
+    - <SystemState>:
+        Time: 1559
+        ThinkingQuality: 
+        Motivation: 
+        PhysicalEnergy: 
+        BodyBattery: 
+        Rumination: 
+        Summary: 
+        Notes: 
     - <Work>:
       Time:
       ActivityDesc:
@@ -2623,7 +2726,6 @@ Month of Nov:
       MindPower:
       Summary:
       Notes:
-
         
             
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

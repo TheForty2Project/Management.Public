@@ -306,12 +306,13 @@
 	"SleepHygiene": {
 		"prefix": "LogSleepHygiene",
 		"body": [
-			"Preparing Next Day Task:",
-			"Smoke:",
-			"Drugs:",
-			"Hot Shower:",
-			"ReadingBook",
-			"BedTime:",	
+		"<SleepHygiene>:",	
+		"  Preparing Next Day Task:",
+		"  Smoke:",
+		"  Drugs:",
+		"  Hot Shower:",
+		"  ReadingBook:",
+		"  BedTime:",	
 		],
 		"description": "SleepHygiene"	
 	},

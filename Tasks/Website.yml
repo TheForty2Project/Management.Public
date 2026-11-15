@@ -644,7 +644,7 @@ Done .Back to original:
               - Include:
                 - the who we are looking part - so you need to be cooperative, helping any bugs you encounter
                 - That this site is to give you access to the progress, it's not "as a service"; our aim is not to perfect, but to provide "good enough"
-            Done .Remove the "Updates" and "Articles" menu items (we can add them back later):
+            Done .Remove the 'Updates' and 'Articles' menu items (we can add them back later):
               +: {CreatedBy: Bobi, CreatedAt: 20260411 T 194723, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "0"}
               Result:
                 Disabled them.

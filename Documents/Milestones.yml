@@ -20,23 +20,23 @@
       - No "I want to work" support yet for the public
     Type: Milestone
     Tasks:
-      -->Tasks\Website\..Improvements.."Convert the F2Links on the site to html ones"<
-      -->Tasks\Website\..Improvements..RecordingAboutHistory<
-      -->Tasks\Website\..Improvements..CreateYamls..LearnToDiveSyntax<
-      -->Tasks\Website\..Improvements..CreateYamls..TheAbyss<
-      -->Tasks\Website\..Improvements..MakeYamlsDownloadable.."As a Github repo"<
-      -->Tasks\Website\..Improvements..FoldAll<
-      -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
-      -->Tasks\Website\..Improvements..CreateRoadmap<
-      -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
-      -->Tasks\Website\..Improvements.."Update the colors to the current VS Code color scheme"<
-      -->Tasks\Website\..Improvements.."Embed something from Twitch"<
-      -->Tasks\Website\..Improvements.."Fix spelling mistakes by feeding the content to some LLM agent"<
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..EmptyLines..Implement<
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls"<
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Update the colors to the current VS Code theme"<
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links"<
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Add 'Commit message'-like feature"<
+    - -->Tasks\Website\..Improvements.."Convert the F2Links on the site to html ones"<
+    - -->Tasks\Website\..Improvements..RecordingAboutHistory<
+    - -->Tasks\Website\..Improvements..CreateYamls..LearnToDiveSyntax<
+    - -->Tasks\Website\..Improvements..CreateYamls..TheAbyss<
+    - -->Tasks\Website\..Improvements..MakeYamlsDownloadable.."As a Github repo"<
+    - -->Tasks\Website\..Improvements..FoldAll<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates"<
+    - -->Tasks\Website\..Improvements..CreateRoadmap<
+    - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
+    - -->Tasks\Website\..Improvements.."Update the colors to the current VS Code color scheme"<
+    - -->Tasks\Website\..Improvements.."Embed something from Twitch"<
+    - -->Tasks\Website\..Improvements.."Fix spelling mistakes by feeding the content to some LLM agent"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..EmptyLines..Implement<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Update the colors to the current VS Code theme"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links"<
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Add 'Commit message'-like feature"<
 
   Drafting .F2BarbaManagement MVP:
     Id: MstF2BarbaMgmtMVP

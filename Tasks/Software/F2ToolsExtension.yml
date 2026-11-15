@@ -562,11 +562,11 @@ OnGoing .Task administration:
     Done .Executes query (basic):
       Id: Execute
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013807, By: Bobi, Tags: [Dev, F2Tools]}
-      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"<
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute<
       Done .Verifies query:
         Id: Verify
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 013833, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 0}
-        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query".."Verifies query"<
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute.."Verifies query"<
         ImplPlan: |
           TryGetQueryDescriptionUnderTheCursor:
             - Get the document and the cursor position
@@ -576,8 +576,8 @@ OnGoing .Task administration:
         Id: BasicExecute
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014327, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 0}
         Requirement: 
-          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..BasicExecute<
-          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..ShowSummary<
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..BasicExecute<
+          - -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..ShowSummary<
         ImplPlan:
           - Done the following architectural changes:
             - -->Tasks\Software\F2ToolsExtension\..Tasks.."Refactorings"..RenameToF2YamlWorkspaceItem<
@@ -638,7 +638,7 @@ OnGoing .Task administration:
         Id: Filter
         +: {CreatedBy: Bobi, CreatedAt: 20260522 T 014922, By: Bobi, Tags: [Dev, F2Tools], Estimation: 180, RemTime: 20}
         DependsOn: -->..BasicExecute<
-        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.."Executes query"..Filter<
+        Requirement: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..Execute..Filter<
         Done .Engine and majority:
         Done .SkipUnder:
     EstTODO .Parse report CSV:
@@ -1265,7 +1265,7 @@ OnGoing .Task administration:
       It can be started if it's a summary one:
         -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<
     Comments:
-      Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\.Tasks.."Enhancements".."Time tracking should generate Id based F2Links, not Summary ones."<
+      Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\..Tasks.."Enhancements".."Time tracking should generate Id based F2Links, not Summary ones."<
 
   New .Start/Resume task does not resume the Task:
     +: {CreatedBy: Bobi, CreatedAt: 20260425 T 011714, By: Bobi, Tags: [CSVDONE]}

@@ -2619,15 +2619,11 @@ Month of Nov:
       Notes:
 42241_20261115_Incomplete:
   Morning:
-    - <SystemState>:
-        Time: 1559
-        ThinkingQuality: 
-        Motivation: 
-        PhysicalEnergy: 
-        BodyBattery: 
-        Rumination: 
-        Summary: 
-        Notes: 
+    - Notes:
+        - Bad stomach the whole day, difficulty walking, manageto walk 4 x a day
+        - went to the gym but was not able to do exercise
+        - Burping the whole night
+        - Burping while sleeping ( Hana observation)
     - <MorningState>:
        Mood: 
        ThinkingQuality:

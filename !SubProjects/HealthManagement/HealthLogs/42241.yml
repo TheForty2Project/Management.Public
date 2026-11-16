@@ -2617,24 +2617,13 @@ Month of Nov:
       MindPower:
       Summary:
       Notes:
-42241_20261115_Incomplete:
+42241_20261115_Complete:
   Morning:
     - Notes:
         - Bad stomach the whole day, difficulty walking, manageto walk 4 x a day
         - went to the gym but was not able to do exercise
         - Burping the whole night
         - Burping while sleeping ( Hana observation)
-    - <MorningState>:
-       Mood: 
-       ThinkingQuality:
-       Motivation:
-       PhysicalEnergy:
-       BodyBattery:
-       Rumination:
-       SleepScore:
-       Bristol:
-       SuspectedReasons:
-       Notes on last evening: 
     - <Sleep>:
       BedTime:  3:35
       SleepTime: 3:35
@@ -2667,8 +2656,49 @@ Month of Nov:
       Summary:
       Notes:
   Afternoon:
+    - <Food>:
+      Time: 
+      MealDescription: Rice Noodle, Fish, 
+      Quantity: moderate
+      Summary:
+      Notes: wanted to go for a run but couldnt run. 
+    - <Sleep>:
+        BedTime: 17:15
+        WakeTime: 18:30
+        Duration: 1:45 h
+        SleepScore: 
+        BodyBattery: 
+        Summary: 
+        Notes: nap
+    - <Digestion>:
+        Time: 18:30
+        Bristol: 2
+        Bloating: 
+        AbdominalPain: 
+        Flatulence: 
+        Belching: 
+        Summary: 
+        Notes: 3rd poop
+  Evening:
+    - <Movement>:
+        Time: 19:00
+        Activity: gym and walk
+        Duration: 
+        Intensity: 
+        Summary: 
+        Notes: Tried to workout but I was too tired. walked instead and farted a lot and I feel much better now.
+    - <Work>:
+        Time: 20:00
+        ActivityDesc: 
+        Duration: 5
+        Focus:
+        MindPower:
+        Summary:
+        Notes:
+42241_20261116_Complete:
+  Morning:
     - <SystemState>:
-        Time: 
+        Time: 2123
         ThinkingQuality: 
         Motivation: 
         PhysicalEnergy: 
@@ -2676,52 +2706,96 @@ Month of Nov:
         Rumination: 
         Summary: 
         Notes: 
-    - <Drugs>:
-      Time:
-      Name:
-      Dosage:
-      Unit:
-      Summary:
-      Notes:
-    - <Work>:
-      Time:
-      ActivityDesc:
-      Duration:
-      Focus:
-      MindPower:
+    - <MorningState>:
+        Mood: Good
+        ThinkingQuality: 
+        Motivation:
+        PhysicalEnergy:
+        BodyBattery:
+        Rumination:
+        SleepScore:
+        Bristol: 
+        SuspectedReasons:
+        Notes on last evening: 
+    - <Sleep>:
+      BedTime: 2:28 
+      SleepTime:
+      WakeTime: 10:13
+      Duration: 7h 42m
+      SleepScore: 80
+      BodyBatteryGained: +70
       Summary:
       Notes:
     - <Food>:
-      Time:
-      MealDescription:
-      Quantity:
-      Summary:
-      Notes:
-    - <Movement>:
-      Time:
-      Activity:
-      Duration:
-      Intensity:
-      Summary:
-      Notes:
-  Evening:
+        Time: 10:30
+        MealDescription: rice cake and 25% wheat, pudding
+        Quantity: mod
+        Summary:
+        Notes:
+    - <Digestion>:
+        Time:
+        Bristol: 4
+        Bloating:
+        AbdominalPain:
+        Flatulence:
+        Belching:
+        Summary:
+        Notes: Noormal. Not much memory about it
+  Afternoon:
     - <SystemState>:
-        Time: 1559
-        ThinkingQuality: 
-        Motivation: 
-        PhysicalEnergy: 
+        Time: 12:30
+        ThinkingQuality: 3
+        Motivation: 3
+        PhysicalEnergy: 5
         BodyBattery: 
         Rumination: 
         Summary: 
-        Notes: 
+        Notes: Had good energy for REPLST
     - <Work>:
-      Time:
-      ActivityDesc:
-      Duration:
-      Focus:
-      MindPower:
+      Time: 14:00
+      ActivityDesc: REPLST and preparation of work 
+      Duration: 1.5 h
+      Focus: 3
+      MindPower: 3
+      Summary:
+      Notes: Had energy to work amd think
+    - <Food>:
+      Time: 15:30
+      MealDescription: rice cake, more fruits more udding, less rice cake
+      Quantity: less
       Summary:
       Notes:
-        
+    - <Movement>:
+      Time: 17:00
+      Activity: Run
+      Duration: 30m
+      Intensity:
+      Summary:
+      Notes: 6 km run 
+  Evening:
+    - <SystemState>:
+        Time: 18:00
+        ThinkingQuality: 2
+        Motivation: 3
+        PhysicalEnergy: 3 
+        BodyBattery: 
+        Rumination: 
+        Summary: 
+        Notes: some farts 
+    - <Movement>:
+        Time: 20:30
+        Activity: Walk
+        Duration: 30m
+        Intensity: 
+        Summary: 
+        Notes: farted and felt better
+    - <Work>:
+        Time: 21:00
+        ActivityDesc: continuation of tasks 
+        Duration:
+        Focus:
+        MindPower:
+        Summary:
+        Notes:       
             
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

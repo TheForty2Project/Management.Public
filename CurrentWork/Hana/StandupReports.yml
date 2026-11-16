@@ -392,9 +392,13 @@ SR_NEXT_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add SystemState to each part of the day"<: [ 11m, "", 20261114 T 102900 ]
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add a default value to each property-value where the values are from an enum, detailing the options"<: [ 60m, "not yet done, need to ask for clarification", 20261114 T 104033 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 15m, "", 20261112 T 202204 ]
-    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 33m, "", 20261115 T ]
-  NEXT:
-
+    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 50m, "", 20261115 T ]
+  Next:
+    - -->Tasks\Management\..General..TaskAdmin.."Fix links based on the converter report 20261110"<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<
+    - Email for Puppy
+    - Language study
+    - schedule 
   AOIB:
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis: Update the task in management
 

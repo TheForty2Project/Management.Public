@@ -6597,74 +6597,61 @@ Month of Nov:
             Summary:
             Notes:
         - <Digestion>:
-            Time:
-            Bristol:
+            Time: 08:05
+            Bristol: 2
             Bloating:
             AbdominalPain:
             Flatulence:
             Belching:
             Summary:
-            Notes:
-      Afternoon:
-        - <SystemState>:
-           Time: 0705
-           ThinkingQuality: 
-           Motivation: 
-           PhysicalEnergy: 
-           BodyBattery: 
-           Rumination: 
-           Summary: 
-           Notes: 
-        - <Drugs>:
-            Time:
-            Name:
-            Dosage:
-            Unit:
-            Summary:
-            Notes:
-        - <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
-        - <Food>:
-            Time:
-            MealDescription:
-            Quantity:
-            Summary:
-            Notes:
+            Notes: Constipated and did it in the gym haha
         - <Movement>:
-            Time:
-            Activity:
-            Duration:
+          Time: 08:10
+          Activity: lower ex
+          Duration: 2.1 h
+          Intensity: Moderate
+          Summary: 
+          Notes: got tired after the gym ( my face is puffu again)
+      Afternoon:
+        - <Work>:
+            Time: 11:00
+            ActivityDesc: work with Anita, REPLST with Robi
+            Duration: 3 h
+            Focus: 2
+            MindPower: 2
+            Summary:
+            Notes: still tired, drank a lot of water
+        - <Food>:
+            Time: 15:00
+            MealDescription: Pancake, pudding, oatmeal
+            Quantity: low
+            Summary:
+            Notes: was in a hurry needed to go 
+        - <Movement>:
+            Time: 15:15
+            Activity: walk
+            Duration: 20
             Intensity:
             Summary:
-            Notes:
+            Notes: walked to the meeting place with Agi
+        - <Food>:
+          Time: 16:30
+          MealDescription: Chicken Soup
+          Quantity: low
+          Summary: 
+          Notes: 
       Evening:
-        - <SystemState>:
-           Time: 0705
-           ThinkingQuality: 
-           Motivation: 
-           PhysicalEnergy: 
-           BodyBattery: 
-           Rumination: 
-           Summary: 
-           Notes: 
-        - <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
+        - <Movement>:
+          Time: 20:30
+          Activity: walk 
+          Duration: 20m
+          Intensity: wasy
+          Summary: 
+          Notes: 
         - <SleepHygiene>:
-           Preparing Next Day Task:
-           Drugs:
-           Hot Shower:
+           Preparing Next Day Task: task for tuesday and scheduling
+           Drugs: yes
+           Hot Shower: yes
            ReadingBook:
            BedTime:
 

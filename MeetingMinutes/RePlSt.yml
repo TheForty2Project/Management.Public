@@ -126,4 +126,16 @@ RePlSt20261007:
         
       How to improve the negatives:
         - We need to log the mood and important events food and drugs 
+
+RePlSt20261116:
+  Participants: [Bobi, Hana]
+  StartTime: 20261116 T 134842
+  EndTime: 20261116 T 145542
+  Workspace: 
+    Points:
+      - Showcasing the link fixing process and what Bobi did so that Hana can do her part of it:
+          Reports are put into: 
+            Technical.dat\F2FileToHtmlConverter\Reports
+      - Some instructions about how to organize and create classes for the Exercise reports:
+          see the BusinessClases.yml for new content about it  
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

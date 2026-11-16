@@ -439,6 +439,38 @@ namespace Barba.Types:
         IsDefault: true
       ArticleMaturity Maturity:
 
+  class .TrainingSessionReport:
+    Inherits: StandardItem
+    string .Focus:
+    Exercise[] .Exercises:
+    UploadDescription .Uploads:
+    SummaryAnalysis .SummaryAnalysis:
+
+  class .SummaryAnalysis:
+    Inherits: Item
+    Duration .Duration:
+    string[] .Muscles:
+    string .Observations:
+    string .Improvements:
+  
+  class .Exercise:
+    Inherits: StandardItem
+    integer .Sets:
+    integer .RepsGoal:
+    integer .Reps:
+    string[] .Muscles:
+    string .Variation:
+    string .Notes:
+
+  class .UpladDescription:
+    Inherits: Item
+    string .Exercises:
+    MeasurementUploadDescription .Measurements:
+  
+  class .MeasurementUploadDescription:
+    string .Photos:
+    string .MeasurementData:
+
   class .Notes:
     Inherits: Article
   

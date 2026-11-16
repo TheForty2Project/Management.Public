@@ -6452,7 +6452,7 @@ Month of Nov:
           Hot Shower: yes
           ReadingBook: no
           BedTime: 09:30
-    42242_20261115_Incomplete:
+    42242_20261115_Complete:
       Morning:
         - <SystemState>:
            Time: 09:10
@@ -6506,14 +6506,115 @@ Month of Nov:
             Notes:  
       Afternoon:
         - <SystemState>:
-            Time: 1515
-            ThinkingQuality: 
-            Motivation: 
-            PhysicalEnergy: 
+            Time: 14:00
+            ThinkingQuality: 2
+            Motivation: 5
+            PhysicalEnergy: 3 
+            BodyBattery: 
+            Rumination: 2
+            Summary: 
+            Notes: 
+        - <Work>:
+            Time: 15:00
+            ActivityDesc: preparing tasks
+            Duration: 30m
+            Focus: 2
+            MindPower: 2
+            Summary:
+            Notes: 
+        - <Food>:
+            Time: 15:30
+            MealDescription: rice, fish, soup
+            Quantity: moderate
+            Summary:
+            Notes: ate what was needed for bouldering
+        - <Movement>:
+            Time: 17:45
+            Activity: Bouldering
+            Duration: 3 h
+            Intensity: easy/moderate/hard
+            Summary:
+            Notes: difficulty varies per route
+      Evening:
+        - <SystemState>:
+            Time: 20:30
+            ThinkingQuality: 2
+            Motivation: 5
+            PhysicalEnergy: 2
             BodyBattery: 
             Rumination: 
             Summary: 
             Notes: 
+        - <Work>:
+            Time: 
+            ActivityDesc:
+            Duration:
+            Focus:
+            MindPower:
+            Summary:
+            Notes:
+        - <SleepHygiene>:
+            Preparing Next Day Task: Yes
+            Drugs: Yes W
+            Hot Shower: Y
+            ReadingBook: N
+            BedTime: 23:00
+    42242_20261116_Incomplete:
+      Morning:
+        - <SystemState>:
+           Time: 05:42
+           ThinkingQuality: 2
+           Motivation: 5
+           PhysicalEnergy: 5
+           BodyBattery: 
+           Rumination: 
+           Summary: 
+           Notes: 
+        - <MenstrualCycle>:
+            Cycle:
+              Day: 16
+              Phase: Ovulation
+        - <Sleep>:
+            BedTime: 23:00
+            SleepTime: 11:57 
+            WakeTime: 5:57
+            Duration: 5h 59m
+            SleepScore:  68
+            BodyBatteryGained:
+            Summary:
+            Notes: 
+        - <Food>:
+            Time: 06:00
+            MealDescription: water, Creatine, Cittrolline, milk with cinnamon and coffee
+            Quantity:
+            Summary:
+            Notes:
+        - <Movement>:
+            Time: 06:30
+            Activity: jumps, squats, core, Lunges
+            Duration: 20 m
+            Intensity:
+            Summary:
+            Notes:
+        - <Digestion>:
+            Time:
+            Bristol:
+            Bloating:
+            AbdominalPain:
+            Flatulence:
+            Belching:
+            Summary:
+            Notes:
+      Afternoon:
+        - <SystemState>:
+           Time: 0705
+           ThinkingQuality: 
+           Motivation: 
+           PhysicalEnergy: 
+           BodyBattery: 
+           Rumination: 
+           Summary: 
+           Notes: 
         - <Drugs>:
             Time:
             Name:
@@ -6544,14 +6645,14 @@ Month of Nov:
             Notes:
       Evening:
         - <SystemState>:
-            Time: 1515
-            ThinkingQuality: 
-            Motivation: 
-            PhysicalEnergy: 
-            BodyBattery: 
-            Rumination: 
-            Summary: 
-            Notes: 
+           Time: 0705
+           ThinkingQuality: 
+           Motivation: 
+           PhysicalEnergy: 
+           BodyBattery: 
+           Rumination: 
+           Summary: 
+           Notes: 
         - <Work>:
             Time:
             ActivityDesc:
@@ -6561,15 +6662,16 @@ Month of Nov:
             Summary:
             Notes:
         - <SleepHygiene>:
-            Preparing Next Day Task:
-            Drugs:
-            Hot Shower:
-            ReadingBook:
-            BedTime:
+           Preparing Next Day Task:
+           Drugs:
+           Hot Shower:
+           ReadingBook:
+           BedTime:
 
 
-
-                                                                                                       
+Tasks:
+  - Refine system state and define enum 
+  - Include hydration                                                                                               
 
 
 
@@ -6588,7 +6690,7 @@ Notes To be done:
   - Done Add Sleep Time to 
   - Done Add Body battery gained in sleep property
   - Legend for numeration
-  - Include stool score and type
+  - Done Include stool score and type
   - Include Sexual activity and thoughts
   - Include productivity hours of the day calculated from StandUp report
   - Include picture of face every morning and before sleeping

@@ -3,7 +3,7 @@ OutputFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss
 WorkspaceRoot: ..\..\
 WebsiteRoot: https://deepdive.tf2p.org/read/DeepDive/
 WebsiteRootFSFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\
-F2LinkReportOutputFolder: ..\..\..\F2LinkReports\
+F2LinkReportOutputFolder: .\Reports\
 
 Files:
 - SourceFilePath:                                                 ..\..\CurrentWork\Bobi\Workspace.yml

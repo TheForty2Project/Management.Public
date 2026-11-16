@@ -393,7 +393,7 @@ SR_20260720_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish".."Engine"<: [ 10m, "", 20260703 T 135153 ]
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."During F2Link generation the first part of the file path is missing"<: [ 63m, "", 20260703 T 135255 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish".."Tags"<: [ 12m, "", 20260703 T 220115 ]
-    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish"<: [ 0m, "", 20260703 T 221321 ]    
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."CSV Remainings".."Where finish"<: [ 0m, "", 20260703 T 221321 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Items.."DefaultTypes support through Folder"<: [ 9m, "", 20260706 T 022353 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."OrderBy"<: [ 40m, "", 20260706 T 023405 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702.."Work on the marketing things".."Collect what we want to do before we post"<: [ 57m, "", 20260706 T 142849 ]
@@ -529,7 +529,7 @@ SR_20261112_Bobi:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Detect and convert links inside CSV"<: [ 20m, "", 20261108 T 001806 ]
     - -->Tasks\Website\..Improvements.."Update the link colors"<: [ 20m, "", 20261108 T 002357 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Create a summar report at the end about the links"<: [ 90m, "", 20261108 T 005710 ]
-    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<: [ 39m, "", 20261109 T 171330 ]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links first round"<: [ 39m, "", 20261109 T 171330 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Cant find anchor for valid links"<: [ 25m, "", 20261109 T 175547 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Have an ignore list about f2links which should not be processed"<: [ 60m, "", 20261110 T 140730 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 42m, "", 20261110 T 142552 ]
@@ -551,5 +551,12 @@ SR_NEXT_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 36m, "", 20261112 T 130427 ]
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 62m, "", 20261116 T 134627 ]
+    - -->Tasks\Management\..General..TaskAdmin.."Fix links based on the converter report 20261110".."Do first round and see how it works"<: [ 120m, "", 20261112 T 140042 ]
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include".."Review it with Bobi"<: [ 20m, "", 20261112]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Detect and convert f2yaml links".."Follow local links"<: [ 60m, "", 20261113]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Create a summar report at the end about the links"<: [ 90m, "", 20261113]
+    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do Health Log Review"<: [20m, "", 20261113]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 30m, "", 20261116 T 210208 ]
   Next:
-    - null
+    - -->Tasks\Management\..General..TaskAdmin.."Fix links based on the converter report 20261110".."Do first round and see how it works"<: [30m, "Fixing the links with extra prefixes in them"]
+    - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..ConvertF2YamlLinks.."Follow links containing properties"<

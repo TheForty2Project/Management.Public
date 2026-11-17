@@ -147,6 +147,7 @@
       Student:
 
 .Process Descriptions:
+  Id: ProcessDescriptions
   .EnvironmentSetups:
     Type: Folder
     DefaultTypes: [ProcessDescription]
@@ -580,9 +581,6 @@
     Summary: Description of the standup process along with preparation for it
     Actors:
       you: you, the expected participant of the standup
-    
-
-      
     .StandupPreparationUsingF2Tool:
       Summary: Tracking your time spent on Tasks and creating your standup report
       Situation:
@@ -590,47 +588,39 @@
         .PreparingForStandup: you're preparing for a standup on which you'd like to participate.        
       Prerequisites:
         .F2ToolsExtension: The F2Tools extension is installed
-      Steps:
-        - CreateAndSpecifySRItem:
-            Summary: Creating the -->StandupReport< Item and signaling to the extension that this is the one it should log the time spent
-            Actors: you
-            Situation: 
-            Steps:
-              - Create a new -->StandupReport< Item in your StandupReport.yml file under your workspace file:
-                - name it SR_[yyyymmdd]_[username], such as SR_20250114_Bobi:
-                    Details:
-                      - In the (hopefully rare) case there are multiple standups during the day, add the number of the standup preceded by an underscore, such as SR_20250114_Bobi_1 and SR_20250114_Bobi_2. (No, we should not start the numbering with "0", we are humans, first = 1st).
-                - Specify StandUpReport:
-                  - Place the cursor on the SR
-                  - Issue the command "Specify Standup Report" from the command palette (Ctrl + Shift + P)
-                  - Choose or type "Specify standup report" or the shortcut(Ctrl+S+R)  
-        - StartOrSwitchToTask:
-            Summary: Start working on/switching to a new Task
-            Prerequisite: $@CreateAndSpecifySRItem@$
-            Situation: You want to start working on a new Task
-            Steps:
-              - Place the cursor on the Task you want to start
-              - Issue the command "Select Task" from the command palette (Ctrl + Shift + P)
-        - StopTask:
-            Summary: Stop working on a Task you already started working on
-            Situation: You want to pause/stop working on a Task
-            Steps:
-              - Place the cursor either:
-                - On the link pointing to the Task (e.g. in your SR)
-                - On the Task itself
-              - Issue the command "Stop Task" from the command palette (ctrl + shift + P)
-        #     Steps:                
-        #       - Place the cursor on the Task you are working on under your standup report
-        #       -  Issue the command "Specify Standup Report" from the command palette (Ctrl + Shift + P)
-        #       - Choose or type "Stop Task/Timer" 
-
-                
-                
-          Note: The tasks will automatically be placed in the Was part of the SR.
+      .CreateAndSpecifySRItem:
+        Summary: Creating the -->StandupReport< Item and signaling to the extension that this is the one it should log the time spent
+        Actors: you
+        Situation: 
+        Steps:
+          - Create a new -->StandupReport< Item in your StandupReport.yml file under your workspace file:
+            - name it SR_[yyyymmdd]_[username], such as SR_20250114_Bobi:
+                Details:
+                  - In the (hopefully rare) case there are multiple standups during the day, add the number of the standup preceded by an underscore, such as SR_20250114_Bobi_1 and SR_20250114_Bobi_2. (No, we should not start the numbering with "0", we are humans, first = 1st).
+            - Specify StandUpReport:
+              - Place the cursor on the SR
+              - Issue the command "Specify Standup Report" from the command palette (Ctrl + Shift + P)
+              - Choose or type "Specify standup report" or the shortcut(Ctrl+S+R)  
+      .StartOrSwitchToTask:
+        Summary: Start working on/switching to a new Task
+        Prerequisites: -->..CreateAndSpecifySRItem<
+        Situation: You want to start working on a new Task
+        Steps:
+          - Place the cursor on the Task you want to start
+          - Issue the command "Select Task" from the command palette (Ctrl + Shift + P)
+      .StopTask:
+        Summary: Stop working on a Task you already started working on
+        Situation: You want to pause/stop working on a Task
+        Steps:
+          - Place the cursor either:
+            - On the link pointing to the Task (e.g. in your SR)
+            - On the Task itself
+          - Issue the command "Stop Task" from the command palette (ctrl + shift + P)
+        Note: The tasks will automatically be placed in the Was part of the SR.
 
     .Standup:
       .Prerequisites:
-        - $@..\..\.StandupPreparation$@ is done
+        - $@-->..StandupPreparationUsingF2Tool<$@ is done
       Content:
         .Preparation - everyone:
           - add the result into its Result in the following format: |

@@ -816,6 +816,7 @@ Comments:
           =: 2d
           <-Note-: we're in c#, right, so shouldn't be that hard.
       Estimated .Process Manager and context handling:          
+        Id: ProcessManagerAndContext
         Estimation: 
           45h:
             <-Note-: 2*6+3+5*6
@@ -827,6 +828,7 @@ Comments:
         Implemented .Minimal - no context:
           We just run the commands the same way as internal functions - no context, nothing. We catch the exceptions at least and convert the results.
         Estimated .Basic ProcessManager providing context:
+          Id: Basic
           Estimation: 2d
           Details:
             - There's a -->*\Barba.Types.ProcessInfo< Item in a special Folder ("RunningProcesses") about each running process:
@@ -844,6 +846,7 @@ Comments:
                 - State: e.g. running, waiting, paused, etc.
               - its context:
         Estimated .Support for local variables and contexts:
+          Id: LocalVAriables
           Estimation:
             3h:
               <-Notes-: 
@@ -1358,7 +1361,7 @@ Comments:
             6h:
               <-Note-: Finding a way for storing in the context and handling this during interpretation and execution
           ReqReq: 
-          - -->.."Process Context support"<
+          - -->Documents\Requirements\TheF2Tool\..F2Tool.."F2Server".."Algorithm handling"..ProcessManagerAndContext..LocalVAriables<
           - -->.."Workspaces"<
           Details:
             - The commandline is F2Lang interpreted.
@@ -1366,7 +1369,7 @@ Comments:
             - Syntax:            
               - var myVariable = GetItem("alma"): for new variables
               - myVariable = GetItem("alma"): for existing variables
-            - Which syntax in a "pure" yaml - so no F2Yaml syntax:
+            - Which syntax in a "no syntax sugar" way:
                 CreateVariable():
                   Name: myVariable                
                   Value: 

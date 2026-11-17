@@ -1363,7 +1363,7 @@ Done .Notes:
                 .SomeItem:
                   SomeProp: newValue
                 .SomeOtherItem:
-                  SomeProp: -->Root.SomeItem<
+                  SomeProp: -->Root..SomeItem<
                 ..(1):
             Invalid:
               -->Root<:
@@ -1371,7 +1371,7 @@ Done .Notes:
                 .SomeProp: oldValue #so this is left unchanged, containing the old value
                 .SomeOtherItem:
                   SomeProp: 
-                    -->Root.SomeItem<:
+                    -->Root..SomeItem<:
                       SomeProp: newValue #and we'd update the value here - which is not allowed
                 ..(1):
     5-Done .InternalId is not "writeable":

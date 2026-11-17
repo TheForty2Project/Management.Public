@@ -163,22 +163,12 @@ IgnoreF2Links:
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
-- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
 - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..<Task>.LinkToThis9<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..MyTask.LinkToThis9<
@@ -189,8 +179,6 @@ IgnoreF2Links:
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3.."My Task".LinkToThis11<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
 - -->Banana<
 - -->Root..Projects..Barba..Types<
@@ -211,8 +199,6 @@ IgnoreF2Links:
 - -->MyFunctionCall()<
 - -->RootItem..MyProject..MyItem<
 - -->F2Tool..System..Users< 
-- -->Root..SomeItem<
-- -->Root..SomeItem<
 - -->\..MyItem.ItemListProperty..Blah<
 - -->\..MyItem.ItemListProperty..Blah(1)<
 - -->MyItem."My Key 1".MyKey2<
@@ -229,3 +215,4 @@ IgnoreF2Links:
 - -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<
 - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."<
 - -->Tasks\Archive\<
+- --><

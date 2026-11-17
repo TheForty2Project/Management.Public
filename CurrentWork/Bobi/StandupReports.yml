@@ -214,7 +214,7 @@ SR_20260530_Bobi:
   Was:
     - -->Tasks\Management\.."Plan the next Milestones".."Decide:_ Milestones and areas baseline"<: [ 60m, "", 20260529 T 135528 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."QueryDescription based CSV report generation"..Execute.."Verifies query"<: [ 40m, "", 20260529 T 191156 ]
-    - -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or F2Links"..F2Link.Tasks..F2LinkMainProblems<: [ 30m, "", 20260529 T 000042 ]
+    - -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..SyntaxDetailed..ItemRefsOrF2Links.Tasks..F2LinkMainProblems<: [ 30m, "", 20260529 T 000042 ]
     - Task about figuring out what the Id and Summary properties should contain based on the value in the header: [ 40m, "", 20260529 T 000042 ]
   Next:
     - null

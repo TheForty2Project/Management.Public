@@ -8,6 +8,7 @@ Done .Notes:
 
 3-Detailing Must .F2Yaml.MVP Rules Sketch:
   Type: Article  
+  Id: F2YamlMvpRulesSketch
   Title: F2Yaml.MVP Rules - First sketch
   Tasks:
     Done -->Tasks\Website\.."Back to original".."Do intermediate solution".."Create the OriginalConcept site".."Clean, create or migrate the yamls".."Write content for the leaves".."The Abyss".."Documents".."Specifications".."F2Yaml".."Syntax, semantics and Barba.Types should not be mixed"<:
@@ -36,8 +37,10 @@ Done .Notes:
         - lots of syntax sugars: 
           - meaning there are multiple ways to represent commonly used structures in case it improves readibility or construction
   4-AlmostDone Must .Overview:
+    Id: Overview
     Title: Overview
     4-AlmostDone Must .Summary:
+      Id: Summary
       Title: Summary
       Content:
         At first we give an overview about Items - the abstract structures in which information is stored throughout the project - we'll then summarize the most important things about the F2Yaml language - used to describe these in a human readable form - plus the F2Yaml structures and conventions we currently use in this stage of the project.
@@ -447,6 +450,7 @@ Done .Notes:
   #     .Mandatory hierarchy of Items:
 
   3-Detailing Must .F2Yaml syntax detailed:
+    Id: SyntaxDetailed
     5-Done Must .Basic yaml-ing only:      
       Content:
         Summary:
@@ -875,7 +879,8 @@ Done .Notes:
             new <Task>:
               Id: Blah
 
-    4-AlmostDone Must .Item references or F2Links:      
+    4-AlmostDone Must .Item references or F2Links:
+      Id: ItemRefsOrF2Links
       Content:
         - F2Links are strings storing the path (filesystem + yaml) to a folder, file, an Item or one of its properties in a human readable form.:
           In their full form (the F2FullLink):

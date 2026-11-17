@@ -98,8 +98,26 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
 - SourceFilePath:                                                          ..\..\Tasks\Software\F2FileToHtmlConverter.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
-- SourceFilePath:                                                          ..\..\!SubProjects\HealthManagement\Tasks.yml 
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Tasks.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\DietInfo.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\HealthLog.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\Movement.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\Recipes.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\ScheduleRequirement.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\Aerobic.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\FunctionalTraining.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\Goals.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\ResistanceTraining.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
   
   
   

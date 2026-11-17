@@ -23,7 +23,7 @@ Link, IssueType, No
 "-->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol..""Create rules baseline""<",LinkWithPropId,2
 "-->CurrentWork\Hana\Schedules\..""Schedule and estimate activity for the next 10 days""..""Activity schedule 23-31 Sep""<",CantFindFilePath,2
 "-->CurrentWork\Hana\Personal\..Finances..""Check and pay the current utility bills 20261110""<",CantFindFilePath,2
-"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""Update the hos vs code snippets""..""Entries inside should be lists (so add a dash in front of them)""<",CantFindAnchor,2
+"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets"<""..""Entries inside should be lists (so add a dash in front of them)""<",CantFindAnchor,2
 -->Root.SomeItem\<,CantFindFilePath,2
 "-->Tasks\Miscellaneous\..Health..""Schedule lab test and doctor appointments""..""Research about Hashimoto and LDL and SIBO connection""<",CantFindAnchor,2
 "-->Tasks\Software\F2ToolsExtension\..Tasks..Refactorings..""F2Link generation through F2YamlWorkspaceItem"".MaintenanceTasks..""Create Implementation plan""<",LinkWithPropId,2
@@ -44,8 +44,8 @@ Link, IssueType, No
 "-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly""..""Schedule health log recent development meeting with the members""..""Month of Nov - 20261102T12:00-13:00""<",InvalidLink,1
 "-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Weekly""..Exercise..""Muscle Resistance""..""Analyse Week45""<",InvalidLink,1
 "-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Weekly""<",InvalidLink,1
-"-->Tasks\Miscellaneous\..Health..""""Update the hos vs code snippets""""<",InvalidLink,1
-"-->Tasks\Miscellaneous\..Health..""""Create health-log tracking requirements""""..""""Showcase health-log to Bobi""""..""""Create health-log recording process""""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""""-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets"<""""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""""Create health-log tracking requirements""""..""""Showcase health-log to Bobi""""..""""-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<""""<",InvalidLink,1
 "-->Tasks\Website\..""Back to original""..Intermediate..CreateSite..""Implement""..NonDD..""Phase1""..""Create SupportUs page""..""Rename ""Support"" to something less confusing""..""Rename it""<",InvalidLink,1
 "-->Tasks\Website\..""Back to original""..Intermediate..ShadowsSite..""Change the ""Building fair systems through Collaboration"" to the one we decided""..""Change it in the title bar""<",InvalidLink,1
 "-->Tasks\Website\..""Back to original""..Intermediate..ShadowsSite..""Remove the ""TF2P"" text""<",InvalidLink,1

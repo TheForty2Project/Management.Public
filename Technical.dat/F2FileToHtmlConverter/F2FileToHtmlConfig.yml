@@ -235,3 +235,4 @@ IgnoreF2Links:
 - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."<
 - -->Tasks\Archive\<
 - --><
+- -->..Streaming..Activities.."Standup or Summary at the beginning and end"<

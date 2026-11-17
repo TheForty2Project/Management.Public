@@ -30,35 +30,4 @@
 
 
 
-
-
-    .Health log data entry and exercise plan:
-      OnGoing .Monthly:
-        Details: 
-          Summary of previous month helath log
-          Summary of previous exercise planning and implementation
-        Done .Schedule health log recent development meeting with the members: 
-          +: {CreatedBy: Hana, CreatedAt: 20261101 T 151142, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 5-VeryHigh}
-          Result: 
-          Done .Month of Nov - 20261102T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
-          EstTODO .Month of Dec - 20261202T12:00-13:00:
-            +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
-        Development Tasks:
-          Done .Log Automation:
-            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154603, By: [Hana, Anita, Bobi], Tags: [TLDone, Health], Estimati, Healthon: , RemTime: , Importance: 4-High}
-            Details: 
-              - Create an ID for each member - to be published in the website::
-                Hana:   42242
-                Bobi:   42241
-                Anita:  42333 (to be reviewed)
-          Done .Create snippet for the whole log for each member:
-            +: {CreatedBy: Hana, CreatedAt: 20261101 T 154802, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}
-            Details: 
-              - Instead of loading each property eg <Sleep> or timeline category (morning, afternoon, evevning) create the whole log and modification can happen after. 
-              - To save time.
-          InProgress .To be reviewed by members:
-            +: {CreatedBy: Hana, CreatedAt: 20261101 T 183559, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 5-VeryHigh}     
-     
-
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

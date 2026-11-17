@@ -147,6 +147,7 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks
   
 IgnoreF2Links:
+- -->Tasks\Miscellaneous.."Health".."Health planning W20260608"<
 - -->"Summary of an Item"..Blah<
 - -->..MyTask.SubTasks..MySubTask1< -->..MyTask..MySubTask1<
 - -->..MyItem.MyItemProperty..MyAnotherItem.LinkToThis< -->..MyItem.MyItemProperty.LinkToThis<

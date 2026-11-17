@@ -4704,7 +4704,7 @@ Month of Oct:
           Notes: 
         <Work>:
           Time: 1356
-          ActivityDesc: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<
+          ActivityDesc: -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<
           Duration: 
           Focus: 2
           MindPower: 2

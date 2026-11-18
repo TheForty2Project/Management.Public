@@ -174,13 +174,13 @@ SR_20260621_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 39m, "", 20260620 T 232534 ]
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 15m, "", 20260620 T 232541 ]
     - -->Tasks\Management\.."Create process description for Standup, Retrospective and Planning"<: [ 60m, "in my workspace", 20260621 T 105953 ]
-    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Analyse Health Data"<: [ 60m, "", 20260621 T 130532 ]
+    - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data"<: [ 60m, "", 20260621 T 130532 ]
     - -->Tasks\Miscellaneous\.."Health".."Family problem Solving".."Collect the milestones of Sudan selling opportunity"<: [ 120m, "Including Totas call", 20260621 T 130532 ]
 
   Next:
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620"<:
     - -->Tasks\Miscellaneous\.."Health".."Family problem Solving".."Collect the milestones of Sudan selling opportunity"<
-    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Analyse Health Data"<
+    - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data"<
   AOIB:
     - -->Tasks\Management\.."General management".."Schedule meetings".."Schedule RePlSt within the week"<
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<
@@ -199,7 +199,7 @@ SR_20260622_Hana:
   Next:
 
     - -->CurrentWork\Hana\Personal\.."Review finances 20260620".."Schedule meeting for Finance"<
-    - -->Tasks\Management\.."General management".."Remind and follow up with participants"< .."Remind Bobi for fixing the stand up process".."Remind Bobi and myself about the streaming"<
+    - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<
     - -->Tasks\Management\.."General management".."Remind and follow up with participants".."Remind Bobi and myself about the streaming".."Search where to start the streaming process in management and public relation"<:
@@ -210,7 +210,7 @@ SR_20260624_Hana:
     - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning"<: [ 104m, "", 20260624 T 231028 ]
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<: [ 50m, "", 20260625 T 103434 ]
   Next:
-    - -->Tasks\Miscellaneous\.."Health".."Do weekly health related planning".Details."Perform the followings".."Schedule body measurement"<
+    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create an an analysis about the effects of consuming various sugars".Details.Include.."Schedule body measurement"<
     - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
 
 SR_20260722_Hana:

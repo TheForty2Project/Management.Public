@@ -179,7 +179,7 @@
         Done .Fix links first round:          
           Details:
             Anything which do not point anywhere
-        Accepted .Cant find anchor for valid links:
+        Fixed .Cant find anchor for valid links:
           Type: Bug
           +: {CreatedBy: Bobi, CreatedAt: 20261109 T 173428, By: Bobi, Tags: [Dev, TL], Estimation: , RemTime: , Importance: 3-Average}          
           Details: |

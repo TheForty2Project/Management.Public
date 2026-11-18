@@ -164,7 +164,20 @@ Files:
 - SourceFilePath:               ..\..\Documents\WebsiteContent\DeepDive\TheAbyss\Tasks\Software.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks
   
+IgnoreF2LinkPaths:
+- CurrentWork\Bobi\TestMaterial
+- CurrentWork\Hana\Personal
+- CurrentWork\Hana\Schedules
+- Documents\F2YamlSpecification\BachusNaurForms.bnf
+- Documents\PublishableArticles\DecisionFormalization
+- Documents\PublishableArticles\LogicalThinkingAndItsFormalization
+- Documents\PublishableArticles\SummaryArticle
+- Documents\PublishableArticles\ThePathOfImprovingDecisionMaking
+- Tasks\Archive\PublicRelations
+- Tasks\Archive
+
 IgnoreF2Links:
+- -->Documents\Specifications\YamlToHtmlConversion\.Content<
 - -->Tasks\Miscellaneous.."Health".."Health planning W20260608"<
 - -->"Summary of an Item"..Blah<
 - -->..MyTask.SubTasks..MySubTask1< -->..MyTask..MySubTask1<
@@ -229,10 +242,11 @@ IgnoreF2Links:
 - -->Backlog\Backlog\..PublicRelations..Recruitment..RecruitmentPhase1.."Advertise the job description in different platform"<
 - -->Backlog\Development\..Processes..PM.VerifyAndImprove.Baseline<
 - -->Tasks\Processes\..Members.."Initial Interview".."Baseline"<
-- -->CurrentWork\Bobi\TestMaterial\<
 - -->Tasks\Management\..Administration<
 - -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<
 - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."<
-- -->Tasks\Archive\<
+- -->Tasks\Archive<
+- -->Tasks\Archive\PublicRelations<
+- -->Tasks\Archive\PublicRelations\<
 - --><
 - -->..Streaming..Activities.."Standup or Summary at the beginning and end"<

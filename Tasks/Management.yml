@@ -7,6 +7,7 @@ OnGoing .General management:
     Id: TaskAdmin
     +: {CreatedBy: Hana, CreatedAt: 20251205 T 212344, By: All}
     Details:
+      -->Tasks\Software\F2ToolsExtension\..Tasks.."Support for filepath-only F2Links".MaintenanceTasks.."Taskify and estimate"<
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
     InProgress .Fix links based on the converter report 20261110:
       +: {CreatedBy: Bobi, CreatedAt: 20261110 T 141746, By: [Hana, Bobi]}

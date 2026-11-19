@@ -246,7 +246,6 @@
     +: {CreatedBy: Bobi, CreatedAt: 20261116 T 144814, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
     Details:
       - In !SubProjects\HealthManagement\ExerciseReport
-
   InProgress .Review Health log process:
     +: {CreatedBy: Bobi, CreatedAt: 20261103 T 134310, By: [Bobi, Hana], Tags: [Health, TL], Estimation: 30, RemTime: 29, Importance: 5-VeryHigh}
     Details:

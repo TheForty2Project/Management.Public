@@ -264,30 +264,30 @@ SR_20260727_Hana:
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Admin.."Create a daily process now that we have queries".."Fine tune the process"<
     - -->Tasks\Miscellaneous\..Health.."Schedule and estimate activity for the next 10 days".."Activity schedule 03-13 Aug"<
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."To be reviewed by members".."Analysis of the month of June and July"<
-    - -->CurrentWork\Hana\TasksToBeSorted\.."Learn TypeScript basics".."Create TS tutorial tasks"<
+    - -->CurrentWork\Hana\TasksToBeSorted\.."Learn TypeScript basics".."TS:_ Create TS tutorial tasks"<
 
 SR_20260826_Hana:
   Was:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<: [ 36m, "", 20260825 T 140541 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 25m, "", 20260825 T 203505 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create baseline requirement for the schedules"< [ 66m, "", 20260825 T 203505 ]
-    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 30m, "", 20260826 T 193855 ]
-    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Hana's NagyRutin"<: [ 6m, "", 20260827 T 130923 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 30m, "", 20260826 T 193855 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Schedule lab test and doctor appointments".."Schedule Hana's NagyRutin"<: [ 6m, "", 20260827 T 130923 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 30m, "", 20260827 T 141744 ]
   Next:
 
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<
-    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Move the below NegativeEventProtocol to its correct place".."Create rules baseline"<
 
 SR_20261009_Hana:
   Was:
     - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 42m, "", 20260826 T 143604 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 20m, "", 20260827 T 194132 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 5m, "", 20260828 T 194132 ]
-    - -->Tasks\ToBeSorted\..Tasks20260824.NegativeEventProtocol.."Create rules baseline"<: [ 30m, "", 20260829 T 092912 ]
+    - -->Tasks\ToBeSorted\..Tasks20260824.."Move the below NegativeEventProtocol to its correct place".."Create rules baseline"<: [ 30m, "", 20260829 T 092912 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Create baseline (daily/weekly) schedule as of 20260824".."Create rough schedule"<: [ 30m, "", 20260902 T 141208 ]
     - -->Tasks\ToBeSorted\..Tasks20260824.."Move the below NegativeEventProtocol to its correct place".."Create rules baseline"<: [ 35m, "", 20260902 T 141220 ]
-    - -->Tasks\Miscellaneous\..Health.."Do weekly health related planning"<: [ 0m, "", 20260905 T 180807 ]
+    - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data"<: [ 0m, "", 20260905 T 180807 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 20m, "", 20260914 T 2154 ]
     - -->Tasks\Miscellaneous\..Health.."Create food schedule for the next week"<: [ 25m, "food for Monday", 20260913 T 215547 ]
     - -->Tasks\ToBeSorted\..Tasks20260826.."Create daily health log recording process"<: [ 21m, "", 20260914 T 2154 ]
@@ -301,27 +301,27 @@ SR_20261009_Hana:
 
 SR_20261018_Hana:
   Was:
-    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 30m, "", 20261009 T 202844 ]
-    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 65m, "", 20261013 T 202842 ]
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi"<: [ 94m, "", 20261013 T 172342 ]
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<: [ 45m, "", 20261017 ]
+    - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 30m, "", 20261009 T 202844 ]
+    - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 65m, "", 20261013 T 202842 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<: [ 94m, "", 20261013 T 172342 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<"<: [ 45m, "", 20261017 ]
   Next:
     - -->Tasks\Miscellaneous\..Health..CreateMealSchedule..W43<
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items"<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items"<
     - -->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis.."Schedule health log recent development meeting with the members"<
     - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
 
 SR_20261021_Hana:
   Was:
 
-    - -->Tasks\Miscellaneous\..Health.."Do health log and daily reviews"<: [ 150m, "logs for 4days ", 20261020 ]
+    - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 150m, "logs for 4days ", 20261020 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 20m, "", 20261021 T 180136 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 303m, "and explaining standup process", 20261021 T 181118 ]
 
   Next:
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Go through the previous classes and add any missing to the new ones"<
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Go through the previous classes and add any missing to the new ones"<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Prepare for health-log showcase to Anita"<
     - Need task creation; Assign meanings to the individual enum values
   AOIB:
     - Snippets was created for Anita
@@ -332,9 +332,9 @@ SR_20261021_Hana:
 
 SR_20261030_Hana:
   Was:
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 22m, "", 20261022 T 1514 ]
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Move the classes to BusinessClasses.yml"<: [ 22m, "", 20261022 T 155128 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 72m, "", 20261021 T 221411 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Create snippets for the Items"<: [ 22m, "", 20261022 T 1514 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items".."Move the classes to BusinessClasses.yml"<: [ 22m, "", 20261022 T 155128 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 0m, "", 20261030 T 211908 ]
   NEXT:
 
@@ -349,12 +349,12 @@ SR_20261030_Hana:
 SR_20261105_Hana:
   Was:
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 103m, " logging 26th, 27th , 28th, 29th healthlogs for Hana and Bobi", 20261031 T 134306 ]
-    - -->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Schedule lab test and doctor appointments".."Schedule Bobi's lipid panel"<: [ 7m, "", 20261031 T 182355 ]
     - ---->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis<: [ 20m, "", 20261101 T 135713 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 5m, " creating new format and snippet for the month of Nov", 20261031 T 134306 ]
     - -->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis.."Schedule health log recent development meeting with the members"<: [ 2m, "", 20261101 T 153336 ]
     - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly"."Development Tasks".."Create snippet for the whole log for each member"<: [ 20m, "", 20261101 T 155447 ]
-    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do Health Log Review"<: [ 80m, "", 20261102 T 115956 ]
+    - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 80m, "", 20261102 T 115956 ]
     - -->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis.."Schedule health log recent development meeting with the members"<: [ 60m, "", 20261102 T 120859 ]
     - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data".Tasks.."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
   Next:
@@ -365,8 +365,8 @@ SR_20261112_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data"<: [ 131m, "", 20261108 T 105344 ]
     - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 60m, "", 20261108 T 154741 ]
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis"<: [ 120m, "", 20261110 T 141414 ]
-    - -->Tasks\Miscellaneous\..Health.."Move the health related things under the HealthManagement subproject"<: [ 15m, "", 20261110 T 201219 ]
-    - -->Tasks\Miscellaneous\..Health.."Health planning".."Health log data entry and exercise plan".."Daily".."Do health log and daily reviews"<: [ 24m, "", 20261111 T 120800 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Move the health related things under the HealthManagement subproject"<: [ 15m, "", 20261110 T 201219 ]
+    - --->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 24m, "", 20261111 T 120800 ]
     - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<: [ 28m, "", 20261111 T 141710 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 5m, "", 20261112 T 123735 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 36m, "", 20261112 T 123747 ]

@@ -423,7 +423,7 @@ OnGoing .Task administration:
       Id: IsValidItemHeader
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20}
       Details:
-        It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\Requirements\F2YamlSpecification\BachusNaurForms.bnf<
+        It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\F2YamlSpecification\BachusNaurForms\<
     Done .Implement and upgrade functionality about recognizing and parsing ItemYamls:
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 144755, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
       Details:

@@ -336,7 +336,7 @@ Done .Notes:
           InProgress .Create content:
             +: {CreatedBy: Bobi, CreatedAt: 20251224 T 160414, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
           Content:
-            The F2Yaml specification includes a number of special Items, -->Barba.Types\..NonClassTypes.Content<
+            The F2Yaml specification includes a number of special Items
 
         0-New Must .ItemAndStandardItem:          
           Title: The Item and StandardItem classes
@@ -1164,7 +1164,7 @@ Done .Notes:
                   - Here on the other hand, the "code" is mostly about manipulating "live" data, referencing Items (and not just classes, properties) very often - i.e. it's like every human is a process (very slowly running on its own thread) which manipulates the objects created from those classes while the program is running and only rarely working on classess and their methods.
                   - There are special conditions:
                     - The system mandates that every Item is placed into a hierarchy of Items (the BelongsTo tree, forming a kind of a folder structure where folders and files are the same, so each FolderFile can have children and also content)
-                      - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner - i.e. not Item with InternalId 876465468768 but -->Root.Projects.Barba.Task.
+                      - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner, i.e. not "Item with InternalId 876465468768" but "Item at -->Root.Projects.Barba.MyTask<"
                       - as this is a program which never stops, we need strict accounting of memory objects; a simple garbage collector based on simple rules (=no reference) is not enough 
                       - permission handling
                     - Most Items we work with (Tasks, Requirements, etc) have default list property/ies and we often reference these through the parent(s).Wwe want to see Ids which are compile-time checked, not position in the list (such as a Task have a Task[] SubTasks property):

@@ -357,8 +357,6 @@ Done .Back to original:
   Id: BackToOrigi
   Done .Work this Task out:
     Details:
-      Base it on:
-        - $@-->!PublicWorkspaces\Hana\Websiterephase1\.."Reorganize the -->Backlog\Development\..Website<"<@$:
       Make sure that these are also included:
         -->Tasks\Website\..Websitephase1.."Deepdive section development"<:
         -->Tasks\Website\..Improvements..JoinMission.."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo"<:
@@ -1528,7 +1526,7 @@ Done .Back to original:
         Now some commonly used notations:
           Note: 
             - For the (hopefully or at least soon) complete syntax please check the -->F2YamlSpecification<.
-            - For the definition of the Items used throughout The Abyss see the -->System.Types< and --><
+            - For the definition of the Items used throughout The Abyss see the -->System.Types< and -->BusinessClasses\<
 
           <Status> <Summary> as header:
 

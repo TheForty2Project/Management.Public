@@ -1444,7 +1444,7 @@ Comments:
       Estimation: 26h
       Details:
         Overview:
-          - Workspaces are a set of folders and files, described by a workspace descriptor Item $@~Barba.Types.WorkspaceDescription@$. If managed by the F2Tool, they serve as an interface for manipulating and querying Items and running commands; a file based interface for manipulating and querying Items.:
+          - Workspaces are a set of folders and files, described by a workspace descriptor Item -->System\Types\Workspaces\.."WorkspaceDescription"<. If managed by the F2Tool, they serve as an interface for manipulating and querying Items and running commands; a file based interface for manipulating and querying Items.:
           - Workspaces are somewhat similar to workspaces + git in VS Code:
             - The workspace can be "cloned" into a local folder, like in "git clone":
               - "GetWorkspace wsName targetFolder"
@@ -1455,7 +1455,7 @@ Comments:
             - One edits the Items in the files and then instructs the tool to process it - like the "commit" and "sync" commands in Git.
         Details:
           Workspace descriptor Item:
-            There's a workspace descriptor Item -->Barba.Types.WorkspaceDescription<, describing:
+            There's a workspace descriptor Item -->System\Types\Workspaces\.."WorkspaceDescription"<, describing:
               - a file structure organized into folders
               - where files contain Items (parts), Queries (and their results) and commands
           Files and folders:
@@ -1537,7 +1537,7 @@ Comments:
               - No namespace, using support
               - PAR time: 1d
         Details:
-          - There are $@WorkspaceDescription@$ Items, stored under System/CurrentUser/Workspaces
+          - There are -->System\Types\Workspaces\.."WorkspaceDescription"< Items, stored under System/CurrentUser/Workspaces
           - One can create and modify these Items and then $@LoadWorkspace@$ them into the folder specified in its RootDirectoryAbsolutePath property:                        
           - Include:
             - Loading workspace and Pull

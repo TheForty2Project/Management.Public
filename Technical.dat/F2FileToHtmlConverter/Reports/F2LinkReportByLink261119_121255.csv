@@ -1,0 +1,63 @@
+Link, IssueType, No
+"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""Health planning W20260608""<<",InvalidLink,4
+"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Development..SecondPhase..""Add ""Commit message""-like feature""<",InvalidLink,2
+"-->Documents\F2YamlSpecification\F2Yaml\..""F2Tool MVP rules""<",CantFindAnchor,2
+"-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Showcase health log""..""Finish creating classes""<""<",InvalidLink,1
+"-->Tasks\Miscellaneous\..Health..""Health planning"".""Health log data entry and exercise plan""..""Monthly"".""Development Tasks""..""Create snippet for the whole log for each member""<",InvalidLink,1
+"-->Tasks\ToBeSorted\..""Create a Requirement about ""Task sink""""<",InvalidLink,1
+"-->CurrentWork\Hana\TasksToBeSorted\..""Review the requirements currently in ""Draft"" status""<",InvalidLink,1
+"-->Tasks\ToBeSorted\.Tasks20260824..""Cleanup TL tasks""<",CantFindAnchor,1
+"-->Tasks\Management\..""Management Tasks OCWSPhase1""..""Migration of tasks to CSV""..""Periodic syncs of Tasks-CSV""..""SyncAt20260401""<",CantFindAnchor,1
+"-->Tasks\Management\..Health..""Schedule exercises and include baba in the morning after waking up and evening before sleeping""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Family problem Solving""<",CantFindAnchor,1
+"-->Tasks\Software\F2ToolsExtension\..Bugs..""Unable to create a new existing SR under the same date 'SR_20260608_Hana'""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Create food schedule for the next week""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Schedule and estimate activity for a week""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule and estimate activity for a week""<",CantFindAnchor,1
+"-->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Outreach..""Work out the DM comparison outreach idea""..""Implement""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule and estimate activity for the next 10 days""..""Activity schedule 03-13 Aug""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Create food schedule for the next week""<",CantFindAnchor,1
+-->Tasks\Miscellaneous\..Health..CreateMealSchedule..W43<,CantFindAnchor,1
+"-->Tasks\Miscellaneous\..BusinessAnalysis..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Showcase Health Log to Anita""..""Prepare for health-log showcase to Anita""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""<",CantFindAnchor,1
+"-->MeetingMinutes\General\..""Preparing for general workflowAbalysis""<",CantFindAnchor,1
+"-->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks..""Taskify and estimate"".CreatedBy<",CantFindAnchor,1
+-->..MyItem.ItemListProperty..Blah<,CantFindAnchor,1
+-->..MyItem.ItemListProperty..Blah(1)<,CantFindAnchor,1
+-->..SelectPropertySpecialValues<,CantFindAnchor,1
+"-->Tasks\ToBeSorted\..""Review Health log process""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Action the feedback items""..""Go through the previous classes and add any missing to the new ones""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Update the hos vs code snippets""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Create health-log tracking requirements""..""Showcase health-log to Bobi""..""Create health-log recording process""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Move the health related things under the HealthManagement subproject""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""..""Analyse Week44""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Monthly..""Schedule health log recent development meeting with the members""..""Month of Dec - 20261202T12:00-13:00""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Schedule the analysis of resistance ex""..""Schedule Week47""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Schedule the analysis of resistance ex""..""Schedule Week48""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""..""Analyse Week47""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""..""Analyse Week48""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Review Analysis"".Results..""Analyse Week44""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Review Analysis"".Results..""Analyse Week46""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Review Analysis"".Results..""Analyse Week47""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Define missing + fix EventLogBase classes""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Review Analysis"".Results..""Analyse Week45""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Schedule the analysis of resistance ex""..""Schedule Week44""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Schedule the analysis of resistance ex""..""Schedule Week45""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Schedule the analysis of resistance ex""..""Schedule Week46""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""..""Analyse Week45""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Monthly..""Schedule health log recent development meeting with the members""..""Month of Nov - 20261102T12:00-13:00""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""..""Analyse Week46""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Analysis of the month of June and July""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Analyse weekly Health Data""<",CantFindAnchor,1
+"-->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Development..SecondPhase..""Detect and convert f2yaml links""..""Follow links containing low-high-etc prefixes""<",CantFindAnchor,1
+"-->Tasks\ToBeSorted\..""Review Health log process""..""Move the tasks to their correct places""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Weekly..Exercise..""Muscle Strength""..""Review Analysis""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Health planning""..""Health log data entry and exercise plan""..Daily..""Do Health Log Review""<",CantFindAnchor,1
+"-->..CreateOutreachPlan..""Create first draft"".Result..""streaming seems worth pursuing"".topics<",CantFindAnchor,1
+"-->Tasks\PublicRelations\..CreateOutreachPlan..""Create first draft"".Result..""we should be exploring the outreach ideas one by one""<",CantFindAnchor,1
+"-->Tasks\Miscellaneous\..""Health""..""Create health-log tracking requirements""<",CantFindAnchor,1
+-->Documents\Milestones\..Milestones..PublicPhs1<,CantFindAnchor,1
+"-->Documents\ProcessDescriptions\..""Process Descriptions""..WorkProcesses..""General Management Duties""..""Holding Standup""<",CantFindAnchor,1
+-->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428.Workspace.Tasks<,CantFindAnchor,1
+-->MeetingMinutes\General\.HealthLogProcessReview<,CantFindAnchor,1
+"-->Tasks\Miscellaneous\..Health..""Schedule lab test and doctor appointments""..""Research about Hashimoto and LDL and SIBO connection""<",CantFindAnchor,1

@@ -112,7 +112,7 @@ SR_20260608_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 65m, " ", 20260608 T 134802 ]
 
   Next:
-    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<
     - -->Tasks\Miscellaneous\.."Health".."Family problem Solving"<
     - update my standup report
     - Record the bug of Standup:
@@ -120,8 +120,8 @@ SR_20260608_Hana:
 SR_20260615_Hana:
   Was:
     - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to create a new existing SR under the same date 'SR_20260608_Hana'"<: [ 30m, "", 20260609 T 220933 ]
-    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<<: [ 18m, "", 20260610 T 150211 ]
-    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<<: [ 18m, "", 20260612 T 150211 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<: [ 18m, "", 20260610 T 150211 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<: [ 18m, "", 20260612 T 150211 ]
 
   Next:
 
@@ -304,7 +304,7 @@ SR_20261018_Hana:
     - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 30m, "", 20261009 T 202844 ]
     - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 65m, "", 20261013 T 202842 ]
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<: [ 94m, "", 20261013 T 172342 ]
-    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<"<: [ 45m, "", 20261017 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase health log".."Finish creating classes"<: [ 45m, "", 20261017 ]
   Next:
     - -->Tasks\Miscellaneous\..Health..CreateMealSchedule..W43<
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Action the feedback items"<
@@ -338,7 +338,7 @@ SR_20261030_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 0m, "", 20261030 T 211908 ]
   NEXT:
 
-    - -->Tasks\Miscellaneous\..Health.."Health planning"<
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<
 
     - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<
     - -->Tasks\Website\..Improvements..ShadowsSite..RevisePages<
@@ -353,7 +353,7 @@ SR_20261105_Hana:
     - ---->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis<: [ 20m, "", 20261101 T 135713 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 5m, " creating new format and snippet for the month of Nov", 20261031 T 134306 ]
     - -->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis.."Schedule health log recent development meeting with the members"<: [ 2m, "", 20261101 T 153336 ]
-    - -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Monthly"."Development Tasks".."Create snippet for the whole log for each member"<: [ 20m, "", 20261101 T 155447 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create snippet for the whole log for each member"<: [ 20m, "", 20261101 T 155447 ]
     - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 80m, "", 20261102 T 115956 ]
     - -->!SubProjects\HealthManagement\Tasks\..MonthlyAnalysis.."Schedule health log recent development meeting with the members"<: [ 60m, "", 20261102 T 120859 ]
     - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data".Tasks.."Analyse Week45"<: [ 60m, "", 20261102 T 134842 ]
@@ -364,7 +364,7 @@ SR_20261112_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 10m, "", 20261108 T 104302 ]
     - -->!SubProjects\HealthManagement\Tasks\..WeeklyMovement.."Weekly"..Exercise.."Muscle Strength".."Analyse weekly exercise Data"<: [ 131m, "", 20261108 T 105344 ]
     - -->CurrentWork\Hana\Personal\.."Review finance week46"<: [ 60m, "", 20261108 T 154741 ]
-    - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis"<: [ 120m, "", 20261110 T 141414 ]
+    - -->Tasks\Management\.."Scheduling meeting about general workflow analysis for week 46"<: [ 120m, "", 20261110 T 141414 ]
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Move the health related things under the HealthManagement subproject"<: [ 15m, "", 20261110 T 201219 ]
     - --->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 24m, "", 20261111 T 120800 ]
     - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<: [ 28m, "", 20261111 T 141710 ]
@@ -404,7 +404,7 @@ SR_20261117_Hana:
 
 SR_NEXT_Hana:
   Was:
-    - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Finish the rest"<: [ 80m, "", 20261117 T 120632 ]
+    - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Finish the rest"<: [ 112m, "", 20261117 T 120632 ]
 
   Next:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets<".."Add a default value to each property-value where the values are from an enum, detailing the options"<

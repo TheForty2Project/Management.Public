@@ -415,7 +415,7 @@
       .Perform the following tasks:
         Details:
           - -->Tasks\Management\.."General management".."Task list reports (CSV)".."Maintenance"<
-          - -->Tasks\Miscellaneous\.."Health".."Do health log and daily reviews"<
+          - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<
     .DoWeeklyAdmin:
       Details:
         To be executed after each standup

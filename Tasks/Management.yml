@@ -450,7 +450,7 @@ InProgress .Plan and prepare Twitch streaming first phase:
       Hana:
         TF2P-Health (Can be scheduled early morning):
         Details: 
-        - Location: -->Tasks\Miscellaneous\.."Health".."Create a daily health tracking template to monitor sleep quality, bowel movements, mood, nutrition, hydration, and physical activity."<
+        - Location: -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements"<
         - Timing: 05:00-06:00
         - Topics:
           - Sleep Quality data analysis (Hana)

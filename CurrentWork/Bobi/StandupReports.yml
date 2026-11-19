@@ -237,7 +237,7 @@ SR_20260609_Bobi:
     - -->CurrentWork\Bobi\TasksToBeSorted\..Tasks20260608.."Create Architectural todos from the architectural tasks"<: [ 60m, "", 20260609 T 020042 ]
     - -->Tasks\Website\..Improvements.."Create content yamls".."The Abyss:_ Finish F2Yaml specification"<: [ 62m, "", 20260608 T 020042 ]
     - -->Tasks\Software\F2ToolsExtension\..Tasks.."Create proper basic Item structures library"<: [ 91m, "", 20260607 T 010042 ]
-    - -->Tasks\Miscellaneous\.."Health".."Health planning W20260608"<: [ 42m, "", 20260608 T 190042 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Health planning W20260608"<<: [ 42m, "", 20260608 T 190042 ]
     - Administration: 20m
   Next:
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<

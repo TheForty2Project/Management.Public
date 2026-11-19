@@ -1044,7 +1044,7 @@ OnGoing .Task administration:
       Version: 2.0.14
       Details:
         - Tested with -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
-        - It works with the summary link: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules"<
+        - It works with the summary link: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP Rules"<
 
   Fixed .Follow Link command does not work, giving the error "Cannot read properties of undefined (reading 'length')":
     QA: [ Hana, Bobi ]

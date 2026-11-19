@@ -231,8 +231,6 @@ IgnoreF2Links:
 - -->MyFunctionCall()<
 - -->RootItem..MyProject..MyItem<
 - -->F2Tool..System..Users< 
-- -->\..MyItem.ItemListProperty..Blah<
-- -->\..MyItem.ItemListProperty..Blah(1)<
 - -->MyItem."My Key 1".MyKey2<
 - -->Recruitment\JobDescriptions\.".Seniority classification for CSharp".Content<
 - -->BusinessClasses\."namespace Barba.Types"."enum TaskStatusEnum"< 
@@ -250,3 +248,9 @@ IgnoreF2Links:
 - -->Tasks\Archive\PublicRelations\<
 - --><
 - -->..Streaming..Activities.."Standup or Summary at the beginning and end"<
+- -->..MyItem.ItemListProperty..Blah(0)<
+- -->..MyItem.ItemListProperty..Blah(1)<
+- -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules"<
+- -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"<
+- -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428.Workspace.Tasks<
+- -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks.."Taskify and estimate".CreatedBy<

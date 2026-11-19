@@ -274,8 +274,7 @@
         .Post:
 
       .Holding Standup:
-        Type: ProcessDescription
-        Summary: 
+        Type: ProcessDescription        
         Workspace:
           Existing scribblings:
             Gaurav's notes:

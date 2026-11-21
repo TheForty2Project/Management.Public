@@ -260,7 +260,7 @@
                             MessageText: "I'll murder you!!!! You madafaggers."
             .CreateMMEntry:
               Summary: 
-                - PM creates a -->Barba.Types\."namespace Barba.Types"."class StandupMeetingMinutes"< entry into the -->MeetingMinutes\Standups\< file
+                - PM creates a -->BusinessClasses\.."StandupMeetingMinutes"< entry into the -->MeetingMinutes\Standups\< file
                 - PM analyses the previous standups and based on this, fills the meeting minutes
               Pseudocode:
                 - =new Barba.Types.StandupMeetingMinutes:
@@ -345,7 +345,7 @@
                 - PM analyses the previous standups blahblah puts things into the meeting minutes
             During:
               Done Include:
-                - Something like the -->Documents\ProcessDescriptions\.."Process Descriptions"..WorkProcesses.."General Management Duties".."Holding Standup".Workspace."Existing scribblings"<
+                - Something like the -->Documents\ProcessDescriptions\..ProcessDescriptions..WorkProcesses.."General Management Duties".."Holding Standup".Workspace<
                 - Does small edits to the SRs of ppl:
                   Requirements:
                     - SRs are commited before the meeting
@@ -381,7 +381,7 @@
       Situation:
         .FeatureCompleted: Implementer finished implementing CurrentlyImplementedReqs 
       General instructions:
-        - If Tester encounters any Bugs (during this process, e.g. during showcase or his/her own testing activities) then he/she records it (see the $@-->RecordBug<@$ process)        
+        - If Tester encounters any Bugs (during this process, e.g. during showcase or his/her own testing activities) then he/she records it (see the -->..RecordBug< process)        
       Steps:        
         - Implementer informs Tester which Requirements belong to the:
           - CurrentlyImplementedReqs
@@ -399,8 +399,7 @@
           - Tests the main flow
           - Tests the defined edge cases
           - Does ad-hoc testing, tries to "break" the software by presenting it unusual conditions, edge cases (this heavily relies on the skill and experience set of the Tester, his/her knowledge about what can be the conditions the Implementer might have missed). If no ideas, asks around (from Implementer, project members) what edge cases can be present, what to test.          
-    .RecordBug:
-      $@=TODO Write the RecordBug process@$
+    .RecordBug:      
     .GitBasedF2Workspace:
       Type: ProcessDescription
       Summary: Git (so no F2Tool) and F2Workspace based work process
@@ -560,7 +559,7 @@
                 - Dismount
                 - Commit and sync PasswordsAndAccesses.dat
             .Login again:
-              Details: execute -->Documents\ProcessDescriptions\.."Process Descriptions".."F2Tools extension"..PublishToMarketPlace..LoginAndGetToken..Login<
+              Details: execute -->Documents\ProcessDescriptions\..ProcessDescriptions.."F2Tools extension"..PublishToMarketPlace..Publish..LoginAndGetToken..Login<
         .Publish:
           .PackageAndTest:
             Details:
@@ -588,11 +587,11 @@
       Prerequisites:
         .F2ToolsExtension: The F2Tools extension is installed
       .CreateAndSpecifySRItem:
-        Summary: Creating the -->StandupReport< Item and signaling to the extension that this is the one it should log the time spent
+        Summary: Creating the -->BusinessClasses\.."StandupReport"< Item and signaling to the extension that this is the one it should log the time spent
         Actors: you
         Situation: 
         Steps:
-          - Create a new -->StandupReport< Item in your StandupReport.yml file under your workspace file:
+          - Create a new -->BusinessClasses\.."StandupReport"< Item in your StandupReport.yml file under your workspace file:
             - name it SR_[yyyymmdd]_[username], such as SR_20250114_Bobi:
                 Details:
                   - In the (hopefully rare) case there are multiple standups during the day, add the number of the standup preceded by an underscore, such as SR_20250114_Bobi_1 and SR_20250114_Bobi_2. (No, we should not start the numbering with "0", we are humans, first = 1st).

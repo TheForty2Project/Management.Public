@@ -62,7 +62,7 @@ Cancelled .Research and plan about Hashimoto disease:
 Deleted .Research and plan about kodney ultrasound:
   +: {CreatedBy: Hana, CreatedAt: 20260826 T 210104, By: Hana, Tags: [TLDone, Health], Estimation: , RemTime: , Importance: 3-Average}
   Comments:
-    - Bobi: this is duplicate (-->Tasks\Miscellaneous\..Health.."Schedule lab test and doctor appointments".."Kidney functions".."Research and decide about kidney ultrasound"<)
+    - Bobi: deleted because this is a duplicate of -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Schedule lab test and doctor appointments".."Kidney functions".."Research and decide about kidney ultrasound"<
 To be prioritized tomorrow:
 Done .Review health logs for yesterday for Bobi, Hana and Anita:
 Done .Prepare cake for Anita and count the calorie intake :

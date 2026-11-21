@@ -209,6 +209,7 @@ Done .Notes:
                   NumberProperty: 0 #meaning its value is 0
                   NumberProperty1: null #maning it's empty
     5-Done Must .FYamlBasics:
+      Id: F2YamlBasics
       Title: F2Yaml basics
       5-Done Must .Overview:
         Title: Overview
@@ -329,6 +330,7 @@ Done .Notes:
                         Id: MyTask2
 
       0-New Must .SpecialItems:
+        Id: SpecialItems
         Tags: [Semantics]
         Title: Special Items
         0-New Must .Overview:
@@ -351,9 +353,9 @@ Done .Notes:
         0-New Must .ClassDescription:          
           Title: Describing Items - the ClassDescription class
           Tasks:
-
       
       0-New Must .SubItems:        
+        Id: SubItems
         +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVDONE, OCWSPhase1, Syntax, Semantics], Estimation: 20, RemTime: 20}
         Tasks:
           InProgress .Create content:
@@ -377,6 +379,7 @@ Done .Notes:
               - The "BelongsTo" property of 
       
         1-SomeProgress Must .Item hierarchy aka the BelongsTo tree:
+          Id: BelongsToTree
           Content: |
             - Each Item has an "Item BelongsToItem" and "IdString? BelongsToProperty" property:                        
               - BelongsToItem is mandatory - except maybe for some root Item
@@ -731,7 +734,7 @@ Done .Notes:
           +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}
           Details:
             Summary:
-              An ItemReference inside the pre-postfix. See the -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or F2Links"..ItemReference< for item reference syntax.
+              An ItemReference inside the pre-postfix. See the -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..SyntaxDetailed..ItemRefsOrF2Links< for item reference syntax.
             Prefix:
               Variant1: "->"
               Variant2: "-->"
@@ -1243,7 +1246,7 @@ Done .Notes:
                 -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<:
                 -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<: 
                 -->Example.QueryDescription.MyItemListProp..Bumm<:
-        Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
+        Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:          
           Details:                
             For example in this case:
               Done .MyTask:

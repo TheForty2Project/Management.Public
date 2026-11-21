@@ -52,8 +52,8 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
 - SourceFilePath:                                                          ..\..\MeetingMinutes\Retrospectives.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
-- SourceFilePath:                                                          ..\..\Reports\Archive\OCWSPhase1.csv
-  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
+# - SourceFilePath:                                                          ..\..\Reports\Archive\OCWSPhase1.csv
+#   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
 - SourceFilePath:                                                          ..\..\Reports\Archive\TaskListDoneTasks.csv
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
 - SourceFilePath:                                                          ..\..\Reports\TaskListTasks.csv 
@@ -65,6 +65,8 @@ Files:
 - SourceFilePath:                                                          ..\..\Reports\HealthTasks.csv 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\Reports\TLAndDevTasks.csv 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
+- SourceFilePath:                                                          ..\..\Reports\Queries.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\System\Types.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\System
@@ -165,18 +167,45 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks
   
 IgnoreF2LinkPaths:
+- MeetingMinutes\Standups
+- LICENSE
 - CurrentWork\Bobi\TestMaterial
 - CurrentWork\Hana\Personal
 - CurrentWork\Hana\Schedules
 - Documents\F2YamlSpecification\BachusNaurForms.bnf
+- Documents\F2YamlSpecification\BachusNaurForms
 - Documents\PublishableArticles\DecisionFormalization
 - Documents\PublishableArticles\LogicalThinkingAndItsFormalization
 - Documents\PublishableArticles\SummaryArticle
 - Documents\PublishableArticles\ThePathOfImprovingDecisionMaking
 - Tasks\Archive\PublicRelations
 - Tasks\Archive
+- Documents\ContentToBePublished
 
 IgnoreF2Links:
+- -->Documents\F2YamlSpecification\BachusNaurForms\<
+- -->Tasks\Software\F2ToolsExtension\F2ToolsExtensionContent\ItemList<
+- -->[ItemReference]\<
+- -->[ItemReference]<
+- -->MyFile\..MyItem.MyProperty<
+- -->Backlog\Backlog\..PublicRelations..Outreach..""Collect Outreach ideas""."".Written Outreach""..""Write thoughts on X""..""Definition of Fair""<
+- -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
+- -->MyWorkFolder\Root\.."The main backlog".."Development tasks".."My Task"<
+- -->MyWorkFolder\Root\.."The main backlog".."Development tasks"..TaskNotHavingSummary<
+- -->MyWorkFolder\Root\..Backlog..Development..MyTask<
+- -->MyWorkFolder\Root\..Backlog..Development.."My Other Task not having Id"<                            
+- --> and <
+- -->" and "<
+- -->Barba.Types\-->Root..System..Types<
+- -->Barba.Types\-->Root..System..Types<.Summary<
+- -->..Tasks.SubTasks[2]<
+- -->", ends with "<
+- -->" <
+- -->..MyId..MyChildId<
+- -->This\Is..A..Link<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root.Summary<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root.."Summary"<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root..Summary<
 - -->Documents\Specifications\YamlToHtmlConversion\.Content<
 - -->Tasks\Miscellaneous.."Health".."Health planning W20260608"<
 - -->"Summary of an Item"..Blah<

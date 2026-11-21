@@ -1,7 +1,7 @@
 +: {Type: Folder, DefaultTypes: [Task, Folder]}
 
 Summary:
-  The Items we use for "business" purposes - e.g. Task, Requirement, etc. - on top of the "Standard" items you can find in -->System\Types\."namespace System.Types"<
+  The Items we use for "business" purposes - e.g. Task, Requirement, etc. - on top of the "Standard" items you can find in -->System\Types\<
 Comments:
 
 class .Task:
@@ -754,7 +754,7 @@ class .ProcessStep:
       Bool .Hot shower: No
       Bool .Reading book: No
       DateTime .Bed time: 01:00        
-      
+
   # Next Phase 
   # class .Decision:
   #   Summary: 

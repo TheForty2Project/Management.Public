@@ -1,5 +1,5 @@
 SR_20261023_Anita:
-  Was:    
+  Was:
     - -->CurrentWork\Anita\TasksToBeSorted\.."Understanding how the TaskToBeSorted part works"<: [ 42m, "", 20261021 T 232029 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Watch the video we recorded on Monday"<: [ 121m, "", 20261022 T 091605 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Learn how to create links"<: [ 5m, "", 20261023 T 114112 ]
@@ -7,7 +7,7 @@ SR_20261023_Anita:
   Next:
 SR_NEXT_Anita:
   Was:
-    - -->Tasks\Miscellaneous\..BusinessAnalysis.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita".."Showcase HealthLog to Anita"<: [ 27m, "", 20261023 T 115643 ]
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create health-log tracking requirements".."Showcase health-log to Bobi".."Showcase Health Log to Anita"<: [ 27m, "", 20261023 T 115643 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Learn how to log my own healthlog stuff"<: [ 19m, "", 20261024 T 183047 ]
     - -->CurrentWork\Anita\TasksToBeSorted\.."Make up for the healthlogs"<: [ 26m, "", 20261102 T 181448 ]
   Next:
@@ -31,3 +31,18 @@ SR_20261107_Anita:
 SR_20261109_Anita:
   Was:
     - -->CurrentWork\Anita\TasksToBeSorted\.."Research functional exercises"<: [ 80m, "", 20261109 T 174925 ]
+  Next:
+    - null
+SR_20261121_Anita:
+  Was:
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Plan for week 49"<: [ 28m, "", 20261121 T 231534 ]
+  Next:
+    - null
+SR_20261122_Anita:
+  Was:
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Daily healthlog"<: [ 9m, "", 20261122 T 233926 ]
+  Next:
+    - null
+SR_20261123_Anita:
+  Was:
+    - -->CurrentWork\Anita\TasksToBeSorted\.."Daily healthlogs"<: [ 0m, "", 20261124 T 000757 ]

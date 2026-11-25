@@ -106,5 +106,17 @@ Standup Process:
           Summary: Repeat this workflow for each standup meeting.
 
 
+Follow Link: 
+  Process:
+    - Follow the link 
+    - Not working find the link
+    - replace it with the correct link
+Missing Lists:
+  # - -->Tasks\Management\.."Management Tasks OCWSPhase1".."Migration of tasks to CSV".."Periodic syncs of Tasks-CSV".."SyncAt20260401"<
+  # - -->Tasks\Management\..Health.."Schedule exercises and include baba in the morning after waking up and evening before sleeping"<
+  # - -->Tasks\Miscellaneous\.."Health".."Family problem Solving"<
+  # - -->Tasks\Miscellaneous\.."Health".."Create food schedule for the next week"<
+  # - -->Tasks\Miscellaneous\.."Health".."Schedule and estimate activity for a week"<
+  # - -->Tasks\Miscellaneous\..Health.."Schedule and estimate activity for a week"<  
 
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

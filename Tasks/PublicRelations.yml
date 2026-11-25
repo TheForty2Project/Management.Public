@@ -53,7 +53,7 @@
         - StreamingTargetIsReached():
             Roughly:
             - IF (:
-                - -->.."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                - \"Establish regular and proper streaming" goal is reached, for 2 weeks consecutively
                 - AND we have at least 4 scheduled ones per week
                 - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
             - ): 
@@ -165,15 +165,15 @@ Done .Create outreach plan:
             - cooking + eating
             - hiking (need gimbal)
       we should be exploring the outreach ideas one by one:
-        -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Reddit"<:
+        -->Documents\PublicRelations\..OutReachIdeas.."Reddit"<:
           - find subreddits into which we can paste articles/questions
           - pick articles we want to post there:
             - one of them can be that question we posted on 9gag
-        -->Documents\PublicRelations\..OutReachIdeas."4-High Contact certain people"<:
+        -->Documents\PublicRelations\..OutReachIdeas.."Contact certain people"<:
           - collect and have ideas about how to contact them with what message, goals, etc.
-        -->Documents\PublicRelations\..OutReachIdeas."4-High Music listener of the same taste of music"<:
+        -->Documents\PublicRelations\..OutReachIdeas.."Music listener of the same taste of music"<:
           - whenever I (Bobi) like some music, post it on Soundcloud. Easypeasy.
-        -->Documents\PublicRelations\..OutReachIdeas."4-High Promote the F2Tools extension as a management tool"<:
+        -->Documents\PublicRelations\..OutReachIdeas.."Promote the F2Tools extension as a management tool"<:
           - find avenues where we can
           - collect the requirements - so when exactly we should be doing it?
         -->Documents\PublicRelations\..OutReachIdeas.."Programming buddies"<:
@@ -181,7 +181,7 @@ Done .Create outreach plan:
           - we need the tasks to be worked out properly (mostly by Bobi):
               Hana can shadow me though
           - takes time to ramp this up        
-        -->Documents\PublicRelations\..OutReachIdeas."5-VeryHigh Talks about Logic (what we started)"<:
+        -->Documents\PublicRelations\..OutReachIdeas.."Talks about Logic (what we started)"<:
           - plan the next steps
           - maybe we can do it after spending some time on streaming - so that we lose the stage fright thing
       at the moment this is a "trial" stage:
@@ -244,7 +244,7 @@ Done .Create outreach plan:
                 Areas and panels:
                   Categorize our work into areas (like Website, F2Tools dev, Management and admin, etc.):
                     - consider including non-work topics as well (like our evening talks)
-                    - ideas: -->..CreateOutreachPlan.."Create first draft".Result."streaming seems worth pursuing".topics<
+                    - ideas: -->Documents\PublicRelations\..OutReachIdeas< topics
                   Create Panels:
                   Reference these Areas/panels in the stream description:
                 Create clips:
@@ -271,7 +271,7 @@ Done .Create outreach plan:
                     - StreamingTargetIsReached():
                         Roughly:
                         - IF (:
-                            - -->.."Establish regular and proper streaming".Goal< is reached, for 2 weeks consecutively
+                            -  \"Establish regular and proper streaming" goal is reached, for 2 weeks consecutively
                             - AND we have at least 4 scheduled ones per week
                             - AND we do not miss too many scheduled streaming times (well... min 66% success rate, ideally 90% with some "apologies" in the 10% - but we'll see)
                         - ): 
@@ -287,8 +287,8 @@ Done .Create outreach plan:
                         HowTos:
                           - where should we click basically in which application in what order for what type of streaming                
           Explore further outreach ideas:
-            Mainly these - the ones marked with "TODO":
-              -->Tasks\PublicRelations\..CreateOutreachPlan.."Create first draft".Result."we should be exploring the outreach ideas one by one"<
+            Mainly these:
+              -->Documents\PublicRelations\..OutReachIdeas<
     Done .Taskify/Itemize the results of the previous Task:
       +: {CreatedBy: Bobi, CreatedAt: 20260525 T 163156, By: [Bobi, Hana], Estimation: 90, RemTime: 0}
       Details: So this -->..CreateOutreachPlan..Improve.."Create rough plan for taskification purposes".Result<

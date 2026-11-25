@@ -1,449 +1,305 @@
-namespace Barba.Types:
-  Summary:
-    The Items we use for "business" purposes - e.g. Task, Requirement, etc. - on top of the "Standard" items you can find in -->System\Types\."namespace System.Types"<
-  Comments:
-    - [Bobi, 20251208, "The name 'Barba' signals that it should be renamed but I have no good idea. The term 'Barba' is a homage to the children cartoon 'BarbaPapa'"]
++: {Type: Folder, DefaultTypes: [Task, Folder]}
 
-  class .Task:
-    Inherits: StandardItem
-    Properties:
-      TaskStatusEnum Status:
-          Mandatory: true
-      string Details:
-      #- string <-Workspace-:
-      string Estimation:
-        Summary: 
-          - the estimated time needed to complete the task, optionally the scenario description as well (so estimated when, by whom, for what case)          
-      Duration RemTime:
-        Summary:
-          - the remaining time needed to complete the task, set by the one working on it
-      string Result:
-        Summary: the result of the task, e.g. if it's a question, then the answer.
-      WorkLog[] WorkLog:
-        Summary: 
-        - a list of WorkLog entries; it is expected that the usual way of adding this entry is in a flow sequence of the values
-        - Example:
-            MyItem:
-              WorkLog:
-                - [bobi, 10m, "writing the above", 20250115T2015]
-                - [bobi, 1m, "writing this line"]
-      Task[] DependsOn:
-        Summary: This task depends on another task, meaning this can't be finished (or even started) until the other is done
-      Task[] Dependents:
-        Summary: The other tasks which depend on this task, meaning those can't be finished (or even started) until this is done
-      # Requirement[] Milestone:
-      #   Summary: The milestone(s) it belongs to
-      DateTime ScheduledAt:
-        Summary: If a task is scheduled to be done at a certain date/time, the datetime.
-        Notes: 
-          - The task should be in the "Scheduled" state.
-      Requirement ForRequirement:
-        Summary: The Requirement for which this Task is needed      
-      Task MaintenanceTasks:
-        Summary: The Task which is about maintaining this Task-tree - estimating, creating/organizing subtasks, etc.
-        Details: This can either contain the Task directly or link (f2link) to it
-      Task[] SubTasks:
-        Flags: [IsDefault]
-        #"IsDefault" flag means that this is the default list the system would populate with Items specified with the "." notation, e.g. if there is a Task: 
-        #
-        #MyTask:
-        #  SubTasks:
-        #    Apple:
-        #
-        #Then it can be written this way:
-        #
-        #MyTask:
-        #  .Apple:
-        #
-        #because the system would treat "Apple" as an element of the default array (SubTasks)      
-      User[] By:
-        Summary:
-          a list of users who (can) perform/contribute to the task. The first user is the responsible one.
-      TaskStatusEnum[] PreviousStatuses:
-        Summary:
-          a list of Statuses, containing the Status history of this Task.
-        Notes:
-          Temporary. Mostly for being able to know what was the status before a Task became "Blocked".
-          Should be removed when the same can be accomplished using event log - for which first we need the event log and a full F2Tool based functionality.
-      string Workspace:
-        Summary:
-          One can put any "work in progress" scribblings, notes, incomplete results here.
-        Notes:
-          Replacing the <-Workspace- "extension property" as at the moment these types of properties will be supported in much later phases only (if at all)
-          
-  class .WorkLog:
-    Properties:
-      - User Performer:
-          Mandatory: true
-      - Duration Spent:
-          Mandatory: true
-      - string ActivityDescription:
-      - DateTime Start:
-    Notes:
-      - It is expected that the usual format of entering this data is the values in a sequence format: 
-          That is: [username, spentTime, optionalActivityDescription, optionalStartTime]
-          Example: [bobi, 10m, "writing this", 20250115 T 2015]
+Summary:
+  The Items we use for "business" purposes - e.g. Task, Requirement, etc. - on top of the "Standard" items you can find in -->System\Types\<
+Comments:
 
-  enum .TaskStatusEnum:
-    .DraftTODO:
-        Details: the initial status.
-    .TODO:
-        Details: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
-    .EstTODO:
-        Details: 
-          - it's estimated how long it would take to finish the task
-          - in larger tasks you should only start working on a task (ideally...) after it reached this status
-    .InProgress:
-        Details: the task is in progress (being worked on)
-    .Done:
-    .CurrentFocus:
-      Details:
-        There should be only 1 CurrentFocus "tree"; it's highlighted (if using CustomColoring) on the right hand side bar          
-    .Blocked:
-      Details:
-        The Task is blocked by another Task
-      Notes: If a Task is set to this status then there should be a "DependsOn:" property added as well, signaling what other task or circumstance is blocking the one in this status.
-    .NEXT:
-      Details:
-        The Task should be performed only after all the previous Tasks are done (in the parent Task)
-    .Scheduled:
-      Details: the Task is scheduled to be performed at a certain time
-      Notes: If a Task is set to this status, then there should be a "ScheduledAt:" property set for the task
-    .OnGoing:
-      Details: 
-        - The task is going on for a long time, on-off. 
-        - Example: a Task for preparing for the standup, which happens every day, with the same steps, so instead of creating a new Task for each, you create one in this status and log the hours to it every day.
-    .OnHold:
-        Details: No work should be done on the task until further notice.
-    .Cancelled:
-        Details: The task should not be done at all.
-    .Paused:
-        Details: The task is paused due to needing to concentrate on other Tasks
-    .Closed:
-        Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
-
-  class .Bug:
-    Inherits: Task
-    Properties:
-      BugStatus BugStatus:
-      User QA:
-      string Version:
-      string Area:
-        Summary:
-          the functionality group of the app - like "login"
-      Levels Severity:
-      string ActualResult:
-      string ExpectedResult:
-      string Steps:      
-        Summary:
-          what steps the QA performed, what was the result and what is the expectation
-      Retest[] Retest:
-        User QA:
-        string Version:
-        string Details:
-        string ActualResult:
-        string ExpectedResult:
-        string Steps:
-
-  enum .BugStatus:
-    Members:
-      New:
-      Accepted:
-      Rejected:      
-      Fixing:
-      Fixed:
-      Retesting:
-      RetestFail:
-      RetestSuccess:
-      Closed:
-      OnHold:
-  
-  enum .ZeroToThree:
-    Members:
-      Zero:
-      One:
-      Two:
-      Three:
-
-  enum .Levels:
-    Members:
-      0-Zero:
-      1-VeryLow:
-      2-Low:
-      3-Average:
-      4-High:
-      5-VeryHigh:
-      6-Extreme:
-      7-OMG:
-
-  
-    
-  class .TestCase:
-    Inherits: StandardItem
-    Properties:
-      Requirement Requirement:
-      string Preconditions:
-      string TestSteps:
-      string ExpectedResult:
-
-  class .Requirement:
-    Inherits: StandardItem
-    Properties:
-      string .Details:
-      Requirement[] .Parts:
-        IsDefault: true
-      Requirement[] .RequiresRequirement:
-      RequirementStatusEnum .ReqStatus:      
-      Area .ForArea:
-      User[] .By:
-        Summary:
-          a listof users who (can) perform/contribute to the task. The first user is the responsible one.
-      Task[] .Tasks:
-        Summary:
-          the task(s) implementing this requirement (i.e. when they are done, the requirement should be fulfilled (~done))
-      
-      
-    ##Methods:
-    ##- void DoSomething(): =>SomeFunction()
-    Notes:
-      Equivalent to (at the time of writing the below):
-        ItemType:
-          Type: ClassDescription
-          Id: Requirement
-          Properties:
-          - new: 
-              Id: Details
-              Type: string              
-          - new:
-              Id: Parts
-              IsList: True
-              Type: Requirement                
-          - new:
-              Id: RequiresRequirement
-              IsList: True
-              Type: Requirement
-          - new:
-              Id: Status
-              Type: RequirementStatusEnum
-          - new:
-              Id: CurrentValue
-              Type: integer  
-
-  class .Milestone:
-    Inherits: Requirement
-    Properties:
-      Task[] Tasks:
-        Summary: Tasks need to be completed to complete a Milestone
+class .Task:
+  Inherits: StandardItem
+  Properties:
+    TaskStatusEnum .Status:
+        Mandatory: true
+    string .Details:
+    #- string <-Workspace-:
+    string .Estimation:
+      Summary: 
+        - the estimated time needed to complete the task, optionally the scenario description as well (so estimated when, by whom, for what case)          
+    Duration .RemTime:
+      Summary:
+        - the remaining time needed to complete the task, set by the one working on it
+    string .Result:
+      Summary: the result of the task, e.g. if it's a question, then the answer.
+    WorkLog[] .WorkLog:
+      Summary: 
+      - a list of WorkLog entries; it is expected that the usual way of adding this entry is in a flow sequence of the values
+      - Example:
+          MyItem:
+            WorkLog:
+              - [bobi, 10m, "writing the above", 20250115T2015]
+              - [bobi, 1m, "writing this line"]
+    Task[] .DependsOn:
+      Summary: This task depends on another task, meaning this can't be finished (or even started) until the other is done
+    Task[] .Dependents:
+      Summary: The other tasks which depend on this task, meaning those can't be finished (or even started) until this is done
+    # Requirement[] Milestone:
+    #   Summary: The milestone(s) it belongs to
+    DateTime .ScheduledAt:
+      Summary: If a task is scheduled to be done at a certain date/time, the datetime.
+      Notes: 
+        - The task should be in the "Scheduled" state.
+    Requirement .ForRequirement:
+      Summary: The Requirement for which this Task is needed      
+    Task .MaintenanceTasks:
+      Summary: The Task which is about maintaining this Task-tree - estimating, creating/organizing subtasks, etc.
+      Details: This can either contain the Task directly or link (f2link) to it
+    Task[] .SubTasks:
+      Flags: [IsDefault]
+      #"IsDefault" flag means that this is the default list the system would populate with Items specified with the "." notation, e.g. if there is a Task: 
+      #
+      #MyTask:
+      #  SubTasks:
+      #    Apple:
+      #
+      #Then it can be written this way:
+      #
+      #MyTask:
+      #  .Apple:
+      #
+      #because the system would treat "Apple" as an element of the default array (SubTasks)      
+    User[] .By:
+      Summary:
+        a list of users who (can) perform/contribute to the task. The first user is the responsible one.
+    TaskStatusEnum[] .PreviousStatuses:
+      Summary:
+        a list of Statuses, containing the Status history of this Task.
+      Notes:
+        Temporary. Mostly for being able to know what was the status before a Task became "Blocked".
+        Should be removed when the same can be accomplished using event log - for which first we need the event log and a full F2Tool based functionality.
+    string .Workspace:
+      Summary:
+        One can put any "work in progress" scribblings, notes, incomplete results here.
+      Notes:
+        Replacing the <-Workspace- "extension property" as at the moment these types of properties will be supported in much later phases only (if at all)
         
-  enum .RequirementType:
-    Members:
-      Requirement:
-        IsDefault: true
-      MileStone:
+class .WorkLog:
+  Properties:
+    User .Performer:
+        Mandatory: true
+    Duration .Spent:
+        Mandatory: true
+    string .ActivityDescription:
+    DateTime .Start:
+  Notes:
+    - It is expected that the usual format of entering this data is the values in a sequence format: 
+        That is: [username, spentTime, optionalActivityDescription, optionalStartTime]
+        Example: [bobi, 10m, "writing this", 20250115 T 2015]
 
-  enum .RequirementStatusEnum:
-    Members:
-      New: 
-          Summary: Initial Status
-      Drafting:
-          Summary: In process of creating first draft
-      Draft:
-          Summary: First Draft, subjected to review/polishing
-      Reviewed:
-          Summary: 
-            - After a review and fixes, ready for taskification, no more - major - changes expected
-            - A task is created for taskification
-      ReadyForDev:
-          Details: 
-            - Cost/Value calculations done so that it can be prioritized and scheduled: 
-              - Taskified and tasks estimated
-              - value estimated (how much work it would save per avg user or what other value it has)
-      InDev:
-          Details:
-            - Development started            
-      Implemented:
-          Details: 
-            - Feature development finished
-      InQA:
-          Details: 
-            - Under testing
-            - no feature development any more
-      BugFixing:
-          Details: 
-            - Bugs are being fixed
-            - Should not go back to INQA if testing is still on going but all bugs got fixed momentarily
-      QAPassed:
-          Summary: QA passed
-      Done:
-          Summary: All activites are - supposedly - done
-      Closed:
-          Summary: All activities are surely done; the Requirement can be archived.
-    Comments:
-      Bobi: >
-        Equivalent to (at least at the time of writing):
-          new Enumeration:
-            Id: RequirementStatusEnum
-            Members:
-            - new: 
-                Id: New
-                Summary: Initial Status                
-            - new:
-                Id: Drafting
-                Summary: In process of creating first draft
-            - new:
-                Id: Draft
-                Summary: First Draft
-            - new:
-                Id: Reviewed
-                Summary: After a review
-            - new:
-                Id: ReadyForDev
-                Summary: Value estimated
-            - new:
-                Id: Developing
-                Summary: When development starts
-            - new:
-                Id: ReadyForQA
-                Summary: When development is done
-            - new:
-                Id: InQA
-                Summary: Under testing
-            - new:
-                Id: BugFixing
-                Summary:                 
-            - new:
-                Id: QAPassed
-                Summary: QA passed
-            - new:
-                Id: Closed
-                Summary: Everything is done around the feature.
-    
-  class .Area:
-    Summary: Describes an Area in which the project needs to progress - such as F2Tool capability level, number of members or resources, process development level
-    Inherits: StandardItem
-    Properties:
-      string Details:
-      Area[] SubAreas:
-        IsDefault: true
-      Milestone[] Milestones:
+enum .TaskStatusEnum:
+  .DraftTODO:
+      Details: the initial status.
+  .TODO:
+      Details: when the task description is done (i.e. it's written down what needs to be done so that the one doing it would understand without needing to ask questions)
+  .EstTODO:
+      Details: 
+        - it's estimated how long it would take to finish the task
+        - in larger tasks you should only start working on a task (ideally...) after it reached this status
+  .InProgress:
+      Details: the task is in progress (being worked on)
+  .Done:
+  .CurrentFocus:
+    Details:
+      There should be only 1 CurrentFocus "tree"; it's highlighted (if using CustomColoring) on the right hand side bar          
+  .Blocked:
+    Details:
+      The Task is blocked by another Task
+    Notes: If a Task is set to this status then there should be a "DependsOn:" property added as well, signaling what other task or circumstance is blocking the one in this status.
+  .NEXT:
+    Details:
+      The Task should be performed only after all the previous Tasks are done (in the parent Task)
+  .Scheduled:
+    Details: the Task is scheduled to be performed at a certain time
+    Notes: If a Task is set to this status, then there should be a "ScheduledAt:" property set for the task
+  .OnGoing:
+    Details: 
+      - The task is going on for a long time, on-off. 
+      - Example: a Task for preparing for the standup, which happens every day, with the same steps, so instead of creating a new Task for each, you create one in this status and log the hours to it every day.
+  .OnHold:
+      Details: No work should be done on the task until further notice.
+  .Cancelled:
+      Details: The task should not be done at all.
+  .Paused:
+      Details: The task is paused due to needing to concentrate on other Tasks
+  .Closed:
+      Details: The task is not only done, but the information described in it is not expected to be necessary in the future and therefore can be archived - e.g. it does not have a Result field OR the information there is not necessary for any future tasks 
 
-  class .UseCase:
-    Inherits: StandardItem
-    Properties:
-      UseCaseStatusEnum UCStatus:
-        Summary: Signaling the maturity of the UC
-      User[] Actors:
-        Summary: The actors performing the actions in the UC
-      string Given:
-        Summary: The conditions we expect to be true - like user is logged in, has rights, etc.
-      string When:
-        Summary: At what point/circumstance the UC is triggered
-      UCFlows Flows:
-        Summary: The "Then" part, or, what should happen in the main and any non-main flows
-      UCFlow[] AlternateFlows:
-        IsDefault: true
+class .BugReportBase:
+  Inherits: StandardItem
+  Properties:
+    User .QA:
+    string .Version:
+    string .Steps:      
+      Summary:
+        what steps the QA performed, what was the result and what is the expectation
+    string .ActualResult:
+    string .ExpectedResult:
+    BugRetest[] .Retest:
 
-  enum .UseCaseStatusEnum:
-    Members:
-      0-New:
-      1-SomeProgress:
-      2-HighLevel:
-      3-Detailing:
-      4-AlmostDone:
-      5-Done:
-      6-Reviewed:
-      7-Mature:
-      8-Gandalf:
-        Summary:
-          this is a magically good state, a UC made by a simple human should not be able to reach this
+class .Bug:
+  Inherits: BugReportBase
+  Properties:
+    BugStatus .BugStatus:
+    string .Area:
+      Summary:
+        the functionality group of the app - like "login"
+    Levels .Severity:
 
-  class .UCFlows:    
-    Properties:
-      UCFlow Main:
-      UCFlow[] Alternate:
-        IsDefault: true
+class .BugRetest:
+  Inherits: BugReportBase
 
-  class .UCFlow:
-    Inherits: StandardItem
-    Properties:
-      UCStep[] Steps:
-        Summary: The steps to be taken by the actor(s)
+enum .BugStatus:
+  .New:
+  .Accepted:
+  .Rejected:      
+  .Fixing:
+  .Fixed:
+  .Retesting:
+  .RetestFail:
+  .RetestSuccess:
+  .Closed:
+  .OnHold:
 
-  class .UCStep:
-    Inherits: StandardItem
-    Summary: The textual description of a step in a flow of an UseCase
-    Properties:
-      UCStep[] Steps:
-        IsDefault: true   
+enum .ZeroToThree:
+  .Zero:
+  .One:
+  .Two:
+  .Three:
 
-  class .StandupReport:
-    Inherits: StandardItem
-    Properties:
-      StandupWasEntry[] Was:
-        Details: what happened since the last standup
-      StandupNextEntry[] Next:      
-        Details: what is the plan until the next standup
-      string[] AOIB:
-        Details: any other important business worth mentioning - like "I won't be available in the afternoon", "I need a discussion about something"
+enum .Levels:
+  .0-Zero:
+  .1-VeryLow:
+  .2-Low:
+  .3-Average:
+  .4-High:
+  .5-VeryHigh:
+  .6-Extreme:
+  .7-OMG:
 
-  class .StandupWasEntry:
-    Inherits: Item
-    Properties:
-      F2Link Link:
-        Details: a link to the Task worked on
-      string Note:
-        Details: any notes about what happened with the task - e.g. "took longer time because encountered a time consuming issue"
-      Duration Spent:
-        Details: how much time was spent on it
-      TimeStamp StartedAt: 
-        Details: when was the task started
-    Notes:
-      - The following format is the recommended one:
-          Format:
-            Link: [Spent, Note, StartedAt]
-          Example:
-            -->Tasks\Management\..Administration<: [42m, "Cleanups", 20260422 T 1304]
+
   
-  class .StandupNextEntry:
-    Inherits: Item
-    Properties:
-      F2Link Link:
-        Details: a link to the Task worked on
-      string Note:
-        Details: any notes about what is expected to be done on the task - e.g. "plan and start it"
-      Duration ExpectedDuration:
-        Details: how much time is expected to be spent on it
-    Notes:
-      - The following format is the recommended one:
-          Format:
-            Link: [Spent, Note]
-          Example:
-            -->Tasks\Management\..Administration<: [30m, "plan and start it"]
+class .TestCase:
+  Inherits: StandardItem
+  Properties:
+    Requirement .Requirement:
+    string .Preconditions:
+    string .TestSteps:
+    string .ExpectedResult:
 
-  class .StandupMeetingMinutes:    
-    Inherits: StandardItem
-    Properties:
-      User ScrumMaster:
-      User[] Participants:
-      string ScrumMasterQuestions:      
-      DateTime NextStandupPlannedAt:
-      User NextStandupScrumMaster:
+class .Requirement:
+  Inherits: StandardItem
+  Properties:
+    string .Details:
+    Requirement[] .Parts:
+      IsDefault: true
+    Requirement[] .RequiresRequirement:
+      Summary:
+        a list of Requirements on which this depends on - i.e. completing this requirement requires completing this list of Requirements as well
+    RequirementStatusEnum .ReqStatus:
+    Area .ForArea:
+    User[] .By:
+      Summary:
+        - a list of users who should be participating to the writing of this Requirement
+        - the first user is the responsible one.
+    Task[] .Tasks:
+      Summary:
+        the task(s) implementing this requirement (i.e. when they are done, the requirement should be fulfilled (~done))
+        
+  ##- void DoSomething(): =>SomeFunction()
+  Notes:
+    At the time of writing (20261119) the above is equivalent to one of the "no syntax sugars" format:
+      <ClassDescription>:
+        Id: Requirement
+        Properties:
+        - Id: Details
+          Type: string              
+        - Id: Parts
+          IsList: True
+          Type: Requirement
+        - Id: RequiresRequirement
+          IsList: True
+          Type: Requirement
+        - Id: ReqStatus
+          Type: RequirementStatusEnum
+        - Id: ForArea
+          Type: Area
+        - Id: By
+          IsList: True
+          Type: User
+        - Id: Tasks 
+          IsList: True
+          Type: Task
+        - Id: User
 
-  class .Article:
-    Inherits: StandardItem
-    Properties:
-      string Title:
-      string Details:
-      string Content:
-      Article[] Parts:
-        IsDefault: true
-      ArticleMaturity Maturity:
+class .Milestone:
+  Inherits: Requirement
+      
+enum .RequirementType:
+  .Requirement:
+    IsDefault: true
+  .MileStone:
 
-  class .Notes:
-    Inherits: Article
+enum .RequirementStatusEnum:
+  .New: 
+      Summary: Initial Status
+  .Drafting:
+      Summary: In process of creating first draft
+  .Draft:
+      Summary: First Draft, subjected to review/polishing
+  .Reviewed:
+      Summary: 
+        - After a review and fixes, ready for taskification, no more - major - changes expected
+        - A task is created for taskification
+  .ReadyForDev:
+      Details: 
+        - Cost/Value calculations done so that it can be prioritized and scheduled: 
+          - Taskified and tasks estimated
+          - value estimated (how much work it would save per avg user or what other value it has)
+  .InDev:
+      Details:
+        - Development started            
+  .Implemented:
+      Details: 
+        - Feature development finished
+  .InQA:
+      Details: 
+        - Under testing
+        - no feature development any more
+  .BugFixing:
+      Details: 
+        - Bugs are being fixed
+        - Should not go back to INQA if testing is still on going but all bugs got fixed momentarily
+  .QAPassed:
+      Summary: QA passed
+  .Done:
+      Summary: All activites are - supposedly - done
+  .Closed:
+      Summary: All activities are surely done; the Requirement can be archived.
   
-  enum .ArticleMaturity:
-    Members:
+class .Area:
+  Summary: Describes an Area in which the project needs to progress - such as F2Tool capability level, number of members or resources, process development level
+  Inherits: StandardItem
+  string .Details:
+  Area[] .SubAreas:
+    IsDefault: true
+  Milestone[] .Milestones:
+
+class .UseCase:
+  Inherits: StandardItem
+  Properties:
+    UseCaseStatusEnum .UCStatus:
+      Summary: Signaling the maturity of the UC
+    User[] .Actors:
+      Summary: The actors performing the actions in the UC
+    string .Given:
+      Summary: The conditions we expect to be true - like user is logged in, has rights, etc.
+    string .When:
+      Summary: At what point/circumstance the UC is triggered
+    UCFlows .Flows:
+      Summary: The "Then" part, or, what should happen in the main and any non-main flows
+    UCFlow[] .AlternateFlows:
+      IsDefault: true
+
+enum .UseCaseStatusEnum:
+  Members:
     .0-New:
     .1-SomeProgress:
     .2-HighLevel:
@@ -453,32 +309,165 @@ namespace Barba.Types:
     .6-Reviewed:
     .7-Mature:
     .8-Gandalf:
+      Summary:
+        this is a magically good state, a UC made by a simple human should not be able to reach this
 
-  class .ProcessDescription:
-    Inherits: StandardItem
-    Properties:
-      string[] Actors:
-      string[] PreRequisites:
-      ProcessStep[] Steps:
-        IsDefault: true
+class .UCFlows:    
+  Properties:
+    UCFlow .Main:
+    UCFlow[] .Alternate:
+      IsDefault: true
 
-  class .ProcessStep:
-    Inherits: StandardItem
-    Properties:
-      string Actor:
-        Summary: one of the actors
-      string Details:
-        Summary: the detailed description of what needs to be done
-      ProcessStep[] SubSteps:
-        IsDefault: true
+class .UCFlow:
+  Inherits: StandardItem
+  Properties:
+    UCStep[] .Steps:
+      Summary: The steps to be taken by the actor(s)
+
+class .UCStep:
+  Inherits: StandardItem
+  Summary: The textual description of a step in a flow of an UseCase
+  Properties:
+    UCStep[] .Steps:
+      IsDefault: true   
+
+class .StandupReport:
+  Inherits: StandardItem
+  Properties:
+    StandupWasEntry[] .Was:
+      Details: what happened since the last standup
+    StandupNextEntry[] .Next:      
+      Details: what is the plan until the next standup
+    string[] .AOIB:
+      Details: any other important business worth mentioning - like "I won't be available in the afternoon", "I need a discussion about something"
+
+class .StandupWasEntry:
+  Inherits: Item
+  Properties:
+    ItemReference .Link:
+      Details: a link to the Task worked on
+    string .Note:
+      Details: any notes about what happened with the task - e.g. "took longer time because encountered a time consuming issue"
+    Duration .Spent:
+      Details: how much time was spent on it
+    TimeStamp .StartedAt: 
+      Details: when was the task started
+  Notes:
+    - The following format is the recommended one:
+        Format: |
+          [F2Link]: [Spent, Note, StartedAt]
+        Example:
+          -->Tasks\Management\..Administration<: [42m, "Cleanups", 20260422 T 1304]
+
+class .StandupNextEntry:
+  Inherits: Item
+  Properties:
+    ItemReference .Link:
+      Details: a link to the Task worked on
+    string .Note:
+      Details: any notes about what is expected to be done on the task - e.g. "plan and start it"
+    Duration .ExpectedDuration:
+      Details: how much time is expected to be spent on it
+  Notes:
+    - The following format is the recommended one:
+        Format:
+          Link: [Spent, Note]
+        Example:
+          -->Tasks\Management\..Administration<: [30m, "plan and start it"]
+
+class .StandupMeetingMinutes:    
+  Inherits: StandardItem
+  Properties:
+    User .ScrumMaster:
+    User[] .Participants:
+    string .ScrumMasterQuestions:      
+    DateTime .NextStandupPlannedAt:
+    User .NextStandupScrumMaster:
+
+class .Article:
+  Inherits: StandardItem
+  Properties:
+    string .Title:
+    string .Details:
+    string .Content:
+    Article[] .Parts:
+      IsDefault: true
+    ArticleMaturity .Maturity:
+
+class .TrainingSessionReport:
+  Inherits: StandardItem
+  string .Focus:
+  Exercise[] .Exercises:
+  UploadDescription .Uploads:
+  SummaryAnalysis .SummaryAnalysis:
+
+class .SummaryAnalysis:
+  Inherits: Item
+  Duration .Duration:
+  string[] .Muscles:
+  string .Observations:
+  string .Improvements:
+
+class .Exercise:
+  Inherits: StandardItem
+  integer .Sets:
+  integer .RepsGoal:
+  integer .Reps:
+  string[] .Muscles:
+  string .Variation:
+  string .Notes:
+
+class .UpladDescription:
+  Inherits: Item
+  string .Exercises:
+  MeasurementUploadDescription .Measurements:
+
+class .MeasurementUploadDescription:
+  string .Photos:
+  string .MeasurementData:
+
+class .Notes:
+  Inherits: Article
+
+enum .ArticleMaturity:
+  Members:
+  .0-New:
+  .1-SomeProgress:
+  .2-HighLevel:
+  .3-Detailing:
+  .4-AlmostDone:
+  .5-Done:
+  .6-Reviewed:
+  .7-Mature:
+  .8-Gandalf:
+
+class .ProcessDescription:
+  Inherits: StandardItem
+  Properties:
+    string[] .Actors:
+    string[] .PreRequisites:
+    ProcessStep[] .Steps:
+      IsDefault: true
+
+class .ProcessStep:
+  Inherits: StandardItem
+  Properties:
+    string Actor:
+      Summary: one of the actors
+    string Details:
+      Summary: the detailed description of what needs to be done
+    ProcessStep[] SubSteps:
+      IsDefault: true
 
 .HealthLogClasses:
+
   class .DailyHealthLog:
     Inherits: StandardItem
     Properties:    
       EventLogBase[] .Morning:
       EventLogBase[] .Afternoon:
       ...:
+
   class .Food:
     Inherits: EventLogBase
     Summary: 
@@ -490,6 +479,7 @@ namespace Barba.Types:
     OneToThree .Quantity:
       Summary: |
         1: Small, 2: medium, 3: large                      
+
   class .Drugs:
     Inherits: EventLogBase
     Description: 
@@ -501,14 +491,18 @@ namespace Barba.Types:
       string .Name: 
       Integer .Dosage: 
       string .Unit:                       
+
   class .Digestion:
     Inherits: EventLogBase                  
     Summary: 
       Records bowel movements and digestive symptoms.
       Useful for identifying patterns involving food,
       movement, stress, and gastrointestinal function.
-
-    OneToSeven .Bristol: 
+    BristolPoopika .Bristol: 
+    Bloating .Bloating:
+    AbdominalPain .AbdominalPain:
+    Flatulence .Flatulence:
+    Belching .Belching:
 
   enum .BristolPoopika:
     .1-HardLumps:
@@ -526,7 +520,7 @@ namespace Barba.Types:
     .7-WateryNoSolids:
       Details: Watery no soild pieces
 
-    ZeroToFive .Bloating:
+    
   enum .Bloating:
     .0-Zero:
       Details: No Bloating
@@ -540,8 +534,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details:
-
-    ZeroToFive .AbdominalPain:
+    
   enum .AbdominalPain:
     .0-Zero:
       Details: 
@@ -555,7 +548,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details:
-    ZeroToFive .Flatulence:
+    
   enum .Flatulence:
     .0-Zero:
       Details: 
@@ -569,7 +562,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details:
-    ZeroToFive .Belching:   
+    
   enum .Belching: 
     .0-Zero:
       Details: 
@@ -583,6 +576,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details:
+
   class .Movement:
     Inherits: EventLogBase                  
     Summary: 
@@ -594,6 +588,7 @@ namespace Barba.Types:
     Duration .Duration:
     OneToThree .Intensity:
       Summary: Easy / Moderate / Hard
+
   class .Work:
     Inherits: EventLogBase                  
     Summary:
@@ -602,7 +597,13 @@ namespace Barba.Types:
 
     string .ActivityDesc:
     Duration .Duration:
-    OneToFive .Focus:
+    Focus .Focus:
+    MindPower .MindPower:
+      Summary:
+        how easy it is to solve a standard problem:
+          1: simple bureaucracy (e.g. paying bills) is problematic
+          5: give me the tough math problems
+
   enum .Focus:
     .0-Zero:
       Details: Inability to work, in front of the computer but not able to grasp the task
@@ -616,11 +617,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details: super interested, people can talk around me; the "flow state"
-    OneToFive .MindPower:
-      Summary:
-        how easy it is to solve a standard problem:
-          1: simple bureaucracy (e.g. paying bills) is problematic
-          5: give me the tough math problems
+
   enum .MindPower:
     .0-Zero:
       Details: 
@@ -634,6 +631,7 @@ namespace Barba.Types:
       Details:
     .5-Five:
       Details: super interested, pe
+
   class .LifeEvent:
     Inherits: EventLogBase                  
     Summary: 
@@ -665,7 +663,8 @@ namespace Barba.Types:
     FaceCondintion .Face:
     NailCondition .Nails:
     AbdomenCondition .Abdomen:
-    GeneralCondition .General:                    
+    GeneralCondition .General:     
+
   class .SkinCondition:
     integer .Acne:
       Summary: How many NEW ones appeared
@@ -673,21 +672,25 @@ namespace Barba.Types:
       Summary: One - good; Two - dry; Three - very dry
     bool .Paleness:
     bool .Rash:
+
   class .FaceCondition:
     OnetoThree .Puffiness: 
       Summary: One - Normal; Two - Slight Puffy; Three - Very Puffy
     string .Location: 
       Summary:  Eyes / Cheeks / Whole face
+
   class .NailCondition:
     string .Color:
     string .Ridges:
     string .ShapeChange: 
+
   class .AbdomenCondition:
     OneToThree .Bloating: 
       Summary: One - Normal; Two - Bloated; Three - Pregnant bloated
     OneToFive .Pain:
       Summary: One - No pain; Two - Slightly painful; Five - unbearable pain; 
     string .Location: 
+
   class .GeneralCondition:
     OneToThree .Fatigue: 
       Summary: One - Light Fatigue; Two - Medium Fatigue; Three - High Fatigue 
@@ -699,6 +702,7 @@ namespace Barba.Types:
       Summary: the location if so
     string .Swelling:
       Summary: the location if so
+
   class .MenstrualCycle:
     Summary: 
       Records menstrual cycle timing, bleeding,
@@ -710,7 +714,7 @@ namespace Barba.Types:
     CycleInfo .Cycle:
     BleedingInfo .Bleeding:                    
     MenstruationSymptoms .Symptoms:
-  
+
   class .CycleInfo:
     integer .Day:
       Summary: Day 1 = first day of menstrual bleeding
@@ -750,44 +754,45 @@ namespace Barba.Types:
       Bool .Hot shower: No
       Bool .Reading book: No
       DateTime .Bed time: 01:00        
-    # Next Phase 
-    # class .Decision:
-    #   Summary: 
-    #     Details:
-    #       Records deliberate choices intended to achieve
-    #       a goal or change the current state.
-    #     e.g.:
 
-    #   Properties:
-    #     string .CurrentState:
-    #     string .DesiredState:
-    #     string[] .Options:
-    #     string .ChosenAction:
-    #     string .ExpectedOutcome:
+  # Next Phase 
+  # class .Decision:
+  #   Summary: 
+  #     Details:
+  #       Records deliberate choices intended to achieve
+  #       a goal or change the current state.
+  #     e.g.:
 
-    # class .Intervention:
-    #   Summary: 
-    #     Details:
-    #       Records an intentional action taken to influence
-    #       a specific state or symptom.
-    #       Unlike a general event, it has an explicit purpose.
-    #     E.g.:
+  #   Properties:
+  #     string .CurrentState:
+  #     string .DesiredState:
+  #     string[] .Options:
+  #     string .ChosenAction:
+  #     string .ExpectedOutcome:
 
-    #   Properties:
-    #     Action: null
-    #     Target: null
-    #     Duration: null
-    #     ExpectedEffect: null
-    #     Notes: null
+  # class .Intervention:
+  #   Summary: 
+  #     Details:
+  #       Records an intentional action taken to influence
+  #       a specific state or symptom.
+  #       Unlike a general event, it has an explicit purpose.
+  #     E.g.:
 
-    #   11_Outcome:
-    #     Description: 
-    #       Records the observed result of an action,
-    #       decision, or intervention.
+  #   Properties:
+  #     Action: null
+  #     Target: null
+  #     Duration: null
+  #     ExpectedEffect: null
+  #     Notes: null
 
-    #     Properties:
-    #       RelatedEventID: null
-    #       ObservedChange: null
-    #       DesiredOutcomeAchieved: null
-    #       Notes: null
+  #   11_Outcome:
+  #     Description: 
+  #       Records the observed result of an action,
+  #       decision, or intervention.
+
+  #     Properties:
+  #       RelatedEventID: null
+  #       ObservedChange: null
+  #       DesiredOutcomeAchieved: null
+  #       Notes: null
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one.  (EOF = End of File)

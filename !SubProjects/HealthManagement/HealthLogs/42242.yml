@@ -4704,7 +4704,7 @@ Month of Oct:
           Notes: 
         <Work>:
           Time: 1356
-          ActivityDesc: -->Tasks\Miscellaneous\..Health.."Health planning"."Health log data entry and exercise plan".."Daily"<
+          ActivityDesc: -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<
           Duration: 
           Focus: 2
           MindPower: 2
@@ -6597,33 +6597,157 @@ Month of Nov:
             Summary:
             Notes:
         - <Digestion>:
-            Time:
-            Bristol:
+            Time: 08:05
+            Bristol: 2
             Bloating:
             AbdominalPain:
             Flatulence:
             Belching:
             Summary:
-            Notes:
+            Notes: Constipated and did it in the gym haha
+        - <Movement>:
+          Time: 08:10
+          Activity: lower ex
+          Duration: 2.1 h
+          Intensity: Moderate
+          Summary: 
+          Notes: got tired after the gym ( my face is puffu again)
+      Afternoon:
+        - <Work>:
+            Time: 11:00
+            ActivityDesc: work with Anita, REPLST with Robi
+            Duration: 3 h
+            Focus: 2
+            MindPower: 2
+            Summary:
+            Notes: still tired, drank a lot of water
+        - <Food>:
+            Time: 15:00
+            MealDescription: Pancake, pudding, oatmeal
+            Quantity: low
+            Summary:
+            Notes: was in a hurry needed to go 
+        - <Movement>:
+            Time: 15:15
+            Activity: walk
+            Duration: 20
+            Intensity:
+            Summary:
+            Notes: walked to the meeting place with Agi
+        - <Food>:
+          Time: 16:30
+          MealDescription: Chicken Soup
+          Quantity: low
+          Summary: 
+          Notes: 
+      Evening:
+        - <Movement>:
+          Time: 20:30
+          Activity: walk 
+          Duration: 20m
+          Intensity: wasy
+          Summary: 
+          Notes: 
+        - <SleepHygiene>:
+           Preparing Next Day Task: task for tuesday and scheduling
+           Drugs: yes
+           Hot Shower: yes
+           ReadingBook:
+           BedTime:
+    42242_20261125_Incomplete:
+      Morning:
+        - <SystemState>:
+            Time: 08:00
+            ThinkingQuality: 3
+            Motivation: 3
+            PhysicalEnergy: 3
+            BodyBattery: +52
+            Rumination: 3
+            Summary: 
+            Notes: Despite the high score of thinking, motivation and physical energy, I stioll had numeration but was able to control it by go walking under the cold. Forced plan from yesterday
+        - <MenstrualCycle>:
+            Cycle:
+              Day: 25
+              Phase: Luteal phase
+        - <Sleep>:
+            BedTime:  12:06
+            SleepTime: 12:06
+            WakeTime: 9:03
+            Duration: 8h 39m
+            SleepScore: 67
+            BodyBatteryGained: +52
+            Summary:
+            Notes: sleep was light ( I can wake up from any sound or small movements)
+        - <Food>:
+            Time: 09:30
+            MealDescription: dark coffee without sugar, Oats
+            Quantity: low
+            Summary:
+            Notes: I wasnt hungry and I felt full. walked it through
+        - <Movement>:
+            Time: 10:30
+            Activity: walk
+            Duration: 20
+            Intensity: easy
+            Summary:
+            Notes: I took myself out of my thoughts ( I just left my identity as Hana ( i think i very egoistic))
+        - <Digestion>:
+            Time: 10:30
+            Bristol: 4
+            Bloating:
+            AbdominalPain:
+            Flatulence:
+            Belching:
+            Summary:
+            Notes: perfect poop 
+        - <Work>:
+          Time: 11:00
+          ActivityDesc: healthlog and preparation for REPLST
+          Duration: 1 h
+          Focus: 2
+          MindPower:  2
+          Summary: 
+          Notes: 
+        - <LifeEvent>:
+          Time: 11:10
+          EventDescription: Disagreement and almost a fight
+          EmotionalImpact: Heavy
+          Summary: after movement, Robi is preparing for food. Guest arrived, and Robi was not comfortable with guest checking in early since there is no priovacy. He wasnted to dance with Hana ( morning movements). This contributed to prolong the bad mood. 
+          Notes: 
+            Inside Hanas Head: 
+              - triggerred fight or flight by seeing Robis conition and mood. 
+              - Thoughts of this is not working came back 
+              - New thoughts of go out side, walk came 
+              - walk and some exercise altered the mood 
+            Inside Robis Head: 
+              - Not the proper time to ask since he is not in a good mood still
+        - <Movement>:
+          Time: 11:30
+          Activity: Walk
+          Duration: 10 m
+          Intensity: easy
+          Summary: 
+          Notes: 
+        - 
       Afternoon:
         - <SystemState>:
-           Time: 0705
-           ThinkingQuality: 
-           Motivation: 
-           PhysicalEnergy: 
-           BodyBattery: 
-           Rumination: 
+           Time: 13:00
+           ThinkingQuality: 2
+           Motivation: 2
+           PhysicalEnergy: 2 
+           BodyBattery: 57
+           Rumination: 2
            Summary: 
            Notes: 
         - <Drugs>:
-            Time:
-            Name:
-            Dosage:
-            Unit:
+            Time: 13:30
+            Name: K
+            Dosage: 0.5
+            Unit: g
             Summary:
-            Notes:
+            Notes: 
         - <Work>:
-            Time:
+            Time: 
             ActivityDesc:
             Duration:
             Focus:
@@ -6645,14 +6769,14 @@ Month of Nov:
             Notes:
       Evening:
         - <SystemState>:
-           Time: 0705
-           ThinkingQuality: 
-           Motivation: 
-           PhysicalEnergy: 
-           BodyBattery: 
-           Rumination: 
-           Summary: 
-           Notes: 
+            Time: 1331
+            ThinkingQuality: 
+            Motivation: 
+            PhysicalEnergy: 
+            BodyBattery: 
+            Rumination: 
+            Summary: 
+            Notes: 
         - <Work>:
             Time:
             ActivityDesc:
@@ -6661,14 +6785,23 @@ Month of Nov:
             MindPower:
             Summary:
             Notes:
+      End of day analysis:
+        - <Hydration>:
+           WaterIntakeMl:
+           ElectrolyteIntakeMl:
+           CaffeineIntakeMg:
+           UrineColor:
+           UrinationFrequency:
+           SweatLevel:
+           BloodPressure:
+           HydrationSymptoms:
+           Notes:
         - <SleepHygiene>:
            Preparing Next Day Task:
            Drugs:
            Hot Shower:
            ReadingBook:
            BedTime:
-
-
 Tasks:
   - Refine system state and define enum 
   - Include hydration                                                                                               
@@ -6689,7 +6822,7 @@ Tasks:
 Notes To be done:
   - Done Add Sleep Time to 
   - Done Add Body battery gained in sleep property
-  - Legend for numeration
+  - TODO .Legend for numeration
   - Done Include stool score and type
   - Include Sexual activity and thoughts
   - Include productivity hours of the day calculated from StandUp report

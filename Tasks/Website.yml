@@ -127,8 +127,7 @@ Done .Initial Website:
         ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary of Project in a sentence roughly"<
         Done .Provide baseline:
           Result:
-            Basically: $@-->PublicRelations/OutreachMaterial..OneSentenceDescription<@$
-            Which is at the time of writing (20250405T1844): "We're a community welcoming everyone in the end, aimed to cooperate in the most optimal, 21st century way: using computers for increasing the decision-making performance (quality and speed) by distributing the decision-computation tasks in between members and computers, with the goal of full automation, finally getting away from the (ancient) hierarchical managements where human minds are computing them.
+            Basically: "We're a community welcoming everyone in the end, aimed to cooperate in the most optimal, 21st century way: using computers for increasing the decision-making performance (quality and speed) by distributing the decision-computation tasks in between members and computers, with the goal of full automation, finally getting away from the (ancient) hierarchical managements where human minds are computing them.
 
               We're starting small, iteratively optimising our cooperation abilities, aiming to switch Earth on."
         Done Discuss it with the team:
@@ -357,8 +356,6 @@ Done .Back to original:
   Id: BackToOrigi
   Done .Work this Task out:
     Details:
-      Base it on:
-        - $@-->!PublicWorkspaces\Hana\Websiterephase1\.."Reorganize the -->Backlog\Development\..Website<"<@$:
       Make sure that these are also included:
         -->Tasks\Website\..Websitephase1.."Deepdive section development"<:
         -->Tasks\Website\..Improvements..JoinMission.."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo"<:
@@ -708,7 +705,7 @@ Done .Back to original:
                 Id: Links
                 +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
                 Details:
-                  Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
+                  Put them into -->Documents\WebsiteContent\Watch\Watch\< "Our streans on Twitch"
                 Done .Twitch:
             Done .Finalize and publish:
               Id: Publish
@@ -941,7 +938,7 @@ Done .Back to original:
                     +: {CreatedBy: Bobi, CreatedAt: 20250901, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
                     Details:
                       - Make sure that syntax, semantics and currently used types and conventions are not mixed and/or it's clear what is part of what
-                      - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"<
+                      - See: -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch<
                 Done .Barba.Types:
                   +: {CreatedBy: Bobi, By: Bobi, Tags: [CSVDONE, OCWSPhase1], Estimation: 30m (timeboxed)}
                   Importance: 5-VeryHigh
@@ -1527,8 +1524,8 @@ Done .Back to original:
 
         Now some commonly used notations:
           Note: 
-            - For the (hopefully or at least soon) complete syntax please check the -->F2YamlSpecification<.
-            - For the definition of the Items used throughout The Abyss see the -->System.Types< and --><
+            - For the (hopefully or at least soon) complete syntax please check the -->Documents\F2YamlSpecification\F2Yaml\<.
+            - For the definition of the Items used throughout The Abyss see the -->System\Types< and -->BusinessClasses\<
 
           <Status> <Summary> as header:
 
@@ -1549,7 +1546,7 @@ Done .Back to original:
           TODO .Create a ToC like thing from this:
             +: {CreatedBy: Bobi, CreatedAt: 20251220 T 011726, By: Bobi, Tags: [CSVDONE], Estimation: "20", RemTime: "20"}
             Details:
-              - See: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."4-AlmostDone Must .Overview"."4-AlmostDone Must .Summary"<
+              - See: -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..Overview..Summary<
       TODO .Specifics:
         TODO .BelongsTo:
           +: {CreatedBy: Bobi, CreatedAt: 20251220, By: Bobi, Tags: [CSVDONE], Estimation:, RemTime:}
@@ -1600,7 +1597,7 @@ Done .Back to original:
       -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert urls and email addresses"<:
       -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Detect and convert links inside text"<:
       -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Follow local links"<:
-      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links"<:
+      -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase.."Detect and convert f2yaml links".."Fix links first round"<:
   TODO .Add some space after the colon after the map keys:
     +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210556, By: Bobi, Tags: [Before1stPost, TL]}
   TODO .Fold/unfold buttons should be on the left hand side (like in VS Code):
@@ -1765,7 +1762,7 @@ Done .Back to original:
             - type "f2filetohtml.exe" and press enter
             - check if no errors - if errors, try to fix them      
       Done .List the file that can be published in DeepDive:
-        +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TL], Estimation: , RemTime: , Importance: 3-Average}        
+        +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TLDone], Estimation: , RemTime: , Importance: 3-Average}        
         Result:
           - SubProjects: 
             Health section:
@@ -1782,7 +1779,7 @@ Done .Back to original:
           - Under Documents Publishable articles | Note: it should be reviewed before publishing.. 
           - Website content  
       Done .Review it with Bobi:
-        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: , RemTime: , Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [Before1stPost, TLDone], Estimation: , RemTime: , Importance: 3-Average}
       EstTODO .Add to app.js, test, deploy:
         Id: AddToAppJs
         +: {CreatedBy: Bobi, CreatedAt: 20261115 T 151552, By: [Bobi], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 4-High}
@@ -1911,11 +1908,11 @@ Done .Back to original:
       Id: RoadMapBasic
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213151, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
       Details:
-        See the Result of -->..Provide rough estimate"<
+        See the Result of -->.."Provide rough estimate"<
     EstTODO .Designed, non-generated:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213236, By: Bobi, Tags: [CSVTODO], Estimation: 150, RemTime: 150}
       Details:
-        See the Result of -->..Provide rough estimate"<            
+        See the Result of -->.."Provide rough estimate"<            
   EstTODO .Shadows site todos:
     Id: ShadowsSite
     +: {CreatedBy: Bobi, CreatedAt: 20260518 T 013645}

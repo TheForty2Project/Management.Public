@@ -1,4 +1,4 @@
-+: { Type: Folder, AllowedTypes: [ Task, Folder ] }
++: { Type: Folder, AllowedTypes: [ Article, Folder ] }
 Physical:
   Body composition:
     - check the old googlesheet body measurement

@@ -64,7 +64,7 @@
             - review the values used vs. what's defined and update the definition if necessary
           - Changes:
             - BodyBattery in Sleep should be "BodyBatteryGain"
-      TODO .Update the hos vs code snippets:
+      TODO .-->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets"<:
         +: {CreatedBy: Bobi, CreatedAt: 20261103 T 140030, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 4-High}
         Details:
         TODO .Entries inside should be lists (so add a dash in front of them):

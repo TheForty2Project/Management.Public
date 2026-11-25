@@ -3,7 +3,7 @@ OutputFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss
 WorkspaceRoot: ..\..\
 WebsiteRoot: https://deepdive.tf2p.org/read/DeepDive/
 WebsiteRootFSFolder: ..\..\..\theforty2project.org\content\Read\DeepDive\
-F2LinkReportOutputFolder: ..\..\..\F2LinkReports\
+F2LinkReportOutputFolder: .\Reports\
 
 Files:
 - SourceFilePath:                                                 ..\..\CurrentWork\Bobi\Workspace.yml
@@ -52,8 +52,8 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
 - SourceFilePath:                                                          ..\..\MeetingMinutes\Retrospectives.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\MeetingMinutes
-- SourceFilePath:                                                          ..\..\Reports\Archive\OCWSPhase1.csv
-  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
+# - SourceFilePath:                                                          ..\..\Reports\Archive\OCWSPhase1.csv
+#   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
 - SourceFilePath:                                                          ..\..\Reports\Archive\TaskListDoneTasks.csv
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports\Archive  
 - SourceFilePath:                                                          ..\..\Reports\TaskListTasks.csv 
@@ -65,6 +65,8 @@ Files:
 - SourceFilePath:                                                          ..\..\Reports\HealthTasks.csv 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\Reports\TLAndDevTasks.csv 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
+- SourceFilePath:                                                          ..\..\Reports\Queries.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Reports
 - SourceFilePath:                                                          ..\..\System\Types.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\System
@@ -98,8 +100,26 @@ Files:
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
 - SourceFilePath:                                                          ..\..\Tasks\Software\F2FileToHtmlConverter.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks\Software\  
-- SourceFilePath:                                                          ..\..\!SubProjects\HealthManagement\Tasks.yml 
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Tasks.yml 
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\DietInfo.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\HealthLog.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\Movement.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\Recipes.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\Documents\ScheduleRequirement.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\Documents
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\Aerobic.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\FunctionalTraining.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\Goals.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
+- SourceFilePath:                                                         ..\..\!SubProjects\HealthManagement\ExerciseReport\ResistanceTraining.yml 
+  TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\SubProjects\HealthManagement\ExerciseReport
   
   
   
@@ -146,7 +166,48 @@ Files:
 - SourceFilePath:               ..\..\Documents\WebsiteContent\DeepDive\TheAbyss\Tasks\Software.yml
   TargetFolderPath: ..\..\..\theforty2project.org\content\Read\DeepDive\TheAbyss\Tasks
   
+IgnoreF2LinkPaths:
+- MeetingMinutes\Standups
+- LICENSE
+- CurrentWork\Bobi\TestMaterial
+- CurrentWork\Hana\Personal
+- CurrentWork\Hana\Schedules
+- Documents\F2YamlSpecification\BachusNaurForms.bnf
+- Documents\F2YamlSpecification\BachusNaurForms
+- Documents\PublishableArticles\DecisionFormalization
+- Documents\PublishableArticles\LogicalThinkingAndItsFormalization
+- Documents\PublishableArticles\SummaryArticle
+- Documents\PublishableArticles\ThePathOfImprovingDecisionMaking
+- Tasks\Archive\PublicRelations
+- Tasks\Archive
+- Documents\ContentToBePublished
+
 IgnoreF2Links:
+- -->Documents\F2YamlSpecification\BachusNaurForms\<
+- -->Tasks\Software\F2ToolsExtension\F2ToolsExtensionContent\ItemList<
+- -->[ItemReference]\<
+- -->[ItemReference]<
+- -->MyFile\..MyItem.MyProperty<
+- -->Backlog\Backlog\..PublicRelations..Outreach..""Collect Outreach ideas""."".Written Outreach""..""Write thoughts on X""..""Definition of Fair""<
+- -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
+- -->MyWorkFolder\Root\.."The main backlog".."Development tasks".."My Task"<
+- -->MyWorkFolder\Root\.."The main backlog".."Development tasks"..TaskNotHavingSummary<
+- -->MyWorkFolder\Root\..Backlog..Development..MyTask<
+- -->MyWorkFolder\Root\..Backlog..Development.."My Other Task not having Id"<                            
+- --> and <
+- -->" and "<
+- -->Barba.Types\-->Root..System..Types<
+- -->Barba.Types\-->Root..System..Types<.Summary<
+- -->..Tasks.SubTasks[2]<
+- -->", ends with "<
+- -->" <
+- -->..MyId..MyChildId<
+- -->This\Is..A..Link<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root.Summary<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root.."Summary"<
+- -->MyFolder\Thisisadot.my\My Yaml\..Root..Summary<
+- -->Documents\Specifications\YamlToHtmlConversion\.Content<
+- -->Tasks\Miscellaneous.."Health".."Health planning W20260608"<
 - -->"Summary of an Item"..Blah<
 - -->..MyTask.SubTasks..MySubTask1< -->..MyTask..MySubTask1<
 - -->..MyItem.MyItemProperty..MyAnotherItem.LinkToThis< -->..MyItem.MyItemProperty.LinkToThis<
@@ -163,22 +224,12 @@ IgnoreF2Links:
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(0).LinkToThis1<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList.."My Task".LinkToThis1<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(0).LinkToThis2<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..MyTask(1).LinkToThis3<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList..<NonStandardItem>(1).LinkToThis4<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<Task>.LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..MyTask.LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2.."My Task".LinkToThis5<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemList2..<NonStandardItem>.LinkToThis6<
-- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
-- -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
 - -->CurrentWork\Bobi\Test\..MyItem.MyNonStandardItemList..<NonStandardItem>(0).LinkToThis7<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..<Task>.LinkToThis9<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty..MyTask.LinkToThis9<
@@ -189,8 +240,6 @@ IgnoreF2Links:
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3..MyTask.LinkToThis11<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty3.."My Task".LinkToThis11<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
-- -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
 - -->CurrentWork\Bobi\Test\..MyItem.MyItemProperty4..LinkToThis12<
 - -->Banana<
 - -->Root..Projects..Barba..Types<
@@ -211,10 +260,6 @@ IgnoreF2Links:
 - -->MyFunctionCall()<
 - -->RootItem..MyProject..MyItem<
 - -->F2Tool..System..Users< 
-- -->Root..SomeItem<
-- -->Root..SomeItem<
-- -->\..MyItem.ItemListProperty..Blah<
-- -->\..MyItem.ItemListProperty..Blah(1)<
 - -->MyItem."My Key 1".MyKey2<
 - -->Recruitment\JobDescriptions\.".Seniority classification for CSharp".Content<
 - -->BusinessClasses\."namespace Barba.Types"."enum TaskStatusEnum"< 
@@ -224,8 +269,18 @@ IgnoreF2Links:
 - -->Backlog\Backlog\..PublicRelations..Recruitment..RecruitmentPhase1.."Advertise the job description in different platform"<
 - -->Backlog\Development\..Processes..PM.VerifyAndImprove.Baseline<
 - -->Tasks\Processes\..Members.."Initial Interview".."Baseline"<
-- -->CurrentWork\Bobi\TestMaterial\<
 - -->Tasks\Management\..Administration<
 - -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules".".F2Yaml syntax"<
 - -->Tasks\Software\F2ToolsExtension\..Bugs.."Unable to follow links where a summary part ends with dot".Details.Example."MyItem."<
-- -->Tasks\Archive\<
+- -->Tasks\Archive<
+- -->Tasks\Archive\PublicRelations<
+- -->Tasks\Archive\PublicRelations\<
+- --><
+- -->..Streaming..Activities.."Standup or Summary at the beginning and end"<
+- -->..MyItem.ItemListProperty..Blah(0)<
+- -->..MyItem.ItemListProperty..Blah(1)<
+- -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP rules"<
+- -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"<
+- -->MeetingMinutes\Plannings\..MeetingNotes..Planning20260428.Workspace.Tasks<
+- -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks.MaintenanceTasks.."Taskify and estimate".CreatedBy<
+- -->Root.Projects.Barba.MyTask<

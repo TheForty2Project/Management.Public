@@ -88,7 +88,7 @@ InProgress .MVPLeftAsOf20250730:
                   =TODO MyBlah:
                     Details: blah blah
       Done .Go through the requirements and check the little features I was planning to include:
-      Result: -->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"<
+      Result: -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..SyntaxDetailed<
     OnGoing .Update specification for F2Yaml.MVP:
       Id: UpdateSpecs
       Details:
@@ -271,7 +271,7 @@ InProgress .MVPLeftAsOf20250730:
     TODO .F2Link upgrades:
       TODO .Make F2Link support pointing to an Item in the default list property of the preceding Item:
         Details:
-          See @ $@-->Documents\F2YamlSpecification\F2Yaml\."3-Detailing Must .F2Yaml.MVP Rules Sketch"."3-Detailing Must .F2Yaml syntax detailed"."1-SomeProgress Must .Item references or F2Links"..F2Link.Tasks.."Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id."<@$
+          See @ -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..SyntaxDetailed..ItemRefsOrF2Links.Tasks.."Problem:_ Link to Items with various headers and properties"<
     TODO .FunctionGenerator.GetFunctionFromStaticMethodInfo(MethodInfo? method) should ask for BelongsTo:
     TODO .The parser should expect that in later stages there will be meta info coming along the yaml:
       Details: |
@@ -1032,7 +1032,7 @@ InProgress .MVPLeftAsOf20250730:
       Details:
         - we'd need a "syntax sugar" way of defining flag enums        
     
-DraftTODO BasicOrMVPPlus:
+DraftTODO .BasicOrMVPPlus:
   .Features:
     Paused .Workout:_ the "Children" feature - how they should be displayed in Workspaces setting:
       Tags: [Workspaces]
@@ -1137,7 +1137,7 @@ DraftTODO BasicOrMVPPlus:
         probably implement (and use a little) the first Console services:
     Blocked .Change Item baseline:
       Id: ChangeItem
-      DependsOn: -->Tasks\Software\TheF2Tool\."DraftTODO BasicOrMVPPlus"..Services..DecideIfWeNeedChangeItem<
+      DependsOn: -->Tasks\Software\TheF2Tool\.."BasicOrMVPPlus"..Services..DecideIfWeNeedChangeItem<
       PreviousStatuses: [EstTODO]          
       Estimation: 2h
       Details:

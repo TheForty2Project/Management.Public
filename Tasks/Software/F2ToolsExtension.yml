@@ -461,7 +461,7 @@ OnGoing .Task administration:
         - Create an "IsItemYaml(yamlNode: yaml.Node):boolean" function in F2YamlWorkspaceItem which returns true if it matches according to the above requirement
         - Update the existing parsing functionalities in F2YamlWorkspaceItem          
     EstTODO .Proper configuration support:
-      +: {CreatedBy: Bobi, CreatedAt: 20260916 T 235835, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 30, Importance: 3-Average}
+      +: {CreatedBy: Bobi, CreatedAt: 20260916 T 235835, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Details:
         - Fix the configuration mess
         - Load the configuration 
@@ -664,6 +664,10 @@ OnGoing .Task administration:
     Done .Implement IdHierarchy:
       +: {CreatedBy: Bobi, CreatedAt: 20261110 T 142317, By: Bobi, Tags: [Dev, F2Tools], Estimation: 80, RemTime: 20, Importance: 3-Average}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..ReportEnhancements..BasicSelectFunctions..Functions.."IdHiearchy"<
+    Done .Automatic aligning of CSV columns:
+      +: {CreatedBy: Bobi, CreatedAt: 20261125 T 142109, By: Bobi, Tags: [DevDone, F2Tools], Estimation: 30, RemTime: 0, Importance: 3-Average}
+      Requirement: -->Documents\Requirements\F2ToolsExtension\..ReportEnhancements.."Automatic aligning of CSV columns"<
+      
   InProgress .F2Link class based F2Link handling:
     Id: F2LinkClass
     +: {CreatedBy: Bobi, CreatedAt: 20260616 T 224605, By: Bobi}
@@ -797,7 +801,7 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260620 T 213712, By: Bobi}
     TODO .Create the concept and the Tasks for the others:
       +: {CreatedBy: Bobi, CreatedAt: 20260604 T 143728, By: Bobi}
-  InProgress .Proper escaping in Summary part of F2Links:
+  EstTODO .Proper escaping in Summary part of F2Links:
     Id: F2LinkEscaping
     +: {CreatedBy: Bobi, CreatedAt: 20260521 T 150503, By: Bobi, Tags: [Dev, F2Tools], Estimation: 40, RemTime: 40}
     Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkEscaping<
@@ -817,10 +821,10 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 232403, By: Bobi, Tags: [CSVDONE], Estimation: "30", RemTime: "0"}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
     EstTODO .Create proper readme:
-      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [F2Tools, Dev], Estimation: 90, RemTime: 90}
+      +: {CreatedBy: Bobi, CreatedAt: 20260520 T 164900, By: Bobi, Tags: [Dev, F2Tools], Estimation: 90, RemTime: 90}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialReadme<
     EstTODO .Create License:
-      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [F2Tools, Dev], Priority: 3-Average, Estimation: 60, RemTime: 60}
+      +: {CreatedBy: Bobi, CreatedAt: 20250901 T 134531, By: Bobi, Tags: [Dev, F2Tools], Priority: 3-Average, Estimation: 60, RemTime: 60}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..Docs..InitialLicense<
     Done .V2.0.25:
       +: {CreatedBy: Bobi, CreatedAt: 20260424 T 121346, By: Bobi, Tags: [CSVDONE], Estimation: "15", RemTime: "0"}
@@ -831,7 +835,7 @@ OnGoing .Task administration:
     Done .Package and add to repo V3.1.1:          
       +: {CreatedBy: Bobi, CreatedAt: 20260826 T 142417, By: Bobi, Tags: [TLDone], Estimation: , RemTime: , Importance: 5-VeryHigh}
     Done .Package and add to repo V3.1.2:
-      +: {CreatedBy: Bobi, CreatedAt: 20261021 T 232016, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 4-High}
+      +: {CreatedBy: Bobi, CreatedAt: 20261021 T 232016, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20, Importance: 4-High}
       
       
 
@@ -1341,54 +1345,54 @@ OnGoing .Task administration:
         - Time resumes on the the previous task
 
   Fixed .During F2Link generation the first part of the file path is missing:
-    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 132153, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
   Accepted .If a map key is a number, it can't parse it as an Id:
-    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [F2Tools, Dev], Estimation:, RemTime:}
+    +: {CreatedBy: Bobi, CreatedAt: 20260703 T 151149, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
   Fixed .Error:_ This command only works with YAML files:
-    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20}
+    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163355, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20}
     Details:
       - when starting a timer on a task, even though it starts it, still, displays the message in the title
     Comments:
       - Bobi: non reproducible
   Fixed .After a command - e.g. start timer on task - the cursor goes to the output window:
-    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 10}
+    +: {CreatedBy: Bobi, CreatedAt: 20260722 T 163735, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 10}
   Fixed .Report generation is messed up:
-    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140422, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 140422, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
     Version: 3.1.0
     FixVersion: 3.1.1
     Details:
       - if there is a TaggedBy filter - does not work, no lines
       - if there's none - emits all kind of (not too...) funny things as CSV rows
   Fixed .Caching does not work in ItemManager:
-    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [F2Tools, Dev], Estimation: 30, RemTime: 0, Importance: 3-Average}      
+    +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141129, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 0, Importance: 3-Average}      
     Version: 3.1.0
     FixVersion: 3.1.1
   Fixed .Incorrect default for Where LeavesOnly:
-    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132442, By: Bobi, Tags: [F2Tools, Dev], Estimation: 10, RemTime: 0, Importance: 3-Average}    
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132442, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 0, Importance: 3-Average}    
   Fixed .Unknown prefixes:
-    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20, Importance: 1-VeryLow}
     Details:
       - Could, Should, Must, Estimated, Obsolete
       - Fix only if it's very easy as this will be obsolete when proper type handling is introduced
   Fixed .Report needs to be generated twice for the changes to be taken into account:
-    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143803, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 4-High}
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 143803, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20, Importance: 4-High}
     Version: 3.1.0
     FixVersion: 3.1.1
     Comments:
       - [Bobi, 20260825, "Bug is probably around caching - and maybe some await is the solution"]
   OnHold .F2Link contains 'ERROR' if the top level key does not start with a dot:        
-    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [F2Tools, Dev], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
+    +: {CreatedBy: Bobi, CreatedAt: 20260825 T 202134, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60, Importance: 1-VeryLow}
     Version: 3.1.0
     Details:
       This is with the "new" f2link generator (used for CSV report generation)
     Comments:
       - [Bobi, 20260825, "It's a user error not to start the key with a dot (most of the times) so low prio."]
   Fixed .The file name part in F2Link does not get generated for certain Items:
-    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 134116, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260826 T 134116, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Version: 3.1.0
     FixVersion: 3.1.1
   Fixed .Unknown prefixes for Bugs:
-    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [F2Tools, Dev], Estimation: 20, RemTime: 20, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20260809 T 132252, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20, Importance: 3-Average}
     Version: 3.1.1    
     Details:
       - Fixed is definitely missing, others probably as well

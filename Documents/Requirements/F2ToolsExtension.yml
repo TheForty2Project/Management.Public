@@ -994,8 +994,9 @@ InDev .Proper escaping in Summary part of F2Links:
 Drafting .QueryDescription based report generation enhancements:
   Id: ReportEnhancements
   +: {CreatedBy: Bobi, CreatedAt: 20260729 T 023911, By: Bobi}
-  Draft .Automatic aligning of CSV columns:
+  InQA .Automatic aligning of CSV columns:
     +: {CreatedBy: Bobi, CreatedAt: 20260811 T 221905, By: Bobi}
+    Task: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Automatic aligning of CSV columns"<
     Details:
       - Same functionality as "Align" in RainbowCSV
       - boolean AlignColumns property of QueryDescription

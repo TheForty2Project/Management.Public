@@ -151,7 +151,7 @@ Comments:
               - Each governor should be registered into the IOC container as a named registration for IGovernor, with their class name as name
               - IMainGovernor is an "empty" IGovernor descendant interface; Governors capable of being the "main" governor - which can start others and perform general initialization, etc. - should implement this instead of IGovernor
             .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Core".."Technical Architecture".."Basic Starter and Governor based architecture".."Governor".."Basic Governor"<:
-            .-->Documents\Requirements\TheF2Tool\..F2Tool..F2Server..Governor..Basic<:
+            .-->Documents\Requirements\TheF2Tool\..F2Tool.."F2Server".."F2Server scaffoldings".."Governor"..Basic<:
         <-Task-:
           Done Clean up the previous loaders and things:
             WorkLog:
@@ -831,7 +831,7 @@ Comments:
           Id: Basic
           Estimation: 2d
           Details:
-            - There's a -->*\Barba.Types.ProcessInfo< Item in a special Folder ("RunningProcesses") about each running process:
+            - There's a -->System\Types\Processes\.."ProcessInfo"< Item in a special Folder ("RunningProcesses") about each running process:
             - Each process runs in its own thread
             - Each is provided with a context - either by providing it through some global variables or through a parameter. Containing (at least):
                 - "this": a variable containing the Item the function is part of (if any)
@@ -1444,7 +1444,7 @@ Comments:
       Estimation: 26h
       Details:
         Overview:
-          - Workspaces are a set of folders and files, described by a workspace descriptor Item $@~Barba.Types.WorkspaceDescription@$. If managed by the F2Tool, they serve as an interface for manipulating and querying Items and running commands; a file based interface for manipulating and querying Items.:
+          - Workspaces are a set of folders and files, described by a workspace descriptor Item -->System\Types\Workspaces\.."WorkspaceDescription"<. If managed by the F2Tool, they serve as an interface for manipulating and querying Items and running commands; a file based interface for manipulating and querying Items.:
           - Workspaces are somewhat similar to workspaces + git in VS Code:
             - The workspace can be "cloned" into a local folder, like in "git clone":
               - "GetWorkspace wsName targetFolder"
@@ -1455,7 +1455,7 @@ Comments:
             - One edits the Items in the files and then instructs the tool to process it - like the "commit" and "sync" commands in Git.
         Details:
           Workspace descriptor Item:
-            There's a workspace descriptor Item -->Barba.Types.WorkspaceDescription<, describing:
+            There's a workspace descriptor Item -->System\Types\Workspaces\.."WorkspaceDescription"<, describing:
               - a file structure organized into folders
               - where files contain Items (parts), Queries (and their results) and commands
           Files and folders:
@@ -1537,7 +1537,7 @@ Comments:
               - No namespace, using support
               - PAR time: 1d
         Details:
-          - There are $@WorkspaceDescription@$ Items, stored under System/CurrentUser/Workspaces
+          - There are -->System\Types\Workspaces\.."WorkspaceDescription"< Items, stored under System/CurrentUser/Workspaces
           - One can create and modify these Items and then $@LoadWorkspace@$ them into the folder specified in its RootDirectoryAbsolutePath property:                        
           - Include:
             - Loading workspace and Pull

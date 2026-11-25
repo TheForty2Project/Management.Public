@@ -423,7 +423,7 @@ OnGoing .Task administration:
       Id: IsValidItemHeader
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 142010, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 20}
       Details:
-        It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\Requirements\F2YamlSpecification\BachusNaurForms.bnf<
+        It should accept a yaml.Scalar and return true if it matches the <ItemYamlHeader> BNF in -->Documents\F2YamlSpecification\BachusNaurForms\<
     Done .Implement and upgrade functionality about recognizing and parsing ItemYamls:
       +: {CreatedBy: Bobi, CreatedAt: 20260611 T 144755, By: Bobi, Tags: [Dev, F2Tools], Estimation:, RemTime:}
       Details:
@@ -725,7 +725,7 @@ OnGoing .Task administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 15}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
       Details:
-        On top of $@-->..ReplaceMarkedToLink<@$:
+        On top of $@-->..ReplaceMarkedToIdLink<@$:
         - to generate a new link for each link:
           - keep the part up until the 2 links (newly generated, old) match
           - the rest is the part from the generated (Id based)                  
@@ -1044,7 +1044,7 @@ OnGoing .Task administration:
       Version: 2.0.14
       Details:
         - Tested with -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules"<, with the "Generate ID link" 
-        - It works with the summary link: -->Documents\F2YamlSpecification\F2Yaml\.."F2Tool MVP Rules"<
+        - It works with the summary link: 
 
   Fixed .Follow Link command does not work, giving the error "Cannot read properties of undefined (reading 'length')":
     QA: [ Hana, Bobi ]
@@ -1135,7 +1135,7 @@ OnGoing .Task administration:
       - Ensure that the Root Path is set (for me it's "d:\_TF2P\Management\")
       - Issue the Extract ID Link command on -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf<
       - Errors:
-          - The link generated is -->ocsAndArticles\Specifications\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax"..PropertyOf< - so no "D" 
+          - The link generated is   - so no "D" 
           - Displays the error: "No workspace found"
       - Issue the Extract ID Link command again
       - Errors:
@@ -1265,7 +1265,7 @@ OnGoing .Task administration:
       It can be started if it's a summary one:
         -->Tasks\Management\.."OCWSPhase1".."Update F2yaml links".."Bobi to go through the ones which are tagges"<
     Comments:
-      Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\..Tasks.."Enhancements".."Time tracking should generate Id based F2Links, not Summary ones."<
+      Bobi: Take note that there's a pending (at the time of writing this) Task around this subject:_ -->Tasks\Software\F2ToolsExtension\..Tasks..TTIdLinks<
 
   New .Start/Resume task does not resume the Task:
     +: {CreatedBy: Bobi, CreatedAt: 20260425 T 011714, By: Bobi, Tags: [CSVDONE]}

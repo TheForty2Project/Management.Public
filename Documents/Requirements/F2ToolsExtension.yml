@@ -276,17 +276,17 @@ BugFixing .Time Tracking and Administration:
       The basic version.        
     QAPassed .Registers shortcuts/command:
       Details:                
-        The extension registers shortcuts/commands:
-          SpecifyStandupReport: 
+        .The extension registers shortcuts/commands:
+          .SpecifyStandupReport: 
             Command: Speficy Standup Report
             Description: if the cursor is on a StandupReport, signals that the extension should work into (and if necessary, generate) the "Was" part of this StandupReport                 
-          StartTask:
+          .StartTask:
             Command: Start timer on Task
             Description: if the cursor is on a Task, signals that the user has started working on this Task (and that he/she stopped working on the previous)
-          StopTask: 
+          .StopTask: 
             Command: Stop timer on Task
             Description: signals that the user has stopped working on the Task
-          ResumePreviousTask:
+          .ResumePreviousTask:
             Command: Pause/Resume Task
             Description: if there was a task selected previously and the times was stopped with the "StopTask" command, instructs the app to resume counting the time on the Task
     BugFixing .Works:
@@ -447,8 +447,8 @@ BugFixing .CSV Task List Tools:
                     //should create and return a link where each link element should be the value of the "Id" property of the Task; 
                     //if there's no "Id" property, it should default to the value of the Summary property though, put in double quotes
                     //should return something like: 
-                      -->MyWorkFolder\\Root..Backlog..Development..MyTask<
-                      -->MyWorkFolder\\Root..Backlog..Development.."My Other Task not having Id"<                            
+                      -->MyWorkFolder\Root\..Backlog..Development..MyTask<
+                      -->MyWorkFolder\Root\..Backlog..Development.."My Other Task not having Id"<                            
                   }
 
                   string GetLinkConsistingOfSummaryPartsForTask(Task task)
@@ -456,8 +456,8 @@ BugFixing .CSV Task List Tools:
                     //should create and return a link where each link element should be the value of the Summary property of the Task, put in double quotes 
                     //if there's no "Summary" property, it should default to the value of the Id property though, without double quotes
                     //should return something like: 
-                      -->MyWorkFolder\\Root.."The main backlog".."Development tasks".."My Task"<
-                      -->MyWorkFolder\\Root.."The main backlog".."Development tasks"..TaskNotHavingSummary<
+                      -->MyWorkFolder\Root\.."The main backlog".."Development tasks".."My Task"<
+                      -->MyWorkFolder\Root\.."The main backlog".."Development tasks"..TaskNotHavingSummary<
                   }
                 
                   string GenerateCsvLineFromTask(Task task)
@@ -585,7 +585,7 @@ InDev .Docs for the extension:
   ReadyForDev .Initial license:
     Id: InitialLicense
     Details:
-      - There should be a license, roughly containing the same as the license in this repository $@-->LICENSE<@$
+      - There should be a license, roughly containing the same as the license in this repository $@-->LICENSE\<@$
     Tasks:
       -->Tasks\Software\F2ToolsExtension\..Tasks.."Publication to marketplace".."Create License"<
   Done .Initial changeLog:
@@ -607,7 +607,7 @@ ReadyForDev .Time tracking should stop when VS Code shuts down:
   Id: StopTTAtShutdown
   By: Gaurav
   Details:    
-    - The $@-->Documents\Requirements\F2ToolsExtension\.."Time Tracking and Administration".."Basic".."Registers shortcuts/command".Details."The extension registers shortcuts/commands".StopTask<@$ command should be automatically executed when VS Code shuts down
+    - The StopTask command should be automatically executed when VS Code shuts down
   Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..StopTTAtShutdown<
 ReadyForDev .Time tracking should generate Id based F2Links, not Summary ones.:
   Id: TTIdLinks
@@ -630,11 +630,11 @@ InDev .QueryDescription based CSV report generation:
       .ItemCreated:
       .ItemUpdated:
       .ItemNotFound:
-    string[] .SelectPropertySpecialValues:
-      - EMPTY #an empty value
-      - SYNCRESULT #one of the values from SyncResultValues representing whether the row was created, updated, etc.
-      - IDLINK #the Id based F2Link pointing to the Item
-      - SUMMARYLINK #the Summary based F2Link pointing to the Item
+    enum .SelectPropertySpecialValues:
+      .EMPTY: #an empty value
+      .SYNCRESULT: #one of the values from SyncResultValues representing whether the row was created, updated, etc.
+      .IDLINK: #the Id based F2Link pointing to the Item
+      .SUMMARYLINK: #the Summary based F2Link pointing to the Item
     class .QueryDescription:
       Inherits: StandardItem
       Details:
@@ -741,7 +741,7 @@ InDev .QueryDescription based CSV report generation:
       .CommentOut:
         Summary: the row is commented out
       .DoNothing:
-        Summary: the row is kept as-is but marked as -->..SyncResultValues..DeletedRow< if the -->..SelectPropertySpecialValues..SYNCRESULT< column is present
+        Summary: the row is kept as-is but marked as -->..SyncResultValues..RowDeleted< if the -->..SelectPropertySpecialValues..SYNCRESULT< column is present
     class .ReportHeader:
       Inherits: Item
       Properties:
@@ -757,10 +757,10 @@ InDev .QueryDescription based CSV report generation:
               QUERYDESCRIPTON
             Log:
               - [Created/Updated] at TIMESTAMP; Added/Updated/Deleted: NOOF_ADDED/NOOF_UPDATED/NOOF_DELETED
-    .CommentPrefix: "#"      
-    .NullValue: "" #so empty
-    .EmptyValue: \"" #so two double quote characters
-    .CSVHeader: >    
+    const .CommentPrefix: "#"
+    const .NullValue: "" #so empty
+    const .EmptyValue: \"" #so two double quote characters
+    const .CSVHeader: ">"
   Done .Registers commands:
     Id: RegistersCommands
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV.."Registers commands"<
@@ -801,7 +801,7 @@ InDev .QueryDescription based CSV report generation:
       ReqReq: -->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..QueryBasedCSV..Execute..BasicExecute<      
       Details:
-        - var queryDescription: result of $@-->..Execute.."Verifies query"<@$      
+        - var queryDescription: result of $@-->..ExecuteQuery.."Verifies query"<@$
         - var items: 
             getItemsUnderTheLinksIn(queryDescription.From):            
         - generates the CSV from the items:
@@ -813,9 +813,9 @@ InDev .QueryDescription based CSV report generation:
           - creates lines from each Item:
             - gets the values of the  properties specified in the queryDescription.Select property by:
               - IF (NOT (the property is present)):
-                - return a null value ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..NullValue<@$)
+                - return a null value (-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..NullValue<)
               - ELSE IF (the property is empty):
-                - return an empty value ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..EmptyValue<@$)              
+                - return an empty value (-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..EmptyValue<)
               - ELSE return the property value
             - escapes them
             - creates a string by concatenating them by using a comma (,) as separator
@@ -890,7 +890,7 @@ InDev .QueryDescription based CSV report generation:
       - Triggered by the -->..RegistersCommands..WriteBack< command.   
       - IF (NOT (the cursor is in a csv file)):
           displays error message: "The cursor must be in a CSV file on a QueryDescription Item"
-      - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.CSVHeader<@$
+      - gets the query yaml by parsing the header using the format described here: $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..CSVHeader<@$
       - var queryDescription: result of $@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV..ExecuteQuery.."Verifies query"<@$
       - IF (NOT (queryDescription.Select.Any(isF2Link)):
           displays error message: "The Select property must contain F2Links (IDLINK or SUMMARYLINK)"
@@ -901,7 +901,7 @@ InDev .QueryDescription based CSV report generation:
           - var cellValue = csvLine[columnNo]
           - IF (: 
             - cellValue != NullValue
-            - AND cellvalue != one of the special field values ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts.SelectPropertySpecialValues<@$)
+            - AND cellvalue != one of the special field values ($@-->Documents\Requirements\F2ToolsExtension\..QueryBasedCSV.Artifacts..SelectPropertySpecialValues<@$)
             ):
               - IF (the property with the id headerId[columnNo] does not exist):
                 - create it

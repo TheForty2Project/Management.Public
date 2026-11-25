@@ -127,8 +127,7 @@ Done .Initial Website:
         ForRequirement: -->Documents\Requirements\Website\..Website..SecondPhase.."Site Elements".."Basic".."Landing page".."First section".."Summary of Project in a sentence roughly"<
         Done .Provide baseline:
           Result:
-            Basically: $@-->PublicRelations/OutreachMaterial..OneSentenceDescription<@$
-            Which is at the time of writing (20250405T1844): "We're a community welcoming everyone in the end, aimed to cooperate in the most optimal, 21st century way: using computers for increasing the decision-making performance (quality and speed) by distributing the decision-computation tasks in between members and computers, with the goal of full automation, finally getting away from the (ancient) hierarchical managements where human minds are computing them.
+            Basically: "We're a community welcoming everyone in the end, aimed to cooperate in the most optimal, 21st century way: using computers for increasing the decision-making performance (quality and speed) by distributing the decision-computation tasks in between members and computers, with the goal of full automation, finally getting away from the (ancient) hierarchical managements where human minds are computing them.
 
               We're starting small, iteratively optimising our cooperation abilities, aiming to switch Earth on."
         Done Discuss it with the team:
@@ -357,8 +356,6 @@ Done .Back to original:
   Id: BackToOrigi
   Done .Work this Task out:
     Details:
-      Base it on:
-        - $@-->!PublicWorkspaces\Hana\Websiterephase1\.."Reorganize the -->Backlog\Development\..Website<"<@$:
       Make sure that these are also included:
         -->Tasks\Website\..Websitephase1.."Deepdive section development"<:
         -->Tasks\Website\..Improvements..JoinMission.."BuyUsACoffee".."Set up the account".."Put the credentials to the PasswordsAndAccesses.dat in the Truecrypt repo"<:
@@ -708,7 +705,7 @@ Done .Back to original:
                 Id: Links
                 +: {CreatedBy: Bobi, CreatedAt: 20260407 T 195931, By: Hana, Tags: [CSVDONE], Estimation: "20", RemTime: "0"}
                 Details:
-                  Put them into -->Documents\WebsiteContent\Watch\Watch\.."Our streams on Twitch"<
+                  Put them into -->Documents\WebsiteContent\Watch\Watch\< "Our streans on Twitch"
                 Done .Twitch:
             Done .Finalize and publish:
               Id: Publish
@@ -1527,8 +1524,8 @@ Done .Back to original:
 
         Now some commonly used notations:
           Note: 
-            - For the (hopefully or at least soon) complete syntax please check the -->F2YamlSpecification<.
-            - For the definition of the Items used throughout The Abyss see the -->System.Types< and --><
+            - For the (hopefully or at least soon) complete syntax please check the -->Documents\F2YamlSpecification\F2Yaml\<.
+            - For the definition of the Items used throughout The Abyss see the -->System\Types< and -->BusinessClasses\<
 
           <Status> <Summary> as header:
 
@@ -1911,11 +1908,11 @@ Done .Back to original:
       Id: RoadMapBasic
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213151, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
       Details:
-        See the Result of -->..Provide rough estimate"<
+        See the Result of -->.."Provide rough estimate"<
     EstTODO .Designed, non-generated:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 213236, By: Bobi, Tags: [CSVTODO], Estimation: 150, RemTime: 150}
       Details:
-        See the Result of -->..Provide rough estimate"<            
+        See the Result of -->.."Provide rough estimate"<            
   EstTODO .Shadows site todos:
     Id: ShadowsSite
     +: {CreatedBy: Bobi, CreatedAt: 20260518 T 013645}

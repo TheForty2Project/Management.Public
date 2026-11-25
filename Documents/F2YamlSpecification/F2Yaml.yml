@@ -209,6 +209,7 @@ Done .Notes:
                   NumberProperty: 0 #meaning its value is 0
                   NumberProperty1: null #maning it's empty
     5-Done Must .FYamlBasics:
+      Id: F2YamlBasics
       Title: F2Yaml basics
       5-Done Must .Overview:
         Title: Overview
@@ -329,6 +330,7 @@ Done .Notes:
                         Id: MyTask2
 
       0-New Must .SpecialItems:
+        Id: SpecialItems
         Tags: [Semantics]
         Title: Special Items
         0-New Must .Overview:
@@ -336,7 +338,7 @@ Done .Notes:
           InProgress .Create content:
             +: {CreatedBy: Bobi, CreatedAt: 20251224 T 160414, By: Bobi, Tags: [CSVDONE], Estimation: "10", RemTime: "10"}
           Content:
-            The F2Yaml specification includes a number of special Items, -->Barba.Types\..NonClassTypes.Content<
+            The F2Yaml specification includes a number of special Items
 
         0-New Must .ItemAndStandardItem:          
           Title: The Item and StandardItem classes
@@ -351,9 +353,9 @@ Done .Notes:
         0-New Must .ClassDescription:          
           Title: Describing Items - the ClassDescription class
           Tasks:
-
       
       0-New Must .SubItems:        
+        Id: SubItems
         +: {CreatedBy: Bobi, CreatedAt: 20251220 T 015903, By: Bobi, Tags: [CSVDONE, OCWSPhase1, Syntax, Semantics], Estimation: 20, RemTime: 20}
         Tasks:
           InProgress .Create content:
@@ -377,6 +379,7 @@ Done .Notes:
               - The "BelongsTo" property of 
       
         1-SomeProgress Must .Item hierarchy aka the BelongsTo tree:
+          Id: BelongsToTree
           Content: |
             - Each Item has an "Item BelongsToItem" and "IdString? BelongsToProperty" property:                        
               - BelongsToItem is mandatory - except maybe for some root Item
@@ -731,7 +734,7 @@ Done .Notes:
           +: {CreatedBy: Bobi, CreatedAt: 20251220 T 020905, By: Bobi, Tags: [CSVTODO, OCWSPhase1], Estimation: "10", RemTime: "10"}
           Details:
             Summary:
-              An ItemReference inside the pre-postfix. See the -->Documents\F2YamlSpecification\F2Yaml\.".F2Tool MVP rules".".F2Yaml syntax".".Item references or F2Links"..ItemReference< for item reference syntax.
+              An ItemReference inside the pre-postfix. See the -->Documents\F2YamlSpecification\F2Yaml\..F2YamlMvpRulesSketch..SyntaxDetailed..ItemRefsOrF2Links< for item reference syntax.
             Prefix:
               Variant1: "->"
               Variant2: "-->"
@@ -1164,7 +1167,7 @@ Done .Notes:
                   - Here on the other hand, the "code" is mostly about manipulating "live" data, referencing Items (and not just classes, properties) very often - i.e. it's like every human is a process (very slowly running on its own thread) which manipulates the objects created from those classes while the program is running and only rarely working on classess and their methods.
                   - There are special conditions:
                     - The system mandates that every Item is placed into a hierarchy of Items (the BelongsTo tree, forming a kind of a folder structure where folders and files are the same, so each FolderFile can have children and also content)
-                      - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner - i.e. not Item with InternalId 876465468768 but -->Root.Projects.Barba.Task.
+                      - ability for humans to see the memory structure through - as we're bad at handling lists but good at hirarchies due to how our minds operate on a basic level - and therefore reference them in a meaningful manner, i.e. not "Item with InternalId 876465468768" but "Item at -->Root.Projects.Barba.MyTask<"
                       - as this is a program which never stops, we need strict accounting of memory objects; a simple garbage collector based on simple rules (=no reference) is not enough 
                       - permission handling
                     - Most Items we work with (Tasks, Requirements, etc) have default list property/ies and we often reference these through the parent(s).Wwe want to see Ids which are compile-time checked, not position in the list (such as a Task have a Task[] SubTasks property):
@@ -1243,7 +1246,7 @@ Done .Notes:
                 -->Example.QueryDescription.MyItemListProp..OneItem2..MyTargetProp<:
                 -->Example.QueryDescription.MyItemListProp..ItemList..Blah(1).MyTargetProp<: 
                 -->Example.QueryDescription.MyItemListProp..Bumm<:
-        Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:
+        Done .Problem:_ Linking to an element in the default list property and an element belonging to, having the same Id.:          
           Details:                
             For example in this case:
               Done .MyTask:

@@ -408,6 +408,9 @@ SR_NEXT_Hana:
 
   Next:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets<".."Add a default value to each property-value where the values are from an enum, detailing the options"<
+
+  AOIB:
+    - Buy Camera system to observe the actions of both of us. The main purpose is to record my behavior and analyse it
     - 
 <EOF>:
   #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

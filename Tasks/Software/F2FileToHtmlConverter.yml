@@ -123,7 +123,7 @@
         +: {CreatedBy: Bobi, CreatedAt: 20260415 T 130813, By: Bobi, Tags: [Before1stPost, TL], Estimation: "15", RemTime: "15", Importance: 1-VeryLow}
       Done .Detect and convert f2yaml links:
         Id: ConvertF2YamlLinks
-        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [Before1stPost, DevDone], Estimation: "90", RemTime: "90", Importance: 5-VeryHigh}
+        +: {CreatedBy: Bobi, CreatedAt: 20260418 T 185553, By: Bobi, Tags: [TLDone, Before1stPost, DevDone], Estimation: 90, RemTime: 0, Importance: 5-VeryHigh}
         MaintenanceTasks:
           Done .Have an implementation plan and improve estimation:
             Id: ImprEstimation

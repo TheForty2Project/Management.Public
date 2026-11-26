@@ -1,81 +1,13 @@
 +: {Type: Folder, DefaultTypes: [Folder, Task]}
 
 
-.Test:
+.TestReport:
   Type: QueryDescription
   Select: [EMPTY as *, Tags, Estimation, Status, By, IDLINK, IDHIERARCHY(1), IDHIERARCHY(5), DependsOn]
   From: [-->CurrentWork\Bobi\TestMaterial<]
   OutputFile: CurrentWork\Bobi\TestMaterial\TestReport2.csv
   Where: 
     TaggedBy: [TL]
-
-
-.CurrentTasksMinimal:
-  Type: QueryDescription
-  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->Tasks\<]
-  OutputFile: CurrentWork\Bobi\CurrentTasks.csv
-
-.Before1stpPostTasks:
-  Type: QueryDescription
-  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Apple, DependsOn]
-  From: 
-    - -->CurrentWork\Bobi\TasksToBeSorted<
-    - -->Tasks<
-  OutputFile: CurrentWork\Bobi\Before1stPostTasks.csv
-  OrderBy: [Importance desc, By, RemTime]
-  Where: 
-    TaggedBy: [Before1stPost]
-    LeavesOnly: false
-    SkipFoldersAndFiles: false
-
-.TLTasks:
-  Type: QueryDescription
-  Select: [Importance, Status, Id, Estimation, By, RemTime, Summary, IDLINK as Idlink, DependsOn]
-  From: 
-    - -->CurrentWork\Bobi\TasksToBeSorted<
-    - -->CurrentWork\Hana\TasksToBeSorted<
-    - -->Tasks<
-  OutputFile: CurrentWork\Bobi\TaskListTasks.csv
-  OrderBy: [Importance desc, By, RemTime]
-  Where: 
-    TaggedBy: [TL]
-    LeavesOnly: false
-    SkipFoldersAndFiles: false
-
-.CurrentTasks:
-  Id: CurrentTasks
-  Summary: Current Tasks  
-  Type: QueryDescription
-  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  From: [-->Tasks\<, -->CurrentWork\Bobi\TasksToBeSorted<, -->Tasks\<]
-  Where:     
-    ItemTypes: [Task, Bug]
-    SkipUnder: [-->Tasks\Archive\<]
-  OutputFile: Reports\CurrentTasks.csv
-  BehaviorWhenDeletingRows: RowDeletingBehavior.CommentOut
-  AddSyncResultColumn: true
-
-.CurrentTasks_Sandbox:
-  Id: CurrentTasks
-  Summary: Current Tasks
-  Type: QueryDescription
-  Select: [EMPTY as *, Estimation, Status, By, RemTime, IDLINK as IdLink, DependsOn]
-  Items:      
-    - Root: -->Tasks\<
-      Where: 
-        TaggedBy: [CSVTODO]
-        ItemTypes: [Task, Bug]
-        SkipUnder: [-->Tasks\Archive\<]
-        MatchExpression: 
-          contains(item.Tags, "CSVTODO") 
-          & Type == Task
-          & Status > TODO 
-          & IsSomeSpecialConditionTrue(item)
-    - Root: -->CurrentWork\Bobi\TasksToBeSorted]   
-  OutputFile: Reports\CurrentTasks.csv
-  BehaviorWhenDeletingRows: RowDeletingBehavior..CommentOut
-  AddSyncResultColumn: true
 
 .FirstPosts:
   Workspace:

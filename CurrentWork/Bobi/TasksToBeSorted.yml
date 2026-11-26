@@ -111,7 +111,7 @@
   Done .F2ToolsExtension:_ Add support for Item to parse itself from a yaml map:
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 031410, By: Bobi, Tags: , Estimation:, RemTime:}
 
-  TODO .QueryDescription:_ Add "OnlyItemsWithHeader"-like property to the Where part of the query:
+  TODO .QueryDescription:_ Add 'OnlyItemsWithHeader'-like property to the Where part of the query:
     +: {CreatedBy: Bobi, CreatedAt: 20260604 T 153350, By: Bobi, Tags: , Estimation:, RemTime:}
 
   Done .Headers support in Items:
@@ -152,10 +152,6 @@
           - Including moving any from here to their correct location
           - Tag them with "Before1stPost"
   .TaskAdmin:
-    InProgress .Finish the F2FinanceHelper draft requirement:
-      +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200745, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 70, Importance: 4-High}
-      Details:
-        here: -->Documents\Requirements\F2FinanceHelper\.."F2FinanceHelper"<
     InProgress .Have the (development) Tasks worked out (on which I'm planning to work on):
       +: {CreatedBy: Bobi, CreatedAt: 20260706 T 200754, By: Bobi}
       Details:
@@ -163,8 +159,6 @@
         - Write Requirements for new features and estimate each
       InProgress .Move the Tasks from the ToBeSorted to their correct place:        
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141536, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
-      EstTODO .Update the Requirements according to the current implementation:
-        +: {CreatedBy: Bobi, CreatedAt: 20260826 T 141754, By: Bobi, Tags: [Before1stPost, TL], Estimation: 90, RemTime: 90, Importance: 3-Average}
       Done .Create Dev tasks report:
         +: {CreatedBy: Bobi, CreatedAt: 20260826 T 140521, By: Bobi, Tags: [TLDone, Before1stPost], Estimation: 10, RemTime: 0, Importance: 5-VeryHigh}
       InProgress .Have a value/effort rating system and apply it on the Requirements + Tasks:
@@ -326,7 +320,7 @@
       - I think importing from an F2YamlWorkspaceItem (if necessary) is enough, such as for a QueryDescription
   Done .OrderBy:
     +: {CreatedBy: Bobi, CreatedAt: 20260706 T 023341, By: Bobi, Tags: , Estimation: 30, RemTime: 30}    
-  EstTODO .CSV Remainings:
+  InProgress .CSV Remainings:
     Done .Handling of overlapping froms:
       +: {CreatedBy: Bobi, CreatedAt: 20260703 T 013828, By: Bobi, Tags: , Estimation: 30, RemTime: 30}
       Details:
@@ -387,8 +381,6 @@
           - Try it with the "low trust" method first though - see https://chatgpt.com/s/t_6a479a97f7cc8191af2a4966b8bfb67e
           - Timebox it to the estimated
     .Updgrades:
-      EstTODO .Automatic aligning of CSV columns:      
-        +: {CreatedBy: Bobi, CreatedAt: 20260730 T 141443, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 3-Average}
       Done .IDHIERARCHY(n) as column value:
         +: {CreatedBy: Bobi, CreatedAt: 20260810 T 162617, By: Bobi, Tags: [Dev, F2Tools], Estimation: 30, RemTime: 30, Importance: 4-High}
         Details:

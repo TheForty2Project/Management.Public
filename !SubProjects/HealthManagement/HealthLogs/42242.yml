@@ -6654,7 +6654,7 @@ Month of Nov:
            Hot Shower: yes
            ReadingBook:
            BedTime:
-    42242_20261125_Incomplete:
+    42242_20261125_Complete:
       Morning:
         - <SystemState>:
             Time: 08:00
@@ -6728,7 +6728,6 @@ Month of Nov:
           Intensity: easy
           Summary: 
           Notes: 
-        - 
       Afternoon:
         - <SystemState>:
            Time: 13:00
@@ -6746,43 +6745,143 @@ Month of Nov:
             Unit: g
             Summary:
             Notes: 
-        - <Work>:
-            Time: 
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
-            Summary:
-            Notes:
         - <Food>:
-            Time:
-            MealDescription:
-            Quantity:
-            Summary:
-            Notes:
-        - <Movement>:
-            Time:
-            Activity:
-            Duration:
-            Intensity:
+            Time: 15:00
+            MealDescription: Rice, fish, eggtomato soup
+            Quantity: moderate
             Summary:
             Notes:
       Evening:
         - <SystemState>:
-            Time: 1331
-            ThinkingQuality: 
-            Motivation: 
-            PhysicalEnergy: 
+            Time: 18:00
+            ThinkingQuality:  0
+            Motivation: 0
+            PhysicalEnergy: 0 
             BodyBattery: 
             Rumination: 
             Summary: 
-            Notes: 
+            Notes: Bad thoughts arises. Also no much movement
         - <Work>:
-            Time:
-            ActivityDesc:
+            Time: 19:00
+            ActivityDesc: Health logs
             Duration:
             Focus:
             MindPower:
+            Summary:
+            Notes:
+      End of day analysis:
+        - <Hydration>:
+           WaterIntakeMl: 1.5 L
+           ElectrolyteIntakeMl: 
+           CaffeineIntakeMg: 2 cups
+           UrineColor: yellow
+           UrinationFrequency:
+           SweatLevel:
+           BloodPressure:
+           HydrationSymptoms:
+           Notes: Didnt take note of my hydration
+        - <SleepHygiene>:
+           Preparing Next Day Task: No
+           Drugs: W
+           Hot Shower: no
+           ReadingBook: no
+           BedTime: after midnight
+    42242_20261126_Incomplete:
+      Morning:
+        - Notes:
+          - No defecation today
+          - Bad mood in the morning 
+          - Calmed down with Robi
+          - Sense of responsibility was observed ( didnt have it for a lonf time)
+        - <SystemState>:
+            Time: 11:00
+            ThinkingQuality: 0 
+            Motivation: 0
+            PhysicalEnergy: 0 
+            BodyBattery: 
+            Rumination: 5
+            Summary: 
+            Notes: too much fear. No bueno
+        - <MenstrualCycle>:
+            Cycle: 
+              Day: 26
+              Phase: Luteal
+        - <Sleep>:
+            BedTime: 00:00
+            SleepTime: 00:48
+            WakeTime: 11:00
+            Duration: 9h 58m
+            SleepScore:
+            BodyBatteryGained:
+            Summary:
+            Notes:
+        - <Food>:
+            Time: 11:30
+            MealDescription: Oats, boiled egg, ricecake
+            Quantity: 3 spoon, 1, half
+            Summary:
+            Notes:
+        - <Movement>:
+            Time: 12:00
+            Activity: walk 
+            Duration: 1.5 h
+            Intensity: easy
+            Summary:
+            Notes: felt good walking in the cold ( maybe uncomfortable environment increase motivation?)
+      Afternoon:
+        - <SystemState>:
+           Time: 15:00
+           ThinkingQuality: 2 
+           Motivation: 2
+           PhysicalEnergy: 2 
+           BodyBattery: 
+           Rumination: 0
+           Summary: 
+           Notes: 
+        - <Work>:
+            Time: 15:00
+            ActivityDesc: REPLST
+            Duration: 1h20m
+            Focus: 2
+            MindPower: 2
+            Summary:
+            Notes:
+        - <Food>:
+            Time: 17:00
+            MealDescription: Egg, rice noodle, canned fish
+            Quantity: moderate
+            Summary:
+            Notes:
+              Evening:
+        - <Movement>:
+            Time: 18:00
+            Activity: Walk
+            Duration: 1h
+            Intensity: easy
+            Summary:
+            Notes:
+      Evening:  
+        - <SystemState>:
+            Time: 19:00
+            ThinkingQuality: 2
+            Motivation: 2
+            PhysicalEnergy: 
+            BodyBattery: 
+            Rumination: 1
+            Summary: 
+            Notes: 
+        - <LifeEvent>:
+          Time: 219:00
+          EventDescription: talk woth Airbnb guest Melanie 
+          EmotionalImpact: good
+          Summary: 
+          Notes: conversing productive matter about the world helps
+        - <Work>:
+            Time: 20:00
+            ActivityDesc: preparation of tasks and healthlog
+            Duration: 1h
+            Focus: 2
+            MindPower: 2
             Summary:
             Notes:
       End of day analysis:
@@ -6802,6 +6901,7 @@ Month of Nov:
            Hot Shower:
            ReadingBook:
            BedTime:
+
 Tasks:
   - Refine system state and define enum 
   - Include hydration                                                                                               

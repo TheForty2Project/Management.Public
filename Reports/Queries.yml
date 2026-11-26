@@ -8,6 +8,7 @@
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
     - -->Tasks<
+    - -->!SubProjects\HealthManagement\<
   OutputFile: Reports\TaskListTasks.csv
   OrderBy: [Tags, Importance desc, Status desc, By, RemTime]
   Where:     
@@ -24,6 +25,7 @@
     - -->CurrentWork\Bobi\TasksToBeSorted<
     - -->CurrentWork\Hana\TasksToBeSorted<
     - -->Tasks<
+    - -->!SubProjects\HealthManagement\<
   OutputFile: Reports\TLAndDevTasks.csv
   OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
@@ -71,6 +73,7 @@
     - -->CurrentWork\Bobi\<
     - -->CurrentWork\Hana\<
     - -->Tasks<
+    - -->!SubProjects\HealthManagement\<
   OutputFile: Reports\Archive\TaskListDoneTasks.csv
   OrderBy: [Importance desc, Status desc, By, RemTime]
   Where:     
@@ -88,6 +91,7 @@
     - -->CurrentWork\Hana\<
     - -->CurrentWork\Anita\<
     - -->Tasks<
+    - -->!SubProjects\HealthManagement\<
   OutputFile: Reports\HealthTasks.csv
   OrderBy: [Tags, Importance desc, Status desc, By, RemTime]
   Where:     

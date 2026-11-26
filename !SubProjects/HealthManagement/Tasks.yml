@@ -841,6 +841,7 @@
     Details:
     Done .Entries inside should be lists (so add a dash in front of them):
     TODO .Add a default value to each property-value where the values are from an enum, detailing the options:
+      +: {CreatedBy: Hana, CreatedAt: 20261126 T 203522, By: Hana, Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}
       Details:   
         such as: ${1:#Menstrual, Follicular, Ovulatory, Luteal}      
     Done .Add SystemState to each part of the day:

@@ -562,7 +562,7 @@ SR_20261117_Bobi:
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..ConvertF2YamlLinks.."Follow links containing properties"<
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter..Dev..SecondPhase..ConvertF2YamlLinks.."Cant find anchor for valid links"<
 
-SR_NEXT_Bobi:
+SR_20261126_Bobi:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Do first round and see how it works"<: [ 127m, "", 20261117 T 135036 ]
     - -->Tasks\Software\F2FileToHtmlConverter\..F2FileToHtmlConverter.."Development".."SecondPhase".."Create a summar report at the end about the links"<: [ 5m, "", 20261117 T 153428 ]
@@ -574,6 +574,13 @@ SR_NEXT_Bobi:
     - -->Tasks\Miscellaneous\..IT.."Environment configuration"<: [ 25m, "npm, node updates", 20261125 T 134036 ]
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 35m, "", 20261125 T 140442 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Move the Tasks from the ToBeSorted to their correct place"<: [ 42m, "", 20261125 T 175135 ]
-    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 71m, "", 20261126 T 150118 ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 100m, "", 20261126 T 150118 ]
   Next:
-    - null
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Move the Tasks from the ToBeSorted to their correct place"<
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"..AddToAppJs<
+    - -->Tasks\Management\.."General management".."Task Administration"<
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<
+
+SR_NEXT_Bobi:
+  Was:
+  Next:

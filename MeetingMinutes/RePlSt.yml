@@ -138,4 +138,102 @@ RePlSt20261116:
             Technical.dat\F2FileToHtmlConverter\Reports
       - Some instructions about how to organize and create classes for the Exercise reports:
           see the BusinessClases.yml for new content about it  
+
+RePlSt20261126:
+  Participants: [Bobi, Hana]
+  StartTime: 20261126 T 1503
+  EndTime: 
+  Workspace: 
+    Next RePlSt should be:
+      - after 3 proper work days
+      - ideally: 20261129
+      - Hana created a calendar event for it.
+    Retro:
+      - Important points about the previous period (16-26):
+          Mostly about physical and mental health:
+            Events:
+              - lots of extremes - very up, very down
+              - 2-3 meltdown events but lots of fun days as well
+              - we kind of stopped exercising
+              - work suffered
+            Learnings:
+              - Food and "eating while not ready for it" is the biggest contributor to "being wasted", ds and other factors come in second (with a big gap)
+              - Kratom needs to be gradually reduced, the cold turkey method didn't work (tried it twice - terrible results)
+              - Hana needs to focus more on keeping the agreements - locking, checking, not eating before bed, etc.
+              - we kind of stopped exercising - this needs to be resumed, but:
+                - it seems that the amount of exercise has also a relatively low effect on our short-term mental health (gives us temporary boost (endorphins))
+    Planning:
+      Schedule for the next 3 days:
+        including:
+          - diet: what do we eat
+          - exercise: what exercise we do
+          - work: when
+          - ds:
+        Menu:
+          Thursday:
+            Bobi: Soup + Canned fish + ricenoodles + RiceCakePudding
+            Hana: Soup + egg + ricenoodles + RiceCakePudding
+            Both:
+              - Iron
+              - Vitamin D
+          Friday:
+            Chicken thighs + tomato soup
+          Saturday:
+            Paksiw
+          Sunday:
+            Bobi: Soup + Canned fish + ricenoodles + RiceCakePudding
+            Hana: Soup + egg + ricenoodles + RiceCakePudding
+            Both:
+              - Iron
+              - Vitamin D
+        Exercise:
+          Thursday:
+            - Both: 10m run + whole body gym            
+          Friday:
+            - Hana: Bouldering
+            - Bobi: gym
+          Saturday:
+            - Both:
+              - krav-maga 11:30
+              - hazasétálunk
+          Sunday:
+            - Both: Stadium in the afternoon
+        Ds:
+          General:
+            - when the box opens, we portion + lock
+            - Hana HAS TO OVERSEE THE THINGS
+          Kratom:
+            - 1.5g*3 per day baseline
+            - ideally reduced after a few days - like to 1.5g*2?            
+          W:
+            - keep the strategy, which is:
+              - 20:00:
+                - reminder about eating - if hungry, eat!
+              - 21:30:
+                - box opens
+                - we portion (.1 for each of us) and lock
+        DailyRoutine:
+          Workspace:
+            - Bobi:
+              - wakes up at 10
+              - morning routine until 13:00
+              - work (admin + meetings; with Hana) until 15:30
+              - eat + in the gym by 17:30
+              - eat at 20:00
+              - walk + things (chores, e.g. ) for 1.5 hrs
+              - work (alone) from 9:30pm until 1:30am
+              - some playing included somewhere in the gaps
+            - Hana:
+              - wakes up at 8:30          
+      Plus:
+        health log taking 2 times a day:
+          - while Bobi is having his breakfast
+          - before night w - Hana can't roll without having this
+        box locking:
+          - can't take without locking it immediately        
+    Standup - so next tasks and shit:
+    
+    
+      
+    
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

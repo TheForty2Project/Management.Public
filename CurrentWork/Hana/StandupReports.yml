@@ -239,7 +239,7 @@ SR_20260726_Hana:
     - -->Tasks\Management\.."General management".."Task Administration"<: [ 60m, "reviewing 2 reports", 20260723 T 155722 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Guide about how to press buttons"<: [ 40m, "", 20260724 T 111849 ]
     - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..Personal.."Airbnb things".."Entrance door stickers"<: [ 15m, "", 20260724 T 130150 ]
-    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create food and activity schedules"<: [ 65m, "", 20260725 T 144535 ]    
+    - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Create food and activity schedules"<: [ 65m, "", 20260725 T 144535 ]
     - -->Tasks\Management\.."General management".."Standup related".."Preparation for participants"<: [ 10m, "", 20260725 T 145350 ]
     - -->Tasks\Management\.."General management".."Standup related".."Standup"<: [ 0m, "", 20260725 T 145407 ]
   Next:
@@ -402,9 +402,20 @@ SR_20261117_Hana:
 SR_NEXT_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Finish the rest"<: [ 112m, "", 20261117 T 120632 ]
+    - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 0m, "", 20261125 T 125633 ]
 
   Next:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add a default value to each property-value where the values are from an enum, detailing the options"<
+  AOIB:
+    - Healthlog please:
+      - Hydration
+      - Nail condition 
+    - add the camera to our expenses
+    - Buy Maca
+    - Buy NAC
+    - create a finance plan for this week
+    - create an activity plan for this week
+    - Incase I didnt go through the plan, keep it in mind that people who observe it can be infected ( Hana does not make it important = then no need to go through, goals and motivation are reduced)
     - 
 <EOF>:
   #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

@@ -2797,5 +2797,133 @@ Month of Nov:
         MindPower:
         Summary:
         Notes:       
-            
+42241_20261125_Incomplete:
+  Morning:
+    - Notes on previous days:
+      - Sleep score: 69| 6h | Deep57 | REM" 1
+      - Activities the previous day none 686 steps
+      - Food: pudding, rice cake, no definite water intake data, Softdrinks, Energy drink
+      - Cannabis: whole day startig from afternoon
+      - No proper food 
+      - No gym or strength exercise
+    - Observation: 
+      - burps while sleeping
+      - Fetal position while sleeping
+      - Mood seemed ok in the monrning but Robi stated he was not feeling good 
+      - After morning poop, situation became worse
+      - Kratum was asked when he felt the weakest in the morning 
+      - Message was offered but Robi stated that Hana can't give a proper massage becuase I amin a bad mood  ( He does not feel the comfort of massage from hana)
+    - <SystemState>:
+       Time: 10:00
+       ThinkingQuality: 1
+       Motivation: 1
+       PhysicalEnergy: 1  
+       BodyBattery: 0
+       Rumination: 5
+       Summary: 
+       Notes: wasn't able to walk 
+    - <Sleep>:
+       BedTime: 2:46
+       SleepTime: 2:46
+       WakeTime: 10:01
+       Duration: 6 hours
+       SleepScore: 69
+       BodyBatteryGained: +59
+       Summary: 
+       Notes: no movement in the past days
+    - <Digestion>:
+      Time: 10:15
+      Bristol: 5
+      Bloating: 
+      AbdominalPain:
+      Flatulence: big fart @ 9:00
+      Belching: 
+      Summary:
+      Notes: Burp during the night, 
+    - <Food>:
+      Time: 11:30
+      MealDescription: 
+      Quantity:
+      Summary:
+      Notes: 1.5 hours after waking up ( no milk, egg and flour) in between 10:00 and 11:30 he was in the bathroom pooping and most probably 9 gag
+    - <Movement>:
+      Time: 12:30
+      Activity: walk
+      Duration: 20 min
+      Intensity: difficult
+      Summary:
+      Notes: unable to walk
+   
+  Afternoon:
+    - <SystemState>:
+       Time: 13:00
+       ThinkingQuality: 0
+       Motivation:  0
+       PhysicalEnergy:  0
+       BodyBattery: 72
+       Rumination: 5
+       Summary: 
+       Notes: holding his beard the whole time which represent Stress 
+    - <Drugs>:
+      Time: 12:00
+      Name: Kratom
+      Dosage: 2 
+      Unit: g
+      Summary:
+      Notes:
+    - <Work>:
+      Time: 14:00
+      ActivityDesc: 
+      Duration:
+      Focus: 
+      MindPower:
+      Summary:
+      Notes: took K to work. Other choices are not favorable including massage
+    - <Food>:
+      Time:
+      MealDescription:
+      Quantity:
+      Summary:
+      Notes:
+    - <Movement>:
+      Time:
+      Activity:
+      Duration:
+      Intensity:
+      Summary:
+      Notes:
+  Evening:
+   - <SystemState>:
+       Time: 1352
+       ThinkingQuality: 
+       Motivation: 
+       PhysicalEnergy: 
+       BodyBattery: 
+       Rumination: 
+       Summary: 
+       Notes: 
+   - <Work>:
+      Time:
+      ActivityDesc:
+      Duration:
+      Focus:
+      MindPower:
+      Summary:
+      Notes:       
+  Summary:
+    - Severe reduction in physical energy, motivation and cognitive functioning, accompanied by persistent high rumination.
+    - Functional deterioration observed following morning defecation.
+    - Potential contributing factors include inadequate nutrition, possible dehydration, insufficient sleep, gastrointestinal discomfort, prolonged cannabis consumption and possible post-stimulant effects.
+    - Kratom requested during the period of greatest subjective weakness.
+    - No documented improvement in functional capacity one hour after kratom consumption.
+    - Discrepancy between Garmin Body Battery and subjective functional state requires verification.
+    - Reduced receptivity to non-pharmacological comfort observed.
+    - Medical assessment required to exclude acute physiological causes of severe weakness.
+  Hypothesis:
+    - Multifactorial physiological and psychological dysregulation.
+    - Potential substance-related negative reinforcement pattern.
+  Status:
+    - Incomplete.
+    - Cause undetermined.
+    - Recovery and medical assessment prioritized over productivity.     
 <EOF>: #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you have to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)

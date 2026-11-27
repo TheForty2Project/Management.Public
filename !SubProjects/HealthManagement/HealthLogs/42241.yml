@@ -2881,10 +2881,10 @@ Month of Nov:
       Notes: took K to work. Other choices are not favorable including massage
     - <Food>:
       Time:
-      MealDescription:
+      MealDescription: ate small amount of rice and tomato sauce
       Quantity:
       Summary:
-      Notes:
+      Notes: body rejected the food. he wasnt able to continue
     - <Movement>:
       Time:
       Activity:
@@ -2894,7 +2894,7 @@ Month of Nov:
       Notes:
   Evening:
    - <SystemState>:
-       Time: 1352
+       Time: 18:00
        ThinkingQuality: 
        Motivation: 
        PhysicalEnergy: 
@@ -2902,8 +2902,14 @@ Month of Nov:
        Rumination: 
        Summary: 
        Notes: 
+   - <Food>:
+     Time: 20:00
+     MealDescription: rice cake, pudding
+     Quantity: moderate
+     Summary: 
+     Notes: 
    - <Work>:
-      Time:
+      Time: 
       ActivityDesc:
       Duration:
       Focus:

@@ -6654,7 +6654,7 @@ Month of Nov:
            Hot Shower: yes
            ReadingBook:
            BedTime:
-    42242_20261125_Incomplete:
+    42242_20261125_Complete:
       Morning:
         - <SystemState>:
             Time: 08:00
@@ -6717,7 +6717,7 @@ Month of Nov:
             Inside Hanas Head: 
               - triggerred fight or flight by seeing Robis conition and mood. 
               - Thoughts of this is not working came back 
-              - New thoughts of go out side, walk came 
+              - New thoughts of go out side, walk, calmness effect after
               - walk and some exercise altered the mood 
             Inside Robis Head: 
               - Not the proper time to ask since he is not in a good mood still
@@ -6728,7 +6728,15 @@ Month of Nov:
           Intensity: easy
           Summary: 
           Notes: 
-        - 
+        - <Digestion>:
+          Time: 11:50
+          Bristol: 4
+          Bloating: 
+          AbdominalPain: 
+          Flatulence: 
+          Belching: 
+          Summary: 
+          Notes: 
       Afternoon:
         - <SystemState>:
            Time: 13:00
@@ -6747,19 +6755,19 @@ Month of Nov:
             Summary:
             Notes: 
         - <Work>:
-            Time: 
-            ActivityDesc:
+            Time: 13:45
+            ActivityDesc: healthlogs
             Duration:
-            Focus:
-            MindPower:
+            Focus: 0
+            MindPower: 2
             Summary:
-            Notes:
+            Notes: argument ( bad emotional empact). we talked about the food about the diversity of bacteria. Robert got triggered that we dont follow the plan. safe food which is pancake rice and fruits
         - <Food>:
-            Time:
-            MealDescription:
-            Quantity:
+            Time: 15:00
+            MealDescription: Rice, tomato soup with egg and 
+            Quantity: little
             Summary:
-            Notes:
+            Notes: less hungry
         - <Movement>:
             Time:
             Activity:
@@ -6769,39 +6777,39 @@ Month of Nov:
             Notes:
       Evening:
         - <SystemState>:
-            Time: 1331
-            ThinkingQuality: 
-            Motivation: 
-            PhysicalEnergy: 
+            Time: 18:00
+            ThinkingQuality: 1
+            Motivation: 1
+            PhysicalEnergy: 3
             BodyBattery: 
             Rumination: 
             Summary: 
             Notes: 
         - <Work>:
-            Time:
-            ActivityDesc:
-            Duration:
-            Focus:
-            MindPower:
+            Time: 18:00
+            ActivityDesc: Hungarian language
+            Duration: 30
+            Focus: 1
+            MindPower: 2
             Summary:
             Notes:
       End of day analysis:
         - <Hydration>:
-           WaterIntakeMl:
+           WaterIntakeMl: 2L
            ElectrolyteIntakeMl:
-           CaffeineIntakeMg:
-           UrineColor:
-           UrinationFrequency:
-           SweatLevel:
-           BloodPressure:
+           CaffeineIntakeMg: 0.3 L
+           UrineColor: transparent
+           UrinationFrequency: 5
+           SweatLevel: 0
+           BloodPressure: 90/60
            HydrationSymptoms:
            Notes:
         - <SleepHygiene>:
            Preparing Next Day Task:
-           Drugs:
-           Hot Shower:
-           ReadingBook:
-           BedTime:
+           Drugs: na
+           Hot Shower: yes
+           ReadingBook: yes
+           BedTime: 
 Tasks:
   - Refine system state and define enum 
   - Include hydration                                                                                               

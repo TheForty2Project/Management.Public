@@ -399,13 +399,16 @@ SR_20261117_Hana:
   AOIB:
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis: Update the task in management
 
-SR_NEXT_Hana:
+SR_20261125_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Finish the rest"<: [ 112m, "", 20261117 T 120632 ]
     - -->!SubProjects\HealthManagement\Tasks\..DailyHealthLogDataEntry.."Do health log"<: [ 0m, "", 20261125 T 125633 ]
-
+    - -->Tasks\Management\.."General management".."RePlSt".."Participate"<: [ 86m, "", 20261126 T 150118 ]
   Next:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add a default value to each property-value where the values are from an enum, detailing the options"<
+    - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<
+    - -->CurrentWork\Hana\Personal\..Finances..""Check and pay the current utility bills 20261110""<
+    - -->Tasks\Management\.."General management".."Task Administration"<: [15m, "Changing the Health tags to HealthDone for Done tasks"]
   AOIB:
     - Healthlog please:
       - Hydration

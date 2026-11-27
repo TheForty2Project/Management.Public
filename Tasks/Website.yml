@@ -1588,7 +1588,7 @@ Done .Back to original:
     NEXT .If the previous didn't work bug-free, do it manually:    
       +: {CreatedBy: Bobi, CreatedAt: 20251203 T 153135, By: Bobi, Tags: [Before1stPost, TL], Estimation: "120", RemTime: "120"}
   Done .Go through the DeepDive site and collect things to be upgraded:
-    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210020, By: Bobi, Tags: [Before1stPost, TLDone], Estimation: 30, RemTime: 0, Importance: 3-Average}
+    +: {CreatedBy: Bobi, CreatedAt: 20261107 T 210020, By: Bobi, Tags: [TLDone, Before1stPost], Estimation: 30, RemTime: 0, Importance: 3-Average}
     Result:
       -->Tasks\Website\..Improvements.."Add some space after the colon after the map keys"<:    
       -->Tasks\Website\..Improvements.."Fold/unfold buttons should be on the left hand side (like in VS Code)"<:
@@ -1762,7 +1762,7 @@ Done .Back to original:
             - type "f2filetohtml.exe" and press enter
             - check if no errors - if errors, try to fix them      
       Done .List the file that can be published in DeepDive:
-        +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [Before1stPost, TLDone], Estimation: , RemTime: , Importance: 3-Average}        
+        +: {CreatedBy: Bobi, CreatedAt: 20261005 T 213431, By: [Hana], Tags: [TLDone, Before1stPost], Estimation: , RemTime: , Importance: 3-Average}        
         Result:
           - SubProjects: 
             Health section:
@@ -1779,7 +1779,7 @@ Done .Back to original:
           - Under Documents Publishable articles | Note: it should be reviewed before publishing.. 
           - Website content  
       Done .Review it with Bobi:
-        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [Before1stPost, TLDone], Estimation: , RemTime: , Importance: 3-Average}
+        +: {CreatedBy: Hana, CreatedAt: 20261111 T 140455, By: [Hana, Bobi], Tags: [TLDone, Before1stPost], Estimation: , RemTime: , Importance: 3-Average}
       EstTODO .Add to app.js, test, deploy:
         Id: AddToAppJs
         +: {CreatedBy: Bobi, CreatedAt: 20261115 T 151552, By: [Bobi], Tags: [Before1stPost, TL], Estimation: 30, RemTime: 30, Importance: 4-High}

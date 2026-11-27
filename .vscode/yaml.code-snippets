@@ -12,6 +12,13 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+  "CurrentDate":{
+    "prefix": "currdate",
+    "description": "Outputs a current date",
+    "body": [
+      "$CURRENT_YEAR$CURRENT_MONTH$CURRENT_DATE T $CURRENT_HOUR$CURRENT_MINUTE"
+    ]
+  },  
   "SiteUpdate":{
     "prefix": "siteupdate",
     "description": "Outputs a SiteUpdateNotes",

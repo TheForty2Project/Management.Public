@@ -9,14 +9,14 @@ OnGoing .General management:
     Details:
       -->Tasks\Software\F2ToolsExtension\..Tasks.."Support for filepath-only F2Links".MaintenanceTasks.."Taskify and estimate"<
       A general task to book your time on "general Task maintenance" related stuff - creating, reorganizing, cleaning-up, etc.
-    InProgress .Fix links based on the converter report 20261110:
+    Done .Fix links based on the converter report 20261110:
       +: {CreatedBy: Bobi, CreatedAt: 20261110 T 141746, By: [Hana, Bobi]}
-      InProgress .Do first round and see how it works:
-        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125730, By: Bobi, Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
+      Done .Do first round and see how it works:
+        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125730, By: Bobi, Tags: [TLDone, Before1stPost], Estimation: 60, RemTime: 60, Importance: 5-VeryHigh}
         Details:
           Fix a bunch, collect tasks and see what strategy we should be using
-      InProgress .Finish the rest:
-        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125837, By: [Hana, Bobi], Tags: [Before1stPost, TL], Estimation: 60, RemTime: 60, Importance: 4-High}
+      Done .Finish the rest:
+        +: {CreatedBy: Bobi, CreatedAt: 20261112 T 125837, By: [Hana, Bobi], Tags: [TLDone, Before1stPost], Estimation: 60, RemTime: 60, Importance: 4-High}
         DependsOn: -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"<  
   OnGoing .RePlSt:
     +: {CreatedBy: Bobi, CreatedAt: 20260826 T 143337, By: Bobi}
@@ -95,14 +95,14 @@ OnGoing .General management:
         Details:
           Bobi to try it first with the Query engine of Rainbow csv    
     TODO .Create further reports:
-      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 210511, By: [Hana, Bobi], Tags: [CSVTODO], Estimation:, RemTime:}
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 210511, By: [Hana, Bobi], Tags: [TL], Estimation:, RemTime:}
       Details:
         Create charts in e.g. google spreadsheet (import the data and make it draw a chart):
         - daily spent hours
         - burndown
         - scope creep
-    OnGoing .Update reports periodically:
-      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 211231, By: [Hana, Bobi], Tags: [CSVTODO]}      
+    Cancelled .Update reports periodically:
+      +: {CreatedBy: Bobi, CreatedAt: 20260524 T 211231, By: [Hana, Bobi]}
   OnGoing .Retrospective related:
     Id: Retro
     +: {CreatedBy: Hana, CreatedAt: 20260401 T 131800, By: Hana}
@@ -120,8 +120,8 @@ OnGoing .General management:
           Include this Task as well in it
       Done .Create OCWSPhase2 task list reports:
         +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: "90", RemTime: "90"}    
-    OnGoing .Maintenance:
-      +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 90}      
+    Cancelled .Maintenance:
+      +: {CreatedBy: Bobi, CreatedAt: 20260330 T 112629, By: Hana, Estimation: 90, RemTime: 0}
       Details:
         Note: These tasks should disappear as soon as there are automatic queries. Right now these are created manually, into CSVs
         For CSV Syncs:
@@ -159,6 +159,7 @@ OnGoing .General management:
         +: {CreatedBy: Hana, CreatedAt: 20260428 T 120124, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
       Done .SyncAT20260505:
         +: {CreatedBy: Hana, CreatedAt: 20260505 T 101325, By: Hana, Tags: [CSVDONE], Estimation: 0m, RemTime: 0m}
+      CancelReason: there's automatic CSV report generation now
     OnGoing .Analysis of Tasks in CSV:
       +: {CreatedBy: Hana, CreatedAt: 20251205 T 212725, By: Hana}
       Details:

@@ -398,7 +398,6 @@ SR_20261117_Hana:
     - schedule
   AOIB:
     - -->MeetingMinutes\General\.."Preparing for general workflowAbalysis: Update the task in management
-
 SR_20261125_Hana:
   Was:
     - -->Tasks\Management\.."General management".."Task Administration".."Fix links based on the converter report 20261110".."Finish the rest"<: [ 112m, "", 20261117 T 120632 ]
@@ -408,11 +407,11 @@ SR_20261125_Hana:
     - -->!SubProjects\HealthManagement\Tasks\..GeneralHealthTasks.."Update the hos vs code snippets".."Add a default value to each property-value where the values are from an enum, detailing the options"<
     - -->Tasks\Website\..Improvements.."Create Updates section containing the commit-message-like updates".."Go through the files mirrored to the site and see what Items should be removed"<
     - -->CurrentWork\Hana\Personal\..Finances..""Check and pay the current utility bills 20261110""<
-    - -->Tasks\Management\.."General management".."Task Administration"<: [15m, "Changing the Health tags to HealthDone for Done tasks"]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 15m, "Changing the Health tags to HealthDone for Done tasks" ]
   AOIB:
     - Healthlog please:
-      - Hydration
-      - Nail condition 
+        - Hydration
+        - Nail condition
     - add the camera to our expenses
     - Buy Maca
     - Buy NAC
@@ -420,6 +419,12 @@ SR_20261125_Hana:
     - create an activity plan for this week
     - Incase I didnt go through the plan, keep it in mind that people who observe it can be infected ( Hana does not make it important = then no need to go through, goals and motivation are reduced)
     - 
+
 <EOF>:
   #Write above and do not delete this line please; without this, in VS Code editor if every Item is folded and you want to add something after the last one, you had to unfold the last one, navigate to the end of it, add a line and then go back and fold the (former) last one. (EOF = End of File)
 
+SR_NEXT_Hana:
+  Was:
+    - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<: [ 5m, " I dont think the payment went through, need to check again on Monday", 20261128 T 155146 ]
+  Next:
+    - -->CurrentWork\Hana\Personal\..Finances.."Check and pay the current utility bills 20261110"<

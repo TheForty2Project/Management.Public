@@ -917,11 +917,11 @@ InDev .QueryDescription based CSV report generation:
 InDev .Various F2Link related upgrades:
   Id: F2LinkUpgrades
   +: {CreatedBy: Bobi, CreatedAt: 20260519 T 013320, By: Bobi}
-  ReadyForDev .Replacing F2Links:
+  InDev .Replacing F2Links:
     Id: ReplaceLinks
     +: {CreatedBy: Bobi, CreatedAt: 20260519 T 012714, By: Bobi}
     Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<    
-    ReadyForDev .MarkF2LinksForReplace:
+    InDev .MarkF2LinksForReplace:
       Id: MarkF2LinksForReplace
       Tasks: -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks..MarkF2LinksForReplace<
       Details:
@@ -938,6 +938,7 @@ InDev .Various F2Link related upgrades:
             - to generate a new link for each link:
               - keep the part up until the 2 links (newly generated, old) match
               - the rest is the part from the generated (Id based)
+              - keep the part from the original inside the Item
           - keeping the escaping (csv/yaml)
         - replaces the old link with the new one            
     ReadyForDev .ReplaceMarkedToIdLink:

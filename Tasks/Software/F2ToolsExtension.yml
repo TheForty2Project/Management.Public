@@ -718,14 +718,31 @@ OnGoing .Item administration:
     EstTODO .Register commands:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000302, By: Bobi, Tags: [Dev, F2Tools], Estimation: 10, RemTime: 10}
       Details: 3 at the moment
-    EstTODO .Mark F2Links For Replace:
+    InProgress .Mark F2Links For Replace:
       Id: MarkF2LinksForReplace
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 000421, By: Bobi, Tags: [Dev, F2Tools], Estimation: 60, RemTime: 60}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..MarkF2LinksForReplace<
+      MaintenanceTasks:
+        Done .Create implementation plan:
+          +: {CreatedBy: Bobi, CreatedAt: 20261127 T 012043, By: Bobi}
+          Workspace:
+            - Find the Item by the cursor:
+              - use ItemManager for it - create a method in it which does that
+            - Go through all the files in the workspace and scan them for f2links:
+              - if the f2link points to the item (or inside of it) in question:
+                - save the f2link text
       Details:
         - finds all files,
         - parses them for f2links
-        - and checks whether any points to the Item by analyzing the link    
+        - and checks whether any points to the Item by analyzing the link - stores these links for replace
+      Done .Create FindItemAtCursor method in ItemManager:
+        +: {CreatedBy: Bobi, CreatedAt: 20261127 T 140624, By: Bobi}
+      InProgress .Go through all the files in the workspace and scan them for f2links:
+        +: {CreatedBy: Bobi, CreatedAt: 20261127 T 153202, By: Bobi}        
+        Details:
+          - Go through all the files in the workspace and scan them for f2links:
+            - if the f2link points to the item (or inside of it) in question:
+              - save the f2link text
     EstTODO .Replace Marked To Id Link:
       Id: ReplaceMarkedToIdLink
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002832, By: Bobi, Tags: [Dev, F2Tools], Estimation: 45, RemTime: 45}
@@ -738,7 +755,7 @@ OnGoing .Item administration:
       +: {CreatedBy: Bobi, CreatedAt: 20260522 T 002334, By: Bobi, Tags: [Dev, F2Tools], Estimation: 20, RemTime: 15}
       Requirement: -->Documents\Requirements\F2ToolsExtension\..F2LinkUpgrades..ReplaceLinks..ReplaceMarkedTo<
       Details:
-        On top of $@-->..ReplaceMarkedToIdLink<@$:
+        On top of $@-->..ReplaceMarkedToIdLink<@$: 
         - to generate a new link for each link:
           - keep the part up until the 2 links (newly generated, old) match
           - the rest is the part from the generated (Id based)                  

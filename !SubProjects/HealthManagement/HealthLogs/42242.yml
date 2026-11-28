@@ -6655,6 +6655,7 @@ Month of Nov:
            ReadingBook:
            BedTime:
     42242_20261125_Complete:
+    42242_20261125_Complete:
       Morning:
         - <SystemState>:
             Time: 08:00
@@ -6717,7 +6718,7 @@ Month of Nov:
             Inside Hanas Head: 
               - triggerred fight or flight by seeing Robis conition and mood. 
               - Thoughts of this is not working came back 
-              - New thoughts of go out side, walk came 
+              - New thoughts of go out side, walk, calmness effect after
               - walk and some exercise altered the mood 
             Inside Robis Head: 
               - Not the proper time to ask since he is not in a good mood still
@@ -6726,6 +6727,15 @@ Month of Nov:
           Activity: Walk
           Duration: 10 m
           Intensity: easy
+          Summary: 
+          Notes: 
+        - <Digestion>:
+          Time: 11:50
+          Bristol: 4
+          Bloating: 
+          AbdominalPain: 
+          Flatulence: 
+          Belching: 
           Summary: 
           Notes: 
       Afternoon:
@@ -6762,13 +6772,13 @@ Month of Nov:
             Summary: 
             Notes: Bad thoughts arises. Also no much movement
         - <Work>:
-            Time: 19:00
-            ActivityDesc: Health logs
+            Time: 
+            ActivityDesc:
             Duration:
-            Focus:
-            MindPower:
+            Focus: 0
+            MindPower: 2
             Summary:
-            Notes:
+            Notes: argument ( bad emotional empact). we talked about the food about the diversity of bacteria. Robert got triggered that we dont follow the plan. safe food which is pancake rice and fruits
       End of day analysis:
         - <Hydration>:
            WaterIntakeMl: 1.5 L
@@ -6816,43 +6826,11 @@ Month of Nov:
             Summary:
             Notes:
         - <Food>:
-            Time: 11:30
-            MealDescription: Oats, boiled egg, ricecake
-            Quantity: 3 spoon, 1, half
+            Time:
+            MealDescription:
+            Quantity:
             Summary:
-            Notes:
-        - <Movement>:
-            Time: 12:00
-            Activity: walk 
-            Duration: 1.5 h
-            Intensity: easy
-            Summary:
-            Notes: felt good walking in the cold ( maybe uncomfortable environment increase motivation?)
-      Afternoon:
-        - <SystemState>:
-           Time: 15:00
-           ThinkingQuality: 2 
-           Motivation: 2
-           PhysicalEnergy: 2 
-           BodyBattery: 
-           Rumination: 0
-           Summary: 
-           Notes: 
-        - <Work>:
-            Time: 15:00
-            ActivityDesc: REPLST
-            Duration: 1h20m
-            Focus: 2
-            MindPower: 2
-            Summary:
-            Notes:
-        - <Food>:
-            Time: 17:00
-            MealDescription: Egg, rice noodle, canned fish
-            Quantity: moderate
-            Summary:
-            Notes:
-              Evening:
+            Notes: less hungry
         - <Movement>:
             Time: 18:00
             Activity: Walk
@@ -6862,10 +6840,10 @@ Month of Nov:
             Notes:
       Evening:  
         - <SystemState>:
-            Time: 19:00
-            ThinkingQuality: 2
-            Motivation: 2
-            PhysicalEnergy: 
+            Time: 18:00
+            ThinkingQuality: 1
+            Motivation: 1
+            PhysicalEnergy: 3
             BodyBattery: 
             Rumination: 1
             Summary: 
@@ -6877,11 +6855,11 @@ Month of Nov:
           Summary: 
           Notes: conversing productive matter about the world helps
         - <Work>:
-            Time: 20:00
-            ActivityDesc: preparation of tasks and healthlog
-            Duration: 1h
-            Focus: 2
-            MindPower: 2
+            Time: 18:00 20:00
+            ActivityDesc: Hungarian language preparation of tasks and healthlog
+            Duration: 30 1h
+            Focus: 1 2
+            MindPower: 2 2
             Summary:
             Notes:
         - <Digestion>:
@@ -6895,21 +6873,21 @@ Month of Nov:
           Notes: after velo 4 dots, it was a bit wet
       End of day analysis:
         - <Hydration>:
-           WaterIntakeMl:
+           WaterIntakeMl: 2L
            ElectrolyteIntakeMl:
-           CaffeineIntakeMg:
-           UrineColor:
-           UrinationFrequency:
-           SweatLevel:
-           BloodPressure:
+           CaffeineIntakeMg: 0.3 L
+           UrineColor: transparent
+           UrinationFrequency: 5
+           SweatLevel: 0
+           BloodPressure: 90/60
            HydrationSymptoms:
            Notes:
         - <SleepHygiene>:
            Preparing Next Day Task:
-           Drugs:
-           Hot Shower:
-           ReadingBook:
-           BedTime:
+           Drugs: na
+           Hot Shower: yes
+           ReadingBook: yes
+           BedTime: 
 
 Tasks:
   - Refine system state and define enum 

@@ -581,6 +581,19 @@ SR_20261126_Bobi:
     - -->Tasks\Management\.."General management".."Task Administration"<
     - -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<
 
+SR_20261128_Bobi:
+  Was:
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Replacing F2Links".."Mark F2Links For Replace"<: [ 140m, "Low brain power due to gases", 20261127 T 001932 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Replacing F2Links".."Mark F2Links For Replace".."Go through all the files in the workspace and scan them for f2links"<: [ 30m, "Very low brain power - just suffering through", 20261127 T 153303 ]
+    - -->Tasks\Software\F2ToolsExtension\..Tasks.."Replacing F2Links".."Mark F2Links For Replace".."Go through all the files in the workspace and scan them for f2links"<: [ 16m, "Ok brain power; little gases", 20261127 T 153303 ]
+    - -->Tasks\Management\.."General management".."Task Administration"<: [ 15m, "", 20261127 ]
+    - -->Tasks\Management\.."General management".."RePlSt".."Prepare"<: [ 6m, "", 20261128 T 142343 ]
+  Next:
+    - -->Tasks\Website\..Improvements..UpdatesSection.."Go through the current files in the repository and update the f2filetohtmlconfig and app.js with any new ones to include"..AddToAppJs<
+    - -->Tasks\Software\F2ToolsExtension\..Tasks..ReplaceLinks<: [120m, "Hopefully finishing it IF my brain power is right"]
+    - -->CurrentWork\Bobi\TasksToBeSorted\..TasksToBeSorted20260702..TaskAdmin.."Have the (development) Tasks worked out (on which I'm planning to work on)".."Move the Tasks from the ToBeSorted to their correct place"<: []
+    - -->Tasks\Management\.."General management".."Task Administration"<    
+
 SR_NEXT_Bobi:
   Was:
   Next:

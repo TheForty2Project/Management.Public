@@ -240,7 +240,7 @@
     +: {CreatedBy: Hana, CreatedAt: 20261102 T 120726, By: [Hana, Anita, Bobi], Tags: [Health, TL], Estimation: , RemTime: , Importance: 3-Average}   
     Details: meeting was made. No meeting minutes recorded
   EstTODO .Month of Dec - 20261202T12:00-13:00:
-    +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: Hana, Tags: [Health, TL], Estimation:60 , RemTime:60, Importance: 3-Average}   
+    +: {CreatedBy: Hana, CreatedAt: 20261102 T 120751, By: [Hana, Bobi], Tags: [Health, TL], Estimation:60 , RemTime:60, Importance: 3-Average}   
 .GeneralHealthTasks:
   EstTODO .Fix the structure and create classes for ExerciseReport folder:
     +: {CreatedBy: Bobi, CreatedAt: 20261116 T 144814, By: [Hana, Bobi], Tags: [Health, TL], Estimation: 60, RemTime: 60, Importance: 3-Average}
